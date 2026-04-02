@@ -29,7 +29,7 @@ This repository turns a NetNewsWire OPML export into a daily GitHub Pages digest
 
 ## Optional repository variables
 
-- `GEMINI_MODEL`: defaults to `gemini-2.0-flash`
+- `GEMINI_MODEL`: defaults to `gemini-2.0-flash-lite`
 - `SITE_TITLE`: defaults to `Daily Feed TLDR`
 - `SUMMARY_LANGUAGE`: defaults to `English`
 - `MAX_ITEMS_PER_FEED`: defaults to `4`

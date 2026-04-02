@@ -19,7 +19,7 @@ import trafilatura
 
 USER_AGENT = "rss-ai-summary-bot/0.1"
 STATE_VERSION = 1
-DEFAULT_MODEL = "gemini-2.0-flash"
+DEFAULT_MODEL = "gemini-2.0-flash-lite"
 DEFAULT_SUMMARY_LANGUAGE = "English"
 
 
