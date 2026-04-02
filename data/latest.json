@@ -1,12 +1,1134 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": null,
-  "generated_at_human": null,
-  "model": null,
+  "generated_at": "2026-04-02T13:07:01+00:00",
+  "generated_at_human": "2026-04-02 13:07 UTC",
+  "model": "gemini-2.0-flash-lite",
   "summary_language": "English",
-  "total_feeds": 0,
-  "feeds_with_updates": 0,
-  "total_items": 0,
-  "feeds": [],
-  "errors": []
+  "total_feeds": 32,
+  "feeds_with_updates": 24,
+  "total_items": 95,
+  "feeds": [
+    {
+      "category": "Blogs",
+      "title": "furidamu",
+      "site_url": "https://www.julian.ac/",
+      "feed_url": "https://www.furidamu.org/feeds/all.rss.xml",
+      "item_count": 4,
+      "skipped_count": 16,
+      "tldr": "furidamu has 4 new item(s) in this run. Key items include \"AlphaProof Paper\", \"MAD Podcast\", and \"Python 3.14 - Threading Unbound\".",
+      "highlights": [
+        "AlphaProof Paper",
+        "MAD Podcast",
+        "Python 3.14 - Threading Unbound"
+      ],
+      "items": [
+        {
+          "title": "AlphaProof Paper",
+          "link": "https://www.julian.ac/blog/2025/11/13/alphaproof-paper/",
+          "published": "2025-11-13 16:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "MAD Podcast",
+          "link": "https://www.julian.ac/blog/2025/10/25/mad-podcast/",
+          "published": "2025-10-25 09:16 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Python 3.14 - Threading Unbound",
+          "link": "https://www.julian.ac/blog/2025/10/08/python-314--threading-unbound/",
+          "published": "2025-10-08 22:50 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Failing to Understand the Exponential, Again",
+          "link": "https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/",
+          "published": "2025-09-27 19:33 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Blogs",
+      "title": "karpathy",
+      "site_url": "https://karpathy.bearblog.dev/",
+      "feed_url": "https://karpathy.bearblog.dev/feed/",
+      "item_count": 4,
+      "skipped_count": 6,
+      "tldr": "karpathy has 4 new item(s) in this run. Key items include \"2025 LLM Year in Review\", \"Chemical hygiene\", and \"Auto-grading decade-old Hacker News discussions with hindsight\".",
+      "highlights": [
+        "2025 LLM Year in Review",
+        "Chemical hygiene",
+        "Auto-grading decade-old Hacker News discussions with hindsight"
+      ],
+      "items": [
+        {
+          "title": "2025 LLM Year in Review",
+          "link": "https://karpathy.bearblog.dev/year-in-review-2025/",
+          "published": "2025-12-19 18:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Chemical hygiene",
+          "link": "https://karpathy.bearblog.dev/chemical-hygiene/",
+          "published": "2025-12-18 18:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+          "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
+          "published": "2025-12-10 15:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The space of minds",
+          "link": "https://karpathy.bearblog.dev/the-space-of-minds/",
+          "published": "2025-11-29 18:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Blogs",
+      "title": "Lil'Log",
+      "site_url": "https://lilianweng.github.io/",
+      "feed_url": "https://lilianweng.github.io/index.xml",
+      "item_count": 4,
+      "skipped_count": 47,
+      "tldr": "Lil'Log has 4 new item(s) in this run. Key items include \"Why We Think\", \"Reward Hacking in Reinforcement Learning\", and \"Extrinsic Hallucinations in LLMs\".",
+      "highlights": [
+        "Why We Think",
+        "Reward Hacking in Reinforcement Learning",
+        "Extrinsic Hallucinations in LLMs"
+      ],
+      "items": [
+        {
+          "title": "Why We Think",
+          "link": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+          "published": "2025-05-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Reward Hacking in Reinforcement Learning",
+          "link": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+          "published": "2024-11-28 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Extrinsic Hallucinations in LLMs",
+          "link": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
+          "published": "2024-07-07 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Diffusion Models for Video Generation",
+          "link": "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/",
+          "published": "2024-04-12 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Blogs",
+      "title": "阮一峰的网络日志",
+      "site_url": "http://www.ruanyifeng.com/blog/",
+      "feed_url": "http://www.ruanyifeng.com/blog/atom.xml",
+      "item_count": 3,
+      "skipped_count": 0,
+      "tldr": "阮一峰的网络日志 has 3 new item(s) in this run. Key items include \"科技爱好者周刊（第 390 期）：没有语料，大模型就是智障\", \"套壳中国大模型撑起500亿美元估值？扒一扒 Cursor 的\"套壳\"疑云\", and \"科技爱好者周刊（第 389 期）：未来如何招聘程序员\".",
+      "highlights": [
+        "科技爱好者周刊（第 390 期）：没有语料，大模型就是智障",
+        "套壳中国大模型撑起500亿美元估值？扒一扒 Cursor 的\"套壳\"疑云",
+        "科技爱好者周刊（第 389 期）：未来如何招聘程序员"
+      ],
+      "items": [
+        {
+          "title": "科技爱好者周刊（第 390 期）：没有语料，大模型就是智障",
+          "link": "http://www.ruanyifeng.com/blog/2026/03/weekly-issue-390.html",
+          "published": "2026-03-26 21:49 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "套壳中国大模型撑起500亿美元估值？扒一扒 Cursor 的\"套壳\"疑云",
+          "link": "http://www.ruanyifeng.com/blog/2026/03/kimi-cursor.html",
+          "published": "2026-03-21 10:19 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "科技爱好者周刊（第 389 期）：未来如何招聘程序员",
+          "link": "http://www.ruanyifeng.com/blog/2026/03/weekly-issue-389.html",
+          "published": "2026-03-19 23:59 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Forum",
+      "title": "LINUX DO - 使用人工智能标记的话题",
+      "site_url": "https://linux.do/tag/444-tag/444",
+      "feed_url": "https://linux.do/tag/444-tag/444.rss",
+      "item_count": 4,
+      "skipped_count": 26,
+      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"有没有佬试过codex 5.4写小说质量怎么样\", \"昨天瞎点的grok会员竟然还在\", and \"这大概是antigravity ultra 个人号的五小时额度\".",
+      "highlights": [
+        "有没有佬试过codex 5.4写小说质量怎么样",
+        "昨天瞎点的grok会员竟然还在",
+        "这大概是antigravity ultra 个人号的五小时额度"
+      ],
+      "items": [
+        {
+          "title": "有没有佬试过codex 5.4写小说质量怎么样",
+          "link": "https://linux.do/t/topic/1885003",
+          "published": "2026-04-02 13:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "昨天瞎点的grok会员竟然还在",
+          "link": "https://linux.do/t/topic/1884981",
+          "published": "2026-04-02 12:57 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "这大概是antigravity ultra 个人号的五小时额度",
+          "link": "https://linux.do/t/topic/1884947",
+          "published": "2026-04-02 12:54 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "小白求问Vibe Coding做项目的正确步骤到底是什么",
+          "link": "https://linux.do/t/topic/1884806",
+          "published": "2026-04-02 12:38 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "News",
+      "title": "前沿快讯 - LINUX DO",
+      "site_url": "https://linux.do/c/news/34",
+      "feed_url": "https://linux.do/c/news/34.rss",
+      "item_count": 4,
+      "skipped_count": 21,
+      "tldr": "前沿快讯 - LINUX DO has 4 new item(s) in this run. Key items include \"苹果为所有 iPhone 用户发布罕见的 iOS 18 更新，修补 DarkSword 漏洞利用链\", \"突发新闻：Nekogram 暗中向开发者传送您的 Telegram 账户手机号码\", and \"建行万事网联借记卡相关信息\".",
+      "highlights": [
+        "苹果为所有 iPhone 用户发布罕见的 iOS 18 更新，修补 DarkSword 漏洞利用链",
+        "突发新闻：Nekogram 暗中向开发者传送您的 Telegram 账户手机号码",
+        "建行万事网联借记卡相关信息"
+      ],
+      "items": [
+        {
+          "title": "苹果为所有 iPhone 用户发布罕见的 iOS 18 更新，修补 DarkSword 漏洞利用链",
+          "link": "https://linux.do/t/topic/1885060",
+          "published": "2026-04-02 13:06 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "突发新闻：Nekogram 暗中向开发者传送您的 Telegram 账户手机号码",
+          "link": "https://linux.do/t/topic/1885004",
+          "published": "2026-04-02 13:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "建行万事网联借记卡相关信息",
+          "link": "https://linux.do/t/topic/1884161",
+          "published": "2026-04-02 11:04 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "谷歌开源大模型 Gemma 4 官宣在即：参数量翻 4 倍",
+          "link": "https://linux.do/t/topic/1884124",
+          "published": "2026-04-02 10:57 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "News",
+      "title": "王志安 - YouTube",
+      "site_url": "https://www.youtube.com/@wangzhian",
+      "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
+      "item_count": 4,
+      "skipped_count": 46,
+      "tldr": "王志安 - YouTube has 4 new item(s) in this run. Key items include \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", \"特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402\", and \"柯文哲庭审录像精华版｜新闻特写20260402\".",
+      "highlights": [
+        "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+        "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+        "柯文哲庭审录像精华版｜新闻特写20260402"
+      ],
+      "items": [
+        {
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 12:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 03:01 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 01:36 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-01 12:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "bioRxiv Subject Collection: Bioinformatics",
+      "site_url": "https://biorxiv.org/",
+      "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
+      "item_count": 4,
+      "skipped_count": 26,
+      "tldr": "bioRxiv Subject Collection: Bioinformatics has 4 new item(s) in this run. Key items include \"SSPSPredictor: A Sequence and Structure based Deep Learning Model for Predicting Phase-Separating Proteins\", \"ProteoPy: an AnnData-based framework for integrated proteomics analysis\", and \"emb2dis: a novel protein disorder prediction tool based on ResNets, dilated convolutions & protein language models\".",
+      "highlights": [
+        "SSPSPredictor: A Sequence and Structure based Deep Learning Model for Predicting Phase-Separating Proteins",
+        "ProteoPy: an AnnData-based framework for integrated proteomics analysis",
+        "emb2dis: a novel protein disorder prediction tool based on ResNets, dilated convolutions & protein language models"
+      ],
+      "items": [
+        {
+          "title": "SSPSPredictor: A Sequence and Structure based Deep Learning Model for Predicting Phase-Separating Proteins",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.30.715224v1?rss=1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "ProteoPy: an AnnData-based framework for integrated proteomics analysis",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715273v1?rss=1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "emb2dis: a novel protein disorder prediction tool based on ResNets, dilated convolutions & protein language models",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.30.715414v1?rss=1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "De novo design of a peptide ligand for specific affinity purification of human complement C1q",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.30.714096v1?rss=1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Cell",
+      "site_url": "https://www.cell.com/cell/archive?publicationCode=cell&rss=yes",
+      "feed_url": "https://www.cell.com/cell/inpress.rss",
+      "item_count": 4,
+      "skipped_count": 48,
+      "tldr": "Cell has 4 new item(s) in this run. Key items include \"Complete biosynthesis of nicotine\", \"Sulfur partitioning from cysteine controls T cell proliferation and effector function\", and \"A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer\".",
+      "highlights": [
+        "Complete biosynthesis of nicotine",
+        "Sulfur partitioning from cysteine controls T cell proliferation and effector function",
+        "A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer"
+      ],
+      "items": [
+        {
+          "title": "Complete biosynthesis of nicotine",
+          "link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00335-1?rss=yes",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Sulfur partitioning from cysteine controls T cell proliferation and effector function",
+          "link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00279-5?rss=yes",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer",
+          "link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00276-X?rss=yes",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Rational discovery of therapeutic PAK1 allosteric activators",
+          "link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00275-8?rss=yes",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Cell Host & Microbe",
+      "site_url": "https://www.cell.com/cell-host-microbe/archive?publicationCode=chom&rss=yes",
+      "feed_url": "https://www.cell.com/cell-host-microbe/inpress.rss",
+      "item_count": 4,
+      "skipped_count": 12,
+      "tldr": "Cell Host & Microbe has 4 new item(s) in this run. Key items include \"Bacteroides acidifaciens exacerbates cardiac ischemia/reperfusion injury via the microbial-host isozyme DPP4\", \"Soil microbial diversity associates with lower prevalence of human bacterial pathogens across global soils\", and \"The DanRI regulatory system in uropathogenic Escherichia coli subverts neutrophil responses\".",
+      "highlights": [
+        "Bacteroides acidifaciens exacerbates cardiac ischemia/reperfusion injury via the microbial-host isozyme DPP4",
+        "Soil microbial diversity associates with lower prevalence of human bacterial pathogens across global soils",
+        "The DanRI regulatory system in uropathogenic Escherichia coli subverts neutrophil responses"
+      ],
+      "items": [
+        {
+          "title": "Bacteroides acidifaciens exacerbates cardiac ischemia/reperfusion injury via the microbial-host isozyme DPP4",
+          "link": "https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00120-4?rss=yes",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Soil microbial diversity associates with lower prevalence of human bacterial pathogens across global soils",
+          "link": "https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00119-8?rss=yes",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The DanRI regulatory system in uropathogenic Escherichia coli subverts neutrophil responses",
+          "link": "https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00121-6?rss=yes",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Diversity-triggered 2-naphthoic acid exudation recruits keystone microbial taxa to promote soybean drought tolerance",
+          "link": "https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00089-2?rss=yes",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature",
+      "site_url": "http://feeds.nature.com/nature/rss/current",
+      "feed_url": "https://www.nature.com/nature.rss",
+      "item_count": 4,
+      "skipped_count": 71,
+      "tldr": "Nature has 4 new item(s) in this run. Key items include \"Regular physical activity in midlife cuts risk of early death\", \"The Moon belongs to all of us — not just countries that can afford to reach it\", and \"How procrastination can rob you of career fulfilment in science\".",
+      "highlights": [
+        "Regular physical activity in midlife cuts risk of early death",
+        "The Moon belongs to all of us — not just countries that can afford to reach it",
+        "How procrastination can rob you of career fulfilment in science"
+      ],
+      "items": [
+        {
+          "title": "Regular physical activity in midlife cuts risk of early death",
+          "link": "https://www.nature.com/articles/d41586-026-01000-1",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The Moon belongs to all of us — not just countries that can afford to reach it",
+          "link": "https://www.nature.com/articles/d41586-026-01051-4",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "How procrastination can rob you of career fulfilment in science",
+          "link": "https://www.nature.com/articles/d41586-026-00551-7",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Mix-and-match synthesis of 3D small molecules",
+          "link": "https://www.nature.com/articles/d41586-026-00809-0",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Biomedical Engineering",
+      "site_url": "http://feeds.nature.com/natbiomedeng/rss/current",
+      "feed_url": "https://www.nature.com/natbiomedeng.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Biomedical Engineering has 4 new item(s) in this run. Key items include \"Programmable kinetic barcoding for multiplexed RNA detection with Cas13a\", \"Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses\", and \"Building foundation models for cardiac MRI\".",
+      "highlights": [
+        "Programmable kinetic barcoding for multiplexed RNA detection with Cas13a",
+        "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses",
+        "Building foundation models for cardiac MRI"
+      ],
+      "items": [
+        {
+          "title": "Programmable kinetic barcoding for multiplexed RNA detection with Cas13a",
+          "link": "https://www.nature.com/articles/s41551-026-01642-6",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses",
+          "link": "https://www.nature.com/articles/s41551-026-01634-6",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Building foundation models for cardiac MRI",
+          "link": "https://www.nature.com/articles/s41551-026-01638-2",
+          "published": "2026-03-26 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Human microphysiological systems of aging recreate the in vivo process expediting evaluation of anti-geronic strategies",
+          "link": "https://www.nature.com/articles/s41551-026-01618-6",
+          "published": "2026-03-25 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Biotechnology",
+      "site_url": "http://feeds.nature.com/nbt/rss/current",
+      "feed_url": "https://www.nature.com/nbt.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Biotechnology has 4 new item(s) in this run. Key items include \"Scalable homology detection with ERAST\", \"Scalable single-cell total RNA sequencing unifies coding and noncoding transcriptomics\", and \"Mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging\".",
+      "highlights": [
+        "Scalable homology detection with ERAST",
+        "Scalable single-cell total RNA sequencing unifies coding and noncoding transcriptomics",
+        "Mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging"
+      ],
+      "items": [
+        {
+          "title": "Scalable homology detection with ERAST",
+          "link": "https://www.nature.com/articles/s41587-026-03051-1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Scalable single-cell total RNA sequencing unifies coding and noncoding transcriptomics",
+          "link": "https://www.nature.com/articles/s41587-026-03068-6",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging",
+          "link": "https://www.nature.com/articles/s41587-026-03083-7",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Massively parallel promoter mapping identifies edits to boost sorghum gene expression",
+          "link": "https://www.nature.com/articles/s41587-026-03060-0",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Communications",
+      "site_url": "http://feeds.nature.com/ncomms/rss/current",
+      "feed_url": "https://www.nature.com/ncomms.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Communications has 4 new item(s) in this run. Key items include \"Semi-transparent and eco-friendly face masks for PM 0.3 filtration via biomimetic-fractal nanofibers\", \"Linking multipoint folding and stability with functional regulation in the mitochondrial transmembrane β-barrel Sam50\", and \"Migrasome-transported PTGES amplifies the PGE2 cascade in SPP1 + macrophages to drive oral leukoplakia carcinogenesis\".",
+      "highlights": [
+        "Semi-transparent and eco-friendly face masks for PM 0.3 filtration via biomimetic-fractal nanofibers",
+        "Linking multipoint folding and stability with functional regulation in the mitochondrial transmembrane β-barrel Sam50",
+        "Migrasome-transported PTGES amplifies the PGE2 cascade in SPP1 + macrophages to drive oral leukoplakia carcinogenesis"
+      ],
+      "items": [
+        {
+          "title": "Semi-transparent and eco-friendly face masks for PM 0.3 filtration via biomimetic-fractal nanofibers",
+          "link": "https://www.nature.com/articles/s41467-026-71413-z",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Linking multipoint folding and stability with functional regulation in the mitochondrial transmembrane β-barrel Sam50",
+          "link": "https://www.nature.com/articles/s41467-026-70904-3",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Migrasome-transported PTGES amplifies the PGE2 cascade in SPP1 + macrophages to drive oral leukoplakia carcinogenesis",
+          "link": "https://www.nature.com/articles/s41467-026-70824-2",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Exonic enhancers are a widespread class of dual-function regulatory elements",
+          "link": "https://www.nature.com/articles/s41467-026-71220-6",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Computational Science",
+      "site_url": "http://feeds.nature.com/natcomputsci/rss/current",
+      "feed_url": "https://www.nature.com/natcomputsci.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Computational Science has 4 new item(s) in this run. Key items include \"Progress and prospects of density functional development\", \"To appeal or not to appeal\", and \"Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology\".",
+      "highlights": [
+        "Progress and prospects of density functional development",
+        "To appeal or not to appeal",
+        "Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology"
+      ],
+      "items": [
+        {
+          "title": "Progress and prospects of density functional development",
+          "link": "https://www.nature.com/articles/s43588-026-00969-z",
+          "published": "2026-03-27 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "To appeal or not to appeal",
+          "link": "https://www.nature.com/articles/s43588-026-00980-4",
+          "published": "2026-03-27 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology",
+          "link": "https://www.nature.com/articles/s43588-026-00972-4",
+          "published": "2026-03-27 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "HorusEye: a self-supervised foundation model for generalizable X-ray tomography restoration",
+          "link": "https://www.nature.com/articles/s43588-026-00973-3",
+          "published": "2026-03-27 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Genetics",
+      "site_url": "http://feeds.nature.com/ng/rss/current",
+      "feed_url": "https://www.nature.com/ng.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Genetics has 4 new item(s) in this run. Key items include \"Heterogeneity of leukocyte telomere length and its associations with phenotypes and genotypes\", \"The potential of wheat spatial omics\", and \"Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis\".",
+      "highlights": [
+        "Heterogeneity of leukocyte telomere length and its associations with phenotypes and genotypes",
+        "The potential of wheat spatial omics",
+        "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis"
+      ],
+      "items": [
+        {
+          "title": "Heterogeneity of leukocyte telomere length and its associations with phenotypes and genotypes",
+          "link": "https://www.nature.com/articles/s41588-026-02566-2",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The potential of wheat spatial omics",
+          "link": "https://www.nature.com/articles/s41588-026-02542-w",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis",
+          "link": "https://www.nature.com/articles/s41588-026-02535-9",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The inactive X chromosome as a female protector in autism and beyond",
+          "link": "https://www.nature.com/articles/s41588-026-02534-w",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Health",
+      "site_url": "http://feeds.nature.com/naturehealth/rss/current",
+      "feed_url": "https://www.nature.com/naturehealth.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Health has 4 new item(s) in this run. Key items include \"Mapping pesticide mixtures to cancer risk at the country scale with spatial exposomics\", \"A healthy population is a strategic advantage\", and \"Containment scenarios for post-spillover transmission chains of avian influenza H5N1 from poultry to humans\".",
+      "highlights": [
+        "Mapping pesticide mixtures to cancer risk at the country scale with spatial exposomics",
+        "A healthy population is a strategic advantage",
+        "Containment scenarios for post-spillover transmission chains of avian influenza H5N1 from poultry to humans"
+      ],
+      "items": [
+        {
+          "title": "Mapping pesticide mixtures to cancer risk at the country scale with spatial exposomics",
+          "link": "https://www.nature.com/articles/s44360-026-00087-0",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "A healthy population is a strategic advantage",
+          "link": "https://www.nature.com/articles/s44360-026-00110-4",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Containment scenarios for post-spillover transmission chains of avian influenza H5N1 from poultry to humans",
+          "link": "https://www.nature.com/articles/s44360-026-00095-0",
+          "published": "2026-03-27 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "PhysioNet as a global platform for biomedical research",
+          "link": "https://www.nature.com/articles/s44360-026-00096-z",
+          "published": "2026-03-26 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Machine Intelligence",
+      "site_url": "http://feeds.nature.com/natmachintell/rss/current",
+      "feed_url": "https://www.nature.com/natmachintell.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Machine Intelligence has 4 new item(s) in this run. Key items include \"Two-dimensional geometric template diffusion for boosting single-sequence protein structure prediction\", \"Predicting new research directions in materials science using large language models and concept graphs\", and \"Recognizing reproducibility and reusability in times of fast science\".",
+      "highlights": [
+        "Two-dimensional geometric template diffusion for boosting single-sequence protein structure prediction",
+        "Predicting new research directions in materials science using large language models and concept graphs",
+        "Recognizing reproducibility and reusability in times of fast science"
+      ],
+      "items": [
+        {
+          "title": "Two-dimensional geometric template diffusion for boosting single-sequence protein structure prediction",
+          "link": "https://www.nature.com/articles/s42256-026-01210-2",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Predicting new research directions in materials science using large language models and concept graphs",
+          "link": "https://www.nature.com/articles/s42256-026-01206-y",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Recognizing reproducibility and reusability in times of fast science",
+          "link": "https://www.nature.com/articles/s42256-026-01219-7",
+          "published": "2026-03-25 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Machine learning global atomic representations with Euclidean fast attention",
+          "link": "https://www.nature.com/articles/s42256-026-01195-y",
+          "published": "2026-03-25 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Medicine",
+      "site_url": "http://feeds.nature.com/nm/rss/current",
+      "feed_url": "https://www.nature.com/nm.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Medicine has 4 new item(s) in this run. Key items include \"Quality health information for all is a fundamental determinant of health\", \"Semaglutide on liver fibrosis and heart outcomes in patients at high risk of liver fibrosis: a prespecified analysis of the SELECT randomized trial\", and \"Hope for control of a centuries-old epidemic\".",
+      "highlights": [
+        "Quality health information for all is a fundamental determinant of health",
+        "Semaglutide on liver fibrosis and heart outcomes in patients at high risk of liver fibrosis: a prespecified analysis of the SELECT randomized trial",
+        "Hope for control of a centuries-old epidemic"
+      ],
+      "items": [
+        {
+          "title": "Quality health information for all is a fundamental determinant of health",
+          "link": "https://www.nature.com/articles/s41591-026-04320-x",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Semaglutide on liver fibrosis and heart outcomes in patients at high risk of liver fibrosis: a prespecified analysis of the SELECT randomized trial",
+          "link": "https://www.nature.com/articles/s41591-026-04281-1",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Hope for control of a centuries-old epidemic",
+          "link": "https://www.nature.com/articles/d41591-026-00019-1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Hope, hard lessons and the path to better nutrition",
+          "link": "https://www.nature.com/articles/s41591-026-04322-9",
+          "published": "2026-03-31 00:00 UTC",
+          "source_kind": "article"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Methods",
+      "site_url": "http://feeds.nature.com/nmeth/rss/current",
+      "feed_url": "https://www.nature.com/nmeth.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Methods has 4 new item(s) in this run. Key items include \"Synaptic connectomics by sequencing\", \"Assessing uncertainty of sequence representations generated by protein language models\", and \"An instrument named Cannoli\".",
+      "highlights": [
+        "Synaptic connectomics by sequencing",
+        "Assessing uncertainty of sequence representations generated by protein language models",
+        "An instrument named Cannoli"
+      ],
+      "items": [
+        {
+          "title": "Synaptic connectomics by sequencing",
+          "link": "https://www.nature.com/articles/s41592-026-03052-7",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Assessing uncertainty of sequence representations generated by protein language models",
+          "link": "https://www.nature.com/articles/s41592-026-03027-8",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "An instrument named Cannoli",
+          "link": "https://www.nature.com/articles/s41592-026-03059-0",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Quantifying uncertainty in protein representations across models and tasks",
+          "link": "https://www.nature.com/articles/s41592-026-03028-7",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Microbiology",
+      "site_url": "http://feeds.nature.com/nmicrobiol/rss/current",
+      "feed_url": "https://www.nature.com/nmicrobiol.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Microbiology has 4 new item(s) in this run. Key items include \"Retraction Note: MAVS is a sensor of fumarate during antiviral immunity\", \"Chikungunya virus persists in joint-associated macrophages and promotes chronic disease in mice\", and \"Conserved pathway for homarine catabolism in environmental bacteria\".",
+      "highlights": [
+        "Retraction Note: MAVS is a sensor of fumarate during antiviral immunity",
+        "Chikungunya virus persists in joint-associated macrophages and promotes chronic disease in mice",
+        "Conserved pathway for homarine catabolism in environmental bacteria"
+      ],
+      "items": [
+        {
+          "title": "Retraction Note: MAVS is a sensor of fumarate during antiviral immunity",
+          "link": "https://www.nature.com/articles/s41564-026-02340-4",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "Chikungunya virus persists in joint-associated macrophages and promotes chronic disease in mice",
+          "link": "https://www.nature.com/articles/s41564-026-02303-9",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Conserved pathway for homarine catabolism in environmental bacteria",
+          "link": "https://www.nature.com/articles/s41564-026-02313-7",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Specialized RNA decay fine-tunes monogenic antigen expression in Trypanosoma brucei",
+          "link": "https://www.nature.com/articles/s41564-026-02289-4",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Reviews Bioengineering",
+      "site_url": "http://feeds.nature.com/natrevbioeng/rss/current",
+      "feed_url": "https://www.nature.com/natrevbioeng.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Reviews Bioengineering has 4 new item(s) in this run. Key items include \"A gut–liver axis governs the fate of drug delivery vectors\", \"Expanding global access to mRNA vaccines\", and \"Bioresorbable microneedles track organ health\".",
+      "highlights": [
+        "A gut–liver axis governs the fate of drug delivery vectors",
+        "Expanding global access to mRNA vaccines",
+        "Bioresorbable microneedles track organ health"
+      ],
+      "items": [
+        {
+          "title": "A gut–liver axis governs the fate of drug delivery vectors",
+          "link": "https://www.nature.com/articles/s44222-026-00436-4",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Expanding global access to mRNA vaccines",
+          "link": "https://www.nature.com/articles/s44222-026-00424-8",
+          "published": "2026-03-26 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Bioresorbable microneedles track organ health",
+          "link": "https://www.nature.com/articles/s44222-026-00432-8",
+          "published": "2026-03-25 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The importance of particle shape in drug delivery",
+          "link": "https://www.nature.com/articles/s44222-026-00429-3",
+          "published": "2026-03-17 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Reviews Genetics",
+      "site_url": "http://feeds.nature.com/nrg/rss/current",
+      "feed_url": "https://www.nature.com/nrg.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Reviews Genetics has 4 new item(s) in this run. Key items include \"DNA assembly with Sidewinder via 3-way junctions\", \"Unlocking the potential of pedigree genomics via precision governance\", and \"How classical genetics uncovered key determinants of TE silencing\".",
+      "highlights": [
+        "DNA assembly with Sidewinder via 3-way junctions",
+        "Unlocking the potential of pedigree genomics via precision governance",
+        "How classical genetics uncovered key determinants of TE silencing"
+      ],
+      "items": [
+        {
+          "title": "DNA assembly with Sidewinder via 3-way junctions",
+          "link": "https://www.nature.com/articles/s41576-026-00955-1",
+          "published": "2026-04-01 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Unlocking the potential of pedigree genomics via precision governance",
+          "link": "https://www.nature.com/articles/s41576-026-00954-2",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "How classical genetics uncovered key determinants of TE silencing",
+          "link": "https://www.nature.com/articles/s41576-026-00951-5",
+          "published": "2026-03-25 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Genetic influences on haematopoiesis",
+          "link": "https://www.nature.com/articles/s41576-026-00947-1",
+          "published": "2026-03-23 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Reviews Microbiology",
+      "site_url": "http://feeds.nature.com/nrmicro/rss/current",
+      "feed_url": "https://www.nature.com/nrmicro.rss",
+      "item_count": 4,
+      "skipped_count": 4,
+      "tldr": "Nature Reviews Microbiology has 4 new item(s) in this run. Key items include \"Leveraging microbial phylogeny for computational efficiency\", \"Candida albicans steals magnesium and Pseudomonas aeruginosa unleashes resistance\", and \"Microbial phosphorus cycling in terrestrial ecosystems\".",
+      "highlights": [
+        "Leveraging microbial phylogeny for computational efficiency",
+        "Candida albicans steals magnesium and Pseudomonas aeruginosa unleashes resistance",
+        "Microbial phosphorus cycling in terrestrial ecosystems"
+      ],
+      "items": [
+        {
+          "title": "Leveraging microbial phylogeny for computational efficiency",
+          "link": "https://www.nature.com/articles/s41579-026-01303-0",
+          "published": "2026-03-30 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Candida albicans steals magnesium and Pseudomonas aeruginosa unleashes resistance",
+          "link": "https://www.nature.com/articles/s41579-026-01304-z",
+          "published": "2026-03-26 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Microbial phosphorus cycling in terrestrial ecosystems",
+          "link": "https://www.nature.com/articles/s41579-026-01296-w",
+          "published": "2026-03-24 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "A trapped polymerase hastens avian influenza virus evolution",
+          "link": "https://www.nature.com/articles/s41579-026-01302-1",
+          "published": "2026-03-20 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "feed": "furidamu",
+      "category": "Blogs",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "karpathy",
+      "category": "Blogs",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Lil'Log",
+      "category": "Blogs",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "阮一峰的网络日志",
+      "category": "Blogs",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "LINUX DO - AI",
+      "category": "Forum",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "gcorso's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "Guangxuan-Xiao's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "HannesStark's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "karpathy's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "luost26's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "OdinZhang's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "wenhao-gao's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "WillHua127's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "LINUX DO - News",
+      "category": "News",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "王志安 - YouTube",
+      "category": "News",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "bioRxiv Subject Collection: Bioinformatics",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Cell",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Cell Host & Microbe",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Biomedical Engineering",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Biotechnology",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Communications",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Computational Science",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Genetics",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Health",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Machine Intelligence",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Medicine",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Methods",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Microbiology",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Reviews Bioengineering",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Reviews Genetics",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "feed": "Nature Reviews Microbiology",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    }
+  ],
+  "categories": [
+    "Blogs",
+    "Forum",
+    "News",
+    "Papers"
+  ]
 }
