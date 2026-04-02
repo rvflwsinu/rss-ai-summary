@@ -6,6 +6,7 @@ import json
 import os
 import re
 import textwrap
+import time
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -21,6 +22,8 @@ USER_AGENT = "rss-ai-summary-bot/0.1"
 STATE_VERSION = 1
 DEFAULT_MODEL = "gemini-2.0-flash-lite"
 DEFAULT_SUMMARY_LANGUAGE = "English"
+GEMINI_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+GEMINI_MAX_ATTEMPTS = 4
 
 
 @dataclass
@@ -467,25 +470,43 @@ def call_gemini_json(*, api_key: str, model: str, prompt: str) -> dict[str, Any]
             "responseMimeType": "application/json",
         },
     }
-    response = httpx.post(
-        url,
-        params={"key": api_key},
-        json=payload,
-        headers={"User-Agent": USER_AGENT},
-        timeout=60.0,
-    )
-    response.raise_for_status()
-    data = response.json()
-    candidates = data.get("candidates") or []
-    if not candidates:
-        raise ValueError("Gemini returned no candidates.")
-    parts = candidates[0].get("content", {}).get("parts", [])
-    if not parts:
-        raise ValueError("Gemini returned no content parts.")
-    text = parts[0].get("text", "")
-    if not text:
-        raise ValueError("Gemini returned an empty response body.")
-    return json.loads(strip_code_fences(text))
+    for attempt in range(1, GEMINI_MAX_ATTEMPTS + 1):
+        try:
+            response = httpx.post(
+                url,
+                params={"key": api_key},
+                json=payload,
+                headers={"User-Agent": USER_AGENT},
+                timeout=60.0,
+            )
+            response.raise_for_status()
+        except httpx.HTTPStatusError as exc:
+            status_code = exc.response.status_code
+            if (
+                status_code not in GEMINI_RETRYABLE_STATUS_CODES
+                or attempt == GEMINI_MAX_ATTEMPTS
+            ):
+                raise
+        except httpx.HTTPError:
+            if attempt == GEMINI_MAX_ATTEMPTS:
+                raise
+        else:
+            data = response.json()
+            candidates = data.get("candidates") or []
+            if not candidates:
+                raise ValueError("Gemini returned no candidates.")
+            parts = candidates[0].get("content", {}).get("parts", [])
+            if not parts:
+                raise ValueError("Gemini returned no content parts.")
+            text = parts[0].get("text", "")
+            if not text:
+                raise ValueError("Gemini returned an empty response body.")
+            return json.loads(strip_code_fences(text))
+
+        # Back off on rate limits and transient upstream errors.
+        time.sleep(min(20, 5 * attempt))
+
+    raise RuntimeError("Gemini request retries exhausted unexpectedly.")
 
 
 def strip_code_fences(text: str) -> str:
