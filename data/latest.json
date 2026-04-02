@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-02T13:15:14+00:00",
-  "generated_at_human": "2026-04-02 13:15 UTC",
+  "generated_at": "2026-04-02T13:26:00+00:00",
+  "generated_at_human": "2026-04-02 13:26 UTC",
   "model": "gemini-2.0-flash-lite",
   "summary_language": "English",
   "total_feeds": 32,
-  "feeds_with_updates": 12,
-  "total_items": 33,
+  "feeds_with_updates": 2,
+  "total_items": 6,
   "feeds": [
     {
       "category": "Forum",
@@ -14,375 +14,62 @@
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
       "item_count": 4,
-      "skipped_count": 16,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"求教newapi里面怎么设置gpt推理强度？\", \"Codex 频繁出现 Stream disconnected超时问题的三种解决思路\", and \"多款AI视频玩法案例合集，轻松玩转AI短视频\".",
+      "skipped_count": 10,
+      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"【福利】今天有点时间，来给大家强开 Team\", \"关于codex报错的疑问\", and \"codex重置额度的规则是什么\".",
       "highlights": [
-        "求教newapi里面怎么设置gpt推理强度？",
-        "Codex 频繁出现 Stream disconnected超时问题的三种解决思路",
-        "多款AI视频玩法案例合集，轻松玩转AI短视频"
+        "【福利】今天有点时间，来给大家强开 Team",
+        "关于codex报错的疑问",
+        "codex重置额度的规则是什么"
       ],
       "items": [
         {
-          "title": "求教newapi里面怎么设置gpt推理强度？",
-          "link": "https://linux.do/t/topic/1885134",
-          "published": "2026-04-02 13:14 UTC",
+          "title": "【福利】今天有点时间，来给大家强开 Team",
+          "link": "https://linux.do/t/topic/1885213",
+          "published": "2026-04-02 13:22 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "Codex 频繁出现 Stream disconnected超时问题的三种解决思路",
-          "link": "https://linux.do/t/topic/1885132",
-          "published": "2026-04-02 13:14 UTC",
+          "title": "关于codex报错的疑问",
+          "link": "https://linux.do/t/topic/1885207",
+          "published": "2026-04-02 13:21 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "多款AI视频玩法案例合集，轻松玩转AI短视频",
-          "link": "https://linux.do/t/topic/1885126",
-          "published": "2026-04-02 13:13 UTC",
+          "title": "codex重置额度的规则是什么",
+          "link": "https://linux.do/t/topic/1885204",
+          "published": "2026-04-02 13:21 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "请问claude code中如何调整自定义api的上下文长度",
-          "link": "https://linux.do/t/topic/1885107",
-          "published": "2026-04-02 13:11 UTC",
-          "source_kind": "feed"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "gcorso's GitHub activities",
-      "site_url": "https://github.com/gcorso",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/gcorso",
-      "item_count": 1,
-      "skipped_count": 0,
-      "tldr": "gcorso's GitHub activities has 1 new item(s) in this run. Key items include \"gcorso created a branch\".",
-      "highlights": [
-        "gcorso created a branch"
-      ],
-      "items": [
-        {
-          "title": "gcorso created a branch",
-          "link": "https://github.com/jwohlwend/boltz/compare/0000000000...cb04aeccdd",
-          "published": "2026-03-14 21:50 UTC",
-          "source_kind": "feed"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "Guangxuan-Xiao's GitHub activities",
-      "site_url": "https://github.com/Guangxuan-Xiao",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/Guangxuan-Xiao",
-      "item_count": 1,
-      "skipped_count": 0,
-      "tldr": "Guangxuan-Xiao's GitHub activities has 1 new item(s) in this run. Key items include \"Guangxuan-Xiao starred MoonshotAI/Attention-Residuals\".",
-      "highlights": [
-        "Guangxuan-Xiao starred MoonshotAI/Attention-Residuals"
-      ],
-      "items": [
-        {
-          "title": "Guangxuan-Xiao starred MoonshotAI/Attention-Residuals",
-          "link": "https://github.com/MoonshotAI/Attention-Residuals",
-          "published": "2026-03-16 18:38 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "HannesStark's GitHub activities",
-      "site_url": "https://github.com/HannesStark",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/HannesStark",
-      "item_count": 4,
-      "skipped_count": 24,
-      "tldr": "HannesStark's GitHub activities has 4 new item(s) in this run. Key items include \"HannesStark pushed hannes-stark\", \"HannesStark pushed hannes-stark\", and \"HannesStark pushed hannes-stark\".",
-      "highlights": [
-        "HannesStark pushed hannes-stark",
-        "HannesStark pushed hannes-stark",
-        "HannesStark pushed hannes-stark"
-      ],
-      "items": [
-        {
-          "title": "HannesStark pushed hannes-stark",
-          "link": "https://github.com/HannesStark/hannes-stark/compare/2de3c16b11...ff5295c2c2",
-          "published": "2026-03-25 04:53 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "HannesStark pushed hannes-stark",
-          "link": "https://github.com/HannesStark/hannes-stark/compare/fc8486dac8...64ece075a3",
-          "published": "2026-03-25 04:35 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "HannesStark pushed hannes-stark",
-          "link": "https://github.com/HannesStark/hannes-stark/compare/687a4c2366...fc8486dac8",
-          "published": "2026-03-25 04:29 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "HannesStark pushed hannes-stark",
-          "link": "https://github.com/HannesStark/hannes-stark/compare/92b36d0d04...687a4c2366",
-          "published": "2026-03-25 04:26 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "karpathy's GitHub activities",
-      "site_url": "https://github.com/karpathy",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/karpathy",
-      "item_count": 4,
-      "skipped_count": 22,
-      "tldr": "karpathy's GitHub activities has 4 new item(s) in this run. Key items include \"karpathy pushed nanochat\", \"karpathy pushed autoresearch\", and \"karpathy closed an issue in autoresearch\".",
-      "highlights": [
-        "karpathy pushed nanochat",
-        "karpathy pushed autoresearch",
-        "karpathy closed an issue in autoresearch"
-      ],
-      "items": [
-        {
-          "title": "karpathy pushed nanochat",
-          "link": "https://github.com/karpathy/nanochat/compare/7808dc7159...a445144d39",
-          "published": "2026-03-26 03:41 UTC",
-          "source_kind": "feed"
-        },
-        {
-          "title": "karpathy pushed autoresearch",
-          "link": "https://github.com/karpathy/autoresearch/compare/e6d79c1234...228791fb49",
-          "published": "2026-03-26 00:07 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "karpathy closed an issue in autoresearch",
-          "link": "https://github.com/karpathy/autoresearch/issues/262",
-          "published": "2026-03-26 00:07 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "karpathy commented on an issue in cli",
-          "link": "https://github.com/googleworkspace/cli/issues/197#issuecomment-4130221633",
-          "published": "2026-03-25 22:23 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "luost26's GitHub activities",
-      "site_url": "https://github.com/luost26",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/luost26",
-      "item_count": 4,
-      "skipped_count": 26,
-      "tldr": "luost26's GitHub activities has 4 new item(s) in this run. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
-      "highlights": [
-        "luost26 pushed prexsyn",
-        "luost26 pushed prexsyn",
-        "luost26 pushed prexsyn"
-      ],
-      "items": [
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/c186b9b424...8f43673fa4",
-          "published": "2026-04-01 21:37 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/c565ad23c8...c186b9b424",
-          "published": "2026-04-01 21:34 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/51fe3d7d77...c565ad23c8",
-          "published": "2026-04-01 21:32 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/e1898d2eba...51fe3d7d77",
-          "published": "2026-04-01 21:06 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "OdinZhang's GitHub activities",
-      "site_url": "https://github.com/OdinZhang",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/OdinZhang",
-      "item_count": 4,
-      "skipped_count": 7,
-      "tldr": "OdinZhang's GitHub activities has 4 new item(s) in this run. Key items include \"OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction\", \"OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction\", and \"OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction\".",
-      "highlights": [
-        "OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction",
-        "OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction",
-        "OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction"
-      ],
-      "items": [
-        {
-          "title": "OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction",
-          "link": "https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/21d1558b43...7860b94030",
-          "published": "2026-03-28 11:46 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction",
-          "link": "https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/56f4df6418...21d1558b43",
-          "published": "2026-03-28 09:04 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction",
-          "link": "https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/ffd3398c9a...56f4df6418",
-          "published": "2026-03-28 08:58 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "OdinZhang created a branch",
-          "link": "https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/0000000000...ffd3398c9a",
-          "published": "2026-03-28 08:57 UTC",
-          "source_kind": "feed"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "wenhao-gao's GitHub activities",
-      "site_url": "https://github.com/wenhao-gao",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/wenhao-gao",
-      "item_count": 4,
-      "skipped_count": 12,
-      "tldr": "wenhao-gao's GitHub activities has 4 new item(s) in this run. Key items include \"wenhao-gao starred bytedance/deer-flow\", \"wenhao-gao starred rasbt/reasoning-from-scratch\", and \"wenhao-gao starred openai/symphony\".",
-      "highlights": [
-        "wenhao-gao starred bytedance/deer-flow",
-        "wenhao-gao starred rasbt/reasoning-from-scratch",
-        "wenhao-gao starred openai/symphony"
-      ],
-      "items": [
-        {
-          "title": "wenhao-gao starred bytedance/deer-flow",
-          "link": "https://github.com/bytedance/deer-flow",
-          "published": "2026-03-26 22:35 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "wenhao-gao starred rasbt/reasoning-from-scratch",
-          "link": "https://github.com/rasbt/reasoning-from-scratch",
-          "published": "2026-03-24 16:09 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "wenhao-gao starred openai/symphony",
-          "link": "https://github.com/openai/symphony",
-          "published": "2026-03-22 18:05 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "wenhao-gao starred mosaicml/streaming",
-          "link": "https://github.com/mosaicml/streaming",
-          "published": "2026-03-18 23:00 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "WillHua127's GitHub activities",
-      "site_url": "https://github.com/WillHua127",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/WillHua127",
-      "item_count": 4,
-      "skipped_count": 0,
-      "tldr": "WillHua127's GitHub activities has 4 new item(s) in this run. Key items include \"WillHua127 starred karpathy/autoresearch\", \"WillHua127 starred MoonshotAI/Attention-Residuals\", and \"WillHua127 starred NVIDIA-Digital-Bio/Proteina-Complexa\".",
-      "highlights": [
-        "WillHua127 starred karpathy/autoresearch",
-        "WillHua127 starred MoonshotAI/Attention-Residuals",
-        "WillHua127 starred NVIDIA-Digital-Bio/Proteina-Complexa"
-      ],
-      "items": [
-        {
-          "title": "WillHua127 starred karpathy/autoresearch",
-          "link": "https://github.com/karpathy/autoresearch",
-          "published": "2026-03-27 02:02 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "WillHua127 starred MoonshotAI/Attention-Residuals",
-          "link": "https://github.com/MoonshotAI/Attention-Residuals",
-          "published": "2026-03-18 06:20 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "WillHua127 starred NVIDIA-Digital-Bio/Proteina-Complexa",
-          "link": "https://github.com/NVIDIA-Digital-Bio/Proteina-Complexa",
-          "published": "2026-03-16 08:36 UTC",
-          "source_kind": "article"
-        },
-        {
-          "title": "WillHua127 starred haddocking/Finetune-Ab",
-          "link": "https://github.com/haddocking/Finetune-Ab",
-          "published": "2026-03-03 07:06 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "News",
-      "title": "前沿快讯 - LINUX DO",
-      "site_url": "https://linux.do/c/news/34",
-      "feed_url": "https://linux.do/c/news/34.rss",
-      "item_count": 1,
-      "skipped_count": 0,
-      "tldr": "前沿快讯 - LINUX DO has 1 new item(s) in this run. Key items include \"chrome 零日漏洞 CVE-2026-5281 现已推送修复 (CVSS 3.1 8.8分)\".",
-      "highlights": [
-        "chrome 零日漏洞 CVE-2026-5281 现已推送修复 (CVSS 3.1 8.8分)"
-      ],
-      "items": [
-        {
-          "title": "chrome 零日漏洞 CVE-2026-5281 现已推送修复 (CVSS 3.1 8.8分)",
-          "link": "https://linux.do/t/topic/1885125",
-          "published": "2026-04-02 13:13 UTC",
+          "title": "18刀opus4.6",
+          "link": "https://linux.do/t/topic/1885176",
+          "published": "2026-04-02 13:18 UTC",
           "source_kind": "feed"
         }
       ]
     },
     {
       "category": "Papers",
-      "title": "Nature Methods",
-      "site_url": "http://feeds.nature.com/nmeth/rss/current",
-      "feed_url": "https://www.nature.com/nmeth.rss",
-      "item_count": 1,
+      "title": "Nature Communications",
+      "site_url": "http://feeds.nature.com/ncomms/rss/current",
+      "feed_url": "https://www.nature.com/ncomms.rss",
+      "item_count": 2,
       "skipped_count": 0,
-      "tldr": "Nature Methods has 1 new item(s) in this run. Key items include \"CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species\".",
+      "tldr": "Nature Communications has 2 new item(s) in this run. Key items include \"Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice\" and \"Bacterial collagenase harnesses collagen geometry for processive cleavage\".",
       "highlights": [
-        "CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species"
+        "Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice",
+        "Bacterial collagenase harnesses collagen geometry for processive cleavage"
       ],
       "items": [
         {
-          "title": "CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species",
-          "link": "https://www.nature.com/articles/s41592-026-03057-2",
+          "title": "Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice",
+          "link": "https://www.nature.com/articles/s41467-026-71198-1",
           "published": "2026-04-02 00:00 UTC",
-          "source_kind": "article"
-        }
-      ]
-    },
-    {
-      "category": "Papers",
-      "title": "Nature Reviews Microbiology",
-      "site_url": "http://feeds.nature.com/nrmicro/rss/current",
-      "feed_url": "https://www.nature.com/nrmicro.rss",
-      "item_count": 1,
-      "skipped_count": 0,
-      "tldr": "Nature Reviews Microbiology has 1 new item(s) in this run. Key items include \"The aquatic plastisphere: ecology, pathogen dissemination and antimicrobial resistance\".",
-      "highlights": [
-        "The aquatic plastisphere: ecology, pathogen dissemination and antimicrobial resistance"
-      ],
-      "items": [
+          "source_kind": "feed"
+        },
         {
-          "title": "The aquatic plastisphere: ecology, pathogen dissemination and antimicrobial resistance",
-          "link": "https://www.nature.com/articles/s41579-026-01301-2",
+          "title": "Bacterial collagenase harnesses collagen geometry for processive cleavage",
+          "link": "https://www.nature.com/articles/s41467-026-71099-3",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed"
         }
@@ -393,68 +80,16 @@
     {
       "feed": "LINUX DO - AI",
       "category": "Forum",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     },
     {
-      "feed": "gcorso's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "Guangxuan-Xiao's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "HannesStark's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "karpathy's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "luost26's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "OdinZhang's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "wenhao-gao's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "WillHua127's GitHub activities",
-      "category": "Github",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "LINUX DO - News",
-      "category": "News",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "Nature Methods",
+      "feed": "Nature Communications",
       "category": "Papers",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "feed": "Nature Reviews Microbiology",
-      "category": "Papers",
-      "message": "Gemini summary failed, used fallback: Client error '429 Too Many Requests' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     }
   ],
   "categories": [
     "Forum",
-    "Github",
-    "News",
     "Papers"
   ]
 }

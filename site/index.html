@@ -1,310 +1,148 @@
 <!DOCTYPE html>
-        <html lang="en">
-          <head>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Daily Feed TLDR</title>
-            <style>
-              :root {
-                color-scheme: light dark;
-                --bg: #0b1020;
-                --panel: rgba(20, 28, 52, 0.88);
-                --panel-soft: rgba(255, 255, 255, 0.06);
-                --text: #edf2ff;
-                --muted: #a7b2d1;
-                --accent: #7dd3fc;
-                --accent-2: #c084fc;
-                --border: rgba(255, 255, 255, 0.08);
-              }
-              * { box-sizing: border-box; }
-              body {
-                margin: 0;
-                font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-                background:
-                  radial-gradient(circle at top left, rgba(125, 211, 252, 0.18), transparent 28%),
-                  radial-gradient(circle at top right, rgba(192, 132, 252, 0.14), transparent 22%),
-                  var(--bg);
-                color: var(--text);
-              }
-              a { color: inherit; }
-              .shell { max-width: 1200px; margin: 0 auto; padding: 32px 20px 64px; }
-              .hero { margin-bottom: 28px; }
-              .hero h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; }
-              .hero p { margin: 0; color: var(--muted); max-width: 720px; }
-              .stats {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-                gap: 12px;
-                margin: 24px 0 32px;
-              }
-              .stat-card, .feed-card, .errors, .empty-state {
-                background: var(--panel);
-                border: 1px solid var(--border);
-                border-radius: 18px;
-                backdrop-filter: blur(16px);
-                box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
-              }
-              .stat-card { padding: 16px 18px; }
-              .stat-label { margin: 0 0 8px; color: var(--muted); font-size: 0.92rem; }
-              .stat-value { margin: 0; font-size: 1.6rem; font-weight: 700; }
-              .category-block { margin-top: 30px; }
-              .category-block h2 { margin: 0 0 14px; font-size: 1.1rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); }
-              .feed-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
-              .feed-card { padding: 18px; }
-              .feed-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-              .feed-head h3 { margin: 0 0 6px; font-size: 1.15rem; }
-              .meta, .meta-note { margin: 0; color: var(--muted); font-size: 0.9rem; }
-              .rss-link {
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                padding: 8px 10px;
-                border-radius: 999px;
-                background: var(--panel-soft);
-                text-decoration: none;
-                font-size: 0.88rem;
-              }
-              .tldr { margin: 16px 0 14px; line-height: 1.6; }
-              .highlights, .items, .errors ul { margin: 0; padding-left: 20px; }
-              .highlights li, .items li, .errors li { margin: 0 0 10px; color: var(--muted); }
-              .items a { color: var(--text); text-decoration: none; }
-              .items a:hover, .feed-head a:hover { color: var(--accent); }
-              .item-meta { display: block; color: var(--muted); font-size: 0.82rem; margin-top: 4px; }
-              .errors, .empty-state { margin-top: 28px; padding: 18px; }
-              @media (max-width: 720px) {
-                .shell { padding: 20px 14px 48px; }
-                .feed-head { flex-direction: column; }
-              }
-            </style>
-          </head>
-          <body>
-            <main class="shell">
-              <section class="hero">
-                <h1>Daily Feed TLDR</h1>
-                <p>Daily AI TLDRs generated from your NetNewsWire OPML export and published with GitHub Actions.</p>
-              </section>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Feed TLDR</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0b1020;
+        --panel: rgba(20, 28, 52, 0.88);
+        --panel-soft: rgba(255, 255, 255, 0.06);
+        --text: #edf2ff;
+        --muted: #a7b2d1;
+        --accent: #7dd3fc;
+        --accent-2: #c084fc;
+        --border: rgba(255, 255, 255, 0.08);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(125, 211, 252, 0.18), transparent 28%),
+          radial-gradient(circle at top right, rgba(192, 132, 252, 0.14), transparent 22%),
+          var(--bg);
+        color: var(--text);
+      }
+      a { color: inherit; }
+      .shell { max-width: 1200px; margin: 0 auto; padding: 32px 20px 64px; }
+      .hero { margin-bottom: 28px; }
+      .hero h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; }
+      .hero p { margin: 0; color: var(--muted); max-width: 720px; }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
+        margin: 24px 0 32px;
+      }
+      .stat-card, .feed-card, .errors, .empty-state {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        backdrop-filter: blur(16px);
+        box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+      }
+      .stat-card { padding: 16px 18px; }
+      .stat-label { margin: 0 0 8px; color: var(--muted); font-size: 0.92rem; }
+      .stat-value { margin: 0; font-size: 1.6rem; font-weight: 700; }
+      .category-block { margin-top: 30px; }
+      .category-block h2 { margin: 0 0 14px; font-size: 1.1rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); }
+      .feed-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+      .feed-card { padding: 18px; }
+      .feed-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+      .feed-head h3 { margin: 0 0 6px; font-size: 1.15rem; }
+      .meta, .meta-note { margin: 0; color: var(--muted); font-size: 0.9rem; }
+      .rss-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 10px;
+        border-radius: 999px;
+        background: var(--panel-soft);
+        text-decoration: none;
+        font-size: 0.88rem;
+      }
+      .tldr { margin: 16px 0 14px; line-height: 1.6; }
+      .highlights, .items, .errors ul { margin: 0; padding-left: 20px; }
+      .highlights li, .items li, .errors li { margin: 0 0 10px; color: var(--muted); }
+      .items a { color: var(--text); text-decoration: none; }
+      .items a:hover, .feed-head a:hover { color: var(--accent); }
+      .item-meta { display: block; color: var(--muted); font-size: 0.82rem; margin-top: 4px; }
+      .errors, .empty-state { margin-top: 28px; padding: 18px; }
+      @media (max-width: 720px) {
+        .shell { padding: 20px 14px 48px; }
+        .feed-head { flex-direction: column; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <h1>Daily Feed TLDR</h1>
+        <p>Daily AI TLDRs generated from your NetNewsWire OPML export and published with GitHub Actions.</p>
+      </section>
 
-              <section class="stats">
-                <article class="stat-card">
-                  <p class="stat-label">Updated</p>
-                  <p class="stat-value">2026-04-02 13:15 UTC</p>
-                </article>
-                <article class="stat-card">
-                  <p class="stat-label">Feeds With Updates</p>
-                  <p class="stat-value">12</p>
-                </article>
-                <article class="stat-card">
-                  <p class="stat-label">Items Summarized</p>
-                  <p class="stat-value">33</p>
-                </article>
-                <article class="stat-card">
-                  <p class="stat-label">Model</p>
-                  <p class="stat-value">gemini-2.0-flash-lite</p>
-                </article>
-              </section>
+      <section class="stats">
+        <article class="stat-card">
+          <p class="stat-label">Updated</p>
+          <p class="stat-value">2026-04-02 13:26 UTC</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Feeds With Updates</p>
+          <p class="stat-value">2</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Items Summarized</p>
+          <p class="stat-value">6</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Model</p>
+          <p class="stat-value">gemini-2.0-flash-lite</p>
+        </article>
+      </section>
 
 
-                <section class="category-block">
-                  <h2>Forum</h2>
-                  <div class="feed-grid">
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://linux.do/tag/444-tag/444">LINUX DO - 使用人工智能标记的话题</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://linux.do/tag/444-tag/444.rss">RSS</a>
-                      </div>
-                      <p class="tldr">LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include &quot;求教newapi里面怎么设置gpt推理强度？&quot;, &quot;Codex 频繁出现 Stream disconnected超时问题的三种解决思路&quot;, and &quot;多款AI视频玩法案例合集，轻松玩转AI短视频&quot;.</p>
-                      <ul class="highlights"><li>求教newapi里面怎么设置gpt推理强度？</li><li>Codex 频繁出现 Stream disconnected超时问题的三种解决思路</li><li>多款AI视频玩法案例合集，轻松玩转AI短视频</li></ul>
-                      <p class="meta-note">16 more new item(s) were skipped by the per-feed cap.</p>
-                      <ul class="items"><li><a href="https://linux.do/t/topic/1885134">求教newapi里面怎么设置gpt推理强度？</a><span class="item-meta">2026-04-02 13:14 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885132">Codex 频繁出现 Stream disconnected超时问题的三种解决思路</a><span class="item-meta">2026-04-02 13:14 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885126">多款AI视频玩法案例合集，轻松玩转AI短视频</a><span class="item-meta">2026-04-02 13:13 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885107">请问claude code中如何调整自定义api的上下文长度</a><span class="item-meta">2026-04-02 13:11 UTC | feed</span></li></ul>
-                    </article>
-                    </div>
-                </section>
+        <section class="category-block">
+          <h2>Forum</h2>
+          <div class="feed-grid">
+            <article class="feed-card">
+              <div class="feed-head">
+                <div>
+                  <h3><a href="https://linux.do/tag/444-tag/444">LINUX DO - 使用人工智能标记的话题</a></h3>
+                  <p class="meta">4 new item(s)</p>
+                </div>
+                <a class="rss-link" href="https://linux.do/tag/444-tag/444.rss">RSS</a>
+              </div>
+              <p class="tldr">LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include &quot;【福利】今天有点时间，来给大家强开 Team&quot;, &quot;关于codex报错的疑问&quot;, and &quot;codex重置额度的规则是什么&quot;.</p>
+              <ul class="highlights"><li>【福利】今天有点时间，来给大家强开 Team</li><li>关于codex报错的疑问</li><li>codex重置额度的规则是什么</li></ul>
+              <p class="meta-note">10 more new item(s) were skipped by the per-feed cap.</p>
+              <ul class="items"><li><a href="https://linux.do/t/topic/1885213">【福利】今天有点时间，来给大家强开 Team</a><span class="item-meta">2026-04-02 13:22 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885207">关于codex报错的疑问</a><span class="item-meta">2026-04-02 13:21 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885204">codex重置额度的规则是什么</a><span class="item-meta">2026-04-02 13:21 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885176">18刀opus4.6</a><span class="item-meta">2026-04-02 13:18 UTC | feed</span></li></ul>
+            </article>
+            </div>
+        </section>
 
-                <section class="category-block">
-                  <h2>Github</h2>
-                  <div class="feed-grid">
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/gcorso">gcorso&#x27;s GitHub activities</a></h3>
-                          <p class="meta">1 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/gcorso">RSS</a>
-                      </div>
-                      <p class="tldr">gcorso&#x27;s GitHub activities has 1 new item(s) in this run. Key items include &quot;gcorso created a branch&quot;.</p>
-                      <ul class="highlights"><li>gcorso created a branch</li></ul>
+        <section class="category-block">
+          <h2>Papers</h2>
+          <div class="feed-grid">
+            <article class="feed-card">
+              <div class="feed-head">
+                <div>
+                  <h3><a href="http://feeds.nature.com/ncomms/rss/current">Nature Communications</a></h3>
+                  <p class="meta">2 new item(s)</p>
+                </div>
+                <a class="rss-link" href="https://www.nature.com/ncomms.rss">RSS</a>
+              </div>
+              <p class="tldr">Nature Communications has 2 new item(s) in this run. Key items include &quot;Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice&quot; and &quot;Bacterial collagenase harnesses collagen geometry for processive cleavage&quot;.</p>
+              <ul class="highlights"><li>Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice</li><li>Bacterial collagenase harnesses collagen geometry for processive cleavage</li></ul>
 
-                      <ul class="items"><li><a href="https://github.com/jwohlwend/boltz/compare/0000000000...cb04aeccdd">gcorso created a branch</a><span class="item-meta">2026-03-14 21:50 UTC | feed</span></li></ul>
-                    </article>
+              <ul class="items"><li><a href="https://www.nature.com/articles/s41467-026-71198-1">Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li><li><a href="https://www.nature.com/articles/s41467-026-71099-3">Bacterial collagenase harnesses collagen geometry for processive cleavage</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li></ul>
+            </article>
+            </div>
+        </section>
 
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/Guangxuan-Xiao">Guangxuan-Xiao&#x27;s GitHub activities</a></h3>
-                          <p class="meta">1 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/Guangxuan-Xiao">RSS</a>
-                      </div>
-                      <p class="tldr">Guangxuan-Xiao&#x27;s GitHub activities has 1 new item(s) in this run. Key items include &quot;Guangxuan-Xiao starred MoonshotAI/Attention-Residuals&quot;.</p>
-                      <ul class="highlights"><li>Guangxuan-Xiao starred MoonshotAI/Attention-Residuals</li></ul>
-
-                      <ul class="items"><li><a href="https://github.com/MoonshotAI/Attention-Residuals">Guangxuan-Xiao starred MoonshotAI/Attention-Residuals</a><span class="item-meta">2026-03-16 18:38 UTC | article</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/HannesStark">HannesStark&#x27;s GitHub activities</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/HannesStark">RSS</a>
-                      </div>
-                      <p class="tldr">HannesStark&#x27;s GitHub activities has 4 new item(s) in this run. Key items include &quot;HannesStark pushed hannes-stark&quot;, &quot;HannesStark pushed hannes-stark&quot;, and &quot;HannesStark pushed hannes-stark&quot;.</p>
-                      <ul class="highlights"><li>HannesStark pushed hannes-stark</li><li>HannesStark pushed hannes-stark</li><li>HannesStark pushed hannes-stark</li></ul>
-                      <p class="meta-note">24 more new item(s) were skipped by the per-feed cap.</p>
-                      <ul class="items"><li><a href="https://github.com/HannesStark/hannes-stark/compare/2de3c16b11...ff5295c2c2">HannesStark pushed hannes-stark</a><span class="item-meta">2026-03-25 04:53 UTC | article</span></li><li><a href="https://github.com/HannesStark/hannes-stark/compare/fc8486dac8...64ece075a3">HannesStark pushed hannes-stark</a><span class="item-meta">2026-03-25 04:35 UTC | article</span></li><li><a href="https://github.com/HannesStark/hannes-stark/compare/687a4c2366...fc8486dac8">HannesStark pushed hannes-stark</a><span class="item-meta">2026-03-25 04:29 UTC | article</span></li><li><a href="https://github.com/HannesStark/hannes-stark/compare/92b36d0d04...687a4c2366">HannesStark pushed hannes-stark</a><span class="item-meta">2026-03-25 04:26 UTC | article</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/karpathy">karpathy&#x27;s GitHub activities</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/karpathy">RSS</a>
-                      </div>
-                      <p class="tldr">karpathy&#x27;s GitHub activities has 4 new item(s) in this run. Key items include &quot;karpathy pushed nanochat&quot;, &quot;karpathy pushed autoresearch&quot;, and &quot;karpathy closed an issue in autoresearch&quot;.</p>
-                      <ul class="highlights"><li>karpathy pushed nanochat</li><li>karpathy pushed autoresearch</li><li>karpathy closed an issue in autoresearch</li></ul>
-                      <p class="meta-note">22 more new item(s) were skipped by the per-feed cap.</p>
-                      <ul class="items"><li><a href="https://github.com/karpathy/nanochat/compare/7808dc7159...a445144d39">karpathy pushed nanochat</a><span class="item-meta">2026-03-26 03:41 UTC | feed</span></li><li><a href="https://github.com/karpathy/autoresearch/compare/e6d79c1234...228791fb49">karpathy pushed autoresearch</a><span class="item-meta">2026-03-26 00:07 UTC | article</span></li><li><a href="https://github.com/karpathy/autoresearch/issues/262">karpathy closed an issue in autoresearch</a><span class="item-meta">2026-03-26 00:07 UTC | article</span></li><li><a href="https://github.com/googleworkspace/cli/issues/197#issuecomment-4130221633">karpathy commented on an issue in cli</a><span class="item-meta">2026-03-25 22:23 UTC | article</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/luost26">luost26&#x27;s GitHub activities</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/luost26">RSS</a>
-                      </div>
-                      <p class="tldr">luost26&#x27;s GitHub activities has 4 new item(s) in this run. Key items include &quot;luost26 pushed prexsyn&quot;, &quot;luost26 pushed prexsyn&quot;, and &quot;luost26 pushed prexsyn&quot;.</p>
-                      <ul class="highlights"><li>luost26 pushed prexsyn</li><li>luost26 pushed prexsyn</li><li>luost26 pushed prexsyn</li></ul>
-                      <p class="meta-note">26 more new item(s) were skipped by the per-feed cap.</p>
-                      <ul class="items"><li><a href="https://github.com/luost26/prexsyn/compare/c186b9b424...8f43673fa4">luost26 pushed prexsyn</a><span class="item-meta">2026-04-01 21:37 UTC | article</span></li><li><a href="https://github.com/luost26/prexsyn/compare/c565ad23c8...c186b9b424">luost26 pushed prexsyn</a><span class="item-meta">2026-04-01 21:34 UTC | article</span></li><li><a href="https://github.com/luost26/prexsyn/compare/51fe3d7d77...c565ad23c8">luost26 pushed prexsyn</a><span class="item-meta">2026-04-01 21:32 UTC | article</span></li><li><a href="https://github.com/luost26/prexsyn/compare/e1898d2eba...51fe3d7d77">luost26 pushed prexsyn</a><span class="item-meta">2026-04-01 21:06 UTC | article</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/OdinZhang">OdinZhang&#x27;s GitHub activities</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/OdinZhang">RSS</a>
-                      </div>
-                      <p class="tldr">OdinZhang&#x27;s GitHub activities has 4 new item(s) in this run. Key items include &quot;OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction&quot;, &quot;OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction&quot;, and &quot;OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction&quot;.</p>
-                      <ul class="highlights"><li>OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction</li><li>OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction</li><li>OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction</li></ul>
-                      <p class="meta-note">7 more new item(s) were skipped by the per-feed cap.</p>
-                      <ul class="items"><li><a href="https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/21d1558b43...7860b94030">OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction</a><span class="item-meta">2026-03-28 11:46 UTC | article</span></li><li><a href="https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/56f4df6418...21d1558b43">OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction</a><span class="item-meta">2026-03-28 09:04 UTC | article</span></li><li><a href="https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/ffd3398c9a...56f4df6418">OdinZhang pushed Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction</a><span class="item-meta">2026-03-28 08:58 UTC | article</span></li><li><a href="https://github.com/OdinZhang/Leveraging-Quantum-Neural-Networks-for-Molecular-Property-Prediction/compare/0000000000...ffd3398c9a">OdinZhang created a branch</a><span class="item-meta">2026-03-28 08:57 UTC | feed</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/wenhao-gao">wenhao-gao&#x27;s GitHub activities</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/wenhao-gao">RSS</a>
-                      </div>
-                      <p class="tldr">wenhao-gao&#x27;s GitHub activities has 4 new item(s) in this run. Key items include &quot;wenhao-gao starred bytedance/deer-flow&quot;, &quot;wenhao-gao starred rasbt/reasoning-from-scratch&quot;, and &quot;wenhao-gao starred openai/symphony&quot;.</p>
-                      <ul class="highlights"><li>wenhao-gao starred bytedance/deer-flow</li><li>wenhao-gao starred rasbt/reasoning-from-scratch</li><li>wenhao-gao starred openai/symphony</li></ul>
-                      <p class="meta-note">12 more new item(s) were skipped by the per-feed cap.</p>
-                      <ul class="items"><li><a href="https://github.com/bytedance/deer-flow">wenhao-gao starred bytedance/deer-flow</a><span class="item-meta">2026-03-26 22:35 UTC | article</span></li><li><a href="https://github.com/rasbt/reasoning-from-scratch">wenhao-gao starred rasbt/reasoning-from-scratch</a><span class="item-meta">2026-03-24 16:09 UTC | article</span></li><li><a href="https://github.com/openai/symphony">wenhao-gao starred openai/symphony</a><span class="item-meta">2026-03-22 18:05 UTC | article</span></li><li><a href="https://github.com/mosaicml/streaming">wenhao-gao starred mosaicml/streaming</a><span class="item-meta">2026-03-18 23:00 UTC | article</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://github.com/WillHua127">WillHua127&#x27;s GitHub activities</a></h3>
-                          <p class="meta">4 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://rsshub.rssforever.com/github/activity/WillHua127">RSS</a>
-                      </div>
-                      <p class="tldr">WillHua127&#x27;s GitHub activities has 4 new item(s) in this run. Key items include &quot;WillHua127 starred karpathy/autoresearch&quot;, &quot;WillHua127 starred MoonshotAI/Attention-Residuals&quot;, and &quot;WillHua127 starred NVIDIA-Digital-Bio/Proteina-Complexa&quot;.</p>
-                      <ul class="highlights"><li>WillHua127 starred karpathy/autoresearch</li><li>WillHua127 starred MoonshotAI/Attention-Residuals</li><li>WillHua127 starred NVIDIA-Digital-Bio/Proteina-Complexa</li></ul>
-
-                      <ul class="items"><li><a href="https://github.com/karpathy/autoresearch">WillHua127 starred karpathy/autoresearch</a><span class="item-meta">2026-03-27 02:02 UTC | article</span></li><li><a href="https://github.com/MoonshotAI/Attention-Residuals">WillHua127 starred MoonshotAI/Attention-Residuals</a><span class="item-meta">2026-03-18 06:20 UTC | article</span></li><li><a href="https://github.com/NVIDIA-Digital-Bio/Proteina-Complexa">WillHua127 starred NVIDIA-Digital-Bio/Proteina-Complexa</a><span class="item-meta">2026-03-16 08:36 UTC | article</span></li><li><a href="https://github.com/haddocking/Finetune-Ab">WillHua127 starred haddocking/Finetune-Ab</a><span class="item-meta">2026-03-03 07:06 UTC | article</span></li></ul>
-                    </article>
-                    </div>
-                </section>
-
-                <section class="category-block">
-                  <h2>News</h2>
-                  <div class="feed-grid">
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="https://linux.do/c/news/34">前沿快讯 - LINUX DO</a></h3>
-                          <p class="meta">1 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://linux.do/c/news/34.rss">RSS</a>
-                      </div>
-                      <p class="tldr">前沿快讯 - LINUX DO has 1 new item(s) in this run. Key items include &quot;chrome 零日漏洞 CVE-2026-5281 现已推送修复 (CVSS 3.1 8.8分)&quot;.</p>
-                      <ul class="highlights"><li>chrome 零日漏洞 CVE-2026-5281 现已推送修复 (CVSS 3.1 8.8分)</li></ul>
-
-                      <ul class="items"><li><a href="https://linux.do/t/topic/1885125">chrome 零日漏洞 CVE-2026-5281 现已推送修复 (CVSS 3.1 8.8分)</a><span class="item-meta">2026-04-02 13:13 UTC | feed</span></li></ul>
-                    </article>
-                    </div>
-                </section>
-
-                <section class="category-block">
-                  <h2>Papers</h2>
-                  <div class="feed-grid">
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="http://feeds.nature.com/nmeth/rss/current">Nature Methods</a></h3>
-                          <p class="meta">1 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://www.nature.com/nmeth.rss">RSS</a>
-                      </div>
-                      <p class="tldr">Nature Methods has 1 new item(s) in this run. Key items include &quot;CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species&quot;.</p>
-                      <ul class="highlights"><li>CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species</li></ul>
-
-                      <ul class="items"><li><a href="https://www.nature.com/articles/s41592-026-03057-2">CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species</a><span class="item-meta">2026-04-02 00:00 UTC | article</span></li></ul>
-                    </article>
-
-                    <article class="feed-card">
-                      <div class="feed-head">
-                        <div>
-                          <h3><a href="http://feeds.nature.com/nrmicro/rss/current">Nature Reviews Microbiology</a></h3>
-                          <p class="meta">1 new item(s)</p>
-                        </div>
-                        <a class="rss-link" href="https://www.nature.com/nrmicro.rss">RSS</a>
-                      </div>
-                      <p class="tldr">Nature Reviews Microbiology has 1 new item(s) in this run. Key items include &quot;The aquatic plastisphere: ecology, pathogen dissemination and antimicrobial resistance&quot;.</p>
-                      <ul class="highlights"><li>The aquatic plastisphere: ecology, pathogen dissemination and antimicrobial resistance</li></ul>
-
-                      <ul class="items"><li><a href="https://www.nature.com/articles/s41579-026-01301-2">The aquatic plastisphere: ecology, pathogen dissemination and antimicrobial resistance</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li></ul>
-                    </article>
-                    </div>
-                </section>
-
-              <section class="errors"><h2>Feed Errors</h2><ul><li><strong>LINUX DO - AI</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>gcorso&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>Guangxuan-Xiao&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>HannesStark&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>karpathy&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>luost26&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>OdinZhang&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>wenhao-gao&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>WillHua127&#x27;s GitHub activities</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>LINUX DO - News</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>Nature Methods</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li><li><strong>Nature Reviews Microbiology</strong>: Gemini summary failed, used fallback: Client error &#x27;429 Too Many Requests&#x27; for url &#x27;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=AIzaSyA_3VWD_viIpwIexeLP1AsrfCg0j-R1B-M&#x27;
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li></ul></section>
-            </main>
-          </body>
-        </html>
+      <section class="errors"><h2>Feed Errors</h2><ul><li><strong>LINUX DO - AI</strong>: Gemini summary failed, used fallback: HTTP 429 Too Many Requests</li><li><strong>Nature Communications</strong>: Gemini summary failed, used fallback: HTTP 429 Too Many Requests</li></ul></section>
+    </main>
+  </body>
+</html>

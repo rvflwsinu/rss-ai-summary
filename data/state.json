@@ -24,7 +24,7 @@
         "18698373498696f9f75479b2b0b970bf22aa70b95ecc5204f6773c8e4bc939c1",
         "ece7d794c1725162dc1a9bce1cfff55cd1017dbc38f8bafdcf9320c13670a19e"
       ],
-      "last_checked_at": "2026-04-02T13:15:15+00:00",
+      "last_checked_at": "2026-04-02T13:26:00+00:00",
       "feed_title": "furidamu"
     },
     "https://karpathy.bearblog.dev/feed/": {
@@ -40,7 +40,7 @@
         "b5eefa012d6628992bc24d1507b8fe5db614b0fe41435a3dae0c4c46781dadf1",
         "318094fc16d213d2bdce4cfcabe341111c594a9fecbe585a62ed2b3f1cd2a5ad"
       ],
-      "last_checked_at": "2026-04-02T13:15:15+00:00",
+      "last_checked_at": "2026-04-02T13:26:00+00:00",
       "feed_title": "karpathy"
     },
     "https://lilianweng.github.io/index.xml": {
@@ -97,7 +97,7 @@
         "68921d2222b0e3f1cfe4eb07f2f63a0a14e70ae71cada5efe31986e494969f6e",
         "4236f3e954dabf5bd7af893cc6812a8c13ae05e15cef0a22cef342d47b1c3daa"
       ],
-      "last_checked_at": "2026-04-02T13:15:15+00:00",
+      "last_checked_at": "2026-04-02T13:26:00+00:00",
       "feed_title": "Lil'Log"
     },
     "http://www.ruanyifeng.com/blog/atom.xml": {
@@ -106,11 +106,25 @@
         "63517c1387b3905aea468f6d623fc17d8a951aa6d16470bd4bb93fd99f356779",
         "2a49b479935bde52e4b120b2efcd5853a96687100e3f3d5c6633710078193873"
       ],
-      "last_checked_at": "2026-04-02T13:15:15+00:00",
+      "last_checked_at": "2026-04-02T13:26:00+00:00",
       "feed_title": "阮一峰的网络日志"
     },
     "https://linux.do/tag/444-tag/444.rss": {
       "seen_ids": [
+        "10e097022dc7d1fe478822dc01a9e5b9777a58f140f4a8ab07c07643e8d6fa77",
+        "2b9c7a7667a015f3a11ae4d18285fc8724431344ecaeb96e755e30c4ac3cdc7e",
+        "4b67bc21a20b7d402e3a3d68a25f4393d9608e136581e8cd6251bbcde402591f",
+        "a1148017f15e17292fab7fe2f21ae1019bd6e6f418d3730db30786a86d5fd778",
+        "886f330e501a0127a4450775db603cab65b4026f73402d898c7cb19e913975b8",
+        "589698bdb90ddd1e122ee46008bc1ca3b0bcd93ddb097014bd7077f1e61ce233",
+        "66c585c21fc1be3dc402ff19e9c79b76973e8811d69b83bd9f2369641c95fe10",
+        "ba8f428f8abe9208331561ababe452824d826d8f43d5acecd942fb6d483d330b",
+        "a723656fa3831501849dad42f4c4070729f843b3d5edb9e6222818514da54359",
+        "1db37371876771ab6b2d7f93dd20113962aecd95ac9d0320eb458282196b60ed",
+        "20df77358d8fecaf9c9d42eb9e7ef548cf0775812f0a20f06c0f670252bf940f",
+        "f6fc1587af38baf5126e1413471fc60974b5d13a9349184f55937b7e62ba3ff0",
+        "3e0cc7b809d1df7eef4ee9a818e34b3a4a1a5dc559425654c5e0b80072aff039",
+        "4211b0aa5942c12427a1777b218f85bff67122fdd4024a8233e731b787ed2bb2",
         "031b3c848169a43e12967d27f898912b5f59fe1b8d1cf84061472d1765e1380d",
         "e06dcf850990a578da47a41cf4ac2aaa3a6205d1a8abf029ba4315ad0ec30d08",
         "7c93f6baa02823e1b6925d41d6fff32ebc44590104c5aa085f85765c83f063e5",
@@ -162,7 +176,7 @@
         "cbcf014734d3520b8dfb7281a7d49609874738fd3ea4eee9ab149184d2946971",
         "f254e4522361be6ebe95ac1c1802a3f176557d587f8e9c6eb73fea6f8e2954f5"
       ],
-      "last_checked_at": "2026-04-02T13:15:16+00:00",
+      "last_checked_at": "2026-04-02T13:26:01+00:00",
       "feed_title": "LINUX DO - 使用人工智能标记的话题"
     },
     "https://linux.do/c/news/34.rss": {
@@ -194,7 +208,7 @@
         "d261675446b7899e88550522a5327ffc3204652f2d0f15c919327d39dc4e68f9",
         "edd2c7441eb7cc4882b2777572f78bd3c66b525b9017e9942186a0e30d89a76e"
       ],
-      "last_checked_at": "2026-04-02T13:20:29+00:00",
+      "last_checked_at": "2026-04-02T13:26:44+00:00",
       "feed_title": "前沿快讯 - LINUX DO"
     },
     "https://rsshub.rssforever.com/youtube/user/@wangzhian": {
@@ -250,7 +264,7 @@
         "7ef6d776209d69623a5abee732283608e6e235c0b4ecd31d812c2a77bdca0445",
         "5a4f7f42e114d4cdafc792af1dd813c0a21a36aedcd246efc27f66fcaccc0191"
       ],
-      "last_checked_at": "2026-04-02T13:21:01+00:00",
+      "last_checked_at": "2026-04-02T13:26:45+00:00",
       "feed_title": "王志安 - YouTube"
     },
     "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics": {
@@ -286,7 +300,7 @@
         "458f1ceef2142852977cf599cc5bb7cf040efc2e14670a4dd5ad542391d0d5f7",
         "3e0b1c6aef833972d7d180db731880ef7aed4e02614b4f5ad7b2889515a3a88f"
       ],
-      "last_checked_at": "2026-04-02T13:21:01+00:00",
+      "last_checked_at": "2026-04-02T13:26:45+00:00",
       "feed_title": "bioRxiv Subject Collection: Bioinformatics"
     },
     "https://www.cell.com/cell/inpress.rss": {
@@ -344,7 +358,7 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:26:45+00:00",
       "feed_title": "Cell"
     },
     "https://www.cell.com/cell-host-microbe/inpress.rss": {
@@ -366,7 +380,7 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:26:45+00:00",
       "feed_title": "Cell Host & Microbe"
     },
     "https://www.nature.com/nature.rss": {
@@ -447,7 +461,7 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:26:46+00:00",
       "feed_title": "Nature"
     },
     "https://www.nature.com/natbiomedeng.rss": {
@@ -461,7 +475,7 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:26:46+00:00",
       "feed_title": "Nature Biomedical Engineering"
     },
     "https://www.nature.com/nbt.rss": {
@@ -475,11 +489,13 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:26:46+00:00",
       "feed_title": "Nature Biotechnology"
     },
     "https://www.nature.com/ncomms.rss": {
       "seen_ids": [
+        "b90cd26d84c3186d71b51098c7f55c2c040ae7f6c93b94950f620b55a3054b31",
+        "52c85acce44965798eac355eca2a1a71a70d79957e53a43b1eb7bee5069ca60d",
         "89eebcbd332e9353cfa6fa579cf487402181c2167a926f93e5a14d2801231fe9",
         "a55edb0bd0c0ad1af98c46ec389af82ccece37c0d80f1b42ce8c4da279dc53f2",
         "ec3a723b7e30cd4e8040635f377ee20891cbc246bc40f7b9392341e13a054627",
@@ -489,7 +505,7 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:26:46+00:00",
       "feed_title": "Nature Communications"
     },
     "https://www.nature.com/natcomputsci.rss": {
@@ -503,7 +519,7 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:27:16+00:00",
       "feed_title": "Nature Computational Science"
     },
     "https://www.nature.com/ng.rss": {
@@ -517,7 +533,7 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:27:16+00:00",
       "feed_title": "Nature Genetics"
     },
     "https://www.nature.com/naturehealth.rss": {
@@ -531,7 +547,7 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:27:17+00:00",
       "feed_title": "Nature Health"
     },
     "https://www.nature.com/natmachintell.rss": {
@@ -545,7 +561,7 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:27:17+00:00",
       "feed_title": "Nature Machine Intelligence"
     },
     "https://www.nature.com/nm.rss": {
@@ -559,7 +575,7 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:27:17+00:00",
       "feed_title": "Nature Medicine"
     },
     "https://www.nature.com/nmeth.rss": {
@@ -574,7 +590,7 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-02T13:21:02+00:00",
+      "last_checked_at": "2026-04-02T13:27:17+00:00",
       "feed_title": "Nature Methods"
     },
     "https://www.nature.com/nmicrobiol.rss": {
@@ -588,7 +604,7 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-02T13:21:34+00:00",
+      "last_checked_at": "2026-04-02T13:27:17+00:00",
       "feed_title": "Nature Microbiology"
     },
     "https://www.nature.com/natrevbioeng.rss": {
@@ -602,7 +618,7 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-02T13:21:34+00:00",
+      "last_checked_at": "2026-04-02T13:27:18+00:00",
       "feed_title": "Nature Reviews Bioengineering"
     },
     "https://www.nature.com/nrg.rss": {
@@ -616,7 +632,7 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-02T13:21:34+00:00",
+      "last_checked_at": "2026-04-02T13:27:18+00:00",
       "feed_title": "Nature Reviews Genetics"
     },
     "https://www.nature.com/nrmicro.rss": {
@@ -631,21 +647,21 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-02T13:21:34+00:00",
+      "last_checked_at": "2026-04-02T13:27:18+00:00",
       "feed_title": "Nature Reviews Microbiology"
     },
     "https://rsshub.rssforever.com/github/activity/gcorso": {
       "seen_ids": [
         "7525a30f27a244ed9877abd357c176218544579a0041bdc3f2f6f2332b524c39"
       ],
-      "last_checked_at": "2026-04-02T13:15:48+00:00",
+      "last_checked_at": "2026-04-02T13:26:35+00:00",
       "feed_title": "gcorso's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/Guangxuan-Xiao": {
       "seen_ids": [
         "06f125a22cd2aa90542a4927d71b6c679a0862ddba9d0a9430396d09a5ec0acb"
       ],
-      "last_checked_at": "2026-04-02T13:16:20+00:00",
+      "last_checked_at": "2026-04-02T13:26:36+00:00",
       "feed_title": "Guangxuan-Xiao's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/HannesStark": {
@@ -679,7 +695,7 @@
         "555b81f2ad44b7c5d01b8d98dadb256978841fe301fb2224b4fb7985ec709e0a",
         "4e03497a44c510612440d4891e6fdd36cd17d2fde8c5961082280c825d9fd9cd"
       ],
-      "last_checked_at": "2026-04-02T13:16:54+00:00",
+      "last_checked_at": "2026-04-02T13:26:38+00:00",
       "feed_title": "HannesStark's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/karpathy": {
@@ -711,7 +727,7 @@
         "569efd56d3c184fe0e411ceaf0bf1bafa12a0bc2581c8aa065e7e82d26adc1f2",
         "719c912a7c4ee79a962e9517f56d1d1e59d55db5d52adda5ffcddf4a77108007"
       ],
-      "last_checked_at": "2026-04-02T13:17:31+00:00",
+      "last_checked_at": "2026-04-02T13:26:39+00:00",
       "feed_title": "karpathy's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/luost26": {
@@ -747,7 +763,7 @@
         "3c9a74a91c34b71e19336176f1c7a1407ea5642d9035b1f3ebf76ba1c285c184",
         "0eeab505ca9f3149f2dbd74145a2129c94207e371c11017bc503d9a26672bfb0"
       ],
-      "last_checked_at": "2026-04-02T13:18:12+00:00",
+      "last_checked_at": "2026-04-02T13:26:41+00:00",
       "feed_title": "luost26's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/OdinZhang": {
@@ -764,7 +780,7 @@
         "6c7adfb121cde46560e1cfdd9c88fce9c656ec46a382e9c894a7cc8c80e0f210",
         "e742ddb470a792bdd2cfd7c10abdbc909bba7e12abf6747f39e8a607a9949019"
       ],
-      "last_checked_at": "2026-04-02T13:18:47+00:00",
+      "last_checked_at": "2026-04-02T13:26:42+00:00",
       "feed_title": "OdinZhang's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/wenhao-gao": {
@@ -786,7 +802,7 @@
         "4d8013d4ce9ca7b0084f0d0b782c2cd266bccc8695bc19fc6b82c9b8b281f472",
         "24f82007189026c48fac1d4b6b32e6d581b029308f09f5d03f8b75004b564021"
       ],
-      "last_checked_at": "2026-04-02T13:19:21+00:00",
+      "last_checked_at": "2026-04-02T13:26:43+00:00",
       "feed_title": "wenhao-gao's GitHub activities"
     },
     "https://rsshub.rssforever.com/github/activity/WillHua127": {
@@ -796,10 +812,10 @@
         "b0d543362b315c4c7969c904ca8ee28e5a6653bf0a92e2ffaaac71a49e90d3ea",
         "2ed3850e96939a689807e86962cef30aff9c05b45b4d63924ab12a066df1916d"
       ],
-      "last_checked_at": "2026-04-02T13:19:56+00:00",
+      "last_checked_at": "2026-04-02T13:26:44+00:00",
       "feed_title": "WillHua127's GitHub activities"
     }
   },
-  "updated_at": "2026-04-02T13:15:14+00:00",
+  "updated_at": "2026-04-02T13:26:00+00:00",
   "feed_count": 32
 }
