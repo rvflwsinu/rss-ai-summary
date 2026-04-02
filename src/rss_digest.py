@@ -211,7 +211,7 @@ def process_feed(
     try:
         parsed_feed = fetch_feed(client, feed.xml_url)
     except Exception as exc:
-        return {"summary": None, "error": f"Feed fetch failed: {exc}"}
+        return {"summary": None, "error": f"Feed fetch failed: {safe_error_message(exc)}"}
 
     feed_state = state.setdefault("feeds", {}).setdefault(feed.xml_url, {})
     seen_ids = list(feed_state.get("seen_ids", []))
@@ -268,7 +268,7 @@ def process_feed(
         summary = summarize_feed(config, display_feed, summary_inputs)
     except Exception as exc:
         summary = fallback_summary(display_feed, output_items)
-        summary_error = f"Gemini summary failed, used fallback: {exc}"
+        summary_error = f"Gemini summary failed, used fallback: {safe_error_message(exc)}"
 
     digest = {
         "category": feed.category,
@@ -515,6 +515,16 @@ def strip_code_fences(text: str) -> str:
         cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
         cleaned = re.sub(r"\s*```$", "", cleaned)
     return cleaned.strip()
+
+
+def safe_error_message(exc: Exception) -> str:
+    if isinstance(exc, httpx.HTTPStatusError):
+        return f"HTTP {exc.response.status_code} {exc.response.reason_phrase}"
+    return redact_sensitive_text(str(exc))
+
+
+def redact_sensitive_text(text: str) -> str:
+    return re.sub(r"([?&]key=)[^&\s'\"]+", r"\1[REDACTED]", text or "")
 
 
 def fallback_summary(feed: FeedConfig, items: list[dict[str, Any]]) -> dict[str, Any]:
