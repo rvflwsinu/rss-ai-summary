@@ -297,6 +297,10 @@ def process_feed(
     try:
         summary = summarize_feed(config, display_feed, summary_inputs)
     except Exception as exc:
+        if is_llm_auth_error(exc):
+            raise RuntimeError(
+                f"{config['llm_provider']} authentication failed: {safe_error_message(exc)}"
+            ) from exc
         summary = fallback_summary(display_feed, pending_items)
         summary_error = f"LLM summary failed, used fallback: {safe_error_message(exc)}"
 
@@ -850,6 +854,10 @@ def safe_error_message(exc: Exception) -> str:
     if isinstance(exc, httpx.HTTPStatusError):
         return f"HTTP {exc.response.status_code} {exc.response.reason_phrase}"
     return redact_sensitive_text(str(exc))
+
+
+def is_llm_auth_error(exc: Exception) -> bool:
+    return isinstance(exc, httpx.HTTPStatusError) and exc.response.status_code in {401, 403}
 
 
 def redact_sensitive_text(text: str) -> str:

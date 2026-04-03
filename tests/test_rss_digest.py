@@ -269,6 +269,61 @@ class TestOpenRouterIntegration(unittest.TestCase):
             "rss-ai-summary",
         )
 
+    def test_process_feed_raises_on_openrouter_auth_error(self) -> None:
+        feed = rss_digest.FeedConfig(
+            category="Research",
+            title="Paper Feed",
+            xml_url="https://example.com/feed.xml",
+            html_url="https://example.com",
+        )
+        config = {
+            "min_feed_content_chars": 50,
+            "max_item_chars": 4000,
+            "mock_summary": False,
+            "llm_provider": "openrouter",
+        }
+        state = {"feeds": {feed.xml_url: {"pending_items": [], "seen_ids": []}}}
+        parsed_feed = feedparser.FeedParserDict(
+            {
+                "feed": {"title": "Paper Feed", "link": "https://example.com"},
+                "entries": [
+                    feedparser.FeedParserDict(
+                        {
+                            "id": "new-entry-id",
+                            "title": "New paper",
+                            "link": "https://example.com/paper",
+                            "published_parsed": time.strptime(
+                                "2026-04-03 00:00:00",
+                                "%Y-%m-%d %H:%M:%S",
+                            ),
+                            "summary": "Paper body",
+                        }
+                    )
+                ],
+            }
+        )
+        response = mock.Mock(status_code=401, reason_phrase="Unauthorized")
+        auth_error = rss_digest.httpx.HTTPStatusError(
+            "401 Unauthorized",
+            request=mock.Mock(),
+            response=response,
+        )
+
+        with (
+            mock.patch.object(rss_digest, "fetch_feed", return_value=parsed_feed),
+            mock.patch.object(
+                rss_digest,
+                "resolve_entry_text",
+                return_value=("Paper body", "feed"),
+            ),
+            mock.patch.object(rss_digest, "summarize_feed", side_effect=auth_error),
+        ):
+            with self.assertRaisesRegex(
+                RuntimeError,
+                "openrouter authentication failed: HTTP 401 Unauthorized",
+            ):
+                rss_digest.process_feed(mock.Mock(), config, state, feed)
+
 
 class TestRenderSite(unittest.TestCase):
     def test_render_site_shows_linked_title_followed_by_tldr(self) -> None:
