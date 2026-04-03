@@ -308,6 +308,8 @@ def process_feed(
         summary = fallback_summary(display_feed, pending_items)
         summary_error = f"LLM summary failed, used fallback: {safe_error_message(exc)}"
 
+    pending_items = apply_item_tldrs(pending_items, summary.get("item_tldrs"))
+    feed_state["pending_items"] = pending_items
     feed_state["summary"] = summary
 
     return {
@@ -458,6 +460,7 @@ def summarize_feed(
             continue
         payload_items.append(
             {
+                "id": item["id"],
                 "title": item["title"],
                 "published": item["published"],
                 "link": item["link"],
@@ -470,6 +473,9 @@ def summarize_feed(
 
     if not payload_items:
         return fallback_summary(feed, items)
+
+    if is_papers_category(feed.category):
+        return summarize_paper_items(config, feed, items, payload_items)
 
     prompt = textwrap.dedent(
         f"""
@@ -509,6 +515,87 @@ def summarize_feed(
     if not highlights:
         highlights = [item["title"] for item in items[:3]]
     return {"tldr": tldr, "highlights": highlights[:5]}
+
+
+def summarize_paper_items(
+    config: dict[str, Any],
+    feed: FeedConfig,
+    items: list[dict[str, Any]],
+    payload_items: list[dict[str, Any]],
+) -> dict[str, Any]:
+    numbered_items = []
+    payload_lookup: dict[int, dict[str, Any]] = {}
+    for number, item in enumerate(payload_items, start=1):
+        numbered_items.append(
+            {
+                "number": number,
+                "title": item["title"],
+                "published": item["published"],
+                "link": item["link"],
+                "text": item["text"],
+            }
+        )
+        payload_lookup[number] = item
+
+    prompt = textwrap.dedent(
+        f"""
+        You are creating a daily digest for a single research paper feed.
+
+        Rules:
+        - Reply with valid JSON only.
+        - Write in {config['summary_language']}.
+        - Use only the supplied source material.
+        - Be concise and avoid hype.
+        - For each paper, write a brief 1-2 sentence TLDR focused on the main contribution, result, or method.
+        - If the source is sparse, summarize only what is clearly supported by the title and text.
+        - Do not fabricate details that are not present in the sources.
+
+        Return this exact JSON shape:
+        {{
+          "tldr": "2-4 sentence feed-level summary",
+          "highlights": ["short bullet", "short bullet", "short bullet"],
+          "item_tldrs": [
+            {{"number": 1, "tldr": "1-2 sentence paper summary"}}
+          ]
+        }}
+
+        Feed:
+        {json.dumps({"title": feed.title, "category": feed.category}, ensure_ascii=False, indent=2)}
+
+        Papers:
+        {json.dumps(numbered_items, ensure_ascii=False, indent=2)}
+        """
+    ).strip()
+
+    response_data = call_llm_json(config=config, prompt=prompt)
+    tldr = normalize_text(str(response_data.get("tldr", "")))
+    highlights = [
+        normalize_text(str(item))
+        for item in response_data.get("highlights", [])
+        if normalize_text(str(item))
+    ]
+    if not tldr:
+        raise ValueError("LLM response did not contain a TLDR.")
+    if not highlights:
+        highlights = [item["title"] for item in items[:3]]
+
+    item_tldrs: dict[str, str] = {}
+    for item in response_data.get("item_tldrs", []):
+        if not isinstance(item, dict):
+            continue
+        number = item.get("number")
+        if not isinstance(number, int):
+            continue
+        source_item = payload_lookup.get(number)
+        if not source_item:
+            continue
+        item_tldr = normalize_text(str(item.get("tldr", "")))
+        if item_tldr:
+            item_tldrs[source_item["id"]] = item_tldr
+
+    if not item_tldrs:
+        item_tldrs = fallback_item_tldrs(items)
+    return {"tldr": tldr, "highlights": highlights[:5], "item_tldrs": item_tldrs}
 
 
 def validate_llm_config(config: dict[str, Any]) -> None:
@@ -594,6 +681,7 @@ def migrated_pending_item(feed_url: str, item: dict[str, Any]) -> dict[str, Any]
         "sort_key": rendered_timestamp_sort_key(published),
         "source_kind": item.get("source_kind"),
         "text": title,
+        "tldr": normalize_text(str(item.get("tldr") or "")),
     }
 
 
@@ -633,6 +721,7 @@ def normalize_pending_item(feed_url: str, item: dict[str, Any]) -> dict[str, Any
         "sort_key": float(sort_key),
         "source_kind": item.get("source_kind"),
         "text": normalize_text(str(item.get("text") or title)),
+        "tldr": normalize_text(str(item.get("tldr") or "")),
     }
 
 
@@ -650,6 +739,7 @@ def merge_pending_items(
 
 def pending_item_summary_input(item: dict[str, Any]) -> dict[str, Any]:
     return {
+        "id": item["id"],
         "title": item["title"],
         "link": item.get("link"),
         "published": item.get("published"),
@@ -663,7 +753,24 @@ def pending_item_output(item: dict[str, Any]) -> dict[str, Any]:
         "link": item.get("link"),
         "published": item.get("published"),
         "source_kind": item.get("source_kind"),
+        "tldr": item.get("tldr"),
     }
+
+
+def apply_item_tldrs(
+    items: list[dict[str, Any]], item_tldrs: dict[str, str] | None
+) -> list[dict[str, Any]]:
+    if not item_tldrs:
+        return items
+
+    updated_items = []
+    for item in items:
+        updated_item = dict(item)
+        item_tldr = normalize_text(str(item_tldrs.get(item["id"], item.get("tldr") or "")))
+        if item_tldr:
+            updated_item["tldr"] = item_tldr
+        updated_items.append(updated_item)
+    return updated_items
 
 
 def summary_from_state(
@@ -705,6 +812,10 @@ def build_feed_digest(
         "highlights": summary["highlights"],
         "items": output_items,
     }
+
+
+def is_papers_category(category: str) -> bool:
+    return category.strip().lower() == "papers"
 
 
 def active_model_name(config: dict[str, Any]) -> str:
@@ -883,7 +994,21 @@ def fallback_summary(feed: FeedConfig, items: list[dict[str, Any]]) -> dict[str,
         f"{feed.title} currently has {len(items)} retained item(s) on the page. "
         f"Key items include {join_titles(highlight_titles)}."
     )
-    return {"tldr": tldr, "highlights": highlight_titles}
+    summary = {"tldr": tldr, "highlights": highlight_titles}
+    if is_papers_category(feed.category):
+        summary["item_tldrs"] = fallback_item_tldrs(items)
+    return summary
+
+
+def fallback_item_tldrs(items: list[dict[str, Any]]) -> dict[str, str]:
+    item_tldrs = {}
+    for item in items:
+        source_text = normalize_text(str(item.get("text") or item.get("title") or ""))
+        sentences = re.split(r"(?<=[.!?])\s+", source_text)
+        item_tldr = clip_text(" ".join(sentences[:2]).strip() or source_text, 260)
+        if item_tldr:
+            item_tldrs[item["id"]] = item_tldr
+    return item_tldrs
 
 
 def join_titles(titles: list[str]) -> str:
@@ -925,30 +1050,12 @@ def render_site(report: dict[str, Any]) -> str:
     cards = []
     if report["feeds"]:
         for category in report["categories"]:
-            category_rows = []
-            for feed in report["feeds"]:
-                if feed["category"] != category:
-                    continue
-                item_count = feed["item_count"]
-                category_rows.append(
-                    f"""
-                    <article class="feed">
-                      <div class="feed-line">
-                        <div class="feed-title"><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></div>
-                        <p class="tldr">{escape(feed['tldr'])}</p>
-                      </div>
-                      <div class="feed-meta">
-                        <span>{item_count} items</span>
-                        <a class="rss-badge" href="{escape(feed['feed_url'])}">RSS</a>
-                      </div>
-                    </article>
-                    """
-                )
+            category_feeds = [feed for feed in report["feeds"] if feed["category"] == category]
             cards.append(
                 f"""
                 <section class="category">
                   <h2>{escape(category)}</h2>
-                  <div class="feed-list">{''.join(category_rows)}</div>
+                  {render_paper_rows(category_feeds) if is_papers_category(category) else render_feed_rows(category_feeds)}
                 </section>
                 """
             )
@@ -1052,7 +1159,8 @@ def render_site(report: dict[str, Any]) -> str:
                 margin-bottom: 14px;
                 border-bottom: 1px solid var(--border);
               }}
-              .feed-list {{ display: grid; gap: 10px; }}
+              .feed-list,
+              .paper-list {{ display: grid; gap: 10px; }}
               .feed {{
                 background: var(--surface);
                 border: 1px solid var(--border);
@@ -1063,12 +1171,25 @@ def render_site(report: dict[str, Any]) -> str:
                 gap: 12px;
                 align-items: start;
               }}
+              .paper {{
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: 8px;
+                padding: 14px 16px;
+                display: grid;
+                grid-template-columns: minmax(0, 260px) minmax(0, 1fr) minmax(0, 180px);
+                gap: 12px;
+                align-items: start;
+              }}
               .feed-line {{
                 display: contents;
               }}
-              .feed-title {{ font-size: 0.95rem; font-weight: 600; line-height: 1.45; }}
-              .feed-title a {{ color: var(--text); }}
-              .feed-title a:hover {{ color: var(--accent); text-decoration: none; }}
+              .feed-title,
+              .paper-title {{ font-size: 0.95rem; font-weight: 600; line-height: 1.45; }}
+              .feed-title a,
+              .paper-title a {{ color: var(--text); }}
+              .feed-title a:hover,
+              .paper-title a:hover {{ color: var(--accent); text-decoration: none; }}
               .feed-meta {{
                 font-size: 0.78rem;
                 color: var(--muted);
@@ -1076,6 +1197,11 @@ def render_site(report: dict[str, Any]) -> str:
                 align-items: center;
                 gap: 8px;
                 white-space: nowrap;
+              }}
+              .paper-meta {{
+                font-size: 0.78rem;
+                color: var(--muted);
+                line-height: 1.5;
               }}
               .rss-badge {{
                 font-size: 0.68rem;
@@ -1122,6 +1248,10 @@ def render_site(report: dict[str, Any]) -> str:
                   grid-template-columns: 1fr;
                   gap: 6px;
                 }}
+                .paper {{
+                  grid-template-columns: 1fr;
+                  gap: 6px;
+                }}
                 .feed-line {{ display: block; }}
                 .feed-meta {{ white-space: normal; }}
               }}
@@ -1160,6 +1290,54 @@ def render_site(report: dict[str, Any]) -> str:
         </html>
         """
     ).strip() + "\n"
+
+
+def render_feed_rows(feeds: list[dict[str, Any]]) -> str:
+    rows = []
+    for feed in feeds:
+        item_count = feed["item_count"]
+        rows.append(
+            f"""
+            <article class="feed">
+              <div class="feed-line">
+                <div class="feed-title"><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></div>
+                <p class="tldr">{escape(feed['tldr'])}</p>
+              </div>
+              <div class="feed-meta">
+                <span>{item_count} items</span>
+                <a class="rss-badge" href="{escape(feed['feed_url'])}">RSS</a>
+              </div>
+            </article>
+            """
+        )
+    return f'<div class="feed-list">{"".join(rows)}</div>'
+
+
+def render_paper_rows(feeds: list[dict[str, Any]]) -> str:
+    rows = []
+    for feed in feeds:
+        for item in feed["items"]:
+            link = item.get("link") or feed.get("site_url") or feed.get("feed_url")
+            title = escape(item["title"])
+            if link:
+                title_html = f'<a href="{escape(link)}">{title}</a>'
+            else:
+                title_html = title
+
+            meta_bits = [feed["title"]]
+            if item.get("published"):
+                meta_bits.append(item["published"])
+            item_tldr = item.get("tldr") or feed["tldr"]
+            rows.append(
+                f"""
+                <article class="paper">
+                  <div class="paper-title">{title_html}</div>
+                  <p class="tldr">{escape(item_tldr)}</p>
+                  <div class="paper-meta">{" | ".join(escape(bit) for bit in meta_bits)}</div>
+                </article>
+                """
+            )
+    return f'<div class="paper-list">{"".join(rows)}</div>'
 
 
 def ordered_categories(feeds: list[dict[str, Any]]) -> list[str]:

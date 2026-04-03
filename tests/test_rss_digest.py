@@ -324,6 +324,54 @@ class TestOpenRouterIntegration(unittest.TestCase):
             ):
                 rss_digest.process_feed(mock.Mock(), config, state, feed)
 
+    def test_summarize_feed_returns_item_tldrs_for_papers(self) -> None:
+        config = {
+            "mock_summary": False,
+            "summary_language": "English",
+            "max_prompt_chars": 18000,
+            "llm_provider": "openrouter",
+        }
+        feed = rss_digest.FeedConfig(
+            category="Papers",
+            title="Paper Feed",
+            xml_url="https://example.com/feed.xml",
+            html_url="https://example.com",
+        )
+        items = [
+            {
+                "id": "paper-1",
+                "title": "Paper One",
+                "link": "https://example.com/1",
+                "published": "2026-04-03 00:00 UTC",
+                "text": "Paper one abstract.",
+            },
+            {
+                "id": "paper-2",
+                "title": "Paper Two",
+                "link": "https://example.com/2",
+                "published": "2026-04-03 00:00 UTC",
+                "text": "Paper two abstract.",
+            },
+        ]
+
+        with mock.patch.object(
+            rss_digest,
+            "call_llm_json",
+            return_value={
+                "tldr": "Feed summary.",
+                "highlights": ["Paper One"],
+                "item_tldrs": [
+                    {"number": 1, "tldr": "Summary one."},
+                    {"number": 2, "tldr": "Summary two."},
+                ],
+            },
+        ):
+            summary = rss_digest.summarize_feed(config, feed, items)
+
+        self.assertEqual(summary["tldr"], "Feed summary.")
+        self.assertEqual(summary["item_tldrs"]["paper-1"], "Summary one.")
+        self.assertEqual(summary["item_tldrs"]["paper-2"], "Summary two.")
+
 
 class TestRenderSite(unittest.TestCase):
     def test_render_site_shows_linked_title_followed_by_tldr(self) -> None:
@@ -361,6 +409,49 @@ class TestRenderSite(unittest.TestCase):
         self.assertIn('<p class="tldr">A short summary of the latest papers.</p>', html)
         self.assertIn('<div class="feed-list">', html)
         self.assertNotIn("<details>", html)
+
+    def test_render_site_lists_each_paper_with_its_tldr(self) -> None:
+        report = {
+            "site_title": "Daily Feed TLDR",
+            "generated_at_human": "2026-04-03 12:00 UTC",
+            "model": "qwen/qwen3.6-plus:free",
+            "feeds_with_updates": 1,
+            "total_items": 2,
+            "categories": ["Papers"],
+            "feeds": [
+                {
+                    "category": "Papers",
+                    "title": "Nature Communications",
+                    "site_url": "https://www.nature.com/ncomms",
+                    "feed_url": "https://www.nature.com/ncomms.rss",
+                    "item_count": 2,
+                    "tldr": "Feed summary.",
+                    "highlights": ["Paper A", "Paper B"],
+                    "items": [
+                        {
+                            "title": "Paper A",
+                            "link": "https://example.com/a",
+                            "published": "2026-04-03 00:00 UTC",
+                            "tldr": "Paper A TLDR.",
+                        },
+                        {
+                            "title": "Paper B",
+                            "link": "https://example.com/b",
+                            "published": "2026-04-02 00:00 UTC",
+                            "tldr": "Paper B TLDR.",
+                        },
+                    ],
+                }
+            ],
+            "errors": [],
+        }
+
+        html = rss_digest.render_site(report)
+
+        self.assertIn('<div class="paper-list">', html)
+        self.assertIn('<div class="paper-title"><a href="https://example.com/a">Paper A</a></div>', html)
+        self.assertIn('<p class="tldr">Paper A TLDR.</p>', html)
+        self.assertIn('Nature Communications | 2026-04-03 00:00 UTC', html)
 
 
 class TestTextRedaction(unittest.TestCase):
