@@ -24,7 +24,7 @@
         "18698373498696f9f75479b2b0b970bf22aa70b95ecc5204f6773c8e4bc939c1",
         "ece7d794c1725162dc1a9bce1cfff55cd1017dbc38f8bafdcf9320c13670a19e"
       ],
-      "last_checked_at": "2026-04-03T11:39:44+00:00",
+      "last_checked_at": "2026-04-03T12:29:51+00:00",
       "feed_title": "furidamu",
       "pending_items": [],
       "site_url": "https://www.julian.ac/"
@@ -42,7 +42,7 @@
         "b5eefa012d6628992bc24d1507b8fe5db614b0fe41435a3dae0c4c46781dadf1",
         "318094fc16d213d2bdce4cfcabe341111c594a9fecbe585a62ed2b3f1cd2a5ad"
       ],
-      "last_checked_at": "2026-04-03T11:39:44+00:00",
+      "last_checked_at": "2026-04-03T12:29:51+00:00",
       "feed_title": "karpathy",
       "pending_items": [],
       "site_url": "https://karpathy.bearblog.dev/"
@@ -101,7 +101,7 @@
         "68921d2222b0e3f1cfe4eb07f2f63a0a14e70ae71cada5efe31986e494969f6e",
         "4236f3e954dabf5bd7af893cc6812a8c13ae05e15cef0a22cef342d47b1c3daa"
       ],
-      "last_checked_at": "2026-04-03T11:39:44+00:00",
+      "last_checked_at": "2026-04-03T12:29:51+00:00",
       "feed_title": "Lil'Log",
       "pending_items": [],
       "site_url": "https://lilianweng.github.io/"
@@ -113,7 +113,7 @@
         "63517c1387b3905aea468f6d623fc17d8a951aa6d16470bd4bb93fd99f356779",
         "2a49b479935bde52e4b120b2efcd5853a96687100e3f3d5c6633710078193873"
       ],
-      "last_checked_at": "2026-04-03T11:39:44+00:00",
+      "last_checked_at": "2026-04-03T12:29:51+00:00",
       "feed_title": "阮一峰的网络日志",
       "pending_items": [
         {
@@ -129,14 +129,42 @@
       ],
       "site_url": "http://www.ruanyifeng.com/blog/",
       "summary": {
-        "tldr": "阮一峰的网络日志 currently has 1 retained item(s) on the page. Key items include \"科技爱好者周刊（第 391 期）：AI 的贫富分化\".",
+        "tldr": "This weekly digest examines how the high compute costs of advanced AI models could create a socioeconomic divide, unlike traditional technologies that scale down in price. It highlights a new research metric tracking AI progress against human task-completion times, suggesting capabilities double approximately every seven months. The issue also covers recent industry developments, including GitHub Copilot's ad insertion controversy, practical touchscreen innovations, and a collection of open-source AI tools.",
         "highlights": [
-          "科技爱好者周刊（第 391 期）：AI 的贫富分化"
+          "High compute costs for top-tier AI models may lead to a wealth divide between premium and free-tier users.",
+          "A new study measures AI advancement by human task-time equivalence, indicating a doubling of capabilities every seven months.",
+          "Notable tech updates include GitHub Copilot's controversial ad placement, conductive nail polish for touchscreens, and curated open-source developer tools."
         ]
       }
     },
     "https://linux.do/tag/444-tag/444.rss": {
       "seen_ids": [
+        "2ea22af06ca94ab0140575be69d8912de06a46f671d68a069348625a42bd1ad7",
+        "1c7fcd43ab0c9929b5c50fed7cad05897620da5c0542b13da9ef012d372a7e9c",
+        "3c2935f98eda6dfc50f701e312f2c4a6ce1f311fb5ef069aa08633993cdbf3a9",
+        "a69d6a299c25401e75c15c05d36c028f7146b19a33ac8e7d146f2f0b772217b6",
+        "7bc53b9995727b4972902eba8d357e80fced9e498de05130dfd666d9949995fe",
+        "a687f7853010277afd3724a971ba50e044db39773852393768856a96ef16c611",
+        "8b692b7bad33439b43680b10f5f878121daa6c1adcf04f9d93c7d178d83630f2",
+        "314e9a7a6891ed0e69b7607b8858f8ee1ed910678a445c386e02a4ca1be1b905",
+        "ba22319da0d328e58ed310a5b10b24037669a496689585d1d900ff60d0a986d5",
+        "74262a35ce3f16108e897bd8092e69373dbb7acb5417c409fd3dcc50353da8ce",
+        "3875b18889864ae37b869c2ed423367837c66c7872d4baf6496361af79941e81",
+        "caa75fe77ddd1f71e41d69726a8da3499eb551ff9df6380734ccb8dcf0a6b7e2",
+        "d18d58a553ad0f4a08cefe32768cc6da5af0c73ef8c5096113aebf3e95002608",
+        "e4d08ef025ba89a6c5c42a3003c98916893db24e18a73ad6a9bebdfddd38a133",
+        "44a8a98912d3822811e7564d4bcf9791d00183264ada6a5e9b5a9f11c1678e0d",
+        "a52112fc163eec7e027beda227b838e34b180a76167d47bcc38a42c249bab29e",
+        "831457c7bffa23467f601955ac242ba743618c077479419c4753572a56908769",
+        "c50ae43bf0c673d897065c6677ca2e7b98a7701db9d8a6d650c48b806059e49e",
+        "9d1e12ebd9aac47a65543217e5f1e311a86fa4250f95a71595e601ead57e831e",
+        "b021a6845e9ed92b9812bad29a45aa6a65514cf325c5f0c07a68539ea36f51ef",
+        "f85048e3d3db2735f3b60aea305b69f2ef4d141ab5dda079b5cb92c932b5584f",
+        "d054067fd4073f0da3c14ec3faa1b5efa271b1aad6e40082e90c7759d8912f2e",
+        "788360c8d15dc43da71fd76b823129aa49e8721e9db695cf7efb9220d8c2ff37",
+        "b60a3c48beee71bf2243405d4b6fdb85405c99ee5ddc152644cd813e0be14dfe",
+        "25f3b055574b72eb40195d23634f36a0e242976ea88d2c9aaa9256348a76c847",
+        "53e653d817ca0db899e2440b439432a713900be20152d6db2c0f8eb77ca03fad",
         "baa6b6f1bde953887fcb26a61d2b4e5b2245b230cc480132a4dc4df6e4173517",
         "2d70b6d84c7903560c95352ab74d3f86203c754561d6f918b03ba3ac9aa5ab70",
         "4e631c15279baf6cbb82db5e0a2808c74d2e37e52ad612a973b195d19c3f4f8e",
@@ -333,9 +361,169 @@
         "cbcf014734d3520b8dfb7281a7d49609874738fd3ea4eee9ab149184d2946971",
         "f254e4522361be6ebe95ac1c1802a3f176557d587f8e9c6eb73fea6f8e2954f5"
       ],
-      "last_checked_at": "2026-04-03T11:39:46+00:00",
+      "last_checked_at": "2026-04-03T12:30:24+00:00",
       "feed_title": "LINUX DO - 使用人工智能标记的话题",
       "pending_items": [
+        {
+          "id": "2ea22af06ca94ab0140575be69d8912de06a46f671d68a069348625a42bd1ad7",
+          "signature": "6754f229e8d4e5b1024c051f783d8956908b7c091d2acddc3f8a1f66d6d421c0",
+          "title": "claude的400错误如何解决",
+          "link": "https://linux.do/t/topic/1892018",
+          "published": "2026-04-03 12:24 UTC",
+          "sort_key": 1775219055.0,
+          "source_kind": "feed",
+          "text": "API Error: 400 {“type”:“error”,“error”:{“type”:“invalid_request_error”,“message”:“messages.1.content.0: Invalid signature in thinking block”},“request_id”:“req_011CZgpTGckJiMU9eHZqU4hJ”} 我在cpa中添加了两个claudePro的账号，在claudecode使用的时候是400的错误。codex宕机了问不出原因。请佬友解惑 1 个帖子 - 1 位参与者 阅读完整话题 API Error: 400 {“type”:“error”,“error”:{“type”:“invalid_request_error”,“message”:“messages.1.content.0: Invalid signature in thinking block”},“request_id”:“req_011CZgpTGckJiMU9eHZqU4hJ”} 我在cpa中添加了两个claudePro的账号，在claudecode使用的时候是400的错误。codex宕机了问不出原因。请佬友解惑 1 个帖子 - 1 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1c7fcd43ab0c9929b5c50fed7cad05897620da5c0542b13da9ef012d372a7e9c",
+          "signature": "1e1c14d1437debb5dac650a5ab3f9060bb2ca0a96ed84fc8b69f08c8183c2225",
+          "title": "几分钱一个的OUTLOOK邮箱",
+          "link": "https://linux.do/t/topic/1892009",
+          "published": "2026-04-03 12:22 UTC",
+          "sort_key": 1775218978.0,
+          "source_kind": "feed",
+          "text": "买了不会用，网页登录和雷鸟客户端登录都要恢复账户，怎么办，有知道的佬吗 6 个帖子 - 3 位参与者 阅读完整话题 买了不会用，网页登录和雷鸟客户端登录都要恢复账户，怎么办，有知道的佬吗 6 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "3c2935f98eda6dfc50f701e312f2c4a6ce1f311fb5ef069aa08633993cdbf3a9",
+          "signature": "32ec78ac4fe8907523268d6e9a62cba03232f2d0183ec4c02606906e27e9b67f",
+          "title": "小七姐《AI时代的‮能元‬力》",
+          "link": "https://linux.do/t/topic/1892006",
+          "published": "2026-04-03 12:22 UTC",
+          "sort_key": 1775218931.0,
+          "source_kind": "feed",
+          "text": "├── 10_F01：聊聊写作这件事 (1)-.mp4 ├── 11_F02：搭建写作框架-.mp4 ├── 12_F03：人工智能带来的新变化——认知层-.mp4 ├── 13_0523 小七姐的工具们-.mp4 ├── 14_【直播 01】和大家聊聊什么是 AI 时代的元能力-.mp4 ├── 15_【直播回放】02 聊一聊 AI 工作流-.mp4 ├── 16_直播03：人人都能学会的写作-.mp4 ├── 17_直播 06：结合AI写作-写一篇好文章-.mp4 ├── 1_00 先导课 (1)-.mp4 ├── 2_A01：认识知识管理体系 (1)-.mp4 ├── 3_A02：优秀的知识管理体系讲解 (1)-.mp4 ├── 4_A03：我是如何做知识管理的 (1)-.mp4 ├── 5_B01：AI 搜索引擎基础认知 (1)-.mp4 ├── 6_B02：AI搜索引擎工具与特性 (1)-.mp4 ├── 7_B03：AI 搜索引擎带来的全新搜索场景 (1)-.mp4 ├── 8_C01：AI 时代，笔记的意义 (1)-.mp4 └── 9_C02：优秀的笔记方法与提示 (1)-.mp4 通过网盘分享的文件：小七姐《AI时代的‮能元‬力》 链接: https://pan.baidu.com/s/1guRlBHJvq3_tlBmtKVQVCA?pwd=3qfb 提取码: 3qfb –来自百度网盘超级会员v3的分享 2 个帖子 - 2 位参与者 阅读完整话题 ├── 10_F01：聊聊写作这件事 (1)-.mp4 ├── 11_F02：搭建写作框架-.mp4 ├── 12_F03：人工智能带来的新变化——认知层-.mp4 ├── 13_0523 小七姐的工具们-.mp4 ├── 14_【直播 01】和大家聊聊什么是 AI 时代的元能力-.mp4 ├── 15_【直播回放】02 聊一聊 AI 工作流-.mp4 ├── 16_直播03：人人都能学会的写作-.mp4 ├── 17_直播 06：结合AI写作-写一篇好文章-.mp4 ├── 1_00 先导课 (1)-.mp4 ├── 2_A01：认识知识管理体系 (1)-.mp4 ├── 3_A02：优秀的知识管理体系讲解 (1)-.mp4 ├── 4_A03：我是如何做知识管理的 (1)-.mp4 ├── 5_B01：AI 搜索引擎基础认知 (1)-.mp4 ├── 6_B02：AI搜索引擎工具与特性 (1)-.mp4 ├── 7_B03：AI 搜索引擎带来的全新搜索场景 (1)-.mp4 ├── 8_C01：AI 时代，笔记的意义 (1)-.mp4 └── 9_C02：优秀的笔记方法与提示 (1)-.mp4 通过网盘分享的文件：小七姐《AI时代的‮能元‬力》 链接: https://pan.baidu.com/s/1guRlBHJvq3_tlBmtKVQVCA?pwd=3qfb 提取码: 3qfb –来自百度网盘超级会员v3的分享 2 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "a69d6a299c25401e75c15c05d36c028f7146b19a33ac8e7d146f2f0b772217b6",
+          "signature": "5076572273ec2a94ffb8a0f3719799fbf94da3e6928bb7fdfb8b5d4c407e4135",
+          "title": "有没有人和我一样：Claudecode的claude-plugins-official老是出问题",
+          "link": "https://linux.do/t/topic/1892003",
+          "published": "2026-04-03 12:21 UTC",
+          "sort_key": 1775218900.0,
+          "source_kind": "feed",
+          "text": "这个问题一直困扰我三四次了，每次让claude修复好，没一会又不可用，奇怪的是，他们都是claude-plugins-official的marketplace，其他的marketplace的插件就没那么多问题，我是codex反代接到claudecode情况，你们有遇到过么？ claude-md-management@claude-plugins-official clangd-lsp@claude-plugins-official code-review@claude-plugins-official context7@claude-plugins-official code-simplifier@claude-plugins-official csharp-lsp@claude-plugins-official feature-dev@claude-plugins-official skill-creator@claude-plugins-official superpowers@claude-plugins-official frontend-design@claude-plugins-official github@claude-plugins-official 5 个帖子 - 2 位参与者 阅读完整话题 这个问题一直困扰我三四次了，每次让claude修复好，没一会又不可用，奇怪的是，他们都是claude-plugins-official的marketplace，其他的marketplace的插件就没那么多问题，我是codex反代接到claudecode情况，你们有遇到过么？ claude-md-management@claude-plugins-official clangd-lsp@claude-plugins-official code-review@claude-plugins-official context7@claude-plugins-official code-simplifier@claude-plugins-official csharp-lsp@claude-plugins-official feature-dev@claude-plugins-official skill-creator@claude-plugins-official superpowers@claude-plugins-official frontend-design@claude-plugins-official github@claude-plugins-official 5 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "7bc53b9995727b4972902eba8d357e80fced9e498de05130dfd666d9949995fe",
+          "signature": "eec1c219408c37abcb70c3835c2ff897da12d7311ba9bcc4b4d8a5c6f604a29c",
+          "title": "RetainPDF：PDF 保留排版翻译工具",
+          "link": "https://linux.do/t/topic/1891990",
+          "published": "2026-04-03 12:19 UTC",
+          "sort_key": 1775218787.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 本项目目前源代码暂不开源，开放 Windows 和 docker 镜像 1. 说明 外文论文、教材、技术文档信息密度高，但读起来费劲： 原文阅读门槛高，效率低 普通翻译工具只吐纯文本，公式、图片、排版基本全崩 译后结果难整理、难分享、难归档 RetainPDF 做的事 上传 PDF，一键拿到保留原始排版的中文译文。 Retain 就是保留的意思，简单直接。 github.com GitHub - wxyhgk/retain-pdf: Docker delivery package for retainpdf deployment Docker delivery package for retainpdf deployment 安装和使用方法见 GitHub 的 README，支持命令行和 API 调用，几行代码就能跑起来。 如果你不想折腾命令行，我还用 Electron 打包了 Windows 桌面版，x86 CPU 直接下载就能跑，到 wxyhgk/retain-pdf Releases 这里下载 首次运行需要填写两个 API Key：MinerU（用于 PDF 解析，每天 2000 页免费）和 DeepSeek（用于翻译，需要自己充值 API ）。 都是免费或极低成本的服务，注册就能拿到 Key。 翻译模型只接了 DeepSeek，没接其他的。原因很简单：够便宜，不限并发，翻一篇几十页的论文花不了几毛钱。对于这个场景来说没必要用更贵的。 不建议一次丢几百页的 PDF 进去。翻译是按页调 API 的，万一中间断了，前面已经翻完的那些页的费用就回不来了。 建议拆成几十页一批，翻完一批再翻下一批，稳一点。 2. 效果展示 均为有复杂数学公式和复杂排版的页面 2.1 sci论文 2.2 扫描版 PDF 2.3 图书 3. 未来开放的功能 3.1 图书管功能 3.2 高精度保留排版 突破现有 ocr 局限，实现更高精度保留排版功能 3.3 Rag 系统翻译和… 8 个帖子 - 8 位参与者 阅读完整话题 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 本项目目前源代码暂不开源，开放 Windows 和 docker 镜像 1. 说明 外文论文、教材、技术文档信息密度高，但读起来费劲： 原文阅读门槛高，效率低 普通翻译工具只吐纯文本，公式、图片、排版基本全崩 译后结果难整理、难分享、难归档 RetainPDF 做的事 上传 PDF，一键拿到保留原始排版的中文译文。 Retain 就是保留的意思，简单直接。 github.com GitHub - wxyhgk/retain-pdf: Docker delivery package for retainpdf deployment Docker delivery package for retainpdf deployment 安装和使用方法见 GitHub 的 README，支持命令行和 API 调用，几行代码就能跑起来。 如果你不想折腾命令行，我还用 Electron 打包了 Windows 桌面版，x86 CPU 直接下载就能跑，到 wxyhgk/retain-pdf Releases 这里下载 首次运行需要填写两个 API Key：MinerU（用于 PDF 解析，每天 2000 页免费）和 DeepSeek（用于翻译，需要自己充值 API ）。 都是免费或极低成本的服务，注册就能拿到 Key。 翻译模型只接了 DeepSeek，没接其他的。原因很简单：够便宜，不限并发，翻一篇几十页的论文花不了几毛钱。对于这个场景来说没必要用更贵的。 不建议一次丢几百页的 PDF 进去。翻译是按页调 API 的，万一中间断了，前面已经翻完的那些页的费用就回不来了。 建议拆成几十页一批，翻完一批再翻下一批，稳一点。 2. 效果展示 均为有复杂数学公式和复杂排版的页面 2.1 sci论文 2.2 扫描版 PDF 2.3 图书 3. 未来开放的功能 3.1 图书管功能 3.2 高精度保留排版 突破现有 ocr 局限，实现更高精度保留排版功能 3.3 Rag 系统翻译和… 8 个帖子 - 8 位参与者 阅读完整话题"
+        },
+        {
+          "id": "a687f7853010277afd3724a971ba50e044db39773852393768856a96ef16c611",
+          "signature": "4214c2ec4c5dbba273cc0637366e48a2f3e32ad8f948f50bb5fa7fb8e3aa4c31",
+          "title": "开发小程序前的提问",
+          "link": "https://linux.do/t/topic/1891945",
+          "published": "2026-04-03 12:14 UTC",
+          "sort_key": 1775218486.0,
+          "source_kind": "feed",
+          "text": "计划开发一个租房方面的小程序+接个ai做房源推荐。 本人从来没用开发过小程序，所以刚才看了一个b站快速用vibe coding开发小程序的视频。 疑问： 1.必须要用Hbuilder那一套东西吗？还有软件学习成本… 2.我想的是这玩意就是跟前后端开发没啥区别，我去找一找好看适用的前端模板，喂给cursor啥的，数据库一搭后端服务一写的事。全权在cursor上开发就行了。这个路子行不通吗？ 有大佬可以给点快速上手的建议吗？ 3 个帖子 - 3 位参与者 阅读完整话题 计划开发一个租房方面的小程序+接个ai做房源推荐。 本人从来没用开发过小程序，所以刚才看了一个b站快速用vibe coding开发小程序的视频。 疑问： 1.必须要用Hbuilder那一套东西吗？还有软件学习成本… 2.我想的是这玩意就是跟前后端开发没啥区别，我去找一找好看适用的前端模板，喂给cursor啥的，数据库一搭后端服务一写的事。全权在cursor上开发就行了。这个路子行不通吗？ 有大佬可以给点快速上手的建议吗？ 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "8b692b7bad33439b43680b10f5f878121daa6c1adcf04f9d93c7d178d83630f2",
+          "signature": "4bc0782a0fd94c28b91595edf7f3ec45125f1d650de319819bd27458b83ad893",
+          "title": "【提问🙋】请问佬友们，对于感兴趣的AAAI这类的文章，咋找到它的开源代码呀",
+          "link": "https://linux.do/t/topic/1891904",
+          "published": "2026-04-03 12:11 UTC",
+          "sort_key": 1775218291.0,
+          "source_kind": "feed",
+          "text": "还是说直接联系作者发邮件乞求呢，或者说还是得靠自己慢慢复现么，如果这两个都不行的话，那请问各位佬友们有没有其他好用的办法呀～谢谢各位佬友啦 10 个帖子 - 4 位参与者 阅读完整话题 还是说直接联系作者发邮件乞求呢，或者说还是得靠自己慢慢复现么，如果这两个都不行的话，那请问各位佬友们有没有其他好用的办法呀～谢谢各位佬友啦 10 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "314e9a7a6891ed0e69b7607b8858f8ee1ed910678a445c386e02a4ca1be1b905",
+          "signature": "8d85823ed8f437df99df804ae5b72e2bbfed523803b7271eb82efc3b722c5020",
+          "title": "求助：有没有稳定使用 Claude Code Max 套餐的方法，预算可以 2000~3000 每月",
+          "link": "https://linux.do/t/topic/1891893",
+          "published": "2026-04-03 12:10 UTC",
+          "sort_key": 1775218210.0,
+          "source_kind": "feed",
+          "text": "如题，在校学生，因为科研导致用量巨大，本地和多台远程机可能会同时使用 Claude Code。远程机是租卡，所以 IP 不固定，通过 VSC Remote SSH 连接。 目前是使用各种中转站，中转站 1.2x ~ 2.3x（即 1r = 1$，然后倍率是 1.2 ~ 2.3）相对稳定时每周可能花 2000+r。因为组里能报销大部分所以也还能接受，就是需要自己先垫着。 但最近一周各个中转站都爆了：一方面 1M 上下文很多用不了，另一方面只有 2.3x 可以使用还又慢又不稳定，严重影响了进度。感觉我没有 Claude Code 完全科研不了了（ 所以想问问各位佬有没有比较稳定订阅/使用 Claude Code MAX 套餐的方式，最好少折腾一点，虽然报销不了，但是每月两三千还能接受。因为还是学生，所以也没有国外银行卡或者国内银行的外币卡之类的，只有一张虚拟卡。 要求有点多，感谢佬们分享一些经验 15 个帖子 - 7 位参与者 阅读完整话题 如题，在校学生，因为科研导致用量巨大，本地和多台远程机可能会同时使用 Claude Code。远程机是租卡，所以 IP 不固定，通过 VSC Remote SSH 连接。 目前是使用各种中转站，中转站 1.2x ~ 2.3x（即 1r = 1$，然后倍率是 1.2 ~ 2.3）相对稳定时每周可能花 2000+r。因为组里能报销大部分所以也还能接受，就是需要自己先垫着。 但最近一周各个中转站都爆了：一方面 1M 上下文很多用不了，另一方面只有 2.3x 可以使用还又慢又不稳定，严重影响了进度。感觉我没有 Claude Code 完全科研不了了（ 所以想问问各位佬有没有比较稳定订阅/使用 Claude Code MAX 套餐的方式，最好少折腾一点，虽然报销不了，但是每月两三千还能接受。因为还是学生，所以也没有国外银行卡或者国内银行的外币卡之类的，只有一张虚拟卡。 要求有点多，感谢佬们分享一些经验 15 个帖子 - 7 位参与者 阅读完整话题"
+        },
+        {
+          "id": "ba22319da0d328e58ed310a5b10b24037669a496689585d1d900ff60d0a986d5",
+          "signature": "a270759eb887a36f23182e7ceddb59824d6a2a8479de56c3da88d15e47222ca8",
+          "title": "AI商业智慧 AI+文案 +PPT+图像+视频",
+          "link": "https://linux.do/t/topic/1891870",
+          "published": "2026-04-03 12:08 UTC",
+          "sort_key": 1775218100.0,
+          "source_kind": "feed",
+          "text": "AI商业智慧【AI+文案+PPT+图像+视频】_ ├── 1 - ai新人类商业课第一节【AI+文案】.mp4 ├── 10 - AI商业智慧第十节【AI+图像】【 hapernetwork概念】.mp4 ├── 11 - AI商业智慧第十一节【AI+图像】【 总汇梳理】.mp4 ├── 12 - AI商业智慧第十二节【AI+图像】【 电商案例 服装换模特】.mp4 ├── 13 - AI商业智慧第十四节【AI+视频】【Stable diffusion 视频渲染】.mp4 ├── 2 - AI商业课第二节【AI+文案】.mp4 ├── 3 - AI商业智慧第三节【GPT+PPT】生产力.mp4 ├── 4 - AI商业智慧第四节【AI+图像】【stable diffusion 安装】.mp4 ├── 5 - AI商业智慧第五节【AI+图像】【stable diffusion 模型概念】.mp4 ├── 6 - AI商业智慧第六节【AI+图像】【VAE模型概念】.mp4 ├── 7 - AI商业智慧第七节【AI+图像】【 Embedding是什么？.mp4 ├── 8 - AI商业智慧第八节【AI+图像】【 LORA 的操作上】.mp4 └── 9 - AI商业智慧第九节【AI+图像】【 LORA 的操作下】.mp4 我用夸克网盘给你分享了「AI商业智慧【AI+文案+PPT+图像+视频】_」，点击链接或复制整段内容，打开「夸克APP」即可获取。 /~e1053Xqhjb~ 链接： https://pan.quark.cn/s/235b87a32bd0 2 个帖子 - 2 位参与者 阅读完整话题 AI商业智慧【AI+文案+PPT+图像+视频】_ ├── 1 - ai新人类商业课第一节【AI+文案】.mp4 ├── 10 - AI商业智慧第十节【AI+图像】【 hapernetwork概念】.mp4 ├── 11 - AI商业智慧第十一节【AI+图像】【 总汇梳理】.mp4 ├── 12 - AI商业智慧第十二节【AI+图像】【 电商案例 服装换模特】.mp4 ├── 13 - AI商业智慧第十四节【AI+视频】【Stable diffusion 视频渲染】.mp4 ├── 2 - AI商业课第二节【AI+文案】.mp4 ├── 3 - AI商业智慧第三节【GPT+PPT】生产力.mp4 ├── 4 - AI商业智慧第四节【AI+图像】【stable diffusion 安装】.mp4 ├── 5 - AI商业智慧第五节【AI+图像】【stable diffusion 模型概念】.mp4 ├── 6 - AI商业智慧第六节【AI+图像】【VAE模型概念】.mp4 ├── 7 - AI商业智慧第七节【AI+图像】【 Embedding是什么？.mp4 ├── 8 - AI商业智慧第八节【AI+图像】【 LORA 的操作上】.mp4 └── 9 - AI商业智慧第九节【AI+图像】【 LORA 的操作下】.mp4 我用夸克网盘给你分享了「AI商业智慧【AI+文案+PPT+图像+视频】_」，点击链接或复制整段内容，打开「夸克APP」即可获取。 /~e1053Xqhjb~ 链接： https://pan.quark.cn/s/235b87a32bd0 2 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "74262a35ce3f16108e897bd8092e69373dbb7acb5417c409fd3dcc50353da8ce",
+          "signature": "33f11e40713195892846a183c47f4edda3ed05d2d9c7dde373ca96b618916bda",
+          "title": "老板说以后我只能用Claude code，用其他的就让我滚蛋！",
+          "link": "https://linux.do/t/topic/1891842",
+          "published": "2026-04-03 12:06 UTC",
+          "sort_key": 1775217969.0,
+          "source_kind": "feed",
+          "text": "我们老板特别喜欢让下面的人一个一个汇报ai使用情况，小兵也不放过，今天我汇报的时候说了一句 我平时主用claude code，然后复杂问题会驱动codex和gemini协作交叉审核 最后cc仲裁，我们老板直接脸红的跟屁股一样发飙了，警告我以后只能用Claude Code，再听到说用其他模型就要整治我让我滚，还马上艾特我线上的直接领导让我们节后好好汇报一下到底怎么用的！我现在好后悔 40 个帖子 - 23 位参与者 阅读完整话题 我们老板特别喜欢让下面的人一个一个汇报ai使用情况，小兵也不放过，今天我汇报的时候说了一句 我平时主用claude code，然后复杂问题会驱动codex和gemini协作交叉审核 最后cc仲裁，我们老板直接脸红的跟屁股一样发飙了，警告我以后只能用Claude Code，再听到说用其他模型就要整治我让我滚，还马上艾特我线上的直接领导让我们节后好好汇报一下到底怎么用的！我现在好后悔 40 个帖子 - 23 位参与者 阅读完整话题"
+        },
+        {
+          "id": "3875b18889864ae37b869c2ed423367837c66c7872d4baf6496361af79941e81",
+          "signature": "62cfce19e9a2709b4ae8f87658a2dcce5d944603ad6a16f3cf3e18fbbb84c378",
+          "title": "CPA反代被扫描盗刷事件分析",
+          "link": "https://linux.do/t/topic/1891840",
+          "published": "2026-04-03 12:05 UTC",
+          "sort_key": 1775217949.0,
+          "source_kind": "feed",
+          "text": "今天在检查 CPA 管理后台时，发现使用统计中出现了一条不属于我的 API 调用记录： POST /v1internal:method ，共 20次请求，消耗 715 Tokens。排查后确认是外部扫描工具在自动探测并尝试白嫖我的反代接口。分享一下完整的排查过程和加固方案，希望能帮到同样在用 CPA做反代的朋友。本人有点菜，全程跟着ai分析的，勿喷 一、发现异常 在 CPA 后台的「使用统计」页面，正常的调用记录都以 sk****** 格式的 API Key 开头，但其中混入了一条： 这条记录没有 API Key 标识，一眼就不正常。 二、日志分析 登录服务器，通过 Nginx 访问日志定位异常请求： grep \"v1internal\" /var/log/nginx/access.log 发现所有异常请求来自 同一个 IP，使用了一个叫 cliproxy 的工具，攻击分为两个阶段： 第一波：探测阶段（15:28 - 15:31） 84.235.235.105 - [15:28:35] “POST /v1internal:generateContent” 301 - “cliproxy-aggregator/0.1” 84.235.235.105 - [15:28:43] “POST /v1internal:generateContent” 301 - “cliproxy-aggregator/0.1” …（约 12 次请求，间隔 5-8 秒） 84.235.235.105 - [15:31:18] “POST /v1internal:generateContent” 200 - “cliproxy-aggregator/0.1” 第二波：批量榨取（16:40:44 - 16:40:54） 84.235.235.105 - [16:40:44] “POST /v1internal:generateContent” 502 - “cliproxy-full-extractor/0.1” 84.235.235.105 - [16:40:44] “POST /v1internal:generateContent” 502 - “cliproxy-full-extractor/0.1” 84.235.235.105 - [16:40:46] “POST /v1internal:generateContent” 200 - “cliproxy-full-extractor/0.1” …（约 28 次请求，同一秒内并发多个） 84.235.235.105 - [16:40:54] “POST /v1internal:generateContent” 429 - “cliproxy-full-extractor/0.1” 三、应急处置 封禁攻击者 IP iptables -I INPUT -s 84.235.235.105 -j DROP 持久化规则 apt-get install iptables-persistent -y netfilter-persistent save 确认无其他渗透 grep \"84.235.235.105\" /var/log/nginx/access.log | grep -v \"v1internal\" # 输出为空 —— 该 IP 仅攻击了 v1internal 路径，未做其他探测 四、Nginx 长期加固方案 nginx.conf 添加全局限流，在 http {} 块中加入： limit_req_zone $binary_remote_addr zone=api_limit:10m rate=10r/s; 站点配置加固（完整版） server { server_name your-domain.com; # 1. 隐藏 Nginx 版本号 server_tokens off; # 2. 拦截已知恶意 User-Agent if ($http_user_agent ~* \"cliproxy|scanner|scraper|masscan|nmap|nikto|sqlmap|dirbuster|gobuster|zgrab|httpx|nuclei\") { return 403; } # 3. 拒绝空 User-Agent 请求 if ($http_user_agent = \"\") { return 403; } # 4. 拦截非标准/危险路径 location ~* \"(v1internal|\\.env|\\.git|wp-admin|wp-login|phpmyadmin|\\.php$|/admin$|/debug|/actuator|/swagger)\" { access_log /var/log/nginx/blocked.log; return 403; } # 5. 正常反代 location / { limit_req zone=api_limit burst=20 nodelay; limit_req_status 429; proxy_pass http://127.0.0.1:PORT; proxy_set_header Host $host; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_buffering off; proxy_cache off; proxy_read_timeout 300s; chunked_transfer_encoding on; # 安全响应头 add_header X-Content-Type-Options \"nosniff\" always; add_header X-Frame-Options \"DENY\" always; add_header Referrer-Policy \"no-referrer\" always; } # SSL 配置（Certbot 管理）... } 这是我目前的加固方案了，如果佬们有更好的方案请告诉我，本人有点菜，不太会弄服务器这些的 2 个帖子 - 2 位参与者 阅读完整话题 今天在检查 CPA 管理后台时，发现使用统计中出现了一条不属于我的 API 调用记录： POST /v1internal:method ，共 20次请求，消耗 715 Tokens。排查后确认是外部扫描工具在自动探测并尝试白嫖我的反代接口。分享一下完整的排查过程和加固方案，希望能帮到同样在用 CPA做反代的朋友。本人有点菜，全程跟着ai分析的，勿喷 一、发现异常 在 CPA 后台的「使用统计」页面，正常的调用记录都以 sk****** 格式的 API Key 开头，但其中混入了一条： 这条记录没有 API Key 标识，一眼就不正常。 二、日志分析 登录服务器，通过 Nginx 访问日志定位异常请求： grep \"v1internal\" /var/log/nginx/access.log 发现所有异常请求来自 同一个 IP，使用了一个叫 cliproxy 的工具，攻击分为两个阶段： 第一波：探测阶段（15:28 - 15:31） 84.235.235.105 - [15:28:35] “POST /v1internal:generateContent” 301 - “cliproxy-aggregator/0.1” 84.235.235.105 - [15:28:43] “POST /v1internal:generateContent” 301 - “cliproxy-aggregator/0.1” …（约 12 次请求，间隔 5-8 秒） 84.235.235.105 - [15:31:18] “POST /v1internal:generateContent” 200 - “cliproxy-aggregator/0.1” 第二波：批量榨取（16:40:44 - 16:40:54） 84.235.235.105 - [16:40:44] “POST /v1internal:generateContent” 502 - “cliproxy-full-extractor/0.1” 84.235.235.105 - [16:40:44] “POST /v1internal:generateContent” 502 - “cliproxy-full-extractor/0.1” 84.235.235.105 - [16:40:46] “POST /v1internal:generateContent” 200 - “cliproxy-full-extractor/0.1” …（约 28 次请求，同一秒内并发多个） 84.235.235.105 - [16:40:54] “POST /v1internal:generateContent” 429 - “cliproxy-full-extractor/0.1” 三、应急处置 封禁攻击者 IP iptables -I INPUT -s 84.235.235.105 -j DROP 持久化规则 apt-get install iptables-persistent -y netfilter-persistent save 确认无其他渗透 grep \"84.235.235.105\" /var/log/nginx/access.log | grep -v \"v1intern…"
+        },
+        {
+          "id": "caa75fe77ddd1f71e41d69726a8da3499eb551ff9df6380734ccb8dcf0a6b7e2",
+          "signature": "a867f8ddf35dae1b30c5349f4a0a5b2d413f34ff49027d69501d3b5b178f5ab5",
+          "title": "即梦升级了，吃相更难看了",
+          "link": "https://linux.do/t/topic/1891828",
+          "published": "2026-04-03 12:04 UTC",
+          "sort_key": 1775217873.0,
+          "source_kind": "feed",
+          "text": "即梦的seedance2.0刚才新增了VIP 以为不用排队了 再一看，积分又翻倍了 真是 我xx! 这他妈吃相 我他妈高级会员是白开的了 5 个帖子 - 3 位参与者 阅读完整话题 即梦的seedance2.0刚才新增了VIP 以为不用排队了 再一看，积分又翻倍了 真是 我xx! 这他妈吃相 我他妈高级会员是白开的了 5 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "d18d58a553ad0f4a08cefe32768cc6da5af0c73ef8c5096113aebf3e95002608",
+          "signature": "f7e7a8201123222abd43830fc6243075b7506aeb2b3f45afc9bcc1f3eeda737d",
+          "title": "[诈骗警惕！]X上出现anyrouter号主引流至telegram",
+          "link": "https://linux.do/t/topic/1891777",
+          "published": "2026-04-03 11:54 UTC",
+          "sort_key": 1775217296.0,
+          "source_kind": "feed",
+          "text": "之前被恶意举报下架了，再发一遍 最近X上冒出了一个用户，打着anyrouter的旗号 创建的帖子，都跟anyrouter有关 于是我也进了他们的公开群 当然也存在付费群 以及Pro用户群 翻阅聊天记录的时候发现，存在opus内测群，当然也不免费 不方便支付U？进入微信群，支付99元给群主即可（这里已经90%确认是恶意引流） OK，我选择转1U。成功进入内测群，然后拿到了内测地址 简单介绍一下网站，每日有签到功能，会给200k token。免费会员每日有300k token额度，当然测试一句hello就会消失60k api暂时不让用了，应该是再开发新功能，被下架了 我从x上看到telegram的群组，类似诈骗的套路，逐层引诱用户进入圈套。如果不够用怎么办，别急，还有\"企业api\" 做中转赚钱无可厚非，但是打着公益站的名头确实有些过分了 23 个帖子 - 14 位参与者 阅读完整话题 之前被恶意举报下架了，再发一遍 最近X上冒出了一个用户，打着anyrouter的旗号 创建的帖子，都跟anyrouter有关 于是我也进了他们的公开群 当然也存在付费群 以及Pro用户群 翻阅聊天记录的时候发现，存在opus内测群，当然也不免费 不方便支付U？进入微信群，支付99元给群主即可（这里已经90%确认是恶意引流） OK，我选择转1U。成功进入内测群，然后拿到了内测地址 简单介绍一下网站，每日有签到功能，会给200k token。免费会员每日有300k token额度，当然测试一句hello就会消失60k api暂时不让用了，应该是再开发新功能，被下架了 我从x上看到telegram的群组，类似诈骗的套路，逐层引诱用户进入圈套。如果不够用怎么办，别急，还有\"企业api\" 做中转赚钱无可厚非，但是打着公益站的名头确实有些过分了 23 个帖子 - 14 位参与者 阅读完整话题"
+        },
+        {
+          "id": "e4d08ef025ba89a6c5c42a3003c98916893db24e18a73ad6a9bebdfddd38a133",
+          "signature": "0522f4ded03872080961d06ffe61cf6e6df65fd79578e234315c02bf759dcd30",
+          "title": "DeepSeek零基础入门教程",
+          "link": "https://linux.do/t/topic/1891754",
+          "published": "2026-04-03 11:50 UTC",
+          "sort_key": 1775217059.0,
+          "source_kind": "feed",
+          "text": "├── 1-1、注册登录-电脑端-.mp4 ├── 2-2、注册登录-手机端-.mp4 ├── 3-3、认识操作界面-逐一慢讲每个功能的使用-.mp4 ├── 4-4、用哪吒2实时票房区分深度思考和联网搜索-.mp4 ├── 5-5、用“勾股定理”演示deepseek和豆包搜索的主要区别-.mp4 ├── 6-6、deepseek为啥总是服务器繁忙-.mp4 ├── 7-7、平替deepseek的AI搜索哪家好【秘塔纳米】-.mp4 ├── 8-8、用“新店开业方案”学会deepseek“四步提问法”_1 (1).mp4 └── 9-应用：一键生成PPT登录注册网页端KIMI-.mp4 通过网盘分享的文件：DeepSeek零基础入门教程 链接: https://pan.baidu.com/s/1CgHSEa1G_42kidNDX-Ki0w?pwd=3nra 提取码: 3nra –来自百度网盘超级会员v3的分享 2 个帖子 - 2 位参与者 阅读完整话题 ├── 1-1、注册登录-电脑端-.mp4 ├── 2-2、注册登录-手机端-.mp4 ├── 3-3、认识操作界面-逐一慢讲每个功能的使用-.mp4 ├── 4-4、用哪吒2实时票房区分深度思考和联网搜索-.mp4 ├── 5-5、用“勾股定理”演示deepseek和豆包搜索的主要区别-.mp4 ├── 6-6、deepseek为啥总是服务器繁忙-.mp4 ├── 7-7、平替deepseek的AI搜索哪家好【秘塔纳米】-.mp4 ├── 8-8、用“新店开业方案”学会deepseek“四步提问法”_1 (1).mp4 └── 9-应用：一键生成PPT登录注册网页端KIMI-.mp4 通过网盘分享的文件：DeepSeek零基础入门教程 链接: https://pan.baidu.com/s/1CgHSEa1G_42kidNDX-Ki0w?pwd=3nra 提取码: 3nra –来自百度网盘超级会员v3的分享 2 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "44a8a98912d3822811e7564d4bcf9791d00183264ada6a5e9b5a9f11c1678e0d",
+          "signature": "694e62616c72d31a602ba119143cd3199571795e852eed27c77959523b614c64",
+          "title": "Oh My Paper — 给 Claude Code 装上科研大脑，从文献到发表全流程自动化，人从中做判断和决定",
+          "link": "https://linux.do/t/topic/1891749",
+          "published": "2026-04-03 11:49 UTC",
+          "sort_key": 1775216999.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 仓库地址：求star，star越多更新越快嗷 github.com GitHub - LigphiDonk/Oh-my--paper: auto... auto research的入口，claudecode插件，规范agent科研流程，无感接入科研工作流，科研harness。 这是什么 Oh My Paper 是一个 Claude Code 插件，把你的终端变成一个自主科研实验室。 装好之后，Claude Code 不再只是一个编程 agent，它能理解你在做科研——知道你在调研阶段还是写作阶段，知道你上次实验跑到哪里，知道文献库里有什么。设计了多层记忆文档，避免一开新对话就忘记科研进度。 两行命令安装，不需要 GUI，不需要额外的 app，一切在终端里完成。 为什么做这个 Claude Code 写代码很强，但科研不只是写代码。 开一个新课题，你需要：查 50 篇文献 → 整理笔记 → 筛选创新点 → 设计实验 → 写评估代码 → 上 GPU 跑 → 分析结果 → 开始写论文 → 做图表 → 审查引用 → 自查质量。每个环节用不同的skill、不同的格式、不同的模型，还需要管理上下文记忆，科研时间长了就容易混乱。 Oh My Paper 把这些环节串成一条流水线，让 Claude Code 在每个环节都知道该做什么。 核心设计 5 阶段流水线 调研 (Survey) → 创意 (Ideation) → 实验 (Experiment) → 发表 (Publication) → 推广 (Promotion) 每个阶段有自动生成的任务树、推荐技能、上下文感知的提示。你不用记自己走到哪一步了——agent 记得。 5 个专职角色 角色 干什么 Conductor 全局统筹，派发任务，自动维护进度 Literature Scout 搜论文、整理文献库 Experiment Driver 设计实验、写代码、跑评估 Paper Writer 写 LaTeX、做图表、审引用 Reviewer 同行评审、质量把关 每个角色有独立的记忆文件，互不干扰。Literature Scout 看不到实验数据，Paper Writer 看不到统筹状态。这不是限制，是防止上下文污染——让每个 agent 该知道的知道，不该知道的不知道。 34 个研究技能 涵盖论文搜索（ paper-finder ）、文献追踪（ research-literature-trace ）、深度调研（ inno-deep-research ）、实验开发（ inno-experiment-dev ）、远程实验（ remote-experiment ）、论文写作（ ml-paper-writing ）、图表生成（ inno-figure-gen ）、引用审查（ inno-reference-audit ）等。 根据当前阶段自动推荐，也可以在 skills/ 目录下加你自己的。 跨会话记忆 每次打开终端， SessionStart hook 自动注入项目上下文——你在哪个阶段、当前任务是什么、上次交接了什么。选一个角色就直接干活，不用重新解释背景。 记忆文件存在 .pipeline/memory/ 里，包括项目基准、实验历史、文献库、评审记录等 9 个文件，全部持久化。 Codex 任务委派 /omp:delegate 让 Conductor 把编码任务交给 Codex 在另一个终端并行跑。跑完自动同步结果回来。也可以自行复制给codex执行，效果更佳。 远程实验 /omp:experiment 支持完整的自动实验循环：设计方案 → 实现代码 → rsync 到服务器 → GPU 上跑 → 解析指标 → 继续迭代。 在 Claude Code 里运行： /plugin marketplace add LigphiDonk/Oh-my–paper /plugin install omp@oh-my-paper 重启 Claude Code，然后在你的科研项目里： bash /omp:setup 搞定。8 个 slash 命令覆盖整个科研流程： 命令 用途 /omp:setup 初始化项目结构 /omp:survey 文献调研 /omp:ideate 创新点生成与评估 /omp:experiment 实验设计与执行 /omp:write 论文撰写 /omp:review 评审与质量把关 /omp:delegate 委派任务给 Codex /omp:plan 全局进展与规划 设计理念 四个字： 增强，不替代。 Claude Code 本身已经很强，Oh My Paper 不覆盖它的判断，只给它加上科研领域的结构和记忆。Hooks 在后台跑，你只是在写代码的时候不会有任何干扰。需要的时候调用，不需要的时候当它不存在。 欢迎试用，有问题直接在这里反馈或者去 GitHub 开 issue。PR 也欢迎——加个新 skill 只需要写一个 markdown 文件，自定义化你自己的科研流程。 11 个帖子 - 9 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 仓库地址：求star，star越多更新越快嗷 github.com GitHub - LigphiDonk/Oh-my--paper: auto... auto research的入口，claudecode插件，规范agent科研流程，无感接入科研工作流，科研harness。 这是什么 Oh My Paper 是一个 Claude Code 插件，把你的终端变成一个自主科研实验室。 装好之后，Claude Code 不再只是一个编程 agent，它能理解你在做科研——知道你在调研阶段还是写作阶段，知道你上次实验跑到哪里，知道文献库里有什么。设计了多层记忆文档，避免一开新对话就忘记科研进度。 两行命令安装，不需要 GUI，不需要额外的 app，一切在终端里完成。 为什么做这个 Claude Code 写代码很强，但科研不只是写代码。 开一个新课题，你需要：查 50 篇文献 → 整理笔记 → 筛选创新点 → 设计实验 → 写评估代码 → 上 GPU 跑 → 分析结果 → 开始写论文 → 做图表 → 审查引用 → 自查质量。每个环节用不同的skill、不同的格式、不同的模型，还需要管理上下文记忆，科研时间长了就容易混乱。 Oh My Paper 把这些环节串成一条流水线，让 Claude Code 在每个环节都知道该做什么。 核心设计 5 阶段流水线 调研 (Survey) → 创意 (Ideation) → 实验 (Experiment) → 发表 (Publication) → 推广 (Promotion) 每个阶段有自动生成的任务树、推荐技能、上下文感知的提示。你不用记自己走到哪一步了——agent 记得。 5 个专职角色 角色 干什么 Conductor 全局统筹，派发任务，自动维护进度 Literature Scout 搜论文、整理文献库 Experiment Driver 设计实验、写代码、跑评估 Paper Writer 写 LaTeX、做图表、审引用 Reviewer 同行评审、质量把关 每个角色有独立的记忆文件，互不干扰。Literature Scout 看不到实验数据，Paper Writer 看不到统筹状态。这不是限制，是防止上下文污染——让每个 agent 该知道的知道，不该知道的不知道。 34 个研究技能 涵盖论文搜索（ paper-finder ）、文献追踪（ research-literature-trace ）、深度调研（ inno-deep-research ）、实验开发（ inno-experiment-dev ）、远程实验（ remote-experiment ）、论文写作（ ml-paper-writing ）、图表生成（ inno-figure-gen ）、引用审查（ inno-reference-audit ）等。 根据当前阶段自动推荐，也可以在 skills/ 目录下加你自己的。 跨会话记忆 每次打开终端， SessionStart hook 自动注入项目上下文——你在哪个阶段、当前任务是什么、上次交接了什么。选一个角色就直接干活，不用重新解释背景。 记忆文件存在 .pipeline/memory/ 里，包括项目基准、实验历史、文献库、评审记录等 9 个文件，全部持久化。 Codex 任务委派 /omp:delegate 让 Conductor 把编码任务交给 Codex 在另一个终端并行跑。跑完自动同步结果回来。也可以自行复制给codex执行，效果更佳。 远程实验 /omp:experiment…"
+        },
+        {
+          "id": "a52112fc163eec7e027beda227b838e34b180a76167d47bcc38a42c249bab29e",
+          "signature": "1fa2714a0dc537f4831b02b2188a2bd2427f3a46e40b49be7fca270a2c954ff2",
+          "title": "即梦电影高级运镜教学合集，用AI打造电影级镜头语言",
+          "link": "https://linux.do/t/topic/1891701",
+          "published": "2026-04-03 11:40 UTC",
+          "sort_key": 1775216408.0,
+          "source_kind": "feed",
+          "text": "系统讲解电影级高级运镜技巧与AIGC创意应用。从镜头运动、构图美学、节奏控制，到AI辅助创意生成、画面调度与情绪表达，手把手教你用即梦打造专业级影视作品。适合短视频创作者、影视爱好者、AI创意从业者进阶学习。 pan.baidu.com 百度网盘 请输入提取码 百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。注册使用百度网盘即可享受免费存储空间 pan.quark.cn 夸克网盘分享 夸克网盘是夸克推出的一款云服务产品，功能包括云存储、高清看剧、文件在线解压、PDF一键转换等。通过夸克网盘可随时随地管理和使用照片、文档、手机资料，目前支持Android、iOS、PC、iPad。 2 个帖子 - 2 位参与者 阅读完整话题 系统讲解电影级高级运镜技巧与AIGC创意应用。从镜头运动、构图美学、节奏控制，到AI辅助创意生成、画面调度与情绪表达，手把手教你用即梦打造专业级影视作品。适合短视频创作者、影视爱好者、AI创意从业者进阶学习。 pan.baidu.com 百度网盘 请输入提取码 百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。注册使用百度网盘即可享受免费存储空间 pan.quark.cn 夸克网盘分享 夸克网盘是夸克推出的一款云服务产品，功能包括云存储、高清看剧、文件在线解压、PDF一键转换等。通过夸克网盘可随时随地管理和使用照片、文档、手机资料，目前支持Android、iOS、PC、iPad。 2 个帖子 - 2 位参与者 阅读完整话题"
+        },
         {
           "id": "baa6b6f1bde953887fcb26a61d2b4e5b2245b230cc480132a4dc4df6e4173517",
           "signature": "103a70b43802be5ac18817e55500a909732a72a87b3ff51075cdfb306506ce88",
@@ -365,6 +553,26 @@
           "sort_key": 1775215529.0,
           "source_kind": "feed",
           "text": "推特热议的一个帖子。 佬友们有啥看法 国外还有 CC 圣教，难绷 3 个帖子 - 3 位参与者 阅读完整话题 推特热议的一个帖子。 佬友们有啥看法 国外还有 CC 圣教，难绷 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "831457c7bffa23467f601955ac242ba743618c077479419c4753572a56908769",
+          "signature": "72addbe011342ffdeb46a772648284c1bdcb1e172231b014b3fc9f7978be7777",
+          "title": "赢在开端自媒体IP增长课，实现个人品牌可持续增长",
+          "link": "https://linux.do/t/topic/1891633",
+          "published": "2026-04-03 11:17 UTC",
+          "sort_key": 1775215040.0,
+          "source_kind": "feed",
+          "text": "我用夸克网盘分享了「赢在开端自媒体IP增长课，实现个人品牌可持续增长」，点击链接即可保存。打开「夸克APP」，无需下载在线播放视频，畅享原画5倍速，支持电视投屏。 链接： 夸克网盘分享 3 个帖子 - 3 位参与者 阅读完整话题 我用夸克网盘分享了「赢在开端自媒体IP增长课，实现个人品牌可持续增长」，点击链接即可保存。打开「夸克APP」，无需下载在线播放视频，畅享原画5倍速，支持电视投屏。 链接： 夸克网盘分享 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "c50ae43bf0c673d897065c6677ca2e7b98a7701db9d8a6d650c48b806059e49e",
+          "signature": "5df241d271ae00a223a1b140430feaf68996f71da4828ba44af515d4863ffe33",
+          "title": "云天《A代写+闲鱼 打穿失业市场》",
+          "link": "https://linux.do/t/topic/1891570",
+          "published": "2026-04-03 11:04 UTC",
+          "sort_key": 1775214276.0,
+          "source_kind": "feed",
+          "text": "├── 第一节：项目介绍-.mp4 ├── 第三节：项目实操（一）-.mp4 ├── 第二节：项目实操-.mp4 ├── 第五节：案例展示-.mp4 └── 第四节：项目实操（二）-.mp4 通过网盘分享的文件：课程详情 链接: 百度网盘 请输入提取码 提取码: hwd1 –来自百度网盘超级会员v3的分享 2 个帖子 - 2 位参与者 阅读完整话题 ├── 第一节：项目介绍-.mp4 ├── 第三节：项目实操（一）-.mp4 ├── 第二节：项目实操-.mp4 ├── 第五节：案例展示-.mp4 └── 第四节：项目实操（二）-.mp4 通过网盘分享的文件：课程详情 链接: 百度网盘 请输入提取码 提取码: hwd1 –来自百度网盘超级会员v3的分享 2 个帖子 - 2 位参与者 阅读完整话题"
         },
         {
           "id": "1bc6c01192842fac7256e60c38122a2bbdd2db285641aab3237cc830e8d5021b",
@@ -465,6 +673,16 @@
           "sort_key": 1775206791.0,
           "source_kind": "feed",
           "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 正文 起初是因为使用时的一次会话丢失，/resume后依然看不到会话，问了ai说是因为api异常导致session丢失了，就是说api异常可能会导致会话丢失，所以就有了这个脚本 （但后面看到provider也会导致丢失，总之丢失的情况还是挺多的，不确定什么导致的） 代码： github.com GitHub - justamanm/restore_claude_session: Restore Claude Code and Codex session content from... Restore Claude Code and Codex session content from local persistent files. 作用 支持claude和codex的会话查看与导出 查找会话id、查看会话详情、导出会话内容 简单的会话过滤 使用示例/场景： 找到目标session id 使用session id将对话内容输出到文件中 告诉ai对话文件位置来实现上下文的导入 用法 python main.py 注： 1.可以先根据这个帖子先配置一致的provider，看是否可以解决切换api导致的丢失问题 终端使用ccswitch切换api导致codex历史会话丢失问题” 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 我是小白在终… 2.cc-switch中也可以查看全部的会话记录 3.环境：基于mac 5 个帖子 - 4 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 正文 起初是因为使用时的一次会话丢失，/resume后依然看不到会话，问了ai说是因为api异常导致session丢失了，就是说api异常可能会导致会话丢失，所以就有了这个脚本 （但后面看到provider也会导致丢失，总之丢失的情况还是挺多的，不确定什么导致的） 代码： github.com GitHub - justamanm/restore_claude_session: Restore Claude Code and Codex session content from... Restore Claude Code and Codex session content from local persistent files. 作用 支持claude和codex的会话查看与导出 查找会话id、查看会话详情、导出会话内容 简单的会话过滤 使用示例/场景： 找到目标session id 使用session id将对话内容输出到文件中 告诉ai对话文件位置来实现上下文的导入 用法 python main.py 注： 1.可以先根据这个帖子先配置一致的provider，看是否可以解决切换api导致的丢失问题 终端使用ccswitch切换api导致codex历史会话丢失问题” 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 我是小白在终… 2.cc-switch中也可以查看全部的会话记录 3.环境：基于mac 5 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "9d1e12ebd9aac47a65543217e5f1e311a86fa4250f95a71595e601ead57e831e",
+          "signature": "6cf5ca48c77171410b4211af2745f0d8e17ba5712a170157eb731ebba8a65654",
+          "title": "有没有感觉codexTeam的额度也被砍了",
+          "link": "https://linux.do/t/topic/1890839",
+          "published": "2026-04-03 08:55 UTC",
+          "sort_key": 1775206508.0,
+          "source_kind": "feed",
+          "text": "上午已经5小说限额刷新后，刚问了一个问题，直接掉了40%额度，之前开fast模式猛蹬都不会触发5小时限额 15 个帖子 - 8 位参与者 阅读完整话题 上午已经5小说限额刷新后，刚问了一个问题，直接掉了40%额度，之前开fast模式猛蹬都不会触发5小时限额 15 个帖子 - 8 位参与者 阅读完整话题"
         },
         {
           "id": "2db298cf91fe747e4732d584c33e1bd60143a2778e5399926451e2faab12d10a",
@@ -927,6 +1145,16 @@
           "text": "真的不懂，有谁能解答一下吗？ 38 个帖子 - 19 位参与者 阅读完整话题 真的不懂，有谁能解答一下吗？ 38 个帖子 - 19 位参与者 阅读完整话题"
         },
         {
+          "id": "b021a6845e9ed92b9812bad29a45aa6a65514cf325c5f0c07a68539ea36f51ef",
+          "signature": "5cec4badce753a0503e69aa1fc535d56e8762c4b609c8be09338664afc0fafa8",
+          "title": "各位佬友，是否有什么软件可以直接反代2api后可以直接使用的。",
+          "link": "https://linux.do/t/topic/1881457",
+          "published": "2026-04-02 04:39 UTC",
+          "sort_key": 1775104790.0,
+          "source_kind": "feed",
+          "text": "在L站逛了有段时间了，终于搞清楚了几个概念，CPA,ds2api,qwen2api等，是否有什么软件可以直接使用ds或者qwen,openai登入之后反代直接在手机或者电脑上使用的，不知道各位大佬有没有理解我的，有的话可以推荐一下 7 个帖子 - 4 位参与者 阅读完整话题 在L站逛了有段时间了，终于搞清楚了几个概念，CPA,ds2api,qwen2api等，是否有什么软件可以直接使用ds或者qwen,openai登入之后反代直接在手机或者电脑上使用的，不知道各位大佬有没有理解我的，有的话可以推荐一下 7 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
           "id": "3f2b86e501bcc98807823aa6edf0ea73a651b454cdc727e3e0dbb344da8b3207",
           "signature": "011ef6a7d84699fd03f2141c10b120bfe15d05788d78d768f6925eecec2f2956",
           "title": "佬们好卷，Harness教程一天干到1千星",
@@ -977,6 +1205,16 @@
           "text": "求你们，别改等级了，尊重一下发帖人的意愿好吗？ 昨天还原CC源码被人改帖子等级和举报删帖 好在neo明察秋毫恢复了原帖 但我并没有举报改等级的问题 这个帖子0级可见，本就是互联网公开内容，只是再次整理 再有人修改等级，我一定追究举报 4.3日：Heavy已经回收了！不过，Super一年没有掉，且当前操作依旧有效！ 情报来源于互联网公开内容，本文由 Linux.do @huo0 实测后整理，转载请注明来源。 简要说下原理，使用香港IP + amazon支付，没钱也能开 grok → stripe → amazon三方对接问题，估计清算很容易，不知道活多久 需要准备 gmail邮箱（注册amazon一定要别名邮箱！记住！） 0刀虚拟卡 或 自己没钱的银联卡 手机号（国内可用） 注册Amazon 前往 https://www.amazon.com/ 注册账号 使用 user+xxxx@gmail.com 变体即可 需要手机号，国内自己的号即可 领取Grok 3天试用 任意账号左下角头像 先领取3天会员 记得挂香港IP 出现Amazon支付 添加0刀虚拟卡（我看显示支持银联，未测） 开始操作 左下角设置 取消订阅 取消后，选择更新订阅 选择最贵的，确认支付 扣款失败，但会员日期为明年今天 查看会员状态 番外篇： 【随手礼 】Grok加赠 $50 API额度，开完会员记得来领 福利羊毛 忘记截图了，直接点兑换就行。 https://console.x.ai/ [image] 383 个帖子 - 271 位参与者 阅读完整话题 求你们，别改等级了，尊重一下发帖人的意愿好吗？ 昨天还原CC源码被人改帖子等级和举报删帖 好在neo明察秋毫恢复了原帖 但我并没有举报改等级的问题 这个帖子0级可见，本就是互联网公开内容，只是再次整理 再有人修改等级，我一定追究举报 4.3日：Heavy已经回收了！不过，Super一年没有掉，且当前操作依旧有效！ 情报来源于互联网公开内容，本文由 Linux.do @huo0 实测后整理，转载请注明来源。 简要说下原理，使用香港IP + amazon支付，没钱也能开 grok → stripe → amazon三方对接问题，估计清算很容易，不知道活多久 需要准备 gmail邮箱（注册amazon一定要别名邮箱！记住！） 0刀虚拟卡 或 自己没钱的银联卡 手机号（国内可用） 注册Amazon 前往 https://www.amazon.com/ 注册账号 使用 user+xxxx@gmail.com 变体即可 需要手机号，国内自己的号即可 领取Grok 3天试用 任意账号左下角头像 先领取3天会员 记得挂香港IP 出现Amazon支付 添加0刀虚拟卡（我看显示支持银联，未测） 开始操作 左下角设置 取消订阅 取消后，选择更新订阅 选择最贵的，确认支付 扣款失败，但会员日期为明年今天 查看会员状态 番外篇： 【随手礼 】Grok加赠 $50 API额度，开完会员记得来领 福利羊毛 忘记截图了，直接点兑换就行。 https://console.x.ai/ [image] 383 个帖子 - 271 位参与者 阅读完整话题"
         },
         {
+          "id": "f85048e3d3db2735f3b60aea305b69f2ef4d141ab5dda079b5cb92c932b5584f",
+          "signature": "05249f971a0cea3386f90f1094938f20a2085e9e727838d06922b8f745e98097",
+          "title": "（关门）【AcMio 公益站】开站主贴 号池告罄 注册机也废了 等待修复",
+          "link": "https://linux.do/t/topic/1870102",
+          "published": "2026-03-31 18:44 UTC",
+          "sort_key": 1774982697.0,
+          "source_kind": "feed",
+          "text": "#### 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： *** 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是** *** 我的帖子已经打上 公益推广 标签： 是** *** 我的项目属于个人项目，与公司或商业机构无关： 是** *** 我的项目不存在QQ、TG等群组引流： 是** *** 我的项目不存在非运营必要的网站引流： 是** *** 我的项目不存在为他人推广、AFF： 是** *** 我的项目无关联的商业项目： 是** *** 我的站点存在登录，并已接入 LINUX DO Connect： 是** *** 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是** *** 以上选择我承诺是永久有效的，接受社区和佬友监督： 是** 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 AcMio 公益站： https://ai.acmi.run/ 可用codex全家桶 4/1 3:00 初次运营 （点击了解更多详细信息） 4/1 11:16 突破百万token/s （点击了解更多详细信息） 4/1 13:30 后台已经超过3000人 （点击了解更多详细信息） 4/2 17：30 开放600个注册（2级用户），不用的佬友不用注册了好吗 一堆上来占个坑也不用的 过几天全部清退删档 建号未消耗余额的 17：45 紧急情况 sub2出现自动把cpa号池打入禁用的情况 ，正在排查bug，稍后再开 18：10 已经破案修复！ 原来sub2上游要把号池开关打开 否则遇到错误会被禁用整个上游 而不是切号重试 4/3 11：00 注册机拉闸。网站出现502重定向报错. 19：30 号池见底，等待恢复！ 794 个帖子 - 586 位参与者 阅读完整话题 #### 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： *** 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是** *** 我的帖子已经打上 公益推广 标签： 是** *** 我的项目属于个人项目，与公司或商业机构无关： 是** *** 我的项目不存在QQ、TG等群组引流： 是** *** 我的项目不存在非运营必要的网站引流： 是** *** 我的项目不存在为他人推广、AFF： 是** *** 我的项目无关联的商业项目： 是** *** 我的站点存在登录，并已接入 LINUX DO Connect： 是** *** 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是** *** 以上选择我承诺是永久有效的，接受社区和佬友监督： 是** 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 AcMio 公益站： https://ai.acmi.run/ 可用codex全家桶 4/1 3:00 初次运营 （点击了解更多详细信息） 4/1 11:16 突破百万token/s （点击了解更多详细信息） 4/1 13:30 后台已经超过3000人 （点击了解更多详细信息） 4/2 17：30 开放600个注册（2级用户），不用的佬友不用注册了好吗 一堆上来占个坑也不用的 过几天全部清退删档 建号未消耗余额的 17：45 紧急情况 sub2出现自动把cpa号池打入禁用的情况 ，正在排查bug，稍后再开 18：10 已经破案修复！ 原来sub2上游要把号池开关打开 否则遇到错误会被禁用整个上游 而不是切号重试 4/3 11：00 注册机拉闸。网站出现502重定向报错. 19：30 号池见底，等待恢复！ 794 个帖子 - 586 位参与者 阅读完整话题"
+        },
+        {
           "id": "0b9da5be9c5c03b52e26d77113f4ccf33c84f02cbf34a093766a55272881d4a4",
           "signature": "be1acb7279d9e41eea77849c3915dfb3adc02b4d7f5f769e8935c442f7d6806b",
           "title": "【开源】Open-Claude-Code CLI 源码",
@@ -1017,6 +1255,16 @@
           "text": "现在国内哪家的CodingPlan比较稳定速度快? 58 个帖子 - 40 位参与者 阅读完整话题 现在国内哪家的CodingPlan比较稳定速度快? 58 个帖子 - 40 位参与者 阅读完整话题"
         },
         {
+          "id": "d054067fd4073f0da3c14ec3faa1b5efa271b1aad6e40082e90c7759d8912f2e",
+          "signature": "a3c9ba7ccadb0bdd3e041a7fde9ff92c59c624c1e29b99d03f3afa3df228910c",
+          "title": "Codex Windows App 卡在 Reconnecting 简单解决办法",
+          "link": "https://linux.do/t/topic/1846916",
+          "published": "2026-03-29 11:55 UTC",
+          "sort_key": 1774785329.0,
+          "source_kind": "feed",
+          "text": "https://linux.do/t/topic/1703945 Codex Windows App 卡在 Reconnecting 的解决方案 开发调优 如图所示： [PixPin_2026-03-07_12-48-21] 我受够了每一个 GUI 发布都会有代理问题，上一个是 Antigravity 解决方式就是从终端启动，注入代理即可。 pwsh.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command '& { $env:HTTP_PROXY… 其实是老生常谈了。涉及多方面原因： UWP应用不走系统代理，可以在 Clash Verge设置下（但好像不是主因） APP本身会走系统代理，但感觉不全。 设置 PROCESS-NAME 后，能看到流量进来，但还是不行（此时开tun是可以的，感觉还是有些请求没走代理） PROCESS-NAME,Codex.exe,AIProxy 另外注意，OpenAI虽然不怎么封号，但对IP质量也是有要求的，我是单独把AI的代理分了个组，具体问自己机场，一般是SG的线路好一些。 HTTP_PROXY等环境变量可以生效 @Flail7127 贡献的脚本是可以的，但也稍微有点麻烦 后面又看到相关issue： Codex App GUI no longer works with Clash Verge macOS system proxy, while bundled TUI works with env proxy · Issue #13682 · openai/codex · GitHub 说可以设置.env文件，试了下好使。（看源码确实会读） HTTP_PROXY=http://127.0.0.1:7897 HTTPS_PROXY=http://127.0.0.1:7897 ALL_PROXY=socks5://127.0.0.1:7897 NO_PROXY=localhost,127.0.0.1,::1 但不知道是不是偶然，大家可以试试 8 个帖子 - 7 位参与者 阅读完整话题 https://linux.do/t/topic/1703945 Codex Windows App 卡在 Reconnecting 的解决方案 开发调优 如图所示： [PixPin_2026-03-07_12-48-21] 我受够了每一个 GUI 发布都会有代理问题，上一个是 Antigravity 解决方式就是从终端启动，注入代理即可。 pwsh.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command '& { $env:HTTP_PROXY… 其实是老生常谈了。涉及多方面原因： UWP应用不走系统代理，可以在 Clash Verge设置下（但好像不是主因） APP本身会走系统代理，但感觉不全。 设置 PROCESS-NAME 后，能看到流量进来，但还是不行（此时开tun是可以的，感觉还是有些请求没走代理） PROCESS-NAME,Codex.exe,AIProxy 另外注意，OpenAI虽然不怎么封号，但对IP质量也是有要求的，我是单独把AI的代理分了个组，具体问自己机场，一般是SG的线路好一些。 HTTP_PROXY等环境变量可以生效 @Flail7127 贡献的脚本是可以的，但也稍微有点麻烦 后面又看到相关issue： Codex App GUI no longer works with Clash Verge macOS system proxy, while bundled TUI works with env proxy · Issue #13682 · openai/codex · GitHub 说可以设置.env文件，试了下好使。（看源码确实会读） HTTP_PROXY=http://127.0.0.1:7897 HTTPS_PROXY=http://127.0.0.1:7897 ALL_PROXY=socks5://127.0.0.1:7897 NO_PROXY=localhost,127.0.0.1,::1 但不知道是不是偶然，大家可以试试 8 个帖子 - 7 位参与者 阅读完整话题"
+        },
+        {
           "id": "a80733499b7246e8d4b872b210c0289f92b96d174617a2dc95a66ee53580bddb",
           "signature": "7236947c7cbc6ceaf18eb89999321c088998e212dd02794c3e44b5b706cb0678",
           "title": "分享一下常用的网页端大模型厂商与点评",
@@ -1045,6 +1293,16 @@
           "sort_key": 1774403154.0,
           "source_kind": "feed",
           "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 一直以来都是想做一款自己的客户端，又要轻量又要该有的都有，虽然大家都说Tauri的坑比较多，但是我还是跳进来了，试试这个坑有多深 本项目会一直持续更新，而且主打轻量级的方向，主要是打造AI对话客户端以及AI本地网关 做本地AI网关的原因是：我们大多数在本地会有多个AI程序都需要配置AI的API，但是每个都要一一管理就很麻烦，而且有时候也不想去部署线上的只需要简单的管理本地分发，所以只需要在我们的客户端接入之后，其他的通过我们的本地网关接入，统一维护就可以； 而且对于Claude、Codex、OpenCode、GeminiCLI、Cursor这些都是可以一键接入的～ 这个项目从开发到现在总共耗时5天，天天熬夜，刚发布肯定存在一定的不足，欢迎提交各种issue/PR 开源地址： GitHub - AQBot-Desktop/AQBot: 轻量级高性能跨平台 AI 聊天+AI网关桌面客户端 · GitHub 支持如下功能特性 软件实图，话不多说，先上图 最后，如果觉得这个产品对你有帮助，不妨点个赞，点个Star PS：MacOS的版本已经编译出来了，其他平台以及Windows正在actions编译中，敬请稍等 版本下载直达： Releases · AQBot-Desktop/AQBot · GitHub 155 个帖子 - 42 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 一直以来都是想做一款自己的客户端，又要轻量又要该有的都有，虽然大家都说Tauri的坑比较多，但是我还是跳进来了，试试这个坑有多深 本项目会一直持续更新，而且主打轻量级的方向，主要是打造AI对话客户端以及AI本地网关 做本地AI网关的原因是：我们大多数在本地会有多个AI程序都需要配置AI的API，但是每个都要一一管理就很麻烦，而且有时候也不想去部署线上的只需要简单的管理本地分发，所以只需要在我们的客户端接入之后，其他的通过我们的本地网关接入，统一维护就可以； 而且对于Claude、Codex、OpenCode、GeminiCLI、Cursor这些都是可以一键接入的～ 这个项目从开发到现在总共耗时5天，天天熬夜，刚发布肯定存在一定的不足，欢迎提交各种issue/PR 开源地址： GitHub - AQBot-Desktop/AQBot: 轻量级高性能跨平台 AI 聊天+AI网关桌面客户端 · GitHub 支持如下功能特性 软件实图，话不多说，先上图 最后，如果觉得这个产品对你有帮助，不妨点个赞，点个Star PS：MacOS的版本已经编译出来了，其他平台以及Windows正在actions编译中，敬请稍等 版本下载直达： Releases · AQBot-Desktop/AQBot · GitHub 155 个帖子 - 42 位参与者 阅读完整话题"
+        },
+        {
+          "id": "788360c8d15dc43da71fd76b823129aa49e8721e9db695cf7efb9220d8c2ff37",
+          "signature": "15c3a2db009df38b5685aa3fbcaa1f42c1fcd4459b6e550c7565c801ce5121ac",
+          "title": "手机端最强形态的自动化/Agent是什么样？",
+          "link": "https://linux.do/t/topic/1789944",
+          "published": "2026-03-20 13:09 UTC",
+          "sort_key": 1774012140.0,
+          "source_kind": "feed",
+          "text": "Termux、root、线控、手机端的OpenClaw/或其他Agent，佬们试过/折腾过、见过、听说了的最强的自动化/Agent，能够做到什么地步？如何实现的？ 小米的龙虾能干啥？ 24 个帖子 - 11 位参与者 阅读完整话题 Termux、root、线控、手机端的OpenClaw/或其他Agent，佬们试过/折腾过、见过、听说了的最强的自动化/Agent，能够做到什么地步？如何实现的？ 小米的龙虾能干啥？ 24 个帖子 - 11 位参与者 阅读完整话题"
         },
         {
           "id": "4df72e48ddf1f4dd8cc1c057b03d70416341eef02727a463bc569affe57be26a",
@@ -1127,6 +1385,16 @@
           "text": "起因 （点击了解更多详细信息） 问题描述 Claude Code 的 /copy 命令在 Windows（包括 WSL）上复制含中文、日文、韩文、越南语等非 ASCII 字符的文本时，粘贴结果为乱码（mojibake）。macOS 和 Linux 用户不受此问题影响。 相关 Issue： #22346 （OPEN, stale）、 #27709 （closed as duplicate） 测试环境： Windows 10/11, Claude Code v2.1.x, pwsh 7 为什么会产生这个问题？ Claude Code 在不同平台使用不同的剪贴板命令（ cli.js 中定义）： { macos: [\"pbcopy\"], // ✅ 原生支持 UTF-8 linux: [\"xclip -selection clipboard\", \"wl-copy\"], // ✅ 原生支持 UTF-8 wsl: [\"clip.exe\"], // ❌ 不支持 UTF-8 windows: [\"clip\"], // ❌ 不支持 UTF-8 } 当用户执行 /copy 时，执行链路如下： 用户在 pwsh 中运行 claude (Node.js 进程) │ ├─ /copy 触发剪贴板写入 │ ├─ Node.js 调用 execa(\"clip\", { input: text, shell: true }) │ │ │ ├─ Node.js 内部将 JavaScript 字符串 (UTF-16) 转为 UTF-8 字节流 │ │ 写入子进程的 stdin │ │ │ └─ shell: true → 使用 process.env.comSpec (= cmd.exe) │ │ │ └─ 实际执行: cmd.exe /d /s /c \"clip\" │ │ │ └─ clip.exe 从 stdin 读取字节流 │ │ │ └─ ❌ clip.exe 使用系统 OEM 代码页 (如 CP437/CP936) │ 解读字节流，而非 UTF-8 │ └─ 结果：UTF-8 字节被按错误编码解读 → 乱码 核心矛盾： 环节 编码 Node.js stdin 输出 UTF-8 clip.exe stdin 读取 系统 OEM 代码页 （GetOEMCP()，通常为 CP437 或 CP936） 这个编码不匹配是乱码的直接原因。 为什么不能通过 ~/.bashrc 或 $PROFILE 修复？ 我们测试了以下方案，均 无法解决 此问题： 在 ~/.bashrc 中设置 chcp 65001 .bashrc 只在 Claude Code 的 Bash Tool（执行 shell 命令的工具）调用时被 source。而 /copy 是 Node.js 进程 直接 spawn cmd.exe 子进程，完全不经过 bash： /copy 的路径：Node.js → cmd.exe → clip.exe （不经过 bash） Bash Tool： Node.js → bash (source .bashrc) （跟 /copy 无关） 在 PowerShell $PROFILE 中设置 chcp 65001 chcp 65001 改变的是当前 console 会话的代码页，但 clip.exe 读取 stdin 时使用的是 系统 OEM 代码页 （通过 GetOEMCP() 获取），这是系统级全局设置， chcp 无法改变它。 那为什么 chcp 65001 >nul & clip 在同一个 cmd 会话里就能工作？ 因为 chcp 65001 在同一个 cmd.exe 会话中同时改变了该进程的 stdin 处理方式。 clip.exe 作为同一会话的下一个命令直接执行时，继承了这个修改。但从外部（pwsh、bash）设置的 codepage 无法传递到 Node.js 随后 spawn 的 新 cmd.exe 进程中。 PowerShell $input | Set-Clipboard PowerShell 的 $input 自动变量从 stdin 读取时，同样不使用 UTF-8 编码，即使在 pwsh 7 中也是如此。经 Node.js 模拟测试验证，结果仍为乱码。 解决方案 以下提供两种修复方案，任选其一即可。 方案一：补丁脚本（推荐） 直接修改 cli.js 中的剪贴板命令，在调用 clip 前先用 chcp 65001 切换到 UTF-8 代码页。 优点： 最精准，只改一个字符串，零副作用，不影响系统中任何其他软件 缺点： 每次 Claude Code 更新后需重新执行 使用方法 将下方脚本保存为 fix-claude-copy.mjs 执行补丁： node fix-claude-copy.mjs 重启 Claude Code 即可生效 补丁内容 脚本会自动定位 cli.js 并做以下替换： # Windows windows:[\"clip\"] → windows:[\"chcp 65001 >nul & clip\"] # WSL wsl:[\"clip.exe\"] → wsl:[\"cmd.exe /c 'chcp 65001 >nul & clip'\"] 完整脚本代码 #!/usr/bin/env node /** * Claude Code /copy 中文乱码修复补丁 * * 问题: Windows/WSL 上 /copy 命令使用 clip.exe，不支持 UTF-8 stdin，导致中文乱码 * 修复: 在调用 clip 之前先用 chcp 65001 切换到 UTF-8 代码页 * * 用法: node fix-claude-copy.mjs * 每次 Claude Code 更新后需重新执行 */ import { readFileSync, writeFileSync } from 'fs'; import { execSync } from 'child_process'; import { join } from 'path'; // 定位 cli.js let cliPath; try { const prefix = execSync('npm config get prefix', { encoding: 'utf-8' }).trim(); cliPath = join(prefix, 'node_modules', '@anthropic-ai', 'claude-code', 'cli.js'); readFileSync(cliPath); } catch { const home = process.env.USERPROFILE || process.env.HOME; const candidates = [ // Windows (npm global) join(home, 'AppData', 'Roaming', 'npm', 'node_modules', '@anthropic-ai', 'claude-code', 'cli.js'), // Linux / WSL (npm global) '/usr/lib/node_modules/@anthropic-ai/claude-code/cli.js', '/usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js', ]; cliPath = null; for (const p of candidates) { try { readFileSync(p); cliPath = p; break; } catch { continue; } } } if (!cliPath) { console.error('❌ 找不到 Claude Code cli.js，请确认已全局安装 @anthropic-ai/claude-code'); process.exit(1); } console.log(`📂 cli.js: ${cliPath}`); const patches = [ { name: 'Windows', original: 'windows:[\"clip\"]', patched: 'windows:[\"chcp 65001 >nul & clip\"]' }, { name: 'WSL', original: 'wsl:[\"clip.exe\"]', patched: `wsl:[\"cmd.exe /c 'chcp 65001 >nul & clip'\"]` }, ]; let content = readFileSync(cliPath, 'utf-8'); let changed = false; for (const p of patches) { if (content.includes(p.patched)) { console.log(`✅ ${p.name} 补丁已存在`); } else if (content.includes(p.original)) { content = content.replace(p.original, p.patched); changed = true; console.log(`🔧 ${p.name} 补丁已应用: ${p.original} → ${p.patched}`); } else { console.warn(`⚠️ ${p.name} 未找到…"
         },
         {
+          "id": "b60a3c48beee71bf2243405d4b6fdb85405c99ee5ddc152644cd813e0be14dfe",
+          "signature": "f527e83195329e0d8197175bed5466502ad46b41766b43d10d48ed69afc69e55",
+          "title": "一些 AI 站点的脚本合集，主打 ChatGPT 对话导航+对话树+性能优化",
+          "link": "https://linux.do/t/topic/1645549",
+          "published": "2026-02-25 04:25 UTC",
+          "sort_key": 1771993529.0,
+          "source_kind": "feed",
+          "text": "github.com GitHub - lueluelue2006/ai-chat-extension-collection: ai chat 扩展合集 ai chat 扩展合集 其中最有用的几个脚本： ChatGPT 对话树（强烈推荐这个大佬的对话树 [开源分享] ChatGPT浏览器插件：对话可视化为知识图谱和时间树，支持消息快捷跳转，理清复杂对话的逻辑 简直无敌） ChatGPT QuickNav ChatGPT TeX Copy & Quote（公式复制+修复引用） 支持页面： ChatGPT Qwen Kimi DeepSeek Gemini APP Ernie(文心一言国际) GLM Genspark Grok AI捷径 | |____ 通用 | |____ 隐藏免责声明/提示条 | |____ ChatGPT | |____ QuickNav | |____ OpenAI 新模型横幅提示（默认添加了 GPT-5.3） | |____ ChatGPT 性能优化（默认全启动） | |____ ChatGPT 推理强度/模型 快捷切换（⌘O/⌘J） | |____ ⌘Enter 发送（Enter 换行） | |____ ChatGPT 朗读速度控制器（默认 1.8x） | |____ ChatGPT 用量统计（仅在配置页面显示） | |____ ChatGPT 回复计时器（右下角极小的一个计时器） | |____ ChatGPT 下载修复（by @pengzhile） | |____ ChatGPT 回复粗体高亮（Lite） | |____ 快捷深度搜索（译/搜/思） | |____ ChatGPT 隐藏点赞/点踩（by @zhong_little） | |____ ChatGPT TeX Copy & Quote（公式复制+修复引用） | |____ ChatGPT 对话导出 | |____ ChatGPT 消息分叉编辑（可加图） | |____ ChatGPT 消息树 | |____ ChatGPT 侧边栏顶部按钮修复 | |____ Qwen | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Qwen 模型/推理 快捷切换 | |____ Kimi | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ DeepSeek | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Gemini App | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ 文心一言 | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ GLM（z.ai） | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Genspark | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Genspark 绘图默认设置 | |____ Genspark 积分余量（by @kill） | |____ Genspark 长代码块折叠 | |____ Genspark 消息编辑上传修复 | |____ Genspark Claude Thinking 强制切换（只对sonnet 4.5 有效） | |____ Grok | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Grok 剩余额度显示（对 Grok 4.20 和 heavy 无效） | |____ Grok 废纸篓一键清空 todo： Gemini Enterprise 公式修复 Gemini APP 动态试图导出 43 个帖子 - 11 位参与者 阅读完整话题 github.com GitHub - lueluelue2006/ai-chat-extension-collection: ai chat 扩展合集 ai chat 扩展合集 其中最有用的几个脚本： ChatGPT 对话树（强烈推荐这个大佬的对话树 [开源分享] ChatGPT浏览器插件：对话可视化为知识图谱和时间树，支持消息快捷跳转，理清复杂对话的逻辑 简直无敌） ChatGPT QuickNav ChatGPT TeX Copy & Quote（公式复制+修复引用） 支持页面： ChatGPT Qwen Kimi DeepSeek Gemini APP Ernie(文心一言国际) GLM Genspark Grok AI捷径 | |____ 通用 | |____ 隐藏免责声明/提示条 | |____ ChatGPT | |____ QuickNav | |____ OpenAI 新模型横幅提示（默认添加了 GPT-5.3） | |____ ChatGPT 性能优化（默认全启动） | |____ ChatGPT 推理强度/模型 快捷切换（⌘O/⌘J） | |____ ⌘Enter 发送（Enter 换行） | |____ ChatGPT 朗读速度控制器（默认 1.8x） | |____ ChatGPT 用量统计（仅在配置页面显示） | |____ ChatGPT 回复计时器（右下角极小的一个计时器） | |____ ChatGPT 下载修复（by @pengzhile） | |____ ChatGPT 回复粗体高亮（Lite） | |____ 快捷深度搜索（译/搜/思） | |____ ChatGPT 隐藏点赞/点踩（by @zhong_little） | |____ ChatGPT TeX Copy & Quote（公式复制+修复引用） | |____ ChatGPT 对话导出 | |____ ChatGPT 消息分叉编辑（可加图） | |____ ChatGPT 消息树 | |____ ChatGPT 侧边栏顶部按钮修复 | |____ Qwen | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Qwen 模型/推理 快捷切换 | |____ Kimi | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ DeepSeek | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Gemini App | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ 文心一言 | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ GLM（z.ai） | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Genspark | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Genspark 绘图默认设置 | |____ Genspark 积分余量（by @kill） | |____ Genspark 长代码块折叠 | |____ Genspark 消息编辑上传修复 | |____ Genspark Claude Thinking 强制切换（只对sonnet 4.5 有效） | |____ Grok | |____ QuickNav | |____ ⌘Enter 发送（Enter 换行） | |____ Grok 剩余额度显示（对 Grok 4.20 和 heavy 无效） | |____ Grok 废纸篓一键清空 todo： Gemini Enterprise 公式修复 Gemini APP 动态试图导出 43 个帖子 - 11 位参与者 阅读完整话题"
+        },
+        {
           "id": "7d27d0f8ad850d9b4ef121c4ddaa2b03c8dae753887e356edb5fd94eceb6e681",
           "signature": "79e618e117bf89216c72125812ca4fcb213f6091870a9beee032cea4cd33465e",
           "title": "【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症",
@@ -1135,15 +1403,35 @@
           "sort_key": 1771956030.0,
           "source_kind": "feed",
           "text": "晚上水帖子发现不少佬被配镜所困惑，各位佬作为每天对着屏幕高强度输出的群体，论坛里关于近视、散光、换眼镜的讨论一直没断过。之前Kai佬总结了一篇堪称神作的硬核好帖： Kai丨【2025年眼镜的选择全攻略】v1.0.3 搞七捻三 声明：本文内容基于互联网和线下我信任医师的修改，并非原创帖且禁止转载。基于本帖争议，现附上我编写此贴时素材之一 NGA某眼镜贴 并对其中内容做出梳理、二改和部分重新排版。如有错误还请指正。 本文编辑于 2024-06-04T16:00:00Z (UTC) ，时效性可能有所降低。 老规矩，先上结论： 防蓝光没用，推荐蔡司智锐铂金膜定制版（智锐库存片=普通镜片，甚至不如泽锐） 原厂加工单+授权码就可… 这篇帖子干货满满，我本人也受益匪浅（在此先膜拜一下Kai佬）。但问题也随之而来，佬的帖子太长、太硬核了。之前我配镜的时候，kai佬和某乎上几个帖子一读完，还是晕晕乎乎的，真没精力去啃完几万字的折射率阿贝数之类的。然后还要再结合自己验光单代入进去选镜片镜框，怪累人的。但是其实说白了，大多数佬最关心的也就是一个直接的答案，这个度数和预算，到底买啥镜片、怎么挑框才不会踩坑而且性价比还高… 为了帮佬友们省下薅头发的时间，正好结合Kai佬的攻略以及NGA、某乎上的等等一些视光知识，写了个prompt放到了Gem里，希望能帮到各位佬！ 至于gem里加的一些东西，就让哈基米总结一下吧： 佬的提示词太顶了！ （点击了解更多详细信息） 直达：L站专属配镜专家 配镜Gem prompt （点击了解更多详细信息） 近期更新 感谢 @Flint 佬提供新的参考，现在Gem的知识库更加丰富了！ 给Gem优化了一下提示词，还加入了更全价位段的镜片推荐、镜片材质科普以及日常眼镜保养等方面，再加上重新收集整理的一些高赞文章，希望可以帮到各位佬！ 写在最后 整这个Gem初衷是希望能帮到论坛里有换镜需求的佬友。这玩意儿毕竟还是个AI， 剧透 。如果佬友们在测试过程中发现它哪里说得不对，或者推荐有偏差，欢迎在帖子里反馈，以帮助更多的佬友！ 23 个帖子 - 22 位参与者 阅读完整话题 晚上水帖子发现不少佬被配镜所困惑，各位佬作为每天对着屏幕高强度输出的群体，论坛里关于近视、散光、换眼镜的讨论一直没断过。之前Kai佬总结了一篇堪称神作的硬核好帖： Kai丨【2025年眼镜的选择全攻略】v1.0.3 搞七捻三 声明：本文内容基于互联网和线下我信任医师的修改，并非原创帖且禁止转载。基于本帖争议，现附上我编写此贴时素材之一 NGA某眼镜贴 并对其中内容做出梳理、二改和部分重新排版。如有错误还请指正。 本文编辑于 2024-06-04T16:00:00Z (UTC) ，时效性可能有所降低。 老规矩，先上结论： 防蓝光没用，推荐蔡司智锐铂金膜定制版（智锐库存片=普通镜片，甚至不如泽锐） 原厂加工单+授权码就可… 这篇帖子干货满满，我本人也受益匪浅（在此先膜拜一下Kai佬）。但问题也随之而来，佬的帖子太长、太硬核了。之前我配镜的时候，kai佬和某乎上几个帖子一读完，还是晕晕乎乎的，真没精力去啃完几万字的折射率阿贝数之类的。然后还要再结合自己验光单代入进去选镜片镜框，怪累人的。但是其实说白了，大多数佬最关心的也就是一个直接的答案，这个度数和预算，到底买啥镜片、怎么挑框才不会踩坑而且性价比还高… 为了帮佬友们省下薅头发的时间，正好结合Kai佬的攻略以及NGA、某乎上的等等一些视光知识，写了个prompt放到了Gem里，希望能帮到各位佬！ 至于gem里加的一些东西，就让哈基米总结一下吧： 佬的提示词太顶了！ （点击了解更多详细信息） 直达：L站专属配镜专家 配镜Gem prompt （点击了解更多详细信息） 近期更新 感谢 @Flint 佬提供新的参考，现在Gem的知识库更加丰富了！ 给Gem优化了一下提示词，还加入了更全价位段的镜片推荐、镜片材质科普以及日常眼镜保养等方面，再加上重新收集整理的一些高赞文章，希望可以帮到各位佬！ 写在最后 整这个Gem初衷是希望能帮到论坛里有换镜需求的佬友。这玩意儿毕竟还是个AI， 剧透 。如果佬友们在测试过程中发现它哪里说得不对，或者推荐有偏差，欢迎在帖子里反馈，以帮助更多的佬友！ 23 个帖子 - 22 位参与者 阅读完整话题"
+        },
+        {
+          "id": "25f3b055574b72eb40195d23634f36a0e242976ea88d2c9aaa9256348a76c847",
+          "signature": "1d5705159f1f53ce06b99a048e70612bb26982ada20cdfe70b41e9fe5d0947e0",
+          "title": "【富可敌国】小于1毛钱/$的claude-opus-4-6已全面适配, 上线gpt-5.3-codex",
+          "link": "https://linux.do/t/topic/1571488",
+          "published": "2026-02-06 02:07 UTC",
+          "sort_key": 1770343663.0,
+          "source_kind": "feed",
+          "text": "庆祝今天claude官方发布了claude-opus-4-6 且Codex已适配最新模型 gpt-5.3-codex 我们已连夜完成秒上线，价格一如既往的低折合 0.05-0.08/$ ，本站不支持分发使用，如需分发或企业对接请联系群主 话不多说，欢迎使用推荐AFF： https://foxcode.rjj.cc 欢迎进群（公告获取优惠码） 579297473 福利抽取 每满1300楼开奖100个1亿额度（不到期） 前1300楼中间： 3, 8, 11, 26, 75, 78, 93, 120, 133, 156, 177, 178, 196, 199, 208, 233, 244, 258, 270, 277, 286, 288, 299, 301, 324, 331, 343, 350, 352, 391, 400, 406, 412, 414, 420, 437, 457, 470, 522, 524, 549, 563, 567, 594, 595, 597, 602, 625, 631, 639, 659, 667, 718, 727, 781, 803, 818, 828, 832, 833, 849, 853, 854, 872, 876, 878, 891, 930, 946, 957, 962, 970, 976, 984, 985, 1002, 1017, 1036, 1042, 1061, 1075, 1080, 1091, 1099, 1103, 1123, 1124, 1157, 1166, 1183, 1188, 1211, 1219, 1222, 1228, 1243, 1246, 1278, 1279, 1286 1300-2600楼：待开奖~ 3317 个帖子 - 2942 位参与者 阅读完整话题 庆祝今天claude官方发布了claude-opus-4-6 且Codex已适配最新模型 gpt-5.3-codex 我们已连夜完成秒上线，价格一如既往的低折合 0.05-0.08/$ ，本站不支持分发使用，如需分发或企业对接请联系群主 话不多说，欢迎使用推荐AFF： https://foxcode.rjj.cc 欢迎进群（公告获取优惠码） 579297473 福利抽取 每满1300楼开奖100个1亿额度（不到期） 前1300楼中间： 3, 8, 11, 26, 75, 78, 93, 120, 133, 156, 177, 178, 196, 199, 208, 233, 244, 258, 270, 277, 286, 288, 299, 301, 324, 331, 343, 350, 352, 391, 400, 406, 412, 414, 420, 437, 457, 470, 522, 524, 549, 563, 567, 594, 595, 597, 602, 625, 631, 639, 659, 667, 718, 727, 781, 803, 818, 828, 832, 833, 849, 853, 854, 872, 876, 878, 891, 930, 946, 957, 962, 970, 976, 984, 985, 1002, 1017, 1036, 1042, 1061, 1075, 1080, 1091, 1099, 1103, 1123, 1124, 1157, 1166, 1183, 1188, 1211, 1219, 1222, 1228, 1243, 1246, 1278, 1279, 1286 1300-2600楼：待开奖~ 3317 个帖子 - 2942 位参与者 阅读完整话题"
+        },
+        {
+          "id": "53e653d817ca0db899e2440b439432a713900be20152d6db2c0f8eb77ca03fad",
+          "signature": "ec53b35857903426789b2102b6a7397719354c1fbd7099bbac4a610074f36654",
+          "title": "【Polo API 长期活动】每10楼抽取3位送5刀Claude API额度，30%中奖机会！ 已开通【富可敌国】",
+          "link": "https://linux.do/t/topic/463404",
+          "published": "2025-02-28 13:22 UTC",
+          "sort_key": 1740748936.0,
+          "source_kind": "feed",
+          "text": "▍Polo API - 专注Claude API - 全网Claude系列最稳定供应源头 - 仅需 3.5元一刀 ▍ 源头服务，不玩套路，有量有价，立即体验 : Poloai.top 已接入Claude 3.7模型，请选择： claude-3-7-sonnet-20250219、claude-3-7-sonnet-20250219-thinking 2月24日晚，我们 Poloai.top 登陆L站。次日凌晨，Anthropic发布Claude 3.7模型，引发行业热潮。我们的Claude官转API用量随之激增。企业级用户需求24小时在线响应，全力保障服务。诚挚感谢各位佬友的支持，我们会继续努力，带来更优质服务！ Polo API 优势 Claude API 原生接口服务商| 企业级 AI 定制化服务 稳定多家大厂合作 | 7*24小时日不落服务模式 主推 Claude 直连key、官转、逆向，有采购需求的客户请 咨询客服 活动详情 活动时间 : 长期有效 奖励内容 : 每10楼抽取3位幸运佬友，送本站 5 刀额度 参与方式 登录并注册 Polo API 在本帖评论区留言您的本站 ID 每10个楼层将抽取3位幸运用户 楼层选择规则 开奖时间 每周日开奖，每位佬友每周仅限中奖一次（ 是的，每周都有机会中奖！ ） 中奖名单 将在此处实时更新中奖用户信息： 3月2日，取250楼为整，以下为第一期中奖楼层（共75位，这两天将陆续发放兑换码） 3月10日，取251-500楼为整，以下为第二期中奖楼层（共75位，这两天将陆续发放兑换码） 3月18日，取501-660楼为整，以下为第三期中奖楼层（共48位，这两天将陆续发放兑换码） 3月25日，取661-790楼为整，以下为第三期中奖楼层（共39位，这两天将陆续发放兑换码） 重在参与，新一轮抽奖开始！下周同一时间开奖！ 5771 个帖子 - 2174 位参与者 阅读完整话题 ▍Polo API - 专注Claude API - 全网Claude系列最稳定供应源头 - 仅需 3.5元一刀 ▍ 源头服务，不玩套路，有量有价，立即体验 : Poloai.top 已接入Claude 3.7模型，请选择： claude-3-7-sonnet-20250219、claude-3-7-sonnet-20250219-thinking 2月24日晚，我们 Poloai.top 登陆L站。次日凌晨，Anthropic发布Claude 3.7模型，引发行业热潮。我们的Claude官转API用量随之激增。企业级用户需求24小时在线响应，全力保障服务。诚挚感谢各位佬友的支持，我们会继续努力，带来更优质服务！ Polo API 优势 Claude API 原生接口服务商| 企业级 AI 定制化服务 稳定多家大厂合作 | 7*24小时日不落服务模式 主推 Claude 直连key、官转、逆向，有采购需求的客户请 咨询客服 活动详情 活动时间 : 长期有效 奖励内容 : 每10楼抽取3位幸运佬友，送本站 5 刀额度 参与方式 登录并注册 Polo API 在本帖评论区留言您的本站 ID 每10个楼层将抽取3位幸运用户 楼层选择规则 开奖时间 每周日开奖，每位佬友每周仅限中奖一次（ 是的，每周都有机会中奖！ ） 中奖名单 将在此处实时更新中奖用户信息： 3月2日，取250楼为整，以下为第一期中奖楼层（共75位，这两天将陆续发放兑换码） 3月10日，取251-500楼为整，以下为第二期中奖楼层（共75位，这两天将陆续发放兑换码） 3月18日，取501-660楼为整，以下为第三期中奖楼层（共48位，这两天将陆续发放兑换码） 3月25日，取661-790楼为整，以下为第三期中奖楼层（共39位，这两天将陆续发放兑换码） 重在参与，新一轮抽奖开始！下周同一时间开奖！ 5771 个帖子 - 2174 位参与者 阅读完整话题"
         }
       ],
       "site_url": "https://linux.do/tag/444-tag/444",
       "summary": {
-        "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 80 retained item(s) on the page. Key items include \"MinerU api不需要申请了，可以直接创建\", \"假如你是图灵\", and \"Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施\".",
+        "tldr": "The feed highlights widespread community engagement with Claude Code, covering troubleshooting, plugin instability, and new research automation tools. Users are sharing practical AI tutorials, layout-preserving translation utilities, and development workflows while navigating proxy reliability and subscription costs. Security concerns are also prominent, with warnings about API proxy scanning, fake service scams, and unfavorable platform pricing updates.",
         "highlights": [
-          "MinerU api不需要申请了，可以直接创建",
-          "假如你是图灵",
-          "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施"
+          "Claude Code usage drives most discussions, featuring troubleshooting for API errors, reports of official plugin instability, and the release of Oh My Paper for automating academic research.",
+          "Users share practical resources including a layout-preserving PDF translation tool, beginner tutorials for DeepSeek, and guides for AI-assisted mini-program development.",
+          "Community alerts highlight security risks such as API proxy scanning attacks, fraudulent AnyRouter Telegram scams, and complaints over increased pricing on the Jimeng AI platform."
         ]
       }
     },
@@ -1238,7 +1526,7 @@
         "d261675446b7899e88550522a5327ffc3204652f2d0f15c919327d39dc4e68f9",
         "edd2c7441eb7cc4882b2777572f78bd3c66b525b9017e9942186a0e30d89a76e"
       ],
-      "last_checked_at": "2026-04-03T11:42:31+00:00",
+      "last_checked_at": "2026-04-03T12:33:11+00:00",
       "feed_title": "前沿快讯 - LINUX DO",
       "pending_items": [
         {
@@ -1584,16 +1872,19 @@
       ],
       "site_url": "https://linux.do/c/news/34",
       "summary": {
-        "tldr": "前沿快讯 - LINUX DO currently has 34 retained item(s) on the page. Key items include \"codex 量大管饱的时代可能要结束力\", \"【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5\", and \"claude 接管\".",
+        "tldr": "The feed highlights a shift in AI service pricing and compute management, with Xiaomi, Google, and OpenAI introducing new token-based plans and tiered API options to balance cost and demand. Developer tooling saw notable updates, including Claude Code v2.1.91 optimizations, the stable release of Qwen3.6 Plus, and the launch of the Zread CLI for local documentation. Additionally, several platform and regulatory changes occurred, including Slack's service suspension in mainland China, CNNIC's move to free domain privacy, and new Chinese draft regulations for digital virtual humans.",
         "highlights": [
-          "codex 量大管饱的时代可能要结束力",
-          "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
-          "claude 接管"
+          "Xiaomi MiMo launched a credit-based Token Plan with tiered pricing and removed previous 5-hour usage limits.",
+          "Google added Flex and Priority inference tiers to the Gemini API, while OpenAI reduced ChatGPT Business pricing.",
+          "Claude Code v2.1.91 optimized token usage for edits and increased MCP tool result limits to 500K characters.",
+          "Slack suspended workspaces in mainland China, Macau, and Hong Kong, and CNNIC will make domain privacy protection free.",
+          "China's CAC published draft regulations for digital virtual human services, and Perplexity faces a lawsuit over its incognito mode."
         ]
       }
     },
     "https://rsshub.rssforever.com/youtube/user/@wangzhian": {
       "seen_ids": [
+        "382ae88e80c2dff535ca1cde57d13f2d2a5aeeb4ceee4ac29bda9ccdebf5cb49",
         "7405e1dd76375459aa32b2fc80d2e929c02c34e0699661c9851227c58de46c58",
         "74c93ac627cbedc6dd5420a17c25a4f930648b4d382fcb068ebdf7a59c81b38c",
         "464ec1dd08f766d014246843d8b5274b808ade4b8fcc1865bfd81fdf1d798f78",
@@ -1705,9 +1996,19 @@
         "7ef6d776209d69623a5abee732283608e6e235c0b4ecd31d812c2a77bdca0445",
         "5a4f7f42e114d4cdafc792af1dd813c0a21a36aedcd246efc27f66fcaccc0191"
       ],
-      "last_checked_at": "2026-04-03T07:52:45+00:00",
+      "last_checked_at": "2026-04-03T12:34:15+00:00",
       "feed_title": "王志安 - YouTube",
       "pending_items": [
+        {
+          "id": "382ae88e80c2dff535ca1cde57d13f2d2a5aeeb4ceee4ac29bda9ccdebf5cb49",
+          "signature": "85c2e9727f8c282edc60a931aef5ebaaa74227473e87cb8d955e16f656f79f52",
+          "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
+          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
+          "published": "2026-04-03 12:01 UTC",
+          "sort_key": 1775217668.0,
+          "source_kind": "feed",
+          "text": "140公斤的庞大身躯，超30%的心血管猝死率，一张绝密体检单正在逼迫平壤启动史上最疯狂的交接。一个连法定入党年龄都没到的13岁初中生，凭什么能让实权老将弯腰请示，并坐上直管洲际核导弹的绝对C位？ 张狗剩带你深度拆解金家王朝令人毛骨悚然的“全自动极权接班机器”！ 【 About This Video】 当世界对朝鲜的认知还停留在八十年代的破旧拖拉机与饥荒时，平壤的极权系统早已悄悄完成了冷血的“赛博进化”。 面临“绝命倒计时”的金正恩，正疯狂和死神赛跑。为了给未成年女儿扫清政变风险，他正拼尽全力焊死一条权力的护城河： 从底层代码写满监控指令的“红星OS数字集中营”，到操控拉撒路黑客部队狂盗15亿美金比特币；从把底层平民当炮灰填进俄乌战场换取普京的军工技术，到带未成年储君跨越鸭绿江密访北京的惊险“政治托孤”。 暴君、核弹、炮灰、黑金与大国博弈。这不是权谋剧，而是正在真实发生的地缘震撼。看懂了它，你才能看透大国地缘博弈的冷酷底色与极权控制的疯狂逻辑。 【支持狗剩】 制作万字长视频不易，冲塔危险狗剩自重，如果这期硬核内容让你大呼过瘾： 请务必 【点赞】 本视频！ 点击 【订阅】 频道并打开小铃铛 🔗 将视频分享给对同样话题感兴趣的朋友！ 【情报来源与扩展阅读 / Sources】 韩国国家情报院 (NIS) 国会闭门简报评估 美国 38 North 智库高层健康与卫星轨迹侧写 CSIS (战略与国际问题研究中心) 朝鲜网络战与黑客追踪 ERNW 网络安全实验室“红星OS”底层代码逆向工程实录 【核心关键词 】 #朝鲜接班人 #金正恩 #金主爱 #地缘政治 #金与正 #大国博弈 #硬核科普 #半岛局势 #国际时政 #俄乌战争 #黑客内幕 #比特币 #中朝关系 #张狗剩 140公斤的庞大身躯，超30%的心血管猝死率，一张绝密体检单正在逼迫平壤启动史上最疯狂的交接。一个连法定入党年龄都没到的13岁初中生，凭什么能让实权老将弯腰请示，并坐上直管洲际核导弹的绝对C位？ 张狗剩带你深度拆解金家王朝令人毛骨悚然的“全自动极权接班机器”！ 【 About This Video】 当世界对朝鲜的认知还停留在八十年代的破旧拖拉机与饥荒时，平壤的极权系统早已悄悄完成了冷血的“赛博进化”。 面临“绝命倒计时”的金正恩，正疯狂和死神赛跑。为了给未成年女儿扫清政变风险，他正拼尽全力焊死一条权力的护城河： 从底层代码写满监控指令的“红星OS数字集中营”，到操控拉撒路黑客部队狂盗15亿美金比特币；从把底层平民当炮灰填进俄乌战场换取普京的军工技术，到带未成年储君跨越鸭绿江密访北京的惊险“政治托孤”。 暴君、核弹、炮灰、黑金与大国博弈。这不是权谋剧，而是正在真实发生的地缘震撼。看懂了它，你才能看透大国地缘博弈的冷酷底色与极权控制的疯狂逻辑。 【支持狗剩】 制作万字长视频不易，冲塔危险狗剩自重，如果这期硬核内容让你大呼过瘾： 请务必 【点赞】 本视频！ 点击 【订阅】 频道并打开小铃铛 🔗 将视频分享给对同样话题感兴趣的朋友！ 【情报来源与扩展阅读 / Sources】 韩国国家情报院 (NIS) 国会闭门简报评估 美国 38 North 智库高层健康与卫星轨迹侧写 CSIS (战略与国际问题研究中心) 朝鲜网络战与黑客追踪 ERNW 网络安全实验室“红星OS”底层代码逆向工程实录 【核心关键词 】 #朝鲜接班人 #金正恩 #金主爱 #地缘政治 #金与正 #大国博弈 #硬核科普 #半岛局势 #国际时政 #俄乌战争 #黑客内幕 #比特币 #中朝关系 #张狗剩"
+        },
         {
           "id": "464ec1dd08f766d014246843d8b5274b808ade4b8fcc1865bfd81fdf1d798f78",
           "signature": "c823b89a20e4f1a2d94103884ba8e59a70fef127aed2eac93ba3a7b4b4391737",
@@ -2061,11 +2362,11 @@
       ],
       "site_url": "https://www.youtube.com/@wangzhian",
       "summary": {
-        "tldr": "王志安 - YouTube currently has 35 retained item(s) on the page. Key items include \"接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】\", \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", and \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\".",
+        "tldr": "The feed covers escalating geopolitical tensions, including ongoing US-Iran military clashes, North Korea's accelerated succession planning for Kim Jong Un's daughter, and intensifying US-China competition in space and artificial intelligence. Domestically, it highlights significant legal and political developments in Taiwan, notably Ko Wen-je's sentencing, alongside Chinese military anti-corruption efforts and the passing of education influencer Zhang Xuefeng. Cybersecurity and espionage incidents, such as infrastructure breaches and the dismantling of intelligence networks, underscore growing digital and strategic rivalries.",
         "highlights": [
-          "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
-          "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
-          "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402"
+          "US-Iran military clashes and diplomatic negotiations, including reported strikes and discussions over the Strait of Hormuz.",
+          "North Korea’s succession planning for Kim Jong Un’s daughter, supported by cyber operations and geopolitical maneuvering.",
+          "US-China strategic competition across space exploration, AI development, and cybersecurity, alongside major political and legal developments in Taiwan and mainland China."
         ]
       }
     },
@@ -2119,7 +2420,7 @@
         "458f1ceef2142852977cf599cc5bb7cf040efc2e14670a4dd5ad542391d0d5f7",
         "3e0b1c6aef833972d7d180db731880ef7aed4e02614b4f5ad7b2889515a3a88f"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:04+00:00",
       "feed_title": "bioRxiv Subject Collection: Bioinformatics",
       "pending_items": [
         {
@@ -2165,11 +2466,11 @@
       ],
       "site_url": "https://biorxiv.org/",
       "summary": {
-        "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
+        "tldr": "This bioRxiv collection highlights recent computational methods for analyzing genomic, microbiome, and cytometry data. New tools apply expectation-maximization for fungal abundance estimation, pretrained transformers for cytometry prediction, and k-mer machine learning for SARS-CoV-2 variant classification. A large-scale benchmark also evaluates heritability estimation strategies and their downstream impact on polygenic risk scores.",
         "highlights": [
-          "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
-          "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
-          "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+          "EMITS introduces expectation-maximization for fungal ITS abundance estimation using long-read sequencing.",
+          "A cytometry foundation model leverages pretrained transformers for interpretable sample-level predictions.",
+          "A benchmark of 86 configurations assesses heritability estimation strategies and polygenic risk score performance."
         ]
       }
     },
@@ -2228,7 +2529,7 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:46+00:00",
       "feed_title": "Cell",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell/archive?publicationCode=cell&rss=yes"
@@ -2252,7 +2553,7 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:46+00:00",
       "feed_title": "Cell Host & Microbe",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell-host-microbe/archive?publicationCode=chom&rss=yes"
@@ -2342,7 +2643,7 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:46+00:00",
       "feed_title": "Nature",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nature/rss/current"
@@ -2358,7 +2659,7 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:46+00:00",
       "feed_title": "Nature Biomedical Engineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natbiomedeng/rss/current"
@@ -2374,7 +2675,7 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:46+00:00",
       "feed_title": "Nature Biotechnology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nbt/rss/current"
@@ -2405,7 +2706,7 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:35:46+00:00",
       "feed_title": "Nature Communications",
       "pending_items": [
         {
@@ -2481,11 +2782,11 @@
       ],
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "summary": {
-        "tldr": "Nature Communications currently has 7 retained item(s) on the page. Key items include \"Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries\", \"A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds\", and \"Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission\".",
+        "tldr": "This Nature Communications issue spans energy technology, artificial intelligence, and molecular biology. Researchers report scalable, solvent-free processing for solid-state battery cathodes and hybrid solar-thermoelectric systems exceeding 50% efficiency. AI tools are applied to model prebiotic protein folds and automate agricultural phenotyping. Additional studies detail mechanisms of oncogene-induced replication stress, HIV transmission bottlenecks under antibody therapy, and ultrafast plasma dynamics.",
         "highlights": [
-          "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
-          "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
-          "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission"
+          "Solvent-free mechanofusion enables scalable cathode coatings for solid-state battery manufacturing.",
+          "AI protein design reveals diverse structural folds achievable from limited, prebiotic amino acid libraries.",
+          "Solution-processed photovoltaic-thermoelectric hybrids achieve experimental energy conversion efficiencies over 50%."
         ]
       }
     },
@@ -2502,7 +2803,7 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:36:36+00:00",
       "feed_title": "Nature Computational Science",
       "pending_items": [
         {
@@ -2528,10 +2829,11 @@
       ],
       "site_url": "http://feeds.nature.com/natcomputsci/rss/current",
       "summary": {
-        "tldr": "Nature Computational Science currently has 2 retained item(s) on the page. Key items include \"Universal restoration of medical images\" and \"Benchmarking alignment methods for spatial transcriptomics data\".",
+        "tldr": "This digest covers two recent computational methods papers from Nature Computational Science focused on biomedical data analysis. One introduces HorusEye, a self-supervised foundation model that restores medical tomography images by learning noise patterns directly from X-ray scans without requiring clean reference data. The other presents a comprehensive benchmark for spatial transcriptomics alignment tools, demonstrating that optimal performance is dataset-dependent and providing actionable insights for future algorithm development.",
         "highlights": [
-          "Universal restoration of medical images",
-          "Benchmarking alignment methods for spatial transcriptomics data"
+          "HorusEye enables robust, cross-modality medical image restoration without clean training data.",
+          "A new benchmark reveals that optimal spatial transcriptomics alignment methods vary by dataset.",
+          "Both studies advance computational approaches for analyzing complex biomedical data."
         ]
       }
     },
@@ -2546,7 +2848,7 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-03T11:42:53+00:00",
+      "last_checked_at": "2026-04-03T12:37:10+00:00",
       "feed_title": "Nature Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/ng/rss/current"
@@ -2563,7 +2865,7 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-03T11:42:54+00:00",
+      "last_checked_at": "2026-04-03T12:37:11+00:00",
       "feed_title": "Nature Health",
       "pending_items": [
         {
@@ -2579,9 +2881,11 @@
       ],
       "site_url": "http://feeds.nature.com/naturehealth/rss/current",
       "summary": {
-        "tldr": "Nature Health currently has 1 retained item(s) on the page. Key items include \"GLP-1 receptor agonists should be rigorously tested as longevity therapeutics\".",
+        "tldr": "A recent Nature Health paper suggests GLP-1 receptor compounds may function as transitional longevity therapeutics. The authors stress that rigorous testing is essential before clinical application. More evidence is required to determine both the direct and indirect effects of these treatments.",
         "highlights": [
-          "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics"
+          "GLP-1 receptor compounds are proposed as transitional longevity therapeutics.",
+          "Rigorous testing is necessary to evaluate their clinical viability.",
+          "Further evidence is required to assess direct and indirect health effects."
         ]
       }
     },
@@ -2596,7 +2900,7 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-03T11:42:54+00:00",
+      "last_checked_at": "2026-04-03T12:37:40+00:00",
       "feed_title": "Nature Machine Intelligence",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natmachintell/rss/current"
@@ -2616,7 +2920,7 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-03T11:42:54+00:00",
+      "last_checked_at": "2026-04-03T12:37:40+00:00",
       "feed_title": "Nature Medicine",
       "pending_items": [
         {
@@ -2652,11 +2956,11 @@
       ],
       "site_url": "http://feeds.nature.com/nm/rss/current",
       "summary": {
-        "tldr": "Nature Medicine currently has 3 retained item(s) on the page. Key items include \"Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb\", \"The exposome of brain aging across 34 countries\", and \"Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease\".",
+        "tldr": "Recent publications in Nature Medicine highlight advancements in infectious disease surveillance and neurological health research. Whole-genome sequencing has identified the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, underscoring the need for enhanced monitoring to prevent viral recombination. Additionally, large-scale exposome research links social and physical environmental factors to distinct patterns of brain aging, while new target product profiles establish clear benchmarks for developing therapies to delay or prevent Alzheimer’s disease.",
         "highlights": [
-          "Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb",
-          "The exposome of brain aging across 34 countries",
-          "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease"
+          "Identification of monkeypox virus clade IIb lineage A.2.2 and co-circulation of three clades in the Republic of the Congo.",
+          "Cross-national exposome analysis linking social factors to functional brain aging and physical factors to structural brain aging.",
+          "Establishment of target product profiles to standardize and accelerate the development of Alzheimer’s disease therapies."
         ]
       }
     },
@@ -2672,7 +2976,7 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-03T11:42:54+00:00",
+      "last_checked_at": "2026-04-03T12:38:12+00:00",
       "feed_title": "Nature Methods",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nmeth/rss/current"
@@ -2691,7 +2995,7 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-03T11:42:55+00:00",
+      "last_checked_at": "2026-04-03T12:38:12+00:00",
       "feed_title": "Nature Microbiology",
       "pending_items": [
         {
@@ -2727,11 +3031,11 @@
       ],
       "site_url": "http://feeds.nature.com/nmicrobiol/rss/current",
       "summary": {
-        "tldr": "Nature Microbiology currently has 3 retained item(s) on the page. Key items include \"Unbinned contigs expand known diversity in the global microbiome\", \"A family of endonucleases blocks nanotube-mediated plasmid exchange\", and \"Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control\".",
+        "tldr": "Recent microbiology research advances the mapping of global prokaryotic diversity, clarifies mechanisms of bacterial genetic exchange, and details host-pathogen immune interactions. Large-scale metagenomic analysis reveals hundreds of thousands of previously uncharacterized bacterial and archaeal lineages, predominantly located in unbinned sequence contigs. Additional studies identify a conserved endonuclease family that restricts plasmid transfer in Gram-positive bacteria and demonstrate how lipid accumulation in tuberculosis granulomas disrupts essential immune cell signaling.",
         "highlights": [
-          "Unbinned contigs expand known diversity in the global microbiome",
-          "A family of endonucleases blocks nanotube-mediated plasmid exchange",
-          "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control"
+          "Analysis of 92,187 metagenomes predicts ~705,000 bacterial and ~27,000 archaeal species-level clades, with most diversity hidden in unbinned contigs.",
+          "The YokF endonuclease family limits nanotube-mediated plasmid transfer in Bacillus subtilis and related Gram-positive species.",
+          "Cholesterol overload in tuberculosis granulomas impairs macrophage–CD4+ T cell interactions and weakens anti-tuberculosis immunity."
         ]
       }
     },
@@ -2746,7 +3050,7 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-03T11:42:55+00:00",
+      "last_checked_at": "2026-04-03T12:38:53+00:00",
       "feed_title": "Nature Reviews Bioengineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natrevbioeng/rss/current"
@@ -2762,7 +3066,7 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-03T11:42:55+00:00",
+      "last_checked_at": "2026-04-03T12:38:53+00:00",
       "feed_title": "Nature Reviews Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrg/rss/current"
@@ -2779,7 +3083,7 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-03T11:42:55+00:00",
+      "last_checked_at": "2026-04-03T12:38:53+00:00",
       "feed_title": "Nature Reviews Microbiology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrmicro/rss/current"
@@ -2797,7 +3101,7 @@
       "seen_ids": [
         "06f125a22cd2aa90542a4927d71b6c679a0862ddba9d0a9430396d09a5ec0acb"
       ],
-      "last_checked_at": "2026-04-03T07:52:36+00:00",
+      "last_checked_at": "2026-04-03T12:31:44+00:00",
       "feed_title": "Guangxuan-Xiao's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/Guangxuan-Xiao"
@@ -2867,7 +3171,7 @@
         "569efd56d3c184fe0e411ceaf0bf1bafa12a0bc2581c8aa065e7e82d26adc1f2",
         "719c912a7c4ee79a962e9517f56d1d1e59d55db5d52adda5ffcddf4a77108007"
       ],
-      "last_checked_at": "2026-04-03T07:52:39+00:00",
+      "last_checked_at": "2026-04-03T12:32:16+00:00",
       "feed_title": "karpathy's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/karpathy"
@@ -2917,7 +3221,7 @@
         "3c9a74a91c34b71e19336176f1c7a1407ea5642d9035b1f3ebf76ba1c285c184",
         "0eeab505ca9f3149f2dbd74145a2129c94207e371c11017bc503d9a26672bfb0"
       ],
-      "last_checked_at": "2026-04-03T07:52:40+00:00",
+      "last_checked_at": "2026-04-03T12:32:36+00:00",
       "feed_title": "luost26's GitHub activities",
       "pending_items": [
         {
@@ -2963,11 +3267,11 @@
       ],
       "site_url": "https://github.com/luost26",
       "summary": {
-        "tldr": "luost26's GitHub activities currently has 4 retained item(s) on the page. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
+        "tldr": "On April 2, 2026, user luost26 made multiple consecutive pushes to the prexsyn GitHub repository. The activity occurred within a 17-minute window, indicating rapid iterative updates. The feed provides only push notifications without specific commit messages or feature details.",
         "highlights": [
-          "luost26 pushed prexsyn",
-          "luost26 pushed prexsyn",
-          "luost26 pushed prexsyn"
+          "Multiple commits pushed to the prexsyn repository by luost26",
+          "Activity concentrated between 21:50 and 22:07 UTC on April 2, 2026",
+          "Feed contains only push notifications without detailed commit messages"
         ]
       }
     },
@@ -2985,7 +3289,7 @@
         "6c7adfb121cde46560e1cfdd9c88fce9c656ec46a382e9c894a7cc8c80e0f210",
         "e742ddb470a792bdd2cfd7c10abdbc909bba7e12abf6747f39e8a607a9949019"
       ],
-      "last_checked_at": "2026-04-03T07:52:41+00:00",
+      "last_checked_at": "2026-04-03T12:33:09+00:00",
       "feed_title": "OdinZhang's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/OdinZhang"
@@ -3009,7 +3313,7 @@
         "4d8013d4ce9ca7b0084f0d0b782c2cd266bccc8695bc19fc6b82c9b8b281f472",
         "24f82007189026c48fac1d4b6b32e6d581b029308f09f5d03f8b75004b564021"
       ],
-      "last_checked_at": "2026-04-03T07:52:41+00:00",
+      "last_checked_at": "2026-04-03T12:33:10+00:00",
       "feed_title": "wenhao-gao's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/wenhao-gao"
@@ -3021,12 +3325,12 @@
         "b0d543362b315c4c7969c904ca8ee28e5a6653bf0a92e2ffaaac71a49e90d3ea",
         "2ed3850e96939a689807e86962cef30aff9c05b45b4d63924ab12a066df1916d"
       ],
-      "last_checked_at": "2026-04-03T07:52:42+00:00",
+      "last_checked_at": "2026-04-03T12:33:10+00:00",
       "feed_title": "WillHua127's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/WillHua127"
     }
   },
-  "updated_at": "2026-04-03T11:39:44+00:00",
+  "updated_at": "2026-04-03T12:29:51+00:00",
   "feed_count": 32
 }

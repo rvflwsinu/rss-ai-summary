@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T11:39:44+00:00",
-  "generated_at_human": "2026-04-03 11:39 UTC",
+  "generated_at": "2026-04-03T12:29:51+00:00",
+  "generated_at_human": "2026-04-03 12:29 UTC",
   "model": "qwen/qwen3.6-plus:free",
   "summary_language": "English",
   "total_feeds": 32,
   "feeds_with_updates": 11,
-  "total_items": 174,
+  "total_items": 201,
   "feeds": [
     {
       "category": "Blogs",
@@ -15,9 +15,11 @@
       "feed_url": "http://www.ruanyifeng.com/blog/atom.xml",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "阮一峰的网络日志 currently has 1 retained item(s) on the page. Key items include \"科技爱好者周刊（第 391 期）：AI 的贫富分化\".",
+      "tldr": "This weekly digest examines how the high compute costs of advanced AI models could create a socioeconomic divide, unlike traditional technologies that scale down in price. It highlights a new research metric tracking AI progress against human task-completion times, suggesting capabilities double approximately every seven months. The issue also covers recent industry developments, including GitHub Copilot's ad insertion controversy, practical touchscreen innovations, and a collection of open-source AI tools.",
       "highlights": [
-        "科技爱好者周刊（第 391 期）：AI 的贫富分化"
+        "High compute costs for top-tier AI models may lead to a wealth divide between premium and free-tier users.",
+        "A new study measures AI advancement by human task-time equivalence, indicating a doubling of capabilities every seven months.",
+        "Notable tech updates include GitHub Copilot's controversial ad placement, conductive nail polish for touchscreens, and curated open-source developer tools."
       ],
       "items": [
         {
@@ -33,15 +35,111 @@
       "title": "LINUX DO - 使用人工智能标记的话题",
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
-      "item_count": 80,
+      "item_count": 106,
       "skipped_count": 0,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 80 retained item(s) on the page. Key items include \"MinerU api不需要申请了，可以直接创建\", \"假如你是图灵\", and \"Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施\".",
+      "tldr": "The feed highlights widespread community engagement with Claude Code, covering troubleshooting, plugin instability, and new research automation tools. Users are sharing practical AI tutorials, layout-preserving translation utilities, and development workflows while navigating proxy reliability and subscription costs. Security concerns are also prominent, with warnings about API proxy scanning, fake service scams, and unfavorable platform pricing updates.",
       "highlights": [
-        "MinerU api不需要申请了，可以直接创建",
-        "假如你是图灵",
-        "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施"
+        "Claude Code usage drives most discussions, featuring troubleshooting for API errors, reports of official plugin instability, and the release of Oh My Paper for automating academic research.",
+        "Users share practical resources including a layout-preserving PDF translation tool, beginner tutorials for DeepSeek, and guides for AI-assisted mini-program development.",
+        "Community alerts highlight security risks such as API proxy scanning attacks, fraudulent AnyRouter Telegram scams, and complaints over increased pricing on the Jimeng AI platform."
       ],
       "items": [
+        {
+          "title": "claude的400错误如何解决",
+          "link": "https://linux.do/t/topic/1892018",
+          "published": "2026-04-03 12:24 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "几分钱一个的OUTLOOK邮箱",
+          "link": "https://linux.do/t/topic/1892009",
+          "published": "2026-04-03 12:22 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "小七姐《AI时代的‮能元‬力》",
+          "link": "https://linux.do/t/topic/1892006",
+          "published": "2026-04-03 12:22 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "有没有人和我一样：Claudecode的claude-plugins-official老是出问题",
+          "link": "https://linux.do/t/topic/1892003",
+          "published": "2026-04-03 12:21 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "RetainPDF：PDF 保留排版翻译工具",
+          "link": "https://linux.do/t/topic/1891990",
+          "published": "2026-04-03 12:19 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "开发小程序前的提问",
+          "link": "https://linux.do/t/topic/1891945",
+          "published": "2026-04-03 12:14 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【提问🙋】请问佬友们，对于感兴趣的AAAI这类的文章，咋找到它的开源代码呀",
+          "link": "https://linux.do/t/topic/1891904",
+          "published": "2026-04-03 12:11 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "求助：有没有稳定使用 Claude Code Max 套餐的方法，预算可以 2000~3000 每月",
+          "link": "https://linux.do/t/topic/1891893",
+          "published": "2026-04-03 12:10 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "AI商业智慧 AI+文案 +PPT+图像+视频",
+          "link": "https://linux.do/t/topic/1891870",
+          "published": "2026-04-03 12:08 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "老板说以后我只能用Claude code，用其他的就让我滚蛋！",
+          "link": "https://linux.do/t/topic/1891842",
+          "published": "2026-04-03 12:06 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "CPA反代被扫描盗刷事件分析",
+          "link": "https://linux.do/t/topic/1891840",
+          "published": "2026-04-03 12:05 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "即梦升级了，吃相更难看了",
+          "link": "https://linux.do/t/topic/1891828",
+          "published": "2026-04-03 12:04 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "[诈骗警惕！]X上出现anyrouter号主引流至telegram",
+          "link": "https://linux.do/t/topic/1891777",
+          "published": "2026-04-03 11:54 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "DeepSeek零基础入门教程",
+          "link": "https://linux.do/t/topic/1891754",
+          "published": "2026-04-03 11:50 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Oh My Paper — 给 Claude Code 装上科研大脑，从文献到发表全流程自动化，人从中做判断和决定",
+          "link": "https://linux.do/t/topic/1891749",
+          "published": "2026-04-03 11:49 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "即梦电影高级运镜教学合集，用AI打造电影级镜头语言",
+          "link": "https://linux.do/t/topic/1891701",
+          "published": "2026-04-03 11:40 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "MinerU api不需要申请了，可以直接创建",
           "link": "https://linux.do/t/topic/1891665",
@@ -58,6 +156,18 @@
           "title": "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施",
           "link": "https://linux.do/t/topic/1891653",
           "published": "2026-04-03 11:25 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "赢在开端自媒体IP增长课，实现个人品牌可持续增长",
+          "link": "https://linux.do/t/topic/1891633",
+          "published": "2026-04-03 11:17 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "云天《A代写+闲鱼 打穿失业市场》",
+          "link": "https://linux.do/t/topic/1891570",
+          "published": "2026-04-03 11:04 UTC",
           "source_kind": "feed"
         },
         {
@@ -118,6 +228,12 @@
           "title": "恢复Claude code和codex会话内容的脚本",
           "link": "https://linux.do/t/topic/1890871",
           "published": "2026-04-03 08:59 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "有没有感觉codexTeam的额度也被砍了",
+          "link": "https://linux.do/t/topic/1890839",
+          "published": "2026-04-03 08:55 UTC",
           "source_kind": "feed"
         },
         {
@@ -397,6 +513,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "各位佬友，是否有什么软件可以直接反代2api后可以直接使用的。",
+          "link": "https://linux.do/t/topic/1881457",
+          "published": "2026-04-02 04:39 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "佬们好卷，Harness教程一天干到1千星",
           "link": "https://linux.do/t/topic/1881008",
           "published": "2026-04-02 03:32 UTC",
@@ -427,6 +549,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "（关门）【AcMio 公益站】开站主贴 号池告罄 注册机也废了 等待修复",
+          "link": "https://linux.do/t/topic/1870102",
+          "published": "2026-03-31 18:44 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【开源】Open-Claude-Code CLI 源码",
           "link": "https://linux.do/t/topic/1868730",
           "published": "2026-03-31 15:04 UTC",
@@ -451,6 +579,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "Codex Windows App 卡在 Reconnecting 简单解决办法",
+          "link": "https://linux.do/t/topic/1846916",
+          "published": "2026-03-29 11:55 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "分享一下常用的网页端大模型厂商与点评",
           "link": "https://linux.do/t/topic/1842687",
           "published": "2026-03-28 13:41 UTC",
@@ -466,6 +600,12 @@
           "title": "【开源】全新轻量级高性能的AI对话+AI本地网关桌面客户端",
           "link": "https://linux.do/t/topic/1810247",
           "published": "2026-03-25 01:45 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "手机端最强形态的自动化/Agent是什么样？",
+          "link": "https://linux.do/t/topic/1789944",
+          "published": "2026-03-20 13:09 UTC",
           "source_kind": "feed"
         },
         {
@@ -517,9 +657,27 @@
           "source_kind": "feed"
         },
         {
+          "title": "一些 AI 站点的脚本合集，主打 ChatGPT 对话导航+对话树+性能优化",
+          "link": "https://linux.do/t/topic/1645549",
+          "published": "2026-02-25 04:25 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症",
           "link": "https://linux.do/t/topic/1643542",
           "published": "2026-02-24 18:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【富可敌国】小于1毛钱/$的claude-opus-4-6已全面适配, 上线gpt-5.3-codex",
+          "link": "https://linux.do/t/topic/1571488",
+          "published": "2026-02-06 02:07 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【Polo API 长期活动】每10楼抽取3位送5刀Claude API额度，30%中奖机会！ 已开通【富可敌国】",
+          "link": "https://linux.do/t/topic/463404",
+          "published": "2025-02-28 13:22 UTC",
           "source_kind": "feed"
         }
       ]
@@ -531,11 +689,11 @@
       "feed_url": "https://rsshub.rssforever.com/github/activity/luost26",
       "item_count": 4,
       "skipped_count": 0,
-      "tldr": "luost26's GitHub activities currently has 4 retained item(s) on the page. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
+      "tldr": "On April 2, 2026, user luost26 made multiple consecutive pushes to the prexsyn GitHub repository. The activity occurred within a 17-minute window, indicating rapid iterative updates. The feed provides only push notifications without specific commit messages or feature details.",
       "highlights": [
-        "luost26 pushed prexsyn",
-        "luost26 pushed prexsyn",
-        "luost26 pushed prexsyn"
+        "Multiple commits pushed to the prexsyn repository by luost26",
+        "Activity concentrated between 21:50 and 22:07 UTC on April 2, 2026",
+        "Feed contains only push notifications without detailed commit messages"
       ],
       "items": [
         {
@@ -571,11 +729,13 @@
       "feed_url": "https://linux.do/c/news/34.rss",
       "item_count": 34,
       "skipped_count": 0,
-      "tldr": "前沿快讯 - LINUX DO currently has 34 retained item(s) on the page. Key items include \"codex 量大管饱的时代可能要结束力\", \"【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5\", and \"claude 接管\".",
+      "tldr": "The feed highlights a shift in AI service pricing and compute management, with Xiaomi, Google, and OpenAI introducing new token-based plans and tiered API options to balance cost and demand. Developer tooling saw notable updates, including Claude Code v2.1.91 optimizations, the stable release of Qwen3.6 Plus, and the launch of the Zread CLI for local documentation. Additionally, several platform and regulatory changes occurred, including Slack's service suspension in mainland China, CNNIC's move to free domain privacy, and new Chinese draft regulations for digital virtual humans.",
       "highlights": [
-        "codex 量大管饱的时代可能要结束力",
-        "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
-        "claude 接管"
+        "Xiaomi MiMo launched a credit-based Token Plan with tiered pricing and removed previous 5-hour usage limits.",
+        "Google added Flex and Priority inference tiers to the Gemini API, while OpenAI reduced ChatGPT Business pricing.",
+        "Claude Code v2.1.91 optimized token usage for edits and increased MCP tool result limits to 500K characters.",
+        "Slack suspended workspaces in mainland China, Macau, and Hong Kong, and CNNIC will make domain privacy protection free.",
+        "China's CAC published draft regulations for digital virtual human services, and Perplexity faces a lawsuit over its incognito mode."
       ],
       "items": [
         {
@@ -789,15 +949,21 @@
       "title": "王志安 - YouTube",
       "site_url": "https://www.youtube.com/@wangzhian",
       "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
-      "item_count": 35,
+      "item_count": 36,
       "skipped_count": 0,
-      "tldr": "王志安 - YouTube currently has 35 retained item(s) on the page. Key items include \"接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】\", \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", and \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\".",
+      "tldr": "The feed covers escalating geopolitical tensions, including ongoing US-Iran military clashes, North Korea's accelerated succession planning for Kim Jong Un's daughter, and intensifying US-China competition in space and artificial intelligence. Domestically, it highlights significant legal and political developments in Taiwan, notably Ko Wen-je's sentencing, alongside Chinese military anti-corruption efforts and the passing of education influencer Zhang Xuefeng. Cybersecurity and espionage incidents, such as infrastructure breaches and the dismantling of intelligence networks, underscore growing digital and strategic rivalries.",
       "highlights": [
-        "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
-        "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
-        "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402"
+        "US-Iran military clashes and diplomatic negotiations, including reported strikes and discussions over the Strait of Hormuz.",
+        "North Korea’s succession planning for Kim Jong Un’s daughter, supported by cyber operations and geopolitical maneuvering.",
+        "US-China strategic competition across space exploration, AI development, and cybersecurity, alongside major political and legal developments in Taiwan and mainland China."
       ],
       "items": [
+        {
+          "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
+          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
+          "published": "2026-04-03 12:01 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
           "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
@@ -1017,11 +1183,11 @@
       "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
       "item_count": 4,
       "skipped_count": 0,
-      "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
+      "tldr": "This bioRxiv collection highlights recent computational methods for analyzing genomic, microbiome, and cytometry data. New tools apply expectation-maximization for fungal abundance estimation, pretrained transformers for cytometry prediction, and k-mer machine learning for SARS-CoV-2 variant classification. A large-scale benchmark also evaluates heritability estimation strategies and their downstream impact on polygenic risk scores.",
       "highlights": [
-        "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
-        "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
-        "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+        "EMITS introduces expectation-maximization for fungal ITS abundance estimation using long-read sequencing.",
+        "A cytometry foundation model leverages pretrained transformers for interpretable sample-level predictions.",
+        "A benchmark of 86 configurations assesses heritability estimation strategies and polygenic risk score performance."
       ],
       "items": [
         {
@@ -1057,11 +1223,11 @@
       "feed_url": "https://www.nature.com/ncomms.rss",
       "item_count": 7,
       "skipped_count": 0,
-      "tldr": "Nature Communications currently has 7 retained item(s) on the page. Key items include \"Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries\", \"A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds\", and \"Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission\".",
+      "tldr": "This Nature Communications issue spans energy technology, artificial intelligence, and molecular biology. Researchers report scalable, solvent-free processing for solid-state battery cathodes and hybrid solar-thermoelectric systems exceeding 50% efficiency. AI tools are applied to model prebiotic protein folds and automate agricultural phenotyping. Additional studies detail mechanisms of oncogene-induced replication stress, HIV transmission bottlenecks under antibody therapy, and ultrafast plasma dynamics.",
       "highlights": [
-        "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
-        "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
-        "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission"
+        "Solvent-free mechanofusion enables scalable cathode coatings for solid-state battery manufacturing.",
+        "AI protein design reveals diverse structural folds achievable from limited, prebiotic amino acid libraries.",
+        "Solution-processed photovoltaic-thermoelectric hybrids achieve experimental energy conversion efficiencies over 50%."
       ],
       "items": [
         {
@@ -1115,10 +1281,11 @@
       "feed_url": "https://www.nature.com/natcomputsci.rss",
       "item_count": 2,
       "skipped_count": 0,
-      "tldr": "Nature Computational Science currently has 2 retained item(s) on the page. Key items include \"Universal restoration of medical images\" and \"Benchmarking alignment methods for spatial transcriptomics data\".",
+      "tldr": "This digest covers two recent computational methods papers from Nature Computational Science focused on biomedical data analysis. One introduces HorusEye, a self-supervised foundation model that restores medical tomography images by learning noise patterns directly from X-ray scans without requiring clean reference data. The other presents a comprehensive benchmark for spatial transcriptomics alignment tools, demonstrating that optimal performance is dataset-dependent and providing actionable insights for future algorithm development.",
       "highlights": [
-        "Universal restoration of medical images",
-        "Benchmarking alignment methods for spatial transcriptomics data"
+        "HorusEye enables robust, cross-modality medical image restoration without clean training data.",
+        "A new benchmark reveals that optimal spatial transcriptomics alignment methods vary by dataset.",
+        "Both studies advance computational approaches for analyzing complex biomedical data."
       ],
       "items": [
         {
@@ -1142,9 +1309,11 @@
       "feed_url": "https://www.nature.com/naturehealth.rss",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "Nature Health currently has 1 retained item(s) on the page. Key items include \"GLP-1 receptor agonists should be rigorously tested as longevity therapeutics\".",
+      "tldr": "A recent Nature Health paper suggests GLP-1 receptor compounds may function as transitional longevity therapeutics. The authors stress that rigorous testing is essential before clinical application. More evidence is required to determine both the direct and indirect effects of these treatments.",
       "highlights": [
-        "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics"
+        "GLP-1 receptor compounds are proposed as transitional longevity therapeutics.",
+        "Rigorous testing is necessary to evaluate their clinical viability.",
+        "Further evidence is required to assess direct and indirect health effects."
       ],
       "items": [
         {
@@ -1162,11 +1331,11 @@
       "feed_url": "https://www.nature.com/nm.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "Nature Medicine currently has 3 retained item(s) on the page. Key items include \"Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb\", \"The exposome of brain aging across 34 countries\", and \"Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease\".",
+      "tldr": "Recent publications in Nature Medicine highlight advancements in infectious disease surveillance and neurological health research. Whole-genome sequencing has identified the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, underscoring the need for enhanced monitoring to prevent viral recombination. Additionally, large-scale exposome research links social and physical environmental factors to distinct patterns of brain aging, while new target product profiles establish clear benchmarks for developing therapies to delay or prevent Alzheimer’s disease.",
       "highlights": [
-        "Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb",
-        "The exposome of brain aging across 34 countries",
-        "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease"
+        "Identification of monkeypox virus clade IIb lineage A.2.2 and co-circulation of three clades in the Republic of the Congo.",
+        "Cross-national exposome analysis linking social factors to functional brain aging and physical factors to structural brain aging.",
+        "Establishment of target product profiles to standardize and accelerate the development of Alzheimer’s disease therapies."
       ],
       "items": [
         {
@@ -1196,11 +1365,11 @@
       "feed_url": "https://www.nature.com/nmicrobiol.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "Nature Microbiology currently has 3 retained item(s) on the page. Key items include \"Unbinned contigs expand known diversity in the global microbiome\", \"A family of endonucleases blocks nanotube-mediated plasmid exchange\", and \"Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control\".",
+      "tldr": "Recent microbiology research advances the mapping of global prokaryotic diversity, clarifies mechanisms of bacterial genetic exchange, and details host-pathogen immune interactions. Large-scale metagenomic analysis reveals hundreds of thousands of previously uncharacterized bacterial and archaeal lineages, predominantly located in unbinned sequence contigs. Additional studies identify a conserved endonuclease family that restricts plasmid transfer in Gram-positive bacteria and demonstrate how lipid accumulation in tuberculosis granulomas disrupts essential immune cell signaling.",
       "highlights": [
-        "Unbinned contigs expand known diversity in the global microbiome",
-        "A family of endonucleases blocks nanotube-mediated plasmid exchange",
-        "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control"
+        "Analysis of 92,187 metagenomes predicts ~705,000 bacterial and ~27,000 archaeal species-level clades, with most diversity hidden in unbinned contigs.",
+        "The YokF endonuclease family limits nanotube-mediated plasmid transfer in Bacillus subtilis and related Gram-positive species.",
+        "Cholesterol overload in tuberculosis granulomas impairs macrophage–CD4+ T cell interactions and weakens anti-tuberculosis immunity."
       ],
       "items": [
         {
@@ -1226,22 +1395,7 @@
   ],
   "errors": [
     {
-      "feed": "阮一峰的网络日志",
-      "category": "Blogs",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "LINUX DO - AI",
-      "category": "Forum",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
       "feed": "gcorso's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "Guangxuan-Xiao's GitHub activities",
       "category": "Github",
       "message": "Feed fetch failed: The read operation timed out"
     },
@@ -1249,71 +1403,6 @@
       "feed": "HannesStark's GitHub activities",
       "category": "Github",
       "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "karpathy's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "luost26's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "OdinZhang's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "wenhao-gao's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "WillHua127's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "LINUX DO - News",
-      "category": "News",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "王志安 - YouTube",
-      "category": "News",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "bioRxiv Subject Collection: Bioinformatics",
-      "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "Nature Communications",
-      "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "Nature Computational Science",
-      "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "Nature Health",
-      "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "Nature Medicine",
-      "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
-    },
-    {
-      "feed": "Nature Microbiology",
-      "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     }
   ],
   "categories": [
