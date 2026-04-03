@@ -20,10 +20,12 @@ import trafilatura
 
 USER_AGENT = "rss-ai-summary-bot/0.1"
 STATE_VERSION = 1
-DEFAULT_MODEL = "gemini-2.0-flash-lite"
+DEFAULT_LLM_PROVIDER = "openrouter"
+DEFAULT_GEMINI_MODEL = "gemini-2.0-flash-lite"
+DEFAULT_OPENROUTER_MODEL = "qwen/qwen3.6-plus:free"
 DEFAULT_SUMMARY_LANGUAGE = "English"
-GEMINI_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
-GEMINI_MAX_ATTEMPTS = 4
+LLM_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+LLM_MAX_ATTEMPTS = 4
 
 
 @dataclass
@@ -58,7 +60,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--state-path",
         default="data/state.json",
-        help="Path to the persisted dedupe state JSON file.",
+        help="Path to the persisted backlog state JSON file.",
     )
     parser.add_argument(
         "--latest-path",
@@ -73,7 +75,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--mock-summary",
         action="store_true",
-        help="Skip Gemini and synthesize summaries from the feed titles for local testing.",
+        help="Skip the configured LLM and synthesize summaries from the feed titles for local testing.",
     )
     return parser.parse_args()
 
@@ -85,13 +87,19 @@ def load_runtime_config(args: argparse.Namespace) -> dict[str, Any]:
         "latest_path": Path(args.latest_path),
         "site_dir": Path(args.site_dir),
         "mock_summary": args.mock_summary,
+        "llm_provider": os.getenv("LLM_PROVIDER", DEFAULT_LLM_PROVIDER).strip().lower()
+        or DEFAULT_LLM_PROVIDER,
         "gemini_api_key": os.getenv("GEMINI_API_KEY", "").strip(),
-        "gemini_model": os.getenv("GEMINI_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL,
+        "gemini_model": os.getenv("GEMINI_MODEL", DEFAULT_GEMINI_MODEL).strip()
+        or DEFAULT_GEMINI_MODEL,
+        "openrouter_api_key": os.getenv("OPENROUTER_API_KEY", "").strip(),
+        "openrouter_model": os.getenv(
+            "OPENROUTER_MODEL", DEFAULT_OPENROUTER_MODEL
+        ).strip()
+        or DEFAULT_OPENROUTER_MODEL,
         "summary_language": os.getenv("SUMMARY_LANGUAGE", DEFAULT_SUMMARY_LANGUAGE).strip()
         or DEFAULT_SUMMARY_LANGUAGE,
         "site_title": os.getenv("SITE_TITLE", "Daily Feed TLDR").strip() or "Daily Feed TLDR",
-        "max_items_per_feed": positive_int_env("MAX_ITEMS_PER_FEED", 4),
-        "max_seen_ids_per_feed": positive_int_env("MAX_SEEN_IDS_PER_FEED", 500),
         "min_feed_content_chars": positive_int_env("MIN_FEED_CONTENT_CHARS", 700),
         "max_item_chars": positive_int_env("MAX_ITEM_CHARS", 4000),
         "max_prompt_chars": positive_int_env("MAX_PROMPT_CHARS", 18000),
@@ -114,20 +122,18 @@ def positive_int_env(name: str, default: int) -> int:
 def build_digest_report(config: dict[str, Any]) -> dict[str, Any]:
     if not config["opml_path"].exists():
         raise FileNotFoundError(f"OPML file not found: {config['opml_path']}")
-    if not config["mock_summary"] and not config["gemini_api_key"]:
-        raise ValueError(
-            "GEMINI_API_KEY is required unless --mock-summary is enabled."
-        )
+    validate_llm_config(config)
 
     feeds = parse_opml(config["opml_path"])
     state = load_state(config["state_path"])
+    migrate_state_from_latest(state, config["latest_path"])
     generated_at = utc_now_iso()
 
     report: dict[str, Any] = {
         "site_title": config["site_title"],
         "generated_at": generated_at,
         "generated_at_human": human_timestamp(generated_at),
-        "model": "mock-summary" if config["mock_summary"] else config["gemini_model"],
+        "model": active_model_name(config),
         "summary_language": config["summary_language"],
         "total_feeds": len(feeds),
         "feeds_with_updates": 0,
@@ -208,20 +214,42 @@ def process_feed(
     state: dict[str, Any],
     feed: FeedConfig,
 ) -> dict[str, Any]:
+    feed_state = state.setdefault("feeds", {}).setdefault(feed.xml_url, {})
+    pending_items = load_pending_items(feed_state, feed.xml_url)
+    stored_title = feed_state.get("feed_title") or feed.title
+    stored_site_url = feed_state.get("site_url") or feed.html_url or feed.xml_url
+    stored_feed = FeedConfig(
+        category=feed.category,
+        title=stored_title,
+        xml_url=feed.xml_url,
+        html_url=feed.html_url,
+    )
     try:
         parsed_feed = fetch_feed(client, feed.xml_url)
     except Exception as exc:
-        return {"summary": None, "error": f"Feed fetch failed: {safe_error_message(exc)}"}
+        if not pending_items:
+            return {"summary": None, "error": f"Feed fetch failed: {safe_error_message(exc)}"}
+        stored_summary = summary_from_state(feed_state, stored_feed, pending_items)
+        return {
+            "summary": build_feed_digest(
+                feed=stored_feed,
+                site_url=stored_site_url,
+                items=pending_items,
+                summary=stored_summary,
+            ),
+            "error": f"Feed fetch failed: {safe_error_message(exc)}",
+        }
 
-    feed_state = state.setdefault("feeds", {}).setdefault(feed.xml_url, {})
     seen_ids = list(feed_state.get("seen_ids", []))
     seen_lookup = set(seen_ids)
     normalized_entries = normalize_entries(parsed_feed, feed)
+    pending_signatures = {item["signature"] for item in pending_items}
 
-    unseen_entries = [entry for entry in normalized_entries if entry["id"] not in seen_lookup]
-    selected_entries = unseen_entries[: config["max_items_per_feed"]]
-
-    all_unseen_ids = [entry["id"] for entry in unseen_entries]
+    new_entries = [
+        entry
+        for entry in normalized_entries
+        if entry["id"] not in seen_lookup and entry["signature"] not in pending_signatures
+    ]
     feed_title = parsed_feed.feed.get("title") or feed.title
     display_feed = FeedConfig(
         category=feed.category,
@@ -229,59 +257,60 @@ def process_feed(
         xml_url=feed.xml_url,
         html_url=feed.html_url,
     )
+    site_url = feed.html_url or parsed_feed.feed.get("link") or feed.xml_url
 
-    feed_state["seen_ids"] = trim_unique(all_unseen_ids + seen_ids, config["max_seen_ids_per_feed"])
-    feed_state["last_checked_at"] = utc_now_iso()
-    feed_state["feed_title"] = feed_title
-
-    if not selected_entries:
-        return {"summary": None, "error": None}
-
-    summary_inputs = []
-    output_items = []
-    for entry in selected_entries:
+    new_pending_items = []
+    for entry in new_entries:
         source_text, source_kind = resolve_entry_text(
             client,
             entry,
             min_feed_content_chars=config["min_feed_content_chars"],
             max_item_chars=config["max_item_chars"],
         )
-        summary_inputs.append(
+        new_pending_items.append(
             {
+                "id": entry["id"],
+                "signature": entry["signature"],
                 "title": entry["title"],
                 "link": entry["link"],
                 "published": entry["published"],
+                "sort_key": entry["sort_key"],
+                "source_kind": source_kind,
                 "text": source_text,
             }
         )
-        output_items.append(
-            {
-                "title": entry["title"],
-                "link": entry["link"],
-                "published": entry["published"],
-                "source_kind": source_kind,
-            }
-        )
+
+    pending_items = merge_pending_items(feed.xml_url, pending_items, new_pending_items)
+
+    feed_state["pending_items"] = pending_items
+    feed_state["seen_ids"] = unique_values([entry["id"] for entry in new_entries] + seen_ids)
+    feed_state["last_checked_at"] = utc_now_iso()
+    feed_state["feed_title"] = feed_title
+    feed_state["site_url"] = site_url
+
+    if not pending_items:
+        return {"summary": None, "error": None}
+
+    summary_inputs = [pending_item_summary_input(item) for item in pending_items]
 
     summary_error = None
     try:
         summary = summarize_feed(config, display_feed, summary_inputs)
     except Exception as exc:
-        summary = fallback_summary(display_feed, output_items)
-        summary_error = f"Gemini summary failed, used fallback: {safe_error_message(exc)}"
+        summary = fallback_summary(display_feed, pending_items)
+        summary_error = f"LLM summary failed, used fallback: {safe_error_message(exc)}"
 
-    digest = {
-        "category": feed.category,
-        "title": feed_title,
-        "site_url": feed.html_url or parsed_feed.feed.get("link") or feed.xml_url,
-        "feed_url": feed.xml_url,
-        "item_count": len(output_items),
-        "skipped_count": max(0, len(unseen_entries) - len(output_items)),
-        "tldr": summary["tldr"],
-        "highlights": summary["highlights"],
-        "items": output_items,
+    feed_state["summary"] = summary
+
+    return {
+        "summary": build_feed_digest(
+            feed=display_feed,
+            site_url=site_url,
+            items=pending_items,
+            summary=summary,
+        ),
+        "error": summary_error,
     }
-    return {"summary": digest, "error": summary_error}
 
 
 def fetch_feed(client: httpx.Client, url: str) -> feedparser.FeedParserDict:
@@ -308,6 +337,12 @@ def normalize_entries(
                 "published": timestamp.strftime("%Y-%m-%d %H:%M UTC") if timestamp else None,
                 "sort_key": timestamp.timestamp() if timestamp else 0,
                 "feed_text": feed_entry_text(entry),
+                "signature": item_signature(
+                    feed.xml_url,
+                    title=normalize_text(entry.get("title") or "Untitled item"),
+                    link=entry.get("link"),
+                    published=timestamp.strftime("%Y-%m-%d %H:%M UTC") if timestamp else None,
+                ),
             }
         )
     entries.sort(key=lambda item: item["sort_key"], reverse=True)
@@ -336,6 +371,17 @@ def entry_fingerprint(feed_url: str, entry: feedparser.FeedParserDict) -> str:
             entry.get("published", ""),
         ]
     )
+    return hashlib.sha256(basis.encode("utf-8")).hexdigest()
+
+
+def item_signature(
+    feed_url: str,
+    *,
+    title: str,
+    link: str | None,
+    published: str | None,
+) -> str:
+    basis = "|".join([feed_url, link or "", title or "", published or ""])
     return hashlib.sha256(basis.encode("utf-8")).hexdigest()
 
 
@@ -443,11 +489,7 @@ def summarize_feed(
         """
     ).strip()
 
-    response_data = call_gemini_json(
-        api_key=config["gemini_api_key"],
-        model=config["gemini_model"],
-        prompt=prompt,
-    )
+    response_data = call_llm_json(config=config, prompt=prompt)
     tldr = normalize_text(str(response_data.get("tldr", "")))
     highlights = [
         normalize_text(str(item))
@@ -455,10 +497,230 @@ def summarize_feed(
         if normalize_text(str(item))
     ]
     if not tldr:
-        raise ValueError("Gemini response did not contain a TLDR.")
+        raise ValueError("LLM response did not contain a TLDR.")
     if not highlights:
         highlights = [item["title"] for item in items[:3]]
     return {"tldr": tldr, "highlights": highlights[:5]}
+
+
+def validate_llm_config(config: dict[str, Any]) -> None:
+    if config["mock_summary"]:
+        return
+
+    provider = config["llm_provider"]
+    if provider == "gemini":
+        if not config["gemini_api_key"]:
+            raise ValueError(
+                "GEMINI_API_KEY is required when LLM_PROVIDER=gemini unless --mock-summary is enabled."
+            )
+        return
+    if provider == "openrouter":
+        if not config["openrouter_api_key"]:
+            raise ValueError(
+                "OPENROUTER_API_KEY is required when LLM_PROVIDER=openrouter unless --mock-summary is enabled."
+            )
+        return
+    raise ValueError(
+        f"LLM_PROVIDER must be one of: gemini, openrouter. Got: {provider!r}"
+    )
+
+
+def migrate_state_from_latest(state: dict[str, Any], latest_path: Path) -> None:
+    if not latest_path.exists():
+        return
+
+    try:
+        latest_report = json.loads(latest_path.read_text(encoding="utf-8"))
+    except Exception:
+        return
+
+    for feed in latest_report.get("feeds", []):
+        feed_url = feed.get("feed_url")
+        if not feed_url:
+            continue
+
+        feed_state = state.setdefault("feeds", {}).setdefault(feed_url, {})
+        if feed_state.get("pending_items"):
+            continue
+
+        pending_items = [
+            migrated_pending_item(feed_url, item) for item in feed.get("items", [])
+        ]
+        if not pending_items:
+            continue
+
+        feed_state["pending_items"] = pending_items
+        if feed.get("title"):
+            feed_state["feed_title"] = feed["title"]
+        if feed.get("site_url"):
+            feed_state["site_url"] = feed["site_url"]
+
+        tldr = normalize_text(str(feed.get("tldr", "")))
+        highlights = [
+            normalize_text(str(item))
+            for item in feed.get("highlights", [])
+            if normalize_text(str(item))
+        ]
+        if tldr:
+            feed_state["summary"] = {
+                "tldr": tldr,
+                "highlights": highlights or [item["title"] for item in pending_items[:3]],
+            }
+
+
+def migrated_pending_item(feed_url: str, item: dict[str, Any]) -> dict[str, Any]:
+    title = normalize_text(str(item.get("title") or "Untitled item"))
+    published = item.get("published")
+    signature = item_signature(
+        feed_url,
+        title=title,
+        link=item.get("link"),
+        published=published,
+    )
+    return {
+        "id": f"migrated:{signature}",
+        "signature": signature,
+        "title": title,
+        "link": item.get("link"),
+        "published": published,
+        "sort_key": rendered_timestamp_sort_key(published),
+        "source_kind": item.get("source_kind"),
+        "text": title,
+    }
+
+
+def load_pending_items(feed_state: dict[str, Any], feed_url: str) -> list[dict[str, Any]]:
+    pending_items = [
+        normalize_pending_item(feed_url, item)
+        for item in feed_state.get("pending_items", [])
+        if isinstance(item, dict)
+    ]
+    pending_items.sort(key=lambda item: item["sort_key"], reverse=True)
+    return pending_items
+
+
+def normalize_pending_item(feed_url: str, item: dict[str, Any]) -> dict[str, Any]:
+    title = normalize_text(str(item.get("title") or "Untitled item"))
+    published = item.get("published")
+    sort_key = item.get("sort_key")
+    if not isinstance(sort_key, (int, float)):
+        sort_key = rendered_timestamp_sort_key(published)
+
+    signature = item.get("signature")
+    if not signature:
+        signature = item_signature(
+            feed_url,
+            title=title,
+            link=item.get("link"),
+            published=published,
+        )
+
+    item_id = item.get("id") or f"pending:{signature}"
+    return {
+        "id": str(item_id),
+        "signature": str(signature),
+        "title": title,
+        "link": item.get("link"),
+        "published": published,
+        "sort_key": float(sort_key),
+        "source_kind": item.get("source_kind"),
+        "text": normalize_text(str(item.get("text") or title)),
+    }
+
+
+def merge_pending_items(
+    feed_url: str,
+    existing_items: list[dict[str, Any]],
+    new_items: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for item in new_items + existing_items:
+        normalized = normalize_pending_item(feed_url, item)
+        merged.setdefault(normalized["signature"], normalized)
+    return sorted(merged.values(), key=lambda item: item["sort_key"], reverse=True)
+
+
+def pending_item_summary_input(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "title": item["title"],
+        "link": item.get("link"),
+        "published": item.get("published"),
+        "text": item.get("text") or item["title"],
+    }
+
+
+def pending_item_output(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "title": item["title"],
+        "link": item.get("link"),
+        "published": item.get("published"),
+        "source_kind": item.get("source_kind"),
+    }
+
+
+def summary_from_state(
+    feed_state: dict[str, Any],
+    feed: FeedConfig,
+    items: list[dict[str, Any]],
+) -> dict[str, Any]:
+    stored_summary = feed_state.get("summary", {})
+    tldr = normalize_text(str(stored_summary.get("tldr", "")))
+    highlights = [
+        normalize_text(str(item))
+        for item in stored_summary.get("highlights", [])
+        if normalize_text(str(item))
+    ]
+    if tldr:
+        return {
+            "tldr": tldr,
+            "highlights": highlights or [item["title"] for item in items[:3]],
+        }
+    return fallback_summary(feed, items)
+
+
+def build_feed_digest(
+    *,
+    feed: FeedConfig,
+    site_url: str,
+    items: list[dict[str, Any]],
+    summary: dict[str, Any],
+) -> dict[str, Any]:
+    output_items = [pending_item_output(item) for item in items]
+    return {
+        "category": feed.category,
+        "title": feed.title,
+        "site_url": site_url,
+        "feed_url": feed.xml_url,
+        "item_count": len(output_items),
+        "skipped_count": 0,
+        "tldr": summary["tldr"],
+        "highlights": summary["highlights"],
+        "items": output_items,
+    }
+
+
+def active_model_name(config: dict[str, Any]) -> str:
+    if config["mock_summary"]:
+        return "mock-summary"
+    if config["llm_provider"] == "gemini":
+        return config["gemini_model"]
+    return config["openrouter_model"]
+
+
+def call_llm_json(*, config: dict[str, Any], prompt: str) -> dict[str, Any]:
+    if config["llm_provider"] == "gemini":
+        return call_gemini_json(
+            api_key=config["gemini_api_key"],
+            model=config["gemini_model"],
+            prompt=prompt,
+        )
+    if config["llm_provider"] == "openrouter":
+        return call_openrouter_json(
+            api_key=config["openrouter_api_key"],
+            model=config["openrouter_model"],
+            prompt=prompt,
+        )
+    raise ValueError(f"Unsupported LLM provider: {config['llm_provider']}")
 
 
 def call_gemini_json(*, api_key: str, model: str, prompt: str) -> dict[str, Any]:
@@ -470,7 +732,7 @@ def call_gemini_json(*, api_key: str, model: str, prompt: str) -> dict[str, Any]
             "responseMimeType": "application/json",
         },
     }
-    for attempt in range(1, GEMINI_MAX_ATTEMPTS + 1):
+    for attempt in range(1, LLM_MAX_ATTEMPTS + 1):
         try:
             response = httpx.post(
                 url,
@@ -483,12 +745,12 @@ def call_gemini_json(*, api_key: str, model: str, prompt: str) -> dict[str, Any]
         except httpx.HTTPStatusError as exc:
             status_code = exc.response.status_code
             if (
-                status_code not in GEMINI_RETRYABLE_STATUS_CODES
-                or attempt == GEMINI_MAX_ATTEMPTS
+                status_code not in LLM_RETRYABLE_STATUS_CODES
+                or attempt == LLM_MAX_ATTEMPTS
             ):
                 raise
         except httpx.HTTPError:
-            if attempt == GEMINI_MAX_ATTEMPTS:
+            if attempt == LLM_MAX_ATTEMPTS:
                 raise
         else:
             data = response.json()
@@ -507,6 +769,73 @@ def call_gemini_json(*, api_key: str, model: str, prompt: str) -> dict[str, Any]
         time.sleep(min(20, 5 * attempt))
 
     raise RuntimeError("Gemini request retries exhausted unexpectedly.")
+
+
+def call_openrouter_json(*, api_key: str, model: str, prompt: str) -> dict[str, Any]:
+    payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.2,
+    }
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/zenityann-dot/rss-ai-summary",
+        "X-OpenRouter-Title": "rss-ai-summary",
+        "User-Agent": USER_AGENT,
+    }
+    for attempt in range(1, LLM_MAX_ATTEMPTS + 1):
+        try:
+            response = httpx.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                json=payload,
+                headers=headers,
+                timeout=60.0,
+            )
+            response.raise_for_status()
+        except httpx.HTTPStatusError as exc:
+            status_code = exc.response.status_code
+            if (
+                status_code not in LLM_RETRYABLE_STATUS_CODES
+                or attempt == LLM_MAX_ATTEMPTS
+            ):
+                raise
+        except httpx.HTTPError:
+            if attempt == LLM_MAX_ATTEMPTS:
+                raise
+        else:
+            data = response.json()
+            choices = data.get("choices") or []
+            if not choices:
+                raise ValueError("OpenRouter returned no choices.")
+            text = openrouter_message_text(choices[0].get("message", {}).get("content"))
+            if not text:
+                raise ValueError("OpenRouter returned an empty response body.")
+            return json.loads(strip_code_fences(text))
+
+        time.sleep(min(20, 5 * attempt))
+
+    raise RuntimeError("OpenRouter request retries exhausted unexpectedly.")
+
+
+def openrouter_message_text(content: Any) -> str:
+    if isinstance(content, str):
+        return content
+    if isinstance(content, dict):
+        content = [content]
+    if isinstance(content, list):
+        chunks = []
+        for part in content:
+            if not isinstance(part, dict):
+                continue
+            text = part.get("text")
+            if not text:
+                continue
+            if part.get("type") in {None, "text", "output_text"}:
+                chunks.append(str(text))
+        return "\n".join(chunks).strip()
+    return ""
 
 
 def strip_code_fences(text: str) -> str:
@@ -530,9 +859,9 @@ def redact_sensitive_text(text: str) -> str:
 def fallback_summary(feed: FeedConfig, items: list[dict[str, Any]]) -> dict[str, Any]:
     highlight_titles = [item["title"] for item in items[:3] if item.get("title")]
     if not highlight_titles:
-        highlight_titles = [f"New items detected in {feed.title}."]
+        highlight_titles = [f"Tracked items are available in {feed.title}."]
     tldr = (
-        f"{feed.title} has {len(items)} new item(s) in this run. "
+        f"{feed.title} currently has {len(items)} retained item(s) on the page. "
         f"Key items include {join_titles(highlight_titles)}."
     )
     return {"tldr": tldr, "highlights": highlight_titles}
@@ -584,26 +913,18 @@ def render_site(report: dict[str, Any]) -> str:
                 item_list = "".join(
                     render_item(item) for item in feed["items"]
                 )
-                skipped_note = ""
-                if feed["skipped_count"]:
-                    skipped_note = (
-                        f"<p class=\"meta-note\">"
-                        f"{feed['skipped_count']} more new item(s) were skipped "
-                        f"by the per-feed cap.</p>"
-                    )
                 category_cards.append(
                     f"""
                     <article class="feed-card">
                       <div class="feed-head">
                         <div>
                           <h3><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></h3>
-                          <p class="meta">{escape(feed['item_count'].__str__())} new item(s)</p>
+                          <p class="meta">{escape(feed['item_count'].__str__())} retained item(s)</p>
                         </div>
                         <a class="rss-link" href="{escape(feed['feed_url'])}">RSS</a>
                       </div>
                       <p class="tldr">{escape(feed['tldr'])}</p>
                       <ul class="highlights">{''.join(f'<li>{escape(point)}</li>' for point in feed['highlights'])}</ul>
-                      {skipped_note}
                       <ul class="items">{item_list}</ul>
                     </article>
                     """
@@ -620,8 +941,8 @@ def render_site(report: dict[str, Any]) -> str:
         cards.append(
             """
             <section class="empty-state">
-              <h2>No new items this run</h2>
-              <p>The workflow completed, but every feed was already up to date.</p>
+              <h2>No retained items</h2>
+              <p>The workflow completed, but there are no items currently being kept on the page.</p>
             </section>
             """
         )
@@ -731,11 +1052,11 @@ def render_site(report: dict[str, Any]) -> str:
                   <p class="stat-value">{escape(report['generated_at_human'])}</p>
                 </article>
                 <article class="stat-card">
-                  <p class="stat-label">Feeds With Updates</p>
+                  <p class="stat-label">Feeds On Page</p>
                   <p class="stat-value">{report['feeds_with_updates']}</p>
                 </article>
                 <article class="stat-card">
-                  <p class="stat-label">Items Summarized</p>
+                  <p class="stat-label">Items On Page</p>
                   <p class="stat-value">{report['total_items']}</p>
                 </article>
                 <article class="stat-card">
@@ -777,7 +1098,7 @@ def ordered_categories(feeds: list[dict[str, Any]]) -> list[str]:
     return categories
 
 
-def trim_unique(values: list[str], limit: int) -> list[str]:
+def unique_values(values: list[str]) -> list[str]:
     output: list[str] = []
     seen: set[str] = set()
     for value in values:
@@ -785,9 +1106,18 @@ def trim_unique(values: list[str], limit: int) -> list[str]:
             continue
         seen.add(value)
         output.append(value)
-        if len(output) >= limit:
-            break
     return output
+
+
+def rendered_timestamp_sort_key(raw_timestamp: str | None) -> float:
+    if not raw_timestamp:
+        return 0
+    try:
+        return datetime.strptime(raw_timestamp, "%Y-%m-%d %H:%M UTC").replace(
+            tzinfo=timezone.utc
+        ).timestamp()
+    except ValueError:
+        return 0
 
 
 def ensure_parent(path: Path) -> None:

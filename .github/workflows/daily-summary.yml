@@ -20,12 +20,13 @@ jobs:
       pages: write
       id-token: write
     env:
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
       SITE_TITLE: ${{ vars.SITE_TITLE }}
       SUMMARY_LANGUAGE: ${{ vars.SUMMARY_LANGUAGE }}
-      MAX_ITEMS_PER_FEED: ${{ vars.MAX_ITEMS_PER_FEED }}
-      MAX_SEEN_IDS_PER_FEED: ${{ vars.MAX_SEEN_IDS_PER_FEED }}
       MIN_FEED_CONTENT_CHARS: ${{ vars.MIN_FEED_CONTENT_CHARS }}
       MAX_ITEM_CHARS: ${{ vars.MAX_ITEM_CHARS }}
       MAX_PROMPT_CHARS: ${{ vars.MAX_PROMPT_CHARS }}
