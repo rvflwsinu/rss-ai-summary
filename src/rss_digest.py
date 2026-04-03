@@ -906,33 +906,22 @@ def render_site(report: dict[str, Any]) -> str:
     cards = []
     if report["feeds"]:
         for category in report["categories"]:
-            category_cards = []
+            category_rows = []
             for feed in report["feeds"]:
                 if feed["category"] != category:
                     continue
                 item_count = feed["item_count"]
-                item_list = "".join(
-                    render_item(item) for item in feed["items"]
-                )
-                highlights_html = "".join(
-                    f"<li>{escape(point)}</li>" for point in feed["highlights"]
-                )
-                category_cards.append(
+                category_rows.append(
                     f"""
                     <article class="feed">
-                      <div class="feed-hd">
-                        <div>
-                          <div class="feed-title"><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></div>
-                          <div class="feed-meta">{item_count} items</div>
-                        </div>
+                      <div class="feed-line">
+                        <div class="feed-title"><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></div>
+                        <p class="tldr">{escape(feed['tldr'])}</p>
+                      </div>
+                      <div class="feed-meta">
+                        <span>{item_count} items</span>
                         <a class="rss-badge" href="{escape(feed['feed_url'])}">RSS</a>
                       </div>
-                      <p class="tldr">{escape(feed['tldr'])}</p>
-                      <ul class="highlights">{highlights_html}</ul>
-                      <details>
-                        <summary>All {item_count} items</summary>
-                        <ul class="items">{item_list}</ul>
-                      </details>
                     </article>
                     """
                 )
@@ -940,7 +929,7 @@ def render_site(report: dict[str, Any]) -> str:
                 f"""
                 <section class="category">
                   <h2>{escape(category)}</h2>
-                  <div class="feed-grid">{''.join(category_cards)}</div>
+                  <div class="feed-list">{''.join(category_rows)}</div>
                 </section>
                 """
             )
@@ -1044,28 +1033,31 @@ def render_site(report: dict[str, Any]) -> str:
                 margin-bottom: 14px;
                 border-bottom: 1px solid var(--border);
               }}
-              .feed-grid {{
-                display: grid;
-                gap: 12px;
-                grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-              }}
+              .feed-list {{ display: grid; gap: 10px; }}
               .feed {{
                 background: var(--surface);
                 border: 1px solid var(--border);
                 border-radius: 8px;
-                padding: 18px;
+                padding: 14px 16px;
+                display: grid;
+                grid-template-columns: minmax(0, 220px) minmax(0, 1fr) auto;
+                gap: 12px;
+                align-items: start;
               }}
-              .feed-hd {{
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
-                gap: 8px;
-                margin-bottom: 10px;
+              .feed-line {{
+                display: contents;
               }}
-              .feed-title {{ font-size: 0.95rem; font-weight: 600; }}
+              .feed-title {{ font-size: 0.95rem; font-weight: 600; line-height: 1.45; }}
               .feed-title a {{ color: var(--text); }}
               .feed-title a:hover {{ color: var(--accent); text-decoration: none; }}
-              .feed-meta {{ font-size: 0.78rem; color: var(--muted); margin-top: 2px; }}
+              .feed-meta {{
+                font-size: 0.78rem;
+                color: var(--muted);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                white-space: nowrap;
+              }}
               .rss-badge {{
                 font-size: 0.68rem;
                 font-weight: 700;
@@ -1082,40 +1074,7 @@ def render_site(report: dict[str, Any]) -> str:
                 font-size: 0.85rem;
                 color: var(--muted);
                 line-height: 1.65;
-                margin-bottom: 12px;
-              }}
-              .highlights {{ padding-left: 16px; }}
-              .highlights li {{ font-size: 0.84rem; margin-bottom: 3px; }}
-              details {{
-                margin-top: 12px;
-                border-top: 1px solid var(--border);
-                padding-top: 10px;
-              }}
-              details summary {{
-                font-size: 0.78rem;
-                color: var(--muted);
-                cursor: pointer;
-                user-select: none;
-                list-style: none;
-              }}
-              details summary::-webkit-details-marker {{ display: none; }}
-              details summary::before {{ content: "+ "; }}
-              details[open] summary::before {{ content: "- "; }}
-              details summary:hover {{ color: var(--accent); }}
-              .items {{ list-style: none; margin-top: 10px; }}
-              .items li {{
-                padding: 6px 0;
-                border-bottom: 1px solid var(--border);
-                font-size: 0.84rem;
-              }}
-              .items li:last-child {{ border-bottom: none; }}
-              .items a {{ color: var(--text); }}
-              .items a:hover {{ color: var(--accent); text-decoration: none; }}
-              .item-meta {{
-                display: block;
-                font-size: 0.72rem;
-                color: var(--muted);
-                margin-top: 1px;
+                margin: 0;
               }}
               .errors {{
                 background: var(--surface);
@@ -1140,7 +1099,12 @@ def render_site(report: dict[str, Any]) -> str:
               @media (max-width: 600px) {{
                 .shell {{ padding: 20px 14px 60px; }}
                 .page-hd h1 {{ font-size: 1.3rem; }}
-                .feed-grid {{ grid-template-columns: 1fr; }}
+                .feed {{
+                  grid-template-columns: 1fr;
+                  gap: 6px;
+                }}
+                .feed-line {{ display: block; }}
+                .feed-meta {{ white-space: normal; }}
               }}
             </style>
           </head>
@@ -1177,22 +1141,6 @@ def render_site(report: dict[str, Any]) -> str:
         </html>
         """
     ).strip() + "\n"
-
-
-def render_item(item: dict[str, Any]) -> str:
-    meta_bits = []
-    if item.get("published"):
-        meta_bits.append(item["published"])
-    if item.get("source_kind"):
-        meta_bits.append(item["source_kind"])
-    meta = " | ".join(meta_bits)
-    title = escape(item["title"])
-    if item.get("link"):
-        label = f'<a href="{escape(item["link"])}">{title}</a>'
-    else:
-        label = title
-    meta_html = f'<span class="item-meta">{escape(meta)}</span>' if meta else ""
-    return f"<li>{label}{meta_html}</li>"
 
 
 def ordered_categories(feeds: list[dict[str, Any]]) -> list[str]:

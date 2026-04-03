@@ -20,11 +20,11 @@ jobs:
       pages: write
       id-token: write
     env:
-      LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openrouter' }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+      OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'qwen/qwen3.6-plus:free' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.0-flash-lite' }}
       SITE_TITLE: ${{ vars.SITE_TITLE }}
       SUMMARY_LANGUAGE: ${{ vars.SUMMARY_LANGUAGE }}
       MIN_FEED_CONTENT_CHARS: ${{ vars.MIN_FEED_CONTENT_CHARS }}

@@ -212,6 +212,27 @@ class TestOpenRouterIntegration(unittest.TestCase):
         self.assertEqual(config["llm_provider"], "openrouter")
         self.assertEqual(config["openrouter_model"], "qwen/qwen3.6-plus:free")
 
+    def test_call_llm_json_uses_openrouter_provider(self) -> None:
+        config = {
+            "llm_provider": "openrouter",
+            "openrouter_api_key": "router-key",
+            "openrouter_model": "qwen/qwen3.6-plus:free",
+        }
+
+        with mock.patch.object(
+            rss_digest,
+            "call_openrouter_json",
+            return_value={"tldr": "Summary", "highlights": ["One"]},
+        ) as call_openrouter:
+            result = rss_digest.call_llm_json(config=config, prompt="Summarize this feed")
+
+        self.assertEqual(result, {"tldr": "Summary", "highlights": ["One"]})
+        call_openrouter.assert_called_once_with(
+            api_key="router-key",
+            model="qwen/qwen3.6-plus:free",
+            prompt="Summarize this feed",
+        )
+
     def test_call_openrouter_json_requests_json_mode_and_parses_output_text(self) -> None:
         response = mock.Mock()
         response.raise_for_status.return_value = None
@@ -247,6 +268,44 @@ class TestOpenRouterIntegration(unittest.TestCase):
             post.call_args.kwargs["headers"]["X-OpenRouter-Title"],
             "rss-ai-summary",
         )
+
+
+class TestRenderSite(unittest.TestCase):
+    def test_render_site_shows_linked_title_followed_by_tldr(self) -> None:
+        report = {
+            "site_title": "Daily Feed TLDR",
+            "generated_at_human": "2026-04-03 12:00 UTC",
+            "model": "qwen/qwen3.6-plus:free",
+            "feeds_with_updates": 1,
+            "total_items": 2,
+            "categories": ["Research"],
+            "feeds": [
+                {
+                    "category": "Research",
+                    "title": "Paper Feed",
+                    "site_url": "https://example.com/papers",
+                    "feed_url": "https://example.com/feed.xml",
+                    "item_count": 2,
+                    "tldr": "A short summary of the latest papers.",
+                    "highlights": ["Paper A", "Paper B"],
+                    "items": [
+                        {"title": "Paper A", "link": "https://example.com/a"},
+                        {"title": "Paper B", "link": "https://example.com/b"},
+                    ],
+                }
+            ],
+            "errors": [],
+        }
+
+        html = rss_digest.render_site(report)
+
+        self.assertIn(
+            '<div class="feed-title"><a href="https://example.com/papers">Paper Feed</a></div>',
+            html,
+        )
+        self.assertIn('<p class="tldr">A short summary of the latest papers.</p>', html)
+        self.assertIn('<div class="feed-list">', html)
+        self.assertNotIn("<details>", html)
 
 
 if __name__ == "__main__":
