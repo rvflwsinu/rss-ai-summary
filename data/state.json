@@ -24,8 +24,10 @@
         "18698373498696f9f75479b2b0b970bf22aa70b95ecc5204f6773c8e4bc939c1",
         "ece7d794c1725162dc1a9bce1cfff55cd1017dbc38f8bafdcf9320c13670a19e"
       ],
-      "last_checked_at": "2026-04-03T03:54:46+00:00",
-      "feed_title": "furidamu"
+      "last_checked_at": "2026-04-03T06:32:15+00:00",
+      "feed_title": "furidamu",
+      "pending_items": [],
+      "site_url": "https://www.julian.ac/"
     },
     "https://karpathy.bearblog.dev/feed/": {
       "seen_ids": [
@@ -40,8 +42,10 @@
         "b5eefa012d6628992bc24d1507b8fe5db614b0fe41435a3dae0c4c46781dadf1",
         "318094fc16d213d2bdce4cfcabe341111c594a9fecbe585a62ed2b3f1cd2a5ad"
       ],
-      "last_checked_at": "2026-04-03T03:54:46+00:00",
-      "feed_title": "karpathy"
+      "last_checked_at": "2026-04-03T06:32:16+00:00",
+      "feed_title": "karpathy",
+      "pending_items": [],
+      "site_url": "https://karpathy.bearblog.dev/"
     },
     "https://lilianweng.github.io/index.xml": {
       "seen_ids": [
@@ -97,20 +101,71 @@
         "68921d2222b0e3f1cfe4eb07f2f63a0a14e70ae71cada5efe31986e494969f6e",
         "4236f3e954dabf5bd7af893cc6812a8c13ae05e15cef0a22cef342d47b1c3daa"
       ],
-      "last_checked_at": "2026-04-03T03:54:46+00:00",
-      "feed_title": "Lil'Log"
+      "last_checked_at": "2026-04-03T06:32:16+00:00",
+      "feed_title": "Lil'Log",
+      "pending_items": [],
+      "site_url": "https://lilianweng.github.io/"
     },
     "http://www.ruanyifeng.com/blog/atom.xml": {
       "seen_ids": [
+        "831d8acd20e26277fa0f75a9839a78430f462a921faaa2177521897571a7a504",
         "d4aca1a36e7b1b8a368b003de050618f1220d4d696539ee8e850027e4df7bf01",
         "63517c1387b3905aea468f6d623fc17d8a951aa6d16470bd4bb93fd99f356779",
         "2a49b479935bde52e4b120b2efcd5853a96687100e3f3d5c6633710078193873"
       ],
-      "last_checked_at": "2026-04-03T03:54:46+00:00",
-      "feed_title": "阮一峰的网络日志"
+      "last_checked_at": "2026-04-03T06:32:16+00:00",
+      "feed_title": "阮一峰的网络日志",
+      "pending_items": [
+        {
+          "id": "831d8acd20e26277fa0f75a9839a78430f462a921faaa2177521897571a7a504",
+          "signature": "f8ca7309426ef6e4772f850d0e7214754fb39210ee225e57402d80bab7ecb7e2",
+          "title": "科技爱好者周刊（第 391 期）：AI 的贫富分化",
+          "link": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-391.html",
+          "published": "2026-04-03 00:08 UTC",
+          "sort_key": 1775174882.0,
+          "source_kind": "feed",
+          "text": "这里记录每周值得分享的科技内容，周五发布。 本杂志 开源 ，欢迎 投稿 。另有 《谁在招人》 服务，发布程序员招聘信息。合作请 邮件联系 （yifeng.ruan@gmail.com）。 封面图 上海某餐厅的墙壁装饰。（via monana3838@Threads ） AI 的贫富分化 我越来越觉得，AI 跟其他技术不一样，不仅带来技术变革，还会带来社会变革。 简单说，AI 会带来贫富分化。 其他技术实际上会消灭贫富分化，实现\"消费者平等\"，即穷人和富人消费的东西是一样的。 比如，大家喝一样的可口可乐，用一样的苹果手机，开一样的特斯拉。甚至互联网也是如此，世界首富马斯克和你用一样的网站、一样的手机 App。 但是，AI 模型不是这样。 在大模型面前，穷人和富人是不平等的 。 在未来，普通人肯定用不起顶级的大模型。其实，现在就是如此了，最贵的 AI 编程套餐是 Claude Code 的 Max 套餐，月费200美元，很多人已经用不起了。 OpenAI 曾经设想过 月费2万美元的套餐 ，提供最顶级、无限量的大模型服务。 要是真的推出，只有富豪才用得起。 这反映了一个简单的事实： 费用越贵，模型效果越好 。因为模型的效果与算力相关，更多的算力、更大的上下文、更多的参数，都需要钱。 这跟工业品完全相反。工业品有规模效应，产量越高，单位成本越低。一旦大规模生产，价格就会越来越便宜。 但是， 大模型不存在规模效应 ，模型的大规模生产需要更多的服务器，这并不会让单位成本降低，反而可能因为扩建机房，改造电路和水路，而变得更贵。 未来社会大概是这样的：富人和穷人用不同的模型。最顶级模型的服务----规划、咨询、生成内容、自动化......----需要支付高昂的使用费，而普通人就使用免费模型，效果当然也很普通。 不过，我也看到马斯克 最近说 ，未来还有另一种可能。 他的意思是，算力本质上是能源转化的一种形式。人类最终会实现廉价能源的大量供应（空间太阳能？），所以算力将变得足够便宜，所有人都将用最好的模型。 可能吗？我不知道，感觉还是前一种情况更现实。 模型能力的一种衡量方法 怎么衡量大模型的能力？ 现在的方法是使用一个测试集，去计算大模型的分数。它的缺点是，只能用于横向比较，很难衡量进步速度。 最近，一篇论文提出了 一种新的衡量方法 。 科学家首先计算，人类完成某一项任务需要多少时间。比如，计算 4 + 5 + 7，人类需要2秒，而计算 37 * 52 * 19，可能需要1分钟。 然后，测试大模型能否以50%的成功率完成这项任务。 研究发现，GPT-2 以50%成功率能够完成的任务，时间范围是两秒；Claude 3.7 Sonnet 是50分钟；O3 接近两小时；Opus 4.6 约为12小时。 也就是说，人类需要12小时才能完成的任务，Opus 4.6 的成功概率是50%。 结果就是上图，可以发现，大模型的进化速度在对数坐标下是一根直线。 每7个月，大模型能够以50%成功率完成的任务，时间范围扩大一倍 。按照这个趋势，大模型将在2027年至2031年间，以50%的成功率完成人类专家需要一个月才能完成的任务。 如果这篇论文正确，就意味着年底发布的模型，将比年初强一倍。 科技动态 1、 用户协议的彩蛋 软件服务的用户协议，又长又难懂，很少有用户阅读，但是里面有很多重要内容。 一家美国通信运营商，为了表示自己很重视用户权益，鼓励大家阅读《用户协议》，并偷偷在里面加入了一个彩蛋。 上图高亮的句子写道：\"如果你读到这句话，请发邮件到我们的信箱，赢取免费的瑞士旅游。\" 上线二周后，才有人发邮件，询问这事是否真实。由于只有一个人来信，所以她就免费去瑞士了。 从这件事可以看出，即使有彩蛋，也没人阅读《用户协议》。我现在的做法是让大模型帮忙，询问\"这份协议有哪些对用户不利的地方\"，很快就得到了答案。 2、 触摸屏指甲油 广泛使用的电容式触摸屏，有一个问题，就是戴手套使用会失灵。 原因是它要求触摸物（比如手指）必须导电，这样屏幕才会产生电场扰动，从而确定触摸的位置。 解决方法也很简单，就是在手套指尖涂一层指甲油，指甲油里面的金属碎屑可以导电。 美国的一名化学系本科生，在学习化妆品化学时，发明了一种改进型的透明指甲油，专门用于戴手套使用触摸屏。 这种指甲油是透明的，涂在手套上看不见，也可以涂在裸甲上，当作抛光剂。 3、 Copilot 广告 Copilot 是 GitHub 推出的 AI 助手，上周有用户发现，它会自动插入广告。 上图是 Copilot 自动提交的 一个 Pull Request ，它在提交说明的结尾（红框处）加入了一个广告，介绍应用程序 Raycast。 在 GitHub 搜索一下 ，就会发现已经有超过11,400个 PR 都包含了相同的广告词。 经过用户抗议，GitHub 暂止停止了这个功能。但这是一个危险的信号，表示 GitHub 想利用用户增加收入。 文章 1、 小米 MiMo v2 Pro 评测 （英文） 小米发布了 MiMo V2 系列大模型，本文是国外媒体的评测，给出了很高的评价。 2、 我用 AI 生成了一个 JavaScript 引擎 （英文） 作者用六周时间，生成了一个100%通过 test262 测试集的 JavaScript 引擎，涵盖所有98,426个场景。本文是对这件事的介绍。 3、 解剖 .claude/ 目录 （英文） Claude Code 会生成 .claude/ 子目录，所有 AI 处理的底层数据都放在里面，本文研究这个目录到底有什么。 4、 一致性哈希介绍 （英文） 一致性哈希（Consistent hashing）是一种缓存定位算法，在增加或减少缓存服务器的情况下，可以不改变缓存所在的原始位置。 5、 笔记本如何用作单板计算机的 HDMI 显示器 （英文） 作者使用一张 HDMI 转 USB 采集卡，将笔记本电脑用作树莓派的显示器。 工具 1、 EmDash AI 生成的 WordPress 复刻，基于 TypeScript 语言，支持插件，据说功能基本一样，参见 介绍文章 。 2、 SubsTracker 基于 Cloudflare Workers 的订阅管理系统，可以发送各种订阅的到期通知，通过 Telegram、Webhook 等通知渠道。（ @wangwangit 投稿） 3、 OpeniLink Hub 开源的微信机器人消息管理平台，自带应用市场，通过点击安装应用，给微信 Bot 加功能。（ @xixihhhh 投稿） 另有一个类似项目 wxWebHook ，通过 WebHook 向微信用户发消息。（ @aristorechina 投稿） 4、 Lixian.Online 获取 VSCode 插件、Chrome 扩展和 Docker 镜像的离线安装包的工具， 代码开源 。（ @LiaoGuoYin 投稿） 5、 Rename.Tools 浏览器端的批量文件重命名工具，支持各种规则设定， 代码开源 。（ @chenz24 投稿） 6、 FontInAss 开源的字幕字体子集化工具，将所需的字体字形嵌入字幕文件。（ @Yuri-NagaSaki 投稿） 7、 pretext.video 基于 Pretext （文字排版计算库）的一个小应用，将摄像头捕捉的人体轮廓通过文字排版实时展示。（ @fifteen42 投稿） 8、 OxideTerm 基于 Rust 语言的跨平台 SSH 终端，功能较多，使用 Tauri 桌面框架。（ @AnalyseDeCircuit 投稿） 9、 wtree git worktree 的图形化管理界面。（ @FatDoge 投稿） AI 相关 1、 Open Agent SDK 基于 Claude Code 源码实现的 claude-agent-sdk 的开源替代品，用于 AI Agent 的开发，完全兼容原始接口，不依赖本地 cli 进程。（ @idoubi 投稿） 2、 Antigravity Gateway 统一管理本地所有 AI 智能体的 Web 控制台，支持多工作区隔离、飞书远程协同、Skills 生态等。（ @Mr-ZhangBo 投稿） 3、 ArcReel 开源的 AI 视频生成工作台，输入一本小说，自动完成剧本、人物设计、分镜、短视频生成。（ @Pollo3470 投稿） 4、 TermCanvas 开源桌面应用，所有终端铺在无限画布上，方便管理 AI 编程工具。（ @blueberrycongee 投稿） 另有一个类似项目 OpenCove 。（ @DeadWaveWave 投稿） 资源 1、 Claude Code 动手教程 Claude Code 的互动式教程，通过11个小练习，掌握这个 AI 编程工具。 2、 Claude Code Unpacked 根据 Claude Code 泄漏的源码，一步步图解演示，输入提示词后软件内部如何处理。 3、 机器学习入门教程 工程师的机器学习教程，解释基本概念。 图片 1、 欧洲年度树木 欧洲有一个\"欧洲年度树木\"的评选，初听觉得很奇怪，但仔细一想，就会发现这个活动有很多好处：提高城市知名度，促进生态保护，推动旅游业...... 国内下面就是今年的\"欧洲年度树木\"。 立陶宛鲁凯村的橡树，树龄400年。 以下是其他入围决赛的树木。 斯洛伐克的野生苹果树 波兰的榆树 拉脱维亚的菩提树 葡萄牙的柏树 文摘 1、 越使用 AI，我越不担忧 我花在 AI 编程的时间越多，对自己的职业生涯的担忧就越少，即使 AI 的编程能力越来越强。 因为，…"
+        }
+      ],
+      "site_url": "http://www.ruanyifeng.com/blog/",
+      "summary": {
+        "tldr": "阮一峰的网络日志 currently has 1 retained item(s) on the page. Key items include \"科技爱好者周刊（第 391 期）：AI 的贫富分化\".",
+        "highlights": [
+          "科技爱好者周刊（第 391 期）：AI 的贫富分化"
+        ]
+      }
     },
     "https://linux.do/tag/444-tag/444.rss": {
       "seen_ids": [
+        "f25ea9d937a2277c376bd03f9ce8c579e7273b4c0bf78f5bcc922c476092d0b5",
+        "35b64db4945b8727998c1bdbcab309c56f2d72d34b78bbe929a9193969640ff1",
+        "47d18bbf37a11e0f45651777bf9e26929a48bc7fc38fdbba3ab2dd2f45ddb504",
+        "dac1332534dc090973f5a8a4e782df66bd7b327b62a323b45dcfb83abc8b3940",
+        "1ded68c15cd956e45d1dade5d8b0f685133c5e2ac1437c04a9b5d2ad8f1f3f98",
+        "e6f84500b7366af6467f59a34b9925b839c01e4e0bd3582d52197139135534f8",
+        "bd00d32cacec36106035d39927104857d5f3eaea6e69200846d55fad4ed48e2b",
+        "790731e8f98d0f9d5686b692d469fd23043a2319c1a13d031e5777d2ee20eb10",
+        "daa4e49da63a2c9002a6e6779be9fd72a5b1436396cb314702208dd1c52c8b9c",
+        "4ba3b7f5218ef44e0480a6576e64622a568138c671073db9f8dbe2330c869135",
+        "682508279d34bf7b8867e8f13dc54a517eb2cab4cf1a6a4ac1a1060b35cc004c",
+        "82ba11742e6dd3028de7a1c5c00ba927dcd63b93889bd5692ab9a6ad3fb2ef42",
+        "225935150043edc2271e5d08eddcd7b1d32d4c619cd32dccd6bfeadbdf643a12",
+        "7eea11ee12e20a450799e2d5b7b6f91a046cbf062251b6f9d5bb1d3601c84eef",
+        "1394330d9176a2622092214a68a7ac79fc2f9ee2bbe943b5075f4d2e5d2c82e9",
+        "54431e81e99cbe03929908b41b0f148c98b82f27e50cbac121c6317e15fd235c",
+        "417de4b8b7cda13fe3ea5b26b6408fe88fa4712e4906b3cc0cc25be16c52b4ac",
+        "c1775e27985f46faf0ac652a048f9164a7eaf2f76c408bb8444cd65d13922ef3",
+        "42228e35a0ab70dee28e63c473eab990fb6174860863af16c9376087e1e4dc3c",
+        "77287df5e304d4583c48952f29ee9d4510d6835987ad3887ba350bb945af637c",
+        "3f2b86e501bcc98807823aa6edf0ea73a651b454cdc727e3e0dbb344da8b3207",
+        "e67d84800b5a18800ef8efc3a3c22e7770511eb9b7bde795e3423a2dbab28a80",
+        "43c841a5d14ffe7a98396c11cdaec09b6e3019d20087666c91511e0db0cbac6b",
+        "0b9da5be9c5c03b52e26d77113f4ccf33c84f02cbf34a093766a55272881d4a4",
+        "f2a2352d64c6a18b0c5edc674caf8a4537ba5342796e2d53a41df322d038ff07",
+        "aab3642ab0bc3c53096f83a50cc6797ffcd90d2c96445a5c29780e1bfd11b216",
+        "cd038124aa38445bc96b04e72eb0c1784c326ed43adbd2c93641462b7507fc83",
+        "d686e7e13db85eeb7329bf5d2c1dd244178b240379584d639a56a057e3854d34",
+        "7d27d0f8ad850d9b4ef121c4ddaa2b03c8dae753887e356edb5fd94eceb6e681",
         "b6c71c79ed1a3d870fd0c4bb54503dd1878b3a8968b34f0a251f68a81ca3d3f7",
         "ceff7401cabe361fdb8224fde66672046f1189ddd621b09cae3a1d2b37ea6750",
         "95f00b8da6406a8ca8ae139f4d974ed74f3d96834ec54cf3eb22a45953114162",
@@ -231,11 +286,368 @@
         "cbcf014734d3520b8dfb7281a7d49609874738fd3ea4eee9ab149184d2946971",
         "f254e4522361be6ebe95ac1c1802a3f176557d587f8e9c6eb73fea6f8e2954f5"
       ],
-      "last_checked_at": "2026-04-03T03:54:47+00:00",
-      "feed_title": "LINUX DO - 使用人工智能标记的话题"
+      "last_checked_at": "2026-04-03T06:32:17+00:00",
+      "feed_title": "LINUX DO - 使用人工智能标记的话题",
+      "pending_items": [
+        {
+          "id": "f25ea9d937a2277c376bd03f9ce8c579e7273b4c0bf78f5bcc922c476092d0b5",
+          "signature": "76ac4eb9a6a536fb4d26621324289c593b6fac24feebd395da6ff1f021bae2db",
+          "title": "codex线程丢失解决方案",
+          "link": "https://linux.do/t/topic/1889648",
+          "published": "2026-04-03 06:25 UTC",
+          "sort_key": 1775197513.0,
+          "source_kind": "feed",
+          "text": "问题描述 在 Windows 下使用 cc-switch 切换账号时，会出现 线程丢失 的问题。 原因分析 问题根源在于 cc-switch 在你再选择供应商时，cc-switch在 config.toml 配置文件中设置了 model_provider = \"**custom**\" 导致。 问题配置示例 以下是导致问题的配置示例： model_provider = \"**custom**\" model = \"gpt-5.2\" model_reasoning_effort = \"xhigh\" disable_response_storage = true [model_providers.**custom**] name = \"**custom**\" base_url = \"https://xxx\" wire_api = \"responses\" requires_openai_auth = true [windows] sandbox = \"elevated\" 解决办法 将custom 改为一样即可。 求赞 4 个帖子 - 3 位参与者 阅读完整话题 问题描述 在 Windows 下使用 cc-switch 切换账号时，会出现 线程丢失 的问题。 原因分析 问题根源在于 cc-switch 在你再选择供应商时，cc-switch在 config.toml 配置文件中设置了 model_provider = \"**custom**\" 导致。 问题配置示例 以下是导致问题的配置示例： model_provider = \"**custom**\" model = \"gpt-5.2\" model_reasoning_effort = \"xhigh\" disable_response_storage = true [model_providers.**custom**] name = \"**custom**\" base_url = \"https://xxx\" wire_api = \"responses\" requires_openai_auth = true [windows] sandbox = \"elevated\" 解决办法 将custom 改为一样即可。 求赞 4 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "35b64db4945b8727998c1bdbcab309c56f2d72d34b78bbe929a9193969640ff1",
+          "signature": "a75e40388a63e59495eba2c132ab10a5f2b1bdda2e78f2a1554766fa3c3a025f",
+          "title": "Mimo Token Plan 这对吗？？？",
+          "link": "https://linux.do/t/topic/1889643",
+          "published": "2026-04-03 06:23 UTC",
+          "sort_key": 1775197421.0,
+          "source_kind": "feed",
+          "text": "这玩意是串台了还是咋啦。。。（手动狗头） 6 个帖子 - 6 位参与者 阅读完整话题 这玩意是串台了还是咋啦。。。（手动狗头） 6 个帖子 - 6 位参与者 阅读完整话题"
+        },
+        {
+          "id": "47d18bbf37a11e0f45651777bf9e26929a48bc7fc38fdbba3ab2dd2f45ddb504",
+          "signature": "743fcc6325ce56ced606dbd55f2c6f79b0836fa73113c074a33d04fcde60bbdd",
+          "title": "[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债",
+          "link": "https://linux.do/t/topic/1889640",
+          "published": "2026-04-03 06:23 UTC",
+          "sort_key": 1775197395.0,
+          "source_kind": "feed",
+          "text": "新人报道，在浏览帖子的时候，发现很多l佬会问怎么vibecoding，也会有很多佬回复一些方法，就是文档，plan之类的，我也有一个1kstar的项目来解决这个问题，但是不管用spec，superpower，或者其他所有的方法，给我的感觉都是贷款，先欠下一些技术债，能跑就行，所以这是不是一个新的流派，贷款流开发 4 个帖子 - 3 位参与者 阅读完整话题 新人报道，在浏览帖子的时候，发现很多l佬会问怎么vibecoding，也会有很多佬回复一些方法，就是文档，plan之类的，我也有一个1kstar的项目来解决这个问题，但是不管用spec，superpower，或者其他所有的方法，给我的感觉都是贷款，先欠下一些技术债，能跑就行，所以这是不是一个新的流派，贷款流开发 4 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "dac1332534dc090973f5a8a4e782df66bd7b327b62a323b45dcfb83abc8b3940",
+          "signature": "b1d2b91cebdf82ffc322914aac7098665bfc3de3eb7aa7a61aa867ec4bf1ebba",
+          "title": "想找研究过LLM4Rec的佬友聊聊",
+          "link": "https://linux.do/t/topic/1889600",
+          "published": "2026-04-03 06:18 UTC",
+          "sort_key": 1775197119.0,
+          "source_kind": "feed",
+          "text": "目前做了一个虚拟试衣的小demo项目。想要在这个项目的基础上做扩展，加入大模型推荐功能，推荐合适的搭配和个性化推荐，目前简单做了一些相关的调研，发现难度好高呀，之前没有做过算法相关的活，毕业出来就是做系统开发的，对这块的了解很少，想找一下相关领域的佬友聊聊，先评估一下自己的想法可行性如何，感兴趣的佬友也可一起加入进来搞搞。 3 个帖子 - 3 位参与者 阅读完整话题 目前做了一个虚拟试衣的小demo项目。想要在这个项目的基础上做扩展，加入大模型推荐功能，推荐合适的搭配和个性化推荐，目前简单做了一些相关的调研，发现难度好高呀，之前没有做过算法相关的活，毕业出来就是做系统开发的，对这块的了解很少，想找一下相关领域的佬友聊聊，先评估一下自己的想法可行性如何，感兴趣的佬友也可一起加入进来搞搞。 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1ded68c15cd956e45d1dade5d8b0f685133c5e2ac1437c04a9b5d2ad8f1f3f98",
+          "signature": "138cd01433a27aec4982f93fdab2f48ca25b988978c8c063b97fde36228b416e",
+          "title": "佬友们都是怎么在大量 vibe coding 保证代码可维护性的",
+          "link": "https://linux.do/t/topic/1889488",
+          "published": "2026-04-03 06:05 UTC",
+          "sort_key": 1775196347.0,
+          "source_kind": "feed",
+          "text": "最近 claude code用的起飞，代码可维护性越来越差，求教佬友们都是怎么保证代码可维护性的 25 个帖子 - 22 位参与者 阅读完整话题 最近 claude code用的起飞，代码可维护性越来越差，求教佬友们都是怎么保证代码可维护性的 25 个帖子 - 22 位参与者 阅读完整话题"
+        },
+        {
+          "id": "e6f84500b7366af6467f59a34b9925b839c01e4e0bd3582d52197139135534f8",
+          "signature": "81b0d2f0ae30471a2b3a130f5edd3ba93fa3e1f03cf636007cc02a1f09af1e24",
+          "title": "大佬们，claude code这种终端的，和cursor 如果都使用同一个模型，它俩到底有什么区别？",
+          "link": "https://linux.do/t/topic/1889483",
+          "published": "2026-04-03 06:05 UTC",
+          "sort_key": 1775196317.0,
+          "source_kind": "feed",
+          "text": "求大佬解惑，如果做代码开发来说的话，终端的 这种和 可视化工具的这种，模型相同是不是效果也不同啊，有知道的吗 12 个帖子 - 9 位参与者 阅读完整话题 求大佬解惑，如果做代码开发来说的话，终端的 这种和 可视化工具的这种，模型相同是不是效果也不同啊，有知道的吗 12 个帖子 - 9 位参与者 阅读完整话题"
+        },
+        {
+          "id": "bd00d32cacec36106035d39927104857d5f3eaea6e69200846d55fad4ed48e2b",
+          "signature": "a4a7ba91f3aa039837b7a686d81b87097abf4426f583eabc705e681e3193b600",
+          "title": "哈基米和冰佬都把门焊死了咋办！只能靠Dooong和10刀的OpenRouter续命了",
+          "link": "https://linux.do/t/topic/1889466",
+          "published": "2026-04-03 06:02 UTC",
+          "sort_key": 1775196156.0,
+          "source_kind": "feed",
+          "text": "大门已焊死 只能靠Dooong和10刀的OpenRouter续命 Dooong每天有200的额度，但是目前就minmax通的了，gpt全崩 OpenRouter充10刀 每天免费调用1000次，真良心啊 免费模型也不孬的 八只龙虾，死了一半 7 个帖子 - 7 位参与者 阅读完整话题 大门已焊死 只能靠Dooong和10刀的OpenRouter续命 Dooong每天有200的额度，但是目前就minmax通的了，gpt全崩 OpenRouter充10刀 每天免费调用1000次，真良心啊 免费模型也不孬的 八只龙虾，死了一半 7 个帖子 - 7 位参与者 阅读完整话题"
+        },
+        {
+          "id": "790731e8f98d0f9d5686b692d469fd23043a2319c1a13d031e5777d2ee20eb10",
+          "signature": "2573fbdd494d11b51eee82cdf511a7ab0e7259333250ae8bab49a15f8a90d456",
+          "title": "GPT 5.4 Plus用户是否有降智!？",
+          "link": "https://linux.do/t/topic/1889366",
+          "published": "2026-04-03 05:49 UTC",
+          "sort_key": 1775195391.0,
+          "source_kind": "feed",
+          "text": "RT，之前team、中转站的GPT5.4 xhigh都用过，同样一个项目，这周开始上Codex客户端+官方GPT Plus以后各种编码用错，脚本写错，还是说最近降努力程度了？ 5 个帖子 - 5 位参与者 阅读完整话题 RT，之前team、中转站的GPT5.4 xhigh都用过，同样一个项目，这周开始上Codex客户端+官方GPT Plus以后各种编码用错，脚本写错，还是说最近降努力程度了？ 5 个帖子 - 5 位参与者 阅读完整话题"
+        },
+        {
+          "id": "daa4e49da63a2c9002a6e6779be9fd72a5b1436396cb314702208dd1c52c8b9c",
+          "signature": "bcc0a1ebd194fb32112ead4d231ecf7635f3f6fb27e52d51f06059835b968fbd",
+          "title": "公司决定要采购cursor了，但是压力全部给到我，让我来办，佬们要怎么弄啊！！！我好慌！",
+          "link": "https://linux.do/t/topic/1889361",
+          "published": "2026-04-03 05:48 UTC",
+          "sort_key": 1775195338.0,
+          "source_kind": "feed",
+          "text": "老板给的问题，以及怎么开通企业版，我看了一下只能开team 1.账号与数据：能否开通固定的企业团队账号，保证历史数据不丢失；员工离职后，账号权限能否直接转移给新同事，无缝承接？ 2.版本选型：Teams 版最高 40 刀 / 位 / 月的额度不够用（席位费+基础额度），是否可以升级 Cursor Enterprise 企业版，支持更高的额度配置？ 3.额度管控：能否自定义单成员月度额度上限（如每人 100 刀 / 月），额度用完后自动暂停使用，同时不影响其他未消耗完成的同事使用 ，禁止超额消耗？ 4.费用规则：企业版的付费周期（按月 / 按年）、各周期的费用标准、费用构成明细，以及企业采购的优惠政策？ 我看了一下还必须要联系销售，这个是必须操作吗？有知道的佬吗？ 89 个帖子 - 42 位参与者 阅读完整话题 老板给的问题，以及怎么开通企业版，我看了一下只能开team 1.账号与数据：能否开通固定的企业团队账号，保证历史数据不丢失；员工离职后，账号权限能否直接转移给新同事，无缝承接？ 2.版本选型：Teams 版最高 40 刀 / 位 / 月的额度不够用（席位费+基础额度），是否可以升级 Cursor Enterprise 企业版，支持更高的额度配置？ 3.额度管控：能否自定义单成员月度额度上限（如每人 100 刀 / 月），额度用完后自动暂停使用，同时不影响其他未消耗完成的同事使用 ，禁止超额消耗？ 4.费用规则：企业版的付费周期（按月 / 按年）、各周期的费用标准、费用构成明细，以及企业采购的优惠政策？ 我看了一下还必须要联系销售，这个是必须操作吗？有知道的佬吗？ 89 个帖子 - 42 位参与者 阅读完整话题"
+        },
+        {
+          "id": "4ba3b7f5218ef44e0480a6576e64622a568138c671073db9f8dbe2330c869135",
+          "signature": "c40574cfaad310c5f41ab6ae7758ccf5a51fb45ad3de1ff6361c0d2110740b98",
+          "title": "OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？",
+          "link": "https://linux.do/t/topic/1889285",
+          "published": "2026-04-03 05:37 UTC",
+          "sort_key": 1775194661.0,
+          "source_kind": "feed",
+          "text": "OpenAI Codex 工程负责人 Thibault Sottiaux 在 X 上发帖称，Codex 目前高峰与低谷时段的负载差距很大，团队希望让流量分布更平滑，以更高效地利用算力。他直接向用户征求意见：低谷时段给更多用量、高峰时段引入倍率消耗，这样的方案是否合理？并表示团队已有一些想法，但想先听听用户怎么想。 同样是算力不够分的问题，OpenAI 选择在动手之前先问一句。而 Anthropic 对 Claude Code 限额危机的回应是一份使用指南：别用 Opus、别开 100 万上下文、闲置会话别恢复，不提补偿，不问用户意见。 https://x.com/thsottiaux/status/2039893158952419779 32 个帖子 - 29 位参与者 阅读完整话题 OpenAI Codex 工程负责人 Thibault Sottiaux 在 X 上发帖称，Codex 目前高峰与低谷时段的负载差距很大，团队希望让流量分布更平滑，以更高效地利用算力。他直接向用户征求意见：低谷时段给更多用量、高峰时段引入倍率消耗，这样的方案是否合理？并表示团队已有一些想法，但想先听听用户怎么想。 同样是算力不够分的问题，OpenAI 选择在动手之前先问一句。而 Anthropic 对 Claude Code 限额危机的回应是一份使用指南：别用 Opus、别开 100 万上下文、闲置会话别恢复，不提补偿，不问用户意见。 https://x.com/thsottiaux/status/2039893158952419779 32 个帖子 - 29 位参与者 阅读完整话题"
+        },
+        {
+          "id": "682508279d34bf7b8867e8f13dc54a517eb2cab4cf1a6a4ac1a1060b35cc004c",
+          "signature": "30be8dd7b33be85323ad0edeed2668c07a2fa69921772a409dd74b1465617e88",
+          "title": "各位佬们，有个问题想请教",
+          "link": "https://linux.do/t/topic/1889228",
+          "published": "2026-04-03 05:25 UTC",
+          "sort_key": 1775193942.0,
+          "source_kind": "feed",
+          "text": "L站佬们，打扰了。有个问题想请教。我是 NCP 生命支援的的发起人之一，也是卓明灾害信息服务中心的核心志愿者。从玉树地震起源，我们做了十几年的灾害信息管理的事情，致力于探索救灾信息的标准、处理、挖掘、应用和发布。 我们的可标准化部分的流程：收集信源：包括微博、抖音、我们的收集表；将信源处理成灾情、天气、交通、个人求助等，标准格式要素：时间、地点、事件、信源等信息；求助类信息根据内部优先级模型，按轻重缓急分发给附近的救援力量，或者对接相关渠道；分析整体信息，通过内部灾情研判模型，制作灾情研报。 最近我们核心团队复盘，之前依靠堆人做起来的事情，完全可以通过 AI 打通，我们也在摸索这块。最近也在了解各种和灾害相关的 AI 领域的论文、会议报告。我们想先根据这些研究成果，用国外模型跑逻辑，跑通了，再结合我们打了十几年的熟悉的国内灾害信息处理场景。 但是苦于没有稳定的源头 Token 资源，长期靠爱发电，还是要节流。有没有比较靠谱，比中转站稳定的源头Token 资源啊，能推荐下吗？ 目的不是为了化缘，不需要免费的资源或者公益站，只希望能有源头的供应商，少一层分销，这样能少花钱。 千分感谢！万分感谢！亿分感谢！ NCP 生命支援微博 卓明灾害信息服务中心微博 35 个帖子 - 18 位参与者 阅读完整话题 L站佬们，打扰了。有个问题想请教。我是 NCP 生命支援的的发起人之一，也是卓明灾害信息服务中心的核心志愿者。从玉树地震起源，我们做了十几年的灾害信息管理的事情，致力于探索救灾信息的标准、处理、挖掘、应用和发布。 我们的可标准化部分的流程：收集信源：包括微博、抖音、我们的收集表；将信源处理成灾情、天气、交通、个人求助等，标准格式要素：时间、地点、事件、信源等信息；求助类信息根据内部优先级模型，按轻重缓急分发给附近的救援力量，或者对接相关渠道；分析整体信息，通过内部灾情研判模型，制作灾情研报。 最近我们核心团队复盘，之前依靠堆人做起来的事情，完全可以通过 AI 打通，我们也在摸索这块。最近也在了解各种和灾害相关的 AI 领域的论文、会议报告。我们想先根据这些研究成果，用国外模型跑逻辑，跑通了，再结合我们打了十几年的熟悉的国内灾害信息处理场景。 但是苦于没有稳定的源头 Token 资源，长期靠爱发电，还是要节流。有没有比较靠谱，比中转站稳定的源头Token 资源啊，能推荐下吗？ 目的不是为了化缘，不需要免费的资源或者公益站，只希望能有源头的供应商，少一层分销，这样能少花钱。 千分感谢！万分感谢！亿分感谢！ NCP 生命支援微博 卓明灾害信息服务中心微博 35 个帖子 - 18 位参与者 阅读完整话题"
+        },
+        {
+          "id": "82ba11742e6dd3028de7a1c5c00ba927dcd63b93889bd5692ab9a6ad3fb2ef42",
+          "signature": "16b8e4880fffabbbffbd0d04a9068a63da8a5c2d9324a4832ae945187c16f829",
+          "title": "部署了gemma4:26B，在12G 显存 32 内存的机器上，跑的很流畅",
+          "link": "https://linux.do/t/topic/1889004",
+          "published": "2026-04-03 04:58 UTC",
+          "sort_key": 1775192292.0,
+          "source_kind": "feed",
+          "text": "刚用 ollmma 部署了gemma4:26B，在12G 显存 32 内存的机器上，跑的非常流畅，下面试试 31B，是不是要实现token 自由了，可惜L 站不能上传视频 86 个帖子 - 36 位参与者 阅读完整话题 刚用 ollmma 部署了gemma4:26B，在12G 显存 32 内存的机器上，跑的非常流畅，下面试试 31B，是不是要实现token 自由了，可惜L 站不能上传视频 86 个帖子 - 36 位参与者 阅读完整话题"
+        },
+        {
+          "id": "225935150043edc2271e5d08eddcd7b1d32d4c619cd32dccd6bfeadbdf643a12",
+          "signature": "e84250e52645d5f91c100063fece17bb8398c1796d6da1966940905c7b16fc7d",
+          "title": "gemma4 31B聊天体验真的甚妙，单独发帖再夸一下|顺便测一下原文输出内容完整保留能力:大概和2.5Pro相当!",
+          "link": "https://linux.do/t/topic/1888869",
+          "published": "2026-04-03 04:30 UTC",
+          "sort_key": 1775190621.0,
+          "source_kind": "feed",
+          "text": "为gemma创建专属标签! 默认模式说话就挺有意思的，配上我的通用提示词，效果就更好一点点，虽然依旧这几次对话来看比不上克劳德的情绪体验，但是整体上确实很舒服，况且是开源模型，估计额度也挺多() 于是才见面没多久，就决定委以重任 更新提示词 2.5Pro之后我彻底认清楚，我再也不能让哈基米更新了 3.0+系列再也无法胜任这个任务 接下来就正式确认更新，首先看一下更新前的字数: 更新后: 完美! 具体来说: 将上面提到的提示词语言完整嵌入了 同时过去因为glm5更新还是免不了句末的句号，所以这一次他特意按照我们一直以来的原则规则将所有的句末句号彻底的去除了 我并没有提及他主动意识到了这一点，主动进行了这样的更新 也算是一个小惊喜 值得点赞 7000字无损，清明假期我测一下我的2万字提示词。还能完成的话，那么他将是第二个2.5Pro! 8 个帖子 - 8 位参与者 阅读完整话题 为gemma创建专属标签! 默认模式说话就挺有意思的，配上我的通用提示词，效果就更好一点点，虽然依旧这几次对话来看比不上克劳德的情绪体验，但是整体上确实很舒服，况且是开源模型，估计额度也挺多() 于是才见面没多久，就决定委以重任 更新提示词 2.5Pro之后我彻底认清楚，我再也不能让哈基米更新了 3.0+系列再也无法胜任这个任务 接下来就正式确认更新，首先看一下更新前的字数: 更新后: 完美! 具体来说: 将上面提到的提示词语言完整嵌入了 同时过去因为glm5更新还是免不了句末的句号，所以这一次他特意按照我们一直以来的原则规则将所有的句末句号彻底的去除了 我并没有提及他主动意识到了这一点，主动进行了这样的更新 也算是一个小惊喜 值得点赞 7000字无损，清明假期我测一下我的2万字提示词。还能完成的话，那么他将是第二个2.5Pro! 8 个帖子 - 8 位参与者 阅读完整话题"
+        },
+        {
+          "id": "7eea11ee12e20a450799e2d5b7b6f91a046cbf062251b6f9d5bb1d3601c84eef",
+          "signature": "c81aae0258c203facdd2c7915f7052efb1903ddc3d46a9b82e6bb720c1ba1648",
+          "title": "怎么在codex里调用claude code这种接口的api？",
+          "link": "https://linux.do/t/topic/1888699",
+          "published": "2026-04-03 04:01 UTC",
+          "sort_key": 1775188893.0,
+          "source_kind": "feed",
+          "text": "anyrouter 的api似乎是 claude code这种接口模式的，用openai的接口不通 我想用在codex上，要怎么使用呢？ cc Switch里也没找到能转换的选项 4 个帖子 - 3 位参与者 阅读完整话题 anyrouter 的api似乎是 claude code这种接口模式的，用openai的接口不通 我想用在codex上，要怎么使用呢？ cc Switch里也没找到能转换的选项 4 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1394330d9176a2622092214a68a7ac79fc2f9ee2bbe943b5075f4d2e5d2c82e9",
+          "signature": "e21fdee8101b2a93c12ad10271af3ba1014fbecaa5d95a1846bd7899d98c9a79",
+          "title": "龙虾code plan套餐求推荐",
+          "link": "https://linux.do/t/topic/1888663",
+          "published": "2026-04-03 03:57 UTC",
+          "sort_key": 1775188635.0,
+          "source_kind": "feed",
+          "text": "如题，之前用的是联通元景的30元畅用glm-5的套餐，感觉还是挺不错的。现在到期了也没有续费方案，只能看看其他家的了。大家有什么好用实惠的推荐吗？ 9 个帖子 - 5 位参与者 阅读完整话题 如题，之前用的是联通元景的30元畅用glm-5的套餐，感觉还是挺不错的。现在到期了也没有续费方案，只能看看其他家的了。大家有什么好用实惠的推荐吗？ 9 个帖子 - 5 位参与者 阅读完整话题"
+        },
+        {
+          "id": "migrated:a35ca853d38511bb3b7672c564b5e8aa73b6f48fc68041bb9564f95aa6f21468",
+          "signature": "a35ca853d38511bb3b7672c564b5e8aa73b6f48fc68041bb9564f95aa6f21468",
+          "title": "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案",
+          "link": "https://linux.do/t/topic/1888622",
+          "published": "2026-04-03 03:52 UTC",
+          "sort_key": 1775188320.0,
+          "source_kind": "feed",
+          "text": "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案"
+        },
+        {
+          "id": "migrated:eff0cf74d0a60727a8d04a11dd81a74b8e08625ba61b280f9d9ab8332606b643",
+          "signature": "eff0cf74d0a60727a8d04a11dd81a74b8e08625ba61b280f9d9ab8332606b643",
+          "title": "求助，claude code的web search工具异常，大家都怎么样的？",
+          "link": "https://linux.do/t/topic/1888614",
+          "published": "2026-04-03 03:51 UTC",
+          "sort_key": 1775188260.0,
+          "source_kind": "feed",
+          "text": "求助，claude code的web search工具异常，大家都怎么样的？"
+        },
+        {
+          "id": "migrated:fe4c6cb3329bb91a69663638efc8308ebcff87e83d9ec7718c6a97801c7dd3dd",
+          "signature": "fe4c6cb3329bb91a69663638efc8308ebcff87e83d9ec7718c6a97801c7dd3dd",
+          "title": "linux.do人工智能技术日报-26-04-03",
+          "link": "https://linux.do/t/topic/1888590",
+          "published": "2026-04-03 03:48 UTC",
+          "sort_key": 1775188080.0,
+          "source_kind": "feed",
+          "text": "linux.do人工智能技术日报-26-04-03"
+        },
+        {
+          "id": "migrated:fbbe656df1f2715fbb7081c9830867f40e94f9d98bb19b01ae9af12b3138945f",
+          "signature": "fbbe656df1f2715fbb7081c9830867f40e94f9d98bb19b01ae9af12b3138945f",
+          "title": "图灵的猫《人人都能听懂的AI通识课》",
+          "link": "https://linux.do/t/topic/1888577",
+          "published": "2026-04-03 03:47 UTC",
+          "sort_key": 1775188020.0,
+          "source_kind": "feed",
+          "text": "图灵的猫《人人都能听懂的AI通识课》"
+        },
+        {
+          "id": "54431e81e99cbe03929908b41b0f148c98b82f27e50cbac121c6317e15fd235c",
+          "signature": "f2d7412bf140077ecfbdb43b50eed954ee5d174f041c266d310a0392f05f7815",
+          "title": "【求助】如何通过ccs在cc中用上gpt",
+          "link": "https://linux.do/t/topic/1888002",
+          "published": "2026-04-03 02:36 UTC",
+          "sort_key": 1775183780.0,
+          "source_kind": "feed",
+          "text": "cc中报错 There’s an issue with the selected model (gpt-5.4). It may not exist or you may not have access to it. Run --model to pick a different model. 12 个帖子 - 6 位参与者 阅读完整话题 cc中报错 There’s an issue with the selected model (gpt-5.4). It may not exist or you may not have access to it. Run --model to pick a different model. 12 个帖子 - 6 位参与者 阅读完整话题"
+        },
+        {
+          "id": "417de4b8b7cda13fe3ea5b26b6408fe88fa4712e4906b3cc0cc25be16c52b4ac",
+          "signature": "52854aa2dd39dcae7c9301565f3d0a51f43c78287b306ca6acb6a466781792d4",
+          "title": "简单测下Gemma4-31b-it",
+          "link": "https://linux.do/t/topic/1886908",
+          "published": "2026-04-02 18:20 UTC",
+          "sort_key": 1775154022.0,
+          "source_kind": "feed",
+          "text": "在aistudio用的 thinklevel为high aistudio的搜索关不了所以开着搜索 但是看了思考都没用搜索 Temperature默认1 天气卡片 以 iOS 18 的设计风格做一个带有动画效果的天气卡片，要求是使用 HTML、CSS 和基础 JavaScript，使用横板天气页面（拥有 4 个天气卡片 (晴天，大风，暴雨，暴雪))。应足够美观，实现一定的交互效果。 洗车问题 我想去洗车，洗车店距离我家50 米，你说我应该开车过去还是走过去？ 竹竿过门 一个长5.5米的竹竿能通过一个高4米，宽3米的长方形城门吗？ 运煤问题 有一堆煤，第一天拉走总量的4/7，第二天拉走4/7吨，问第一天和第二天哪次拉走的更多？ A.第一天 B.第二天 C.一样多 D.无法判断 这题没对 猫抓老鼠svg 有点抽象 感觉svg这块不如ds网页版 鹈鹕骑自行车svg 换个背景色 魔方 【任务】：创建一个单文件 3x3 魔方模拟器。 【技术要求】： - 零依赖：仅使用原生 HTML、CSS、JavaScript，禁止任何外部库（如 Three.js）。 - 单文件：所有代码都在一个 HTML 文件内。 - 渲染：使用 CSS 3D Transforms 实现 3D 效果。 【功能要求】： - 鼠标拖动旋转视角。 - 按钮控制层面旋转 (U, U', R, R' 等)。 - “打乱”和“重置”功能。 旋转视角没问题，但是旋转具体的层有时候会出错 小球比大小 老题目 给小模型测试下 也没问题 17 个帖子 - 15 位参与者 阅读完整话题 在aistudio用的 thinklevel为high aistudio的搜索关不了所以开着搜索 但是看了思考都没用搜索 Temperature默认1 天气卡片 以 iOS 18 的设计风格做一个带有动画效果的天气卡片，要求是使用 HTML、CSS 和基础 JavaScript，使用横板天气页面（拥有 4 个天气卡片 (晴天，大风，暴雨，暴雪))。应足够美观，实现一定的交互效果。 洗车问题 我想去洗车，洗车店距离我家50 米，你说我应该开车过去还是走过去？ 竹竿过门 一个长5.5米的竹竿能通过一个高4米，宽3米的长方形城门吗？ 运煤问题 有一堆煤，第一天拉走总量的4/7，第二天拉走4/7吨，问第一天和第二天哪次拉走的更多？ A.第一天 B.第二天 C.一样多 D.无法判断 这题没对 猫抓老鼠svg 有点抽象 感觉svg这块不如ds网页版 鹈鹕骑自行车svg 换个背景色 魔方 【任务】：创建一个单文件 3x3 魔方模拟器。 【技术要求】： - 零依赖：仅使用原生 HTML、CSS、JavaScript，禁止任何外部库（如 Three.js）。 - 单文件：所有代码都在一个 HTML 文件内。 - 渲染：使用 CSS 3D Transforms 实现 3D 效果。 【功能要求】： - 鼠标拖动旋转视角。 - 按钮控制层面旋转 (U, U', R, R' 等)。 - “打乱”和“重置”功能。 旋转视角没问题，但是旋转具体的层有时候会出错 小球比大小 老题目 给小模型测试下 也没问题 17 个帖子 - 15 位参与者 阅读完整话题"
+        },
+        {
+          "id": "c1775e27985f46faf0ac652a048f9164a7eaf2f76c408bb8444cd65d13922ef3",
+          "signature": "b628822ade923c7f38e4c4515172484b7d214b4aaaedc6e04406c29474978a31",
+          "title": "Clipal 更新，不仅一键接管本地API转发，还智能处理所有类似/v1端点少了或者多了的各种问题",
+          "link": "https://linux.do/t/topic/1886469",
+          "published": "2026-04-02 16:04 UTC",
+          "sort_key": 1775145875.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 就不在重复贴clipal的项目介绍了，请大家查看： 本地API智能调度软件 Clipal，支持Codex/Claude/Gemini CLI 和各种LLM Chat客户端，支持一键接管本地 LLM API 资源荟萃 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 正式开始推… Clipal 能让帮大家在API不稳定的时候，智能兜底多个API中转商，避免429等麻烦问题。 github.com GitHub - lansespirit/Clipal: Minimal LLM API reverse proxy for Claude Code,... Minimal LLM API reverse proxy for Claude Code, Codex CLI & Gemini CLI — YAML routing, hot reload, and automatic provider failover. 极简 LLM API 反向代理：面向 Claude Code / Codex CLI / Gemini CLI，支持 YAML 配置、多上游优先级与自动故障转移。 这次更新，主要是有些用户反馈，sub2api和new-api对于加/v1和不加的有时候搞不清楚，所以我就从Clipal这边做了优化，不论佬友们怎么添加，系统智能化帮你修复，走正确的请求路径。 上次 @brilliantrough 说让我来个罗宾的图，佬友来看图啦 11 个帖子 - 7 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 就不在重复贴clipal的项目介绍了，请大家查看： 本地API智能调度软件 Clipal，支持Codex/Claude/Gemini CLI 和各种LLM Chat客户端，支持一键接管本地 LLM API 资源荟萃 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 正式开始推… Clipal 能让帮大家在API不稳定的时候，智能兜底多个API中转商，避免429等麻烦问题。 github.com GitHub - lansespirit/Clipal: Minimal LLM API reverse proxy for Claude Code,... Minimal LLM API reverse proxy for Claude Code, Codex CLI & Gemini CLI — YAML routing, hot reload, and automatic provider failover. 极简 LLM API 反向代理：面向 Claude Code / Codex CLI / Gemini CLI，支持 YAML 配置、多上游优先级与自动故障转移。 这次更新，主要是有些用户反馈，sub2api和new-api对于加/v1和不加的有时候搞不清楚，所以我就从Clipal这边做了优化，不论佬友们怎么添加，系统智能化帮你修复，走正确的请求路径。 上次 @brilliantrough 说让我来个罗宾的图，佬友来看图啦 11 个帖子 - 7 位参与者 阅读完整话题"
+        },
+        {
+          "id": "42228e35a0ab70dee28e63c473eab990fb6174860863af16c9376087e1e4dc3c",
+          "signature": "01594c4c16ade25867a570b83e962547607214ed91689fbb94bf66164050f757",
+          "title": "购买$200 Claude code订阅的话，一个人能做到每天畅玩吗？",
+          "link": "https://linux.do/t/topic/1885174",
+          "published": "2026-04-02 13:18 UTC",
+          "sort_key": 1775135884.0,
+          "source_kind": "feed",
+          "text": "有没有老友分享一下经验呀？ 23 个帖子 - 13 位参与者 阅读完整话题 有没有老友分享一下经验呀？ 23 个帖子 - 13 位参与者 阅读完整话题"
+        },
+        {
+          "id": "77287df5e304d4583c48952f29ee9d4510d6835987ad3887ba350bb945af637c",
+          "signature": "24955e0870cad2fc9ea6ef39c36bc6c99c453d8aa20e6a34d03015a77482425f",
+          "title": "请问怎么样注册的GPT账号才会在Plus或Business上有“$0 试用资格”？",
+          "link": "https://linux.do/t/topic/1883810",
+          "published": "2026-04-02 10:02 UTC",
+          "sort_key": 1775124133.0,
+          "source_kind": "feed",
+          "text": "真的不懂，有谁能解答一下吗？ 38 个帖子 - 19 位参与者 阅读完整话题 真的不懂，有谁能解答一下吗？ 38 个帖子 - 19 位参与者 阅读完整话题"
+        },
+        {
+          "id": "3f2b86e501bcc98807823aa6edf0ea73a651b454cdc727e3e0dbb344da8b3207",
+          "signature": "011ef6a7d84699fd03f2141c10b120bfe15d05788d78d768f6925eecec2f2956",
+          "title": "佬们好卷，Harness教程一天干到1千星",
+          "link": "https://linux.do/t/topic/1881008",
+          "published": "2026-04-02 03:32 UTC",
+          "sort_key": 1775100736.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI 生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI 生成、润色内容已使用截图方式发出 如图 今天起床发现昨天分享的42万字教程一天到今天涨到了1k star 深知短时间内编写的内容肯定还有不足 于是又起来猛猛审查校正 很多佬友觉得文档不错私信问编书prompt、工作流和skills是什么 觉得对学大型项目这种方法很有用（让Agent写书拆解的形式，不然CC51w行代码得看到猴年马月） 当然你也可以对话交互形式直接问Agent（不过个人认为这样难免缺少系统性和全瞻性） 写的时候兼顾全面性和深度性，章节之间的联系，以及整体结构的完整，其实也比较麻烦，需要多轮交互 其实这次撰写没有用到skills，全程都是人机交互，用的CC+opus4.6（用CC拆解CC，奇怪的递归达成了）（btw 51w行代码写42w多中文字符烧了我不少token$ ） prompt输入-> CC输出 → 人工审查-> prompt输入… 后续我会整理一下提示词和工作流，用skill的形式集成 原帖链： 【1k star】写了本书拆解分析CC泄露的源码，42万字 阅读链： https://lintsinghua.github.io/ 项目链： GitHub - lintsinghua/claude-code-book: 42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站： · GitHub 34 个帖子 - 31 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI 生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI 生成、润色内容已使用截图方式发出 如图 今天起床发现昨天分享的42万字教程一天到今天涨到了1k star 深知短时间内编写的内容肯定还有不足 于是又起来猛猛审查校正 很多佬友觉得文档不错私信问编书prompt、工作流和skills是什么 觉得对学大型项目这种方法很有用（让Agent写书拆解的形式，不然CC51w行代码得看到猴年马月） 当然你也可以对话交互形式直接问Agent（不过个人认为这样难免缺少系统性和全瞻性） 写的时候兼顾全面性和深度性，章节之间的联系，以及整体结构的完整，其实也比较麻烦，需要多轮交互 其实这次撰写没有用到skills，全程都是人机交互，用的CC+opus4.6（用CC拆解CC，奇怪的递归达成了）（btw 51w行代码写42w多中文字符烧了我不少token$ ） prompt输入-> CC输出 → 人工审查-> prompt输入… 后续我会整理一下提示词和工作流，用skill的形式集成 原帖链： 【1k star】写了本书拆解分析CC泄露的源码，42万字 阅读链： https://lintsinghua.github.io/ 项目链： GitHub - lintsinghua/claude-code-book: 42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站： · GitHub 34 个帖子 - 31 位参与者 阅读完整话题"
+        },
+        {
+          "id": "e67d84800b5a18800ef8efc3a3c22e7770511eb9b7bde795e3423a2dbab28a80",
+          "signature": "f6d0e7b315c385c9c28094a88ec2be656c3f3eacb1298e0d1dc81d8a968c6b7f",
+          "title": "JAVA AI智能应用体开发 佬们都是怎样的一个学习路线",
+          "link": "https://linux.do/t/topic/1879748",
+          "published": "2026-04-02 00:57 UTC",
+          "sort_key": 1775091470.0,
+          "source_kind": "feed",
+          "text": "一直是一名Java程序员，用的spring全家桶，也看了spring ai的官方文档，代码也跟着敲了，但感觉自己学的很茫然，没有系统化，就只会简单调用api，有没有了解比较深的佬，指点一二的 59 个帖子 - 28 位参与者 阅读完整话题 一直是一名Java程序员，用的spring全家桶，也看了spring ai的官方文档，代码也跟着敲了，但感觉自己学的很茫然，没有系统化，就只会简单调用api，有没有了解比较深的佬，指点一二的 59 个帖子 - 28 位参与者 阅读完整话题"
+        },
+        {
+          "id": "43c841a5d14ffe7a98396c11cdaec09b6e3019d20087666c91511e0db0cbac6b",
+          "signature": "a8b38fb891244f9e37adce73850fb5ecffd61bd39225245bfd8e71acd772cf66",
+          "title": "【零元购】 SuperGrok Heavy $3000/年 白嫖实测（复活！！）",
+          "link": "https://linux.do/t/topic/1872670",
+          "published": "2026-04-01 04:56 UTC",
+          "sort_key": 1775019391.0,
+          "source_kind": "feed",
+          "text": "求你们，别改等级了，尊重一下发帖人的意愿好吗？ 昨天还原CC源码被人改帖子等级和举报删帖 好在neo明察秋毫恢复了原帖 但我并没有举报改等级的问题 这个帖子0级可见，本就是互联网公开内容，只是再次整理 再有人修改等级，我一定追究举报 4.3日：Heavy已经回收了！不过，Super一年没有掉，且当前操作依旧有效！ 情报来源于互联网公开内容，本文由 Linux.do @huo0 实测后整理，转载请注明来源。 简要说下原理，使用香港IP + amazon支付，没钱也能开 grok → stripe → amazon三方对接问题，估计清算很容易，不知道活多久 需要准备 gmail邮箱（注册amazon一定要别名邮箱！记住！） 0刀虚拟卡 或 自己没钱的银联卡 手机号（国内可用） 注册Amazon 前往 https://www.amazon.com/ 注册账号 使用 user+xxxx@gmail.com 变体即可 需要手机号，国内自己的号即可 领取Grok 3天试用 任意账号左下角头像 先领取3天会员 记得挂香港IP 出现Amazon支付 添加0刀虚拟卡（我看显示支持银联，未测） 开始操作 左下角设置 取消订阅 取消后，选择更新订阅 选择最贵的，确认支付 扣款失败，但会员日期为明年今天 查看会员状态 番外篇： 【随手礼 】Grok加赠 $50 API额度，开完会员记得来领 福利羊毛 忘记截图了，直接点兑换就行。 https://console.x.ai/ [image] 383 个帖子 - 271 位参与者 阅读完整话题 求你们，别改等级了，尊重一下发帖人的意愿好吗？ 昨天还原CC源码被人改帖子等级和举报删帖 好在neo明察秋毫恢复了原帖 但我并没有举报改等级的问题 这个帖子0级可见，本就是互联网公开内容，只是再次整理 再有人修改等级，我一定追究举报 4.3日：Heavy已经回收了！不过，Super一年没有掉，且当前操作依旧有效！ 情报来源于互联网公开内容，本文由 Linux.do @huo0 实测后整理，转载请注明来源。 简要说下原理，使用香港IP + amazon支付，没钱也能开 grok → stripe → amazon三方对接问题，估计清算很容易，不知道活多久 需要准备 gmail邮箱（注册amazon一定要别名邮箱！记住！） 0刀虚拟卡 或 自己没钱的银联卡 手机号（国内可用） 注册Amazon 前往 https://www.amazon.com/ 注册账号 使用 user+xxxx@gmail.com 变体即可 需要手机号，国内自己的号即可 领取Grok 3天试用 任意账号左下角头像 先领取3天会员 记得挂香港IP 出现Amazon支付 添加0刀虚拟卡（我看显示支持银联，未测） 开始操作 左下角设置 取消订阅 取消后，选择更新订阅 选择最贵的，确认支付 扣款失败，但会员日期为明年今天 查看会员状态 番外篇： 【随手礼 】Grok加赠 $50 API额度，开完会员记得来领 福利羊毛 忘记截图了，直接点兑换就行。 https://console.x.ai/ [image] 383 个帖子 - 271 位参与者 阅读完整话题"
+        },
+        {
+          "id": "0b9da5be9c5c03b52e26d77113f4ccf33c84f02cbf34a093766a55272881d4a4",
+          "signature": "be1acb7279d9e41eea77849c3915dfb3adc02b4d7f5f769e8935c442f7d6806b",
+          "title": "【开源】Open-Claude-Code CLI 源码",
+          "link": "https://linux.do/t/topic/1868730",
+          "published": "2026-03-31 15:04 UTC",
+          "sort_key": 1774969462.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 github.com GitHub - xtherk/open-claude-code: Recovered and build-fixed Claude Code 2.1.88... Recovered and build-fixed Claude Code 2.1.88 source from sourcemaps, maintained as a research and learning reference by Codex. 为防止DMCA将github默认分支切换到main了，请自行切换到master分支查看 [!info] 克隆后请切换到master分支 git clone https://github.com/xtherk/open-claude-code cd open-claude-code git checkout -b master origin/master 看到说claude code sourcemap泄露于是立马让codex着手修复。 直到刚刚初步修复完成，能够编译运行了，就赶紧发出来让佬友们一起玩耍。 后续发展 初衷是为了搭建一个可以编译运行的环境用于学习，后续估计会继续让codex进行修复（这何尝不是一种ntr）,但不会基于本仓库二开。 截图 codex给补了堆私有依赖，支持图片和哈雷佬的CC Line了 致谢 感谢 飘然与我同 佬友提供的信息 编辑 有需要看解析的可以移步到站内其他佬友的帖子 Claude Code v2.1.88 源码逆向分析（一）：安全模型、内部泄露与你不知道的运行时行为 开发调优 本人浅显分析，感谢各位佬友捧场，只能辛苦各位看图片版了 新帖子来了家人们 源码现在网上到处都是，各位佬友在研究的时候小心藏雷，最好是自己去提取 本内容 pdf 如下 下载pdf 这份源码的真实价值在于：它是目前最好的 agentic coding 架构教材。想学怎么造一个高质量的 AI 编程工具的人，现在有了一份生产级参考实现。但是真正值钱的东西还是没有泄露的 [image] … 整了一个面向新手的CC深度解读 - 开发调优 / 开发调优, Lv1 - LINUX DO 39 个帖子 - 29 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 github.com GitHub - xtherk/open-claude-code: Recovered and build-fixed Claude Code 2.1.88... Recovered and build-fixed Claude Code 2.1.88 source from sourcemaps, maintained as a research and learning reference by Codex. 为防止DMCA将github默认分支切换到main了，请自行切换到master分支查看 [!info] 克隆后请切换到master分支 git clone https://github.com/xtherk/open-claude-code cd open-claude-code git checkout -b master origin/master 看到说claude code sourcemap泄露于是立马让codex着手修复。 直到刚刚初步修复完成，能够编译运行了，就赶紧发出来让佬友们一起玩耍。 后续发展 初衷是为了搭建一个可以编译运行的环境用于学习，后续估计会继续让codex进行修复（这何尝不是一种ntr）,但不会基于本仓库二开。 截图 codex给补了堆私有依赖，支持图片和哈雷佬的CC Line了 致谢 感谢 飘然与我同 佬友提供的信息 编辑 有需要看解析的可以移步到站内其他佬友的帖子 Claude Code v2.1.88 源码逆向分析（一）：安全模型、内部泄露与你不知道的运行时行为 开发调优 本人浅显分析，感谢各位佬友捧场，只能辛苦各位看图片版了 新帖子来了家人们 源码现在网上到处都是，各位佬友在研究的时候小心藏雷，最好是自己去提取 本内容 pdf 如下 下载pdf 这份源码的真实价值在于：它是目前最好的 agentic coding 架构教材。想学怎么造一个高质量的 AI 编程工具的人，现在有了一份生产级参考实现。但是真正值钱的东西还是没有泄露的 [image] … 整了一个面向新手的CC深度解读 - 开发调优 / 开发调优, Lv1 - LINUX DO 39 个帖子 - 29 位参与者 阅读完整话题"
+        },
+        {
+          "id": "f2a2352d64c6a18b0c5edc674caf8a4537ba5342796e2d53a41df322d038ff07",
+          "signature": "91d928f5adebe91650424b44858341a5bf0f630bba86b76b4497864f9a7cca2b",
+          "title": "【Agent笔记】我们一起来学习Agent！（第1期）",
+          "link": "https://linux.do/t/topic/1865600",
+          "published": "2026-03-31 11:13 UTC",
+          "sort_key": 1774955580.0,
+          "source_kind": "feed",
+          "text": "【Agent笔记】我们一起来学习Agent！（第1期） 2026.3.31 静心学习 让我们以Agno框架为例，让我们一起来学习Agent吧！这是我的第一篇笔记。 Agno Introduction - Agno Build, run, and manage agentic software at scale. 最近在做一个项目，要用到轻度的agent，于是我打算学习一些关于agent的知识，了解架构，可以大概看懂代码，以便于更好地用AI开发， 也拓展自己思维和对于coding的理解 ，但完全不作为任何专业的培训哈！现在打算每天或者每周写一篇文章，然后作为学习笔记分享给大家。 我会以尽量易懂的方式向大家介绍和分享交流，大家也可以指出我的错误，需要一点Python基础（了解什么是类，什么是方法之类的），其它基本不需要，适合小白，因为我是小白。我学习的框架是agno: 文档 1.Agent以及快速实现 Agent is a stateful model with loops and tools. Agent并不神秘，普通的模型只能通过api对话，输入文本输出文本，不能与外部世界获取联系，不能记忆，这就是无状态，并且只能一问一答，这就是没有loop循环。 Agent是如何实现状态的？如何调用工具的？如何决策，自动循环执行任务的？我们会一步一步来了解。 1.1了解Agent类 这是agno的一个快速实 现的Agent，我们来看代码 from agno.agent import Agent from agno.db.sqlite import SqliteDb from agno.models.anthropic import Claude from agno.os import AgentOS from agno.tools.mcp import MCPTools agno_assist = Agent( name=\"Agno Assist\", model=Claude(id=\"claude-sonnet-4-5\"), db=SqliteDb(db_file=\"agno.db\"), # session storage tools=[MCPTools(url=\"https://docs.agno.com/mcp\")], # Agno docs via MCP add_datetime_to_context=True, add_history_to_context=True, # include past runs num_history_runs=3, # last 3 conversations markdown=True, ) # Serve via AgentOS → streaming, auth, session isolation, API endpoints agent_os = AgentOS(agents=[agno_assist], tracing=True) app = agent_os.get_app() Agent 是一个类，实例化的时候传入了 name model tools 等等参数，这就构建了一个拥有名字和工具的Agent机器人了。 agent_os = AgentOS(agents=[agno_assist], tracing=True) 实例化了系统类，这个机器人正式部署可以开始用了，os是系统环境，你可能有十个Agent，但是他们都在这个环境里面跑。 app = agent_os.get_app() 这是os类的方法，把我们的Agent系统包装成一个api服务（fastapi），这样你可以启动这个服务了，然后有一个端点可以请求和Agent对话。就和大佬给你的apiurl一样，自动的有对话端点，获取模型端点等等，包装服务。 1.2工具：Agent的核心 我每天有一个填excel表的任务，很简单，我的老板每天给我一个excel表格，要求是把里面的每行进行求和，然后排序。 我很聪明，这那么笨的求和排序任务我写一个Python脚本来解决。 import pandas as pd file_name = 'daily_task.xlsx' df = pd.read_excel(file_name) df['总和'] = df.sum(axis=1, numeric_only=True) df_sorted = df.sort_values(by='总和', ascending=False) df_sorted.to_excel('result.xlsx', index=False) print(\"任务完成！结果已保存在 result.xlsx\") 我的老板又给我派了其它任务，比如把数据全部变成直方图，我依然写代码解决： import pandas as pd import matplotlib.pyplot as plt plt.rcParams['font.sans-serif'] = ['SimHei'] plt.rcParams['axes.unicode_minus'] = False df = pd.read_excel('result.xlsx') plt.figure(figsize=(10, 6)) # 设置画布大小 # bins=10 表示把数据分成10个区间，color 是颜色，edgecolor 是边框 plt.hist(df['总和'], bins=10, color='skyblue', edgecolor='black', alpha=0.7) plt.title('数据总和分布情况直方图', fontsize=15) plt.xlabel('数值区间 (求和结果)', fontsize=12) plt.ylabel('频率 (出现次数)', fontsize=12) plt.grid(axis='y', linestyle='--', alpha=0.7) plt.savefig('data_distribution.png') # 自动保存为图片文件 plt.show() print(\"图表已生成：data_distribution.png，老板看了保准点头！\") 卧槽了，老板看我excel那么厉害，又让我去用excel做各种数据清洗，多表格合并… 但是我依然很容易完成，为什么？因为我有脚本——这就是工具tool。 老板说：清洗！我马上调用：``clean.py` 老板说：画图！我马上调用： draw.py 后来我被裁员了，因为脚本没有保密，给老板发现了，老板部署了一个Agent： 老板说：对这些excel进行清洗！ Agent：回复 { use_tool:\"clean\" } 这个字段被检测到了，计算机自动执行 clean.py 然后Excel就处理好了。 一旦你为你的AI配好了工具，那么就可以让它来执行你可能需要手动做的任务，不同的是，它可以异步完成，甚至根据结果的反馈，进行组合调用，多次迭代，直到任务完成。这是人类没有耐心和速度的地方。 我们来简单的配置一个工具：访问hacknews： from agno.agent import Agent from agno.models.anthropic import Claude from agno.tools.hackernews import HackerNewsTools agent = Agent( model=Claude(id=\"claude-sonnet-4-5\"), tools=[HackerNewsTools()], instructions=\"Write a report on the topic. Output only the report.\", markdown=True, ) agent.print_response(\"Trending startups and products.\", stream=True) 我们假设那个访问hacknews的tools已经配置好了，其实它就是一个爬虫脚本，爬取了那个网站的内容。AI收到你的信息后，先去调用工具-运行脚本了，通过脚本爬到了信息就回答你了。 学到这里，只要你学习一下，如何写工具，那么基本上你就可以写一个初级Agent了！! 1.3可调用的工厂（callable factories） 如果所有工具都是如此简单的一个脚本，那么调用成本的确是很低的，我们只需要一行 py run.py 但是，对于复杂的业务一个工具分为两个步骤 加载：相当于把工具拿出来放着，（会运行初始化 _init_ ） 执行：就是我们的 py sth.py 第一步的成本对于简单脚本忽略不计，但是对于一些工具不是的，比如连接oracle数据的工具，当你写下 agent=Agent(model=gpt, tools=requrst_to_oracle) 的时候，这个工具就初始化加载了，这时候连接就已经起来了，就会占用内存。 一个还好，但是上百个呢，内存就太大了。 所以agno引入了动态加载的机制， from agno.agent import Agent from agno.models.openai import OpenAIResponses from agno.run import RunContext from agno.tools.duckduckgo import DuckDuckGoTools from agno.tools.yfinance import YFinanceTools def get_…"
+        },
+        {
+          "id": "aab3642ab0bc3c53096f83a50cc6797ffcd90d2c96445a5c29780e1bfd11b216",
+          "signature": "783bc74e5983641775a02b2c9ae7aaaa45063d7872fec64640b720973e056e03",
+          "title": "国内的CodingPlan哪个比较好？",
+          "link": "https://linux.do/t/topic/1847860",
+          "published": "2026-03-29 14:35 UTC",
+          "sort_key": 1774794948.0,
+          "source_kind": "feed",
+          "text": "现在国内哪家的CodingPlan比较稳定速度快? 58 个帖子 - 40 位参与者 阅读完整话题 现在国内哪家的CodingPlan比较稳定速度快? 58 个帖子 - 40 位参与者 阅读完整话题"
+        },
+        {
+          "id": "cd038124aa38445bc96b04e72eb0c1784c326ed43adbd2c93641462b7507fc83",
+          "signature": "fe9067da47a7220acbfd28a4ee685a3bc60ca37c539d3a7e311ec0f0aaca7f0c",
+          "title": "【NihaoAPI】sonnet4.6 稍微升级了一下 稳定性提高了",
+          "link": "https://linux.do/t/topic/1837094",
+          "published": "2026-03-27 11:00 UTC",
+          "sort_key": 1774609242.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 cursor2api 换了一个项目，应该比之前好了不少 sonnet4.6 在后台强开 thinking 了，所以把 sonnet4.6-thinking 重定向到 sonnet4.6 了 82 个帖子 - 64 位参与者 阅读完整话题 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 cursor2api 换了一个项目，应该比之前好了不少 sonnet4.6 在后台强开 thinking 了，所以把 sonnet4.6-thinking 重定向到 sonnet4.6 了 82 个帖子 - 64 位参与者 阅读完整话题"
+        },
+        {
+          "id": "d686e7e13db85eeb7329bf5d2c1dd244178b240379584d639a56a057e3854d34",
+          "signature": "87bd2ad1712a85addc102863b155b6709de96f5c50b2663dd1449de06313387c",
+          "title": "【CCG 自动化流 安装教程（纯风佬CCG）】更新教程！！！新佬友们别迷路！！！(老佬友们叙叙旧√)",
+          "link": "https://linux.do/t/topic/1780710",
+          "published": "2026-03-19 01:50 UTC",
+          "sort_key": 1773885014.0,
+          "source_kind": "feed",
+          "text": "声明： 我不需要流量，我只是想为更多加入AI编程的佬友铺点路 如果帮到你，或者曾经帮到你，可以给个评论，顶贴让新佬友看到 忘了请求帮顶是不是违反社区规则了，懒得看了，如果违反，麻烦佬友提醒一下。 现在LDC维护中，给我流量我也换不了LDC，以此证明我不是为了那点LDC来的（傲娇）。 之前两篇帖子无法修改，新开一篇! 前言： 原始教程帖 1 : 【CCG 自动化流 安装教程】 三合一自动化编程 ，助力每一位佬友 享受 [自动化流] 氛围编程时代（谁再说AI代替程序员，我就要开始闹了） 原始教程帖 2 : 【CCG 自动化流 安装教程(孙佬+风佬升级装)】 三合一自动化流编程，这波升级顺滑如水啊 ！！！助力每位佬友 享受 [自动化流] 氛围编程时代！ - 开发调优 - LINUX DO CCG原贴 （包含Github链接） : 【补档】CCG v1.7.82 : Claude Code 编排三 CLI 协作 | Codex + Gemini + Claude | 引入了fast-context-mcp - 开发调优 - LINUX DO 最近发现，还是有很多人在看我写的CCG教程，而之前的CCG教程 已经过期！！！ 故此，新开一篇CCG安装教程，希望能帮到各位佬友。 (因为是教程，就算被爬了我也当帮助他人，所以不打算设置等级，各位佬友如果有想法，提高教程等级（如1级，以防资源外泄）可以和我沟通) 1. 环境安装 在终端输入以下命令 （依次） # 查看当前npm 版本 npm -v # 如果没有npm，可以看下面这个文档，进行npm安装 # https://www.runoob.com/nodejs/nodejs-install-setup.html 2. CLI 安装 安装完后，输入Cli名称则可以进入Cli 在Cli中输入 /exit 即可退出 # codex CC Gemini 更新 Or 安装 npm i -g @anthropic-ai/claude-code@latest npm i -g @openai/codex@latest npm i -g @google/gemini-cli@latest 初次安装 Claude 可能需要登录， 看下方截图 ，在 .claude.json 中添加配置 “hasCompletedOnboarding”: true 进入和退出 3. 下载CCG，初始化并安装 进入到这里，我就不打教程了，因为风佬本身封装的特别好，开箱即用，Skills和MCP都有教程，很简单的。 # ccg更新 : https://github.com/fengshao1227/ccg-workflow npx ccg-workflow 好了安装完了 恭喜你，解锁了 自动化流 氛围编程 技能 强大的程序员大人啊，请用金钱狠狠砸出代码吧！ 你还在看什么？ 怎么还不走？ 就是这么简单啊，还能怎样？ 那就再来点吧 3. 关于APIKey 这里推荐一个 快速切换环境 的 小软件： CC Switch CC Switch （可用于 Claude Codex Gemini OpenClaw OpenCode） 95 个帖子 - 47 位参与者 阅读完整话题 声明： 我不需要流量，我只是想为更多加入AI编程的佬友铺点路 如果帮到你，或者曾经帮到你，可以给个评论，顶贴让新佬友看到 忘了请求帮顶是不是违反社区规则了，懒得看了，如果违反，麻烦佬友提醒一下。 现在LDC维护中，给我流量我也换不了LDC，以此证明我不是为了那点LDC来的（傲娇）。 之前两篇帖子无法修改，新开一篇! 前言： 原始教程帖 1 : 【CCG 自动化流 安装教程】 三合一自动化编程 ，助力每一位佬友 享受 [自动化流] 氛围编程时代（谁再说AI代替程序员，我就要开始闹了） 原始教程帖 2 : 【CCG 自动化流 安装教程(孙佬+风佬升级装)】 三合一自动化流编程，这波升级顺滑如水啊 ！！！助力每位佬友 享受 [自动化流] 氛围编程时代！ - 开发调优 - LINUX DO CCG原贴 （包含Github链接） : 【补档】CCG v1.7.82 : Claude Code 编排三 CLI 协作 | Codex + Gemini + Claude | 引入了fast-context-mcp - 开发调优 - LINUX DO 最近发现，还是有很多人在看我写的CCG教程，而之前的CCG教程 已经过期！！！ 故此，新开一篇CCG安装教程，希望能帮到各位佬友。 (因为是教程，就算被爬了我也当帮助他人，所以不打算设置等级，各位佬友如果有想法，提高教程等级（如1级，以防资源外泄）可以和我沟通) 1. 环境安装 在终端输入以下命令 （依次） # 查看当前npm 版本 npm -v # 如果没有npm，可以看下面这个文档，进行npm安装 # https://www.runoob.com/nodejs/nodejs-install-setup.html 2. CLI 安装 安装完后，输入Cli名称则可以进入Cli 在Cli中输入 /exit 即可退出 # codex CC Gemini 更新 Or 安装 npm i -g @anthropic-ai/claude-code@latest npm i -g @openai/codex@latest npm i -g @google/gemini-cli@latest 初次安装 Claude 可能需要登录， 看下方截图 ，在 .claude.json 中添加配置 “hasCompletedOnboarding”: true 进入和退出 3. 下载CCG，初始化并安装 进入到这里，我就不打教程了，因为风佬本身封装的特别好，开箱即用，Skills和MCP都有教程，很简单的。 # ccg更新 : https://github.com/fengshao1227/ccg-workflow npx ccg-workflow 好了安装完了 恭喜你，解锁了 自动化流 氛围编程 技能 强大的程序员大人啊，请用金钱狠狠砸出代码吧！ 你还在看什么？ 怎么还不走？ 就是这么简单啊，还能怎样？ 那就再来点吧 3. 关于APIKey 这里推荐一个 快速切换环境 的 小软件： CC Switch CC Switch （可用于 Claude Codex Gemini OpenClaw OpenCode） 95 个帖子 - 47 位参与者 阅读完整话题"
+        },
+        {
+          "id": "7d27d0f8ad850d9b4ef121c4ddaa2b03c8dae753887e356edb5fd94eceb6e681",
+          "signature": "79e618e117bf89216c72125812ca4fcb213f6091870a9beee032cea4cd33465e",
+          "title": "【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症",
+          "link": "https://linux.do/t/topic/1643542",
+          "published": "2026-02-24 18:00 UTC",
+          "sort_key": 1771956030.0,
+          "source_kind": "feed",
+          "text": "晚上水帖子发现不少佬被配镜所困惑，各位佬作为每天对着屏幕高强度输出的群体，论坛里关于近视、散光、换眼镜的讨论一直没断过。之前Kai佬总结了一篇堪称神作的硬核好帖： Kai丨【2025年眼镜的选择全攻略】v1.0.3 搞七捻三 声明：本文内容基于互联网和线下我信任医师的修改，并非原创帖且禁止转载。基于本帖争议，现附上我编写此贴时素材之一 NGA某眼镜贴 并对其中内容做出梳理、二改和部分重新排版。如有错误还请指正。 本文编辑于 2024-06-04T16:00:00Z (UTC) ，时效性可能有所降低。 老规矩，先上结论： 防蓝光没用，推荐蔡司智锐铂金膜定制版（智锐库存片=普通镜片，甚至不如泽锐） 原厂加工单+授权码就可… 这篇帖子干货满满，我本人也受益匪浅（在此先膜拜一下Kai佬）。但问题也随之而来，佬的帖子太长、太硬核了。之前我配镜的时候，kai佬和某乎上几个帖子一读完，还是晕晕乎乎的，真没精力去啃完几万字的折射率阿贝数之类的。然后还要再结合自己验光单代入进去选镜片镜框，怪累人的。但是其实说白了，大多数佬最关心的也就是一个直接的答案，这个度数和预算，到底买啥镜片、怎么挑框才不会踩坑而且性价比还高… 为了帮佬友们省下薅头发的时间，正好结合Kai佬的攻略以及NGA、某乎上的等等一些视光知识，写了个prompt放到了Gem里，希望能帮到各位佬！ 至于gem里加的一些东西，就让哈基米总结一下吧： 佬的提示词太顶了！ （点击了解更多详细信息） 直达：L站专属配镜专家 配镜Gem prompt （点击了解更多详细信息） 近期更新 感谢 @Flint 佬提供新的参考，现在Gem的知识库更加丰富了！ 给Gem优化了一下提示词，还加入了更全价位段的镜片推荐、镜片材质科普以及日常眼镜保养等方面，再加上重新收集整理的一些高赞文章，希望可以帮到各位佬！ 写在最后 整这个Gem初衷是希望能帮到论坛里有换镜需求的佬友。这玩意儿毕竟还是个AI， 剧透 。如果佬友们在测试过程中发现它哪里说得不对，或者推荐有偏差，欢迎在帖子里反馈，以帮助更多的佬友！ 23 个帖子 - 22 位参与者 阅读完整话题 晚上水帖子发现不少佬被配镜所困惑，各位佬作为每天对着屏幕高强度输出的群体，论坛里关于近视、散光、换眼镜的讨论一直没断过。之前Kai佬总结了一篇堪称神作的硬核好帖： Kai丨【2025年眼镜的选择全攻略】v1.0.3 搞七捻三 声明：本文内容基于互联网和线下我信任医师的修改，并非原创帖且禁止转载。基于本帖争议，现附上我编写此贴时素材之一 NGA某眼镜贴 并对其中内容做出梳理、二改和部分重新排版。如有错误还请指正。 本文编辑于 2024-06-04T16:00:00Z (UTC) ，时效性可能有所降低。 老规矩，先上结论： 防蓝光没用，推荐蔡司智锐铂金膜定制版（智锐库存片=普通镜片，甚至不如泽锐） 原厂加工单+授权码就可… 这篇帖子干货满满，我本人也受益匪浅（在此先膜拜一下Kai佬）。但问题也随之而来，佬的帖子太长、太硬核了。之前我配镜的时候，kai佬和某乎上几个帖子一读完，还是晕晕乎乎的，真没精力去啃完几万字的折射率阿贝数之类的。然后还要再结合自己验光单代入进去选镜片镜框，怪累人的。但是其实说白了，大多数佬最关心的也就是一个直接的答案，这个度数和预算，到底买啥镜片、怎么挑框才不会踩坑而且性价比还高… 为了帮佬友们省下薅头发的时间，正好结合Kai佬的攻略以及NGA、某乎上的等等一些视光知识，写了个prompt放到了Gem里，希望能帮到各位佬！ 至于gem里加的一些东西，就让哈基米总结一下吧： 佬的提示词太顶了！ （点击了解更多详细信息） 直达：L站专属配镜专家 配镜Gem prompt （点击了解更多详细信息） 近期更新 感谢 @Flint 佬提供新的参考，现在Gem的知识库更加丰富了！ 给Gem优化了一下提示词，还加入了更全价位段的镜片推荐、镜片材质科普以及日常眼镜保养等方面，再加上重新收集整理的一些高赞文章，希望可以帮到各位佬！ 写在最后 整这个Gem初衷是希望能帮到论坛里有换镜需求的佬友。这玩意儿毕竟还是个AI， 剧透 。如果佬友们在测试过程中发现它哪里说得不对，或者推荐有偏差，欢迎在帖子里反馈，以帮助更多的佬友！ 23 个帖子 - 22 位参与者 阅读完整话题"
+        }
+      ],
+      "site_url": "https://linux.do/tag/444-tag/444",
+      "summary": {
+        "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 33 retained item(s) on the page. Key items include \"codex线程丢失解决方案\", \"Mimo Token Plan 这对吗？？？\", and \"[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债\".",
+        "highlights": [
+          "codex线程丢失解决方案",
+          "Mimo Token Plan 这对吗？？？",
+          "[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债"
+        ]
+      }
     },
     "https://linux.do/c/news/34.rss": {
       "seen_ids": [
+        "5955eb3b381ef9ec9f25dc3f0776def670ef10c281daf174441ec73f9abf5fd4",
+        "846ff6633824fe3df3f6c48b16153c13e7296ed3d15c82fb9a7fb3d9f6af8bdc",
+        "ea5d66e0a283ac9f06533c83a0c562f8d7bdf3bf0e0d28ec2d6ef7304e6ce8e9",
+        "1529c87bd5b0e04fbf2d3bacbdbfb4f39f247e3c378092e39b99d513fcc3f888",
+        "e4806cf68a40f47f1925433ecd75109c529b9499da4eb08fae3d9d3e91fb8520",
+        "985e9a99c322591b7089aa3a309ae820bd19344f6356eb715c4d6325d7cb9a4d",
+        "c020028c740c2535deaeb1873d0ef052912f206b0642193ec17f00a8631706f7",
+        "e075a8d935b3c73c91f59bac96697abb7a226db2c5d5e2bf6f024545359ceeb6",
+        "9626869f4f1726584fe2d8e315b6b2f89e20115d632ed1fa917dd8fbc67157cd",
+        "ae4fc5d16a341a23f2595c6ee50985858c9f11ebdee05513b00345286c705382",
+        "eee043ee4d5e373c2d06d7586ba688c1269f3a88b8ba753bb3c90f64b993a474",
+        "972ae45cffd433c919eb9c22b2bb525793bad155e9292e8651c1717e7a829f38",
+        "f084d7120793c3bd4b62492042fa8214c619bcf2c5bd57dff898a5e460c7e341",
+        "14181bc563b5308a9bc01dabea072100401234ed23054fb973dfd19c3927b25f",
+        "5875f06a4ecaadda2dfa12d7a4922d062d46aac684832e57a955c56f6a4b7642",
+        "161e290763f7fac6823d022b7acf650f1be6737efece5c1599419f5c1ea75d94",
         "0fb913aa54287664912c22dabd3726ee0670f57b8826bb7b9b45c734d4b5f06c",
         "4582eb0181feb34facaf2b077de6f310ed7c37c70e3bb06abed6e0d9762451b4",
         "abe4863f19c3890cad801089ed714b3a7bda5804df61d17d10377571c44d557d",
@@ -295,11 +707,251 @@
         "d261675446b7899e88550522a5327ffc3204652f2d0f15c919327d39dc4e68f9",
         "edd2c7441eb7cc4882b2777572f78bd3c66b525b9017e9942186a0e30d89a76e"
       ],
-      "last_checked_at": "2026-04-03T03:57:02+00:00",
-      "feed_title": "前沿快讯 - LINUX DO"
+      "last_checked_at": "2026-04-03T06:33:39+00:00",
+      "feed_title": "前沿快讯 - LINUX DO",
+      "pending_items": [
+        {
+          "id": "5955eb3b381ef9ec9f25dc3f0776def670ef10c281daf174441ec73f9abf5fd4",
+          "signature": "e95d36f220d66157d3cd8b17c2dee86f673b18e236f75bbe3bb2881c82651339",
+          "title": "Zread推出Zread CLI",
+          "link": "https://linux.do/t/topic/1889422",
+          "published": "2026-04-03 05:56 UTC",
+          "sort_key": 1775195800.0,
+          "source_kind": "feed",
+          "text": "以下内容复制来源于官方介绍: Zread CLI 1. CLI 是做什么的？ Zread CLI 面向本地代码库场景，帮助开发者在本地目录中直接生成项目文档。 它适合这些需求： 快速理解代码结构 为项目沉淀基础文档 为团队 onboarding 提供阅读入口 为 AI 编程工具提供更清晰的上下文 2. 安装 你可以通过 npm 或 Homebrew 安装： npm install -g zread_cli brew tap codegeex/homebrew-tap brew install zread 3. 快速开始 推荐使用路径： cd repozread 想用 Zread 时，直接进入仓库目录执行 zread 即可。CLI 会根据当前状态提示下一步，例如登录、生成文档或打开已有文档。 如果你已经生成过文档，想在浏览器中打开，可以运行： zread browse 4. 命令说明 命令 功能说明 zread CLI 默认入口，根据当前环境自动推荐下一步操作。 zread generate 为当前目录生成项目文档。 zread browse 在浏览器打开当前项目已生成的文档。 zread login 登录账号或配置 API key。 zread config 查看或修改 CLI 配置。 zread update 更新 CLI 到最新版本。 zread version 查看当前 CLI 版本。 如需查看完整帮助信息，可以运行： zread --help 5. 文档保存位置 生成完成后，文档会保存在项目目录下的 .zread/ 中： .zread/ state.json wiki/ current versions/ 2026-03-12_1015_f3a91e/ 2026-03-15_1314_ab12cd/ drafts/ .zread/wiki/current ：当前版本文档 .zread/wiki/versions/ ：历史版本文档 .zread/wiki/drafts/ ：生成完成前的草稿文档 这样可以方便团队直接读取当前文档，也能在需要时回看历史版本。团队成员安装 Zread CLI 后，都可以在浏览器中查看同一份项目文档，这对内部仓库、未开源项目和 onboarding 场景都更合适。 12 个帖子 - 4 位参与者 阅读完整话题 以下内容复制来源于官方介绍: Zread CLI 1. CLI 是做什么的？ Zread CLI 面向本地代码库场景，帮助开发者在本地目录中直接生成项目文档。 它适合这些需求： 快速理解代码结构 为项目沉淀基础文档 为团队 onboarding 提供阅读入口 为 AI 编程工具提供更清晰的上下文 2. 安装 你可以通过 npm 或 Homebrew 安装： npm install -g zread_cli brew tap codegeex/homebrew-tap brew install zread 3. 快速开始 推荐使用路径： cd repozread 想用 Zread 时，直接进入仓库目录执行 zread 即可。CLI 会根据当前状态提示下一步，例如登录、生成文档或打开已有文档。 如果你已经生成过文档，想在浏览器中打开，可以运行： zread browse 4. 命令说明 命令 功能说明 zread CLI 默认入口，根据当前环境自动推荐下一步操作。 zread generate 为当前目录生成项目文档。 zread browse 在浏览器打开当前项目已生成的文档。 zread login 登录账号或配置 API key。 zread config 查看或修改 CLI 配置。 zread update 更新 CLI 到最新版本。 zread version 查看当前 CLI 版本。 如需查看完整帮助信息，可以运行： zread --help 5. 文档保存位置 生成完成后，文档会保存在项目目录下的 .zread/ 中： .zread/ state.json wiki/ current versions/ 2026-03-12_1015_f3a91e/ 2026-03-15_1314_ab12cd/ drafts/ .zread/wiki/current ：当前版本文档 .zread/wiki/versions/ ：历史版本文档 .zread/wiki/drafts/ ：生成完成前的草稿文档 这样可以方便团队直接读取当前文档，也能在需要时回看历史版本。团队成员安装 Zread CLI 后，都可以在浏览器中查看同一份项目文档，这对内部仓库、未开源项目和 onboarding 场景都更合适。 12 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "846ff6633824fe3df3f6c48b16153c13e7296ed3d15c82fb9a7fb3d9f6af8bdc",
+          "signature": "ae79e232a372dd4f8e6db702041b8c5a6c18af309ae91d0a6b44a82f1c43e9a1",
+          "title": "axios3/31被投毒，盗号的手段居然是社会工程学攻击",
+          "link": "https://linux.do/t/topic/1889347",
+          "published": "2026-04-03 05:46 UTC",
+          "sort_key": 1775195189.0,
+          "source_kind": "feed",
+          "text": "被盗号了的jasonsaayman在axios的仓库中分享了自己中招的心路历程 大意就是在会议里被哄着装了一个以为是会议软件teams的更新的插件，结果是病毒 gemini的总结和评论： 原文： 1 个帖子 - 1 位参与者 阅读完整话题 被盗号了的jasonsaayman在axios的仓库中分享了自己中招的心路历程 大意就是在会议里被哄着装了一个以为是会议软件teams的更新的插件，结果是病毒 gemini的总结和评论： 原文： 1 个帖子 - 1 位参与者 阅读完整话题"
+        },
+        {
+          "id": "ea5d66e0a283ac9f06533c83a0c562f8d7bdf3bf0e0d28ec2d6ef7304e6ce8e9",
+          "signature": "bb29b5d4ce1ce1634c1a9521fcb08a1b45956f53e21ee9d63836ae4dbc6a3a6f",
+          "title": "Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频",
+          "link": "https://linux.do/t/topic/1889300",
+          "published": "2026-04-03 05:40 UTC",
+          "sort_key": 1775194807.0,
+          "source_kind": "feed",
+          "text": "TechRadar – 3 Apr 26 Google’s new AI video features arrive just as OpenAI is backing away from Sora AI video is changing fast and Google Vids just made a very smart move 1 个帖子 - 1 位参与者 阅读完整话题 TechRadar – 3 Apr 26 Google’s new AI video features arrive just as OpenAI is backing away from Sora AI video is changing fast and Google Vids just made a very smart move 1 个帖子 - 1 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1529c87bd5b0e04fbf2d3bacbdbfb4f39f247e3c378092e39b99d513fcc3f888",
+          "signature": "68c819839a07045a69a1677abc1a94af2c1170b101bf29fd1f0b830363dd703c",
+          "title": "qwen3.6正式版上线qwen-code",
+          "link": "https://linux.do/t/topic/1889293",
+          "published": "2026-04-03 05:38 UTC",
+          "sort_key": 1775194727.0,
+          "source_kind": "feed",
+          "text": "github.com GitHub - QwenLM/qwen-code: An open-source AI agent that lives in your... An open-source AI agent that lives in your terminal. 不过目前qwen2api带检测问几次就上限了，只能在qwencode内部使用，佬友们可以尝试蹬一下，在一些项目中尝试了一下这个模型表现还不错。 10 个帖子 - 5 位参与者 阅读完整话题 github.com GitHub - QwenLM/qwen-code: An open-source AI agent that lives in your... An open-source AI agent that lives in your terminal. 不过目前qwen2api带检测问几次就上限了，只能在qwencode内部使用，佬友们可以尝试蹬一下，在一些项目中尝试了一下这个模型表现还不错。 10 个帖子 - 5 位参与者 阅读完整话题"
+        },
+        {
+          "id": "e4806cf68a40f47f1925433ecd75109c529b9499da4eb08fae3d9d3e91fb8520",
+          "signature": "aacd6ef85a91aeb405eca3a2ccc45c7ed0b6558abec041308bb2f593ea638e5a",
+          "title": "OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？",
+          "link": "https://linux.do/t/topic/1889285",
+          "published": "2026-04-03 05:37 UTC",
+          "sort_key": 1775194661.0,
+          "source_kind": "feed",
+          "text": "OpenAI Codex 工程负责人 Thibault Sottiaux 在 X 上发帖称，Codex 目前高峰与低谷时段的负载差距很大，团队希望让流量分布更平滑，以更高效地利用算力。他直接向用户征求意见：低谷时段给更多用量、高峰时段引入倍率消耗，这样的方案是否合理？并表示团队已有一些想法，但想先听听用户怎么想。 同样是算力不够分的问题，OpenAI 选择在动手之前先问一句。而 Anthropic 对 Claude Code 限额危机的回应是一份使用指南：别用 Opus、别开 100 万上下文、闲置会话别恢复，不提补偿，不问用户意见。 https://x.com/thsottiaux/status/2039893158952419779 34 个帖子 - 31 位参与者 阅读完整话题 OpenAI Codex 工程负责人 Thibault Sottiaux 在 X 上发帖称，Codex 目前高峰与低谷时段的负载差距很大，团队希望让流量分布更平滑，以更高效地利用算力。他直接向用户征求意见：低谷时段给更多用量、高峰时段引入倍率消耗，这样的方案是否合理？并表示团队已有一些想法，但想先听听用户怎么想。 同样是算力不够分的问题，OpenAI 选择在动手之前先问一句。而 Anthropic 对 Claude Code 限额危机的回应是一份使用指南：别用 Opus、别开 100 万上下文、闲置会话别恢复，不提补偿，不问用户意见。 https://x.com/thsottiaux/status/2039893158952419779 34 个帖子 - 31 位参与者 阅读完整话题"
+        },
+        {
+          "id": "985e9a99c322591b7089aa3a309ae820bd19344f6356eb715c4d6325d7cb9a4d",
+          "signature": "9ebac7620b492026ebfa69c6fc2eb5c37b75d3fa9f6b506ffef6d85ee870a6ef",
+          "title": "小米也出tokenplan，用量计费，TTS 模型限时免费使用",
+          "link": "https://linux.do/t/topic/1889249",
+          "published": "2026-04-03 05:30 UTC",
+          "sort_key": 1775194227.0,
+          "source_kind": "feed",
+          "text": "买个lite，体验下 8 个帖子 - 8 位参与者 阅读完整话题 买个lite，体验下 8 个帖子 - 8 位参与者 阅读完整话题"
+        },
+        {
+          "id": "c020028c740c2535deaeb1873d0ef052912f206b0642193ec17f00a8631706f7",
+          "signature": "f6f5a8679afc52b236a23ea92c50676c5f73edb7ae5baa274c39d0a08d7c5dc7",
+          "title": "还没毕业就给期权：Kimi月之暗面推「穿越计划」，提前一年锁定27届顶尖人才",
+          "link": "https://linux.do/t/topic/1889202",
+          "published": "2026-04-03 05:22 UTC",
+          "sort_key": 1775193734.0,
+          "source_kind": "feed",
+          "text": "月之暗面即将推出一项新的顶尖人才校招计划，拟授予尚未毕业的实习生公司期权。 有能力的老弟记得持续关注争取进去，赚大钱的机会 佬友们清华都能上岸，进去个几十个拿个股份这不是小事一桩 到时候我们能嫖到佬友们的免费token 3 个帖子 - 3 位参与者 阅读完整话题 月之暗面即将推出一项新的顶尖人才校招计划，拟授予尚未毕业的实习生公司期权。 有能力的老弟记得持续关注争取进去，赚大钱的机会 佬友们清华都能上岸，进去个几十个拿个股份这不是小事一桩 到时候我们能嫖到佬友们的免费token 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "e075a8d935b3c73c91f59bac96697abb7a226db2c5d5e2bf6f024545359ceeb6",
+          "signature": "f777cafdbe568d67ba91c111faf897dab362cd910d260d673ae852ad4a570f09",
+          "title": "OpenRouter 上 Qwen3.6 Plus 正式版来了",
+          "link": "https://linux.do/t/topic/1889050",
+          "published": "2026-04-03 05:05 UTC",
+          "sort_key": 1775192725.0,
+          "source_kind": "feed",
+          "text": "早上发现qwen3.6-plus-preview:free怎么都连不上，看了看 OpenRouter 发现 qwen/qwen3.6-plus:free 上线了，preview 标签没了。 背景： • 3 月 30 日发布的 preview 版本 • 1M token 上下文 • 强制链式思维推理 • 支持工具调用 模型应该稳定了，可以投入生产使用。之前 preview 期间收集的反馈应该都整合进去了 13 个帖子 - 11 位参与者 阅读完整话题 早上发现qwen3.6-plus-preview:free怎么都连不上，看了看 OpenRouter 发现 qwen/qwen3.6-plus:free 上线了，preview 标签没了。 背景： • 3 月 30 日发布的 preview 版本 • 1M token 上下文 • 强制链式思维推理 • 支持工具调用 模型应该稳定了，可以投入生产使用。之前 preview 期间收集的反馈应该都整合进去了 13 个帖子 - 11 位参与者 阅读完整话题"
+        },
+        {
+          "id": "9626869f4f1726584fe2d8e315b6b2f89e20115d632ed1fa917dd8fbc67157cd",
+          "signature": "841b7230adee25dfa01fa95ea50ede2d0c6ce44788172160fb7dbab5cee3b6d4",
+          "title": "小米也出Token Plan 了",
+          "link": "https://linux.do/t/topic/1888939",
+          "published": "2026-04-03 04:45 UTC",
+          "sort_key": 1775191533.0,
+          "source_kind": "feed",
+          "text": "50 个帖子 - 29 位参与者 阅读完整话题 50 个帖子 - 29 位参与者 阅读完整话题"
+        },
+        {
+          "id": "ae4fc5d16a341a23f2595c6ee50985858c9f11ebdee05513b00345286c705382",
+          "signature": "5aa317625b18bda5099827c40c0127772eff9f1e7f5cedece89d776fac0327f8",
+          "title": "按token计费，无五小时限制：Xiaomi MiMo Token Plan发布",
+          "link": "https://linux.do/t/topic/1888857",
+          "published": "2026-04-03 04:28 UTC",
+          "sort_key": 1775190513.0,
+          "source_kind": "feed",
+          "text": "MiMo-V2-Omni 256k 上下文：1x（消耗 1 Token = 1 Credit） MiMo-V2-Pro 256k 上下文： 2x（消耗 1 Token = 2 Credits） MiMo-V2-Pro 256k~1M上下文： 4x（消耗 1 Token = 4 Credits） MiMo-V2-TTS：0x（限时免费，不消耗 Credit） 无 5 小时 token 使用限额 ——支持集中消耗 token ，高强度养龙虾或编程，体验拉满、不被打断。 Lite（¥39/月） —— 0.6亿（60M）Credits，可执行约 120 个中等~复杂任务 。适合刚接触 AI 开发的探索者，以一杯咖啡的价格开始。 Standard（¥99/月） —— 2亿（200M）Credits，可执行约 400 个中等~复杂任务 。为日常依赖 AI 提效的办公与开发者用户打造的主力方案。 Pro （¥329/月） —— 7亿（700M）Credits，可执行约 1400 个中等~复杂任务 。面向将 AI 深度嵌入工作流的专业用户。 Max（¥659/月） —— 16亿（1600M）Credits，可执行约 3200 个中等~复杂任务。为全天候高强度使用的开发者准备，近乎无限制的使用体验。 所有套餐首次购买均享 88 折优惠 ，该优惠仅限 1 次 购买地址： https://platform.xiaomimimo.com 我个人感觉有点贵了？60M token好像很容易用完吧？ 而且不知道缓存怎么计算，缓存部分应该要有优惠的 11 个帖子 - 11 位参与者 阅读完整话题 MiMo-V2-Omni 256k 上下文：1x（消耗 1 Token = 1 Credit） MiMo-V2-Pro 256k 上下文： 2x（消耗 1 Token = 2 Credits） MiMo-V2-Pro 256k~1M上下文： 4x（消耗 1 Token = 4 Credits） MiMo-V2-TTS：0x（限时免费，不消耗 Credit） 无 5 小时 token 使用限额 ——支持集中消耗 token ，高强度养龙虾或编程，体验拉满、不被打断。 Lite（¥39/月） —— 0.6亿（60M）Credits，可执行约 120 个中等~复杂任务 。适合刚接触 AI 开发的探索者，以一杯咖啡的价格开始。 Standard（¥99/月） —— 2亿（200M）Credits，可执行约 400 个中等~复杂任务 。为日常依赖 AI 提效的办公与开发者用户打造的主力方案。 Pro （¥329/月） —— 7亿（700M）Credits，可执行约 1400 个中等~复杂任务 。面向将 AI 深度嵌入工作流的专业用户。 Max（¥659/月） —— 16亿（1600M）Credits，可执行约 3200 个中等~复杂任务。为全天候高强度使用的开发者准备，近乎无限制的使用体验。 所有套餐首次购买均享 88 折优惠 ，该优惠仅限 1 次 购买地址： https://platform.xiaomimimo.com 我个人感觉有点贵了？60M token好像很容易用完吧？ 而且不知道缓存怎么计算，缓存部分应该要有优惠的 11 个帖子 - 11 位参与者 阅读完整话题"
+        },
+        {
+          "id": "eee043ee4d5e373c2d06d7586ba688c1269f3a88b8ba753bb3c90f64b993a474",
+          "signature": "30f0286c60736e496174b5d7518b58248d45d2f91d7e0486e14f6297d29d7b5e",
+          "title": "Xiaomi MiMo Token Plan 正式上线",
+          "link": "https://linux.do/t/topic/1888842",
+          "published": "2026-04-03 04:25 UTC",
+          "sort_key": 1775190351.0,
+          "source_kind": "feed",
+          "text": "透明计费，按需规划 统一 Credit 点数体系，按 Token 使用量换算消耗，用量一目了然。 无 5 小时 Token 使用限制 支持集中消耗 token ，高强度养龙虾或编程，体验拉满。 一次订阅，全模态覆盖 灵活调用 MiMo-V2-Pro / Omni / TTS，共享额度，无需单独付费。 四档套餐，极高性价比 Lite（¥39/月） —— 60M Credits，一杯咖啡开启 AI 探索 Standard（¥99/月） —— 200M Credits，日常办公开发主力方案 Pro（¥329/月） —— 700M Credits，深度嵌入工作流的专业之选 Max（¥659/月） —— 1600M Credits，全天候高强度近乎无限制 首次购买任意套餐均享 88 折优惠！ 主流工具深度适配 OpenClaw ｜ Claude Code ｜ OpenCode ｜ Kilocode ｜ Cline 订阅用户专享：新模型上线前优先内测权，快人一步。 原「Xiaomi MiMo 联合全球顶级 Agent 框架开启首周限免」活动将于 4 月 3 日 内结束，诚邀即刻订阅，解锁无限生产力！ 详情关注「Xiaomi MiMo」官方公众号及 Token Plan。 Xiaomi MiMo API 开放平台团队 2026 年 4 月 3 日 27 个帖子 - 24 位参与者 阅读完整话题 透明计费，按需规划 统一 Credit 点数体系，按 Token 使用量换算消耗，用量一目了然。 无 5 小时 Token 使用限制 支持集中消耗 token ，高强度养龙虾或编程，体验拉满。 一次订阅，全模态覆盖 灵活调用 MiMo-V2-Pro / Omni / TTS，共享额度，无需单独付费。 四档套餐，极高性价比 Lite（¥39/月） —— 60M Credits，一杯咖啡开启 AI 探索 Standard（¥99/月） —— 200M Credits，日常办公开发主力方案 Pro（¥329/月） —— 700M Credits，深度嵌入工作流的专业之选 Max（¥659/月） —— 1600M Credits，全天候高强度近乎无限制 首次购买任意套餐均享 88 折优惠！ 主流工具深度适配 OpenClaw ｜ Claude Code ｜ OpenCode ｜ Kilocode ｜ Cline 订阅用户专享：新模型上线前优先内测权，快人一步。 原「Xiaomi MiMo 联合全球顶级 Agent 框架开启首周限免」活动将于 4 月 3 日 内结束，诚邀即刻订阅，解锁无限生产力！ 详情关注「Xiaomi MiMo」官方公众号及 Token Plan。 Xiaomi MiMo API 开放平台团队 2026 年 4 月 3 日 27 个帖子 - 24 位参与者 阅读完整话题"
+        },
+        {
+          "id": "972ae45cffd433c919eb9c22b2bb525793bad155e9292e8651c1717e7a829f38",
+          "signature": "eea5dd1e983573158d8c6ebc8e70f22cf17e9cdcc4422d7b1798dabc414859c1",
+          "title": "火山方舟协作奖励计划活动延期至2026年6月30日",
+          "link": "https://linux.do/t/topic/1888827",
+          "published": "2026-04-03 04:23 UTC",
+          "sort_key": 1775190185.0,
+          "source_kind": "feed",
+          "text": "【慢讯】火山方舟协作奖励计划活动延期 前沿快讯 记得原计划是这两天到期，今天上来一看，卧槽竟然延期了。 感觉磨磨唧唧的，拖到最后一刻才公布。 [屏幕截图 2026-04-01 103951] 才发现之前有佬友发过了，都没刷到，再发一遍吧 之前的活动是2026年3月31日到期，这次又延期了3个月，2026年6月30日到期，又可以多用几个月了 话说大家有用豆包的大模型吗？ 200W的滚动额度，个人用的话，感觉够用啊，比其他家慷慨 我目前是用DeepSeek在沉浸式上做翻译 其他参考 火山引擎（豆包）大模型协作奖励计划升级，免费50w升级为200w （已上线） 福利羊毛 之前发布的这个帖子内容，官方到今天下午才上线正式链接，小伙伴们可以去升级了。 50w升级至200w，具体内容看上面帖子链接 进入页面，点击上方渐变区域立即参与按钮，查看升级内容，需要实名 [image] [image] [image] 单模型均为200w [image] 5 个帖子 - 3 位参与者 阅读完整话题 【慢讯】火山方舟协作奖励计划活动延期 前沿快讯 记得原计划是这两天到期，今天上来一看，卧槽竟然延期了。 感觉磨磨唧唧的，拖到最后一刻才公布。 [屏幕截图 2026-04-01 103951] 才发现之前有佬友发过了，都没刷到，再发一遍吧 之前的活动是2026年3月31日到期，这次又延期了3个月，2026年6月30日到期，又可以多用几个月了 话说大家有用豆包的大模型吗？ 200W的滚动额度，个人用的话，感觉够用啊，比其他家慷慨 我目前是用DeepSeek在沉浸式上做翻译 其他参考 火山引擎（豆包）大模型协作奖励计划升级，免费50w升级为200w （已上线） 福利羊毛 之前发布的这个帖子内容，官方到今天下午才上线正式链接，小伙伴们可以去升级了。 50w升级至200w，具体内容看上面帖子链接 进入页面，点击上方渐变区域立即参与按钮，查看升级内容，需要实名 [image] [image] [image] 单模型均为200w [image] 5 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "f084d7120793c3bd4b62492042fa8214c619bcf2c5bd57dff898a5e460c7e341",
+          "signature": "cd2ba8160756aefe0356ee9a0a1dd1f2591df53eb80b3f2cd5208c172772288e",
+          "title": "Xiaomi mimo 官方也有 Coding Plan 了",
+          "link": "https://linux.do/t/topic/1888823",
+          "published": "2026-04-03 04:21 UTC",
+          "sort_key": 1775190087.0,
+          "source_kind": "feed",
+          "text": "platform.xiaomimimo.com Xiaomi MiMo Api Open Platform - Token Plan Global Launch One-time purchase unlocks both MiMo-V2-Pro and Omni flagship models, plus TTS model free across all tiers for a limited time. Unleash powerful productivity with Xiaomi MiMo 25 个帖子 - 20 位参与者 阅读完整话题 platform.xiaomimimo.com Xiaomi MiMo Api Open Platform - Token Plan Global Launch One-time purchase unlocks both MiMo-V2-Pro and Omni flagship models, plus TTS model free across all tiers for a limited time. Unleash powerful productivity with Xiaomi MiMo 25 个帖子 - 20 位参与者 阅读完整话题"
+        },
+        {
+          "id": "14181bc563b5308a9bc01dabea072100401234ed23054fb973dfd19c3927b25f",
+          "signature": "f5e895a928c7f51517142efc3349d0fc30b370daf094ddf567d41735051d90a2",
+          "title": "Xiaomi MiMo Token Plan 现已正式上线",
+          "link": "https://linux.do/t/topic/1888821",
+          "published": "2026-04-03 04:21 UTC",
+          "sort_key": 1775190081.0,
+          "source_kind": "feed",
+          "text": "Xiaomi MiMo Token Plan 现已正式上线！ 透明计费，按需规划 统一 Credit 点数体系，按 Token 使用量换算消耗，用量一目了然。 无5小时 Token 使用限制 支持集中消耗 token ，高强度养龙虾或编程，体验拉满。 一次订阅，全模态覆盖 灵活调用 MiMo-V2-Pro / Omni / TTS，共享额度，无需单独付费。 四档套餐，极高性价比 Lite（¥39/月） —— 60M Credits，一杯咖啡开启 AI 探索 Standard（¥99/月） —— 200M Credits，日常办公开发主力方案 Pro（¥329/月） —— 700M Credits，深度嵌入工作流的专业之选 Max（¥659/月） —— 1600M Credits，全天候高强度近乎无限制 首次购买任意套餐均享 88 折优惠！ 主流工具深度适配 OpenClaw ｜ Claude Code ｜ OpenCode ｜ Kilocode ｜ Cline 订阅用户专享：新模型上线前优先内测权，快人一步。 原「Xiaomi MiMo 联合全球顶级 Agent 框架开启首周限免」活动将于 4 月 3 日 内结束，诚邀即刻订阅，解锁无限生产力！ 详情关注「Xiaomi MiMo」官方公众号及 Token Plan。 Xiaomi MiMo API 开放平台团队 2026 年 4 月 3 日 14 个帖子 - 12 位参与者 阅读完整话题 Xiaomi MiMo Token Plan 现已正式上线！ 透明计费，按需规划 统一 Credit 点数体系，按 Token 使用量换算消耗，用量一目了然。 无5小时 Token 使用限制 支持集中消耗 token ，高强度养龙虾或编程，体验拉满。 一次订阅，全模态覆盖 灵活调用 MiMo-V2-Pro / Omni / TTS，共享额度，无需单独付费。 四档套餐，极高性价比 Lite（¥39/月） —— 60M Credits，一杯咖啡开启 AI 探索 Standard（¥99/月） —— 200M Credits，日常办公开发主力方案 Pro（¥329/月） —— 700M Credits，深度嵌入工作流的专业之选 Max（¥659/月） —— 1600M Credits，全天候高强度近乎无限制 首次购买任意套餐均享 88 折优惠！ 主流工具深度适配 OpenClaw ｜ Claude Code ｜ OpenCode ｜ Kilocode ｜ Cline 订阅用户专享：新模型上线前优先内测权，快人一步。 原「Xiaomi MiMo 联合全球顶级 Agent 框架开启首周限免」活动将于 4 月 3 日 内结束，诚邀即刻订阅，解锁无限生产力！ 详情关注「Xiaomi MiMo」官方公众号及 Token Plan。 Xiaomi MiMo API 开放平台团队 2026 年 4 月 3 日 14 个帖子 - 12 位参与者 阅读完整话题"
+        },
+        {
+          "id": "5875f06a4ecaadda2dfa12d7a4922d062d46aac684832e57a955c56f6a4b7642",
+          "signature": "ec2942d7057f84a40242ae4a1c0ae433f6d0acfc01a5923983f67148816d5187",
+          "title": "小米 Token Plan 公布，竟然是按用量计算的",
+          "link": "https://linux.do/t/topic/1888805",
+          "published": "2026-04-03 04:18 UTC",
+          "sort_key": 1775189916.0,
+          "source_kind": "feed",
+          "text": "40块 60M，不知道这种按用量算性价比咋样。 platform.xiaomimimo.com Xiaomi MiMo Api Open Platform - Token Plan Global Launch One-time purchase unlocks both MiMo-V2-Pro and Omni flagship models, plus TTS model free across all tiers for a limited time. Unleash powerful productivity with Xiaomi MiMo 41 个帖子 - 30 位参与者 阅读完整话题 40块 60M，不知道这种按用量算性价比咋样。 platform.xiaomimimo.com Xiaomi MiMo Api Open Platform - Token Plan Global Launch One-time purchase unlocks both MiMo-V2-Pro and Omni flagship models, plus TTS model free across all tiers for a limited time. Unleash powerful productivity with Xiaomi MiMo 41 个帖子 - 30 位参与者 阅读完整话题"
+        },
+        {
+          "id": "161e290763f7fac6823d022b7acf650f1be6737efece5c1599419f5c1ea75d94",
+          "signature": "65b6716c316f826ec0724130af3ede15c1d5cd8e0be8cccbd353375d533f17ce",
+          "title": "Perplexity 遭集体起诉，隐身模式被指形同虚设",
+          "link": "https://linux.do/t/topic/1888785",
+          "published": "2026-04-03 04:15 UTC",
+          "sort_key": 1775189742.0,
+          "source_kind": "feed",
+          "text": "AI 搜索引擎 Perplexity 遭集体起诉，隐身模式被指形同虚设 - IT之家 6 个帖子 - 6 位参与者 阅读完整话题 AI 搜索引擎 Perplexity 遭集体起诉，隐身模式被指形同虚设 - IT之家 6 个帖子 - 6 位参与者 阅读完整话题"
+        },
+        {
+          "id": "migrated:351eb694e0fe7df52eda677ffba6834ee58a43b171074bdac7bdbfa6538aa0f0",
+          "signature": "351eb694e0fe7df52eda677ffba6834ee58a43b171074bdac7bdbfa6538aa0f0",
+          "title": "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了",
+          "link": "https://linux.do/t/topic/1888656",
+          "published": "2026-04-03 03:56 UTC",
+          "sort_key": 1775188560.0,
+          "source_kind": "feed",
+          "text": "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了"
+        },
+        {
+          "id": "migrated:c188b272b75f8705e363b318a101ae2b9f853ccc5736b20735f082befdc56e0b",
+          "signature": "c188b272b75f8705e363b318a101ae2b9f853ccc5736b20735f082befdc56e0b",
+          "title": "【自制】全球新闻0403",
+          "link": "https://linux.do/t/topic/1888607",
+          "published": "2026-04-03 03:51 UTC",
+          "sort_key": 1775188260.0,
+          "source_kind": "feed",
+          "text": "【自制】全球新闻0403"
+        },
+        {
+          "id": "migrated:41213aaebbd153f1a209d8d334201e3a688e2a737cc51a4df86a4840eadb4e86",
+          "signature": "41213aaebbd153f1a209d8d334201e3a688e2a737cc51a4df86a4840eadb4e86",
+          "title": "linux.do人工智能技术日报-26-04-03",
+          "link": "https://linux.do/t/topic/1888590",
+          "published": "2026-04-03 03:48 UTC",
+          "sort_key": 1775188080.0,
+          "source_kind": "feed",
+          "text": "linux.do人工智能技术日报-26-04-03"
+        },
+        {
+          "id": "migrated:de6395f001e9030087e96c9106259c2b9aef6a82cfa405cc6c5f583c8e6e6ca8",
+          "signature": "de6395f001e9030087e96c9106259c2b9aef6a82cfa405cc6c5f583c8e6e6ca8",
+          "title": "Codex 最高500美元的活动",
+          "link": "https://linux.do/t/topic/1888541",
+          "published": "2026-04-03 03:40 UTC",
+          "sort_key": 1775187600.0,
+          "source_kind": "feed",
+          "text": "Codex 最高500美元的活动"
+        }
+      ],
+      "site_url": "https://linux.do/c/news/34",
+      "summary": {
+        "tldr": "前沿快讯 - LINUX DO currently has 20 retained item(s) on the page. Key items include \"Zread推出Zread CLI\", \"axios3/31被投毒，盗号的手段居然是社会工程学攻击\", and \"Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频\".",
+        "highlights": [
+          "Zread推出Zread CLI",
+          "axios3/31被投毒，盗号的手段居然是社会工程学攻击",
+          "Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频"
+        ]
+      }
     },
     "https://rsshub.rssforever.com/youtube/user/@wangzhian": {
       "seen_ids": [
+        "464ec1dd08f766d014246843d8b5274b808ade4b8fcc1865bfd81fdf1d798f78",
+        "e84a486b1b9a1ad8e98a19fce558aed4005d695d0f994cff8d6be0c6915c94b4",
+        "33023d73852cae27e338d0d5dcd4032b03728ce519983d21a7978e4e83505b31",
+        "1458c667847f6129efaf70946d76f1afd5e3ba3a1fb55aae62f42bdb14b89b7d",
+        "eaaa6d82ee3e43f5a865be73f8dffa49723597762d2378ed6b0a2bf2ed48aeb5",
+        "35db6156b314f9f4b8197589edb59bdeac0dbc0eebdbe4bf0b62e76b999947b1",
+        "5e3be5f7df875c2a10159166849c5807a5cc38c53b4a271995f5529a04006b6d",
+        "868038569884ef989259d7584dfc0568fc79a7cd4807488ffb3c5d5d77d1de3e",
+        "f6fe9839c99ed9f1f113c7e2c676fc1e3f0128c0577cde38e430569e3a88f6bb",
+        "133e3a8cd614088a1d13629c729de965bcce66c9ad7890fdd21538cfdbbcba8c",
+        "fa34453d2b8ea4683795d1b5fd8a45ea00f57afd52b1d26030ddf443cfe696b1",
+        "a07ee31b8a2b696fa47a821a65d7a49139ee0446c0b5a3ad1c1490539ab7d077",
+        "1a56a9b3c0cadf7e6ec516df8e1e98fd8250fb8ba604ccaffff6b369e513305d",
+        "5dfcd6c566e627dc7f13fb0abf0c606853b1d18febec04b64f38a9be1005889b",
+        "fed134239732176ab937331b8a95642e4c44c4a5196e2ff24504953e27167abf",
+        "85648ca83b78272580d8b3c368cf859ca09a8ef688b974b903da6ece126ad962",
+        "9789ae2db7ab637b0a0eb7e05492643e829a932a1352de4198cb0aa80d8f0edb",
+        "3a6f61e5fe713e14cd14beb1e6346a9e629373b287ade2a63acb4ba6238e951b",
+        "6e2ce04704a9942c2329aa43566e62cd1e2acffc13921df772d4698b69aaa0e4",
+        "4f09a353599590f930eb0fd76d7ee801e0a8d9df78ac24108a5dcbd7f0bbcb4a",
+        "17144174ddbac34e3346a1fb3708107add677ad633f38eb698b41dd1ca300aeb",
+        "b9fca20bdf05c87a4fc5463e1dbffa2bda4a0a772028b51615df66bb4378206f",
+        "13323b3b408acaac2b9e28a4a7542f818e708aef5fe99b01927aabc1a5b24388",
+        "df5eeba457dc17aba7a897107429aabcdd86e7bc1acffc44b0a5883e51283c7c",
+        "2d73725a0365893a212f0e8566232fe53839c3bf6e8d6602a9bb283e9b734739",
+        "d4d5c67cd1191ad2b720a6f87bb445704a5a323ca7042a7295c12116a1e1751d",
+        "9b8151b71347b70ce23f3ba6cb803aed22cba146b8bb4e5b4b78de714c957d99",
+        "90d4b2cc1b7d9c2f58ad34b40b150aa1d34d271c802633b794396b7c35dcf890",
+        "2e8463288574f2ad1f79a05f0b48d9a3e64faec220671620279787f767f209a3",
         "1b802a30e68cd251787a519d1709a37b66422895ac1a4b6e0b1ddf4baa8181f0",
         "dfb75502567f34687bbfbdd0281fbf1181b25e60631758543a1129f04ded93dc",
         "592a34ed53c48d26542ce03258d121550f561ace6f00e9a7be95b336ea0a11ab",
@@ -380,8 +1032,349 @@
         "7ef6d776209d69623a5abee732283608e6e235c0b4ecd31d812c2a77bdca0445",
         "5a4f7f42e114d4cdafc792af1dd813c0a21a36aedcd246efc27f66fcaccc0191"
       ],
-      "last_checked_at": "2026-04-03T03:57:43+00:00",
-      "feed_title": "王志安 - YouTube"
+      "last_checked_at": "2026-04-03T06:34:07+00:00",
+      "feed_title": "王志安 - YouTube",
+      "pending_items": [
+        {
+          "id": "464ec1dd08f766d014246843d8b5274b808ade4b8fcc1865bfd81fdf1d798f78",
+          "signature": "c823b89a20e4f1a2d94103884ba8e59a70fef127aed2eac93ba3a7b4b4391737",
+          "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
+          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
+          "published": "2026-04-03 06:19 UTC",
+          "sort_key": 1775197184.0,
+          "source_kind": "feed",
+          "text": "140公斤的庞大身躯，超30%的心血管猝死率，一张绝密体检单正在逼迫平壤启动史上最疯狂的交接。一个连法定入党年龄都没到的13岁初中生，凭什么能... 140公斤的庞大身躯，超30%的心血管猝死率，一张绝密体检单正在逼迫平壤启动史上最疯狂的交接。一个连法定入党年龄都没到的13岁初中生，凭什么能..."
+        },
+        {
+          "id": "migrated:7c96b140fd27b5e31e308661f5cc7624c9b64d896dcea7e22c209cbbadac4fd5",
+          "signature": "7c96b140fd27b5e31e308661f5cc7624c9b64d896dcea7e22c209cbbadac4fd5",
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 12:57 UTC",
+          "sort_key": 1775134620.0,
+          "source_kind": "feed",
+          "text": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402"
+        },
+        {
+          "id": "e84a486b1b9a1ad8e98a19fce558aed4005d695d0f994cff8d6be0c6915c94b4",
+          "signature": "ae4f7652d2e73a9013f7e26615c54bdec2bb5e9ec5b8951cc49769dd465c42e5",
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 12:33 UTC",
+          "sort_key": 1775133224.0,
+          "source_kind": "feed",
+          "text": "中美登月竞赛谁能抢得先机？ #阿提米丝2号 #重返月球 #阿姆斯特朗 #杨利伟 #嫦娥计划 #NASA #阿波罗 #长征十号 #氨-3 #星舰 1. YouTube 会员平台 成为本频... 中美登月竞赛谁能抢得先机？ #阿提米丝2号 #重返月球 #阿姆斯特朗 #杨利伟 #嫦娥计划 #NASA #阿波罗 #长征十号 #氨-3 #星舰 1. YouTube 会员平台 成为本频..."
+        },
+        {
+          "id": "33023d73852cae27e338d0d5dcd4032b03728ce519983d21a7978e4e83505b31",
+          "signature": "3fb41715365230b8ac2eb5022697049fcacf97203c1f1fc976a22a9455cd7ad7",
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 06:33 UTC",
+          "sort_key": 1775111624.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "1458c667847f6129efaf70946d76f1afd5e3ba3a1fb55aae62f42bdb14b89b7d",
+          "signature": "999ca6e61a17deaabffc88caac674e4a4e702edb42dd59b949329d612a816f86",
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 06:33 UTC",
+          "sort_key": 1775111624.0,
+          "source_kind": "feed",
+          "text": "0:00 检察官廖彦钧 8:18 检察官陈思荔 18:01 柯文哲言词辩论 58:04 宣判 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播... 0:00 检察官廖彦钧 8:18 检察官陈思荔 18:01 柯文哲言词辩论 58:04 宣判 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播..."
+        },
+        {
+          "id": "eaaa6d82ee3e43f5a865be73f8dffa49723597762d2378ed6b0a2bf2ed48aeb5",
+          "signature": "3fd2e14e77c1c36fd15f036f1d784af23a37ed939f06eb6e762a0a1a1a81fe8d",
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-02 06:33 UTC",
+          "sort_key": 1775111624.0,
+          "source_kind": "feed",
+          "text": "Manus 高管被中国边控，中美AI争夺战再起风云 #蝴蝶效应 #META #新加坡 #禁止离境 #Monica #肖弘 #季逸超 #张涛 #离岸架构 #出口管制 #商务部 1. YouTube... Manus 高管被中国边控，中美AI争夺战再起风云 #蝴蝶效应 #META #新加坡 #禁止离境 #Monica #肖弘 #季逸超 #张涛 #离岸架构 #出口管制 #商务部 1. YouTube..."
+        },
+        {
+          "id": "migrated:cbf0a11e6496ea830b4ca94d4928cd66dd474c4ec3c7dfe398c6cc5a49bfa234",
+          "signature": "cbf0a11e6496ea830b4ca94d4928cd66dd474c4ec3c7dfe398c6cc5a49bfa234",
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-02 03:57 UTC",
+          "sort_key": 1775102220.0,
+          "source_kind": "feed",
+          "text": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401"
+        },
+        {
+          "id": "migrated:75ba6cca6535c10e3d8e27c7123f90a61f6d6e273c73fcde0fc02f921b28f6e7",
+          "signature": "75ba6cca6535c10e3d8e27c7123f90a61f6d6e273c73fcde0fc02f921b28f6e7",
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 03:57 UTC",
+          "sort_key": 1775102220.0,
+          "source_kind": "feed",
+          "text": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402"
+        },
+        {
+          "id": "migrated:5c111eab5d092b069fcdaabc3fa243fecdd8f560cdaf09ca095c6970573ca6e8",
+          "signature": "5c111eab5d092b069fcdaabc3fa243fecdd8f560cdaf09ca095c6970573ca6e8",
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 03:57 UTC",
+          "sort_key": 1775102220.0,
+          "source_kind": "feed",
+          "text": "柯文哲庭审录像精华版｜新闻特写20260402"
+        },
+        {
+          "id": "35db6156b314f9f4b8197589edb59bdeac0dbc0eebdbe4bf0b62e76b999947b1",
+          "signature": "660b2b673f6be2913be22c70fcd68efc7f36864650eb4190d75d9a8b3d2a9355",
+          "title": "张雪机车，他是第一｜新闻特写20260331",
+          "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
+          "published": "2026-04-01 06:33 UTC",
+          "sort_key": 1775025224.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "5e3be5f7df875c2a10159166849c5807a5cc38c53b4a271995f5529a04006b6d",
+          "signature": "ab88c5eb9fdc86291f5236fe21565b75257a103371c6135a0bca4cd5ee483a89",
+          "title": "U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?",
+          "link": "https://www.youtube.com/watch?v=JiGeTwJCiEk",
+          "published": "2026-03-31 06:33 UTC",
+          "sort_key": 1774938824.0,
+          "source_kind": "feed",
+          "text": "美国E3预警机被击毁，美伊战争何去何从？ #E3预警机 #沙赫德-135 #霍尔木兹 #F35 #马吉德 #隐形战机雷达 #哈尔克岛 #登陆占领 1. YouTube 会员平台 成为本... 美国E3预警机被击毁，美伊战争何去何从？ #E3预警机 #沙赫德-135 #霍尔木兹 #F35 #马吉德 #隐形战机雷达 #哈尔克岛 #登陆占领 1. YouTube 会员平台 成为本..."
+        },
+        {
+          "id": "868038569884ef989259d7584dfc0568fc79a7cd4807488ffb3c5d5d77d1de3e",
+          "signature": "4d95ee7a3e0e395e625adbfa79926860c28d60266b6554fc859deba0e9a1252a",
+          "title": "郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=pgKI_LJnhxY",
+          "published": "2026-03-31 06:33 UTC",
+          "sort_key": 1774938824.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "f6fe9839c99ed9f1f113c7e2c676fc1e3f0128c0577cde38e430569e3a88f6bb",
+          "signature": "8ee8afc46a19e8ea6b5fe89ef0813cc0d24caae043c3169b294dc32f4d56914e",
+          "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
+          "published": "2026-03-30 06:33 UTC",
+          "sort_key": 1774852424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "133e3a8cd614088a1d13629c729de965bcce66c9ad7890fdd21538cfdbbcba8c",
+          "signature": "9beea321b4e240b8f1b88797a61a4c774c2500046ee8630852041df45f6228b9",
+          "title": "萬人送別张雪峰｜新聞特寫20260329",
+          "link": "https://www.youtube.com/watch?v=dc3R8IylOrU",
+          "published": "2026-03-29 06:33 UTC",
+          "sort_key": 1774766024.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "fa34453d2b8ea4683795d1b5fd8a45ea00f57afd52b1d26030ddf443cfe696b1",
+          "signature": "88c9a98e59ec34f1b7e06cab6044c2948f026f138d6b43e838a3614e2b398606",
+          "title": "When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?",
+          "link": "https://www.youtube.com/watch?v=ADnrskupDBI",
+          "published": "2026-03-28 06:33 UTC",
+          "sort_key": 1774679624.0,
+          "source_kind": "feed",
+          "text": "In just two years, a CIA spy network in China—built over a decade at the cost of tens of billions of dollars—was completely dismantled… reportedly triggered by something as simple as... In just two years, a CIA spy network in China—built over a decade at the cost of tens of billions of dollars—was completely dismantled… reportedly triggered by something as simple as..."
+        },
+        {
+          "id": "a07ee31b8a2b696fa47a821a65d7a49139ee0446c0b5a3ad1c1490539ab7d077",
+          "signature": "e7435bf631e9498ab8ba694bc30640d68cd90a2f83e689ddfb4239cbddff5b25",
+          "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
+          "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
+          "published": "2026-03-27 06:33 UTC",
+          "sort_key": 1774593224.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "1a56a9b3c0cadf7e6ec516df8e1e98fd8250fb8ba604ccaffff6b369e513305d",
+          "signature": "9bc8b7a8ae2880cd1f2f31335650a8c08f588313793fd15380d4bae0c4743fa3",
+          "title": "日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326",
+          "link": "https://www.youtube.com/watch?v=nD_-g491A2M",
+          "published": "2026-03-27 06:33 UTC",
+          "sort_key": 1774593224.0,
+          "source_kind": "feed",
+          "text": "日本军官携刀闯馆，樱花落尽现利刃！ #驻日大使馆 #维也纳公约 #自卫队 #深表遗憾 #新型军国主义 #深表震惊 #三岛由纪夫 #擦枪走火 1. YouTube 会员平... 日本军官携刀闯馆，樱花落尽现利刃！ #驻日大使馆 #维也纳公约 #自卫队 #深表遗憾 #新型军国主义 #深表震惊 #三岛由纪夫 #擦枪走火 1. YouTube 会员平..."
+        },
+        {
+          "id": "5dfcd6c566e627dc7f13fb0abf0c606853b1d18febec04b64f38a9be1005889b",
+          "signature": "7bb90c50d64cbcd7cc5cc755f7d0c2718f737568170822eec93827a7a604a1c6",
+          "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
+          "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
+          "published": "2026-03-26 06:33 UTC",
+          "sort_key": 1774506824.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan..."
+        },
+        {
+          "id": "fed134239732176ab937331b8a95642e4c44c4a5196e2ff24504953e27167abf",
+          "signature": "e09a5801eed8f137940997459e1bbe5aa8fd73b1c3c6171630fa06cecaed12a6",
+          "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
+          "published": "2026-03-26 06:33 UTC",
+          "sort_key": 1774506824.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "85648ca83b78272580d8b3c368cf859ca09a8ef688b974b903da6ece126ad962",
+          "signature": "94ba2bcca80b5778f6d88ad6a9176cd46bbc9356757518880cf3d1cf99cd596a",
+          "title": "张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=QzPEOHcHLkw",
+          "published": "2026-03-25 06:33 UTC",
+          "sort_key": 1774420424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "9789ae2db7ab637b0a0eb7e05492643e829a932a1352de4198cb0aa80d8f0edb",
+          "signature": "cfa32321c862ce840f80aa2d35d364a6eef68b56c3109c968f68f2b5075569ef",
+          "title": "Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?",
+          "link": "https://www.youtube.com/watch?v=pvRnqiz4rQc",
+          "published": "2026-03-25 06:33 UTC",
+          "sort_key": 1774420424.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan..."
+        },
+        {
+          "id": "3a6f61e5fe713e14cd14beb1e6346a9e629373b287ade2a63acb4ba6238e951b",
+          "signature": "d38124102027c120ec676ffa41967da170f4ad02171f0e14a427bc7f9264299e",
+          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
+          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
+          "published": "2026-03-25 06:33 UTC",
+          "sort_key": 1774420424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "6e2ce04704a9942c2329aa43566e62cd1e2acffc13921df772d4698b69aaa0e4",
+          "signature": "856c83d612607220a04b464625d133a5abc89930d59cba1e4723f36d0f0aa951",
+          "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
+          "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
+          "published": "2026-03-24 06:33 UTC",
+          "sort_key": 1774334024.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan..."
+        },
+        {
+          "id": "4f09a353599590f930eb0fd76d7ee801e0a8d9df78ac24108a5dcbd7f0bbcb4a",
+          "signature": "c7222ab45215dacaf06cbe01b1bbda93a4d66885f89c1b3f12271a805bd3e6ce",
+          "title": "特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324",
+          "link": "https://www.youtube.com/watch?v=hxmYrNgWlVg",
+          "published": "2026-03-24 06:33 UTC",
+          "sort_key": 1774334024.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "17144174ddbac34e3346a1fb3708107add677ad633f38eb698b41dd1ca300aeb",
+          "signature": "b19d647946c76c517f9004451fb24ef4460d6b42b5cee076978a8b03ecf0eb83",
+          "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
+          "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
+          "published": "2026-03-23 06:33 UTC",
+          "sort_key": 1774247624.0,
+          "source_kind": "feed",
+          "text": "这首歌流行于第一次世界大战期间。当时的士兵们在极度艰苦的战壕生活中，经常通过改编现成的曲调来抒发对战争的厌恶和对家乡的思念。 曲调来... 这首歌流行于第一次世界大战期间。当时的士兵们在极度艰苦的战壕生活中，经常通过改编现成的曲调来抒发对战争的厌恶和对家乡的思念。 曲调来..."
+        },
+        {
+          "id": "b9fca20bdf05c87a4fc5463e1dbffa2bda4a0a772028b51615df66bb4378206f",
+          "signature": "c408935963eeded5da67f0df190d20c06de7dbb9d1d61be87cf5257f0911174a",
+          "title": "300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321",
+          "link": "https://www.youtube.com/watch?v=-2uG97Up2Do",
+          "published": "2026-03-21 06:33 UTC",
+          "sort_key": 1774074824.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "13323b3b408acaac2b9e28a4a7542f818e708aef5fe99b01927aabc1a5b24388",
+          "signature": "95aa776cb801b95495adafbd046d4901d13362d666a8f14bed351cb1e7496c0d",
+          "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
+          "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
+          "published": "2026-03-21 06:33 UTC",
+          "sort_key": 1774074824.0,
+          "source_kind": "feed",
+          "text": "In 1981, China mobilized the entire nation, yet its total foreign exchange reserves were at their lowest—less than $3 billion. But in a parallel reality, a group of well-connected princelings... In 1981, China mobilized the entire nation, yet its total foreign exchange reserves were at their lowest—less than $3 billion. But in a parallel reality, a group of well-connected princelings..."
+        },
+        {
+          "id": "df5eeba457dc17aba7a897107429aabcdd86e7bc1acffc44b0a5883e51283c7c",
+          "signature": "74cde0fa40ea1d67a4dff55e993b7feb1f1c177819bc7245686bd96e88cd8d3c",
+          "title": "川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320",
+          "link": "https://www.youtube.com/watch?v=6QSl94BpBqk",
+          "published": "2026-03-20 06:33 UTC",
+          "sort_key": 1773988424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "2d73725a0365893a212f0e8566232fe53839c3bf6e8d6602a9bb283e9b734739",
+          "signature": "ea5224dd54e52502ddc61e9243904b142e98164b70def6bb04d6a8f5172fdad3",
+          "title": "预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320",
+          "link": "https://www.youtube.com/watch?v=mYdmu91sDB8",
+          "published": "2026-03-20 06:33 UTC",
+          "sort_key": 1773988424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        },
+        {
+          "id": "d4d5c67cd1191ad2b720a6f87bb445704a5a323ca7042a7295c12116a1e1751d",
+          "signature": "ccb7933814cfffaff8c290ad809bd7d3c34aab41f15b52eeae2c7e7ca1f0db10",
+          "title": "院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319",
+          "link": "https://www.youtube.com/watch?v=H9yFmxAgtDw",
+          "published": "2026-03-20 06:33 UTC",
+          "sort_key": 1773988424.0,
+          "source_kind": "feed",
+          "text": "院士纷纷落马， 军队反腐延烧到军工系统？ #杨伟 #歼-20 #总设计师 #中航成飞 #火箭军 #清洗 #倒查十年 #国防开支 1. YouTube 会员平台 成为本频道的会... 院士纷纷落马， 军队反腐延烧到军工系统？ #杨伟 #歼-20 #总设计师 #中航成飞 #火箭军 #清洗 #倒查十年 #国防开支 1. YouTube 会员平台 成为本频道的会..."
+        },
+        {
+          "id": "9b8151b71347b70ce23f3ba6cb803aed22cba146b8bb4e5b4b78de714c957d99",
+          "signature": "a28ae0e1b9ea38d6af299692c42204a2610ec8f58cabab394343fc36e9c81eb0",
+          "title": "Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears",
+          "link": "https://www.youtube.com/watch?v=ybCMiAYt1hk",
+          "published": "2026-03-20 06:33 UTC",
+          "sort_key": 1773988424.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan..."
+        },
+        {
+          "id": "90d4b2cc1b7d9c2f58ad34b40b150aa1d34d271c802633b794396b7c35dcf890",
+          "signature": "2d8bcf6e3af978cd151c2d3c1e6b6e83d5d015d4e1d2dcb701a656af10831ad6",
+          "title": "Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry",
+          "link": "https://www.youtube.com/watch?v=VK3QFLOcTBo",
+          "published": "2026-03-20 06:33 UTC",
+          "sort_key": 1773988424.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan..."
+        },
+        {
+          "id": "2e8463288574f2ad1f79a05f0b48d9a3e64faec220671620279787f767f209a3",
+          "signature": "63236ad4f74e68fce60a51ddfa6a7b5f29240c9d7dea7068ef5a7c930eabccf6",
+          "title": "特朗普：战事缠身访华推迟一个月｜新闻特写20260317",
+          "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
+          "published": "2026-03-20 06:33 UTC",
+          "sort_key": 1773988424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel..."
+        }
+      ],
+      "site_url": "https://www.youtube.com/@wangzhian",
+      "summary": {
+        "tldr": "王志安 - YouTube currently has 33 retained item(s) on the page. Key items include \"接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】\", \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", and \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\".",
+        "highlights": [
+          "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
+          "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402"
+        ]
+      }
     },
     "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics": {
       "seen_ids": [
@@ -433,8 +1426,59 @@
         "458f1ceef2142852977cf599cc5bb7cf040efc2e14670a4dd5ad542391d0d5f7",
         "3e0b1c6aef833972d7d180db731880ef7aed4e02614b4f5ad7b2889515a3a88f"
       ],
-      "last_checked_at": "2026-04-03T03:58:18+00:00",
-      "feed_title": "bioRxiv Subject Collection: Bioinformatics"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "bioRxiv Subject Collection: Bioinformatics",
+      "pending_items": [
+        {
+          "id": "migrated:0437a8031ab3ad3a1204cbf92cb46bc2bea619a4d7d2d75b39aa32e194def21d",
+          "signature": "0437a8031ab3ad3a1204cbf92cb46bc2bea619a4d7d2d75b39aa32e194def21d",
+          "title": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715662v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "sort_key": 1775088000.0,
+          "source_kind": "feed",
+          "text": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing"
+        },
+        {
+          "id": "migrated:63cb224a11f2a1f9b99082e4f5a12a524911ef3f995f62b6358db660803e2f1e",
+          "signature": "63cb224a11f2a1f9b99082e4f5a12a524911ef3f995f62b6358db660803e2f1e",
+          "title": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.712806v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "sort_key": 1775088000.0,
+          "source_kind": "feed",
+          "text": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers"
+        },
+        {
+          "id": "migrated:fa6ae1ad2ccca1120044ea609b9e9096bf960bf97f9da291b2c7f9de2fc562d2",
+          "signature": "fa6ae1ad2ccca1120044ea609b9e9096bf960bf97f9da291b2c7f9de2fc562d2",
+          "title": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716024v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "sort_key": 1775088000.0,
+          "source_kind": "feed",
+          "text": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+        },
+        {
+          "id": "migrated:610e843dfd4762476e629f229f533616c53dfcdee437eb14ebac9ec8c02c7e8c",
+          "signature": "610e843dfd4762476e629f229f533616c53dfcdee437eb14ebac9ec8c02c7e8c",
+          "title": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716079v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "sort_key": 1775088000.0,
+          "source_kind": "feed",
+          "text": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance"
+        }
+      ],
+      "site_url": "https://biorxiv.org/",
+      "summary": {
+        "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
+        "highlights": [
+          "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
+          "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
+          "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+        ]
+      }
     },
     "https://www.cell.com/cell/inpress.rss": {
       "seen_ids": [
@@ -491,8 +1535,10 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Cell"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Cell",
+      "pending_items": [],
+      "site_url": "https://www.cell.com/cell/archive?publicationCode=cell&rss=yes"
     },
     "https://www.cell.com/cell-host-microbe/inpress.rss": {
       "seen_ids": [
@@ -513,8 +1559,10 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Cell Host & Microbe"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Cell Host & Microbe",
+      "pending_items": [],
+      "site_url": "https://www.cell.com/cell-host-microbe/archive?publicationCode=chom&rss=yes"
     },
     "https://www.nature.com/nature.rss": {
       "seen_ids": [
@@ -601,8 +1649,10 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Nature"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nature/rss/current"
     },
     "https://www.nature.com/natbiomedeng.rss": {
       "seen_ids": [
@@ -615,8 +1665,10 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Nature Biomedical Engineering"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Biomedical Engineering",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/natbiomedeng/rss/current"
     },
     "https://www.nature.com/nbt.rss": {
       "seen_ids": [
@@ -629,11 +1681,15 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Nature Biotechnology"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Biotechnology",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nbt/rss/current"
     },
     "https://www.nature.com/ncomms.rss": {
       "seen_ids": [
+        "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b",
+        "e55957c4ce44ef1592014fb8b7f0fa42d32b44225511a137721c9b9531331a0a",
         "c149ead9e4c8f016eab9007bac88e21e02253733061b53199f1fd2d9072dec87",
         "e59c74b16a2b73fe3e991c13e2d90cb00d2fe37a4aae2dc52d21e1e45f42cb3a",
         "ef57e7796f395f11c72f81e73466f6d066e506630c4733303d6eb07b120deb0d",
@@ -651,8 +1707,38 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Nature Communications"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Communications",
+      "pending_items": [
+        {
+          "id": "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b",
+          "signature": "26f01913b933433f924f79df9cb961fdd18e10bc471abc55c912bdd3559c113f",
+          "title": "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
+          "link": "https://www.nature.com/articles/s41467-026-71353-8",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71353-8 Oncogene-induced replication stress is a major endogenous driver of genomic instability. Here, the authors show that replication fork stalling induced by oncogenic RAS is caused by ROS-driven alterations of replisome architecture, leading to R-loop dependent fork reversal. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71353-8 Oncogene-induced replication stress is a major endogenous driver of genomic instability. Here, the authors show that replication fork stalling induced by oncogenic RAS is caused by ROS-driven alterations of replisome architecture, leading to R-loop dependent fork reversal. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71353-8 Oncogene-induced replication stress is a major endogenous driver of genomic instability. Here, the authors show that replication fork stalling induced by oncogenic RAS is caused by ROS-driven alterations of replisome architecture, leading to R-loop dependent fork reversal."
+        },
+        {
+          "id": "e55957c4ce44ef1592014fb8b7f0fa42d32b44225511a137721c9b9531331a0a",
+          "signature": "19da504df90ca6540f07a0fb14374ab9cd3d27286e89541be5ac917e698fa97c",
+          "title": "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials",
+          "link": "https://www.nature.com/articles/s41467-026-70888-0",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70888-0 Antibody mediated prevention (AMP) trials with the broadly neutralizing antibody VRC01 showed protection against VRC01-sensitive viruses. Here, by deep sequencing plasma samples from 172 participants of the AMP trials, the authors show a high frequency of multilineage HIV infections (38%), including coinfection with both sensitive and resistant viruses, and demonstrate that VRC01 doesn’t alter the transmission bottleneck. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70888-0 Antibody mediated prevention (AMP) trials with the broadly neutralizing antibody VRC01 showed protection against VRC01-sensitive viruses. Here, by deep sequencing plasma samples from 172 participants of the AMP trials, the authors show a high frequency of multilineage HIV infections (38%), including coinfection with both sensitive and resistant viruses, and demonstrate that VRC01 doesn’t alter the transmission bottleneck. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70888-0 Antibody mediated prevention (AMP) trials with the broadly neutralizing antibody VRC01 showed protection against VRC01-sensitive viruses. Here, by deep sequencing plasma samples from 172 participants of the AMP trials, the authors show a high frequency of multilineage HIV infections (38%), including coinfection with both sensitive and resistant viruses, and demonstrate that VRC01 doesn’t alter the transmission bottleneck."
+        }
+      ],
+      "site_url": "http://feeds.nature.com/ncomms/rss/current",
+      "summary": {
+        "tldr": "Nature Communications currently has 2 retained item(s) on the page. Key items include \"Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal\" and \"Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials\".",
+        "highlights": [
+          "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
+          "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials"
+        ]
+      }
     },
     "https://www.nature.com/natcomputsci.rss": {
       "seen_ids": [
@@ -665,8 +1751,10 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Nature Computational Science"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Computational Science",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/natcomputsci/rss/current"
     },
     "https://www.nature.com/ng.rss": {
       "seen_ids": [
@@ -679,8 +1767,10 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-03T03:58:49+00:00",
-      "feed_title": "Nature Genetics"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Genetics",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/ng/rss/current"
     },
     "https://www.nature.com/naturehealth.rss": {
       "seen_ids": [
@@ -693,8 +1783,10 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Health"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Health",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/naturehealth/rss/current"
     },
     "https://www.nature.com/natmachintell.rss": {
       "seen_ids": [
@@ -707,8 +1799,10 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Machine Intelligence"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Machine Intelligence",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/natmachintell/rss/current"
     },
     "https://www.nature.com/nm.rss": {
       "seen_ids": [
@@ -722,8 +1816,10 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Medicine"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Medicine",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nm/rss/current"
     },
     "https://www.nature.com/nmeth.rss": {
       "seen_ids": [
@@ -737,8 +1833,10 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Methods"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Methods",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nmeth/rss/current"
     },
     "https://www.nature.com/nmicrobiol.rss": {
       "seen_ids": [
@@ -751,8 +1849,10 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Microbiology"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Microbiology",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nmicrobiol/rss/current"
     },
     "https://www.nature.com/natrevbioeng.rss": {
       "seen_ids": [
@@ -765,8 +1865,10 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Reviews Bioengineering"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Reviews Bioengineering",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/natrevbioeng/rss/current"
     },
     "https://www.nature.com/nrg.rss": {
       "seen_ids": [
@@ -779,8 +1881,10 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Reviews Genetics"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Reviews Genetics",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nrg/rss/current"
     },
     "https://www.nature.com/nrmicro.rss": {
       "seen_ids": [
@@ -794,22 +1898,28 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-03T03:58:50+00:00",
-      "feed_title": "Nature Reviews Microbiology"
+      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "feed_title": "Nature Reviews Microbiology",
+      "pending_items": [],
+      "site_url": "http://feeds.nature.com/nrmicro/rss/current"
     },
     "https://rsshub.rssforever.com/github/activity/gcorso": {
       "seen_ids": [
         "7525a30f27a244ed9877abd357c176218544579a0041bdc3f2f6f2332b524c39"
       ],
-      "last_checked_at": "2026-04-03T03:55:32+00:00",
-      "feed_title": "gcorso's GitHub activities"
+      "last_checked_at": "2026-04-03T06:32:35+00:00",
+      "feed_title": "gcorso's GitHub activities",
+      "pending_items": [],
+      "site_url": "https://github.com/gcorso"
     },
     "https://rsshub.rssforever.com/github/activity/Guangxuan-Xiao": {
       "seen_ids": [
         "06f125a22cd2aa90542a4927d71b6c679a0862ddba9d0a9430396d09a5ec0acb"
       ],
-      "last_checked_at": "2026-04-03T03:55:40+00:00",
-      "feed_title": "Guangxuan-Xiao's GitHub activities"
+      "last_checked_at": "2026-04-03T06:32:43+00:00",
+      "feed_title": "Guangxuan-Xiao's GitHub activities",
+      "pending_items": [],
+      "site_url": "https://github.com/Guangxuan-Xiao"
     },
     "https://rsshub.rssforever.com/github/activity/HannesStark": {
       "seen_ids": [
@@ -874,8 +1984,10 @@
         "569efd56d3c184fe0e411ceaf0bf1bafa12a0bc2581c8aa065e7e82d26adc1f2",
         "719c912a7c4ee79a962e9517f56d1d1e59d55db5d52adda5ffcddf4a77108007"
       ],
-      "last_checked_at": "2026-04-03T03:56:05+00:00",
-      "feed_title": "karpathy's GitHub activities"
+      "last_checked_at": "2026-04-03T06:33:21+00:00",
+      "feed_title": "karpathy's GitHub activities",
+      "pending_items": [],
+      "site_url": "https://github.com/karpathy"
     },
     "https://rsshub.rssforever.com/github/activity/luost26": {
       "seen_ids": [
@@ -922,8 +2034,59 @@
         "3c9a74a91c34b71e19336176f1c7a1407ea5642d9035b1f3ebf76ba1c285c184",
         "0eeab505ca9f3149f2dbd74145a2129c94207e371c11017bc503d9a26672bfb0"
       ],
-      "last_checked_at": "2026-04-03T03:56:19+00:00",
-      "feed_title": "luost26's GitHub activities"
+      "last_checked_at": "2026-04-03T06:33:31+00:00",
+      "feed_title": "luost26's GitHub activities",
+      "pending_items": [
+        {
+          "id": "migrated:32b90e466b9faa6d7bd21931f63b109e6fd7f44cb22c6e5d2d30182c45904d4a",
+          "signature": "32b90e466b9faa6d7bd21931f63b109e6fd7f44cb22c6e5d2d30182c45904d4a",
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/1c5fde5215...439f694d85",
+          "published": "2026-04-02 22:07 UTC",
+          "sort_key": 1775167620.0,
+          "source_kind": "article",
+          "text": "luost26 pushed prexsyn"
+        },
+        {
+          "id": "migrated:06502051c682e80fa36b8b90d3d5e2cc35b847c5d5c77424fea20c25ec56fa77",
+          "signature": "06502051c682e80fa36b8b90d3d5e2cc35b847c5d5c77424fea20c25ec56fa77",
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/819776bdce...1c5fde5215",
+          "published": "2026-04-02 21:53 UTC",
+          "sort_key": 1775166780.0,
+          "source_kind": "article",
+          "text": "luost26 pushed prexsyn"
+        },
+        {
+          "id": "migrated:47c9f535484c22f91ee1efd4804fb515fe145a961098b8937ba018fabf8bca55",
+          "signature": "47c9f535484c22f91ee1efd4804fb515fe145a961098b8937ba018fabf8bca55",
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/e422317a27...819776bdce",
+          "published": "2026-04-02 21:52 UTC",
+          "sort_key": 1775166720.0,
+          "source_kind": "article",
+          "text": "luost26 pushed prexsyn"
+        },
+        {
+          "id": "migrated:33bea10ea182fbbd5075a05597ff43b03ae249e17b8c847cba38207a008e7fcf",
+          "signature": "33bea10ea182fbbd5075a05597ff43b03ae249e17b8c847cba38207a008e7fcf",
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/8ba7a9b055...e422317a27",
+          "published": "2026-04-02 21:50 UTC",
+          "sort_key": 1775166600.0,
+          "source_kind": "article",
+          "text": "luost26 pushed prexsyn"
+        }
+      ],
+      "site_url": "https://github.com/luost26",
+      "summary": {
+        "tldr": "luost26's GitHub activities currently has 4 retained item(s) on the page. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
+        "highlights": [
+          "luost26 pushed prexsyn",
+          "luost26 pushed prexsyn",
+          "luost26 pushed prexsyn"
+        ]
+      }
     },
     "https://rsshub.rssforever.com/github/activity/OdinZhang": {
       "seen_ids": [
@@ -939,8 +2102,10 @@
         "6c7adfb121cde46560e1cfdd9c88fce9c656ec46a382e9c894a7cc8c80e0f210",
         "e742ddb470a792bdd2cfd7c10abdbc909bba7e12abf6747f39e8a607a9949019"
       ],
-      "last_checked_at": "2026-04-03T03:56:57+00:00",
-      "feed_title": "OdinZhang's GitHub activities"
+      "last_checked_at": "2026-04-03T06:33:35+00:00",
+      "feed_title": "OdinZhang's GitHub activities",
+      "pending_items": [],
+      "site_url": "https://github.com/OdinZhang"
     },
     "https://rsshub.rssforever.com/github/activity/wenhao-gao": {
       "seen_ids": [
@@ -961,8 +2126,10 @@
         "4d8013d4ce9ca7b0084f0d0b782c2cd266bccc8695bc19fc6b82c9b8b281f472",
         "24f82007189026c48fac1d4b6b32e6d581b029308f09f5d03f8b75004b564021"
       ],
-      "last_checked_at": "2026-04-03T03:56:58+00:00",
-      "feed_title": "wenhao-gao's GitHub activities"
+      "last_checked_at": "2026-04-03T06:33:38+00:00",
+      "feed_title": "wenhao-gao's GitHub activities",
+      "pending_items": [],
+      "site_url": "https://github.com/wenhao-gao"
     },
     "https://rsshub.rssforever.com/github/activity/WillHua127": {
       "seen_ids": [
@@ -971,10 +2138,12 @@
         "b0d543362b315c4c7969c904ca8ee28e5a6653bf0a92e2ffaaac71a49e90d3ea",
         "2ed3850e96939a689807e86962cef30aff9c05b45b4d63924ab12a066df1916d"
       ],
-      "last_checked_at": "2026-04-03T03:57:01+00:00",
-      "feed_title": "WillHua127's GitHub activities"
+      "last_checked_at": "2026-04-03T06:33:38+00:00",
+      "feed_title": "WillHua127's GitHub activities",
+      "pending_items": [],
+      "site_url": "https://github.com/WillHua127"
     }
   },
-  "updated_at": "2026-04-03T03:54:46+00:00",
+  "updated_at": "2026-04-03T06:32:15+00:00",
   "feed_count": 32
 }

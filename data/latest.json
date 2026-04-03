@@ -1,27 +1,137 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T03:54:46+00:00",
-  "generated_at_human": "2026-04-03 03:54 UTC",
-  "model": "gemini-2.0-flash-lite",
+  "generated_at": "2026-04-03T06:32:15+00:00",
+  "generated_at_human": "2026-04-03 06:32 UTC",
+  "model": "qwen/qwen3.6-plus:free",
   "summary_language": "English",
   "total_feeds": 32,
-  "feeds_with_updates": 5,
-  "total_items": 20,
+  "feeds_with_updates": 7,
+  "total_items": 97,
   "feeds": [
+    {
+      "category": "Blogs",
+      "title": "阮一峰的网络日志",
+      "site_url": "http://www.ruanyifeng.com/blog/",
+      "feed_url": "http://www.ruanyifeng.com/blog/atom.xml",
+      "item_count": 1,
+      "skipped_count": 0,
+      "tldr": "阮一峰的网络日志 currently has 1 retained item(s) on the page. Key items include \"科技爱好者周刊（第 391 期）：AI 的贫富分化\".",
+      "highlights": [
+        "科技爱好者周刊（第 391 期）：AI 的贫富分化"
+      ],
+      "items": [
+        {
+          "title": "科技爱好者周刊（第 391 期）：AI 的贫富分化",
+          "link": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-391.html",
+          "published": "2026-04-03 00:08 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
     {
       "category": "Forum",
       "title": "LINUX DO - 使用人工智能标记的话题",
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
-      "item_count": 4,
-      "skipped_count": 21,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案\", \"求助，claude code的web search工具异常，大家都怎么样的？\", and \"linux.do人工智能技术日报-26-04-03\".",
+      "item_count": 33,
+      "skipped_count": 0,
+      "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 33 retained item(s) on the page. Key items include \"codex线程丢失解决方案\", \"Mimo Token Plan 这对吗？？？\", and \"[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债\".",
       "highlights": [
-        "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案",
-        "求助，claude code的web search工具异常，大家都怎么样的？",
-        "linux.do人工智能技术日报-26-04-03"
+        "codex线程丢失解决方案",
+        "Mimo Token Plan 这对吗？？？",
+        "[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债"
       ],
       "items": [
+        {
+          "title": "codex线程丢失解决方案",
+          "link": "https://linux.do/t/topic/1889648",
+          "published": "2026-04-03 06:25 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Mimo Token Plan 这对吗？？？",
+          "link": "https://linux.do/t/topic/1889643",
+          "published": "2026-04-03 06:23 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债",
+          "link": "https://linux.do/t/topic/1889640",
+          "published": "2026-04-03 06:23 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "想找研究过LLM4Rec的佬友聊聊",
+          "link": "https://linux.do/t/topic/1889600",
+          "published": "2026-04-03 06:18 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "佬友们都是怎么在大量 vibe coding 保证代码可维护性的",
+          "link": "https://linux.do/t/topic/1889488",
+          "published": "2026-04-03 06:05 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "大佬们，claude code这种终端的，和cursor 如果都使用同一个模型，它俩到底有什么区别？",
+          "link": "https://linux.do/t/topic/1889483",
+          "published": "2026-04-03 06:05 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "哈基米和冰佬都把门焊死了咋办！只能靠Dooong和10刀的OpenRouter续命了",
+          "link": "https://linux.do/t/topic/1889466",
+          "published": "2026-04-03 06:02 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "GPT 5.4 Plus用户是否有降智!？",
+          "link": "https://linux.do/t/topic/1889366",
+          "published": "2026-04-03 05:49 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "公司决定要采购cursor了，但是压力全部给到我，让我来办，佬们要怎么弄啊！！！我好慌！",
+          "link": "https://linux.do/t/topic/1889361",
+          "published": "2026-04-03 05:48 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？",
+          "link": "https://linux.do/t/topic/1889285",
+          "published": "2026-04-03 05:37 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "各位佬们，有个问题想请教",
+          "link": "https://linux.do/t/topic/1889228",
+          "published": "2026-04-03 05:25 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "部署了gemma4:26B，在12G 显存 32 内存的机器上，跑的很流畅",
+          "link": "https://linux.do/t/topic/1889004",
+          "published": "2026-04-03 04:58 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "gemma4 31B聊天体验真的甚妙，单独发帖再夸一下|顺便测一下原文输出内容完整保留能力:大概和2.5Pro相当!",
+          "link": "https://linux.do/t/topic/1888869",
+          "published": "2026-04-03 04:30 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "怎么在codex里调用claude code这种接口的api？",
+          "link": "https://linux.do/t/topic/1888699",
+          "published": "2026-04-03 04:01 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "龙虾code plan套餐求推荐",
+          "link": "https://linux.do/t/topic/1888663",
+          "published": "2026-04-03 03:57 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案",
           "link": "https://linux.do/t/topic/1888622",
@@ -45,6 +155,90 @@
           "link": "https://linux.do/t/topic/1888577",
           "published": "2026-04-03 03:47 UTC",
           "source_kind": "feed"
+        },
+        {
+          "title": "【求助】如何通过ccs在cc中用上gpt",
+          "link": "https://linux.do/t/topic/1888002",
+          "published": "2026-04-03 02:36 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "简单测下Gemma4-31b-it",
+          "link": "https://linux.do/t/topic/1886908",
+          "published": "2026-04-02 18:20 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Clipal 更新，不仅一键接管本地API转发，还智能处理所有类似/v1端点少了或者多了的各种问题",
+          "link": "https://linux.do/t/topic/1886469",
+          "published": "2026-04-02 16:04 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "购买$200 Claude code订阅的话，一个人能做到每天畅玩吗？",
+          "link": "https://linux.do/t/topic/1885174",
+          "published": "2026-04-02 13:18 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "请问怎么样注册的GPT账号才会在Plus或Business上有“$0 试用资格”？",
+          "link": "https://linux.do/t/topic/1883810",
+          "published": "2026-04-02 10:02 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "佬们好卷，Harness教程一天干到1千星",
+          "link": "https://linux.do/t/topic/1881008",
+          "published": "2026-04-02 03:32 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "JAVA AI智能应用体开发 佬们都是怎样的一个学习路线",
+          "link": "https://linux.do/t/topic/1879748",
+          "published": "2026-04-02 00:57 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【零元购】 SuperGrok Heavy $3000/年 白嫖实测（复活！！）",
+          "link": "https://linux.do/t/topic/1872670",
+          "published": "2026-04-01 04:56 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【开源】Open-Claude-Code CLI 源码",
+          "link": "https://linux.do/t/topic/1868730",
+          "published": "2026-03-31 15:04 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【Agent笔记】我们一起来学习Agent！（第1期）",
+          "link": "https://linux.do/t/topic/1865600",
+          "published": "2026-03-31 11:13 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "国内的CodingPlan哪个比较好？",
+          "link": "https://linux.do/t/topic/1847860",
+          "published": "2026-03-29 14:35 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【NihaoAPI】sonnet4.6 稍微升级了一下 稳定性提高了",
+          "link": "https://linux.do/t/topic/1837094",
+          "published": "2026-03-27 11:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【CCG 自动化流 安装教程（纯风佬CCG）】更新教程！！！新佬友们别迷路！！！(老佬友们叙叙旧√)",
+          "link": "https://linux.do/t/topic/1780710",
+          "published": "2026-03-19 01:50 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症",
+          "link": "https://linux.do/t/topic/1643542",
+          "published": "2026-02-24 18:00 UTC",
+          "source_kind": "feed"
         }
       ]
     },
@@ -54,8 +248,8 @@
       "site_url": "https://github.com/luost26",
       "feed_url": "https://rsshub.rssforever.com/github/activity/luost26",
       "item_count": 4,
-      "skipped_count": 8,
-      "tldr": "luost26's GitHub activities has 4 new item(s) in this run. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
+      "skipped_count": 0,
+      "tldr": "luost26's GitHub activities currently has 4 retained item(s) on the page. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
       "highlights": [
         "luost26 pushed prexsyn",
         "luost26 pushed prexsyn",
@@ -93,15 +287,111 @@
       "title": "前沿快讯 - LINUX DO",
       "site_url": "https://linux.do/c/news/34",
       "feed_url": "https://linux.do/c/news/34.rss",
-      "item_count": 4,
-      "skipped_count": 3,
-      "tldr": "前沿快讯 - LINUX DO has 4 new item(s) in this run. Key items include \"Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了\", \"【自制】全球新闻0403\", and \"linux.do人工智能技术日报-26-04-03\".",
+      "item_count": 20,
+      "skipped_count": 0,
+      "tldr": "前沿快讯 - LINUX DO currently has 20 retained item(s) on the page. Key items include \"Zread推出Zread CLI\", \"axios3/31被投毒，盗号的手段居然是社会工程学攻击\", and \"Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频\".",
       "highlights": [
-        "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了",
-        "【自制】全球新闻0403",
-        "linux.do人工智能技术日报-26-04-03"
+        "Zread推出Zread CLI",
+        "axios3/31被投毒，盗号的手段居然是社会工程学攻击",
+        "Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频"
       ],
       "items": [
+        {
+          "title": "Zread推出Zread CLI",
+          "link": "https://linux.do/t/topic/1889422",
+          "published": "2026-04-03 05:56 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "axios3/31被投毒，盗号的手段居然是社会工程学攻击",
+          "link": "https://linux.do/t/topic/1889347",
+          "published": "2026-04-03 05:46 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频",
+          "link": "https://linux.do/t/topic/1889300",
+          "published": "2026-04-03 05:40 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "qwen3.6正式版上线qwen-code",
+          "link": "https://linux.do/t/topic/1889293",
+          "published": "2026-04-03 05:38 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？",
+          "link": "https://linux.do/t/topic/1889285",
+          "published": "2026-04-03 05:37 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "小米也出tokenplan，用量计费，TTS 模型限时免费使用",
+          "link": "https://linux.do/t/topic/1889249",
+          "published": "2026-04-03 05:30 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "还没毕业就给期权：Kimi月之暗面推「穿越计划」，提前一年锁定27届顶尖人才",
+          "link": "https://linux.do/t/topic/1889202",
+          "published": "2026-04-03 05:22 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "OpenRouter 上 Qwen3.6 Plus 正式版来了",
+          "link": "https://linux.do/t/topic/1889050",
+          "published": "2026-04-03 05:05 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "小米也出Token Plan 了",
+          "link": "https://linux.do/t/topic/1888939",
+          "published": "2026-04-03 04:45 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "按token计费，无五小时限制：Xiaomi MiMo Token Plan发布",
+          "link": "https://linux.do/t/topic/1888857",
+          "published": "2026-04-03 04:28 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Xiaomi MiMo Token Plan 正式上线",
+          "link": "https://linux.do/t/topic/1888842",
+          "published": "2026-04-03 04:25 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "火山方舟协作奖励计划活动延期至2026年6月30日",
+          "link": "https://linux.do/t/topic/1888827",
+          "published": "2026-04-03 04:23 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Xiaomi mimo 官方也有 Coding Plan 了",
+          "link": "https://linux.do/t/topic/1888823",
+          "published": "2026-04-03 04:21 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Xiaomi MiMo Token Plan 现已正式上线",
+          "link": "https://linux.do/t/topic/1888821",
+          "published": "2026-04-03 04:21 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "小米 Token Plan 公布，竟然是按用量计算的",
+          "link": "https://linux.do/t/topic/1888805",
+          "published": "2026-04-03 04:18 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Perplexity 遭集体起诉，隐身模式被指形同虚设",
+          "link": "https://linux.do/t/topic/1888785",
+          "published": "2026-04-03 04:15 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了",
           "link": "https://linux.do/t/topic/1888656",
@@ -133,19 +423,49 @@
       "title": "王志安 - YouTube",
       "site_url": "https://www.youtube.com/@wangzhian",
       "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
-      "item_count": 4,
-      "skipped_count": 25,
-      "tldr": "王志安 - YouTube has 4 new item(s) in this run. Key items include \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", \"Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401\", and \"特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402\".",
+      "item_count": 33,
+      "skipped_count": 0,
+      "tldr": "王志安 - YouTube currently has 33 retained item(s) on the page. Key items include \"接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】\", \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", and \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\".",
       "highlights": [
+        "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
         "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
-        "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
-        "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402"
+        "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402"
       ],
       "items": [
+        {
+          "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
+          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
+          "published": "2026-04-03 06:19 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
           "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
           "published": "2026-04-02 12:57 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 12:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-02 06:33 UTC",
           "source_kind": "feed"
         },
         {
@@ -165,6 +485,150 @@
           "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
           "published": "2026-04-02 03:57 UTC",
           "source_kind": "feed"
+        },
+        {
+          "title": "张雪机车，他是第一｜新闻特写20260331",
+          "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
+          "published": "2026-04-01 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?",
+          "link": "https://www.youtube.com/watch?v=JiGeTwJCiEk",
+          "published": "2026-03-31 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=pgKI_LJnhxY",
+          "published": "2026-03-31 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
+          "published": "2026-03-30 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "萬人送別张雪峰｜新聞特寫20260329",
+          "link": "https://www.youtube.com/watch?v=dc3R8IylOrU",
+          "published": "2026-03-29 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?",
+          "link": "https://www.youtube.com/watch?v=ADnrskupDBI",
+          "published": "2026-03-28 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
+          "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
+          "published": "2026-03-27 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326",
+          "link": "https://www.youtube.com/watch?v=nD_-g491A2M",
+          "published": "2026-03-27 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
+          "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
+          "published": "2026-03-26 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
+          "published": "2026-03-26 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=QzPEOHcHLkw",
+          "published": "2026-03-25 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?",
+          "link": "https://www.youtube.com/watch?v=pvRnqiz4rQc",
+          "published": "2026-03-25 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
+          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
+          "published": "2026-03-25 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
+          "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
+          "published": "2026-03-24 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324",
+          "link": "https://www.youtube.com/watch?v=hxmYrNgWlVg",
+          "published": "2026-03-24 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
+          "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
+          "published": "2026-03-23 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321",
+          "link": "https://www.youtube.com/watch?v=-2uG97Up2Do",
+          "published": "2026-03-21 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
+          "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
+          "published": "2026-03-21 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320",
+          "link": "https://www.youtube.com/watch?v=6QSl94BpBqk",
+          "published": "2026-03-20 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320",
+          "link": "https://www.youtube.com/watch?v=mYdmu91sDB8",
+          "published": "2026-03-20 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319",
+          "link": "https://www.youtube.com/watch?v=H9yFmxAgtDw",
+          "published": "2026-03-20 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears",
+          "link": "https://www.youtube.com/watch?v=ybCMiAYt1hk",
+          "published": "2026-03-20 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry",
+          "link": "https://www.youtube.com/watch?v=VK3QFLOcTBo",
+          "published": "2026-03-20 06:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "特朗普：战事缠身访华推迟一个月｜新闻特写20260317",
+          "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
+          "published": "2026-03-20 06:33 UTC",
+          "source_kind": "feed"
         }
       ]
     },
@@ -174,8 +638,8 @@
       "site_url": "https://biorxiv.org/",
       "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
       "item_count": 4,
-      "skipped_count": 13,
-      "tldr": "bioRxiv Subject Collection: Bioinformatics has 4 new item(s) in this run. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
+      "skipped_count": 0,
+      "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
       "highlights": [
         "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
         "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
@@ -207,36 +671,79 @@
           "source_kind": "feed"
         }
       ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Communications",
+      "site_url": "http://feeds.nature.com/ncomms/rss/current",
+      "feed_url": "https://www.nature.com/ncomms.rss",
+      "item_count": 2,
+      "skipped_count": 0,
+      "tldr": "Nature Communications currently has 2 retained item(s) on the page. Key items include \"Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal\" and \"Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials\".",
+      "highlights": [
+        "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
+        "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials"
+      ],
+      "items": [
+        {
+          "title": "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
+          "link": "https://www.nature.com/articles/s41467-026-71353-8",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials",
+          "link": "https://www.nature.com/articles/s41467-026-70888-0",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
     }
   ],
   "errors": [
     {
+      "feed": "阮一峰的网络日志",
+      "category": "Blogs",
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
       "feed": "LINUX DO - AI",
       "category": "Forum",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
+      "feed": "HannesStark's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
     },
     {
       "feed": "luost26's GitHub activities",
       "category": "Github",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     },
     {
       "feed": "LINUX DO - News",
       "category": "News",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     },
     {
       "feed": "王志安 - YouTube",
       "category": "News",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     },
     {
       "feed": "bioRxiv Subject Collection: Bioinformatics",
       "category": "Papers",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
+      "feed": "Nature Communications",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     }
   ],
   "categories": [
+    "Blogs",
     "Forum",
     "Github",
     "News",
