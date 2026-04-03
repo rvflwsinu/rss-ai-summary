@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T03:16:46+00:00",
-  "generated_at_human": "2026-04-03 03:16 UTC",
+  "generated_at": "2026-04-03T03:54:46+00:00",
+  "generated_at_human": "2026-04-03 03:54 UTC",
   "model": "gemini-2.0-flash-lite",
   "summary_language": "English",
   "total_feeds": 32,
   "feeds_with_updates": 5,
-  "total_items": 17,
+  "total_items": 20,
   "feeds": [
     {
       "category": "Forum",
@@ -14,37 +14,77 @@
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
       "item_count": 4,
-      "skipped_count": 26,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"trae的模型能不能反代出来, 公司发了无限额的claude\", \"各位佬友，你们的龙虾养的怎么样，为什么我一直在修龙虾的路上\", and \"【调研】大家使用的什么AI工具？\".",
+      "skipped_count": 21,
+      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案\", \"求助，claude code的web search工具异常，大家都怎么样的？\", and \"linux.do人工智能技术日报-26-04-03\".",
       "highlights": [
-        "trae的模型能不能反代出来, 公司发了无限额的claude",
-        "各位佬友，你们的龙虾养的怎么样，为什么我一直在修龙虾的路上",
-        "【调研】大家使用的什么AI工具？"
+        "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案",
+        "求助，claude code的web search工具异常，大家都怎么样的？",
+        "linux.do人工智能技术日报-26-04-03"
       ],
       "items": [
         {
-          "title": "trae的模型能不能反代出来, 公司发了无限额的claude",
-          "link": "https://linux.do/t/topic/1888326",
-          "published": "2026-04-03 03:13 UTC",
+          "title": "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案",
+          "link": "https://linux.do/t/topic/1888622",
+          "published": "2026-04-03 03:52 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "各位佬友，你们的龙虾养的怎么样，为什么我一直在修龙虾的路上",
-          "link": "https://linux.do/t/topic/1888324",
-          "published": "2026-04-03 03:13 UTC",
+          "title": "求助，claude code的web search工具异常，大家都怎么样的？",
+          "link": "https://linux.do/t/topic/1888614",
+          "published": "2026-04-03 03:51 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "【调研】大家使用的什么AI工具？",
-          "link": "https://linux.do/t/topic/1888303",
-          "published": "2026-04-03 03:11 UTC",
+          "title": "linux.do人工智能技术日报-26-04-03",
+          "link": "https://linux.do/t/topic/1888590",
+          "published": "2026-04-03 03:48 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "5060 笔记本成功部署 Gemma 4，30t/s，效果很好",
-          "link": "https://linux.do/t/topic/1888291",
-          "published": "2026-04-03 03:10 UTC",
+          "title": "图灵的猫《人人都能听懂的AI通识课》",
+          "link": "https://linux.do/t/topic/1888577",
+          "published": "2026-04-03 03:47 UTC",
           "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Github",
+      "title": "luost26's GitHub activities",
+      "site_url": "https://github.com/luost26",
+      "feed_url": "https://rsshub.rssforever.com/github/activity/luost26",
+      "item_count": 4,
+      "skipped_count": 8,
+      "tldr": "luost26's GitHub activities has 4 new item(s) in this run. Key items include \"luost26 pushed prexsyn\", \"luost26 pushed prexsyn\", and \"luost26 pushed prexsyn\".",
+      "highlights": [
+        "luost26 pushed prexsyn",
+        "luost26 pushed prexsyn",
+        "luost26 pushed prexsyn"
+      ],
+      "items": [
+        {
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/1c5fde5215...439f694d85",
+          "published": "2026-04-02 22:07 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/819776bdce...1c5fde5215",
+          "published": "2026-04-02 21:53 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/e422317a27...819776bdce",
+          "published": "2026-04-02 21:52 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "luost26 pushed prexsyn",
+          "link": "https://github.com/luost26/prexsyn/compare/8ba7a9b055...e422317a27",
+          "published": "2026-04-02 21:50 UTC",
+          "source_kind": "article"
         }
       ]
     },
@@ -54,137 +94,117 @@
       "site_url": "https://linux.do/c/news/34",
       "feed_url": "https://linux.do/c/news/34.rss",
       "item_count": 4,
-      "skipped_count": 21,
-      "tldr": "前沿快讯 - LINUX DO has 4 new item(s) in this run. Key items include \"openai business 空间新计划 codex only and pay as you go\", \"google one pro账号存储空间变成5T了\", and \"儿子对Gemini进行不雅动作,Google一口气封锁全家帐号、15年资料全删除\".",
-      "highlights": [
-        "openai business 空间新计划 codex only and pay as you go",
-        "google one pro账号存储空间变成5T了",
-        "儿子对Gemini进行不雅动作,Google一口气封锁全家帐号、15年资料全删除"
-      ],
-      "items": [
-        {
-          "title": "openai business 空间新计划 codex only and pay as you go",
-          "link": "https://linux.do/t/topic/1888366",
-          "published": "2026-04-03 03:19 UTC",
-          "source_kind": "feed"
-        },
-        {
-          "title": "google one pro账号存储空间变成5T了",
-          "link": "https://linux.do/t/topic/1888331",
-          "published": "2026-04-03 03:14 UTC",
-          "source_kind": "feed"
-        },
-        {
-          "title": "儿子对Gemini进行不雅动作,Google一口气封锁全家帐号、15年资料全删除",
-          "link": "https://linux.do/t/topic/1888287",
-          "published": "2026-04-03 03:10 UTC",
-          "source_kind": "feed"
-        },
-        {
-          "title": "竞技场似乎没有了claude-opus-4-6",
-          "link": "https://linux.do/t/topic/1888158",
-          "published": "2026-04-03 02:56 UTC",
-          "source_kind": "feed"
-        }
-      ]
-    },
-    {
-      "category": "Papers",
-      "title": "Nature",
-      "site_url": "http://feeds.nature.com/nature/rss/current",
-      "feed_url": "https://www.nature.com/nature.rss",
-      "item_count": 4,
       "skipped_count": 3,
-      "tldr": "Nature has 4 new item(s) in this run. Key items include \"Artemis II is go: humans head to the Moon after half-century absence\", \"‘Treasure trove’ of antiviral proteins could inspire powerful molecular tools\", and \"‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity\".",
+      "tldr": "前沿快讯 - LINUX DO has 4 new item(s) in this run. Key items include \"Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了\", \"【自制】全球新闻0403\", and \"linux.do人工智能技术日报-26-04-03\".",
       "highlights": [
-        "Artemis II is go: humans head to the Moon after half-century absence",
-        "‘Treasure trove’ of antiviral proteins could inspire powerful molecular tools",
-        "‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity"
+        "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了",
+        "【自制】全球新闻0403",
+        "linux.do人工智能技术日报-26-04-03"
       ],
       "items": [
         {
-          "title": "Artemis II is go: humans head to the Moon after half-century absence",
-          "link": "https://www.nature.com/articles/d41586-026-01060-3",
-          "published": "2026-04-02 00:00 UTC",
+          "title": "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了",
+          "link": "https://linux.do/t/topic/1888656",
+          "published": "2026-04-03 03:56 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "‘Treasure trove’ of antiviral proteins could inspire powerful molecular tools",
-          "link": "https://www.nature.com/articles/d41586-026-01011-y",
-          "published": "2026-04-02 00:00 UTC",
+          "title": "【自制】全球新闻0403",
+          "link": "https://linux.do/t/topic/1888607",
+          "published": "2026-04-03 03:51 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
-          "link": "https://www.nature.com/articles/d41586-026-01054-1",
-          "published": "2026-04-02 00:00 UTC",
-          "source_kind": "article"
+          "title": "linux.do人工智能技术日报-26-04-03",
+          "link": "https://linux.do/t/topic/1888590",
+          "published": "2026-04-03 03:48 UTC",
+          "source_kind": "feed"
         },
         {
-          "title": "China is planning to land people on the Moon — and might beat the United States to it",
-          "link": "https://www.nature.com/articles/d41586-026-01059-w",
-          "published": "2026-04-02 00:00 UTC",
-          "source_kind": "article"
+          "title": "Codex 最高500美元的活动",
+          "link": "https://linux.do/t/topic/1888541",
+          "published": "2026-04-03 03:40 UTC",
+          "source_kind": "feed"
         }
       ]
     },
     {
-      "category": "Papers",
-      "title": "Nature Communications",
-      "site_url": "http://feeds.nature.com/ncomms/rss/current",
-      "feed_url": "https://www.nature.com/ncomms.rss",
+      "category": "News",
+      "title": "王志安 - YouTube",
+      "site_url": "https://www.youtube.com/@wangzhian",
+      "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
       "item_count": 4,
-      "skipped_count": 2,
-      "tldr": "Nature Communications has 4 new item(s) in this run. Key items include \"Enhanced reward coding and condition-independent dynamics in optogenetically identified corticostriatal neurons in monkeys\", \"3D mapping of compositional gradients of core-shell structures in AgIn x Ga 1- x S 2 quantum dots by atom probe tomography\", and \"Antiferroelectric polarization enabling physical activation in CuBiP 2 Se 6 for medical image processing\".",
+      "skipped_count": 25,
+      "tldr": "王志安 - YouTube has 4 new item(s) in this run. Key items include \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", \"Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401\", and \"特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402\".",
       "highlights": [
-        "Enhanced reward coding and condition-independent dynamics in optogenetically identified corticostriatal neurons in monkeys",
-        "3D mapping of compositional gradients of core-shell structures in AgIn x Ga 1- x S 2 quantum dots by atom probe tomography",
-        "Antiferroelectric polarization enabling physical activation in CuBiP 2 Se 6 for medical image processing"
+        "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+        "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+        "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402"
       ],
       "items": [
         {
-          "title": "Enhanced reward coding and condition-independent dynamics in optogenetically identified corticostriatal neurons in monkeys",
-          "link": "https://www.nature.com/articles/s41467-026-71046-2",
-          "published": "2026-04-03 00:00 UTC",
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 12:57 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "3D mapping of compositional gradients of core-shell structures in AgIn x Ga 1- x S 2 quantum dots by atom probe tomography",
-          "link": "https://www.nature.com/articles/s41467-026-71518-5",
-          "published": "2026-04-03 00:00 UTC",
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-02 03:57 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "Antiferroelectric polarization enabling physical activation in CuBiP 2 Se 6 for medical image processing",
-          "link": "https://www.nature.com/articles/s41467-026-70594-x",
-          "published": "2026-04-03 00:00 UTC",
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 03:57 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "Circulating extracellular vesicle microRNAs mediate immune modulation of social behavior in male mice",
-          "link": "https://www.nature.com/articles/s41467-026-70469-1",
-          "published": "2026-04-03 00:00 UTC",
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 03:57 UTC",
           "source_kind": "feed"
         }
       ]
     },
     {
       "category": "Papers",
-      "title": "Nature Medicine",
-      "site_url": "http://feeds.nature.com/nm/rss/current",
-      "feed_url": "https://www.nature.com/nm.rss",
-      "item_count": 1,
-      "skipped_count": 0,
-      "tldr": "Nature Medicine has 1 new item(s) in this run. Key items include \"Author Correction: Real-world clinical utility of tumor whole-genome sequencing in solid cancers\".",
+      "title": "bioRxiv Subject Collection: Bioinformatics",
+      "site_url": "https://biorxiv.org/",
+      "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
+      "item_count": 4,
+      "skipped_count": 13,
+      "tldr": "bioRxiv Subject Collection: Bioinformatics has 4 new item(s) in this run. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
       "highlights": [
-        "Author Correction: Real-world clinical utility of tumor whole-genome sequencing in solid cancers"
+        "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
+        "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
+        "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
       ],
       "items": [
         {
-          "title": "Author Correction: Real-world clinical utility of tumor whole-genome sequencing in solid cancers",
-          "link": "https://www.nature.com/articles/s41591-026-04379-6",
+          "title": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715662v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
-          "source_kind": "article"
+          "source_kind": "feed"
+        },
+        {
+          "title": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.712806v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716024v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716079v1?rss=1",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
         }
       ]
     }
@@ -196,44 +216,9 @@
       "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     },
     {
-      "feed": "gcorso's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "Guangxuan-Xiao's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "HannesStark's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "karpathy's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
       "feed": "luost26's GitHub activities",
       "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "OdinZhang's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "wenhao-gao's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "WillHua127's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     },
     {
       "feed": "LINUX DO - News",
@@ -243,31 +228,17 @@
     {
       "feed": "王志安 - YouTube",
       "category": "News",
-      "message": "Feed fetch failed: The read operation timed out"
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     },
     {
       "feed": "bioRxiv Subject Collection: Bioinformatics",
-      "category": "Papers",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "Nature",
-      "category": "Papers",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
-    },
-    {
-      "feed": "Nature Communications",
-      "category": "Papers",
-      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
-    },
-    {
-      "feed": "Nature Medicine",
       "category": "Papers",
       "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     }
   ],
   "categories": [
     "Forum",
+    "Github",
     "News",
     "Papers"
   ]
