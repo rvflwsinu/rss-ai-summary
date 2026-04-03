@@ -5,29 +5,6 @@
 		<title>Subscriptions-iCloud.opml</title>
 	</head>
 <body>
-	<outline text="Blogs" title="Blogs">
-		<outline text="furidamu" title="furidamu" description="" type="rss" version="RSS" htmlUrl="https://www.julian.ac/" xmlUrl="https://www.furidamu.org/feeds/all.rss.xml"/>
-		<outline text="karpathy" title="karpathy" description="" type="rss" version="RSS" htmlUrl="https://karpathy.bearblog.dev/" xmlUrl="https://karpathy.bearblog.dev/feed/"/>
-		<outline text="Lil'Log" title="Lil'Log" description="" type="rss" version="RSS" htmlUrl="https://lilianweng.github.io/" xmlUrl="https://lilianweng.github.io/index.xml"/>
-		<outline text="阮一峰的网络日志" title="阮一峰的网络日志" description="" type="rss" version="RSS" htmlUrl="http://www.ruanyifeng.com/blog/" xmlUrl="http://www.ruanyifeng.com/blog/atom.xml"/>
-	</outline>
-	<outline text="Forum" title="Forum">
-		<outline text="LINUX DO - AI" title="LINUX DO - AI" description="" type="rss" version="RSS" htmlUrl="https://linux.do/tag/444-tag/444" xmlUrl="https://linux.do/tag/444-tag/444.rss"/>
-	</outline>
-	<outline text="Github" title="Github">
-		<outline text="gcorso's GitHub activities" title="gcorso's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/gcorso" xmlUrl="https://rsshub.rssforever.com/github/activity/gcorso"/>
-		<outline text="Guangxuan-Xiao's GitHub activities" title="Guangxuan-Xiao's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/Guangxuan-Xiao" xmlUrl="https://rsshub.rssforever.com/github/activity/Guangxuan-Xiao"/>
-		<outline text="HannesStark's GitHub activities" title="HannesStark's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/HannesStark" xmlUrl="https://rsshub.rssforever.com/github/activity/HannesStark"/>
-		<outline text="karpathy's GitHub activities" title="karpathy's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/karpathy" xmlUrl="https://rsshub.rssforever.com/github/activity/karpathy"/>
-		<outline text="luost26's GitHub activities" title="luost26's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/luost26" xmlUrl="https://rsshub.rssforever.com/github/activity/luost26"/>
-		<outline text="OdinZhang's GitHub activities" title="OdinZhang's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/OdinZhang" xmlUrl="https://rsshub.rssforever.com/github/activity/OdinZhang"/>
-		<outline text="wenhao-gao's GitHub activities" title="wenhao-gao's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/wenhao-gao" xmlUrl="https://rsshub.rssforever.com/github/activity/wenhao-gao"/>
-		<outline text="WillHua127's GitHub activities" title="WillHua127's GitHub activities" description="" type="rss" version="RSS" htmlUrl="https://github.com/WillHua127" xmlUrl="https://rsshub.rssforever.com/github/activity/WillHua127"/>
-	</outline>
-	<outline text="News" title="News">
-		<outline text="LINUX DO - News" title="LINUX DO - News" description="" type="rss" version="RSS" htmlUrl="https://linux.do/c/news/34" xmlUrl="https://linux.do/c/news/34.rss"/>
-		<outline text="王志安 - YouTube" title="王志安 - YouTube" description="" type="rss" version="RSS" htmlUrl="https://www.youtube.com/@wangzhian" xmlUrl="https://rsshub.rssforever.com/youtube/user/@wangzhian"/>
-	</outline>
 	<outline text="Papers" title="Papers">
 		<outline text="bioRxiv Subject Collection: Bioinformatics" title="bioRxiv Subject Collection: Bioinformatics" description="" type="rss" version="RSS" htmlUrl="https://biorxiv.org/" xmlUrl="https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics"/>
 		<outline text="Cell" title="Cell" description="" type="rss" version="RSS" htmlUrl="https://www.cell.com/cell/archive?publicationCode=cell&amp;rss=yes" xmlUrl="https://www.cell.com/cell/inpress.rss"/>

@@ -31,7 +31,7 @@ This repository turns a NetNewsWire OPML export into a daily GitHub Pages digest
 ## Optional repository variables
 
 - `LLM_PROVIDER`: defaults to `openrouter`
-- `OPENROUTER_MODEL`: defaults to `qwen/qwen3.6-plus:free`
+- `OPENROUTER_MODEL`: defaults to `stepfun/step-3.5-flash:free`
 - `GEMINI_MODEL`: defaults to `gemini-2.0-flash-lite`
 - `SITE_TITLE`: defaults to `Daily Feed TLDR`
 - `SUMMARY_LANGUAGE`: defaults to `English`

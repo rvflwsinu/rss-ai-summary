@@ -197,7 +197,7 @@ class TestPersistentBacklog(unittest.TestCase):
 
 
 class TestOpenRouterIntegration(unittest.TestCase):
-    def test_load_runtime_config_defaults_to_qwen_openrouter_model(self) -> None:
+    def test_load_runtime_config_defaults_to_stepfun_openrouter_model(self) -> None:
         args = argparse.Namespace(
             opml_path="subscriptions.opml",
             state_path="data/state.json",
@@ -210,7 +210,7 @@ class TestOpenRouterIntegration(unittest.TestCase):
             config = rss_digest.load_runtime_config(args)
 
         self.assertEqual(config["llm_provider"], "openrouter")
-        self.assertEqual(config["openrouter_model"], "qwen/qwen3.6-plus:free")
+        self.assertEqual(config["openrouter_model"], "stepfun/step-3.5-flash:free")
 
     def test_call_llm_json_uses_openrouter_provider(self) -> None:
         config = {
