@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-02T13:26:00+00:00",
-  "generated_at_human": "2026-04-02 13:26 UTC",
+  "generated_at": "2026-04-03T03:16:46+00:00",
+  "generated_at_human": "2026-04-03 03:16 UTC",
   "model": "gemini-2.0-flash-lite",
   "summary_language": "English",
   "total_feeds": 32,
-  "feeds_with_updates": 2,
-  "total_items": 6,
+  "feeds_with_updates": 5,
+  "total_items": 17,
   "feeds": [
     {
       "category": "Forum",
@@ -14,37 +14,117 @@
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
       "item_count": 4,
-      "skipped_count": 10,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"【福利】今天有点时间，来给大家强开 Team\", \"关于codex报错的疑问\", and \"codex重置额度的规则是什么\".",
+      "skipped_count": 26,
+      "tldr": "LINUX DO - 使用人工智能标记的话题 has 4 new item(s) in this run. Key items include \"trae的模型能不能反代出来, 公司发了无限额的claude\", \"各位佬友，你们的龙虾养的怎么样，为什么我一直在修龙虾的路上\", and \"【调研】大家使用的什么AI工具？\".",
       "highlights": [
-        "【福利】今天有点时间，来给大家强开 Team",
-        "关于codex报错的疑问",
-        "codex重置额度的规则是什么"
+        "trae的模型能不能反代出来, 公司发了无限额的claude",
+        "各位佬友，你们的龙虾养的怎么样，为什么我一直在修龙虾的路上",
+        "【调研】大家使用的什么AI工具？"
       ],
       "items": [
         {
-          "title": "【福利】今天有点时间，来给大家强开 Team",
-          "link": "https://linux.do/t/topic/1885213",
-          "published": "2026-04-02 13:22 UTC",
+          "title": "trae的模型能不能反代出来, 公司发了无限额的claude",
+          "link": "https://linux.do/t/topic/1888326",
+          "published": "2026-04-03 03:13 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "关于codex报错的疑问",
-          "link": "https://linux.do/t/topic/1885207",
-          "published": "2026-04-02 13:21 UTC",
+          "title": "各位佬友，你们的龙虾养的怎么样，为什么我一直在修龙虾的路上",
+          "link": "https://linux.do/t/topic/1888324",
+          "published": "2026-04-03 03:13 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "codex重置额度的规则是什么",
-          "link": "https://linux.do/t/topic/1885204",
-          "published": "2026-04-02 13:21 UTC",
+          "title": "【调研】大家使用的什么AI工具？",
+          "link": "https://linux.do/t/topic/1888303",
+          "published": "2026-04-03 03:11 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "18刀opus4.6",
-          "link": "https://linux.do/t/topic/1885176",
-          "published": "2026-04-02 13:18 UTC",
+          "title": "5060 笔记本成功部署 Gemma 4，30t/s，效果很好",
+          "link": "https://linux.do/t/topic/1888291",
+          "published": "2026-04-03 03:10 UTC",
           "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "News",
+      "title": "前沿快讯 - LINUX DO",
+      "site_url": "https://linux.do/c/news/34",
+      "feed_url": "https://linux.do/c/news/34.rss",
+      "item_count": 4,
+      "skipped_count": 21,
+      "tldr": "前沿快讯 - LINUX DO has 4 new item(s) in this run. Key items include \"openai business 空间新计划 codex only and pay as you go\", \"google one pro账号存储空间变成5T了\", and \"儿子对Gemini进行不雅动作,Google一口气封锁全家帐号、15年资料全删除\".",
+      "highlights": [
+        "openai business 空间新计划 codex only and pay as you go",
+        "google one pro账号存储空间变成5T了",
+        "儿子对Gemini进行不雅动作,Google一口气封锁全家帐号、15年资料全删除"
+      ],
+      "items": [
+        {
+          "title": "openai business 空间新计划 codex only and pay as you go",
+          "link": "https://linux.do/t/topic/1888366",
+          "published": "2026-04-03 03:19 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "google one pro账号存储空间变成5T了",
+          "link": "https://linux.do/t/topic/1888331",
+          "published": "2026-04-03 03:14 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "儿子对Gemini进行不雅动作,Google一口气封锁全家帐号、15年资料全删除",
+          "link": "https://linux.do/t/topic/1888287",
+          "published": "2026-04-03 03:10 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "竞技场似乎没有了claude-opus-4-6",
+          "link": "https://linux.do/t/topic/1888158",
+          "published": "2026-04-03 02:56 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature",
+      "site_url": "http://feeds.nature.com/nature/rss/current",
+      "feed_url": "https://www.nature.com/nature.rss",
+      "item_count": 4,
+      "skipped_count": 3,
+      "tldr": "Nature has 4 new item(s) in this run. Key items include \"Artemis II is go: humans head to the Moon after half-century absence\", \"‘Treasure trove’ of antiviral proteins could inspire powerful molecular tools\", and \"‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity\".",
+      "highlights": [
+        "Artemis II is go: humans head to the Moon after half-century absence",
+        "‘Treasure trove’ of antiviral proteins could inspire powerful molecular tools",
+        "‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity"
+      ],
+      "items": [
+        {
+          "title": "Artemis II is go: humans head to the Moon after half-century absence",
+          "link": "https://www.nature.com/articles/d41586-026-01060-3",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "‘Treasure trove’ of antiviral proteins could inspire powerful molecular tools",
+          "link": "https://www.nature.com/articles/d41586-026-01011-y",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "link": "https://www.nature.com/articles/d41586-026-01054-1",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "China is planning to land people on the Moon — and might beat the United States to it",
+          "link": "https://www.nature.com/articles/d41586-026-01059-w",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "article"
         }
       ]
     },
@@ -53,25 +133,58 @@
       "title": "Nature Communications",
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "feed_url": "https://www.nature.com/ncomms.rss",
-      "item_count": 2,
-      "skipped_count": 0,
-      "tldr": "Nature Communications has 2 new item(s) in this run. Key items include \"Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice\" and \"Bacterial collagenase harnesses collagen geometry for processive cleavage\".",
+      "item_count": 4,
+      "skipped_count": 2,
+      "tldr": "Nature Communications has 4 new item(s) in this run. Key items include \"Enhanced reward coding and condition-independent dynamics in optogenetically identified corticostriatal neurons in monkeys\", \"3D mapping of compositional gradients of core-shell structures in AgIn x Ga 1- x S 2 quantum dots by atom probe tomography\", and \"Antiferroelectric polarization enabling physical activation in CuBiP 2 Se 6 for medical image processing\".",
       "highlights": [
-        "Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice",
-        "Bacterial collagenase harnesses collagen geometry for processive cleavage"
+        "Enhanced reward coding and condition-independent dynamics in optogenetically identified corticostriatal neurons in monkeys",
+        "3D mapping of compositional gradients of core-shell structures in AgIn x Ga 1- x S 2 quantum dots by atom probe tomography",
+        "Antiferroelectric polarization enabling physical activation in CuBiP 2 Se 6 for medical image processing"
       ],
       "items": [
         {
-          "title": "Macrophage Gsα promotes NLRP3 stability and its intervention attenuates abdominal aortic aneurysm in male mice",
-          "link": "https://www.nature.com/articles/s41467-026-71198-1",
-          "published": "2026-04-02 00:00 UTC",
+          "title": "Enhanced reward coding and condition-independent dynamics in optogenetically identified corticostriatal neurons in monkeys",
+          "link": "https://www.nature.com/articles/s41467-026-71046-2",
+          "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed"
         },
         {
-          "title": "Bacterial collagenase harnesses collagen geometry for processive cleavage",
-          "link": "https://www.nature.com/articles/s41467-026-71099-3",
-          "published": "2026-04-02 00:00 UTC",
+          "title": "3D mapping of compositional gradients of core-shell structures in AgIn x Ga 1- x S 2 quantum dots by atom probe tomography",
+          "link": "https://www.nature.com/articles/s41467-026-71518-5",
+          "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed"
+        },
+        {
+          "title": "Antiferroelectric polarization enabling physical activation in CuBiP 2 Se 6 for medical image processing",
+          "link": "https://www.nature.com/articles/s41467-026-70594-x",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Circulating extracellular vesicle microRNAs mediate immune modulation of social behavior in male mice",
+          "link": "https://www.nature.com/articles/s41467-026-70469-1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Medicine",
+      "site_url": "http://feeds.nature.com/nm/rss/current",
+      "feed_url": "https://www.nature.com/nm.rss",
+      "item_count": 1,
+      "skipped_count": 0,
+      "tldr": "Nature Medicine has 1 new item(s) in this run. Key items include \"Author Correction: Real-world clinical utility of tumor whole-genome sequencing in solid cancers\".",
+      "highlights": [
+        "Author Correction: Real-world clinical utility of tumor whole-genome sequencing in solid cancers"
+      ],
+      "items": [
+        {
+          "title": "Author Correction: Real-world clinical utility of tumor whole-genome sequencing in solid cancers",
+          "link": "https://www.nature.com/articles/s41591-026-04379-6",
+          "published": "2026-04-02 00:00 UTC",
+          "source_kind": "article"
         }
       ]
     }
@@ -83,13 +196,79 @@
       "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     },
     {
+      "feed": "gcorso's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "Guangxuan-Xiao's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "HannesStark's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "karpathy's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "luost26's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "OdinZhang's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "wenhao-gao's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "WillHua127's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "LINUX DO - News",
+      "category": "News",
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+    },
+    {
+      "feed": "王志安 - YouTube",
+      "category": "News",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "bioRxiv Subject Collection: Bioinformatics",
+      "category": "Papers",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "Nature",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+    },
+    {
       "feed": "Nature Communications",
+      "category": "Papers",
+      "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
+    },
+    {
+      "feed": "Nature Medicine",
       "category": "Papers",
       "message": "Gemini summary failed, used fallback: HTTP 429 Too Many Requests"
     }
   ],
   "categories": [
     "Forum",
+    "News",
     "Papers"
   ]
 }

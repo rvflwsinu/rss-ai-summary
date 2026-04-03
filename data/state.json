@@ -24,7 +24,7 @@
         "18698373498696f9f75479b2b0b970bf22aa70b95ecc5204f6773c8e4bc939c1",
         "ece7d794c1725162dc1a9bce1cfff55cd1017dbc38f8bafdcf9320c13670a19e"
       ],
-      "last_checked_at": "2026-04-02T13:26:00+00:00",
+      "last_checked_at": "2026-04-03T03:16:47+00:00",
       "feed_title": "furidamu"
     },
     "https://karpathy.bearblog.dev/feed/": {
@@ -40,7 +40,7 @@
         "b5eefa012d6628992bc24d1507b8fe5db614b0fe41435a3dae0c4c46781dadf1",
         "318094fc16d213d2bdce4cfcabe341111c594a9fecbe585a62ed2b3f1cd2a5ad"
       ],
-      "last_checked_at": "2026-04-02T13:26:00+00:00",
+      "last_checked_at": "2026-04-03T03:16:47+00:00",
       "feed_title": "karpathy"
     },
     "https://lilianweng.github.io/index.xml": {
@@ -97,7 +97,7 @@
         "68921d2222b0e3f1cfe4eb07f2f63a0a14e70ae71cada5efe31986e494969f6e",
         "4236f3e954dabf5bd7af893cc6812a8c13ae05e15cef0a22cef342d47b1c3daa"
       ],
-      "last_checked_at": "2026-04-02T13:26:00+00:00",
+      "last_checked_at": "2026-04-03T03:16:47+00:00",
       "feed_title": "Lil'Log"
     },
     "http://www.ruanyifeng.com/blog/atom.xml": {
@@ -106,11 +106,41 @@
         "63517c1387b3905aea468f6d623fc17d8a951aa6d16470bd4bb93fd99f356779",
         "2a49b479935bde52e4b120b2efcd5853a96687100e3f3d5c6633710078193873"
       ],
-      "last_checked_at": "2026-04-02T13:26:00+00:00",
+      "last_checked_at": "2026-04-03T03:16:47+00:00",
       "feed_title": "阮一峰的网络日志"
     },
     "https://linux.do/tag/444-tag/444.rss": {
       "seen_ids": [
+        "7ee00244c1a0fffd9642697c8d479fe8d190fb7239afd09c14e465e1243983e6",
+        "aef4b99a6af84bc0839d2479c0645600713f35b2da037b4eb4d8ff427f4f0372",
+        "3b50b1180a38bd0f215fab2dc7e6de173535302b2e532d3d369c9212060a49f0",
+        "3b296d9909b15f431e2e700b9af227312575417fd9a5e3fc6698678541814515",
+        "cbed3003a09f918ad1fadabbf34f9bf42761e2968c2130d24d0cdd397fef5521",
+        "745787945535ca9a8230e5c21817435b240d4e899e26da24cc18c85564507245",
+        "c4341d1468e30c9534ccd4fed3ee427f89e8688c38cd371992d89549fe1b3451",
+        "da6277aec937faa1a1519bdee5e3f823337d55448df39f979cc91fa934e9485f",
+        "c38d0c9cc620e661ae89b5e5453dc7aaee92b5ea5c2fdcca2d3f06431dc12cc2",
+        "0b23fb3049f05325ee964c3ca42f789196f35a61426cbe7f794aa9611bc76103",
+        "a592e6026182e6375001d6c9003c4a81ac031730b0982c3f8888e089e78b2ff6",
+        "82c666bc5dcad4101163c7bb815287a11724d16c6abdae85abff7cd739829599",
+        "ff3a5c53a6242dcac96d580e28f6a3b6527e1e12f178f3a812d7157b5dde29a8",
+        "f36e1163da7b6d093ea8032099633bf6d95d6ad03b8a36ef99393495f178c998",
+        "28c339c68cc4c410fe00e85e9a47c57ec07239813d66a988f44c68a5c72de76a",
+        "2b7a32f8dc6f81be6fa9b95062a1f61495a78dc8104aa9c5ec7a74cc53efebb7",
+        "694fc4ffccc05cf980e1510fe541625aa34b59c391d989611ab7ff9ef4d625cd",
+        "2abddf77c8d0d2a7bbd2d3254d4eb2a2a5b517cbb722787724a61cc58c5b20e6",
+        "17722821d5f0f346d69c50d49f2d9634da239105a7cf05f539d27080853c73a0",
+        "7244a4b93abccab380fa58d3f68a88d90314bffaf98e85b6477f6e94a0f3d105",
+        "3aadc4ea97409b2f6a58b1091bf39486d92ffa568b9e40ad3c76b6f6b47689b9",
+        "20433143fc326b17103b59ab85cd635a59a1d8fe12fb3983d4d5329a8e54f079",
+        "c5e2b9cd92a50b635c80f1bf8c48c636cce34aeb66c37ae267f2e0e65110470a",
+        "6124bea3057ebc048c9245809ec13e3d7acf96c8f6680ca598227dfaeecebd3c",
+        "4d972426c54e88c1be2b7a342542719632ae3e1835c47af6971b08e0f418e598",
+        "8d8746665648a8c19af71ec3459e21c3e1d6ca775506d56d9d44d0899c058ad3",
+        "9b87ed628786c2751e60f310837aea4a7a85889c8c7b866b44faae600ffb059d",
+        "59e9cf7a88ba1624acfc2354da530e229fe0f54899ef974dec92cc7882377c7c",
+        "fecb9483ac135772500a4c6dd69e016dfa733cd2a18c67a1f3bd6e11d1f177a4",
+        "0203e29fb797cb33ce180b5ab2377670ff9476d219b70a5f882efb3cc3e2dabe",
         "10e097022dc7d1fe478822dc01a9e5b9777a58f140f4a8ab07c07643e8d6fa77",
         "2b9c7a7667a015f3a11ae4d18285fc8724431344ecaeb96e755e30c4ac3cdc7e",
         "4b67bc21a20b7d402e3a3d68a25f4393d9608e136581e8cd6251bbcde402591f",
@@ -176,11 +206,36 @@
         "cbcf014734d3520b8dfb7281a7d49609874738fd3ea4eee9ab149184d2946971",
         "f254e4522361be6ebe95ac1c1802a3f176557d587f8e9c6eb73fea6f8e2954f5"
       ],
-      "last_checked_at": "2026-04-02T13:26:01+00:00",
+      "last_checked_at": "2026-04-03T03:16:47+00:00",
       "feed_title": "LINUX DO - 使用人工智能标记的话题"
     },
     "https://linux.do/c/news/34.rss": {
       "seen_ids": [
+        "8a287d21a7a9e3c736befbf9b6d6f69dc92404882c02fd75c4d5051366b736e4",
+        "a764a5d7c563b46ffd38c27d308045d7a39804c6954f54238d3fed8fe11deecc",
+        "d8a943ed495dc6dc252514792c51b320414dcdedd9765ff7e022d4cb2f36d747",
+        "dc62d46d6eac25afc56978319e97f103f9e989aa4a8778d803a7224fb282c348",
+        "29f95cb22d4e16042cf6f14115745267b2fccd6714628982b3c735b70a8aaa47",
+        "3609d2f4f5805870f85b4accef2d083bb505395cbab25f1bd772a7bc98dc6089",
+        "03b00071c8d40db7fc2ddf975324b068bb837cdcf6182a40dc97f85ed80d70cd",
+        "8359e9304f3f1339a6fc78bc709654fd2008ab775ec3c9386b023b587218b66b",
+        "d1a332c4be2db6916e7aca70bc2edb8c45e7feab5a8addb676bb5607b6ae5e02",
+        "4e4c1965ec9a2507df354ab435470051c7422ac8e8ccc36c336d7f3b5b49f74f",
+        "4ad9bb428f36f541970aa55eb36c84722280060818d16e19981dcb4e54126b04",
+        "6d005d7ae4977518b4a7a7663e513475566c3cd37ae203204a92aae6ed3eaa22",
+        "d5ae46fbd0ca2a2b29c019edbd87cdb5b60b2a057ead5b763a5b4c8fd14ca774",
+        "f8bf0c2f118e66eb57039643c284fdfa77c46a6a34b122199e97d0359a7f84fd",
+        "26bfeb83fecddf1599363f5ee139a888c9c0df65fde73349e7e4ffb7e7f52e94",
+        "e71c9d9931f1127966fddb676ecb01a30c63c02488d0a34b51a60fb0e9f5bc8b",
+        "fe2912564cc54a64d71ddc901798458b8f593e04563a23790e73eb16427b1c88",
+        "bf3b74f73d235ac4f5410c7624c6ad7f0068a5a2fe2c8fa09f08a2c5bfaa561c",
+        "628448271a4f0e59242120950fc04ea1f613efc73f8867fc8ecfe0070c026a6d",
+        "3005f8c14d901681758edea2bce8d925795beecc7e692c18359dcb90ee27abbf",
+        "001e5c59cf20a295db38dc1eb7c559434c2b8c6c04e5f7393ea9bf56fdfd9b3c",
+        "4dfc82ea3658b5fe5358c5563d87262e5ded1353605a9e39a3cac5273e69ed97",
+        "d444782121cad5793b9e7197dc879f618518afa032635ee5744e6df51cd61e29",
+        "8cb08bdcb058c3fde63bb647c633e67ed23ae18e13bf3cd273fe496b0fdc0f59",
+        "2535f6255e2538558ac9085ec0020e30c7ae042dc8b5350966f1b769fdc1c615",
         "e16cddc68f13ccd4406db85530b7e1bbc932fd61b0832c212169ba469b19d4ec",
         "5bcd6c4169cdc564077a1ac7bf54e92fb7eb17316cc0881f73f224ce7eda87cf",
         "e55cea0c4a9658e1e270b11eb8731ef61c047c9dd1e7cb76302f3c148b2b7b89",
@@ -208,7 +263,7 @@
         "d261675446b7899e88550522a5327ffc3204652f2d0f15c919327d39dc4e68f9",
         "edd2c7441eb7cc4882b2777572f78bd3c66b525b9017e9942186a0e30d89a76e"
       ],
-      "last_checked_at": "2026-04-02T13:26:44+00:00",
+      "last_checked_at": "2026-04-03T03:20:00+00:00",
       "feed_title": "前沿快讯 - LINUX DO"
     },
     "https://rsshub.rssforever.com/youtube/user/@wangzhian": {
@@ -358,7 +413,7 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-02T13:26:45+00:00",
+      "last_checked_at": "2026-04-03T03:21:11+00:00",
       "feed_title": "Cell"
     },
     "https://www.cell.com/cell-host-microbe/inpress.rss": {
@@ -380,11 +435,18 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-02T13:26:45+00:00",
+      "last_checked_at": "2026-04-03T03:21:11+00:00",
       "feed_title": "Cell Host & Microbe"
     },
     "https://www.nature.com/nature.rss": {
       "seen_ids": [
+        "97625df6e55231879745ebd8aefee42e32cf4cabf808fa0e0c6871aec13fecce",
+        "f2b7037c7120d0d73c6742bcadf05943d8f7bbf8be356d53f07785cf0ff0d704",
+        "c0dc037b5a404f211e5e7d7ff608d7e7b7a542d12605532fd1a3f61155d52937",
+        "f2c3fe81a228ff834dcd6c91a12e1f2de8d07992a3e5a3458a6f3056fb5f973e",
+        "91c5c2b93765ae706acdf79e8b8fd9bde35bc4d0fd42e9bc92c057d883276edd",
+        "f1d71d793717f9be15c43260ce8eee8c3ca2d4ba0f745c5c303d0083418c2ca5",
+        "43685d2ff857718a2d05066bd0e796410cae9eda1aaaf34292af029188c3bd00",
         "3442381cf8c7801e16b990bbc6e80ff75b934ce98b29af0467b4e50372c618ae",
         "b1eb2753f0c88496d704ac6f5a41d019b7dd4e9a7c7c4c60e16b30e835b3868d",
         "2c26599619e3c7db94908b24f9ef2260f6c6c52c930641936403881698d920bd",
@@ -461,7 +523,7 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-02T13:26:46+00:00",
+      "last_checked_at": "2026-04-03T03:21:12+00:00",
       "feed_title": "Nature"
     },
     "https://www.nature.com/natbiomedeng.rss": {
@@ -475,7 +537,7 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-02T13:26:46+00:00",
+      "last_checked_at": "2026-04-03T03:21:44+00:00",
       "feed_title": "Nature Biomedical Engineering"
     },
     "https://www.nature.com/nbt.rss": {
@@ -489,11 +551,17 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-02T13:26:46+00:00",
+      "last_checked_at": "2026-04-03T03:21:44+00:00",
       "feed_title": "Nature Biotechnology"
     },
     "https://www.nature.com/ncomms.rss": {
       "seen_ids": [
+        "c149ead9e4c8f016eab9007bac88e21e02253733061b53199f1fd2d9072dec87",
+        "e59c74b16a2b73fe3e991c13e2d90cb00d2fe37a4aae2dc52d21e1e45f42cb3a",
+        "ef57e7796f395f11c72f81e73466f6d066e506630c4733303d6eb07b120deb0d",
+        "baf41d264fd925bf0c135e9c9d9908c4f5965b09ac213ace5727f5b3457be2b5",
+        "674d8df83bec02c48c1e47b6b406ec7d53522f26c92ea1fa26a92f56a322f3a6",
+        "d10bf0300ef12293bc15d406210988b9613cf1f844e9b83510b50048f4648456",
         "b90cd26d84c3186d71b51098c7f55c2c040ae7f6c93b94950f620b55a3054b31",
         "52c85acce44965798eac355eca2a1a71a70d79957e53a43b1eb7bee5069ca60d",
         "89eebcbd332e9353cfa6fa579cf487402181c2167a926f93e5a14d2801231fe9",
@@ -505,7 +573,7 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-02T13:26:46+00:00",
+      "last_checked_at": "2026-04-03T03:21:44+00:00",
       "feed_title": "Nature Communications"
     },
     "https://www.nature.com/natcomputsci.rss": {
@@ -519,7 +587,7 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-02T13:27:16+00:00",
+      "last_checked_at": "2026-04-03T03:22:15+00:00",
       "feed_title": "Nature Computational Science"
     },
     "https://www.nature.com/ng.rss": {
@@ -533,7 +601,7 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-02T13:27:16+00:00",
+      "last_checked_at": "2026-04-03T03:22:15+00:00",
       "feed_title": "Nature Genetics"
     },
     "https://www.nature.com/naturehealth.rss": {
@@ -547,7 +615,7 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-02T13:27:17+00:00",
+      "last_checked_at": "2026-04-03T03:22:15+00:00",
       "feed_title": "Nature Health"
     },
     "https://www.nature.com/natmachintell.rss": {
@@ -561,11 +629,12 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-02T13:27:17+00:00",
+      "last_checked_at": "2026-04-03T03:22:15+00:00",
       "feed_title": "Nature Machine Intelligence"
     },
     "https://www.nature.com/nm.rss": {
       "seen_ids": [
+        "abe0a97063ec84cc651c6a0cb70b08f72439a8c5b46b82c5602040651ad7e988",
         "d7eb7a3a3434dee714b65aa71644ba9a622f7e71976d4244aa44459f79d31faa",
         "9734de1af101ec414de536ccab5f3bec595c470cc3da3361306eddfc55e021d6",
         "7010170c28d206af1656f134a214e79bee9606fa1305645de114972e8c06b7b6",
@@ -575,7 +644,7 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-02T13:27:17+00:00",
+      "last_checked_at": "2026-04-03T03:22:15+00:00",
       "feed_title": "Nature Medicine"
     },
     "https://www.nature.com/nmeth.rss": {
@@ -590,7 +659,7 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-02T13:27:17+00:00",
+      "last_checked_at": "2026-04-03T03:22:46+00:00",
       "feed_title": "Nature Methods"
     },
     "https://www.nature.com/nmicrobiol.rss": {
@@ -604,7 +673,7 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-02T13:27:17+00:00",
+      "last_checked_at": "2026-04-03T03:22:46+00:00",
       "feed_title": "Nature Microbiology"
     },
     "https://www.nature.com/natrevbioeng.rss": {
@@ -618,7 +687,7 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-02T13:27:18+00:00",
+      "last_checked_at": "2026-04-03T03:22:46+00:00",
       "feed_title": "Nature Reviews Bioengineering"
     },
     "https://www.nature.com/nrg.rss": {
@@ -632,7 +701,7 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-02T13:27:18+00:00",
+      "last_checked_at": "2026-04-03T03:22:46+00:00",
       "feed_title": "Nature Reviews Genetics"
     },
     "https://www.nature.com/nrmicro.rss": {
@@ -647,7 +716,7 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-02T13:27:18+00:00",
+      "last_checked_at": "2026-04-03T03:22:46+00:00",
       "feed_title": "Nature Reviews Microbiology"
     },
     "https://rsshub.rssforever.com/github/activity/gcorso": {
@@ -816,6 +885,6 @@
       "feed_title": "WillHua127's GitHub activities"
     }
   },
-  "updated_at": "2026-04-02T13:26:00+00:00",
+  "updated_at": "2026-04-03T03:16:46+00:00",
   "feed_count": 32
 }
