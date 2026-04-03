@@ -1,1885 +1,13 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T14:05:19+00:00",
-  "generated_at_human": "2026-04-03 14:05 UTC",
-  "model": "qwen/qwen3.6-plus:free",
+  "generated_at": "2026-04-03T14:18:54+00:00",
+  "generated_at_human": "2026-04-03 14:18 UTC",
+  "model": "stepfun/step-3.5-flash:free",
   "summary_language": "English",
-  "total_feeds": 32,
-  "feeds_with_updates": 11,
-  "total_items": 279,
+  "total_feeds": 17,
+  "feeds_with_updates": 6,
+  "total_items": 23,
   "feeds": [
-    {
-      "category": "Blogs",
-      "title": "阮一峰的网络日志",
-      "site_url": "http://www.ruanyifeng.com/blog/",
-      "feed_url": "http://www.ruanyifeng.com/blog/atom.xml",
-      "item_count": 1,
-      "skipped_count": 0,
-      "tldr": "This weekly digest examines how AI compute costs could create a socioeconomic divide, contrasting the technology with traditional industrial scaling, and introduces a new time-based metric showing AI capabilities doubling roughly every seven months. It also covers recent developer ecosystem shifts, including GitHub Copilot's controversial ad insertion and a growing selection of open-source tools for AI workflows and system management. The issue concludes with practical tutorials, resource recommendations, and reflections on AI's evolving role in software development.",
-      "highlights": [
-        "AI performance scales with expensive compute rather than traditional economies of scale, potentially creating a divide between premium and free model access.",
-        "A new research metric tracks AI progress by human task completion time, indicating model capabilities double approximately every seven months.",
-        "Developer ecosystem updates include GitHub pausing Copilot's automatic ad insertions, new open-source AI agent SDKs, and practical guides for AI-assisted coding."
-      ],
-      "items": [
-        {
-          "title": "科技爱好者周刊（第 391 期）：AI 的贫富分化",
-          "link": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-391.html",
-          "published": "2026-04-03 00:08 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        }
-      ]
-    },
-    {
-      "category": "Forum",
-      "title": "LINUX DO - 使用人工智能标记的话题",
-      "site_url": "https://linux.do/tag/444-tag/444",
-      "feed_url": "https://linux.do/tag/444-tag/444.rss",
-      "item_count": 142,
-      "skipped_count": 0,
-      "tldr": "The forum feed centers on practical AI integration, with users sharing account registration workarounds and API proxy setups amid tightening platform restrictions. Developers are optimizing coding workflows using models like Qwen 3.6 Plus and Claude Code, while benchmarking new hardware and sharing specialized tools for PDF translation. Community discussions also address career planning in an AI-disrupted market and distribute educational resources for AI-augmented design.",
-      "highlights": [
-        "Users exchange registration bypass methods and API proxy configurations as platforms like Gemini and Claude enforce stricter access controls.",
-        "Developers optimize AI coding workflows with Qwen 3.6 Plus for automation, troubleshoot Claude Code plugin stability, and benchmark Apple M5 hardware performance.",
-        "Community members discuss long-term career strategies amid rapid AI advancement and share open-source tools and courses for AI design and document translation."
-      ],
-      "items": [
-        {
-          "title": "古法注册，平均2分钟一个,不弹手机",
-          "link": "https://linux.do/t/topic/1892751",
-          "published": "2026-04-03 14:01 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "qwen 3.6 plus很适合openclaw做自动化任务",
-          "link": "https://linux.do/t/topic/1892715",
-          "published": "2026-04-03 13:56 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "论核弹有啥用",
-          "link": "https://linux.do/t/topic/1892603",
-          "published": "2026-04-03 13:41 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "苹果 m5 芯片的 mbp 永远的神啊",
-          "link": "https://linux.do/t/topic/1892568",
-          "published": "2026-04-03 13:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Codex RT前缀更新了",
-          "link": "https://linux.do/t/topic/1892557",
-          "published": "2026-04-03 13:36 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "求推荐 API 分发平台推荐",
-          "link": "https://linux.do/t/topic/1892553",
-          "published": "2026-04-03 13:35 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "反重力gemini3.1 PRO high 似乎好用起来了 你们对话发现了吗？",
-          "link": "https://linux.do/t/topic/1892530",
-          "published": "2026-04-03 13:32 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "一人撑起一片天，全栈工程专用的SKILL实践迭代日记",
-          "link": "https://linux.do/t/topic/1892525",
-          "published": "2026-04-03 13:31 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Claude 已经撑过一周了，开心呢",
-          "link": "https://linux.do/t/topic/1892452",
-          "published": "2026-04-03 13:20 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "阿里云百炼 Coding Plan 分享",
-          "link": "https://linux.do/t/topic/1892445",
-          "published": "2026-04-03 13:19 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "想做中转站已经搭好，有稳定的渠道商吗",
-          "link": "https://linux.do/t/topic/1892306",
-          "published": "2026-04-03 12:58 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "AIGC+设计1V1作品集辅导",
-          "link": "https://linux.do/t/topic/1892296",
-          "published": "2026-04-03 12:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "这应该也可以当面试神器用吧？视频通话的时候对方看不到。",
-          "link": "https://linux.do/t/topic/1892275",
-          "published": "2026-04-03 12:55 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "关于new api的一些问题",
-          "link": "https://linux.do/t/topic/1892260",
-          "published": "2026-04-03 12:52 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "上家宽，各种姿势，跟邮箱，都搓不出普号，天才程序员何去何从",
-          "link": "https://linux.do/t/topic/1892214",
-          "published": "2026-04-03 12:46 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "geminicli免费层级账号是不能调用Pro了",
-          "link": "https://linux.do/t/topic/1892210",
-          "published": "2026-04-03 12:46 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "AI时代越来越看不清未来了，想听听大家对所在行业的真实感受",
-          "link": "https://linux.do/t/topic/1892189",
-          "published": "2026-04-03 12:43 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "小米上Coding Plan 了，效果咋样，有佬试过没……",
-          "link": "https://linux.do/t/topic/1892134",
-          "published": "2026-04-03 12:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "即梦这边更新了个sd2.0的vip专属通道",
-          "link": "https://linux.do/t/topic/1892116",
-          "published": "2026-04-03 12:35 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "claude的400错误如何解决",
-          "link": "https://linux.do/t/topic/1892018",
-          "published": "2026-04-03 12:24 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "几分钱一个的OUTLOOK邮箱",
-          "link": "https://linux.do/t/topic/1892009",
-          "published": "2026-04-03 12:22 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "小七姐《AI时代的‮能元‬力》",
-          "link": "https://linux.do/t/topic/1892006",
-          "published": "2026-04-03 12:22 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "有没有人和我一样：Claudecode的claude-plugins-official老是出问题",
-          "link": "https://linux.do/t/topic/1892003",
-          "published": "2026-04-03 12:21 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "RetainPDF：PDF 保留排版翻译工具",
-          "link": "https://linux.do/t/topic/1891990",
-          "published": "2026-04-03 12:19 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "开发小程序前的提问",
-          "link": "https://linux.do/t/topic/1891945",
-          "published": "2026-04-03 12:14 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【提问🙋】请问佬友们，对于感兴趣的AAAI这类的文章，咋找到它的开源代码呀",
-          "link": "https://linux.do/t/topic/1891904",
-          "published": "2026-04-03 12:11 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "求助：有没有稳定使用 Claude Code Max 套餐的方法，预算可以 2000~3000 每月",
-          "link": "https://linux.do/t/topic/1891893",
-          "published": "2026-04-03 12:10 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "AI商业智慧 AI+文案 +PPT+图像+视频",
-          "link": "https://linux.do/t/topic/1891870",
-          "published": "2026-04-03 12:08 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "老板说以后我只能用Claude code，用其他的就让我滚蛋！",
-          "link": "https://linux.do/t/topic/1891842",
-          "published": "2026-04-03 12:06 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "CPA反代被扫描盗刷事件分析",
-          "link": "https://linux.do/t/topic/1891840",
-          "published": "2026-04-03 12:05 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "即梦升级了，吃相更难看了",
-          "link": "https://linux.do/t/topic/1891828",
-          "published": "2026-04-03 12:04 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "[诈骗警惕！]X上出现anyrouter号主引流至telegram",
-          "link": "https://linux.do/t/topic/1891777",
-          "published": "2026-04-03 11:54 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "用 Java 实现的极简 Claude Code Agent Loop（附在线浏览教程）",
-          "link": "https://linux.do/t/topic/1891768",
-          "published": "2026-04-03 11:53 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "DeepSeek零基础入门教程",
-          "link": "https://linux.do/t/topic/1891754",
-          "published": "2026-04-03 11:50 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Oh My Paper — 给 Claude Code 装上科研大脑，从文献到发表全流程自动化，人从中做判断和决定",
-          "link": "https://linux.do/t/topic/1891749",
-          "published": "2026-04-03 11:49 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "即梦电影高级运镜教学合集，用AI打造电影级镜头语言",
-          "link": "https://linux.do/t/topic/1891701",
-          "published": "2026-04-03 11:40 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "MinerU api不需要申请了，可以直接创建",
-          "link": "https://linux.do/t/topic/1891665",
-          "published": "2026-04-03 11:28 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "假如你是图灵",
-          "link": "https://linux.do/t/topic/1891661",
-          "published": "2026-04-03 11:26 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施",
-          "link": "https://linux.do/t/topic/1891653",
-          "published": "2026-04-03 11:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "对Trellis的疑问",
-          "link": "https://linux.do/t/topic/1891637",
-          "published": "2026-04-03 11:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "赢在开端自媒体IP增长课，实现个人品牌可持续增长",
-          "link": "https://linux.do/t/topic/1891633",
-          "published": "2026-04-03 11:17 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "云天《A代写+闲鱼 打穿失业市场》",
-          "link": "https://linux.do/t/topic/1891570",
-          "published": "2026-04-03 11:04 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "悲报，arena似乎无法直接选择opus对话了（疑似部分帐号被ban）",
-          "link": "https://linux.do/t/topic/1891543",
-          "published": "2026-04-03 10:58 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "一键创建OpenClaw多Agent，全程零代码操作",
-          "link": "https://linux.do/t/topic/1891493",
-          "published": "2026-04-03 10:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "gemma 4能力怎么样？",
-          "link": "https://linux.do/t/topic/1891397",
-          "published": "2026-04-03 10:27 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "预估一下codex plus的周限",
-          "link": "https://linux.do/t/topic/1891352",
-          "published": "2026-04-03 10:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "想问问各位大佬怎么才能更好的调教小龙虾，能够成为贾维斯，目前我的感觉还不是很智能，我调整了好多遍，喂了数据安装了热门skill，还是这样",
-          "link": "https://linux.do/t/topic/1891302",
-          "published": "2026-04-03 10:08 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Mac Gemma4-31b",
-          "link": "https://linux.do/t/topic/1891275",
-          "published": "2026-04-03 10:02 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Gpt Pro 三人车 sub2api设置每天多少额度合适呢",
-          "link": "https://linux.do/t/topic/1891194",
-          "published": "2026-04-03 09:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "windows端有什么可以远程操控cc/cx的工具吗",
-          "link": "https://linux.do/t/topic/1891176",
-          "published": "2026-04-03 09:45 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "修了一周gpt注册机后，我觉悟了",
-          "link": "https://linux.do/t/topic/1891102",
-          "published": "2026-04-03 09:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "[萌新]分享一个2026-04-17到期的百度千帆 Coding Plan Lite",
-          "link": "https://linux.do/t/topic/1890982",
-          "published": "2026-04-03 09:15 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "iFlow cli复活计划",
-          "link": "https://linux.do/t/topic/1890951",
-          "published": "2026-04-03 09:11 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "恢复Claude code和codex会话内容的脚本",
-          "link": "https://linux.do/t/topic/1890871",
-          "published": "2026-04-03 08:59 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "有没有感觉codexTeam的额度也被砍了",
-          "link": "https://linux.do/t/topic/1890839",
-          "published": "2026-04-03 08:55 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "有佬友知道GPT API的effort和网页端推理强度之间的对应关系吗？",
-          "link": "https://linux.do/t/topic/1890823",
-          "published": "2026-04-03 08:53 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "CPA号池这样显示是咋了",
-          "link": "https://linux.do/t/topic/1890686",
-          "published": "2026-04-03 08:35 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "为什么 Any Router 登录后总是出现“错误：请尝试清除 Cookie后重新登录”",
-          "link": "https://linux.do/t/topic/1890675",
-          "published": "2026-04-03 08:34 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "关于team跟plus，实在弄不到free了",
-          "link": "https://linux.do/t/topic/1890663",
-          "published": "2026-04-03 08:32 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "跟风记录Claude Max5x存活时间",
-          "link": "https://linux.do/t/topic/1890543",
-          "published": "2026-04-03 08:19 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "cpa中的qwen还能用吗",
-          "link": "https://linux.do/t/topic/1890490",
-          "published": "2026-04-03 08:12 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "关于 Accio 的使用QA",
-          "link": "https://linux.do/t/topic/1890321",
-          "published": "2026-04-03 07:50 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "gpt plus 怎么导入 cpa",
-          "link": "https://linux.do/t/topic/1890317",
-          "published": "2026-04-03 07:50 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "佬友们怎么看像pantheon和The AI Scientist这样的AI科研？",
-          "link": "https://linux.do/t/topic/1890311",
-          "published": "2026-04-03 07:49 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "需要一个便宜好用的开发 辅助工具",
-          "link": "https://linux.do/t/topic/1890306",
-          "published": "2026-04-03 07:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "谷歌开源模型 Gemma 4 发布了",
-          "link": "https://linux.do/t/topic/1890305",
-          "published": "2026-04-03 07:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "现在推荐用claude还是codex",
-          "link": "https://linux.do/t/topic/1890275",
-          "published": "2026-04-03 07:44 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Qwen Code里的Qwen3.6plus是假的吧？",
-          "link": "https://linux.do/t/topic/1890269",
-          "published": "2026-04-03 07:44 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "谷歌云创建服务器是自动使用赠金吗",
-          "link": "https://linux.do/t/topic/1890228",
-          "published": "2026-04-03 07:38 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "codex注册机还有救吗",
-          "link": "https://linux.do/t/topic/1890155",
-          "published": "2026-04-03 07:31 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "面向研究论文和实验写作流程的自动化工作台",
-          "link": "https://linux.do/t/topic/1890084",
-          "published": "2026-04-03 07:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "纪念我死去的 3 个 Claude 账号",
-          "link": "https://linux.do/t/topic/1890083",
-          "published": "2026-04-03 07:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "好像大家都是分享工具，没有人分享具体做了什么，我来抛个砖",
-          "link": "https://linux.do/t/topic/1889795",
-          "published": "2026-04-03 06:42 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "codex线程丢失解决方案",
-          "link": "https://linux.do/t/topic/1889648",
-          "published": "2026-04-03 06:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Mimo Token Plan 这对吗？？？",
-          "link": "https://linux.do/t/topic/1889643",
-          "published": "2026-04-03 06:23 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债",
-          "link": "https://linux.do/t/topic/1889640",
-          "published": "2026-04-03 06:23 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "想找研究过LLM4Rec的佬友聊聊",
-          "link": "https://linux.do/t/topic/1889600",
-          "published": "2026-04-03 06:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "佬友们都是怎么在大量 vibe coding 保证代码可维护性的",
-          "link": "https://linux.do/t/topic/1889488",
-          "published": "2026-04-03 06:05 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "大佬们，claude code这种终端的，和cursor 如果都使用同一个模型，它俩到底有什么区别？",
-          "link": "https://linux.do/t/topic/1889483",
-          "published": "2026-04-03 06:05 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "哈基米和冰佬都把门焊死了咋办！只能靠Dooong和10刀的OpenRouter续命了",
-          "link": "https://linux.do/t/topic/1889466",
-          "published": "2026-04-03 06:02 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "GPT 5.4 Plus用户是否有降智!？",
-          "link": "https://linux.do/t/topic/1889366",
-          "published": "2026-04-03 05:49 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "公司决定要采购cursor了，但是压力全部给到我，让我来办，佬们要怎么弄啊！！！我好慌！",
-          "link": "https://linux.do/t/topic/1889361",
-          "published": "2026-04-03 05:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？",
-          "link": "https://linux.do/t/topic/1889285",
-          "published": "2026-04-03 05:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "any大善人呜呜，想你了",
-          "link": "https://linux.do/t/topic/1889235",
-          "published": "2026-04-03 05:27 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "各位佬们，有个问题想请教",
-          "link": "https://linux.do/t/topic/1889228",
-          "published": "2026-04-03 05:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "OpenRouter 上 Qwen3.6 Plus 正式版来了",
-          "link": "https://linux.do/t/topic/1889050",
-          "published": "2026-04-03 05:05 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "部署了gemma4:26B，在12G 显存 32 内存的机器上，跑的很流畅",
-          "link": "https://linux.do/t/topic/1889004",
-          "published": "2026-04-03 04:58 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "gemma4 31B聊天体验真的甚妙，单独发帖再夸一下|顺便测一下原文输出内容完整保留能力:大概和2.5Pro相当!",
-          "link": "https://linux.do/t/topic/1888869",
-          "published": "2026-04-03 04:30 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "怎么在codex里调用claude code这种接口的api？",
-          "link": "https://linux.do/t/topic/1888699",
-          "published": "2026-04-03 04:01 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "龙虾code plan套餐求推荐",
-          "link": "https://linux.do/t/topic/1888663",
-          "published": "2026-04-03 03:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案",
-          "link": "https://linux.do/t/topic/1888622",
-          "published": "2026-04-03 03:52 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "求助，claude code的web search工具异常，大家都怎么样的？",
-          "link": "https://linux.do/t/topic/1888614",
-          "published": "2026-04-03 03:51 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "linux.do人工智能技术日报-26-04-03",
-          "link": "https://linux.do/t/topic/1888590",
-          "published": "2026-04-03 03:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "图灵的猫《人人都能听懂的AI通识课》",
-          "link": "https://linux.do/t/topic/1888577",
-          "published": "2026-04-03 03:47 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Codex 最高500美元的活动",
-          "link": "https://linux.do/t/topic/1888541",
-          "published": "2026-04-03 03:40 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【求助】如何通过ccs在cc中用上gpt",
-          "link": "https://linux.do/t/topic/1888002",
-          "published": "2026-04-03 02:36 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "深入浅出 Claude Code（三）：从源码理解 Agent 系统，一个人指挥一支队伍",
-          "link": "https://linux.do/t/topic/1887895",
-          "published": "2026-04-03 02:17 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Gemma4也太强了",
-          "link": "https://linux.do/t/topic/1887617",
-          "published": "2026-04-03 01:34 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "各位佬们，要怎么自己搭建公益站呢，有教程吗？打算自己搞个自用的，不懂弄啊。求求教程",
-          "link": "https://linux.do/t/topic/1887557",
-          "published": "2026-04-03 01:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "本地部署全精度 gemma-4-31B-it",
-          "link": "https://linux.do/t/topic/1887110",
-          "published": "2026-04-02 23:35 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "[Dooong AI 关门了] 天才程序员复活 公益站GPT5~5.4(CodeX) 开放注册",
-          "link": "https://linux.do/t/topic/1886945",
-          "published": "2026-04-02 18:39 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "简单测下Gemma4-31b-it",
-          "link": "https://linux.do/t/topic/1886908",
-          "published": "2026-04-02 18:20 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Clipal 更新，不仅一键接管本地API转发，还智能处理所有类似/v1端点少了或者多了的各种问题",
-          "link": "https://linux.do/t/topic/1886469",
-          "published": "2026-04-02 16:04 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "购买$200 Claude code订阅的话，一个人能做到每天畅玩吗？",
-          "link": "https://linux.do/t/topic/1885174",
-          "published": "2026-04-02 13:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "请问怎么样注册的GPT账号才会在Plus或Business上有“$0 试用资格”？",
-          "link": "https://linux.do/t/topic/1883810",
-          "published": "2026-04-02 10:02 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "各位佬友，是否有什么软件可以直接反代2api后可以直接使用的。",
-          "link": "https://linux.do/t/topic/1881457",
-          "published": "2026-04-02 04:39 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "佬们好卷，Harness教程一天干到1千星",
-          "link": "https://linux.do/t/topic/1881008",
-          "published": "2026-04-02 03:32 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "JAVA AI智能应用体开发 佬们都是怎样的一个学习路线",
-          "link": "https://linux.do/t/topic/1879748",
-          "published": "2026-04-02 00:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "作为全站最火 Codex 注册机的作者，为什么我最后选择了付费购买 CODEX",
-          "link": "https://linux.do/t/topic/1878266",
-          "published": "2026-04-01 15:24 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "拒绝抽卡 自定义你的claude宠物属性 skills",
-          "link": "https://linux.do/t/topic/1877825",
-          "published": "2026-04-01 14:39 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Claude Oauth登录刷 /buddy 宠物的方法找到了",
-          "link": "https://linux.do/t/topic/1873901",
-          "published": "2026-04-01 07:15 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "清华北邮团队700 star的Claude Code源码分析&1300行代码最小复现",
-          "link": "https://linux.do/t/topic/1873380",
-          "published": "2026-04-01 06:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【零元购】 SuperGrok Heavy $3000/年 白嫖实测（复活！！）",
-          "link": "https://linux.do/t/topic/1872670",
-          "published": "2026-04-01 04:56 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "（关门）【AcMio 公益站】开站主贴 号池告罄 注册机也废了 等待修复",
-          "link": "https://linux.do/t/topic/1870102",
-          "published": "2026-03-31 18:44 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【开源】Open-Claude-Code CLI 源码",
-          "link": "https://linux.do/t/topic/1868730",
-          "published": "2026-03-31 15:04 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【Agent笔记】我们一起来学习Agent！（第1期）",
-          "link": "https://linux.do/t/topic/1865600",
-          "published": "2026-03-31 11:13 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【长期贴】 Claude-code-workflow(CCW) --使用技巧分享-自认为最工程化的harness workflow",
-          "link": "https://linux.do/t/topic/1863021",
-          "published": "2026-03-31 08:16 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "15元充1个月ChatGPT plus ？",
-          "link": "https://linux.do/t/topic/1851411",
-          "published": "2026-03-30 06:47 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "持续更新和A➗战斗 目前已亏1100+50+150",
-          "link": "https://linux.do/t/topic/1847967",
-          "published": "2026-03-29 14:58 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "国内的CodingPlan哪个比较好？",
-          "link": "https://linux.do/t/topic/1847860",
-          "published": "2026-03-29 14:35 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Codex Windows App 卡在 Reconnecting 简单解决办法",
-          "link": "https://linux.do/t/topic/1846916",
-          "published": "2026-03-29 11:55 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "求推荐一个coding plan",
-          "link": "https://linux.do/t/topic/1846010",
-          "published": "2026-03-29 08:45 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "分享一下常用的网页端大模型厂商与点评",
-          "link": "https://linux.do/t/topic/1842687",
-          "published": "2026-03-28 13:41 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【NihaoAPI】sonnet4.6 稍微升级了一下 稳定性提高了",
-          "link": "https://linux.do/t/topic/1837094",
-          "published": "2026-03-27 11:00 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "「慕鸢の公益站」 「君の公益」近况",
-          "link": "https://linux.do/t/topic/1811633",
-          "published": "2026-03-25 05:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【开源】全新轻量级高性能的AI对话+AI本地网关桌面客户端",
-          "link": "https://linux.do/t/topic/1810247",
-          "published": "2026-03-25 01:45 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "手机端最强形态的自动化/Agent是什么样？",
-          "link": "https://linux.do/t/topic/1789944",
-          "published": "2026-03-20 13:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "开源了一个本地 Web 应用，用于浏览、搜索和管理 AI 编程助手的对话历史,",
-          "link": "https://linux.do/t/topic/1788896",
-          "published": "2026-03-20 09:02 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "合法开启官方claude code的pro/max订阅方案，实测有效",
-          "link": "https://linux.do/t/topic/1780808",
-          "published": "2026-03-19 02:02 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【CCG 自动化流 安装教程（纯风佬CCG）】更新教程！！！新佬友们别迷路！！！(老佬友们叙叙旧√)",
-          "link": "https://linux.do/t/topic/1780710",
-          "published": "2026-03-19 01:50 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "佬们，接了个外包，一个管理系统，求技术建议（Java、Vue 向）",
-          "link": "https://linux.do/t/topic/1746525",
-          "published": "2026-03-13 04:14 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "成为L站会员，在这个时代你已经领先了90%的人，但为什么没赚到钱?",
-          "link": "https://linux.do/t/topic/1721707",
-          "published": "2026-03-10 17:32 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "为什么您根本不需要OpenClaw",
-          "link": "https://linux.do/t/topic/1696116",
-          "published": "2026-03-05 14:50 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【最强AI Agent】 π 使用教程",
-          "link": "https://linux.do/t/topic/1680124",
-          "published": "2026-03-02 14:34 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "［开源］Ai-Novel 强大的ai小说创作网站",
-          "link": "https://linux.do/t/topic/1678115",
-          "published": "2026-03-02 07:52 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【2026-3-10官方已修复该问题，此贴终结】尝试解决 ClaudeCode在Windows环境下/copy乱码问题",
-          "link": "https://linux.do/t/topic/1670183",
-          "published": "2026-02-28 07:53 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "一些 AI 站点的脚本合集，主打 ChatGPT 对话导航+对话树+性能优化",
-          "link": "https://linux.do/t/topic/1645549",
-          "published": "2026-02-25 04:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症",
-          "link": "https://linux.do/t/topic/1643542",
-          "published": "2026-02-24 18:00 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【富可敌国】小于1毛钱/$的claude-opus-4-6已全面适配, 上线gpt-5.3-codex",
-          "link": "https://linux.do/t/topic/1571488",
-          "published": "2026-02-06 02:07 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "通用的提示词优化功能，通过MCP提供",
-          "link": "https://linux.do/t/topic/1431366",
-          "published": "2026-01-12 05:07 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Codex-5.2经常报错error decoding response body，你们遇到没",
-          "link": "https://linux.do/t/topic/1357244",
-          "published": "2025-12-24 08:02 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【Polo API 长期活动】每10楼抽取3位送5刀Claude API额度，30%中奖机会！ 已开通【富可敌国】",
-          "link": "https://linux.do/t/topic/463404",
-          "published": "2025-02-28 13:22 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        }
-      ]
-    },
-    {
-      "category": "Github",
-      "title": "luost26's GitHub activities",
-      "site_url": "https://github.com/luost26",
-      "feed_url": "https://rsshub.rssforever.com/github/activity/luost26",
-      "item_count": 12,
-      "skipped_count": 0,
-      "tldr": "User luost26 was active across two related repositories, focusing on core development and conda packaging for the PrexSyn project. On April 2, multiple commits were pushed to the main prexsyn repository. The following day, the user forked the prexsyn-engine-feedstock from conda-forge, opened a pull request, and submitted several additional pushes to update the packaging configuration.",
-      "highlights": [
-        "Multiple commits pushed to the main prexsyn repository on April 2.",
-        "Forked the prexsyn-engine-feedstock from the conda-forge organization on April 3.",
-        "Opened pull request #3 and submitted several subsequent pushes to the feedstock repository."
-      ],
-      "items": [
-        {
-          "title": "luost26 pushed prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/327ec8e2f7...841c2f0d47",
-          "published": "2026-04-03 14:05 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/e6ac133515...327ec8e2f7",
-          "published": "2026-04-03 13:55 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/766e06e962...e6ac133515",
-          "published": "2026-04-03 13:51 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/c4c1ab0091...766e06e962",
-          "published": "2026-04-03 13:37 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/04aa015f9d...c4c1ab0091",
-          "published": "2026-04-03 13:24 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 opened a pull request in prexsyn-engine-feedstock",
-          "link": "https://github.com/conda-forge/prexsyn-engine-feedstock/pull/3",
-          "published": "2026-04-03 13:21 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/af727ced1b...04aa015f9d",
-          "published": "2026-04-03 13:20 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 forked luost26/prexsyn-engine-feedstock from conda-forge/prexsyn-engine-feedstock",
-          "link": "https://github.com/luost26/prexsyn-engine-feedstock",
-          "published": "2026-04-03 13:11 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/1c5fde5215...439f694d85",
-          "published": "2026-04-02 22:07 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/819776bdce...1c5fde5215",
-          "published": "2026-04-02 21:53 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/e422317a27...819776bdce",
-          "published": "2026-04-02 21:52 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        },
-        {
-          "title": "luost26 pushed prexsyn",
-          "link": "https://github.com/luost26/prexsyn/compare/8ba7a9b055...e422317a27",
-          "published": "2026-04-02 21:50 UTC",
-          "source_kind": "article",
-          "tldr": ""
-        }
-      ]
-    },
-    {
-      "category": "News",
-      "title": "前沿快讯 - LINUX DO",
-      "site_url": "https://linux.do/c/news/34",
-      "feed_url": "https://linux.do/c/news/34.rss",
-      "item_count": 36,
-      "skipped_count": 0,
-      "tldr": "The feed highlights significant shifts in AI service pricing and access, with OpenAI adjusting ChatGPT Business costs and proposing dynamic usage rates for Codex, while Xiaomi launches a transparent, token-based MiMo subscription plan. Major AI development tools and models saw updates, including Claude Code v2.1.91 optimizations, the official release of Qwen 3.6 Plus, and Google's integration of Veo 3.1 into Vids. Concurrently, several platforms updated their policies and security postures, marked by Slack's regional workspace suspensions, GitHub's revised code privacy opt-out requirements, and a social engineering breach affecting the Axios project maintainer.",
-      "highlights": [
-        "OpenAI reduces ChatGPT Business pricing and proposes peak/off-peak usage multipliers for Codex to manage compute load.",
-        "Xiaomi launches a tiered, token-based MiMo API plan with no hourly limits, while Claude Code v2.1.91 introduces token-saving edits and larger MCP result caps.",
-        "Platform and security updates include Slack suspending workspaces in mainland China, HK, and Macau, GitHub requiring opt-out for code privacy, and a social engineering attack compromising the Axios maintainer."
-      ],
-      "items": [
-        {
-          "title": "号外？微信支持markdown了吗？",
-          "link": "https://linux.do/t/topic/1892569",
-          "published": "2026-04-03 13:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "研究显示人类口头交流逐年缩减：平均每天少说 300 个单词",
-          "link": "https://linux.do/t/topic/1892476",
-          "published": "2026-04-03 13:24 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "codex 量大管饱的时代可能要结束力",
-          "link": "https://linux.do/t/topic/1891680",
-          "published": "2026-04-03 11:32 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
-          "link": "https://linux.do/t/topic/1891453",
-          "published": "2026-04-03 10:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "claude 接管",
-          "link": "https://linux.do/t/topic/1891313",
-          "published": "2026-04-03 10:10 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知_中央网络安全和信息化委员会办公室 |『转』",
-          "link": "https://linux.do/t/topic/1891269",
-          "published": "2026-04-03 10:00 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "dmit 暂时关闭lax pro自主更改ip功能",
-          "link": "https://linux.do/t/topic/1891218",
-          "published": "2026-04-03 09:53 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Google这是要彻底放弃AntiGravity了？",
-          "link": "https://linux.do/t/topic/1891026",
-          "published": "2026-04-03 09:21 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "codex 2倍活动已结束(2026.4.3-17:00)",
-          "link": "https://linux.do/t/topic/1891017",
-          "published": "2026-04-03 09:19 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "github更新代码隐私政策了",
-          "link": "https://linux.do/t/topic/1890831",
-          "published": "2026-04-03 08:54 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【已恢复】deepseek叒异常了",
-          "link": "https://linux.do/t/topic/1890738",
-          "published": "2026-04-03 08:41 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "谷歌 Gemini API 平台新增优先级，加钱可以确保 AI 算力优先分配给你",
-          "link": "https://linux.do/t/topic/1890708",
-          "published": "2026-04-03 08:38 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Slack 停用在中国大陆、澳门、香港的工作区",
-          "link": "https://linux.do/t/topic/1890622",
-          "published": "2026-04-03 08:27 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "CNNIC域名隐私保护将于4月10日调整为免费",
-          "link": "https://linux.do/t/topic/1890163",
-          "published": "2026-04-03 07:31 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "gpt Business 价格下调",
-          "link": "https://linux.do/t/topic/1889891",
-          "published": "2026-04-03 06:55 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件",
-          "link": "https://linux.do/t/topic/1889790",
-          "published": "2026-04-03 06:41 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Zread推出Zread CLI",
-          "link": "https://linux.do/t/topic/1889422",
-          "published": "2026-04-03 05:56 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "axios3/31被投毒，盗号的手段居然是社会工程学攻击",
-          "link": "https://linux.do/t/topic/1889347",
-          "published": "2026-04-03 05:46 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频",
-          "link": "https://linux.do/t/topic/1889300",
-          "published": "2026-04-03 05:40 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "qwen3.6正式版上线qwen-code",
-          "link": "https://linux.do/t/topic/1889293",
-          "published": "2026-04-03 05:38 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？",
-          "link": "https://linux.do/t/topic/1889285",
-          "published": "2026-04-03 05:37 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "小米也出tokenplan，用量计费，TTS 模型限时免费使用",
-          "link": "https://linux.do/t/topic/1889249",
-          "published": "2026-04-03 05:30 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "还没毕业就给期权：Kimi月之暗面推「穿越计划」，提前一年锁定27届顶尖人才",
-          "link": "https://linux.do/t/topic/1889202",
-          "published": "2026-04-03 05:22 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "OpenRouter 上 Qwen3.6 Plus 正式版来了",
-          "link": "https://linux.do/t/topic/1889050",
-          "published": "2026-04-03 05:05 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "小米也出Token Plan 了",
-          "link": "https://linux.do/t/topic/1888939",
-          "published": "2026-04-03 04:45 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "按token计费，无五小时限制：Xiaomi MiMo Token Plan发布",
-          "link": "https://linux.do/t/topic/1888857",
-          "published": "2026-04-03 04:28 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Xiaomi MiMo Token Plan 正式上线",
-          "link": "https://linux.do/t/topic/1888842",
-          "published": "2026-04-03 04:25 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "火山方舟协作奖励计划活动延期至2026年6月30日",
-          "link": "https://linux.do/t/topic/1888827",
-          "published": "2026-04-03 04:23 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Xiaomi mimo 官方也有 Coding Plan 了",
-          "link": "https://linux.do/t/topic/1888823",
-          "published": "2026-04-03 04:21 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Xiaomi MiMo Token Plan 现已正式上线",
-          "link": "https://linux.do/t/topic/1888821",
-          "published": "2026-04-03 04:21 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "小米 Token Plan 公布，竟然是按用量计算的",
-          "link": "https://linux.do/t/topic/1888805",
-          "published": "2026-04-03 04:18 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Perplexity 遭集体起诉，隐身模式被指形同虚设",
-          "link": "https://linux.do/t/topic/1888785",
-          "published": "2026-04-03 04:15 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了",
-          "link": "https://linux.do/t/topic/1888656",
-          "published": "2026-04-03 03:56 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "【自制】全球新闻0403",
-          "link": "https://linux.do/t/topic/1888607",
-          "published": "2026-04-03 03:51 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "linux.do人工智能技术日报-26-04-03",
-          "link": "https://linux.do/t/topic/1888590",
-          "published": "2026-04-03 03:48 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Codex 最高500美元的活动",
-          "link": "https://linux.do/t/topic/1888541",
-          "published": "2026-04-03 03:40 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        }
-      ]
-    },
-    {
-      "category": "News",
-      "title": "王志安 - YouTube",
-      "site_url": "https://www.youtube.com/@wangzhian",
-      "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
-      "item_count": 65,
-      "skipped_count": 0,
-      "tldr": "The feed covers escalating geopolitical tensions, focusing on North Korea's urgent succession planning amid Kim Jong-un's reported health decline and intensifying U.S.-Iran military confrontations. It also tracks the ongoing U.S.-China rivalry across space exploration, artificial intelligence, and cybersecurity. Additionally, the digest highlights significant domestic developments in Taiwan and China, including high-profile political trials, military anti-corruption campaigns, and notable shifts in corporate and social landscapes.",
-      "highlights": [
-        "North Korea is reportedly accelerating a succession plan for Kim Jong-un’s 13-year-old daughter amid severe health concerns and expanded cyber and military operations.",
-        "U.S.-Iran tensions remain high with ongoing strikes, infrastructure threats, and the reported downing of a U.S. E-3 AWACS aircraft.",
-        "U.S.-China competition intensifies across lunar exploration and AI development, while Taiwan and mainland China navigate high-profile political trials and defense sector anti-corruption probes."
-      ],
-      "items": [
-        {
-          "title": "Succession After Kim Jong-un: How Extreme Is the Regime He’s Leaving to His Daughter? 20260403",
-          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
-          "published": "2026-04-03 12:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
-          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
-          "published": "2026-04-03 12:01 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
-          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
-          "published": "2026-04-03 06:19 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
-          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
-          "published": "2026-04-02 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
-          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
-          "published": "2026-04-02 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
-          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
-          "published": "2026-04-02 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
-          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
-          "published": "2026-04-02 12:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
-          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
-          "published": "2026-04-02 12:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
-          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
-          "published": "2026-04-02 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
-          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
-          "published": "2026-04-02 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
-          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
-          "published": "2026-04-02 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
-          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
-          "published": "2026-04-02 03:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
-          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
-          "published": "2026-04-02 03:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
-          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
-          "published": "2026-04-02 03:57 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
-          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
-          "published": "2026-04-01 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "张雪机车，他是第一｜新闻特写20260331",
-          "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
-          "published": "2026-04-01 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "张雪机车，他是第一｜新闻特写20260331",
-          "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
-          "published": "2026-03-31 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?",
-          "link": "https://www.youtube.com/watch?v=JiGeTwJCiEk",
-          "published": "2026-03-31 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330",
-          "link": "https://www.youtube.com/watch?v=pgKI_LJnhxY",
-          "published": "2026-03-31 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?",
-          "link": "https://www.youtube.com/watch?v=JiGeTwJCiEk",
-          "published": "2026-03-30 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330",
-          "link": "https://www.youtube.com/watch?v=pgKI_LJnhxY",
-          "published": "2026-03-30 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
-          "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
-          "published": "2026-03-30 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
-          "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
-          "published": "2026-03-30 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "萬人送別张雪峰｜新聞特寫20260329",
-          "link": "https://www.youtube.com/watch?v=dc3R8IylOrU",
-          "published": "2026-03-29 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "萬人送別张雪峰｜新聞特寫20260329",
-          "link": "https://www.youtube.com/watch?v=dc3R8IylOrU",
-          "published": "2026-03-29 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?",
-          "link": "https://www.youtube.com/watch?v=ADnrskupDBI",
-          "published": "2026-03-28 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?",
-          "link": "https://www.youtube.com/watch?v=ADnrskupDBI",
-          "published": "2026-03-27 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
-          "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
-          "published": "2026-03-27 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
-          "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
-          "published": "2026-03-27 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326",
-          "link": "https://www.youtube.com/watch?v=nD_-g491A2M",
-          "published": "2026-03-27 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326",
-          "link": "https://www.youtube.com/watch?v=nD_-g491A2M",
-          "published": "2026-03-26 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
-          "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
-          "published": "2026-03-26 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
-          "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
-          "published": "2026-03-26 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
-          "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
-          "published": "2026-03-25 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
-          "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
-          "published": "2026-03-25 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325",
-          "link": "https://www.youtube.com/watch?v=QzPEOHcHLkw",
-          "published": "2026-03-25 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325",
-          "link": "https://www.youtube.com/watch?v=QzPEOHcHLkw",
-          "published": "2026-03-25 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?",
-          "link": "https://www.youtube.com/watch?v=pvRnqiz4rQc",
-          "published": "2026-03-25 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
-          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
-          "published": "2026-03-25 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?",
-          "link": "https://www.youtube.com/watch?v=pvRnqiz4rQc",
-          "published": "2026-03-24 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
-          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
-          "published": "2026-03-24 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324",
-          "link": "https://www.youtube.com/watch?v=hxmYrNgWlVg",
-          "published": "2026-03-24 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
-          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
-          "published": "2026-03-24 07:14 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
-          "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
-          "published": "2026-03-24 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324",
-          "link": "https://www.youtube.com/watch?v=hxmYrNgWlVg",
-          "published": "2026-03-24 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
-          "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
-          "published": "2026-03-23 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
-          "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
-          "published": "2026-03-23 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
-          "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
-          "published": "2026-03-22 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321",
-          "link": "https://www.youtube.com/watch?v=-2uG97Up2Do",
-          "published": "2026-03-21 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321",
-          "link": "https://www.youtube.com/watch?v=-2uG97Up2Do",
-          "published": "2026-03-21 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
-          "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
-          "published": "2026-03-21 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
-          "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320",
-          "link": "https://www.youtube.com/watch?v=6QSl94BpBqk",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320",
-          "link": "https://www.youtube.com/watch?v=mYdmu91sDB8",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319",
-          "link": "https://www.youtube.com/watch?v=H9yFmxAgtDw",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears",
-          "link": "https://www.youtube.com/watch?v=ybCMiAYt1hk",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry",
-          "link": "https://www.youtube.com/watch?v=VK3QFLOcTBo",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普：战事缠身访华推迟一个月｜新闻特写20260317",
-          "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
-          "published": "2026-03-20 14:09 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320",
-          "link": "https://www.youtube.com/watch?v=6QSl94BpBqk",
-          "published": "2026-03-20 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320",
-          "link": "https://www.youtube.com/watch?v=mYdmu91sDB8",
-          "published": "2026-03-20 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319",
-          "link": "https://www.youtube.com/watch?v=H9yFmxAgtDw",
-          "published": "2026-03-20 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears",
-          "link": "https://www.youtube.com/watch?v=ybCMiAYt1hk",
-          "published": "2026-03-20 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry",
-          "link": "https://www.youtube.com/watch?v=VK3QFLOcTBo",
-          "published": "2026-03-20 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "特朗普：战事缠身访华推迟一个月｜新闻特写20260317",
-          "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
-          "published": "2026-03-20 06:33 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        },
-        {
-          "title": "哈梅内伊丧生，流亡海外的伊朗民众喜极而泣｜新闻特写20260301",
-          "link": "https://www.youtube.com/watch?v=OsuDCwACYWI",
-          "published": "2026-03-01 09:26 UTC",
-          "source_kind": "feed",
-          "tldr": ""
-        }
-      ]
-    },
     {
       "category": "Papers",
       "title": "bioRxiv Subject Collection: Bioinformatics",
@@ -1887,11 +15,11 @@
       "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
       "item_count": 4,
       "skipped_count": 0,
-      "tldr": "This bioRxiv collection highlights recent bioinformatics advancements across diverse biological domains. New computational methods address fungal community quantification from long-read sequencing, interpretable predictive modeling for cytometry data, and machine learning approaches for SARS-CoV-2 variant classification. Additionally, a comprehensive benchmark evaluates heritability estimation strategies and their impact on polygenic risk score accuracy.",
+      "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
       "highlights": [
-        "EMITS algorithm for fungal ITS abundance estimation using long-read sequencing",
-        "Transformer-based foundation model for interpretable cytometry predictions",
-        "Benchmarking of heritability estimation methods and their effect on polygenic risk scores"
+        "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
+        "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
+        "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
       ],
       "items": [
         {
@@ -1899,28 +27,28 @@
           "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715662v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "EMITS introduces an expectation-maximization algorithm to estimate fungal ITS community abundances from long-read sequencing data."
+          "tldr": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing"
         },
         {
           "title": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
           "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.712806v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "This study proposes a pretrained transformer-based foundation model designed for interpretable, sample-level predictive modeling in cytometry."
+          "tldr": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers"
         },
         {
           "title": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
           "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716024v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The authors develop classical and hybrid machine learning models using TF-IDF k-mer representations to classify SARS-CoV-2 variants in imbalanced genomic datasets."
+          "tldr": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
         },
         {
           "title": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance",
           "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716079v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "This work benchmarks 86 heritability estimation configurations to evaluate their downstream impact on polygenic risk score performance."
+          "tldr": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance"
         }
       ]
     },
@@ -1931,11 +59,11 @@
       "feed_url": "https://www.nature.com/ncomms.rss",
       "item_count": 10,
       "skipped_count": 0,
-      "tldr": "This digest covers recent Nature Communications research spanning computational biology, materials science, and environmental physics. Key advances include a privacy-preserving framework for cross-institutional electronic health record analysis and an AI-driven exploration of primordial protein folding. Additional studies detail scalable manufacturing techniques for solid-state batteries, high-efficiency hybrid energy systems, and novel insights into lung development, HIV transmission dynamics, and oncogene-induced genomic instability.",
+      "tldr": "The digest features methodological innovations like a framework for secure cross-institutional health data analysis and AI applications in protein design and plant phenotyping. Biological insights include lung progenitor dynamics and oncogene-induced replication stress mechanisms. Environmental and technological advances cover permafrost thaw prediction, scalable battery coatings, ultrafast plasma probing, and high-efficiency hybrid energy systems.",
       "highlights": [
-        "Privacy-preserving EHR harmonization using LLMs and graph learning enables cross-institutional medical research.",
-        "Solution-processed photovoltaic-thermoelectric hybrids achieve over 50% energy conversion efficiency.",
-        "AI protein design demonstrates that limited primordial amino acid sets can generate diverse structural folds."
+        "Framework enables cross-institutional EHR analysis without sharing patient-level data.",
+        "Solution-processed PV-TE hybrids achieve 50.28% efficiency through optimized heat utilization.",
+        "AI-based design reveals broad protein folds from limited primordial amino acid libraries."
       ],
       "items": [
         {
@@ -1943,70 +71,70 @@
           "link": "https://www.nature.com/articles/s41467-026-71152-1",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A new framework integrates medical knowledge, large language models, and graph learning to harmonize electronic health records across institutions without sharing patient-level data."
+          "tldr": "A framework harmonizes electronic health record data across hospitals using medical knowledge, large language models, and graph learning, enabling cross-institutional analysis without sharing patient data."
         },
         {
           "title": "Hippo signaling differentially regulates distal progenitor subpopulations and their transitional states to construct the mammalian lungs",
           "link": "https://www.nature.com/articles/s41467-026-71253-x",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Hippo signaling regulates distal SOX9+ lung progenitor subpopulations, controlling lung size through bud bifurcation and directing transitional states that form airway and alveolar cells."
+          "tldr": "Distal SOX9+ lung progenitors control lung size via bifurcation and undergo transitional states to generate conducting airway and alveolar cell types."
         },
         {
           "title": "Permafrost landsystems define regional variability in climate change effects on northern environments",
           "link": "https://www.nature.com/articles/s41467-026-71216-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Continental-scale analysis of permafrost landsystems reveals how geological and climatic legacies shape regional ecosystem responses and predict thaw consequences."
+          "tldr": "Permafrost landsystems, formed by landform-ecosystem interactions and varying with geological and climatic legacies, predict regional thaw consequences."
         },
         {
           "title": "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
           "link": "https://www.nature.com/articles/s41467-026-71305-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Solvent-free mechanofusion produces scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing."
+          "tldr": "Solvent-free mechanofusion creates mixed conducting matrix coatings on cathode particles for solid-state batteries, with coating quality linked to mixing stresses for scalability."
         },
         {
           "title": "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
           "link": "https://www.nature.com/articles/s41467-026-71509-6",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "AI-based protein design shows that a restricted, primordial amino acid library inferred from asteroid Bennu data can generate a diverse array of stable protein folds."
+          "tldr": "AI-based protein design shows that small, primordial amino acid libraries constrained by asteroid Bennu data can form a wide range of protein folds."
         },
         {
           "title": "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission",
           "link": "https://www.nature.com/articles/s41467-026-71429-5",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe enables sub-picosecond tracking of heating and ionization dynamics in solid-density copper plasmas."
+          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe achieves sub-picosecond resolution of solid-density copper plasma dynamics."
         },
         {
           "title": "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
           "link": "https://www.nature.com/articles/s41467-026-71389-w",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Optimized solution-processed photovoltaic-thermoelectric hybrid systems achieve a maximum experimental energy conversion efficiency of 50.28% through improved heat utilization and current matching."
+          "tldr": "Solution-processed photovoltaic-thermoelectric hybrid systems optimized for heat utilization and current matching experimentally demonstrate a maximum efficiency of 50.28%."
         },
         {
           "title": "A conversational multi-agent AI system for automated plant phenotyping",
           "link": "https://www.nature.com/articles/s41467-026-71090-y",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A conversational multi-agent AI system integrates large language models with specialized tools to automate plant phenotype extraction, visualization, and model training."
+          "tldr": "A conversational multi-agent AI system integrates large language models with tools for phenotype extraction, visualization, and model training to automate plant phenotyping and enhance accessibility."
         },
         {
           "title": "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
           "link": "https://www.nature.com/articles/s41467-026-71353-8",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Oncogenic RAS induces replication stress through ROS-driven replisome alterations, converging with cyclin E1 pathways to trigger R-loop-dependent replication fork reversal."
+          "tldr": "Oncogenic RAS induces replication fork stalling through ROS-driven replisome architecture alterations, leading to R-loop-dependent fork reversal."
         },
         {
           "title": "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials",
           "link": "https://www.nature.com/articles/s41467-026-70888-0",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Deep sequencing of HIV prevention trial participants reveals that the VRC01 antibody does not alter the viral transmission bottleneck, with 38% of breakthrough infections involving multiple viral lineages."
+          "tldr": "Deep sequencing of HIV prevention trials shows high multilineage infections (38%) and demonstrates that VRC01 does not alter the transmission bottleneck."
         }
       ]
     },
@@ -2017,11 +145,10 @@
       "feed_url": "https://www.nature.com/natcomputsci.rss",
       "item_count": 2,
       "skipped_count": 0,
-      "tldr": "This digest covers two computational methods papers from Nature Computational Science. One introduces a self-supervised foundation model for robust medical image restoration that operates without clean training data. The other evaluates spatial transcriptomics alignment techniques, finding that optimal performance varies by dataset and offering guidance for future development.",
+      "tldr": "Nature Computational Science currently has 2 retained item(s) on the page. Key items include \"Universal restoration of medical images\" and \"Benchmarking alignment methods for spatial transcriptomics data\".",
       "highlights": [
-        "HorusEye model restores tomography images using self-supervised noise learning",
-        "Medical image restoration achieved without paired clean training data",
-        "Spatial transcriptomics benchmark shows alignment success depends on dataset characteristics"
+        "Universal restoration of medical images",
+        "Benchmarking alignment methods for spatial transcriptomics data"
       ],
       "items": [
         {
@@ -2029,14 +156,14 @@
           "link": "https://www.nature.com/articles/s43588-026-00975-1",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "HorusEye is a self-supervised foundation model that learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities and scanners without clean training data."
+          "tldr": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, s…"
         },
         {
           "title": "Benchmarking alignment methods for spatial transcriptomics data",
           "link": "https://www.nature.com/articles/s43588-026-00977-z",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A benchmark evaluating spatial transcriptomics alignment methods reveals that the best approach is dataset-dependent and provides actionable guidance for future method development."
+          "tldr": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for th…"
         }
       ]
     },
@@ -2047,11 +174,11 @@
       "feed_url": "https://www.nature.com/naturehealth.rss",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "This digest features a Nature Health commentary on the potential of GLP-1 receptor therapeutics as longevity interventions. The author classifies these compounds as transitional treatments that require rigorous clinical evaluation. Additional research is necessary to determine their direct and indirect effects on aging and overall health.",
+      "tldr": "This Nature Health digest includes a paper discussing GLP-1 receptor drugs in longevity research. The title advocates for rigorous testing of agonists, while the body text classifies antagonists as transitional therapeutics needing more evidence. The paper emphasizes assessing direct and indirect effects for these drugs.",
       "highlights": [
-        "GLP-1 receptor therapeutics are proposed as transitional longevity interventions.",
-        "Rigorous testing is recommended to validate their potential lifespan benefits.",
-        "Further evidence is needed to clarify both direct and indirect physiological impacts."
+        "GLP-1 receptor antagonists classified as transitional longevity therapeutics",
+        "Need for more evidence on direct and indirect effects",
+        "Title calls for rigorous testing of agonists"
       ],
       "items": [
         {
@@ -2059,7 +186,7 @@
           "link": "https://www.nature.com/articles/s44360-026-00109-x",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The article proposes classifying GLP-1 receptor therapeutics as transitional longevity treatments that warrant rigorous clinical testing. Additional evidence is required to fully assess their direct and indirect effects on aging."
+          "tldr": "The paper's title argues for testing GLP-1 receptor agonists as longevity therapeutics. The body text states that GLP-1 receptor antagonists are transitional but require additional evidence to evaluate their effects."
         }
       ]
     },
@@ -2070,11 +197,11 @@
       "feed_url": "https://www.nature.com/nm.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "This Nature Medicine digest covers recent findings in infectious disease surveillance, environmental impacts on neurodegeneration, and Alzheimer’s therapeutic development. Researchers identified the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, highlighting the need for enhanced genomic monitoring. A multinational exposome study linked social factors to accelerated functional brain aging and physical factors to structural brain aging. Additionally, experts established target product profiles to guide the development of therapies aimed at delaying or preventing symptomatic Alzheimer’s disease.",
+      "tldr": "This digest features a study identifying a new monkeypox virus lineage and co-circulation risks in the Republic of the Congo. Another analysis across 34 countries links social exposures to faster functional brain aging and physical exposures to faster structural brain aging. Finally, target product profiles are outlined for Alzheimer's therapies to delay or prevent symptomatic onset.",
       "highlights": [
-        "Co-circulation of three monkeypox virus clades detected in the Republic of the Congo, underscoring recombination risks.",
-        "Cross-national analysis links social exposures to functional brain aging and physical exposures to structural brain aging.",
-        "New target product profiles established to standardize and accelerate Alzheimer’s disease prevention therapies."
+        "Monkeypox virus clade IIb lineage A.2.2 found in Congo with co-circulation of clades Ia, Ib, and IIb.",
+        "Social exposures accelerate functional brain aging; physical exposures accelerate structural brain aging.",
+        "Benchmarks proposed for Alzheimer's treatments to delay or prevent clinical symptoms."
       ],
       "items": [
         {
@@ -2082,21 +209,21 @@
           "link": "https://www.nature.com/articles/s41591-026-04256-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside co-circulating clades Ia, Ib, and IIb. The findings highlight the need for improved genomic surveillance to monitor potential viral recombination events."
+          "tldr": "Whole-genome phylogenetic analyses identified a case of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clades Ia, Ib, and IIb, emphasizing improved surveillance due to recombination risks."
         },
         {
           "title": "The exposome of brain aging across 34 countries",
           "link": "https://www.nature.com/articles/s41591-026-04302-z",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "An exposome analysis spanning 34 countries found that social exposures correlate with accelerated functional brain aging, while physical exposures are linked to faster structural brain aging."
+          "tldr": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging, while physical exposures are associated with faster structural brain aging."
         },
         {
           "title": "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease",
           "link": "https://www.nature.com/articles/s41591-026-04305-w",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The authors define target product profiles to establish clear development benchmarks for therapies intended to delay or prevent the clinical onset of Alzheimer’s disease."
+          "tldr": "Authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease to accelerate development and provide benchmarks."
         }
       ]
     },
@@ -2107,11 +234,11 @@
       "feed_url": "https://www.nature.com/nmicrobiol.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "This digest covers recent findings in microbial ecology, horizontal gene transfer regulation, and host-pathogen interactions. Large-scale metagenomic analysis uncovers hundreds of thousands of previously uncharacterized bacterial and archaeal lineages hidden in unbinned sequence data. Research on Bacillus subtilis identifies a conserved endonuclease family that restricts plasmid exchange through cellular nanotubes. Additionally, studies on tuberculosis reveal that cholesterol buildup in granulomas disrupts critical immune cell communication and compromises infection control.",
+      "tldr": "This digest includes studies on microbial diversity expansion through unbinned contigs, a mechanism blocking plasmid transfer via endonucleases, and lipid-mediated impairment of immune responses in tuberculosis. The first paper reveals vast hidden prokaryotic diversity in global metagenomes, the second describes YokF endonuclease inhibiting nanotube-mediated plasmid exchange, and the third shows cholesterol accumulation in TB granulomas disrupts macrophage-T cell interactions.",
       "highlights": [
-        "Metagenomic clustering of unbinned contigs predicts over 700,000 new bacterial and archaeal species-level clades globally.",
-        "The YokF endonuclease family restricts nanotube-mediated plasmid transfer in Bacillus subtilis and other Gram-positive bacteria.",
-        "Cholesterol accumulation in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and weakens anti-tuberculosis immunity."
+        "Unbinned contigs in metagenomes uncover hundreds of thousands of new bacterial and archaeal species, with soils and aquatic environments as hotspots.",
+        "YokF endonuclease provides a donor-controlled block to plasmid transfer via nanotubes in Bacillus subtilis, with homologues in Gram-positive bacteria.",
+        "Cholesterol overload in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions, compromising anti-tuberculosis immunity."
       ],
       "items": [
         {
@@ -2119,31 +246,38 @@
           "link": "https://www.nature.com/articles/s41564-026-02314-6",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "article",
-          "tldr": "Analysis of over 92,000 metagenomes reveals approximately 705,000 bacterial and 27,000 archaeal species-level clades, primarily recovered from unbinned contigs. The study identifies hundreds of new phyla and demonstrates that prokaryotic diversity follows consistent power-law distributions across habitats."
+          "tldr": "Analysis of 92,187 metagenomes predicts ~705,000 bacterial and ~27,000 archaeal species-level clades, mostly hidden in unbinned contigs, and identifies soils and aquatic environments as hotspots of discoverable lineages."
         },
         {
           "title": "A family of endonucleases blocks nanotube-mediated plasmid exchange",
           "link": "https://www.nature.com/articles/s41564-026-02293-8",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The YokF endonuclease acts as a donor-controlled mechanism that restricts plasmid transfer between Bacillus subtilis cells via intercellular nanotubes. Functional homologues of this restriction system are conserved across diverse Gram-positive bacteria."
+          "tldr": "YokF endonuclease limits plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with functional homologues found across Gram-positive bacterial species."
         },
         {
           "title": "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control",
           "link": "https://www.nature.com/articles/s41564-026-02317-3",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Spatial transcriptomics and microscopy of human and mouse samples show that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions. This lipid overload subsequently impairs the host's ability to control the infection."
+          "tldr": "Spatial transcriptomics and microscopy reveal that infection-driven cholesterol accumulation in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and anti-tuberculosis immunity."
         }
       ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "feed": "bioRxiv Subject Collection: Bioinformatics",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: LLM response did not contain a TLDR."
+    },
+    {
+      "feed": "Nature Computational Science",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: LLM response did not contain a TLDR."
+    }
+  ],
   "categories": [
-    "Blogs",
-    "Forum",
-    "Github",
-    "News",
     "Papers"
   ]
 }
