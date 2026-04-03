@@ -910,28 +910,35 @@ def render_site(report: dict[str, Any]) -> str:
             for feed in report["feeds"]:
                 if feed["category"] != category:
                     continue
+                item_count = feed["item_count"]
                 item_list = "".join(
                     render_item(item) for item in feed["items"]
                 )
+                highlights_html = "".join(
+                    f"<li>{escape(point)}</li>" for point in feed["highlights"]
+                )
                 category_cards.append(
                     f"""
-                    <article class="feed-card">
-                      <div class="feed-head">
+                    <article class="feed">
+                      <div class="feed-hd">
                         <div>
-                          <h3><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></h3>
-                          <p class="meta">{escape(feed['item_count'].__str__())} retained item(s)</p>
+                          <div class="feed-title"><a href="{escape(feed['site_url'])}">{escape(feed['title'])}</a></div>
+                          <div class="feed-meta">{item_count} items</div>
                         </div>
-                        <a class="rss-link" href="{escape(feed['feed_url'])}">RSS</a>
+                        <a class="rss-badge" href="{escape(feed['feed_url'])}">RSS</a>
                       </div>
                       <p class="tldr">{escape(feed['tldr'])}</p>
-                      <ul class="highlights">{''.join(f'<li>{escape(point)}</li>' for point in feed['highlights'])}</ul>
-                      <ul class="items">{item_list}</ul>
+                      <ul class="highlights">{highlights_html}</ul>
+                      <details>
+                        <summary>All {item_count} items</summary>
+                        <ul class="items">{item_list}</ul>
+                      </details>
                     </article>
                     """
                 )
             cards.append(
                 f"""
-                <section class="category-block">
+                <section class="category">
                   <h2>{escape(category)}</h2>
                   <div class="feed-grid">{''.join(category_cards)}</div>
                 </section>
@@ -940,10 +947,10 @@ def render_site(report: dict[str, Any]) -> str:
     else:
         cards.append(
             """
-            <section class="empty-state">
-              <h2>No retained items</h2>
+            <div class="empty">
+              <p>No retained items</p>
               <p>The workflow completed, but there are no items currently being kept on the page.</p>
-            </section>
+            </div>
             """
         )
 
@@ -968,102 +975,200 @@ def render_site(report: dict[str, Any]) -> str:
             <title>{escape(report['site_title'])}</title>
             <style>
               :root {{
-                color-scheme: light dark;
-                --bg: #0b1020;
-                --panel: rgba(20, 28, 52, 0.88);
-                --panel-soft: rgba(255, 255, 255, 0.06);
-                --text: #edf2ff;
-                --muted: #a7b2d1;
-                --accent: #7dd3fc;
-                --accent-2: #c084fc;
-                --border: rgba(255, 255, 255, 0.08);
+                --bg: #f4f4f5;
+                --surface: #ffffff;
+                --border: #e4e4e7;
+                --text: #18181b;
+                --muted: #71717a;
+                --accent: #2563eb;
+                --accent-bg: #dbeafe;
               }}
-              * {{ box-sizing: border-box; }}
+              @media (prefers-color-scheme: dark) {{
+                :root {{
+                  --bg: #09090b;
+                  --surface: #18181b;
+                  --border: #27272a;
+                  --text: #fafafa;
+                  --muted: #a1a1aa;
+                  --accent: #60a5fa;
+                  --accent-bg: #1e3a5f;
+                }}
+              }}
+              * {{ box-sizing: border-box; margin: 0; padding: 0; }}
               body {{
-                margin: 0;
-                font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-                background:
-                  radial-gradient(circle at top left, rgba(125, 211, 252, 0.18), transparent 28%),
-                  radial-gradient(circle at top right, rgba(192, 132, 252, 0.14), transparent 22%),
-                  var(--bg);
+                font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+                background: var(--bg);
                 color: var(--text);
+                font-size: 15px;
+                line-height: 1.5;
               }}
-              a {{ color: inherit; }}
-              .shell {{ max-width: 1200px; margin: 0 auto; padding: 32px 20px 64px; }}
-              .hero {{ margin-bottom: 28px; }}
-              .hero h1 {{ margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; }}
-              .hero p {{ margin: 0; color: var(--muted); max-width: 720px; }}
-              .stats {{
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-                gap: 12px;
-                margin: 24px 0 32px;
+              a {{ color: var(--accent); text-decoration: none; }}
+              a:hover {{ text-decoration: underline; }}
+              .shell {{ max-width: 960px; margin: 0 auto; padding: 40px 20px 80px; }}
+              .page-hd {{
+                padding-bottom: 24px;
+                margin-bottom: 28px;
+                border-bottom: 1px solid var(--border);
               }}
-              .stat-card, .feed-card, .errors, .empty-state {{
-                background: var(--panel);
+              .page-hd h1 {{
+                font-size: 1.6rem;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+                margin-bottom: 4px;
+              }}
+              .page-hd p {{ color: var(--muted); font-size: 0.88rem; }}
+              .stats {{ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 36px; }}
+              .stat {{
+                background: var(--surface);
                 border: 1px solid var(--border);
-                border-radius: 18px;
-                backdrop-filter: blur(16px);
-                box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+                border-radius: 6px;
+                padding: 8px 14px;
               }}
-              .stat-card {{ padding: 16px 18px; }}
-              .stat-label {{ margin: 0 0 8px; color: var(--muted); font-size: 0.92rem; }}
-              .stat-value {{ margin: 0; font-size: 1.6rem; font-weight: 700; }}
-              .category-block {{ margin-top: 30px; }}
-              .category-block h2 {{ margin: 0 0 14px; font-size: 1.1rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); }}
-              .feed-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }}
-              .feed-card {{ padding: 18px; }}
-              .feed-head {{ display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }}
-              .feed-head h3 {{ margin: 0 0 6px; font-size: 1.15rem; }}
-              .meta, .meta-note {{ margin: 0; color: var(--muted); font-size: 0.9rem; }}
-              .rss-link {{
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                padding: 8px 10px;
-                border-radius: 999px;
-                background: var(--panel-soft);
-                text-decoration: none;
-                font-size: 0.88rem;
+              .stat-label {{
+                font-size: 0.68rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.07em;
+                color: var(--muted);
+                margin-bottom: 2px;
               }}
-              .tldr {{ margin: 16px 0 14px; line-height: 1.6; }}
-              .highlights, .items, .errors ul {{ margin: 0; padding-left: 20px; }}
-              .highlights li, .items li, .errors li {{ margin: 0 0 10px; color: var(--muted); }}
-              .items a {{ color: var(--text); text-decoration: none; }}
-              .items a:hover, .feed-head a:hover {{ color: var(--accent); }}
-              .item-meta {{ display: block; color: var(--muted); font-size: 0.82rem; margin-top: 4px; }}
-              .errors, .empty-state {{ margin-top: 28px; padding: 18px; }}
-              @media (max-width: 720px) {{
-                .shell {{ padding: 20px 14px 48px; }}
-                .feed-head {{ flex-direction: column; }}
+              .stat-value {{ font-size: 0.9rem; font-weight: 600; }}
+              .category {{ margin-bottom: 44px; }}
+              .category h2 {{
+                font-size: 0.68rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: var(--muted);
+                padding-bottom: 8px;
+                margin-bottom: 14px;
+                border-bottom: 1px solid var(--border);
+              }}
+              .feed-grid {{
+                display: grid;
+                gap: 12px;
+                grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+              }}
+              .feed {{
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: 8px;
+                padding: 18px;
+              }}
+              .feed-hd {{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 8px;
+                margin-bottom: 10px;
+              }}
+              .feed-title {{ font-size: 0.95rem; font-weight: 600; }}
+              .feed-title a {{ color: var(--text); }}
+              .feed-title a:hover {{ color: var(--accent); text-decoration: none; }}
+              .feed-meta {{ font-size: 0.78rem; color: var(--muted); margin-top: 2px; }}
+              .rss-badge {{
+                font-size: 0.68rem;
+                font-weight: 700;
+                letter-spacing: 0.04em;
+                padding: 3px 7px;
+                border-radius: 4px;
+                background: var(--accent-bg);
+                color: var(--accent);
+                white-space: nowrap;
+                flex-shrink: 0;
+              }}
+              .rss-badge:hover {{ text-decoration: none; opacity: 0.75; }}
+              .tldr {{
+                font-size: 0.85rem;
+                color: var(--muted);
+                line-height: 1.65;
+                margin-bottom: 12px;
+              }}
+              .highlights {{ padding-left: 16px; }}
+              .highlights li {{ font-size: 0.84rem; margin-bottom: 3px; }}
+              details {{
+                margin-top: 12px;
+                border-top: 1px solid var(--border);
+                padding-top: 10px;
+              }}
+              details summary {{
+                font-size: 0.78rem;
+                color: var(--muted);
+                cursor: pointer;
+                user-select: none;
+                list-style: none;
+              }}
+              details summary::-webkit-details-marker {{ display: none; }}
+              details summary::before {{ content: "+ "; }}
+              details[open] summary::before {{ content: "- "; }}
+              details summary:hover {{ color: var(--accent); }}
+              .items {{ list-style: none; margin-top: 10px; }}
+              .items li {{
+                padding: 6px 0;
+                border-bottom: 1px solid var(--border);
+                font-size: 0.84rem;
+              }}
+              .items li:last-child {{ border-bottom: none; }}
+              .items a {{ color: var(--text); }}
+              .items a:hover {{ color: var(--accent); text-decoration: none; }}
+              .item-meta {{
+                display: block;
+                font-size: 0.72rem;
+                color: var(--muted);
+                margin-top: 1px;
+              }}
+              .errors {{
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: 8px;
+                padding: 18px;
+                margin-top: 28px;
+              }}
+              .errors h2 {{ font-size: 0.88rem; font-weight: 600; color: #dc2626; margin-bottom: 10px; }}
+              .errors ul {{ padding-left: 18px; font-size: 0.84rem; }}
+              .errors li {{ margin-bottom: 6px; }}
+              .empty {{
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: 8px;
+                padding: 48px 32px;
+                text-align: center;
+                color: var(--muted);
+                font-size: 0.9rem;
+              }}
+              .empty p + p {{ margin-top: 6px; }}
+              @media (max-width: 600px) {{
+                .shell {{ padding: 20px 14px 60px; }}
+                .page-hd h1 {{ font-size: 1.3rem; }}
+                .feed-grid {{ grid-template-columns: 1fr; }}
               }}
             </style>
           </head>
           <body>
             <main class="shell">
-              <section class="hero">
+              <header class="page-hd">
                 <h1>{escape(report['site_title'])}</h1>
                 <p>Daily AI TLDRs generated from your NetNewsWire OPML export and published with GitHub Actions.</p>
-              </section>
+              </header>
 
-              <section class="stats">
-                <article class="stat-card">
-                  <p class="stat-label">Updated</p>
-                  <p class="stat-value">{escape(report['generated_at_human'])}</p>
-                </article>
-                <article class="stat-card">
-                  <p class="stat-label">Feeds On Page</p>
-                  <p class="stat-value">{report['feeds_with_updates']}</p>
-                </article>
-                <article class="stat-card">
-                  <p class="stat-label">Items On Page</p>
-                  <p class="stat-value">{report['total_items']}</p>
-                </article>
-                <article class="stat-card">
-                  <p class="stat-label">Model</p>
-                  <p class="stat-value">{escape(report['model'])}</p>
-                </article>
-              </section>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-label">Updated</div>
+                  <div class="stat-value">{escape(report['generated_at_human'])}</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-label">Feeds</div>
+                  <div class="stat-value">{report['feeds_with_updates']}</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-label">Items</div>
+                  <div class="stat-value">{report['total_items']}</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-label">Model</div>
+                  <div class="stat-value">{escape(report['model'])}</div>
+                </div>
+              </div>
 
               {''.join(cards)}
               {errors_html}
