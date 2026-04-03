@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T06:32:15+00:00",
-  "generated_at_human": "2026-04-03 06:32 UTC",
+  "generated_at": "2026-04-03T07:52:31+00:00",
+  "generated_at_human": "2026-04-03 07:52 UTC",
   "model": "qwen/qwen3.6-plus:free",
   "summary_language": "English",
   "total_feeds": 32,
   "feeds_with_updates": 7,
-  "total_items": 97,
+  "total_items": 128,
   "feeds": [
     {
       "category": "Blogs",
@@ -33,15 +33,87 @@
       "title": "LINUX DO - 使用人工智能标记的话题",
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
-      "item_count": 33,
+      "item_count": 57,
       "skipped_count": 0,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 33 retained item(s) on the page. Key items include \"codex线程丢失解决方案\", \"Mimo Token Plan 这对吗？？？\", and \"[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债\".",
+      "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 57 retained item(s) on the page. Key items include \"关于 Accio 的使用QA\", \"gpt plus 怎么导入 cpa\", and \"佬友们怎么看像pantheon和The AI Scientist这样的AI科研？\".",
       "highlights": [
-        "codex线程丢失解决方案",
-        "Mimo Token Plan 这对吗？？？",
-        "[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债"
+        "关于 Accio 的使用QA",
+        "gpt plus 怎么导入 cpa",
+        "佬友们怎么看像pantheon和The AI Scientist这样的AI科研？"
       ],
       "items": [
+        {
+          "title": "关于 Accio 的使用QA",
+          "link": "https://linux.do/t/topic/1890321",
+          "published": "2026-04-03 07:50 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "gpt plus 怎么导入 cpa",
+          "link": "https://linux.do/t/topic/1890317",
+          "published": "2026-04-03 07:50 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "佬友们怎么看像pantheon和The AI Scientist这样的AI科研？",
+          "link": "https://linux.do/t/topic/1890311",
+          "published": "2026-04-03 07:49 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "需要一个便宜好用的开发 辅助工具",
+          "link": "https://linux.do/t/topic/1890306",
+          "published": "2026-04-03 07:48 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "谷歌开源模型 Gemma 4 发布了",
+          "link": "https://linux.do/t/topic/1890305",
+          "published": "2026-04-03 07:48 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "现在推荐用claude还是codex",
+          "link": "https://linux.do/t/topic/1890275",
+          "published": "2026-04-03 07:44 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Qwen Code里的Qwen3.6plus是假的吧？",
+          "link": "https://linux.do/t/topic/1890269",
+          "published": "2026-04-03 07:44 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "谷歌云创建服务器是自动使用赠金吗",
+          "link": "https://linux.do/t/topic/1890228",
+          "published": "2026-04-03 07:38 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "codex注册机还有救吗",
+          "link": "https://linux.do/t/topic/1890155",
+          "published": "2026-04-03 07:31 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "面向研究论文和实验写作流程的自动化工作台",
+          "link": "https://linux.do/t/topic/1890084",
+          "published": "2026-04-03 07:18 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "纪念我死去的 3 个 Claude 账号",
+          "link": "https://linux.do/t/topic/1890083",
+          "published": "2026-04-03 07:18 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "好像大家都是分享工具，没有人分享具体做了什么，我来抛个砖",
+          "link": "https://linux.do/t/topic/1889795",
+          "published": "2026-04-03 06:42 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "codex线程丢失解决方案",
           "link": "https://linux.do/t/topic/1889648",
@@ -103,9 +175,21 @@
           "source_kind": "feed"
         },
         {
+          "title": "any大善人呜呜，想你了",
+          "link": "https://linux.do/t/topic/1889235",
+          "published": "2026-04-03 05:27 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "各位佬们，有个问题想请教",
           "link": "https://linux.do/t/topic/1889228",
           "published": "2026-04-03 05:25 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "OpenRouter 上 Qwen3.6 Plus 正式版来了",
+          "link": "https://linux.do/t/topic/1889050",
+          "published": "2026-04-03 05:05 UTC",
           "source_kind": "feed"
         },
         {
@@ -157,9 +241,21 @@
           "source_kind": "feed"
         },
         {
+          "title": "Codex 最高500美元的活动",
+          "link": "https://linux.do/t/topic/1888541",
+          "published": "2026-04-03 03:40 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【求助】如何通过ccs在cc中用上gpt",
           "link": "https://linux.do/t/topic/1888002",
           "published": "2026-04-03 02:36 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "深入浅出 Claude Code（三）：从源码理解 Agent 系统，一个人指挥一支队伍",
+          "link": "https://linux.do/t/topic/1887895",
+          "published": "2026-04-03 02:17 UTC",
           "source_kind": "feed"
         },
         {
@@ -199,6 +295,18 @@
           "source_kind": "feed"
         },
         {
+          "title": "Claude Oauth登录刷 /buddy 宠物的方法找到了",
+          "link": "https://linux.do/t/topic/1873901",
+          "published": "2026-04-01 07:15 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "清华北邮团队700 star的Claude Code源码分析&1300行代码最小复现",
+          "link": "https://linux.do/t/topic/1873380",
+          "published": "2026-04-01 06:25 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【零元购】 SuperGrok Heavy $3000/年 白嫖实测（复活！！）",
           "link": "https://linux.do/t/topic/1872670",
           "published": "2026-04-01 04:56 UTC",
@@ -223,15 +331,51 @@
           "source_kind": "feed"
         },
         {
+          "title": "分享一下常用的网页端大模型厂商与点评",
+          "link": "https://linux.do/t/topic/1842687",
+          "published": "2026-03-28 13:41 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【NihaoAPI】sonnet4.6 稍微升级了一下 稳定性提高了",
           "link": "https://linux.do/t/topic/1837094",
           "published": "2026-03-27 11:00 UTC",
           "source_kind": "feed"
         },
         {
+          "title": "【开源】全新轻量级高性能的AI对话+AI本地网关桌面客户端",
+          "link": "https://linux.do/t/topic/1810247",
+          "published": "2026-03-25 01:45 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "合法开启官方claude code的pro/max订阅方案，实测有效",
+          "link": "https://linux.do/t/topic/1780808",
+          "published": "2026-03-19 02:02 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【CCG 自动化流 安装教程（纯风佬CCG）】更新教程！！！新佬友们别迷路！！！(老佬友们叙叙旧√)",
           "link": "https://linux.do/t/topic/1780710",
           "published": "2026-03-19 01:50 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "佬们，接了个外包，一个管理系统，求技术建议（Java、Vue 向）",
+          "link": "https://linux.do/t/topic/1746525",
+          "published": "2026-03-13 04:14 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【最强AI Agent】 π 使用教程",
+          "link": "https://linux.do/t/topic/1680124",
+          "published": "2026-03-02 14:34 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "［开源］Ai-Novel 强大的ai小说创作网站",
+          "link": "https://linux.do/t/topic/1678115",
+          "published": "2026-03-02 07:52 UTC",
           "source_kind": "feed"
         },
         {
@@ -287,15 +431,33 @@
       "title": "前沿快讯 - LINUX DO",
       "site_url": "https://linux.do/c/news/34",
       "feed_url": "https://linux.do/c/news/34.rss",
-      "item_count": 20,
+      "item_count": 23,
       "skipped_count": 0,
-      "tldr": "前沿快讯 - LINUX DO currently has 20 retained item(s) on the page. Key items include \"Zread推出Zread CLI\", \"axios3/31被投毒，盗号的手段居然是社会工程学攻击\", and \"Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频\".",
+      "tldr": "前沿快讯 - LINUX DO currently has 23 retained item(s) on the page. Key items include \"CNNIC域名隐私保护将于4月10日调整为免费\", \"gpt Business 价格下调\", and \"ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件\".",
       "highlights": [
-        "Zread推出Zread CLI",
-        "axios3/31被投毒，盗号的手段居然是社会工程学攻击",
-        "Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频"
+        "CNNIC域名隐私保护将于4月10日调整为免费",
+        "gpt Business 价格下调",
+        "ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件"
       ],
       "items": [
+        {
+          "title": "CNNIC域名隐私保护将于4月10日调整为免费",
+          "link": "https://linux.do/t/topic/1890163",
+          "published": "2026-04-03 07:31 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "gpt Business 价格下调",
+          "link": "https://linux.do/t/topic/1889891",
+          "published": "2026-04-03 06:55 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件",
+          "link": "https://linux.do/t/topic/1889790",
+          "published": "2026-04-03 06:41 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "Zread推出Zread CLI",
           "link": "https://linux.do/t/topic/1889422",
@@ -423,9 +585,9 @@
       "title": "王志安 - YouTube",
       "site_url": "https://www.youtube.com/@wangzhian",
       "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
-      "item_count": 33,
+      "item_count": 35,
       "skipped_count": 0,
-      "tldr": "王志安 - YouTube currently has 33 retained item(s) on the page. Key items include \"接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】\", \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", and \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\".",
+      "tldr": "王志安 - YouTube currently has 35 retained item(s) on the page. Key items include \"接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】\", \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\", and \"中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402\".",
       "highlights": [
         "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
         "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
@@ -565,6 +727,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
+          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
+          "published": "2026-03-24 07:14 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
           "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
           "published": "2026-03-24 06:33 UTC",
@@ -629,6 +797,12 @@
           "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
           "published": "2026-03-20 06:33 UTC",
           "source_kind": "feed"
+        },
+        {
+          "title": "哈梅内伊丧生，流亡海外的伊朗民众喜极而泣｜新闻特写20260301",
+          "link": "https://www.youtube.com/watch?v=OsuDCwACYWI",
+          "published": "2026-03-01 09:26 UTC",
+          "source_kind": "feed"
         }
       ]
     },
@@ -677,14 +851,27 @@
       "title": "Nature Communications",
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "feed_url": "https://www.nature.com/ncomms.rss",
-      "item_count": 2,
+      "item_count": 4,
       "skipped_count": 0,
-      "tldr": "Nature Communications currently has 2 retained item(s) on the page. Key items include \"Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal\" and \"Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials\".",
+      "tldr": "Nature Communications currently has 4 retained item(s) on the page. Key items include \"Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%\", \"A conversational multi-agent AI system for automated plant phenotyping\", and \"Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal\".",
       "highlights": [
-        "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
-        "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials"
+        "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
+        "A conversational multi-agent AI system for automated plant phenotyping",
+        "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal"
       ],
       "items": [
+        {
+          "title": "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
+          "link": "https://www.nature.com/articles/s41467-026-71389-w",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "A conversational multi-agent AI system for automated plant phenotyping",
+          "link": "https://www.nature.com/articles/s41467-026-71090-y",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
           "link": "https://www.nature.com/articles/s41467-026-71353-8",
@@ -712,11 +899,6 @@
       "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     },
     {
-      "feed": "HannesStark's GitHub activities",
-      "category": "Github",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
       "feed": "luost26's GitHub activities",
       "category": "Github",
       "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
@@ -734,7 +916,7 @@
     {
       "feed": "bioRxiv Subject Collection: Bioinformatics",
       "category": "Papers",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+      "message": "Feed fetch failed: The read operation timed out"
     },
     {
       "feed": "Nature Communications",
