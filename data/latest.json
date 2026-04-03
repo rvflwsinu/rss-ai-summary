@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T07:52:31+00:00",
-  "generated_at_human": "2026-04-03 07:52 UTC",
+  "generated_at": "2026-04-03T11:39:44+00:00",
+  "generated_at_human": "2026-04-03 11:39 UTC",
   "model": "qwen/qwen3.6-plus:free",
   "summary_language": "English",
   "total_feeds": 32,
-  "feeds_with_updates": 7,
-  "total_items": 128,
+  "feeds_with_updates": 11,
+  "total_items": 174,
   "feeds": [
     {
       "category": "Blogs",
@@ -33,15 +33,117 @@
       "title": "LINUX DO - 使用人工智能标记的话题",
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
-      "item_count": 57,
+      "item_count": 80,
       "skipped_count": 0,
-      "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 57 retained item(s) on the page. Key items include \"关于 Accio 的使用QA\", \"gpt plus 怎么导入 cpa\", and \"佬友们怎么看像pantheon和The AI Scientist这样的AI科研？\".",
+      "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 80 retained item(s) on the page. Key items include \"MinerU api不需要申请了，可以直接创建\", \"假如你是图灵\", and \"Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施\".",
       "highlights": [
-        "关于 Accio 的使用QA",
-        "gpt plus 怎么导入 cpa",
-        "佬友们怎么看像pantheon和The AI Scientist这样的AI科研？"
+        "MinerU api不需要申请了，可以直接创建",
+        "假如你是图灵",
+        "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施"
       ],
       "items": [
+        {
+          "title": "MinerU api不需要申请了，可以直接创建",
+          "link": "https://linux.do/t/topic/1891665",
+          "published": "2026-04-03 11:28 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "假如你是图灵",
+          "link": "https://linux.do/t/topic/1891661",
+          "published": "2026-04-03 11:26 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施",
+          "link": "https://linux.do/t/topic/1891653",
+          "published": "2026-04-03 11:25 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "悲报，arena似乎无法直接选择opus对话了（疑似部分帐号被ban）",
+          "link": "https://linux.do/t/topic/1891543",
+          "published": "2026-04-03 10:58 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "一键创建OpenClaw多Agent，全程零代码操作",
+          "link": "https://linux.do/t/topic/1891493",
+          "published": "2026-04-03 10:48 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "gemma 4能力怎么样？",
+          "link": "https://linux.do/t/topic/1891397",
+          "published": "2026-04-03 10:27 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "预估一下codex plus的周限",
+          "link": "https://linux.do/t/topic/1891352",
+          "published": "2026-04-03 10:18 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "想问问各位大佬怎么才能更好的调教小龙虾，能够成为贾维斯，目前我的感觉还不是很智能，我调整了好多遍，喂了数据安装了热门skill，还是这样",
+          "link": "https://linux.do/t/topic/1891302",
+          "published": "2026-04-03 10:08 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Mac Gemma4-31b",
+          "link": "https://linux.do/t/topic/1891275",
+          "published": "2026-04-03 10:02 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "修了一周gpt注册机后，我觉悟了",
+          "link": "https://linux.do/t/topic/1891102",
+          "published": "2026-04-03 09:33 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "[萌新]分享一个2026-04-17到期的百度千帆 Coding Plan Lite",
+          "link": "https://linux.do/t/topic/1890982",
+          "published": "2026-04-03 09:15 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "iFlow cli复活计划",
+          "link": "https://linux.do/t/topic/1890951",
+          "published": "2026-04-03 09:11 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "恢复Claude code和codex会话内容的脚本",
+          "link": "https://linux.do/t/topic/1890871",
+          "published": "2026-04-03 08:59 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "有佬友知道GPT API的effort和网页端推理强度之间的对应关系吗？",
+          "link": "https://linux.do/t/topic/1890823",
+          "published": "2026-04-03 08:53 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "CPA号池这样显示是咋了",
+          "link": "https://linux.do/t/topic/1890686",
+          "published": "2026-04-03 08:35 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "为什么 Any Router 登录后总是出现“错误：请尝试清除 Cookie后重新登录”",
+          "link": "https://linux.do/t/topic/1890675",
+          "published": "2026-04-03 08:34 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "关于team跟plus，实在弄不到free了",
+          "link": "https://linux.do/t/topic/1890663",
+          "published": "2026-04-03 08:32 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "关于 Accio 的使用QA",
           "link": "https://linux.do/t/topic/1890321",
@@ -259,6 +361,18 @@
           "source_kind": "feed"
         },
         {
+          "title": "Gemma4也太强了",
+          "link": "https://linux.do/t/topic/1887617",
+          "published": "2026-04-03 01:34 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "[Dooong AI 关门了] 天才程序员复活 公益站GPT5~5.4(CodeX) 开放注册",
+          "link": "https://linux.do/t/topic/1886945",
+          "published": "2026-04-02 18:39 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "简单测下Gemma4-31b-it",
           "link": "https://linux.do/t/topic/1886908",
           "published": "2026-04-02 18:20 UTC",
@@ -325,6 +439,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "15元充1个月ChatGPT plus ？",
+          "link": "https://linux.do/t/topic/1851411",
+          "published": "2026-03-30 06:47 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "国内的CodingPlan哪个比较好？",
           "link": "https://linux.do/t/topic/1847860",
           "published": "2026-03-29 14:35 UTC",
@@ -349,6 +469,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "开源了一个本地 Web 应用，用于浏览、搜索和管理 AI 编程助手的对话历史,",
+          "link": "https://linux.do/t/topic/1788896",
+          "published": "2026-03-20 09:02 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "合法开启官方claude code的pro/max订阅方案，实测有效",
           "link": "https://linux.do/t/topic/1780808",
           "published": "2026-03-19 02:02 UTC",
@@ -367,6 +493,12 @@
           "source_kind": "feed"
         },
         {
+          "title": "成为L站会员，在这个时代你已经领先了90%的人，但为什么没赚到钱?",
+          "link": "https://linux.do/t/topic/1721707",
+          "published": "2026-03-10 17:32 UTC",
+          "source_kind": "feed"
+        },
+        {
           "title": "【最强AI Agent】 π 使用教程",
           "link": "https://linux.do/t/topic/1680124",
           "published": "2026-03-02 14:34 UTC",
@@ -376,6 +508,12 @@
           "title": "［开源］Ai-Novel 强大的ai小说创作网站",
           "link": "https://linux.do/t/topic/1678115",
           "published": "2026-03-02 07:52 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【2026-3-10官方已修复该问题，此贴终结】尝试解决 ClaudeCode在Windows环境下/copy乱码问题",
+          "link": "https://linux.do/t/topic/1670183",
+          "published": "2026-02-28 07:53 UTC",
           "source_kind": "feed"
         },
         {
@@ -431,15 +569,81 @@
       "title": "前沿快讯 - LINUX DO",
       "site_url": "https://linux.do/c/news/34",
       "feed_url": "https://linux.do/c/news/34.rss",
-      "item_count": 23,
+      "item_count": 34,
       "skipped_count": 0,
-      "tldr": "前沿快讯 - LINUX DO currently has 23 retained item(s) on the page. Key items include \"CNNIC域名隐私保护将于4月10日调整为免费\", \"gpt Business 价格下调\", and \"ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件\".",
+      "tldr": "前沿快讯 - LINUX DO currently has 34 retained item(s) on the page. Key items include \"codex 量大管饱的时代可能要结束力\", \"【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5\", and \"claude 接管\".",
       "highlights": [
-        "CNNIC域名隐私保护将于4月10日调整为免费",
-        "gpt Business 价格下调",
-        "ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件"
+        "codex 量大管饱的时代可能要结束力",
+        "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
+        "claude 接管"
       ],
       "items": [
+        {
+          "title": "codex 量大管饱的时代可能要结束力",
+          "link": "https://linux.do/t/topic/1891680",
+          "published": "2026-04-03 11:32 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
+          "link": "https://linux.do/t/topic/1891453",
+          "published": "2026-04-03 10:37 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "claude 接管",
+          "link": "https://linux.do/t/topic/1891313",
+          "published": "2026-04-03 10:10 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知_中央网络安全和信息化委员会办公室 |『转』",
+          "link": "https://linux.do/t/topic/1891269",
+          "published": "2026-04-03 10:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "dmit 暂时关闭lax pro自主更改ip功能",
+          "link": "https://linux.do/t/topic/1891218",
+          "published": "2026-04-03 09:53 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Google这是要彻底放弃AntiGravity了？",
+          "link": "https://linux.do/t/topic/1891026",
+          "published": "2026-04-03 09:21 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "codex 2倍活动已结束(2026.4.3-17:00)",
+          "link": "https://linux.do/t/topic/1891017",
+          "published": "2026-04-03 09:19 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "github更新代码隐私政策了",
+          "link": "https://linux.do/t/topic/1890831",
+          "published": "2026-04-03 08:54 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "【已恢复】deepseek叒异常了",
+          "link": "https://linux.do/t/topic/1890738",
+          "published": "2026-04-03 08:41 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "谷歌 Gemini API 平台新增优先级，加钱可以确保 AI 算力优先分配给你",
+          "link": "https://linux.do/t/topic/1890708",
+          "published": "2026-04-03 08:38 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Slack 停用在中国大陆、澳门、香港的工作区",
+          "link": "https://linux.do/t/topic/1890622",
+          "published": "2026-04-03 08:27 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "CNNIC域名隐私保护将于4月10日调整为免费",
           "link": "https://linux.do/t/topic/1890163",
@@ -851,15 +1055,33 @@
       "title": "Nature Communications",
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "feed_url": "https://www.nature.com/ncomms.rss",
-      "item_count": 4,
+      "item_count": 7,
       "skipped_count": 0,
-      "tldr": "Nature Communications currently has 4 retained item(s) on the page. Key items include \"Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%\", \"A conversational multi-agent AI system for automated plant phenotyping\", and \"Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal\".",
+      "tldr": "Nature Communications currently has 7 retained item(s) on the page. Key items include \"Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries\", \"A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds\", and \"Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission\".",
       "highlights": [
-        "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
-        "A conversational multi-agent AI system for automated plant phenotyping",
-        "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal"
+        "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
+        "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
+        "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission"
       ],
       "items": [
+        {
+          "title": "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
+          "link": "https://www.nature.com/articles/s41467-026-71305-2",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
+          "link": "https://www.nature.com/articles/s41467-026-71509-6",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission",
+          "link": "https://www.nature.com/articles/s41467-026-71429-5",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
         {
           "title": "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
           "link": "https://www.nature.com/articles/s41467-026-71389-w",
@@ -885,6 +1107,121 @@
           "source_kind": "feed"
         }
       ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Computational Science",
+      "site_url": "http://feeds.nature.com/natcomputsci/rss/current",
+      "feed_url": "https://www.nature.com/natcomputsci.rss",
+      "item_count": 2,
+      "skipped_count": 0,
+      "tldr": "Nature Computational Science currently has 2 retained item(s) on the page. Key items include \"Universal restoration of medical images\" and \"Benchmarking alignment methods for spatial transcriptomics data\".",
+      "highlights": [
+        "Universal restoration of medical images",
+        "Benchmarking alignment methods for spatial transcriptomics data"
+      ],
+      "items": [
+        {
+          "title": "Universal restoration of medical images",
+          "link": "https://www.nature.com/articles/s43588-026-00975-1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Benchmarking alignment methods for spatial transcriptomics data",
+          "link": "https://www.nature.com/articles/s43588-026-00977-z",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Health",
+      "site_url": "http://feeds.nature.com/naturehealth/rss/current",
+      "feed_url": "https://www.nature.com/naturehealth.rss",
+      "item_count": 1,
+      "skipped_count": 0,
+      "tldr": "Nature Health currently has 1 retained item(s) on the page. Key items include \"GLP-1 receptor agonists should be rigorously tested as longevity therapeutics\".",
+      "highlights": [
+        "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics"
+      ],
+      "items": [
+        {
+          "title": "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics",
+          "link": "https://www.nature.com/articles/s44360-026-00109-x",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Medicine",
+      "site_url": "http://feeds.nature.com/nm/rss/current",
+      "feed_url": "https://www.nature.com/nm.rss",
+      "item_count": 3,
+      "skipped_count": 0,
+      "tldr": "Nature Medicine currently has 3 retained item(s) on the page. Key items include \"Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb\", \"The exposome of brain aging across 34 countries\", and \"Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease\".",
+      "highlights": [
+        "Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb",
+        "The exposome of brain aging across 34 countries",
+        "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease"
+      ],
+      "items": [
+        {
+          "title": "Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb",
+          "link": "https://www.nature.com/articles/s41591-026-04256-2",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "The exposome of brain aging across 34 countries",
+          "link": "https://www.nature.com/articles/s41591-026-04302-z",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease",
+          "link": "https://www.nature.com/articles/s41591-026-04305-w",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Microbiology",
+      "site_url": "http://feeds.nature.com/nmicrobiol/rss/current",
+      "feed_url": "https://www.nature.com/nmicrobiol.rss",
+      "item_count": 3,
+      "skipped_count": 0,
+      "tldr": "Nature Microbiology currently has 3 retained item(s) on the page. Key items include \"Unbinned contigs expand known diversity in the global microbiome\", \"A family of endonucleases blocks nanotube-mediated plasmid exchange\", and \"Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control\".",
+      "highlights": [
+        "Unbinned contigs expand known diversity in the global microbiome",
+        "A family of endonucleases blocks nanotube-mediated plasmid exchange",
+        "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control"
+      ],
+      "items": [
+        {
+          "title": "Unbinned contigs expand known diversity in the global microbiome",
+          "link": "https://www.nature.com/articles/s41564-026-02314-6",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "article"
+        },
+        {
+          "title": "A family of endonucleases blocks nanotube-mediated plasmid exchange",
+          "link": "https://www.nature.com/articles/s41564-026-02293-8",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        },
+        {
+          "title": "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control",
+          "link": "https://www.nature.com/articles/s41564-026-02317-3",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed"
+        }
+      ]
     }
   ],
   "errors": [
@@ -899,9 +1236,44 @@
       "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     },
     {
+      "feed": "gcorso's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "Guangxuan-Xiao's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "HannesStark's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "karpathy's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
       "feed": "luost26's GitHub activities",
       "category": "Github",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "OdinZhang's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "wenhao-gao's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
+    },
+    {
+      "feed": "WillHua127's GitHub activities",
+      "category": "Github",
+      "message": "Feed fetch failed: The read operation timed out"
     },
     {
       "feed": "LINUX DO - News",
@@ -911,15 +1283,35 @@
     {
       "feed": "王志安 - YouTube",
       "category": "News",
-      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+      "message": "Feed fetch failed: The read operation timed out"
     },
     {
       "feed": "bioRxiv Subject Collection: Bioinformatics",
       "category": "Papers",
-      "message": "Feed fetch failed: The read operation timed out"
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     },
     {
       "feed": "Nature Communications",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
+      "feed": "Nature Computational Science",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
+      "feed": "Nature Health",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
+      "feed": "Nature Medicine",
+      "category": "Papers",
+      "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
+    },
+    {
+      "feed": "Nature Microbiology",
       "category": "Papers",
       "message": "LLM summary failed, used fallback: HTTP 401 Unauthorized"
     }

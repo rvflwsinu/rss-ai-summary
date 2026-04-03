@@ -24,7 +24,7 @@
         "18698373498696f9f75479b2b0b970bf22aa70b95ecc5204f6773c8e4bc939c1",
         "ece7d794c1725162dc1a9bce1cfff55cd1017dbc38f8bafdcf9320c13670a19e"
       ],
-      "last_checked_at": "2026-04-03T07:52:32+00:00",
+      "last_checked_at": "2026-04-03T11:39:44+00:00",
       "feed_title": "furidamu",
       "pending_items": [],
       "site_url": "https://www.julian.ac/"
@@ -42,7 +42,7 @@
         "b5eefa012d6628992bc24d1507b8fe5db614b0fe41435a3dae0c4c46781dadf1",
         "318094fc16d213d2bdce4cfcabe341111c594a9fecbe585a62ed2b3f1cd2a5ad"
       ],
-      "last_checked_at": "2026-04-03T07:52:32+00:00",
+      "last_checked_at": "2026-04-03T11:39:44+00:00",
       "feed_title": "karpathy",
       "pending_items": [],
       "site_url": "https://karpathy.bearblog.dev/"
@@ -101,7 +101,7 @@
         "68921d2222b0e3f1cfe4eb07f2f63a0a14e70ae71cada5efe31986e494969f6e",
         "4236f3e954dabf5bd7af893cc6812a8c13ae05e15cef0a22cef342d47b1c3daa"
       ],
-      "last_checked_at": "2026-04-03T07:52:32+00:00",
+      "last_checked_at": "2026-04-03T11:39:44+00:00",
       "feed_title": "Lil'Log",
       "pending_items": [],
       "site_url": "https://lilianweng.github.io/"
@@ -113,7 +113,7 @@
         "63517c1387b3905aea468f6d623fc17d8a951aa6d16470bd4bb93fd99f356779",
         "2a49b479935bde52e4b120b2efcd5853a96687100e3f3d5c6633710078193873"
       ],
-      "last_checked_at": "2026-04-03T07:52:32+00:00",
+      "last_checked_at": "2026-04-03T11:39:44+00:00",
       "feed_title": "阮一峰的网络日志",
       "pending_items": [
         {
@@ -137,6 +137,29 @@
     },
     "https://linux.do/tag/444-tag/444.rss": {
       "seen_ids": [
+        "baa6b6f1bde953887fcb26a61d2b4e5b2245b230cc480132a4dc4df6e4173517",
+        "2d70b6d84c7903560c95352ab74d3f86203c754561d6f918b03ba3ac9aa5ab70",
+        "4e631c15279baf6cbb82db5e0a2808c74d2e37e52ad612a973b195d19c3f4f8e",
+        "1bc6c01192842fac7256e60c38122a2bbdd2db285641aab3237cc830e8d5021b",
+        "588c3b2659e36a41617a8e2fb44b663ac5f68f661173c70ec6a92c120cda9dc9",
+        "ec65ba4e8140c7353e007a91b8a84bd2fd2ba79bbfdec1baa78de2930b623857",
+        "1f912c071602c23edb3ae79c3299a27ca3ce3c6c454d4baf5cc4749285b8452e",
+        "bf67a2452f395b7aedf86170f13f2b8223a119411e647a79d93791770dde3df8",
+        "37889933ce2e5f5ed06883488bd9bf20e329b20fab3abd8ac3d4f7e87ed7228b",
+        "9c49877db02e7350bd1a30816b60749f1bd371dcaf9b855d199ce0a1b87df417",
+        "5fb12d104251a5d06240dc6a74109ad4d2e03767189646314056f58895ffde9f",
+        "d2ebf260f8ef31f1d4ee22243c11479ad95150f62618a778ab7ffaf1489bb2f8",
+        "89d77e006cdf1c0571552bf6576c386f6fe761c5e355ed40faf8b36a0715380e",
+        "2db298cf91fe747e4732d584c33e1bd60143a2778e5399926451e2faab12d10a",
+        "1b1a65093719d2b4b993fc53e2b499174e6dc1a282e2d6e959447008a0162c32",
+        "b168b2fba0d16d886e2d3d90981aaa4b92d37742a0dbbf301f50925cb8a2ea81",
+        "9172debdfee6c932a3965ce2d514cffd62f67a61aab6d3c306279f51b003f553",
+        "03e7a8681884fd3317b6857a245cded146ea41443644c5f9856b823775f3d41e",
+        "05f88b6d4e037e1e7b75729e90f55e55b52a9a0d170719899bee28b836a609e4",
+        "6eaa0160d124129e50fd827a43f32502b01135a84a10611b479ed36c0ae56cba",
+        "4df72e48ddf1f4dd8cc1c057b03d70416341eef02727a463bc569affe57be26a",
+        "d951694080edbcc6ab2e8708c880939af0238779b46a60b187dcc0f1cf2a2c8a",
+        "7174f674a95206b982f970ce27dbac28e5633f2a859532992f3a226798659e29",
         "d88b6f67b2f3af713a121300a224596db88f69f81989f8d7052cc7f5cab56738",
         "343c79f2961d51b6646c24ed1f603504a01ef98ae6a9a774f2d7396e6d8bb566",
         "93d5072db92d6bfdc1bd4ccd9e5feb79ff8d02d1d0404fbe33d1a21bdb34ea79",
@@ -310,9 +333,179 @@
         "cbcf014734d3520b8dfb7281a7d49609874738fd3ea4eee9ab149184d2946971",
         "f254e4522361be6ebe95ac1c1802a3f176557d587f8e9c6eb73fea6f8e2954f5"
       ],
-      "last_checked_at": "2026-04-03T07:52:34+00:00",
+      "last_checked_at": "2026-04-03T11:39:46+00:00",
       "feed_title": "LINUX DO - 使用人工智能标记的话题",
       "pending_items": [
+        {
+          "id": "baa6b6f1bde953887fcb26a61d2b4e5b2245b230cc480132a4dc4df6e4173517",
+          "signature": "103a70b43802be5ac18817e55500a909732a72a87b3ff51075cdfb306506ce88",
+          "title": "MinerU api不需要申请了，可以直接创建",
+          "link": "https://linux.do/t/topic/1891665",
+          "published": "2026-04-03 11:28 UTC",
+          "sort_key": 1775215720.0,
+          "source_kind": "feed",
+          "text": "如题。链接直达： MinerU - 高质量 PDF 文档解析与转换工具 | AI 文档提取 4 个帖子 - 2 位参与者 阅读完整话题 如题。链接直达： MinerU - 高质量 PDF 文档解析与转换工具 | AI 文档提取 4 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "2d70b6d84c7903560c95352ab74d3f86203c754561d6f918b03ba3ac9aa5ab70",
+          "signature": "070783a316f067313bf4d4b2d6f68269dff0c2640dfd0a2d2027acd84a637d92",
+          "title": "假如你是图灵",
+          "link": "https://linux.do/t/topic/1891661",
+          "published": "2026-04-03 11:26 UTC",
+          "sort_key": 1775215592.0,
+          "source_kind": "feed",
+          "text": "假如你是图灵，今天你复活了，然后你看到Claude等各种AI agent，你会说什么 10 个帖子 - 9 位参与者 阅读完整话题 假如你是图灵，今天你复活了，然后你看到Claude等各种AI agent，你会说什么 10 个帖子 - 9 位参与者 阅读完整话题"
+        },
+        {
+          "id": "4e631c15279baf6cbb82db5e0a2808c74d2e37e52ad612a973b195d19c3f4f8e",
+          "signature": "3a25d52c75984158a22bfd802c8a1897f70aee705ad5f1ead1fa7d2feb7333cb",
+          "title": "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施",
+          "link": "https://linux.do/t/topic/1891653",
+          "published": "2026-04-03 11:25 UTC",
+          "sort_key": 1775215529.0,
+          "source_kind": "feed",
+          "text": "推特热议的一个帖子。 佬友们有啥看法 国外还有 CC 圣教，难绷 3 个帖子 - 3 位参与者 阅读完整话题 推特热议的一个帖子。 佬友们有啥看法 国外还有 CC 圣教，难绷 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1bc6c01192842fac7256e60c38122a2bbdd2db285641aab3237cc830e8d5021b",
+          "signature": "3e20b3f43a1161f2fe78c513cb6e9aa1018d735ca5ac15155411f1b61dce68bb",
+          "title": "悲报，arena似乎无法直接选择opus对话了（疑似部分帐号被ban）",
+          "link": "https://linux.do/t/topic/1891543",
+          "published": "2026-04-03 10:58 UTC",
+          "sort_key": 1775213885.0,
+          "source_kind": "feed",
+          "text": "现在yupp也关掉了，目前似乎已经没有能够稳定白嫖opus的平台了 这对于我这种偶尔使用又懒得折腾的人是个坏消息 更新：同一节点同一浏览器把cookie删掉就有了，登录后又没了 12 个帖子 - 5 位参与者 阅读完整话题 现在yupp也关掉了，目前似乎已经没有能够稳定白嫖opus的平台了 这对于我这种偶尔使用又懒得折腾的人是个坏消息 更新：同一节点同一浏览器把cookie删掉就有了，登录后又没了 12 个帖子 - 5 位参与者 阅读完整话题"
+        },
+        {
+          "id": "588c3b2659e36a41617a8e2fb44b663ac5f68f661173c70ec6a92c120cda9dc9",
+          "signature": "dd73053de667e4796db4045fa3c0be52b0dbb8e2516deb0a25824928f244c4bb",
+          "title": "一键创建OpenClaw多Agent，全程零代码操作",
+          "link": "https://linux.do/t/topic/1891493",
+          "published": "2026-04-03 10:48 UTC",
+          "sort_key": 1775213316.0,
+          "source_kind": "feed",
+          "text": "网络上多的是教我们如何创建多个Agent的教程，列出一堆代码，现实是，如果我懂代码，我看你的教程干啥，如果我不懂代码，你给我的教程我也不敢复制粘贴，对于我这种不懂代码的人来说，就像是给我一个大肘子，和菜谱，我却无从下手，很难受、 那么我是怎么做的呢，我收藏了好几篇不同的作者写的教程，我真的看不出来有什么区别，但是内容有多有少，我就让我的openclaw一起总结，然后告诉他自己去操作，需要提供哪些信息就找我，最后，我需要做的就是去飞书创建几个机器人，开好权限，记住机器人的信息就好了，以下是openclaw给我的创建多Agent流程，我只需要做第一步即可，其他步骤等他走完流程，给他提供机器人信息就行了。 搭建流程，一共五步，你只需要做第一步的操作，即在飞书上创建机器人应用 第一步：创建飞书应用（你亲自准备） 有几个Agent，就创建几个飞书应用。（这一步参考网络教程即可，简单） 每个应用需要完成以下配置： 创建企业自建应用（填名称、描述、图标） 添加机器人 事件配置 → 选\"长连接接收事件\" → 添加\"接收消息\"事件 回调配置 → 选\"使用长连接接收回调\" 权限配置 → 批量导入权限JSON 发布应用 → 创建版本并提交审批 你需要给openclaw提供：每个飞书机器人的 App ID + App Secret 第二步：配置OpenClaw（openclaw来做） 以下涉及到代码的操作，你不需要看，你只要把本篇文章链接交给你的openclaw就可以了 需要修改 ~/.openclaw/openclaw.json，配置4个地方： 1.agents.list — 定义Agent团队 { “agents”: { “list”: [ { “id”: “main”, “default”: true, “name”: “大总管”, “workspace”: “/root/.openclaw/workspace” }, { “id”: “content”, “name”: “内容助理”, “workspace”: “/root/.openclaw/workspace-content” }, // … 其他Agent ] } } 2.channels.feishu — 飞书多账户配置 { “channels”: { “feishu”: { “enabled”: true, “dmPolicy”: “open”, “groupPolicy”: “open”, “accounts”: { “main”: { “appId”: “xxx”, “appSecret”: “xxx” }, “content”: { “appId”: “xxx”, “appSecret”: “xxx” } // … 其他账户 } } } } 3.bindings — 路由规则 { “bindings”: [ { “agentId”: “main”, “match”: { “channel”: “feishu”, “accountId”: “main” } }, { “agentId”: “content”, “match”: { “channel”: “feishu”, “accountId”: “content” } } // … 其他绑定 ] } 4.tools — 开启Agent间通信 { “tools”: { “sessions”: { “visibility”: “all” }, “agentToAgent”: { “enabled”: true, “allow”: [“main”, “content”, “dev”, “ops”] } } } 第三步：创建workspace目录（openclaw来做） mkdir -p /root/.openclaw/workspace-xxx/memory 每个Agent独立的workspace，需要创建目录。 第四步：写人设文件（openclaw来做） 每个Agent的workspace下需要创建： 文件 作用 SOUL.md Agent的灵魂（性格、语气、工作职责） AGENTS.md 团队通讯录（知道团队里有谁） USER.md 老板信息（知道给谁干活） IDENTITY.md Agent的身份卡片（可选） 第五步：重启Gateway并验证（openclaw来做） openclaw gateway restart openclaw channels status --probe 确认所有通道显示 works 就成功了！ 好了，你现在要做的，就是把你准备好的机器人信息给openclaw，让它开始创建新的agent分身即可，全程不用你复制粘贴代码，你要提供的信息很简单，基于 第一步你创建的机器人 ，提供以下信息： 每个飞书机器人的凭据 每个Agent的信息（也就是你想让它做什么） App ID 名字（用于显示） App Secret id（英文标识，用于配置） 职责（用来写SOUL.md） 总结： 如果你想创建多agent，并且每个agent都绑定一个飞书机器人，你要做的其实有两个步骤： 一、把这篇文章的链接发给你的openclaw，让它学习，它回复你说学会了，开始第二步 本文链接： 一键创建OpenClaw多Agent，全程不需要你操作 - OpenClaw中文文档 二、提供机器人的信息：（需要你自己编辑） 每个飞书机器人的凭据 每个Agent的信息（也就是你想让它做什么） App ID 名字（用于显示） App Secret id（英文标识，用于配置） 职责（用来写SOUL.md） 赶快创建你的机器人团队吧！ 5 个帖子 - 5 位参与者 阅读完整话题 网络上多的是教我们如何创建多个Agent的教程，列出一堆代码，现实是，如果我懂代码，我看你的教程干啥，如果我不懂代码，你给我的教程我也不敢复制粘贴，对于我这种不懂代码的人来说，就像是给我一个大肘子，和菜谱，我却无从下手，很难受、 那么我是怎么做的呢，我收藏了好几篇不同的作者写的教程，我真的看不出来有什么区别，但是内容有多有少，我就让我的openclaw一起总结，然后告诉他自己去操作，需要提供哪些信息就找我，最后，我需要做的就是去飞书创建几个机器人，开好权限，记住机器人的信息就好了，以下是openclaw给我的创建多Agent流程，我只需要做第一步即可，其他步骤等他走完流程，给他提供机器人信息就行了。 搭建流程，一共五步，你只需要做第一步的操作，即在飞书上创建机器人应用 第一步：创建飞书应用（你亲自准备） 有几个Agent，就创建几个飞书应用。（这一步参考网络教程即可，简单） 每个应用需要完成以下配置： 创建企业自建应用（填名称、描述、图标） 添加机器人 事件配置 → 选\"长连接接收事件\" → 添加\"接收消息\"事件 回调配置 → 选\"使用长连接接收回调\" 权限配置 → 批量导入权限JSON 发布应用 → 创建版本并提交审批 你需要给openclaw提供：每个飞书机器人的 App ID + App Secret 第二步：配置OpenClaw（openclaw来做） 以下涉及到代码的操作，你不需要看，你只要把本篇文章链接交给你的openclaw就可以了 需要修改 ~/.openclaw/openclaw.json，配置4个地方： 1.agents.list — 定义Agent团队 { “agents”: { “list”: [ { “id”: “main”, “default”: true, “name”: “大总管”, “workspace”: “/root/.openclaw/workspace” }, { “id”: “content”, “name”: “内容助理”, “workspace”: “/root/.openclaw/workspace-content” }, // … 其他Agent ] } } 2.channels.feishu — 飞书多账户配置 { “channels”: { “feishu”: { “enabled”: true, “dmPolicy”: “open”, “groupPolicy”: “open”, “accounts”: { “main”: { “appId”: “xxx”, “appSecret”: “xxx” }, “content”: { “appId”: “xxx”, “appSecret”: “xxx” } // … 其他账户 } } } } 3.bindings — 路由规则 { “bindings”: [ { “agentId”: “main”, “match”: { “channel”: “feishu”, “accountId”: “main” } }, { “agentId”: “content”, “match”: { “channel”: “feishu”, “accountId”: “content” } } // … 其他绑定 ] } 4.tools — 开启Agent间通信 { “tools”: { “sessions”: { “visibility”: “all” }, “agentToAgent”: { “enabled”: true, “allow”: [“main”, “content”, “dev”, “ops”] } } } 第三步：创建workspace目录（openclaw来做） mkdir -p /root/.openclaw/workspace-xxx/memory 每个Agent独立的workspace…"
+        },
+        {
+          "id": "ec65ba4e8140c7353e007a91b8a84bd2fd2ba79bbfdec1baa78de2930b623857",
+          "signature": "e5683e28c2fa9027b6cf29b7dfebea42306def36b2613901be250403cf8c164c",
+          "title": "gemma 4能力怎么样？",
+          "link": "https://linux.do/t/topic/1891397",
+          "published": "2026-04-03 10:27 UTC",
+          "sort_key": 1775212026.0,
+          "source_kind": "feed",
+          "text": "有佬友试过gemma4能力怎么样吗？ 和deepseek v3.2比起来怎么样？ 8 个帖子 - 8 位参与者 阅读完整话题 有佬友试过gemma4能力怎么样吗？ 和deepseek v3.2比起来怎么样？ 8 个帖子 - 8 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1f912c071602c23edb3ae79c3299a27ca3ce3c6c454d4baf5cc4749285b8452e",
+          "signature": "6a81925b827b5a9ffdcb32edeb01b760736d4e293495be9d5cdb7c823802a5d3",
+          "title": "预估一下codex plus的周限",
+          "link": "https://linux.do/t/topic/1891352",
+          "published": "2026-04-03 10:18 UTC",
+          "sort_key": 1775211519.0,
+          "source_kind": "feed",
+          "text": "今天弄了两个任务，看样子一周能蹬100$额度的样子 881K输入，57K是啥，13.2M Cache Read，170K Cache Write。总耗费4.7$，我看usage那边掉了4%的周限额。估算下就是100$到125$的样子。 8 个帖子 - 5 位参与者 阅读完整话题 今天弄了两个任务，看样子一周能蹬100$额度的样子 881K输入，57K是啥，13.2M Cache Read，170K Cache Write。总耗费4.7$，我看usage那边掉了4%的周限额。估算下就是100$到125$的样子。 8 个帖子 - 5 位参与者 阅读完整话题"
+        },
+        {
+          "id": "bf67a2452f395b7aedf86170f13f2b8223a119411e647a79d93791770dde3df8",
+          "signature": "c3121503a067846c9949a07a64a980f820d2f76f17b6465a1bf7b51193a6f6c8",
+          "title": "想问问各位大佬怎么才能更好的调教小龙虾，能够成为贾维斯，目前我的感觉还不是很智能，我调整了好多遍，喂了数据安装了热门skill，还是这样",
+          "link": "https://linux.do/t/topic/1891302",
+          "published": "2026-04-03 10:08 UTC",
+          "sort_key": 1775210901.0,
+          "source_kind": "feed",
+          "text": "想请问各位佬友怎么调教好小龙虾，更好的成为贾维斯，我特别希望能有一个贾维斯的助理 10 个帖子 - 6 位参与者 阅读完整话题 想请问各位佬友怎么调教好小龙虾，更好的成为贾维斯，我特别希望能有一个贾维斯的助理 10 个帖子 - 6 位参与者 阅读完整话题"
+        },
+        {
+          "id": "37889933ce2e5f5ed06883488bd9bf20e329b20fab3abd8ac3d4f7e87ed7228b",
+          "signature": "95c99afd8f88a310a98a7fe79d3da970db956eadf5653a6ded4d790d13bc4486",
+          "title": "Mac Gemma4-31b",
+          "link": "https://linux.do/t/topic/1891275",
+          "published": "2026-04-03 10:02 UTC",
+          "sort_key": 1775210529.0,
+          "source_kind": "feed",
+          "text": "m4pro 48G 1T 上下文32k 64k。 每秒token一样 前者响应时间快些，简单玩玩还行 3 个帖子 - 3 位参与者 阅读完整话题 m4pro 48G 1T 上下文32k 64k。 每秒token一样 前者响应时间快些，简单玩玩还行 3 个帖子 - 3 位参与者 阅读完整话题"
+        },
+        {
+          "id": "9c49877db02e7350bd1a30816b60749f1bd371dcaf9b855d199ce0a1b87df417",
+          "signature": "35cf47a110465f12accd8bb26582ed1e078429af2af96826b39aea5f9a28442c",
+          "title": "修了一周gpt注册机后，我觉悟了",
+          "link": "https://linux.do/t/topic/1891102",
+          "published": "2026-04-03 09:33 UTC",
+          "sort_key": 1775208792.0,
+          "source_kind": "feed",
+          "text": "最近修了一周gpt注册机后，身心疲惫。遇到各种失败各种问题，要么流程走不通、要么需要短信验证码、要么申请成功了露头被秒… 最终得出一个结论： 如果是自用Codex的，不要碰注册机了，除非是想要开中转站。 如果是自用Codex的，不要碰注册机了，除非是想要开中转站。 如果是自用Codex的，不要碰注册机了，除非是想要开中转站。 想拥有天才程序员，其实有两个靠谱的方式： 自己找些干净的节点、邮箱手动注册（其实几个都够用了）； 开通一个月免费plus，只要paypal+银联储蓄卡（无余额都行）。 以下分享下我怎么通过方式2开通plus： 提前准备：paypal+银联储蓄卡（无余额都行），干净的韩国节点，试过节点差会打不开free plan。 使用韩国节点登录gpt，其他节点好像也有free plan，可以试下。 进入套餐选购页面，右下角选择欧洲国家，我选择了德国 填账单时选择paypal，城市、地址、邮编可以让AI生成韩国免税商店地址，写英文就行。 enjoy~ PS：不确定一个paypal对应多张银联卡是否可以享用多次free plan，有懂的佬可以说下吗… 46 个帖子 - 35 位参与者 阅读完整话题 最近修了一周gpt注册机后，身心疲惫。遇到各种失败各种问题，要么流程走不通、要么需要短信验证码、要么申请成功了露头被秒… 最终得出一个结论： 如果是自用Codex的，不要碰注册机了，除非是想要开中转站。 如果是自用Codex的，不要碰注册机了，除非是想要开中转站。 如果是自用Codex的，不要碰注册机了，除非是想要开中转站。 想拥有天才程序员，其实有两个靠谱的方式： 自己找些干净的节点、邮箱手动注册（其实几个都够用了）； 开通一个月免费plus，只要paypal+银联储蓄卡（无余额都行）。 以下分享下我怎么通过方式2开通plus： 提前准备：paypal+银联储蓄卡（无余额都行），干净的韩国节点，试过节点差会打不开free plan。 使用韩国节点登录gpt，其他节点好像也有free plan，可以试下。 进入套餐选购页面，右下角选择欧洲国家，我选择了德国 填账单时选择paypal，城市、地址、邮编可以让AI生成韩国免税商店地址，写英文就行。 enjoy~ PS：不确定一个paypal对应多张银联卡是否可以享用多次free plan，有懂的佬可以说下吗… 46 个帖子 - 35 位参与者 阅读完整话题"
+        },
+        {
+          "id": "5fb12d104251a5d06240dc6a74109ad4d2e03767189646314056f58895ffde9f",
+          "signature": "0e48f710d7e1349c290ea0cb7bc245523c81a08e923415c1ce3c6d4da802df84",
+          "title": "[萌新]分享一个2026-04-17到期的百度千帆 Coding Plan Lite",
+          "link": "https://linux.do/t/topic/1890982",
+          "published": "2026-04-03 09:15 UTC",
+          "sort_key": 1775207710.0,
+          "source_kind": "feed",
+          "text": "买了差点儿忘了，一直没怎么蹬。 百度千帆这个也不支持多模态，虽然有GLM-5，但响应还比较慢，颇感失望。 一个月就用了0.8%. 4-17就要到期了 浪费可耻啊 需要的友佬来一起狠狠蹬。 (必须猛蹬 API Key ： Base64加密了 解密后使用 YmNlLXYzL0FMVEFLU1AtYnhOMDdBSmRpVEpKOFVtS3VkV1NxLzU0Yzk4MDc1ZTA0YzlhZDRmZjAyYzk5YjViYzNmYjQwZjNjM2RkNTU= 务必使用以下 Base URL OpenAI 协议兼容 https://qianfan.baidubce.com/v2/coding Anthropic 协议兼容 https://qianfan.baidubce.com/anthropic/coding 支持的模型： deepseek-v3.2 kimi-k2.5 glm-5 minimax-m2.5 ernie-4.5-turbo-20260402 文档： cloud.baidu.com Coding Plan - 百度千帆·大模型服务及Agent开发平台 百度智能云文档中心帮助大家了解百度智能云Coding Plan百度千帆·大模型服务及Agent开发平台的相关内容，帮助新用户更好的了解百度智能云，使用百度智能云产品。 Coding Plan Lite 每 5 小时：最多约 1,200 次请求 每周：最多约 9,000 次请求 每订阅月：最多约 18,000 次请求 还有其他的国产编码套餐选型没用完，之后看情况整理一下。 4 个帖子 - 4 位参与者 阅读完整话题 买了差点儿忘了，一直没怎么蹬。 百度千帆这个也不支持多模态，虽然有GLM-5，但响应还比较慢，颇感失望。 一个月就用了0.8%. 4-17就要到期了 浪费可耻啊 需要的友佬来一起狠狠蹬。 (必须猛蹬 API Key ： Base64加密了 解密后使用 YmNlLXYzL0FMVEFLU1AtYnhOMDdBSmRpVEpKOFVtS3VkV1NxLzU0Yzk4MDc1ZTA0YzlhZDRmZjAyYzk5YjViYzNmYjQwZjNjM2RkNTU= 务必使用以下 Base URL OpenAI 协议兼容 https://qianfan.baidubce.com/v2/coding Anthropic 协议兼容 https://qianfan.baidubce.com/anthropic/coding 支持的模型： deepseek-v3.2 kimi-k2.5 glm-5 minimax-m2.5 ernie-4.5-turbo-20260402 文档： cloud.baidu.com Coding Plan - 百度千帆·大模型服务及Agent开发平台 百度智能云文档中心帮助大家了解百度智能云Coding Plan百度千帆·大模型服务及Agent开发平台的相关内容，帮助新用户更好的了解百度智能云，使用百度智能云产品。 Coding Plan Lite 每 5 小时：最多约 1,200 次请求 每周：最多约 9,000 次请求 每订阅月：最多约 18,000 次请求 还有其他的国产编码套餐选型没用完，之后看情况整理一下。 4 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "d2ebf260f8ef31f1d4ee22243c11479ad95150f62618a778ab7ffaf1489bb2f8",
+          "signature": "da20f493d752abf51ae81b7ea710a2b9a69d580c868b5fd9b7629fb97b8663c8",
+          "title": "iFlow cli复活计划",
+          "link": "https://linux.do/t/topic/1890951",
+          "published": "2026-04-03 09:11 UTC",
+          "sort_key": 1775207460.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 自己照着iflow 的库做了个使用开源ollama本地部署的cli工具，做了已经好久了自从知道iflow要关了就开始了 ，优化来优化去其实还是比不上那些成品的，不嫌弃外观的可以考虑试试，毕竟才弄出来比较粗糙，后续还会继续优化改进，大家也都出出力吧，把iflow2.0搞出来！； 常用指令的话： /model可以切换模型选择 /mode可以切换任务模式和严格模式(Ask); /skills add global/local 可以选择全局还是当前会话安装自己的skills； /help可以查询指令 或者在进入nova cli之前，使用nova provider add -m 可以直接指定连接远端的服务（目前支持的厂商挺多的，基本都支持）； 这个工具其实做的挺简陋的，我只是把自己要用到的一些功能加进去了，其他的一些比如mcp、skills库的集成啥的，默认我只给了6个skills，包括模式的切换也只是想到这三种；平时比如说写写文案或者其他的调研服务啥的、测试任务啥的，应该是可以交给它去跑跑（本地机器不错的情况下可以试试英伟达的nemotron-cascade2模型，效果不错）；更大的任务建议还是先用一些已经有了的产品跑跑框架设计，比如CC、codex或者kimi cli这些，然后再在这个框架范围内，用nova去调整和优化后续的任务，这样或许比较省tokens（毕竟某泄露厂的应用tokens吞吐量惊人，动辄上百万）； 仓库地址我放在下面了 github.com GitHub - Nikolahuang/nova-cli: Next-generation AI-powered terminal assistant Next-generation AI-powered terminal assistant 现在安装方式是npm install -g nova-ai-terminal@latest 喜欢的佬友，麻烦给个fork和star呗~，这是我更新的动力~ 17 个帖子 - 12 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 自己照着iflow 的库做了个使用开源ollama本地部署的cli工具，做了已经好久了自从知道iflow要关了就开始了 ，优化来优化去其实还是比不上那些成品的，不嫌弃外观的可以考虑试试，毕竟才弄出来比较粗糙，后续还会继续优化改进，大家也都出出力吧，把iflow2.0搞出来！； 常用指令的话： /model可以切换模型选择 /mode可以切换任务模式和严格模式(Ask); /skills add global/local 可以选择全局还是当前会话安装自己的skills； /help可以查询指令 或者在进入nova cli之前，使用nova provider add -m 可以直接指定连接远端的服务（目前支持的厂商挺多的，基本都支持）； 这个工具其实做的挺简陋的，我只是把自己要用到的一些功能加进去了，其他的一些比如mcp、skills库的集成啥的，默认我只给了6个skills，包括模式的切换也只是想到这三种；平时比如说写写文案或者其他的调研服务啥的、测试任务啥的，应该是可以交给它去跑跑（本地机器不错的情况下可以试试英伟达的nemotron-cascade2模型，效果不错）；更大的任务建议还是先用一些已经有了的产品跑跑框架设计，比如CC、codex或者kimi cli这些，然后再在这个框架范围内，用nova去调整和优化后续的任务，这样或许比较省tokens（毕竟某泄露厂的应用tokens吞吐量惊人，动辄上百万）； 仓库地址我放在下面了 github.com GitHub - Nikolahuang/nova-cli: Next-generation AI-powered terminal assistant Next-generation AI-powered terminal assistant 现在安装方式是npm install -g nova-ai-terminal@latest 喜欢的佬友，麻烦给个fork和star呗~，这是我更新的动力~ 17 个帖子 - 12 位参与者 阅读完整话题"
+        },
+        {
+          "id": "89d77e006cdf1c0571552bf6576c386f6fe761c5e355ed40faf8b36a0715380e",
+          "signature": "f685d96647f1dfee71dc767032beb09ff4ebfc663a288ea33f10554a9c848934",
+          "title": "恢复Claude code和codex会话内容的脚本",
+          "link": "https://linux.do/t/topic/1890871",
+          "published": "2026-04-03 08:59 UTC",
+          "sort_key": 1775206791.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 正文 起初是因为使用时的一次会话丢失，/resume后依然看不到会话，问了ai说是因为api异常导致session丢失了，就是说api异常可能会导致会话丢失，所以就有了这个脚本 （但后面看到provider也会导致丢失，总之丢失的情况还是挺多的，不确定什么导致的） 代码： github.com GitHub - justamanm/restore_claude_session: Restore Claude Code and Codex session content from... Restore Claude Code and Codex session content from local persistent files. 作用 支持claude和codex的会话查看与导出 查找会话id、查看会话详情、导出会话内容 简单的会话过滤 使用示例/场景： 找到目标session id 使用session id将对话内容输出到文件中 告诉ai对话文件位置来实现上下文的导入 用法 python main.py 注： 1.可以先根据这个帖子先配置一致的provider，看是否可以解决切换api导致的丢失问题 终端使用ccswitch切换api导致codex历史会话丢失问题” 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 我是小白在终… 2.cc-switch中也可以查看全部的会话记录 3.环境：基于mac 5 个帖子 - 4 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 正文 起初是因为使用时的一次会话丢失，/resume后依然看不到会话，问了ai说是因为api异常导致session丢失了，就是说api异常可能会导致会话丢失，所以就有了这个脚本 （但后面看到provider也会导致丢失，总之丢失的情况还是挺多的，不确定什么导致的） 代码： github.com GitHub - justamanm/restore_claude_session: Restore Claude Code and Codex session content from... Restore Claude Code and Codex session content from local persistent files. 作用 支持claude和codex的会话查看与导出 查找会话id、查看会话详情、导出会话内容 简单的会话过滤 使用示例/场景： 找到目标session id 使用session id将对话内容输出到文件中 告诉ai对话文件位置来实现上下文的导入 用法 python main.py 注： 1.可以先根据这个帖子先配置一致的provider，看是否可以解决切换api导致的丢失问题 终端使用ccswitch切换api导致codex历史会话丢失问题” 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 我是小白在终… 2.cc-switch中也可以查看全部的会话记录 3.环境：基于mac 5 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "2db298cf91fe747e4732d584c33e1bd60143a2778e5399926451e2faab12d10a",
+          "signature": "584bf4e095ee89f1ce9d4f9a6d974c4c74638811a421beec454a6a32a76d4fcf",
+          "title": "有佬友知道GPT API的effort和网页端推理强度之间的对应关系吗？",
+          "link": "https://linux.do/t/topic/1890823",
+          "published": "2026-04-03 08:53 UTC",
+          "sort_key": 1775206430.0,
+          "source_kind": "feed",
+          "text": "RT，Plus的网页端有标准和进阶两个推理强度，这个和API的low, medium, high and xhigh这些effort之间的关系大概是怎么样的？ 3 个帖子 - 2 位参与者 阅读完整话题 RT，Plus的网页端有标准和进阶两个推理强度，这个和API的low, medium, high and xhigh这些effort之间的关系大概是怎么样的？ 3 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "1b1a65093719d2b4b993fc53e2b499174e6dc1a282e2d6e959447008a0162c32",
+          "signature": "1ee84fd05a1a26668a9af87fec415fa730fc1a7b53dc6a52f541f38b4dd123f9",
+          "title": "CPA号池这样显示是咋了",
+          "link": "https://linux.do/t/topic/1890686",
+          "published": "2026-04-03 08:35 UTC",
+          "sort_key": 1775205323.0,
+          "source_kind": "feed",
+          "text": "昨天还可以正常使用，到今天就不行了，先是所有Oauth配置文件无法显示，再是刷新额度直接超时，难受了，这是ip被拉黑了还是梯子问题。 11 个帖子 - 4 位参与者 阅读完整话题 昨天还可以正常使用，到今天就不行了，先是所有Oauth配置文件无法显示，再是刷新额度直接超时，难受了，这是ip被拉黑了还是梯子问题。 11 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "b168b2fba0d16d886e2d3d90981aaa4b92d37742a0dbbf301f50925cb8a2ea81",
+          "signature": "d83bfa9b5c03b86ff1d63214b06073329df84c2f9ca2eaf63f0e32dad73bed80",
+          "title": "为什么 Any Router 登录后总是出现“错误：请尝试清除 Cookie后重新登录”",
+          "link": "https://linux.do/t/topic/1890675",
+          "published": "2026-04-03 08:34 UTC",
+          "sort_key": 1775205263.0,
+          "source_kind": "feed",
+          "text": "为什么 Any Router 登录后总是出现“错误：请尝试清除 Cookie后重新登录”的情况？只出现在 Chrome 浏览器，其他浏览器（Edge、Firefox）我登了这个号是没有这个问题的。佬友们有什么好的解决方案吗？ 4 个帖子 - 4 位参与者 阅读完整话题 为什么 Any Router 登录后总是出现“错误：请尝试清除 Cookie后重新登录”的情况？只出现在 Chrome 浏览器，其他浏览器（Edge、Firefox）我登了这个号是没有这个问题的。佬友们有什么好的解决方案吗？ 4 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "9172debdfee6c932a3965ce2d514cffd62f67a61aab6d3c306279f51b003f553",
+          "signature": "bc13dbf9d357d2d92c7f6b8c1153af90038bf0ee6ea21051ed9a60ab673073cc",
+          "title": "关于team跟plus，实在弄不到free了",
+          "link": "https://linux.do/t/topic/1890663",
+          "published": "2026-04-03 08:32 UTC",
+          "sort_key": 1775205134.0,
+          "source_kind": "feed",
+          "text": "想问佬友们几个问题 1.一卡多绑稳吗，还是掉了直接继续绑新号继续蹬 2.推荐team还是plus呀，我每天大概要蹬200刀 3.为啥我开卡要10U，海鲜平台得要几块钱而已呀 35 个帖子 - 17 位参与者 阅读完整话题 想问佬友们几个问题 1.一卡多绑稳吗，还是掉了直接继续绑新号继续蹬 2.推荐team还是plus呀，我每天大概要蹬200刀 3.为啥我开卡要10U，海鲜平台得要几块钱而已呀 35 个帖子 - 17 位参与者 阅读完整话题"
+        },
         {
           "id": "d88b6f67b2f3af713a121300a224596db88f69f81989f8d7052cc7f5cab56738",
           "signature": "5812700750e31a9385e7777d8ad0ce7f99ad14a8887e74dc49b15ad51c2ffc17",
@@ -674,6 +867,26 @@
           "text": "今天来带各位佬友讲讲 agent，本文参考官方教学文档和 claudecode 源码而来 各位佬友抓紧把手，咱们直接发车 1. Agent 是什么：独立 context 的工作单元 一个 agent 就是一个独立的 Claude 会话——有自己的 context window、自己的对话历史、自己的工具集。 你平时跟 Claude Code 对话的那个就是\"主 agent\"。当你（或模型）调用 Agent 工具时，会创建一个 子 agent 。子 agent 在自己的 context window 里干活，完成后把结果返回给主 agent。 这里有一个关键区别： 普通 subagent 从零开始，只有你传入的 prompt 字符串 ——你不写进去的信息，它看不到。而 Fork 模式继承父 agent 的完整对话历史 ——之前聊过什么它都知道，不需要你重复。 源码中子 agent 的 context 创建逻辑（ utils/forkedAgent.ts ）： function createSubagentContext(parentContext, overrides) { return { readFileState: cloneFileStateCache(...) // 独立的文件缓存 messages: override?.messages || [] // 普通 subagent：空；Fork：父 agent 的历史 agentId: override?.agentId || createAgentId() // 新 ID queryTracking: { chainId, depth: parentDepth + 1 } // 深度 +1 } } 不管哪种模式，每个子 agent 都有 独立的文件缓存和 context window 。这就是为什么用 agent 能解决长对话\"忘事\"——子 agent 不会被主 agent 之前对话的内容塞满。 2. 创建 Agent 时发生了什么 当模型调用 Agent 工具时，路径取决于有没有指定 subagent_type （ tools/AgentTool/AgentTool.tsx ）： Agent tool 调用 ├─ 指定了 subagent_type（如 Explore、Plan）→ 用该类型的定义从零开始 ├─ 没指定 + Fork 功能开启 → Fork（继承父 agent 的完整对话历史） └─ 没指定 + Fork 未开启 → General Purpose Agent 日常使用中你接触到的主要是第一种。大部分时候是 模型自动调用 的——你说\"帮我调研一下 auth 模块\"，Claude 自己判断该用 Explore agent，自动写 prompt、自动派遣，你不需要手动操作。 但不管是自动还是手动触发，子 agent 都是 从空白开始工作 。主 agent 传给它的 prompt 是它唯一的上下文——主 agent 之前跟你的对话历史、已经读过的文件，子 agent 统统看不到。 这也是为什么你有时候觉得 subagent 的结果不够好——主 agent 写给子 agent 的 prompt 可能没带足够的背景信息。你可以在对话中显式补充：“帮我调研 auth 模块， 我们用的是 JWT + Redis session，入口在 src/auth/middleware.ts ”，这样主 agent 传给子 agent 的 prompt 会包含这些关键信息。 Fork 模式（feature flag 控制，可能未对外开放） Fork 是\"复制一个分身\"——子 agent 继承父 agent 的完整对话历史和 system prompt。你不需要重复背景信息。 源码中 fork 的启用条件（ forkSubagent.ts ）： function isForkSubagentEnabled(): boolean { if (feature('FORK_SUBAGENT')) { // 编译时 feature flag if (isCoordinatorMode()) return false if (getIsNonInteractiveSession()) return false return true } return false } feature('FORK_SUBAGENT') 是编译时常量。如果你从来没感知过 fork，大概率是这个 flag 在当前版本中未开启——整个 fork 路径会被 dead code elimination 删掉。 Fork 还有一个成本优势：复用父 agent 的 system prompt（byte-exact 相同），prompt cache 直接命中，50K tokens 的上下文走 cache read 成本约 1/10。但因为功能可能未开放，这里不展开。 3. 三种内置 Agent Agent 模型 工具 用途 Explore 普通用户: Haiku / Anthropic 员工: 继承主模型 只读（Read, Grep, Glob） 搜代码、找文件、回答 codebase 问题 Plan 继承主模型 只读 架构设计、实现方案规划 General Purpose 继承主模型 全部 复杂多步骤任务 官方文档说 Explore 在需要搜索或理解代码库时被自动委派，调用时分三个 thoroughness 级别：quick（定向查找）、medium（平衡探索）、very thorough（全面分析）。 两个源码级的细节官方没提： 你用的 Explore 默认跑 Haiku，Anthropic 员工跑的是主模型。 源码（ built-in/exploreAgent.ts ）： model: process.env.USER_TYPE === 'ant' ? 'inherit' : 'haiku' USER_TYPE === 'ant' 是 Anthropic 内部员工标识。也就是说同样的 Explore agent，他们跑 Opus/Sonnet，你跑 Haiku。Haiku 更快更便宜，但推理能力弱一些。如果你觉得 Explore 给的结果太浅，可以用自定义 agent 覆盖它（后面第 4 节讲怎么做）。 Explore 跳过 CLAUDE.md。 设置了 omitClaudeMd: true ——探索型 agent 不需要你的 commit 规范和代码风格规则，省掉这些 token，把空间留给代码内容。 4. 自定义 Agent 两种方式创建： 交互式 ——输入 /agents ，选 Create new agent，可以让 Claude 根据你的描述自动生成定义。选工具、选模型、选颜色，保存就生效。 手动建文件 ——在 .claude/agents/ 下创建 .md 文件。frontmatter 是配置，正文是 system prompt： --- name: code-reviewer description: 审查代码变更，关注安全和性能 tools: Read, Grep, Glob, Bash(git diff:*) model: sonnet maxTurns: 15 --- 你是一个代码审查专家。收到审查请求后： 1. 用 git diff 查看所有变更 2. 逐文件检查安全漏洞、性能问题、错误处理 3. 给出结构化审查意见 几个关键字段： description — 不只是文档。Claude 会根据这个描述 自动判断何时委派任务给这个 agent 。写得模糊就不会被自动调用。 tools — 硬限制，不是建议。源码中 tools 字段被解析为严格白名单（ agentToolUtils.ts:resolveAgentTools ）——不在列表里的工具对 agent 来说 不存在 。而且支持内联权限规则： tools: \"Read, Grep, Bash(git diff:*), Agent(Explore)\" Bash(git diff:*) = 只能执行 git diff 开头的命令。 Agent(Explore) = 只能派遣 Explore 类型的子 agent。 model — inherit 继承主模型，或指定 sonnet / opus / haiku 。 isolation: worktree — 在独立的 git worktree 中运行。完成后无变更自动清理，有变更保留 worktree 和分支。 background: true — 始终后台运行，不阻塞主对话。 memory: project — 给 agent 独立的记忆空间，存在 .claude/agent-memory/{agent-type}/ 。code-reviewer 的记忆不会和 code-writer 的混在一起。 覆盖内置 Agent 同名 agent 高优先级覆盖低优先级： 企业策略 > 项目 .claude/agents/ > 用户 ~/.claude/agents/ > 插件 > 内置 想让 Explore 用 Sonnet 而不是 Haiku？创建 .claude/agents/Explore.md ： --- name: Explore description: 快速探索代码库，搜索文件和代码模式 model: sonnet --- 5. 子 Agent 能用什么工具、不能用什么 源码中有三个工具集控制子 agent 的能…"
         },
         {
+          "id": "03e7a8681884fd3317b6857a245cded146ea41443644c5f9856b823775f3d41e",
+          "signature": "06057f60932e122caee6cbe0ba059f20062edfbe62d021ef167d07b4d642cd52",
+          "title": "Gemma4也太强了",
+          "link": "https://linux.do/t/topic/1887617",
+          "published": "2026-04-03 01:34 UTC",
+          "sort_key": 1775180040.0,
+          "source_kind": "feed",
+          "text": "32B 的模型甚至 26B-A4B 的模型能排在一堆全量大模型前面 本地AI真不是梦了 43 个帖子 - 37 位参与者 阅读完整话题 32B 的模型甚至 26B-A4B 的模型能排在一堆全量大模型前面 本地AI真不是梦了 43 个帖子 - 37 位参与者 阅读完整话题"
+        },
+        {
+          "id": "05f88b6d4e037e1e7b75729e90f55e55b52a9a0d170719899bee28b836a609e4",
+          "signature": "ea260c278879b0e2cc5904edab43bfcacf8027ebc5205002c132ce0e2ea3dfbe",
+          "title": "[Dooong AI 关门了] 天才程序员复活 公益站GPT5~5.4(CodeX) 开放注册",
+          "link": "https://linux.do/t/topic/1886945",
+          "published": "2026-04-02 18:39 UTC",
+          "sort_key": 1775155180.0,
+          "source_kind": "feed",
+          "text": "Hi, 各位天才程序员与佬友们 应该已经有佬友用过本站了吧,本次顺便来L站发个贴 经过最近与奥特曼的斗智斗勇，终于在今天又成功跑通 下午已经进行持续蹬了40亿token进行压力测试 目前服务趋于稳定，服务器负载40% 故开放注册招募一批 天才程序员 令令令申申申申申 禁止销售 / 转卖 / 滥用 后台有加权风控分系统，T+1和不定时封禁违规账号 一经发现， BAN IP封禁账号不得再次注册 为防范批量注册等行为不开放邮箱注册, 请使用OAuth方式注册 拥有 Cloudflare 与 Edgeone(大陆优化) 两个接入点 支持的模型列表 GPT CodeX MiniMax Kimi gpt-5.4 gpt-5.3-codex minimax-m2.5 kimi-k2.5 gpt-5.4-mini gpt-5.2-codex gpt-5.2 gpt-5.1-codex gpt-5.1 gpt-5.1-codex-mini gpt-5-codex gpt-5-codex-mini 04/03 - 10:00 再次陨落了 检修中 Dooong AI 主站 Dooong AI 模型监控 Dooong AI 帮助中心 326 个帖子 - 300 位参与者 阅读完整话题 Hi, 各位天才程序员与佬友们 应该已经有佬友用过本站了吧,本次顺便来L站发个贴 经过最近与奥特曼的斗智斗勇，终于在今天又成功跑通 下午已经进行持续蹬了40亿token进行压力测试 目前服务趋于稳定，服务器负载40% 故开放注册招募一批 天才程序员 令令令申申申申申 禁止销售 / 转卖 / 滥用 后台有加权风控分系统，T+1和不定时封禁违规账号 一经发现， BAN IP封禁账号不得再次注册 为防范批量注册等行为不开放邮箱注册, 请使用OAuth方式注册 拥有 Cloudflare 与 Edgeone(大陆优化) 两个接入点 支持的模型列表 GPT CodeX MiniMax Kimi gpt-5.4 gpt-5.3-codex minimax-m2.5 kimi-k2.5 gpt-5.4-mini gpt-5.2-codex gpt-5.2 gpt-5.1-codex gpt-5.1 gpt-5.1-codex-mini gpt-5-codex gpt-5-codex-mini 04/03 - 10:00 再次陨落了 检修中 Dooong AI 主站 Dooong AI 模型监控 Dooong AI 帮助中心 326 个帖子 - 300 位参与者 阅读完整话题"
+        },
+        {
           "id": "417de4b8b7cda13fe3ea5b26b6408fe88fa4712e4906b3cc0cc25be16c52b4ac",
           "signature": "52854aa2dd39dcae7c9301565f3d0a51f43c78287b306ca6acb6a466781792d4",
           "title": "简单测下Gemma4-31b-it",
@@ -784,6 +997,16 @@
           "text": "【Agent笔记】我们一起来学习Agent！（第1期） 2026.3.31 静心学习 让我们以Agno框架为例，让我们一起来学习Agent吧！这是我的第一篇笔记。 Agno Introduction - Agno Build, run, and manage agentic software at scale. 最近在做一个项目，要用到轻度的agent，于是我打算学习一些关于agent的知识，了解架构，可以大概看懂代码，以便于更好地用AI开发， 也拓展自己思维和对于coding的理解 ，但完全不作为任何专业的培训哈！现在打算每天或者每周写一篇文章，然后作为学习笔记分享给大家。 我会以尽量易懂的方式向大家介绍和分享交流，大家也可以指出我的错误，需要一点Python基础（了解什么是类，什么是方法之类的），其它基本不需要，适合小白，因为我是小白。我学习的框架是agno: 文档 1.Agent以及快速实现 Agent is a stateful model with loops and tools. Agent并不神秘，普通的模型只能通过api对话，输入文本输出文本，不能与外部世界获取联系，不能记忆，这就是无状态，并且只能一问一答，这就是没有loop循环。 Agent是如何实现状态的？如何调用工具的？如何决策，自动循环执行任务的？我们会一步一步来了解。 1.1了解Agent类 这是agno的一个快速实 现的Agent，我们来看代码 from agno.agent import Agent from agno.db.sqlite import SqliteDb from agno.models.anthropic import Claude from agno.os import AgentOS from agno.tools.mcp import MCPTools agno_assist = Agent( name=\"Agno Assist\", model=Claude(id=\"claude-sonnet-4-5\"), db=SqliteDb(db_file=\"agno.db\"), # session storage tools=[MCPTools(url=\"https://docs.agno.com/mcp\")], # Agno docs via MCP add_datetime_to_context=True, add_history_to_context=True, # include past runs num_history_runs=3, # last 3 conversations markdown=True, ) # Serve via AgentOS → streaming, auth, session isolation, API endpoints agent_os = AgentOS(agents=[agno_assist], tracing=True) app = agent_os.get_app() Agent 是一个类，实例化的时候传入了 name model tools 等等参数，这就构建了一个拥有名字和工具的Agent机器人了。 agent_os = AgentOS(agents=[agno_assist], tracing=True) 实例化了系统类，这个机器人正式部署可以开始用了，os是系统环境，你可能有十个Agent，但是他们都在这个环境里面跑。 app = agent_os.get_app() 这是os类的方法，把我们的Agent系统包装成一个api服务（fastapi），这样你可以启动这个服务了，然后有一个端点可以请求和Agent对话。就和大佬给你的apiurl一样，自动的有对话端点，获取模型端点等等，包装服务。 1.2工具：Agent的核心 我每天有一个填excel表的任务，很简单，我的老板每天给我一个excel表格，要求是把里面的每行进行求和，然后排序。 我很聪明，这那么笨的求和排序任务我写一个Python脚本来解决。 import pandas as pd file_name = 'daily_task.xlsx' df = pd.read_excel(file_name) df['总和'] = df.sum(axis=1, numeric_only=True) df_sorted = df.sort_values(by='总和', ascending=False) df_sorted.to_excel('result.xlsx', index=False) print(\"任务完成！结果已保存在 result.xlsx\") 我的老板又给我派了其它任务，比如把数据全部变成直方图，我依然写代码解决： import pandas as pd import matplotlib.pyplot as plt plt.rcParams['font.sans-serif'] = ['SimHei'] plt.rcParams['axes.unicode_minus'] = False df = pd.read_excel('result.xlsx') plt.figure(figsize=(10, 6)) # 设置画布大小 # bins=10 表示把数据分成10个区间，color 是颜色，edgecolor 是边框 plt.hist(df['总和'], bins=10, color='skyblue', edgecolor='black', alpha=0.7) plt.title('数据总和分布情况直方图', fontsize=15) plt.xlabel('数值区间 (求和结果)', fontsize=12) plt.ylabel('频率 (出现次数)', fontsize=12) plt.grid(axis='y', linestyle='--', alpha=0.7) plt.savefig('data_distribution.png') # 自动保存为图片文件 plt.show() print(\"图表已生成：data_distribution.png，老板看了保准点头！\") 卧槽了，老板看我excel那么厉害，又让我去用excel做各种数据清洗，多表格合并… 但是我依然很容易完成，为什么？因为我有脚本——这就是工具tool。 老板说：清洗！我马上调用：``clean.py` 老板说：画图！我马上调用： draw.py 后来我被裁员了，因为脚本没有保密，给老板发现了，老板部署了一个Agent： 老板说：对这些excel进行清洗！ Agent：回复 { use_tool:\"clean\" } 这个字段被检测到了，计算机自动执行 clean.py 然后Excel就处理好了。 一旦你为你的AI配好了工具，那么就可以让它来执行你可能需要手动做的任务，不同的是，它可以异步完成，甚至根据结果的反馈，进行组合调用，多次迭代，直到任务完成。这是人类没有耐心和速度的地方。 我们来简单的配置一个工具：访问hacknews： from agno.agent import Agent from agno.models.anthropic import Claude from agno.tools.hackernews import HackerNewsTools agent = Agent( model=Claude(id=\"claude-sonnet-4-5\"), tools=[HackerNewsTools()], instructions=\"Write a report on the topic. Output only the report.\", markdown=True, ) agent.print_response(\"Trending startups and products.\", stream=True) 我们假设那个访问hacknews的tools已经配置好了，其实它就是一个爬虫脚本，爬取了那个网站的内容。AI收到你的信息后，先去调用工具-运行脚本了，通过脚本爬到了信息就回答你了。 学到这里，只要你学习一下，如何写工具，那么基本上你就可以写一个初级Agent了！! 1.3可调用的工厂（callable factories） 如果所有工具都是如此简单的一个脚本，那么调用成本的确是很低的，我们只需要一行 py run.py 但是，对于复杂的业务一个工具分为两个步骤 加载：相当于把工具拿出来放着，（会运行初始化 _init_ ） 执行：就是我们的 py sth.py 第一步的成本对于简单脚本忽略不计，但是对于一些工具不是的，比如连接oracle数据的工具，当你写下 agent=Agent(model=gpt, tools=requrst_to_oracle) 的时候，这个工具就初始化加载了，这时候连接就已经起来了，就会占用内存。 一个还好，但是上百个呢，内存就太大了。 所以agno引入了动态加载的机制， from agno.agent import Agent from agno.models.openai import OpenAIResponses from agno.run import RunContext from agno.tools.duckduckgo import DuckDuckGoTools from agno.tools.yfinance import YFinanceTools def get_…"
         },
         {
+          "id": "6eaa0160d124129e50fd827a43f32502b01135a84a10611b479ed36c0ae56cba",
+          "signature": "57e549edbc2fea881b61755f19edbde74222b1486058259ec32fadf4c70c80c3",
+          "title": "15元充1个月ChatGPT plus ？",
+          "link": "https://linux.do/t/topic/1851411",
+          "published": "2026-03-30 06:47 UTC",
+          "sort_key": 1774853243.0,
+          "source_kind": "feed",
+          "text": "很多卡网上面ChatGPT低价直充，新老号都可以续费，这种是什么操作的，有了解的大神来唠唠。 103 个帖子 - 82 位参与者 阅读完整话题 很多卡网上面ChatGPT低价直充，新老号都可以续费，这种是什么操作的，有了解的大神来唠唠。 103 个帖子 - 82 位参与者 阅读完整话题"
+        },
+        {
           "id": "aab3642ab0bc3c53096f83a50cc6797ffcd90d2c96445a5c29780e1bfd11b216",
           "signature": "783bc74e5983641775a02b2c9ae7aaaa45063d7872fec64640b720973e056e03",
           "title": "国内的CodingPlan哪个比较好？",
@@ -824,6 +1047,16 @@
           "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 一直以来都是想做一款自己的客户端，又要轻量又要该有的都有，虽然大家都说Tauri的坑比较多，但是我还是跳进来了，试试这个坑有多深 本项目会一直持续更新，而且主打轻量级的方向，主要是打造AI对话客户端以及AI本地网关 做本地AI网关的原因是：我们大多数在本地会有多个AI程序都需要配置AI的API，但是每个都要一一管理就很麻烦，而且有时候也不想去部署线上的只需要简单的管理本地分发，所以只需要在我们的客户端接入之后，其他的通过我们的本地网关接入，统一维护就可以； 而且对于Claude、Codex、OpenCode、GeminiCLI、Cursor这些都是可以一键接入的～ 这个项目从开发到现在总共耗时5天，天天熬夜，刚发布肯定存在一定的不足，欢迎提交各种issue/PR 开源地址： GitHub - AQBot-Desktop/AQBot: 轻量级高性能跨平台 AI 聊天+AI网关桌面客户端 · GitHub 支持如下功能特性 软件实图，话不多说，先上图 最后，如果觉得这个产品对你有帮助，不妨点个赞，点个Star PS：MacOS的版本已经编译出来了，其他平台以及Windows正在actions编译中，敬请稍等 版本下载直达： Releases · AQBot-Desktop/AQBot · GitHub 155 个帖子 - 42 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 一直以来都是想做一款自己的客户端，又要轻量又要该有的都有，虽然大家都说Tauri的坑比较多，但是我还是跳进来了，试试这个坑有多深 本项目会一直持续更新，而且主打轻量级的方向，主要是打造AI对话客户端以及AI本地网关 做本地AI网关的原因是：我们大多数在本地会有多个AI程序都需要配置AI的API，但是每个都要一一管理就很麻烦，而且有时候也不想去部署线上的只需要简单的管理本地分发，所以只需要在我们的客户端接入之后，其他的通过我们的本地网关接入，统一维护就可以； 而且对于Claude、Codex、OpenCode、GeminiCLI、Cursor这些都是可以一键接入的～ 这个项目从开发到现在总共耗时5天，天天熬夜，刚发布肯定存在一定的不足，欢迎提交各种issue/PR 开源地址： GitHub - AQBot-Desktop/AQBot: 轻量级高性能跨平台 AI 聊天+AI网关桌面客户端 · GitHub 支持如下功能特性 软件实图，话不多说，先上图 最后，如果觉得这个产品对你有帮助，不妨点个赞，点个Star PS：MacOS的版本已经编译出来了，其他平台以及Windows正在actions编译中，敬请稍等 版本下载直达： Releases · AQBot-Desktop/AQBot · GitHub 155 个帖子 - 42 位参与者 阅读完整话题"
         },
         {
+          "id": "4df72e48ddf1f4dd8cc1c057b03d70416341eef02727a463bc569affe57be26a",
+          "signature": "efb18304c74696380cf322e019a4513fe7be8625ee1d46bcb6a09aade65cb804",
+          "title": "开源了一个本地 Web 应用，用于浏览、搜索和管理 AI 编程助手的对话历史,",
+          "link": "https://linux.do/t/topic/1788896",
+          "published": "2026-03-20 09:02 UTC",
+          "sort_key": 1773997331.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 / 否 我的开源项目完整开源，无未开源部分： 是 / 否 我的开源项目已链接认可 LINUX DO 社区： 是 / 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 / 否 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 / 否 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 Claudecode想查历史会话太难了，编辑会话标题倒是简单，但是要命令手动去rename，其实最重要的还是我们每一次和cc或者codex对话的时候，我们自己本身的提示词，这是最有价值的。。我们可以总结，分析我们每一次和大模型的对话，可以把对话封装成skill。plugin等等。 cc的上下文也很短(当然现在有了opus4.6[1M])，新开一个会话有些话还要再说一遍～ 所以vibe了一个可以查cc和codex的小工具，只负责读取和整理，不会改动任何文件，大家可以拉下来体验一下，欢迎pr，第一版难免有问题，欢迎大家指正。 github.com GitHub - nameIsNoPublic/cli-history-hub 通过在 GitHub 上创建帐户来为 nameIsNoPublic/cli-history-hub 开发做出贡献。 8 个帖子 - 7 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 / 否 我的开源项目完整开源，无未开源部分： 是 / 否 我的开源项目已链接认可 LINUX DO 社区： 是 / 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 / 否 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 / 否 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 Claudecode想查历史会话太难了，编辑会话标题倒是简单，但是要命令手动去rename，其实最重要的还是我们每一次和cc或者codex对话的时候，我们自己本身的提示词，这是最有价值的。。我们可以总结，分析我们每一次和大模型的对话，可以把对话封装成skill。plugin等等。 cc的上下文也很短(当然现在有了opus4.6[1M])，新开一个会话有些话还要再说一遍～ 所以vibe了一个可以查cc和codex的小工具，只负责读取和整理，不会改动任何文件，大家可以拉下来体验一下，欢迎pr，第一版难免有问题，欢迎大家指正。 github.com GitHub - nameIsNoPublic/cli-history-hub 通过在 GitHub 上创建帐户来为 nameIsNoPublic/cli-history-hub 开发做出贡献。 8 个帖子 - 7 位参与者 阅读完整话题"
+        },
+        {
           "id": "2b1d0a172269b57e160283d0d9b0be530cc880722dcaaced3b7a422e5d01add6",
           "signature": "40a6a71fb469be8fe1673e96f1c5aed2a16f5e8e978329c1b1049e8af300e5bc",
           "title": "合法开启官方claude code的pro/max订阅方案，实测有效",
@@ -854,6 +1087,16 @@
           "text": "RT，使用 Java 语言，JDK 17+，后端框架：Springboot + Mybatis-plus，MySQL 5.7+，前端 Vue3 现在在找开源的带前后端的项目用来二开。 目前找到的是： 后端： GitHub - valarchie/AgileBoot-Back-End: 🔥 规范易于二开的全栈基础快速开发脚手架。🔥 采用Springboot + Vue 3 + Typescript + Mybatis Plus + Redis + 更面向对象的业务建模 + 面向生产的项目（非玩具项目）。你的 ⭐️ Star ⭐️，是作者更新的动力！ 欢迎小伙伴PR，一起构建一个规范的全栈项目~😆 · GitHub 前端： GitHub - valarchie/AgileBoot-Front-End: Agileboot配套前端项目基于vue-pure-admin官方精简版开发 · GitHub 佬们还有什么其他比较推荐的 github 项目么？ 先感谢各位佬们，提出方案并被采用者会私信送个红包。 36 个帖子 - 28 位参与者 阅读完整话题 RT，使用 Java 语言，JDK 17+，后端框架：Springboot + Mybatis-plus，MySQL 5.7+，前端 Vue3 现在在找开源的带前后端的项目用来二开。 目前找到的是： 后端： GitHub - valarchie/AgileBoot-Back-End: 🔥 规范易于二开的全栈基础快速开发脚手架。🔥 采用Springboot + Vue 3 + Typescript + Mybatis Plus + Redis + 更面向对象的业务建模 + 面向生产的项目（非玩具项目）。你的 ⭐️ Star ⭐️，是作者更新的动力！ 欢迎小伙伴PR，一起构建一个规范的全栈项目~😆 · GitHub 前端： GitHub - valarchie/AgileBoot-Front-End: Agileboot配套前端项目基于vue-pure-admin官方精简版开发 · GitHub 佬们还有什么其他比较推荐的 github 项目么？ 先感谢各位佬们，提出方案并被采用者会私信送个红包。 36 个帖子 - 28 位参与者 阅读完整话题"
         },
         {
+          "id": "d951694080edbcc6ab2e8708c880939af0238779b46a60b187dcc0f1cf2a2c8a",
+          "signature": "8cb71caadf0e384924815de27ed3195cffc14e2be45992506f2584148a5cdbf6",
+          "title": "成为L站会员，在这个时代你已经领先了90%的人，但为什么没赚到钱?",
+          "link": "https://linux.do/t/topic/1721707",
+          "published": "2026-03-10 17:32 UTC",
+          "sort_key": 1773163965.0,
+          "source_kind": "feed",
+          "text": "好把，之前的因为用AI排版被举报了，给佬们一个纯原版本吧，看着会有点累– 可能还有人记得之前我发过的一个热门帖 用了三年的ai，深刻理解90%的人都是xx的暴论 - #6，来自 Justice_L 顺利到达了二级。 很感谢大家给小弟的赞，也真切的感受到了L站不同于其他平台对于异己观点的抨击，我以前只在大二的时候沉迷在雪球上发一些帖子，但如今l站让我再一次有了观点分享的欲望。 小弟在初一的时候就靠coding就赚到了人生的第一桶金，不知道大家有没有接触过我的世界pe（手机）版，手机版的联机方式多半使用热点做成局域网进行，但后来PocketMine横空出世，造就了私服盛况。 小弟最开始玩私服是机缘巧合，接着发现可以通过找腐竹充值获得OP权限，从而可以使用各种作弊代码。但是小弟从小都是一个很抠的人，于是通过交流发现还有一种名为插件师的高大上“职业”，于是找到腐竹，说自己是一个牛逼的插件师，可以通过帮他安装各种插件换取OP权限。而实际上，这时候的我除了知道这个名词以外，并不知道这意味着什么。 个么坑蒙拐骗获得了op权限不停的/tp各种小伙伴，以及收下小迷妹和小舔狗的呼声时为他们使用/gamemode 1短暂获得创造权限时。腐竹发来的一串神秘ipv4代码，和root以及一串密码的时候，我意识到我必须开始为我的“谎言”填坑了。于是浏览贴吧，找各种所谓插件师教程帖子，不断学习，知道了一种phar后缀的包就是所谓的插件，只要把插件放到某个文件夹下，插件就装好了。草原来插件师这么简单！小小的我大大的问号。 得益于一年级打魔兽，二年级打澄海真三星际1攒下的大量计算机使用技巧，小弟也是成功学会ssh登陆服务器以及基本的一些linux命令，总之最终靠在贴吧乞讨以及各大qq群里面收刮得到的插件，完成了腐竹要求的当时最火热的枪械插件安装任务。 于是为自己白嫖当了半个月op窃喜的时候，突然有个小伙伴找到我，提出给我50元移动充值卡（当时很少有小学生初中生拥有支付宝）换取五天创造权限。年轻的我哪受得了这种考验？必须是狠狠的接受了。 从此一发不可收拾，大概在这个服务器赚了有六七百吧，腐竹进服看着满屏飘的创造玩家，查完后台的记录，愤而ban了我的账号并把我踢出群。 愤怒，不甘填充我的胸膛，愤怒是因为他居然在把我踢出群的时候骂了我，不甘是这么大的发财机会就这样没了？（操，700块钱对当时的我来说，是请全年级所有人门口烧烤畅吃的大排场）。 但更多的是我发现，1、钱这么好赚？在我看来只需要稍微花点时间精力去研究的东西，别人居然会愿意花钱来买？2、对于在上层阶级（腐竹）的看法完全不同，从我视之掌握服务器至高权力奉为神明的人也就是一个花点钱一键安装软件的人罢了。然后就能收小学生们为了一个/tp指令一个月付50元移动话费卡。 这是我对于钱开悟的起点，但还缺少了一个关键的领悟，直到------ 我自己花了200元在面板商那买了一台服务器！ 这是我第一次为“生产资料”付钱（姑且这么说吧），接着我有样学样的在各大贴吧和论坛发布我的服务器，看着服务器从4个人，增长到20，最高同时在线增长到200人。那时我初一下，我每个月平均收入在2500～4000之间，由于小弟那年还没有支付宝，所有钱都转到了老爹的支付宝里。 那么服务器怎么赚钱呢？首先服务器有经济系统，花钱可以通过商店插件直接购买各种资源矿石，100元可以购买vip权限，通过指令权限插件设置vip权限包含/fly等飞行模式，200元购买svip权限，包含/tp以及每天领取5000金币补贴权限，400元购买op权限，可以无视领地保护破坏其他人放置的块。这完了吗？这没完，本身op权限已经是最高的了。直到有一天两个op吵架，其中一个op提出要花1000块钱升级成一个比他更牛逼的op，于是我顺水推舟推出了sop 800元，暗改削弱了op的一些权限。直到最后我们服务器甚至有了Maxop，1500元。我发现原来这个世界是这么离谱，当我一个初一的小屁孩还在对10块钱能够买一包游戏王盗版卡片感到高兴的时候，居然有小学生能花1500元买一个毫无意义的东西！ 于是当时我顿悟了下面几点： 1、生产资料代表一切，把所有的钱都投入到生产中，而不是花掉它（当时我还没学到高中政治里面的这些词，但有了这些概念）。 2、我没想到的，不代表这个世界上没有，我的想象力是局限在我自己范围内的。 3、这个世界上人太多了，你如果能解决十个人的需求，你就能赚钱，解决一百个人的需求，你就能小康，解决一千个人的需求，已经够你这辈子舒服的活着；所以把视野从一些宏伟格局上下放，到一些非常细小的领域里，越是特定人群的需求，就越有价值，大众的需求，那叫刚需，刚需是最廉价的。 4、任何机会，都先抓住，别管能不能做，能不能成。 5、存在即合理，如果你认为一个东西不合理，但他还一直存在着，说明这会是一个巨大机遇（相信我，我们大部分人都是普通人，我们可以代表大众，而大众对于新事物本身就是迟钝的，所以一定要重视自己觉得很傻逼的事情）。 讲了个小时候的故事，做个铺垫，我们回到题目本身。 为什么成为l站会员，在这个时代已经领先90%的人？因为L站的注册时需要门槛的，大部分人别说注册，连找到新版的注册方式都困难，特别是现在没有登录是无法使用搜索按钮的。技术门槛已经排除了很多人。而互联网时代，掌握知识检索的技术就像00年会用五笔。 但为什么大多数人没赚到钱呢？因为不肯下沉，就像我上一篇帖子以及从前的我所想的那样，把大多数人想的太聪明，又低估了自己的能力，认为自己只是一个普通人。 那今天我就想告诉你，你已经是这个时代前沿的人了，做点什么，哪怕是去闲鱼，挂一个美女照片，远程安装openclaw，一个人100，然后等你有10个客户，你就可以组个群，每天分享前沿知识，等你有50个客户，你就可以提供付费包月咨询服务，你有100个客户，你甚至可以注册免费账号卖gpt5.2给他们！就像中转站卖free给你当team一样。什么，你怕他们发现你以次充好？拜托，能找你安装openclaw的人，大部分只会给他的openclaw发一句：你好，你叫什么名字？帮我看看今天的新闻。你怕他会发现？ 咳咳咳，当然，小弟不是让大家干缺德事儿，只是举一个小小的例子。总之，不要过于沉迷在我掌握了社区提到的高级技术，使用了最新的语法糖把代码可读性增加了1000%里，试着用最笨的方法先赚那么一笔，或许你会跟第一次收到50元话费卡的我一样，领悟一些什么。 当然，在我的世界手机版服务器上，我从蹭OP，倒卖插件，开服务器，到自己写插件定制卖，再到后来的zxda大战啥插件站来着，再到后来自己买整机放到机房托管卖面板服，一直到高一网易下场为止。这些故事等我有空再给大家分享吧。 望佬们实现财务自由！ 124 个帖子 - 97 位参与者 阅读完整话题 好把，之前的因为用AI排版被举报了，给佬们一个纯原版本吧，看着会有点累– 可能还有人记得之前我发过的一个热门帖 用了三年的ai，深刻理解90%的人都是xx的暴论 - #6，来自 Justice_L 顺利到达了二级。 很感谢大家给小弟的赞，也真切的感受到了L站不同于其他平台对于异己观点的抨击，我以前只在大二的时候沉迷在雪球上发一些帖子，但如今l站让我再一次有了观点分享的欲望。 小弟在初一的时候就靠coding就赚到了人生的第一桶金，不知道大家有没有接触过我的世界pe（手机）版，手机版的联机方式多半使用热点做成局域网进行，但后来PocketMine横空出世，造就了私服盛况。 小弟最开始玩私服是机缘巧合，接着发现可以通过找腐竹充值获得OP权限，从而可以使用各种作弊代码。但是小弟从小都是一个很抠的人，于是通过交流发现还有一种名为插件师的高大上“职业”，于是找到腐竹，说自己是一个牛逼的插件师，可以通过帮他安装各种插件换取OP权限。而实际上，这时候的我除了知道这个名词以外，并不知道这意味着什么。 个么坑蒙拐骗获得了op权限不停的/tp各种小伙伴，以及收下小迷妹和小舔狗的呼声时为他们使用/gamemode 1短暂获得创造权限时。腐竹发来的一串神秘ipv4代码，和root以及一串密码的时候，我意识到我必须开始为我的“谎言”填坑了。于是浏览贴吧，找各种所谓插件师教程帖子，不断学习，知道了一种phar后缀的包就是所谓的插件，只要把插件放到某个文件夹下，插件就装好了。草原来插件师这么简单！小小的我大大的问号。 得益于一年级打魔兽，二年级打澄海真三星际1攒下的大量计算机使用技巧，小弟也是成功学会ssh登陆服务器以及基本的一些linux命令，总之最终靠在贴吧乞讨以及各大qq群里面收刮得到的插件，完成了腐竹要求的当时最火热的枪械插件安装任务。 于是为自己白嫖当了半个月op窃喜的时候，突然有个小伙伴找到我，提出给我50元移动充值卡（当时很少有小学生初中生拥有支付宝）换取五天创造权限。年轻的我哪受得了这种考验？必须是狠狠的接受了。 从此一发不可收拾，大概在这个服务器赚了有六七百吧，腐竹进服看着满屏飘的创造玩家，查完后台的记录，愤而ban了我的账号并把我踢出群。 愤怒，不甘填充我的胸膛，愤怒是因为他居然在把我踢出群的时候骂了我，不甘是这么大的发财机会就这样没了？（操，700块钱对当时的我来说，是请全年级所有人门口烧烤畅吃的大排场）。 但更多的是我发现，1、钱这么好赚？在我看来只需要稍微花点时间精力去研究的东西，别人居然会愿意花钱来买？2、对于在上层阶级（腐竹）的看法完全不同，从我视之掌握服务器至高权力奉为神明的人也就是一个花点钱一键安装软件的人罢了。然后就能收小学生们为了一个/tp指令一个月付50元移动话费卡。 这是我对于钱开悟的起点，但还缺少了一个关键的领悟，直到-…"
+        },
+        {
           "id": "6280fe3fbc72225e16be0f2a66f590412cfa60da6e61779ac90b5f57cdc6c965",
           "signature": "7c207448970d2d59997382268fbbbcaeefdb460fb22722eff8b51aec9e1e5314",
           "title": "【最强AI Agent】 π 使用教程",
@@ -874,6 +1117,16 @@
           "text": "从 [已开源]Ai-Novel 强大的ai小说创作网站demo测试 继续 看到佬友们很热情，我立马整理了代码，当前项目还算是demo阶段，是有不少bug以及实现不完全的功能的(比如图标我也还没设计) 项目地址 GitHub - inliver233/Ai-Novel: 强大的ai小说创作网站 · GitHub 希望佬友们多多star这个项目，以及提交issue pr之类的都是非常欢迎，让我们不断改进这个项目 项目佬友们可以随意进行fork 修改之类的 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 / 否 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的 GitHub 项目无未开源部分： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 170 个帖子 - 77 位参与者 阅读完整话题 从 [已开源]Ai-Novel 强大的ai小说创作网站demo测试 继续 看到佬友们很热情，我立马整理了代码，当前项目还算是demo阶段，是有不少bug以及实现不完全的功能的(比如图标我也还没设计) 项目地址 GitHub - inliver233/Ai-Novel: 强大的ai小说创作网站 · GitHub 希望佬友们多多star这个项目，以及提交issue pr之类的都是非常欢迎，让我们不断改进这个项目 项目佬友们可以随意进行fork 修改之类的 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 / 否 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的 GitHub 项目无未开源部分： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 170 个帖子 - 77 位参与者 阅读完整话题"
         },
         {
+          "id": "7174f674a95206b982f970ce27dbac28e5633f2a859532992f3a226798659e29",
+          "signature": "788f19d3007a7dfe37b864c0a9d2a57659bbf0121500b57914b05d754e16874d",
+          "title": "【2026-3-10官方已修复该问题，此贴终结】尝试解决 ClaudeCode在Windows环境下/copy乱码问题",
+          "link": "https://linux.do/t/topic/1670183",
+          "published": "2026-02-28 07:53 UTC",
+          "sort_key": 1772265238.0,
+          "source_kind": "feed",
+          "text": "起因 （点击了解更多详细信息） 问题描述 Claude Code 的 /copy 命令在 Windows（包括 WSL）上复制含中文、日文、韩文、越南语等非 ASCII 字符的文本时，粘贴结果为乱码（mojibake）。macOS 和 Linux 用户不受此问题影响。 相关 Issue： #22346 （OPEN, stale）、 #27709 （closed as duplicate） 测试环境： Windows 10/11, Claude Code v2.1.x, pwsh 7 为什么会产生这个问题？ Claude Code 在不同平台使用不同的剪贴板命令（ cli.js 中定义）： { macos: [\"pbcopy\"], // ✅ 原生支持 UTF-8 linux: [\"xclip -selection clipboard\", \"wl-copy\"], // ✅ 原生支持 UTF-8 wsl: [\"clip.exe\"], // ❌ 不支持 UTF-8 windows: [\"clip\"], // ❌ 不支持 UTF-8 } 当用户执行 /copy 时，执行链路如下： 用户在 pwsh 中运行 claude (Node.js 进程) │ ├─ /copy 触发剪贴板写入 │ ├─ Node.js 调用 execa(\"clip\", { input: text, shell: true }) │ │ │ ├─ Node.js 内部将 JavaScript 字符串 (UTF-16) 转为 UTF-8 字节流 │ │ 写入子进程的 stdin │ │ │ └─ shell: true → 使用 process.env.comSpec (= cmd.exe) │ │ │ └─ 实际执行: cmd.exe /d /s /c \"clip\" │ │ │ └─ clip.exe 从 stdin 读取字节流 │ │ │ └─ ❌ clip.exe 使用系统 OEM 代码页 (如 CP437/CP936) │ 解读字节流，而非 UTF-8 │ └─ 结果：UTF-8 字节被按错误编码解读 → 乱码 核心矛盾： 环节 编码 Node.js stdin 输出 UTF-8 clip.exe stdin 读取 系统 OEM 代码页 （GetOEMCP()，通常为 CP437 或 CP936） 这个编码不匹配是乱码的直接原因。 为什么不能通过 ~/.bashrc 或 $PROFILE 修复？ 我们测试了以下方案，均 无法解决 此问题： 在 ~/.bashrc 中设置 chcp 65001 .bashrc 只在 Claude Code 的 Bash Tool（执行 shell 命令的工具）调用时被 source。而 /copy 是 Node.js 进程 直接 spawn cmd.exe 子进程，完全不经过 bash： /copy 的路径：Node.js → cmd.exe → clip.exe （不经过 bash） Bash Tool： Node.js → bash (source .bashrc) （跟 /copy 无关） 在 PowerShell $PROFILE 中设置 chcp 65001 chcp 65001 改变的是当前 console 会话的代码页，但 clip.exe 读取 stdin 时使用的是 系统 OEM 代码页 （通过 GetOEMCP() 获取），这是系统级全局设置， chcp 无法改变它。 那为什么 chcp 65001 >nul & clip 在同一个 cmd 会话里就能工作？ 因为 chcp 65001 在同一个 cmd.exe 会话中同时改变了该进程的 stdin 处理方式。 clip.exe 作为同一会话的下一个命令直接执行时，继承了这个修改。但从外部（pwsh、bash）设置的 codepage 无法传递到 Node.js 随后 spawn 的 新 cmd.exe 进程中。 PowerShell $input | Set-Clipboard PowerShell 的 $input 自动变量从 stdin 读取时，同样不使用 UTF-8 编码，即使在 pwsh 7 中也是如此。经 Node.js 模拟测试验证，结果仍为乱码。 解决方案 以下提供两种修复方案，任选其一即可。 方案一：补丁脚本（推荐） 直接修改 cli.js 中的剪贴板命令，在调用 clip 前先用 chcp 65001 切换到 UTF-8 代码页。 优点： 最精准，只改一个字符串，零副作用，不影响系统中任何其他软件 缺点： 每次 Claude Code 更新后需重新执行 使用方法 将下方脚本保存为 fix-claude-copy.mjs 执行补丁： node fix-claude-copy.mjs 重启 Claude Code 即可生效 补丁内容 脚本会自动定位 cli.js 并做以下替换： # Windows windows:[\"clip\"] → windows:[\"chcp 65001 >nul & clip\"] # WSL wsl:[\"clip.exe\"] → wsl:[\"cmd.exe /c 'chcp 65001 >nul & clip'\"] 完整脚本代码 #!/usr/bin/env node /** * Claude Code /copy 中文乱码修复补丁 * * 问题: Windows/WSL 上 /copy 命令使用 clip.exe，不支持 UTF-8 stdin，导致中文乱码 * 修复: 在调用 clip 之前先用 chcp 65001 切换到 UTF-8 代码页 * * 用法: node fix-claude-copy.mjs * 每次 Claude Code 更新后需重新执行 */ import { readFileSync, writeFileSync } from 'fs'; import { execSync } from 'child_process'; import { join } from 'path'; // 定位 cli.js let cliPath; try { const prefix = execSync('npm config get prefix', { encoding: 'utf-8' }).trim(); cliPath = join(prefix, 'node_modules', '@anthropic-ai', 'claude-code', 'cli.js'); readFileSync(cliPath); } catch { const home = process.env.USERPROFILE || process.env.HOME; const candidates = [ // Windows (npm global) join(home, 'AppData', 'Roaming', 'npm', 'node_modules', '@anthropic-ai', 'claude-code', 'cli.js'), // Linux / WSL (npm global) '/usr/lib/node_modules/@anthropic-ai/claude-code/cli.js', '/usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js', ]; cliPath = null; for (const p of candidates) { try { readFileSync(p); cliPath = p; break; } catch { continue; } } } if (!cliPath) { console.error('❌ 找不到 Claude Code cli.js，请确认已全局安装 @anthropic-ai/claude-code'); process.exit(1); } console.log(`📂 cli.js: ${cliPath}`); const patches = [ { name: 'Windows', original: 'windows:[\"clip\"]', patched: 'windows:[\"chcp 65001 >nul & clip\"]' }, { name: 'WSL', original: 'wsl:[\"clip.exe\"]', patched: `wsl:[\"cmd.exe /c 'chcp 65001 >nul & clip'\"]` }, ]; let content = readFileSync(cliPath, 'utf-8'); let changed = false; for (const p of patches) { if (content.includes(p.patched)) { console.log(`✅ ${p.name} 补丁已存在`); } else if (content.includes(p.original)) { content = content.replace(p.original, p.patched); changed = true; console.log(`🔧 ${p.name} 补丁已应用: ${p.original} → ${p.patched}`); } else { console.warn(`⚠️ ${p.name} 未找到…"
+        },
+        {
           "id": "7d27d0f8ad850d9b4ef121c4ddaa2b03c8dae753887e356edb5fd94eceb6e681",
           "signature": "79e618e117bf89216c72125812ca4fcb213f6091870a9beee032cea4cd33465e",
           "title": "【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症",
@@ -886,16 +1139,27 @@
       ],
       "site_url": "https://linux.do/tag/444-tag/444",
       "summary": {
-        "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 57 retained item(s) on the page. Key items include \"关于 Accio 的使用QA\", \"gpt plus 怎么导入 cpa\", and \"佬友们怎么看像pantheon和The AI Scientist这样的AI科研？\".",
+        "tldr": "LINUX DO - 使用人工智能标记的话题 currently has 80 retained item(s) on the page. Key items include \"MinerU api不需要申请了，可以直接创建\", \"假如你是图灵\", and \"Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施\".",
         "highlights": [
-          "关于 Accio 的使用QA",
-          "gpt plus 怎么导入 cpa",
-          "佬友们怎么看像pantheon和The AI Scientist这样的AI科研？"
+          "MinerU api不需要申请了，可以直接创建",
+          "假如你是图灵",
+          "Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施"
         ]
       }
     },
     "https://linux.do/c/news/34.rss": {
       "seen_ids": [
+        "e73c16c77c38d5ac73acd92b6014da6f1f7d63c4e6c1ba7e63bd16ec270df3ea",
+        "774fb6bce2d23ca363b3e3c4395b41889272ed5020145b79b3a83b0cd016bb58",
+        "29d8bf58435b3b6037f550e37d4da9f0981a7143d130917b7abe9493f4ec95f5",
+        "22012bf8cca33dc09792ee85e08dc547a2352397bb1fa5609f1c09287bf18e75",
+        "f6c6bd1b1e752df2beb649afed7bc8655bd8d9823cd2ce0d6070f5386eb326f6",
+        "2762535f181e4c093093ceddc9e1364c86c729091f69d1c3e23ae4f22bf22062",
+        "5b865124910eb8b5b035868f7007aaab76c1e001722a5b0d0a5618e5aca7bdca",
+        "f2bf782580c4891e1c6aece4fedef4639cf255091e7aeb532a1dfc2cd1176a35",
+        "8e46b85e7e79c37ac3befc62d49b2fb2a3bdf34aedd64ca71f071d55f769a3d4",
+        "f532a3a1ea577dcb8e39bb2dd0d2b0bb1a4f9a1f5440d5c2f84fa6fb5806e365",
+        "a47ed4746a8fadc915220f63c1d8d120ecab89a670f4d6c6f9ecdde9bde007fb",
         "45e8a9d88fb139721a2ccd58441b4bf2c2eaf606dd68d589c0fdaa94e5e12033",
         "a1b2cd5a106f5fec600f37142404f7536aa4f236a415f09fe1895e50bdeea4ec",
         "0958ac23fd7d7decb3001fa427b53a3197e90162857a3c5f77121b9d958be0f4",
@@ -974,9 +1238,119 @@
         "d261675446b7899e88550522a5327ffc3204652f2d0f15c919327d39dc4e68f9",
         "edd2c7441eb7cc4882b2777572f78bd3c66b525b9017e9942186a0e30d89a76e"
       ],
-      "last_checked_at": "2026-04-03T07:52:43+00:00",
+      "last_checked_at": "2026-04-03T11:42:31+00:00",
       "feed_title": "前沿快讯 - LINUX DO",
       "pending_items": [
+        {
+          "id": "e73c16c77c38d5ac73acd92b6014da6f1f7d63c4e6c1ba7e63bd16ec270df3ea",
+          "signature": "22a9edfb57d9eaecdf4de8e32256d99fc3e5d40e79374e62b4bc359518c0b938",
+          "title": "codex 量大管饱的时代可能要结束力",
+          "link": "https://linux.do/t/topic/1891680",
+          "published": "2026-04-03 11:32 UTC",
+          "sort_key": 1775215930.0,
+          "source_kind": "feed",
+          "text": "5 个帖子 - 4 位参与者 阅读完整话题 5 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "774fb6bce2d23ca363b3e3c4395b41889272ed5020145b79b3a83b0cd016bb58",
+          "signature": "16ce81e33e0870336880dc829acb2679c30bcff0f8b017084973e365e320109a",
+          "title": "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
+          "link": "https://linux.do/t/topic/1891453",
+          "published": "2026-04-03 10:37 UTC",
+          "sort_key": 1775212678.0,
+          "source_kind": "feed",
+          "text": "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5 前沿快讯 [Screenshot_2026-04-03-18-57-49-22_3915bacb930634b7e206116f9dc9486f] 名称 用途 alipay-cron 支付宝小程序内的提醒、定时任务、周期任务管理 healthcheck 主机安全加固、风险评估、防火墙/SSH配置检查 mcporter MCP 服务器配置与调用工具（HTTP/stdio） skill-creato… 22 个帖子 - 17 位参与者 阅读完整话题 【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5 前沿快讯 [Screenshot_2026-04-03-18-57-49-22_3915bacb930634b7e206116f9dc9486f] 名称 用途 alipay-cron 支付宝小程序内的提醒、定时任务、周期任务管理 healthcheck 主机安全加固、风险评估、防火墙/SSH配置检查 mcporter MCP 服务器配置与调用工具（HTTP/stdio） skill-creato… 22 个帖子 - 17 位参与者 阅读完整话题"
+        },
+        {
+          "id": "29d8bf58435b3b6037f550e37d4da9f0981a7143d130917b7abe9493f4ec95f5",
+          "signature": "d8f3825db9068dd8e2dc305399adf7b4d056a43f9b425b54e76299bb64feaa86",
+          "title": "claude 接管",
+          "link": "https://linux.do/t/topic/1891313",
+          "published": "2026-04-03 10:10 UTC",
+          "sort_key": 1775211058.0,
+          "source_kind": "feed",
+          "text": "（话题已被作者删除） 1 个帖子 - 1 位参与者 阅读完整话题 （话题已被作者删除） 1 个帖子 - 1 位参与者 阅读完整话题"
+        },
+        {
+          "id": "22012bf8cca33dc09792ee85e08dc547a2352397bb1fa5609f1c09287bf18e75",
+          "signature": "5603ffac4f454d5065ff3b1de73a7da07076e949e3e08d25db0b9add159f5e59",
+          "title": "国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知_中央网络安全和信息化委员会办公室 |『转』",
+          "link": "https://linux.do/t/topic/1891269",
+          "published": "2026-04-03 10:00 UTC",
+          "sort_key": 1775210455.0,
+          "source_kind": "feed",
+          "text": "cac.gov.cn 国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知_中央网络安全和信息化委员会办公室 www1.xinhuanet.com 国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知-新华网 国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知-数字虚拟人服务提供者，是指提供数字虚拟人服务的组织、个人。 6 个帖子 - 5 位参与者 阅读完整话题 cac.gov.cn 国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知_中央网络安全和信息化委员会办公室 www1.xinhuanet.com 国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知-新华网 国家互联网信息办公室关于《数字虚拟人信息服务管理办法（征求意见稿）》公开征求意见的通知-数字虚拟人服务提供者，是指提供数字虚拟人服务的组织、个人。 6 个帖子 - 5 位参与者 阅读完整话题"
+        },
+        {
+          "id": "f6c6bd1b1e752df2beb649afed7bc8655bd8d9823cd2ce0d6070f5386eb326f6",
+          "signature": "10138ec24f593091c813706daee61b7647d79d34240488bc287973a998472b1b",
+          "title": "dmit 暂时关闭lax pro自主更改ip功能",
+          "link": "https://linux.do/t/topic/1891218",
+          "published": "2026-04-03 09:53 UTC",
+          "sort_key": 1775210035.0,
+          "source_kind": "feed",
+          "text": "由于 IP 资源的不足，我们已经暂时关闭了 LAX Pro 系列产品的自助更改IP功能，如果需要更改IP地址请通过工单联系客服处理。 4 个帖子 - 4 位参与者 阅读完整话题 由于 IP 资源的不足，我们已经暂时关闭了 LAX Pro 系列产品的自助更改IP功能，如果需要更改IP地址请通过工单联系客服处理。 4 个帖子 - 4 位参与者 阅读完整话题"
+        },
+        {
+          "id": "2762535f181e4c093093ceddc9e1364c86c729091f69d1c3e23ae4f22bf22062",
+          "signature": "c455e96391bc4459080c17808010709a678707b14163058d385d6dd99ea0725a",
+          "title": "Google这是要彻底放弃AntiGravity了？",
+          "link": "https://linux.do/t/topic/1891026",
+          "published": "2026-04-03 09:21 UTC",
+          "sort_key": 1775208063.0,
+          "source_kind": "feed",
+          "text": "又推出新的福利给Gemini Code Assist 可用模型： 17 个帖子 - 13 位参与者 阅读完整话题 又推出新的福利给Gemini Code Assist 可用模型： 17 个帖子 - 13 位参与者 阅读完整话题"
+        },
+        {
+          "id": "5b865124910eb8b5b035868f7007aaab76c1e001722a5b0d0a5618e5aca7bdca",
+          "signature": "9000d1a62285c8031caecea1a5301fcc947cb99837719e95b9c7e9db5e8dd046",
+          "title": "codex 2倍活动已结束(2026.4.3-17:00)",
+          "link": "https://linux.do/t/topic/1891017",
+          "published": "2026-04-03 09:19 UTC",
+          "sort_key": 1775207983.0,
+          "source_kind": "feed",
+          "text": "iscodex2x.com Is Codex 2x? Unofficial tracker for the Codex app launch promo — around the clock 2x usage across all Codex surfaces. 10 个帖子 - 10 位参与者 阅读完整话题 iscodex2x.com Is Codex 2x? Unofficial tracker for the Codex app launch promo — around the clock 2x usage across all Codex surfaces. 10 个帖子 - 10 位参与者 阅读完整话题"
+        },
+        {
+          "id": "f2bf782580c4891e1c6aece4fedef4639cf255091e7aeb532a1dfc2cd1176a35",
+          "signature": "c82514a5c2f6a03c385e8824c9f5c5847f2fc7f3ea8cc2717cdc1c13d6d1fd2a",
+          "title": "github更新代码隐私政策了",
+          "link": "https://linux.do/t/topic/1890831",
+          "published": "2026-04-03 08:54 UTC",
+          "sort_key": 1775206470.0,
+          "source_kind": "feed",
+          "text": "看意思是需要主动设置退出才行，虽然选了也不一定不用 2 个帖子 - 2 位参与者 阅读完整话题 看意思是需要主动设置退出才行，虽然选了也不一定不用 2 个帖子 - 2 位参与者 阅读完整话题"
+        },
+        {
+          "id": "8e46b85e7e79c37ac3befc62d49b2fb2a3bdf34aedd64ca71f071d55f769a3d4",
+          "signature": "44f57aa53e17cdf0aea4bd511f9711b2901ffd069070821eb8fed3f277590cf8",
+          "title": "【已恢复】deepseek叒异常了",
+          "link": "https://linux.do/t/topic/1890738",
+          "published": "2026-04-03 08:41 UTC",
+          "sort_key": 1775205713.0,
+          "source_kind": "feed",
+          "text": "16:52 更新： 已恢复 DeepSeek 网页/API 性能异常 v4今天还有希望吗？ 个人感觉希望不大，得等五一吧 11 个帖子 - 8 位参与者 阅读完整话题 16:52 更新： 已恢复 DeepSeek 网页/API 性能异常 v4今天还有希望吗？ 个人感觉希望不大，得等五一吧 11 个帖子 - 8 位参与者 阅读完整话题"
+        },
+        {
+          "id": "f532a3a1ea577dcb8e39bb2dd0d2b0bb1a4f9a1f5440d5c2f84fa6fb5806e365",
+          "signature": "260d30faa3a7368b3c6a8b87b2b8368dfb2f4a3e5a2aa127108e686cfdd93114",
+          "title": "谷歌 Gemini API 平台新增优先级，加钱可以确保 AI 算力优先分配给你",
+          "link": "https://linux.do/t/topic/1890708",
+          "published": "2026-04-03 08:38 UTC",
+          "sort_key": 1775205514.0,
+          "source_kind": "feed",
+          "text": "Google – 2 Apr 26 New ways to balance cost and reliability in the Gemini API Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency. Google AI for Developers 推理服务层级（同步） - Gemini API 优化和推理 | Google AI for Developers 您可以在延迟优化型同步流量和费用优化型同步流量之间切换，只需在标准生成调用中传递 service_tier 参数即可。 | 了解 Gemini API 提供的不同推理和优化选项。 10 个帖子 - 10 位参与者 阅读完整话题 Google – 2 Apr 26 New ways to balance cost and reliability in the Gemini API Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency. Google AI for Developers 推理服务层级（同步） - Gemini API 优化和推理 | Google AI for Developers 您可以在延迟优化型同步流量和费用优化型同步流量之间切换，只需在标准生成调用中传递 service_tier 参数即可。 | 了解 Gemini API 提供的不同推理和优化选项。 10 个帖子 - 10 位参与者 阅读完整话题"
+        },
+        {
+          "id": "a47ed4746a8fadc915220f63c1d8d120ecab89a670f4d6c6f9ecdde9bde007fb",
+          "signature": "3b62bfe04a973b4c7a2100c94549f9200c86594b124e98e1c5fe88699c8ae5f1",
+          "title": "Slack 停用在中国大陆、澳门、香港的工作区",
+          "link": "https://linux.do/t/topic/1890622",
+          "published": "2026-04-03 08:27 UTC",
+          "sort_key": 1775204858.0,
+          "source_kind": "feed",
+          "text": "2026年4月1日起，slack 在中国大陆、澳门、香港的工作区就停用了 其实算旧文，在2月份就收到邮件提示 今天发现小龙虾没给我推送新闻，去登录 slack 发现空间停用，才想起来这事，还好上面没啥重要数据 1 个帖子 - 1 位参与者 阅读完整话题 2026年4月1日起，slack 在中国大陆、澳门、香港的工作区就停用了 其实算旧文，在2月份就收到邮件提示 今天发现小龙虾没给我推送新闻，去登录 slack 发现空间停用，才想起来这事，还好上面没啥重要数据 1 个帖子 - 1 位参与者 阅读完整话题"
+        },
         {
           "id": "45e8a9d88fb139721a2ccd58441b4bf2c2eaf606dd68d589c0fdaa94e5e12033",
           "signature": "45b0f5b50ade9ed4312a0179dd5d62abc91b860b6ab1850a786d095245fa71fb",
@@ -1210,11 +1584,11 @@
       ],
       "site_url": "https://linux.do/c/news/34",
       "summary": {
-        "tldr": "前沿快讯 - LINUX DO currently has 23 retained item(s) on the page. Key items include \"CNNIC域名隐私保护将于4月10日调整为免费\", \"gpt Business 价格下调\", and \"ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件\".",
+        "tldr": "前沿快讯 - LINUX DO currently has 34 retained item(s) on the page. Key items include \"codex 量大管饱的时代可能要结束力\", \"【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5\", and \"claude 接管\".",
         "highlights": [
-          "CNNIC域名隐私保护将于4月10日调整为免费",
-          "gpt Business 价格下调",
-          "ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件"
+          "codex 量大管饱的时代可能要结束力",
+          "【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5",
+          "claude 接管"
         ]
       }
     },
@@ -1745,7 +2119,7 @@
         "458f1ceef2142852977cf599cc5bb7cf040efc2e14670a4dd5ad542391d0d5f7",
         "3e0b1c6aef833972d7d180db731880ef7aed4e02614b4f5ad7b2889515a3a88f"
       ],
-      "last_checked_at": "2026-04-03T06:34:28+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "bioRxiv Subject Collection: Bioinformatics",
       "pending_items": [
         {
@@ -1854,7 +2228,7 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-03T07:53:06+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Cell",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell/archive?publicationCode=cell&rss=yes"
@@ -1878,7 +2252,7 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-03T07:53:06+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Cell Host & Microbe",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell-host-microbe/archive?publicationCode=chom&rss=yes"
@@ -1968,7 +2342,7 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Nature",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nature/rss/current"
@@ -1984,7 +2358,7 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Nature Biomedical Engineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natbiomedeng/rss/current"
@@ -2000,13 +2374,16 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Nature Biotechnology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nbt/rss/current"
     },
     "https://www.nature.com/ncomms.rss": {
       "seen_ids": [
+        "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129",
+        "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c",
+        "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572",
         "b32a9407c1efd4051416e117b7241b790b89e68e6c2eb07a0c0d5a880fdb91cc",
         "bb58555c49d80ab09db2a0eeb51917c35cc4908aeec9b1083a83f29365c9a3a4",
         "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b",
@@ -2028,9 +2405,39 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Nature Communications",
       "pending_items": [
+        {
+          "id": "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129",
+          "signature": "e5527a70cdb467b48754b122650b9c2dcfe94bbbf28d5ff419a343a01211859c",
+          "title": "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
+          "link": "https://www.nature.com/articles/s41467-026-71305-2",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing."
+        },
+        {
+          "id": "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c",
+          "signature": "122ef60c93dd970a859051c710ccc9bac8074bc7ccfe9a63e246fc018025e813",
+          "title": "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
+          "link": "https://www.nature.com/articles/s41467-026-71509-6",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data."
+        },
+        {
+          "id": "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572",
+          "signature": "c8251e89f379dd763561742af7fe2bc501a11165eafe3d8b472ed7114446f72e",
+          "title": "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission",
+          "link": "https://www.nature.com/articles/s41467-026-71429-5",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71429-5 Recent studies have shown that probing the heating and ionization dynamics of solid-density plasmas with x-ray free-electron laser (XFEL) beams is inherently challenging. Here, the authors demonstrate sub-picosecond time resolution of solid-density Cu plasmas driven by an optical laser pulse, by combining resonant x-ray emission spectroscopy and absorption imaging from an XFEL probe beam. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71429-5 Recent studies have shown that probing the heating and ionization dynamics of solid-density plasmas with x-ray free-electron laser (XFEL) beams is inherently challenging. Here, the authors demonstrate sub-picosecond time resolution of solid-density Cu plasmas driven by an optical laser pulse, by combining resonant x-ray emission spectroscopy and absorption imaging from an XFEL probe beam. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71429-5 Recent studies have shown that probing the heating and ionization dynamics of solid-density plasmas with x-ray free-electron laser (XFEL) beams is inherently challenging. Here, the authors demonstrate sub-picosecond time resolution of solid-density Cu plasmas driven by an optical laser pulse, by combining resonant x-ray emission spectroscopy and absorption imaging from an XFEL probe beam."
+        },
         {
           "id": "b32a9407c1efd4051416e117b7241b790b89e68e6c2eb07a0c0d5a880fdb91cc",
           "signature": "ee66ff5a36e11198214b9c2b599b72a0e01aa708494064c5cba6308fe11e15f7",
@@ -2074,16 +2481,18 @@
       ],
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "summary": {
-        "tldr": "Nature Communications currently has 4 retained item(s) on the page. Key items include \"Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%\", \"A conversational multi-agent AI system for automated plant phenotyping\", and \"Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal\".",
+        "tldr": "Nature Communications currently has 7 retained item(s) on the page. Key items include \"Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries\", \"A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds\", and \"Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission\".",
         "highlights": [
-          "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
-          "A conversational multi-agent AI system for automated plant phenotyping",
-          "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal"
+          "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
+          "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
+          "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission"
         ]
       }
     },
     "https://www.nature.com/natcomputsci.rss": {
       "seen_ids": [
+        "46b8ed4f4d7589ada70438586297b10a41d09d0a427847be39ce0b30c930e0b7",
+        "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1",
         "47c212eab822e3c83cbfb3b2314db4d1c7ce8f4f4e2f05e75844d266d0c32e79",
         "f734b396aecbf755f56713293129f7bced01f4d6faee34092af705992e5c25a2",
         "81be37f80336addb452da25f107683dba5066700dea4b0d1ef90b97489cb6ff0",
@@ -2093,10 +2502,38 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Nature Computational Science",
-      "pending_items": [],
-      "site_url": "http://feeds.nature.com/natcomputsci/rss/current"
+      "pending_items": [
+        {
+          "id": "46b8ed4f4d7589ada70438586297b10a41d09d0a427847be39ce0b30c930e0b7",
+          "signature": "7b38b71259cce4f4d8f3d0d7793bf850283c014cd622fa848e1bb8fed9f2c334",
+          "title": "Universal restoration of medical images",
+          "link": "https://www.nature.com/articles/s43588-026-00975-1",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data."
+        },
+        {
+          "id": "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1",
+          "signature": "d5b75e37117be079cf2798cec2e02a7494b68a9e2ac4c14d0674596b4f6dce36",
+          "title": "Benchmarking alignment methods for spatial transcriptomics data",
+          "link": "https://www.nature.com/articles/s43588-026-00977-z",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods."
+        }
+      ],
+      "site_url": "http://feeds.nature.com/natcomputsci/rss/current",
+      "summary": {
+        "tldr": "Nature Computational Science currently has 2 retained item(s) on the page. Key items include \"Universal restoration of medical images\" and \"Benchmarking alignment methods for spatial transcriptomics data\".",
+        "highlights": [
+          "Universal restoration of medical images",
+          "Benchmarking alignment methods for spatial transcriptomics data"
+        ]
+      }
     },
     "https://www.nature.com/ng.rss": {
       "seen_ids": [
@@ -2109,13 +2546,14 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:53+00:00",
       "feed_title": "Nature Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/ng/rss/current"
     },
     "https://www.nature.com/naturehealth.rss": {
       "seen_ids": [
+        "2b8af28df3f67550990b3353ee376bf4a989a6f2e2da6b0c99f8de976e6e2e8c",
         "4d6677561ba40bf49fabc6820091b1c71af83397b631c8ad956e9315ec786311",
         "162649f4c258bffca6f0a1c5f116abe58c78939ef34a1ad323db2296861a2092",
         "0e8e7c07bf508f71ae4a0fcecb3c63d0b95058890d7caa00f39edde0e791945d",
@@ -2125,10 +2563,27 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:54+00:00",
       "feed_title": "Nature Health",
-      "pending_items": [],
-      "site_url": "http://feeds.nature.com/naturehealth/rss/current"
+      "pending_items": [
+        {
+          "id": "2b8af28df3f67550990b3353ee376bf4a989a6f2e2da6b0c99f8de976e6e2e8c",
+          "signature": "c0d307635f0066ed4bf42960eed1cab27128716675c698f4d72767438732d900",
+          "title": "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics",
+          "link": "https://www.nature.com/articles/s44360-026-00109-x",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects. Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects. Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects."
+        }
+      ],
+      "site_url": "http://feeds.nature.com/naturehealth/rss/current",
+      "summary": {
+        "tldr": "Nature Health currently has 1 retained item(s) on the page. Key items include \"GLP-1 receptor agonists should be rigorously tested as longevity therapeutics\".",
+        "highlights": [
+          "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics"
+        ]
+      }
     },
     "https://www.nature.com/natmachintell.rss": {
       "seen_ids": [
@@ -2141,13 +2596,16 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:54+00:00",
       "feed_title": "Nature Machine Intelligence",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natmachintell/rss/current"
     },
     "https://www.nature.com/nm.rss": {
       "seen_ids": [
+        "abce7ba38d8fd7bc22f77db10d1443b87a0c4a64bf5c4bf5aa24fd991930e133",
+        "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9",
+        "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886",
         "abe0a97063ec84cc651c6a0cb70b08f72439a8c5b46b82c5602040651ad7e988",
         "d7eb7a3a3434dee714b65aa71644ba9a622f7e71976d4244aa44459f79d31faa",
         "9734de1af101ec414de536ccab5f3bec595c470cc3da3361306eddfc55e021d6",
@@ -2158,10 +2616,49 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:54+00:00",
       "feed_title": "Nature Medicine",
-      "pending_items": [],
-      "site_url": "http://feeds.nature.com/nm/rss/current"
+      "pending_items": [
+        {
+          "id": "abce7ba38d8fd7bc22f77db10d1443b87a0c4a64bf5c4bf5aa24fd991930e133",
+          "signature": "1571bcf1cd6c438efb3ef49bd54f9d3f376c32dddca1c107ac7c0f9812795b90",
+          "title": "Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb",
+          "link": "https://www.nature.com/articles/s41591-026-04256-2",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future."
+        },
+        {
+          "id": "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9",
+          "signature": "29314df3909785655749d4f02cbd4f07747868a02688f24521ba4ded4e821f4a",
+          "title": "The exposome of brain aging across 34 countries",
+          "link": "https://www.nature.com/articles/s41591-026-04302-z",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging."
+        },
+        {
+          "id": "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886",
+          "signature": "a7bda0348edf68402b6a5be8221e1dc568353f42693f065685bfc68440fba7df",
+          "title": "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease",
+          "link": "https://www.nature.com/articles/s41591-026-04305-w",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease."
+        }
+      ],
+      "site_url": "http://feeds.nature.com/nm/rss/current",
+      "summary": {
+        "tldr": "Nature Medicine currently has 3 retained item(s) on the page. Key items include \"Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb\", \"The exposome of brain aging across 34 countries\", and \"Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease\".",
+        "highlights": [
+          "Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb",
+          "The exposome of brain aging across 34 countries",
+          "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease"
+        ]
+      }
     },
     "https://www.nature.com/nmeth.rss": {
       "seen_ids": [
@@ -2175,13 +2672,16 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:54+00:00",
       "feed_title": "Nature Methods",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nmeth/rss/current"
     },
     "https://www.nature.com/nmicrobiol.rss": {
       "seen_ids": [
+        "f743be72b76a6187d083fe48978d70525902d272ff456a4753280d2ede4c2fdc",
+        "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d",
+        "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0",
         "86307acf9134f1e6c729dddf691bb07fc4a6628de58049e62a2226a9aedaa9b5",
         "7e4655ce4149169239ab5778c859fe607664f6ec3b93397bc40165a913004216",
         "49c6b550f63e4d265af254e6a87b888dbdf9866b51b0775cb26fb5b5b68210d3",
@@ -2191,10 +2691,49 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:55+00:00",
       "feed_title": "Nature Microbiology",
-      "pending_items": [],
-      "site_url": "http://feeds.nature.com/nmicrobiol/rss/current"
+      "pending_items": [
+        {
+          "id": "f743be72b76a6187d083fe48978d70525902d272ff456a4753280d2ede4c2fdc",
+          "signature": "6aed9dbd393569a074396e3a2f5210ad1bd861822c5ea56db36ad298b281ae2b",
+          "title": "Unbinned contigs expand known diversity in the global microbiome",
+          "link": "https://www.nature.com/articles/s41564-026-02314-6",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "article",
+          "text": "Abstract The ongoing census of microbial life is hampered by disparate sampling across Earth’s habitats, challenges in isolating uncultivated organisms, limited resolution in taxonomic marker gene amplicons and incomplete recovery of metagenome-assembled genomes. Here we quantify discoverable Bacterial and Archaeal diversity in a comprehensive, curated cross-habitat dataset of 92,187 publicly available metagenomes. Clustering 502 million sequences of 130 marker genes, we predict ~705,000 Bacterial and ~27,000 Archaeal species-level clades, the vast majority of which were hidden among unbinned contigs. We estimate that ten and 145 previously undescribed Archaeal and Bacterial phyla, respectively, are discoverable in this dataset. We identify soils and aquatic environments as hotspots of discoverable lineages, but predict that undescribed taxa remain abundant across all habitats. Finally, we show that prokaryotic diversity appears to arise within common evolutionary patterns, as clade size distributions follow power laws, consistently across the Tree of Life. Main Microbial life on Earth has deep evolutionary roots and is ubiquitous and abundant in extant ecosystems: prokaryotes (that is, Bacteria and Archaea) emerged more than 4 billion years ago1, have been detected in every environment on the planet and are estimated to account for ~1030 cells and 1016–1018 g of biomass2,3. This long history of evolution across a comprehensive ecological range is reflected in a great accumulated phylogenetic diversity, vastly exceeding that of multicellular life4. Yet, it remains unclear just how diverse extant Bacteria and Archaea really are, with extrapolations from abundance distributions of individual samples predicting anywhere between 106 and 1012 prokaryotic species worldwide5,6,7,8. Only a fraction of this diversity has been accounted for in existing data. Using 16S ribosomal RNA (rRNA) amplicon sequences, previous studies estimated the number of species-level operational taxonomic units (OTUs) in publicly available datasets to be 35,500 in 20049, 210,000 in 20148, 109,000 in 201610 and 740,000 in 20197. Based on rarefaction curves, tracking the number of newly discovered types (species) as more data (samples) are added to the survey, these analyses concluded that, at least in some habitats, the rate of species discovery was slowing down. Although 16S rRNA data continue to be more abundant in public repositories11, integrated surveys of prokaryotic diversity increasingly rely on isolate genomes and metagenome-assembled genomes (MAGs) to overcome some of the limitations of amplicon-based datasets (Supplementary Discussion). In metagenomic data, clade-level diversity is often defined based on sequence similarity in a subset of near-universal taxonomic marker genes12,13,14 or entire genomes15. For example, proGenomes3 (ref. 16) encompasses 41,171 species-level clusters of high-quality isolate genomes from the National Center for Biotechnology Information’s RefSeq and GenBank databases, whereas the Genome Taxonomy Database (GTDB) r226 delineates 143,614 species, combining isolate genomes and high-quality MAGs17. In addition, large-scale MAG catalogues continue to add to the census, reporting for example 4,644 species-level genomes in the human gut microbiome18, 8,300 species in the ocean19, 21,077 species in soils20, between 100 and 13,000 species for the various habitats in the MGnify Genomes collection21 or 18,000 species across the habitats represented in the IMG/M database22. We recently developed SPIRE23, which provides an integrated survey of microbial diversity across 99,146 manually annotated metagenomes from all sampled habitats on Earth, describing 107,068 species-level clusters, of which 92,134 are entirely based on MAGs (that is, lacking a cultivated representative). Such genome-centric surveys have greatly expanded the scope of study for microbial diversity, ecology and evolution, in particular for uncultivated taxa: in GTDB…"
+        },
+        {
+          "id": "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d",
+          "signature": "b042c593c7026ff1c1b416c5a053e1c58d0c6a7975cd91e8817318aea5f2386d",
+          "title": "A family of endonucleases blocks nanotube-mediated plasmid exchange",
+          "link": "https://www.nature.com/articles/s41564-026-02293-8",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species."
+        },
+        {
+          "id": "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0",
+          "signature": "5f45fecd26eeaaade6d36e266f512135aa2f20170ba98cc2877196be7572096f",
+          "title": "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control",
+          "link": "https://www.nature.com/articles/s41564-026-02317-3",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity."
+        }
+      ],
+      "site_url": "http://feeds.nature.com/nmicrobiol/rss/current",
+      "summary": {
+        "tldr": "Nature Microbiology currently has 3 retained item(s) on the page. Key items include \"Unbinned contigs expand known diversity in the global microbiome\", \"A family of endonucleases blocks nanotube-mediated plasmid exchange\", and \"Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control\".",
+        "highlights": [
+          "Unbinned contigs expand known diversity in the global microbiome",
+          "A family of endonucleases blocks nanotube-mediated plasmid exchange",
+          "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control"
+        ]
+      }
     },
     "https://www.nature.com/natrevbioeng.rss": {
       "seen_ids": [
@@ -2207,7 +2746,7 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:55+00:00",
       "feed_title": "Nature Reviews Bioengineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natrevbioeng/rss/current"
@@ -2223,7 +2762,7 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:55+00:00",
       "feed_title": "Nature Reviews Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrg/rss/current"
@@ -2240,7 +2779,7 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-03T07:53:07+00:00",
+      "last_checked_at": "2026-04-03T11:42:55+00:00",
       "feed_title": "Nature Reviews Microbiology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrmicro/rss/current"
@@ -2488,6 +3027,6 @@
       "site_url": "https://github.com/WillHua127"
     }
   },
-  "updated_at": "2026-04-03T07:52:31+00:00",
+  "updated_at": "2026-04-03T11:39:44+00:00",
   "feed_count": 32
 }

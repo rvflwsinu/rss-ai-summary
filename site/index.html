@@ -75,28 +75,31 @@
         margin-bottom: 14px;
         border-bottom: 1px solid var(--border);
       }
-      .feed-grid {
-        display: grid;
-        gap: 12px;
-        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-      }
+      .feed-list { display: grid; gap: 10px; }
       .feed {
         background: var(--surface);
         border: 1px solid var(--border);
         border-radius: 8px;
-        padding: 18px;
+        padding: 14px 16px;
+        display: grid;
+        grid-template-columns: minmax(0, 220px) minmax(0, 1fr) auto;
+        gap: 12px;
+        align-items: start;
       }
-      .feed-hd {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 8px;
-        margin-bottom: 10px;
+      .feed-line {
+        display: contents;
       }
-      .feed-title { font-size: 0.95rem; font-weight: 600; }
+      .feed-title { font-size: 0.95rem; font-weight: 600; line-height: 1.45; }
       .feed-title a { color: var(--text); }
       .feed-title a:hover { color: var(--accent); text-decoration: none; }
-      .feed-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+      .feed-meta {
+        font-size: 0.78rem;
+        color: var(--muted);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+      }
       .rss-badge {
         font-size: 0.68rem;
         font-weight: 700;
@@ -113,40 +116,7 @@
         font-size: 0.85rem;
         color: var(--muted);
         line-height: 1.65;
-        margin-bottom: 12px;
-      }
-      .highlights { padding-left: 16px; }
-      .highlights li { font-size: 0.84rem; margin-bottom: 3px; }
-      details {
-        margin-top: 12px;
-        border-top: 1px solid var(--border);
-        padding-top: 10px;
-      }
-      details summary {
-        font-size: 0.78rem;
-        color: var(--muted);
-        cursor: pointer;
-        user-select: none;
-        list-style: none;
-      }
-      details summary::-webkit-details-marker { display: none; }
-      details summary::before { content: "+ "; }
-      details[open] summary::before { content: "- "; }
-      details summary:hover { color: var(--accent); }
-      .items { list-style: none; margin-top: 10px; }
-      .items li {
-        padding: 6px 0;
-        border-bottom: 1px solid var(--border);
-        font-size: 0.84rem;
-      }
-      .items li:last-child { border-bottom: none; }
-      .items a { color: var(--text); }
-      .items a:hover { color: var(--accent); text-decoration: none; }
-      .item-meta {
-        display: block;
-        font-size: 0.72rem;
-        color: var(--muted);
-        margin-top: 1px;
+        margin: 0;
       }
       .errors {
         background: var(--surface);
@@ -171,7 +141,12 @@
       @media (max-width: 600px) {
         .shell { padding: 20px 14px 60px; }
         .page-hd h1 { font-size: 1.3rem; }
-        .feed-grid { grid-template-columns: 1fr; }
+        .feed {
+          grid-template-columns: 1fr;
+          gap: 6px;
+        }
+        .feed-line { display: block; }
+        .feed-meta { white-space: normal; }
       }
     </style>
   </head>
@@ -185,15 +160,15 @@
       <div class="stats">
         <div class="stat">
           <div class="stat-label">Updated</div>
-          <div class="stat-value">2026-04-03 07:52 UTC</div>
+          <div class="stat-value">2026-04-03 11:39 UTC</div>
         </div>
         <div class="stat">
           <div class="stat-label">Feeds</div>
-          <div class="stat-value">7</div>
+          <div class="stat-value">11</div>
         </div>
         <div class="stat">
           <div class="stat-label">Items</div>
-          <div class="stat-value">128</div>
+          <div class="stat-value">174</div>
         </div>
         <div class="stat">
           <div class="stat-label">Model</div>
@@ -204,142 +179,151 @@
 
         <section class="category">
           <h2>Blogs</h2>
-          <div class="feed-grid">
+          <div class="feed-list">
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="http://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></div>
-                  <div class="feed-meta">1 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="http://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></div>
+                <p class="tldr">阮一峰的网络日志 currently has 1 retained item(s) on the page. Key items include &quot;科技爱好者周刊（第 391 期）：AI 的贫富分化&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>1 items</span>
                 <a class="rss-badge" href="http://www.ruanyifeng.com/blog/atom.xml">RSS</a>
               </div>
-              <p class="tldr">阮一峰的网络日志 currently has 1 retained item(s) on the page. Key items include &quot;科技爱好者周刊（第 391 期）：AI 的贫富分化&quot;.</p>
-              <ul class="highlights"><li>科技爱好者周刊（第 391 期）：AI 的贫富分化</li></ul>
-              <details>
-                <summary>All 1 items</summary>
-                <ul class="items"><li><a href="http://www.ruanyifeng.com/blog/2026/04/weekly-issue-391.html">科技爱好者周刊（第 391 期）：AI 的贫富分化</a><span class="item-meta">2026-04-03 00:08 UTC | feed</span></li></ul>
-              </details>
             </article>
             </div>
         </section>
 
         <section class="category">
           <h2>Forum</h2>
-          <div class="feed-grid">
+          <div class="feed-list">
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="https://linux.do/tag/444-tag/444">LINUX DO - 使用人工智能标记的话题</a></div>
-                  <div class="feed-meta">57 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="https://linux.do/tag/444-tag/444">LINUX DO - 使用人工智能标记的话题</a></div>
+                <p class="tldr">LINUX DO - 使用人工智能标记的话题 currently has 80 retained item(s) on the page. Key items include &quot;MinerU api不需要申请了，可以直接创建&quot;, &quot;假如你是图灵&quot;, and &quot;Cursor 中的 Opus 得分比 Claude Code 高出 20% —— 同一模型，不同基础设施&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>80 items</span>
                 <a class="rss-badge" href="https://linux.do/tag/444-tag/444.rss">RSS</a>
               </div>
-              <p class="tldr">LINUX DO - 使用人工智能标记的话题 currently has 57 retained item(s) on the page. Key items include &quot;关于 Accio 的使用QA&quot;, &quot;gpt plus 怎么导入 cpa&quot;, and &quot;佬友们怎么看像pantheon和The AI Scientist这样的AI科研？&quot;.</p>
-              <ul class="highlights"><li>关于 Accio 的使用QA</li><li>gpt plus 怎么导入 cpa</li><li>佬友们怎么看像pantheon和The AI Scientist这样的AI科研？</li></ul>
-              <details>
-                <summary>All 57 items</summary>
-                <ul class="items"><li><a href="https://linux.do/t/topic/1890321">关于 Accio 的使用QA</a><span class="item-meta">2026-04-03 07:50 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890317">gpt plus 怎么导入 cpa</a><span class="item-meta">2026-04-03 07:50 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890311">佬友们怎么看像pantheon和The AI Scientist这样的AI科研？</a><span class="item-meta">2026-04-03 07:49 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890306">需要一个便宜好用的开发 辅助工具</a><span class="item-meta">2026-04-03 07:48 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890305">谷歌开源模型 Gemma 4 发布了</a><span class="item-meta">2026-04-03 07:48 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890275">现在推荐用claude还是codex</a><span class="item-meta">2026-04-03 07:44 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890269">Qwen Code里的Qwen3.6plus是假的吧？</a><span class="item-meta">2026-04-03 07:44 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890228">谷歌云创建服务器是自动使用赠金吗</a><span class="item-meta">2026-04-03 07:38 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890155">codex注册机还有救吗</a><span class="item-meta">2026-04-03 07:31 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890084">面向研究论文和实验写作流程的自动化工作台</a><span class="item-meta">2026-04-03 07:18 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1890083">纪念我死去的 3 个 Claude 账号</a><span class="item-meta">2026-04-03 07:18 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889795">好像大家都是分享工具，没有人分享具体做了什么，我来抛个砖</a><span class="item-meta">2026-04-03 06:42 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889648">codex线程丢失解决方案</a><span class="item-meta">2026-04-03 06:25 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889643">Mimo Token Plan 这对吗？？？</a><span class="item-meta">2026-04-03 06:23 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889640">[贷门开发]现在的vibecoding给我的感觉像贷款流开发，=欠的是技术债</a><span class="item-meta">2026-04-03 06:23 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889600">想找研究过LLM4Rec的佬友聊聊</a><span class="item-meta">2026-04-03 06:18 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889488">佬友们都是怎么在大量 vibe coding 保证代码可维护性的</a><span class="item-meta">2026-04-03 06:05 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889483">大佬们，claude code这种终端的，和cursor 如果都使用同一个模型，它俩到底有什么区别？</a><span class="item-meta">2026-04-03 06:05 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889466">哈基米和冰佬都把门焊死了咋办！只能靠Dooong和10刀的OpenRouter续命了</a><span class="item-meta">2026-04-03 06:02 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889366">GPT 5.4 Plus用户是否有降智!？</a><span class="item-meta">2026-04-03 05:49 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889361">公司决定要采购cursor了，但是压力全部给到我，让我来办，佬们要怎么弄啊！！！我好慌！</a><span class="item-meta">2026-04-03 05:48 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889285">OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？</a><span class="item-meta">2026-04-03 05:37 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889235">any大善人呜呜，想你了</a><span class="item-meta">2026-04-03 05:27 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889228">各位佬们，有个问题想请教</a><span class="item-meta">2026-04-03 05:25 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889050">OpenRouter 上 Qwen3.6 Plus 正式版来了</a><span class="item-meta">2026-04-03 05:05 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889004">部署了gemma4:26B，在12G 显存 32 内存的机器上，跑的很流畅</a><span class="item-meta">2026-04-03 04:58 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888869">gemma4 31B聊天体验真的甚妙，单独发帖再夸一下|顺便测一下原文输出内容完整保留能力:大概和2.5Pro相当!</a><span class="item-meta">2026-04-03 04:30 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888699">怎么在codex里调用claude code这种接口的api？</a><span class="item-meta">2026-04-03 04:01 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888663">龙虾code plan套餐求推荐</a><span class="item-meta">2026-04-03 03:57 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888622">【已更新 Anthropic 最新回应】TO 额度消耗起飞的 Pro/Max 佬们：Claude 官方订阅存在的缓存异常以及临时解决方案</a><span class="item-meta">2026-04-03 03:52 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888614">求助，claude code的web search工具异常，大家都怎么样的？</a><span class="item-meta">2026-04-03 03:51 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888590">linux.do人工智能技术日报-26-04-03</a><span class="item-meta">2026-04-03 03:48 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888577">图灵的猫《人人都能听懂的AI通识课》</a><span class="item-meta">2026-04-03 03:47 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888541">Codex 最高500美元的活动</a><span class="item-meta">2026-04-03 03:40 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888002">【求助】如何通过ccs在cc中用上gpt</a><span class="item-meta">2026-04-03 02:36 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1887895">深入浅出 Claude Code（三）：从源码理解 Agent 系统，一个人指挥一支队伍</a><span class="item-meta">2026-04-03 02:17 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1886908">简单测下Gemma4-31b-it</a><span class="item-meta">2026-04-02 18:20 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1886469">Clipal 更新，不仅一键接管本地API转发，还智能处理所有类似/v1端点少了或者多了的各种问题</a><span class="item-meta">2026-04-02 16:04 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1885174">购买$200 Claude code订阅的话，一个人能做到每天畅玩吗？</a><span class="item-meta">2026-04-02 13:18 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1883810">请问怎么样注册的GPT账号才会在Plus或Business上有“$0 试用资格”？</a><span class="item-meta">2026-04-02 10:02 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1881008">佬们好卷，Harness教程一天干到1千星</a><span class="item-meta">2026-04-02 03:32 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1879748">JAVA AI智能应用体开发 佬们都是怎样的一个学习路线</a><span class="item-meta">2026-04-02 00:57 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1873901">Claude Oauth登录刷 /buddy 宠物的方法找到了</a><span class="item-meta">2026-04-01 07:15 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1873380">清华北邮团队700 star的Claude Code源码分析&amp;1300行代码最小复现</a><span class="item-meta">2026-04-01 06:25 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1872670">【零元购】 SuperGrok Heavy $3000/年 白嫖实测（复活！！）</a><span class="item-meta">2026-04-01 04:56 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1868730">【开源】Open-Claude-Code CLI 源码</a><span class="item-meta">2026-03-31 15:04 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1865600">【Agent笔记】我们一起来学习Agent！（第1期）</a><span class="item-meta">2026-03-31 11:13 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1847860">国内的CodingPlan哪个比较好？</a><span class="item-meta">2026-03-29 14:35 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1842687">分享一下常用的网页端大模型厂商与点评</a><span class="item-meta">2026-03-28 13:41 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1837094">【NihaoAPI】sonnet4.6 稍微升级了一下 稳定性提高了</a><span class="item-meta">2026-03-27 11:00 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1810247">【开源】全新轻量级高性能的AI对话+AI本地网关桌面客户端</a><span class="item-meta">2026-03-25 01:45 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1780808">合法开启官方claude code的pro/max订阅方案，实测有效</a><span class="item-meta">2026-03-19 02:02 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1780710">【CCG 自动化流 安装教程（纯风佬CCG）】更新教程！！！新佬友们别迷路！！！(老佬友们叙叙旧√)</a><span class="item-meta">2026-03-19 01:50 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1746525">佬们，接了个外包，一个管理系统，求技术建议（Java、Vue 向）</a><span class="item-meta">2026-03-13 04:14 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1680124">【最强AI Agent】 π 使用教程</a><span class="item-meta">2026-03-02 14:34 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1678115">［开源］Ai-Novel 强大的ai小说创作网站</a><span class="item-meta">2026-03-02 07:52 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1643542">【干货分享】基于Kai佬的攻略整了个配镜Gem，专治各位佬的配镜困难症</a><span class="item-meta">2026-02-24 18:00 UTC | feed</span></li></ul>
-              </details>
             </article>
             </div>
         </section>
 
         <section class="category">
           <h2>Github</h2>
-          <div class="feed-grid">
+          <div class="feed-list">
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="https://github.com/luost26">luost26&#x27;s GitHub activities</a></div>
-                  <div class="feed-meta">4 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="https://github.com/luost26">luost26&#x27;s GitHub activities</a></div>
+                <p class="tldr">luost26&#x27;s GitHub activities currently has 4 retained item(s) on the page. Key items include &quot;luost26 pushed prexsyn&quot;, &quot;luost26 pushed prexsyn&quot;, and &quot;luost26 pushed prexsyn&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>4 items</span>
                 <a class="rss-badge" href="https://rsshub.rssforever.com/github/activity/luost26">RSS</a>
               </div>
-              <p class="tldr">luost26&#x27;s GitHub activities currently has 4 retained item(s) on the page. Key items include &quot;luost26 pushed prexsyn&quot;, &quot;luost26 pushed prexsyn&quot;, and &quot;luost26 pushed prexsyn&quot;.</p>
-              <ul class="highlights"><li>luost26 pushed prexsyn</li><li>luost26 pushed prexsyn</li><li>luost26 pushed prexsyn</li></ul>
-              <details>
-                <summary>All 4 items</summary>
-                <ul class="items"><li><a href="https://github.com/luost26/prexsyn/compare/1c5fde5215...439f694d85">luost26 pushed prexsyn</a><span class="item-meta">2026-04-02 22:07 UTC | article</span></li><li><a href="https://github.com/luost26/prexsyn/compare/819776bdce...1c5fde5215">luost26 pushed prexsyn</a><span class="item-meta">2026-04-02 21:53 UTC | article</span></li><li><a href="https://github.com/luost26/prexsyn/compare/e422317a27...819776bdce">luost26 pushed prexsyn</a><span class="item-meta">2026-04-02 21:52 UTC | article</span></li><li><a href="https://github.com/luost26/prexsyn/compare/8ba7a9b055...e422317a27">luost26 pushed prexsyn</a><span class="item-meta">2026-04-02 21:50 UTC | article</span></li></ul>
-              </details>
             </article>
             </div>
         </section>
 
         <section class="category">
           <h2>News</h2>
-          <div class="feed-grid">
+          <div class="feed-list">
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="https://linux.do/c/news/34">前沿快讯 - LINUX DO</a></div>
-                  <div class="feed-meta">23 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="https://linux.do/c/news/34">前沿快讯 - LINUX DO</a></div>
+                <p class="tldr">前沿快讯 - LINUX DO currently has 34 retained item(s) on the page. Key items include &quot;codex 量大管饱的时代可能要结束力&quot;, &quot;【疑似灰度】支付宝内置openclaw（aclaw），含k2.5、m2.5、glm5、qwen3.5&quot;, and &quot;claude 接管&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>34 items</span>
                 <a class="rss-badge" href="https://linux.do/c/news/34.rss">RSS</a>
               </div>
-              <p class="tldr">前沿快讯 - LINUX DO currently has 23 retained item(s) on the page. Key items include &quot;CNNIC域名隐私保护将于4月10日调整为免费&quot;, &quot;gpt Business 价格下调&quot;, and &quot;ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件&quot;.</p>
-              <ul class="highlights"><li>CNNIC域名隐私保护将于4月10日调整为免费</li><li>gpt Business 价格下调</li><li>ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件</li></ul>
-              <details>
-                <summary>All 23 items</summary>
-                <ul class="items"><li><a href="https://linux.do/t/topic/1890163">CNNIC域名隐私保护将于4月10日调整为免费</a><span class="item-meta">2026-04-03 07:31 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889891">gpt Business 价格下调</a><span class="item-meta">2026-04-03 06:55 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889790">ClaudeCode v2.1.91：对用户钱包最直接的优化！Edit工具自动省token，插件可直接打包可执行文件</a><span class="item-meta">2026-04-03 06:41 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889422">Zread推出Zread CLI</a><span class="item-meta">2026-04-03 05:56 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889347">axios3/31被投毒，盗号的手段居然是社会工程学攻击</a><span class="item-meta">2026-04-03 05:46 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889300">Google Vids 接入 Veo 3.1，普通用户可免费生成 AI 视频</a><span class="item-meta">2026-04-03 05:40 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889293">qwen3.6正式版上线qwen-code</a><span class="item-meta">2026-04-03 05:38 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889285">OpenAI Codex工程负责人公开问用户：高峰加价、低谷多给，你们觉得行不行？</a><span class="item-meta">2026-04-03 05:37 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889249">小米也出tokenplan，用量计费，TTS 模型限时免费使用</a><span class="item-meta">2026-04-03 05:30 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889202">还没毕业就给期权：Kimi月之暗面推「穿越计划」，提前一年锁定27届顶尖人才</a><span class="item-meta">2026-04-03 05:22 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1889050">OpenRouter 上 Qwen3.6 Plus 正式版来了</a><span class="item-meta">2026-04-03 05:05 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888939">小米也出Token Plan 了</a><span class="item-meta">2026-04-03 04:45 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888857">按token计费，无五小时限制：Xiaomi MiMo Token Plan发布</a><span class="item-meta">2026-04-03 04:28 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888842">Xiaomi MiMo Token Plan 正式上线</a><span class="item-meta">2026-04-03 04:25 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888827">火山方舟协作奖励计划活动延期至2026年6月30日</a><span class="item-meta">2026-04-03 04:23 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888823">Xiaomi mimo 官方也有 Coding Plan 了</a><span class="item-meta">2026-04-03 04:21 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888821">Xiaomi MiMo Token Plan 现已正式上线</a><span class="item-meta">2026-04-03 04:21 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888805">小米 Token Plan 公布，竟然是按用量计算的</a><span class="item-meta">2026-04-03 04:18 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888785">Perplexity 遭集体起诉，隐身模式被指形同虚设</a><span class="item-meta">2026-04-03 04:15 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888656">Team这波新策略， 用起来感觉就是削减GPT Team的额度 拿去普通位做推广 拉人头了</a><span class="item-meta">2026-04-03 03:56 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888607">【自制】全球新闻0403</a><span class="item-meta">2026-04-03 03:51 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888590">linux.do人工智能技术日报-26-04-03</a><span class="item-meta">2026-04-03 03:48 UTC | feed</span></li><li><a href="https://linux.do/t/topic/1888541">Codex 最高500美元的活动</a><span class="item-meta">2026-04-03 03:40 UTC | feed</span></li></ul>
-              </details>
             </article>
 
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="https://www.youtube.com/@wangzhian">王志安 - YouTube</a></div>
-                  <div class="feed-meta">35 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="https://www.youtube.com/@wangzhian">王志安 - YouTube</a></div>
+                <p class="tldr">王志安 - YouTube currently has 35 retained item(s) on the page. Key items include &quot;接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】&quot;, &quot;中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402&quot;, and &quot;中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>35 items</span>
                 <a class="rss-badge" href="https://rsshub.rssforever.com/youtube/user/@wangzhian">RSS</a>
               </div>
-              <p class="tldr">王志安 - YouTube currently has 35 retained item(s) on the page. Key items include &quot;接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】&quot;, &quot;中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402&quot;, and &quot;中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402&quot;.</p>
-              <ul class="highlights"><li>接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】</li><li>中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402</li><li>中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402</li></ul>
-              <details>
-                <summary>All 35 items</summary>
-                <ul class="items"><li><a href="https://www.youtube.com/watch?v=gtv3y5lrd-k">接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】</a><span class="item-meta">2026-04-03 06:19 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=BmlUbCD9G2I">中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402</a><span class="item-meta">2026-04-02 12:57 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=BmlUbCD9G2I">中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402</a><span class="item-meta">2026-04-02 12:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=WytvhIOJsNA">特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402</a><span class="item-meta">2026-04-02 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=uYgJAr-7roY">柯文哲庭审录像精华版｜新闻特写20260402</a><span class="item-meta">2026-04-02 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=KMlYdvwiQ0Y">Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401</a><span class="item-meta">2026-04-02 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=KMlYdvwiQ0Y">Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401</a><span class="item-meta">2026-04-02 03:57 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=WytvhIOJsNA">特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402</a><span class="item-meta">2026-04-02 03:57 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=uYgJAr-7roY">柯文哲庭审录像精华版｜新闻特写20260402</a><span class="item-meta">2026-04-02 03:57 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=ez7a0tnmA4Y">张雪机车，他是第一｜新闻特写20260331</a><span class="item-meta">2026-04-01 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=JiGeTwJCiEk">U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?</a><span class="item-meta">2026-03-31 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=pgKI_LJnhxY">郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330</a><span class="item-meta">2026-03-31 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=Pc9F8JOfNeM">北京房山集市发生铲车撞人事件｜新闻特写20260330</a><span class="item-meta">2026-03-30 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=dc3R8IylOrU">萬人送別张雪峰｜新聞特寫20260329</a><span class="item-meta">2026-03-29 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=ADnrskupDBI">When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?</a><span class="item-meta">2026-03-28 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=0ikW4_WWZxc">柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327</a><span class="item-meta">2026-03-27 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=nD_-g491A2M">日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326</a><span class="item-meta">2026-03-27 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=zTc0CensUA8">Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory</a><span class="item-meta">2026-03-26 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=7zWk5Dqi8Gs">一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325</a><span class="item-meta">2026-03-26 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=QzPEOHcHLkw">张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325</a><span class="item-meta">2026-03-25 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=pvRnqiz4rQc">Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?</a><span class="item-meta">2026-03-25 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=Ui9aipNVByA">爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326</a><span class="item-meta">2026-03-25 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=Ui9aipNVByA">爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326</a><span class="item-meta">2026-03-24 07:14 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=pSLed7KOxIs">Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics</a><span class="item-meta">2026-03-24 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=hxmYrNgWlVg">特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324</a><span class="item-meta">2026-03-24 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=sn0BoWdd1lQ">When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV</a><span class="item-meta">2026-03-23 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=-2uG97Up2Do">300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321</a><span class="item-meta">2026-03-21 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=Mt5vBOoPlkw">Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings</a><span class="item-meta">2026-03-21 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=6QSl94BpBqk">川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320</a><span class="item-meta">2026-03-20 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=mYdmu91sDB8">预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320</a><span class="item-meta">2026-03-20 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=H9yFmxAgtDw">院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319</a><span class="item-meta">2026-03-20 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=ybCMiAYt1hk">Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears</a><span class="item-meta">2026-03-20 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=VK3QFLOcTBo">Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry</a><span class="item-meta">2026-03-20 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=fY2GYWCje-A">特朗普：战事缠身访华推迟一个月｜新闻特写20260317</a><span class="item-meta">2026-03-20 06:33 UTC | feed</span></li><li><a href="https://www.youtube.com/watch?v=OsuDCwACYWI">哈梅内伊丧生，流亡海外的伊朗民众喜极而泣｜新闻特写20260301</a><span class="item-meta">2026-03-01 09:26 UTC | feed</span></li></ul>
-              </details>
             </article>
             </div>
         </section>
 
         <section class="category">
           <h2>Papers</h2>
-          <div class="feed-grid">
+          <div class="feed-list">
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="https://biorxiv.org/">bioRxiv Subject Collection: Bioinformatics</a></div>
-                  <div class="feed-meta">4 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="https://biorxiv.org/">bioRxiv Subject Collection: Bioinformatics</a></div>
+                <p class="tldr">bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include &quot;EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing&quot;, &quot;Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers&quot;, and &quot;TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>4 items</span>
                 <a class="rss-badge" href="https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics">RSS</a>
               </div>
-              <p class="tldr">bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include &quot;EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing&quot;, &quot;Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers&quot;, and &quot;TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data&quot;.</p>
-              <ul class="highlights"><li>EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing</li><li>Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers</li><li>TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data</li></ul>
-              <details>
-                <summary>All 4 items</summary>
-                <ul class="items"><li><a href="https://www.biorxiv.org/content/10.64898/2026.03.31.715662v1?rss=1">EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li><li><a href="https://www.biorxiv.org/content/10.64898/2026.03.31.712806v1?rss=1">Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li><li><a href="https://www.biorxiv.org/content/10.64898/2026.04.02.716024v1?rss=1">TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li><li><a href="https://www.biorxiv.org/content/10.64898/2026.04.02.716079v1?rss=1">Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance</a><span class="item-meta">2026-04-02 00:00 UTC | feed</span></li></ul>
-              </details>
             </article>
 
             <article class="feed">
-              <div class="feed-hd">
-                <div>
-                  <div class="feed-title"><a href="http://feeds.nature.com/ncomms/rss/current">Nature Communications</a></div>
-                  <div class="feed-meta">4 items</div>
-                </div>
+              <div class="feed-line">
+                <div class="feed-title"><a href="http://feeds.nature.com/ncomms/rss/current">Nature Communications</a></div>
+                <p class="tldr">Nature Communications currently has 7 retained item(s) on the page. Key items include &quot;Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries&quot;, &quot;A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds&quot;, and &quot;Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>7 items</span>
                 <a class="rss-badge" href="https://www.nature.com/ncomms.rss">RSS</a>
               </div>
-              <p class="tldr">Nature Communications currently has 4 retained item(s) on the page. Key items include &quot;Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%&quot;, &quot;A conversational multi-agent AI system for automated plant phenotyping&quot;, and &quot;Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal&quot;.</p>
-              <ul class="highlights"><li>Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%</li><li>A conversational multi-agent AI system for automated plant phenotyping</li><li>Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal</li></ul>
-              <details>
-                <summary>All 4 items</summary>
-                <ul class="items"><li><a href="https://www.nature.com/articles/s41467-026-71389-w">Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%</a><span class="item-meta">2026-04-03 00:00 UTC | feed</span></li><li><a href="https://www.nature.com/articles/s41467-026-71090-y">A conversational multi-agent AI system for automated plant phenotyping</a><span class="item-meta">2026-04-03 00:00 UTC | feed</span></li><li><a href="https://www.nature.com/articles/s41467-026-71353-8">Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal</a><span class="item-meta">2026-04-03 00:00 UTC | feed</span></li><li><a href="https://www.nature.com/articles/s41467-026-70888-0">Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials</a><span class="item-meta">2026-04-03 00:00 UTC | feed</span></li></ul>
-              </details>
+            </article>
+
+            <article class="feed">
+              <div class="feed-line">
+                <div class="feed-title"><a href="http://feeds.nature.com/natcomputsci/rss/current">Nature Computational Science</a></div>
+                <p class="tldr">Nature Computational Science currently has 2 retained item(s) on the page. Key items include &quot;Universal restoration of medical images&quot; and &quot;Benchmarking alignment methods for spatial transcriptomics data&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>2 items</span>
+                <a class="rss-badge" href="https://www.nature.com/natcomputsci.rss">RSS</a>
+              </div>
+            </article>
+
+            <article class="feed">
+              <div class="feed-line">
+                <div class="feed-title"><a href="http://feeds.nature.com/naturehealth/rss/current">Nature Health</a></div>
+                <p class="tldr">Nature Health currently has 1 retained item(s) on the page. Key items include &quot;GLP-1 receptor agonists should be rigorously tested as longevity therapeutics&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>1 items</span>
+                <a class="rss-badge" href="https://www.nature.com/naturehealth.rss">RSS</a>
+              </div>
+            </article>
+
+            <article class="feed">
+              <div class="feed-line">
+                <div class="feed-title"><a href="http://feeds.nature.com/nm/rss/current">Nature Medicine</a></div>
+                <p class="tldr">Nature Medicine currently has 3 retained item(s) on the page. Key items include &quot;Evidence of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clade Ia, Ib and clade IIb&quot;, &quot;The exposome of brain aging across 34 countries&quot;, and &quot;Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>3 items</span>
+                <a class="rss-badge" href="https://www.nature.com/nm.rss">RSS</a>
+              </div>
+            </article>
+
+            <article class="feed">
+              <div class="feed-line">
+                <div class="feed-title"><a href="http://feeds.nature.com/nmicrobiol/rss/current">Nature Microbiology</a></div>
+                <p class="tldr">Nature Microbiology currently has 3 retained item(s) on the page. Key items include &quot;Unbinned contigs expand known diversity in the global microbiome&quot;, &quot;A family of endonucleases blocks nanotube-mediated plasmid exchange&quot;, and &quot;Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control&quot;.</p>
+              </div>
+              <div class="feed-meta">
+                <span>3 items</span>
+                <a class="rss-badge" href="https://www.nature.com/nmicrobiol.rss">RSS</a>
+              </div>
             </article>
             </div>
         </section>
 
-      <section class="errors"><h2>Feed Errors</h2><ul><li><strong>阮一峰的网络日志</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>LINUX DO - AI</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>luost26&#x27;s GitHub activities</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>LINUX DO - News</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>王志安 - YouTube</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>bioRxiv Subject Collection: Bioinformatics</strong>: Feed fetch failed: The read operation timed out</li><li><strong>Nature Communications</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li></ul></section>
+      <section class="errors"><h2>Feed Errors</h2><ul><li><strong>阮一峰的网络日志</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>LINUX DO - AI</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>gcorso&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>Guangxuan-Xiao&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>HannesStark&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>karpathy&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>luost26&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>OdinZhang&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>wenhao-gao&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>WillHua127&#x27;s GitHub activities</strong>: Feed fetch failed: The read operation timed out</li><li><strong>LINUX DO - News</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>王志安 - YouTube</strong>: Feed fetch failed: The read operation timed out</li><li><strong>bioRxiv Subject Collection: Bioinformatics</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>Nature Communications</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>Nature Computational Science</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>Nature Health</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>Nature Medicine</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li><li><strong>Nature Microbiology</strong>: LLM summary failed, used fallback: HTTP 401 Unauthorized</li></ul></section>
     </main>
   </body>
 </html>
