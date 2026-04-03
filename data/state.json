@@ -24,7 +24,7 @@
         "18698373498696f9f75479b2b0b970bf22aa70b95ecc5204f6773c8e4bc939c1",
         "ece7d794c1725162dc1a9bce1cfff55cd1017dbc38f8bafdcf9320c13670a19e"
       ],
-      "last_checked_at": "2026-04-03T12:57:05+00:00",
+      "last_checked_at": "2026-04-03T14:05:20+00:00",
       "feed_title": "furidamu",
       "pending_items": [],
       "site_url": "https://www.julian.ac/"
@@ -42,7 +42,7 @@
         "b5eefa012d6628992bc24d1507b8fe5db614b0fe41435a3dae0c4c46781dadf1",
         "318094fc16d213d2bdce4cfcabe341111c594a9fecbe585a62ed2b3f1cd2a5ad"
       ],
-      "last_checked_at": "2026-04-03T12:57:05+00:00",
+      "last_checked_at": "2026-04-03T14:05:20+00:00",
       "feed_title": "karpathy",
       "pending_items": [],
       "site_url": "https://karpathy.bearblog.dev/"
@@ -101,7 +101,7 @@
         "68921d2222b0e3f1cfe4eb07f2f63a0a14e70ae71cada5efe31986e494969f6e",
         "4236f3e954dabf5bd7af893cc6812a8c13ae05e15cef0a22cef342d47b1c3daa"
       ],
-      "last_checked_at": "2026-04-03T12:57:05+00:00",
+      "last_checked_at": "2026-04-03T14:05:20+00:00",
       "feed_title": "Lil'Log",
       "pending_items": [],
       "site_url": "https://lilianweng.github.io/"
@@ -113,7 +113,7 @@
         "63517c1387b3905aea468f6d623fc17d8a951aa6d16470bd4bb93fd99f356779",
         "2a49b479935bde52e4b120b2efcd5853a96687100e3f3d5c6633710078193873"
       ],
-      "last_checked_at": "2026-04-03T12:57:05+00:00",
+      "last_checked_at": "2026-04-03T14:05:20+00:00",
       "feed_title": "阮一峰的网络日志",
       "pending_items": [
         {
@@ -130,16 +130,35 @@
       ],
       "site_url": "http://www.ruanyifeng.com/blog/",
       "summary": {
-        "tldr": "This weekly digest examines how AI's compute-driven costs may create economic inequality, contrasting with a new metric showing model capabilities doubling every seven months. It also covers recent tech industry developments, including GitHub Copilot's ad insertion controversy, and provides a curated list of open-source developer tools and AI programming resources.",
+        "tldr": "This weekly digest examines how AI compute costs could create a socioeconomic divide, contrasting the technology with traditional industrial scaling, and introduces a new time-based metric showing AI capabilities doubling roughly every seven months. It also covers recent developer ecosystem shifts, including GitHub Copilot's controversial ad insertion and a growing selection of open-source tools for AI workflows and system management. The issue concludes with practical tutorials, resource recommendations, and reflections on AI's evolving role in software development.",
         "highlights": [
-          "AI model pricing scales with compute rather than production volume, potentially creating tiered access between wealthy and average users.",
-          "A proposed evaluation metric indicates AI capabilities are doubling every seven months based on human task completion times.",
-          "GitHub temporarily paused Copilot after it automatically inserted promotional ads into thousands of pull requests, alongside curated open-source developer tools and AI tutorials."
+          "AI performance scales with expensive compute rather than traditional economies of scale, potentially creating a divide between premium and free model access.",
+          "A new research metric tracks AI progress by human task completion time, indicating model capabilities double approximately every seven months.",
+          "Developer ecosystem updates include GitHub pausing Copilot's automatic ad insertions, new open-source AI agent SDKs, and practical guides for AI-assisted coding."
         ]
       }
     },
     "https://linux.do/tag/444-tag/444.rss": {
       "seen_ids": [
+        "d47aec1f3c6779325b053210fc7da230f5a3e3943f40923243f6365ccbe3b847",
+        "7db8e620b4692901c8bd8d7f7e865961fa8fe19106fe6c661b3702fc0640cb9c",
+        "873d5c644712bb333d17366f7a7a3e83f2bb0b5973e9cf2c771d462764e70c78",
+        "92c4416ac70f360b278fe0321f8778c88fd2316f8e9c8a6f923f1b4c56d13cf6",
+        "9e736cca62d6d1ba8f14961294583da957c2e6691db5c7cdb3550b3906c520de",
+        "d0f0e42bd1cfe7a37e272b8f26afe52bd15963f973144a0252ba05e44a0bf836",
+        "1d88c02cfa0898dbbae881dde7ab7953ae1700d03d121d21cd980cb945b85704",
+        "f6d700fe7487c6e5de4e6b28a700128bfd62012ec66786ae0c577df989cf7c2d",
+        "5889c7e8b267a7d1fcc043e60a011d619f87929245b1e5b177164c963f554e38",
+        "180eee4ed8359cc3e36d2ade3009b7d03cfb323e071e083fa247944fea4ad39f",
+        "21aba8fc93428eb710d2eabcd5089976e672ace9b047e932640386f86a3e5e78",
+        "274acb4d5f8735679d344c86a193fb24eea352c1b8a013153cca0ece5bb69ac2",
+        "7fe25c02b283322013c787352fd1909b107d883f6e5238232dccd26f981a5805",
+        "bc49db27619b07ad6b886cb8b798338eeb78803401927bae29f3f85de841368e",
+        "67e02aa130db6d46701523ba38e1e0c17cff74ef48732497d0eca9f20b26e1cc",
+        "ea2dd733954ac83ee579631268f00a90cff608f83d665f96a79e076ba7571813",
+        "c4f1c0c7286bf6f6c2ab09fdbd63a51b62a441781aaa5d84d6a1b6910d5ed81f",
+        "cc54104dc8b5197f89dcef5fd43f1c4c23ba8fd7e8d943de5399125c68e776d3",
+        "26e3987df7c49ef190c002755900cf0f86d475e531d6c6188bd50120ba75d3f2",
         "bf7519e950d34945a877c149fb5b3e584dbc4588a8d6b8f9eba4b1db612bdeb4",
         "aad3cda3ae07be5f6e543d1e1cf045c24771af2cf5b1ece6c1a4e566db5375f7",
         "f165e523b80f83e1a1b608685ce514b9cf8ed277aa3e26290f5c2ebfb9a2dd19",
@@ -379,9 +398,130 @@
         "cbcf014734d3520b8dfb7281a7d49609874738fd3ea4eee9ab149184d2946971",
         "f254e4522361be6ebe95ac1c1802a3f176557d587f8e9c6eb73fea6f8e2954f5"
       ],
-      "last_checked_at": "2026-04-03T12:57:45+00:00",
+      "last_checked_at": "2026-04-03T14:05:46+00:00",
       "feed_title": "LINUX DO - 使用人工智能标记的话题",
       "pending_items": [
+        {
+          "id": "d47aec1f3c6779325b053210fc7da230f5a3e3943f40923243f6365ccbe3b847",
+          "signature": "c0d80f4468a50c03d4e9a634d5a752060269d06c7b581429744eae53b1d57cd0",
+          "title": "古法注册，平均2分钟一个,不弹手机",
+          "link": "https://linux.do/t/topic/1892751",
+          "published": "2026-04-03 14:01 UTC",
+          "sort_key": 1775224881.0,
+          "source_kind": "feed",
+          "text": "浏览器无痕模式垃圾节点。QQ邮箱。不会弹手机，要是弹手机号了。你可以直接刷新，它实际上已经是登录好了的，然后再去cpa调一次他就成功了，如果不成功的话，你可能得需要手动点击CPT侧边栏的codex，cap就会获取到回调/如果把上下文限定到200k那么一个号有200多次。 7 个帖子 - 4 位参与者 阅读完整话题 浏览器无痕模式垃圾节点。QQ邮箱。不会弹手机，要是弹手机号了。你可以直接刷新，它实际上已经是登录好了的，然后再去cpa调一次他就成功了，如果不成功的话，你可能得需要手动点击CPT侧边栏的codex，cap就会获取到回调/如果把上下文限定到200k那么一个号有200多次。 7 个帖子 - 4 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "7db8e620b4692901c8bd8d7f7e865961fa8fe19106fe6c661b3702fc0640cb9c",
+          "signature": "7ca5414abe482a0c73691b5ca8f5728d7a48cdc5fc97a3bcc03d7f6c11a54381",
+          "title": "qwen 3.6 plus很适合openclaw做自动化任务",
+          "link": "https://linux.do/t/topic/1892715",
+          "published": "2026-04-03 13:56 UTC",
+          "sort_key": 1775224566.0,
+          "source_kind": "feed",
+          "text": "我把qwen cli的coder-model导入openclaw，速度和成功率都不错 免费1000次/天，1000K上下文 速度算是国内模型中最快的了，120 tok/s 浏览器自动化用起来比自己操作浏览器快，比GLM快多了 大部分自动化任务不需要很强的模型，所以用这种零成本的模型就很好了 7 个帖子 - 5 位参与者 阅读完整话题 我把qwen cli的coder-model导入openclaw，速度和成功率都不错 免费1000次/天，1000K上下文 速度算是国内模型中最快的了，120 tok/s 浏览器自动化用起来比自己操作浏览器快，比GLM快多了 大部分自动化任务不需要很强的模型，所以用这种零成本的模型就很好了 7 个帖子 - 5 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "873d5c644712bb333d17366f7a7a3e83f2bb0b5973e9cf2c771d462764e70c78",
+          "signature": "1459caf4c9f1821d169ad4b0d34e83f8f239bffcb608aaff19871e89d7a33466",
+          "title": "论核弹有啥用",
+          "link": "https://linux.do/t/topic/1892603",
+          "published": "2026-04-03 13:41 UTC",
+          "sort_key": 1775223685.0,
+          "source_kind": "feed",
+          "text": "模拟 Claude Code 客户端请求用的，使用此可以模拟 CC 客户端调用 Fast mode 模式下的 CC 模型和在 cc2api 的时候增大缓存命中 但并不意味着你 不需要一个合法的 API Key 简单来说，个人用户没啥用,中转商有些用吧 算法早在 What’s cch? Reverse Engineering Claude Code’s Request Signing 公开（在泄露源代码之前） CCH_SEED = 0x6E52736AC806831E VERSION = \"2.1.37\" SALT = \"59cf53e54c78\" body = json.dumps({ \"model\": \"claude-opus-4-6\", \"max_tokens\": 32000, \"stream\": False, \"thinking\": {\"type\": \"adaptive\"}, \"research_preview_2026_02\": \"active\", \"metadata\": {\"user_id\": f\"user_poc_session_{uuid.uuid4()}\"}, \"system\": [{ \"type\": \"text\", \"text\": f\"x-anthropic-billing-header: cc_version={VERSION}.{suffix};\" f\" cc_entrypoint=cli; cch=00000;\" }], \"messages\": [{\"role\": \"user\", \"content\": PROMPT}], }, separators=(\",\", \":\")) # Compute cch: xxHash64(body_with_placeholder, seed) & 0xFFFFF cch = format(xxhash.xxh64(body.encode(), seed=CCH_SEED).intdigest() & 0xFFFFF, \"05x\") body = body.replace(\"cch=00000\", f\"cch={cch}\") print(f\"cch={cch} cc_version={VERSION}.{suffix}\") 13 个帖子 - 12 位参与者 阅读完整话题 模拟 Claude Code 客户端请求用的，使用此可以模拟 CC 客户端调用 Fast mode 模式下的 CC 模型和在 cc2api 的时候增大缓存命中 但并不意味着你 不需要一个合法的 API Key 简单来说，个人用户没啥用,中转商有些用吧 算法早在 What’s cch? Reverse Engineering Claude Code’s Request Signing 公开（在泄露源代码之前） CCH_SEED = 0x6E52736AC806831E VERSION = \"2.1.37\" SALT = \"59cf53e54c78\" body = json.dumps({ \"model\": \"claude-opus-4-6\", \"max_tokens\": 32000, \"stream\": False, \"thinking\": {\"type\": \"adaptive\"}, \"research_preview_2026_02\": \"active\", \"metadata\": {\"user_id\": f\"user_poc_session_{uuid.uuid4()}\"}, \"system\": [{ \"type\": \"text\", \"text\": f\"x-anthropic-billing-header: cc_version={VERSION}.{suffix};\" f\" cc_entrypoint=cli; cch=00000;\" }], \"messages\": [{\"role\": \"user\", \"content\": PROMPT}], }, separators=(\",\", \":\")) # Compute cch: xxHash64(body_with_placeholder, seed) & 0xFFFFF cch = format(xxhash.xxh64(body.encode(), seed=CCH_SEED).intdigest() & 0xFFFFF, \"05x\") body = body.replace(\"cch=00000\", f\"cch={cch}\") print(f\"cch={cch} cc_version={VERSION}.{suffix}\") 13 个帖子 - 12 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "92c4416ac70f360b278fe0321f8778c88fd2316f8e9c8a6f923f1b4c56d13cf6",
+          "signature": "f0f27e7eb7d50555990b6d9bd1284c42757afbcd4025665a79040fe5c63fca1a",
+          "title": "苹果 m5 芯片的 mbp 永远的神啊",
+          "link": "https://linux.do/t/topic/1892568",
+          "published": "2026-04-03 13:37 UTC",
+          "sort_key": 1775223424.0,
+          "source_kind": "feed",
+          "text": "我买的 mbp m5 32g 1t 到货了，今天打开直接 clean 项目，然后打包安卓 app 同样的条件，imac 2019 i7 4.6ghz ，32g ，1t 一起打包命令 结果 m5 只用了 2m40s imac 用了 17m48s 我的天！！！ 早换早享受 15 个帖子 - 9 位参与者 阅读完整话题 我买的 mbp m5 32g 1t 到货了，今天打开直接 clean 项目，然后打包安卓 app 同样的条件，imac 2019 i7 4.6ghz ，32g ，1t 一起打包命令 结果 m5 只用了 2m40s imac 用了 17m48s 我的天！！！ 早换早享受 15 个帖子 - 9 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "9e736cca62d6d1ba8f14961294583da957c2e6691db5c7cdb3550b3906c520de",
+          "signature": "412e7b57c7c65aef0cb987b6c2906f132e4fdd661e089157bd5ae336c1ff385b",
+          "title": "Codex RT前缀更新了",
+          "link": "https://linux.do/t/topic/1892557",
+          "published": "2026-04-03 13:36 UTC",
+          "sort_key": 1775223364.0,
+          "source_kind": "feed",
+          "text": "发现Codex最新古法注册的RT前缀更新了（oaistb-rt-xxx），而注册机跑的依然是RT开始(rt-xxxx) 估计又是下一波手段。 6 个帖子 - 4 位参与者 阅读完整话题 发现Codex最新古法注册的RT前缀更新了（oaistb-rt-xxx），而注册机跑的依然是RT开始(rt-xxxx) 估计又是下一波手段。 6 个帖子 - 4 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "d0f0e42bd1cfe7a37e272b8f26afe52bd15963f973144a0252ba05e44a0bf836",
+          "signature": "8efa093098619583821e6670705e524fd662dd37fc48cf484c4e39639d67a006",
+          "title": "求推荐 API 分发平台推荐",
+          "link": "https://linux.do/t/topic/1892553",
+          "published": "2026-04-03 13:35 UTC",
+          "sort_key": 1775223326.0,
+          "source_kind": "feed",
+          "text": "之前一直用的是 Openrouter，但是上次充值的时候不知道是触发了风控还是其他原因，导致我账号被锁了，Gemini/Claude/ChatGPT 都不能用了，所以希望佬们能给推荐一些常用的 API 分发站，能够稳定使用且是原生模型，最好能够支持一些多模态模型，如图像生成/视频生成/嵌入模型等。 感谢各位佬 12 个帖子 - 4 位参与者 阅读完整话题 之前一直用的是 Openrouter，但是上次充值的时候不知道是触发了风控还是其他原因，导致我账号被锁了，Gemini/Claude/ChatGPT 都不能用了，所以希望佬们能给推荐一些常用的 API 分发站，能够稳定使用且是原生模型，最好能够支持一些多模态模型，如图像生成/视频生成/嵌入模型等。 感谢各位佬 12 个帖子 - 4 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "1d88c02cfa0898dbbae881dde7ab7953ae1700d03d121d21cd980cb945b85704",
+          "signature": "5ad2836644fba7e26a0a740a28d42b717c28014b3eb08db126bd33a074a9dbbb",
+          "title": "反重力gemini3.1 PRO high 似乎好用起来了 你们对话发现了吗？",
+          "link": "https://linux.do/t/topic/1892530",
+          "published": "2026-04-03 13:32 UTC",
+          "sort_key": 1775223126.0,
+          "source_kind": "feed",
+          "text": "现在很有claude的味道了，非常像claude sonnet 4.6 用作沟通，分析，规划等非常不错哦 7 个帖子 - 6 位参与者 阅读完整话题 现在很有claude的味道了，非常像claude sonnet 4.6 用作沟通，分析，规划等非常不错哦 7 个帖子 - 6 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "f6d700fe7487c6e5de4e6b28a700128bfd62012ec66786ae0c577df989cf7c2d",
+          "signature": "e22f5e1b90805014624fe9698466f22a044ec18487bd485cc47663f7e097327f",
+          "title": "一人撑起一片天，全栈工程专用的SKILL实践迭代日记",
+          "link": "https://linux.do/t/topic/1892525",
+          "published": "2026-04-03 13:31 UTC",
+          "sort_key": 1775223103.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 书记前几回，作者君在一家小公司一个人做开发： 一人撑起一片天，全栈工程师开发专用的SKILL 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 / 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 二… 一人撑起一片天，全栈工程师都应该看一下的 Claude Code 源码从 0 到 1 教学指南制作 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 想必各位佬… 我在实践的过程中发现，我们每次开发产生的文档和skill其实不删掉比较好，归档到指定的目录下会更方便后续溯源问题。因此本次的更新将调整skill，在一次完整的开发完成后，将项目产生的文档和skill移动到 docs/archives/[本次开发的项目名]下面，同时我们创建或者更新一个readme文件用于索引本次开发的项目。 项目地址： github.com GitHub - zhu1090093659/spec_driven_develop: Spec-Driven Develop is a platform-agnostic AI... Spec-Driven Develop is a platform-agnostic AI agent skill that automates the pre-development workflow for large-scale complex tasks. It is not a framework, not a runtime, not a package manager — it is a single SKILL.md file that teaches any AI coding agent a structured methodology. 7 个帖子 - 4 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 书记前几回，作者君在一家小公司一个人做开发： 一人撑起一片天，全栈工程师开发专用的SKILL 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 / 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 二… 一人撑起一片天，全栈工程师都应该看一下的 Claude Code 源码从 0 到 1 教学指南制作 开发调优 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 想必各位佬… 我在实践的过程中发现，我们每次开发产生的文档和skill其实不删掉比较好，归档到指定的目录下会更方便后续溯源问题。因此本次的更新将调整skill，在一次完整的开发完成后，将项目产生的文档和skill移动到 docs/archives/[本次开发的项目名]下面，同时我们创建或者更新一个readme文件用于索引本次开发的项目。 项目地址： github.com GitHub - zhu1090093659/spec_driven_develop: Spec-Driven Develop is a platform-agnostic AI... Spec-Driven Develop is a platform-agnostic AI agent skill that automates the pre-development workflow for large-scale complex tasks. It is not a framework, not a runtime, not a package manager — it is a single SKILL.md file that teaches any AI coding agent a structured methodology. 7 个帖子 - 4 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "5889c7e8b267a7d1fcc043e60a011d619f87929245b1e5b177164c963f554e38",
+          "signature": "ca6a8be8431661ce3f64ab69c0983f2d4c92474daec3c93b6063517b1db516c3",
+          "title": "Claude 已经撑过一周了，开心呢",
+          "link": "https://linux.do/t/topic/1892452",
+          "published": "2026-04-03 13:20 UTC",
+          "sort_key": 1775222433.0,
+          "source_kind": "feed",
+          "text": "头两天提心吊胆的 6 个帖子 - 6 位参与者 阅读完整话题 头两天提心吊胆的 6 个帖子 - 6 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "180eee4ed8359cc3e36d2ade3009b7d03cfb323e071e083fa247944fea4ad39f",
+          "signature": "e4095a972731cd2fa89aef5749040dd3f85c2145096df3f81f9ee5927e84c661",
+          "title": "阿里云百炼 Coding Plan 分享",
+          "link": "https://linux.do/t/topic/1892445",
+          "published": "2026-04-03 13:19 UTC",
+          "sort_key": 1775222366.0,
+          "source_kind": "feed",
+          "text": "阿里云百炼 Coding Plan 分享，还有 5 天时间到期。 结束时间： 2026-04-09 00:00:00 API Key [REDACTED_SECRET] 兼容 OpenAI 接口协议工具 https://coding.dashscope.aliyuncs.com/v1 兼容 Anthropic 接口协议工具 https://coding.dashscope.aliyuncs.com/apps/anthropic 可使用的模型： 16 个帖子 - 16 位参与者 阅读完整话题 阿里云百炼 Coding Plan 分享，还有 5 天时间到期。 结束时间： 2026-04-09 00:00:00 API Key [REDACTED_SECRET] 兼容 OpenAI 接口协议工具 https://coding.dashscope.aliyuncs.com/v1 兼容 Anthropic 接口协议工具 https://coding.dashscope.aliyuncs.com/apps/anthropic 可使用的模型： 16 个帖子 - 16 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "21aba8fc93428eb710d2eabcd5089976e672ace9b047e932640386f86a3e5e78",
+          "signature": "ab0c86c6ce434c735a9435bce5aa731b264d63f68871a83509eabafb56d3b976",
+          "title": "想做中转站已经搭好，有稳定的渠道商吗",
+          "link": "https://linux.do/t/topic/1892306",
+          "published": "2026-04-03 12:58 UTC",
+          "sort_key": 1775221115.0,
+          "source_kind": "feed",
+          "text": "已经搭建好New API，就差模型配置了 5 个帖子 - 5 位参与者 阅读完整话题 已经搭建好New API，就差模型配置了 5 个帖子 - 5 位参与者 阅读完整话题",
+          "tldr": ""
+        },
         {
           "id": "bf7519e950d34945a877c149fb5b3e584dbc4588a8d6b8f9eba4b1db612bdeb4",
           "signature": "8a964c0eadb5cc13dcc6eef2fb5f4ea72c4a0ce3c0688b37a371f477f5e2b550",
@@ -790,6 +930,28 @@
           "tldr": ""
         },
         {
+          "id": "274acb4d5f8735679d344c86a193fb24eea352c1b8a013153cca0ece5bb69ac2",
+          "signature": "531c5727455820a9e05200ed8fd29fdb942eb7d95cfddf319a874eb8904c6dad",
+          "title": "Gpt Pro 三人车 sub2api设置每天多少额度合适呢",
+          "link": "https://linux.do/t/topic/1891194",
+          "published": "2026-04-03 09:48 UTC",
+          "sort_key": 1775209686.0,
+          "source_kind": "feed",
+          "text": "微信现在发节点都直接ban一天账号 也考虑到封号的风险 所以准备用sub2api拼车 请问佬 3人车的话每天设置多少额度合适呢 18 个帖子 - 7 位参与者 阅读完整话题 微信现在发节点都直接ban一天账号 也考虑到封号的风险 所以准备用sub2api拼车 请问佬 3人车的话每天设置多少额度合适呢 18 个帖子 - 7 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "7fe25c02b283322013c787352fd1909b107d883f6e5238232dccd26f981a5805",
+          "signature": "0f9f9d5612d26d407608d0f96fbf9a4b10e66c9ea80af8e8157c2fd8866ce02a",
+          "title": "windows端有什么可以远程操控cc/cx的工具吗",
+          "link": "https://linux.do/t/topic/1891176",
+          "published": "2026-04-03 09:45 UTC",
+          "sort_key": 1775209546.0,
+          "source_kind": "feed",
+          "text": "有时候电脑上在跑cc/cx的任务， 但是又需要审批，或者看任务进度， 有什么可以在手机端控制的工具，我用的ios 佬们有什么好用的这类的工具？ 8 个帖子 - 7 位参与者 阅读完整话题 有时候电脑上在跑cc/cx的任务， 但是又需要审批，或者看任务进度， 有什么可以在手机端控制的工具，我用的ios 佬们有什么好用的这类的工具？ 8 个帖子 - 7 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
           "id": "9c49877db02e7350bd1a30816b60749f1bd371dcaf9b855d199ce0a1b87df417",
           "signature": "35cf47a110465f12accd8bb26582ed1e078429af2af96826b39aea5f9a28442c",
           "title": "修了一周gpt注册机后，我觉悟了",
@@ -886,6 +1048,28 @@
           "sort_key": 1775205134.0,
           "source_kind": "feed",
           "text": "想问佬友们几个问题 1.一卡多绑稳吗，还是掉了直接继续绑新号继续蹬 2.推荐team还是plus呀，我每天大概要蹬200刀 3.为啥我开卡要10U，海鲜平台得要几块钱而已呀 35 个帖子 - 17 位参与者 阅读完整话题 想问佬友们几个问题 1.一卡多绑稳吗，还是掉了直接继续绑新号继续蹬 2.推荐team还是plus呀，我每天大概要蹬200刀 3.为啥我开卡要10U，海鲜平台得要几块钱而已呀 35 个帖子 - 17 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "bc49db27619b07ad6b886cb8b798338eeb78803401927bae29f3f85de841368e",
+          "signature": "732589c1b0d21618e33fcb2b645d4994455ceccda324aa5a617ac6411d943261",
+          "title": "跟风记录Claude Max5x存活时间",
+          "link": "https://linux.do/t/topic/1890543",
+          "published": "2026-04-03 08:19 UTC",
+          "sort_key": 1775204367.0,
+          "source_kind": "feed",
+          "text": "账号： 曾经1年前开过pro安全下车的gmail 1年账号 购买： 咸鱼灵车？CC礼品卡 IP： 机场 代理台湾落地，纯净度看起来不错 礼品卡兑换： 指纹浏览器台湾环境，拿到oauth Claude Code： mac里brew安装，按攻略 https://bytedance.larkoffice.com/docx/E2JudVzf7oCNfhxyxaQcZIW1n0g 没关遥测，就清理了下老claude的userid什么的 装了个oh-my-claudecode正在蹬，目前1h过了还活着 0403 蹬到5h上限了，下班回家，还活着 14 个帖子 - 10 位参与者 阅读完整话题 账号： 曾经1年前开过pro安全下车的gmail 1年账号 购买： 咸鱼灵车？CC礼品卡 IP： 机场 代理台湾落地，纯净度看起来不错 礼品卡兑换： 指纹浏览器台湾环境，拿到oauth Claude Code： mac里brew安装，按攻略 https://bytedance.larkoffice.com/docx/E2JudVzf7oCNfhxyxaQcZIW1n0g 没关遥测，就清理了下老claude的userid什么的 装了个oh-my-claudecode正在蹬，目前1h过了还活着 0403 蹬到5h上限了，下班回家，还活着 14 个帖子 - 10 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "67e02aa130db6d46701523ba38e1e0c17cff74ef48732497d0eca9f20b26e1cc",
+          "signature": "8e056ae43986a084442bba32981461eee72cf855d1e3d27f20f8b5b9e328f326",
+          "title": "cpa中的qwen还能用吗",
+          "link": "https://linux.do/t/topic/1890490",
+          "published": "2026-04-03 08:12 UTC",
+          "sort_key": 1775203932.0,
+          "source_kind": "feed",
+          "text": "刚刚添加的 请求一下就提示这个错误 {\"error\":{\"code\":\"invalid_parameter_error\",\"message\":\"bad request\",\"param\":null,\"type\":\"invalid_request_error\"},\"request_id\":\"14cd263a-ade5-9f34-9b94-ac03e79b23c9\"} 上述的几个模型测试了一遍都不行 5 个帖子 - 4 位参与者 阅读完整话题 刚刚添加的 请求一下就提示这个错误 {\"error\":{\"code\":\"invalid_parameter_error\",\"message\":\"bad request\",\"param\":null,\"type\":\"invalid_request_error\"},\"request_id\":\"14cd263a-ade5-9f34-9b94-ac03e79b23c9\"} 上述的几个模型测试了一遍都不行 5 个帖子 - 4 位参与者 阅读完整话题",
           "tldr": ""
         },
         {
@@ -1494,6 +1678,17 @@
           "tldr": ""
         },
         {
+          "id": "ea2dd733954ac83ee579631268f00a90cff608f83d665f96a79e076ba7571813",
+          "signature": "b74a7e5954ea50260cedea3872f7dcf3ccbd173a1eaea7a982b3b881eb7ff0e9",
+          "title": "【长期贴】 Claude-code-workflow(CCW) --使用技巧分享-自认为最工程化的harness workflow",
+          "link": "https://linux.do/t/topic/1863021",
+          "published": "2026-03-31 08:16 UTC",
+          "sort_key": 1774944969.0,
+          "source_kind": "feed",
+          "text": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 与常见工作流 Surperpower对比(两者最像)： claude-code-workflow 存在不同复杂度任务入口，可实现 半自动，全自动运行，精细化推进，覆盖软件开发各个环节 自认为 claude-code-workflow 中team skill 是现在所有工作流中最稳定的(包括codex) cc和 codex的工作流单独维护，并针对codex特性设计wave pipeline 专用工作流 多cli协作，语义编排 项目地址： catlog22/Claude-Code-Workflow: JSON-driven multi-agent cadence-team development framework with intelligent CLI orchestration (Gemini/Qwen/Codex), context-first architecture, and automated workflow execution 注意事项 codex 指令采用最新multi_agent V2架构设计，需要更新到0.117，设置下述参数 [features] enable_fanout = true suppress_unstable_features_warning = true default_mode_request_user_input = true multi_agent_v2=true 安装使用: npm install -g claude-code-workflow ccw install #安装工作流 ccw view #在工作空间启动看板 命令参考： @wuyan 感谢佬的维护！！ ccw-explorer.7841784.xyz ccw-command-explorer 使用技巧介绍 下面按照软件开发过程中常见场景进行分类 一. 从1-100软件开发 1.1 软件开发:新增功能或者功能变更 与其他工作流不同，ccw将explore环节单独摘出来，放到analyze步骤中，一个完整功能新增流程如下：流程如下: analyze->plan->execute->review。 1.1.2 使用方法： 通过analyze-with-file 入口命令传递需求就行 claude #路径1 /workflow:analyze-with-file \"需求,bug\" ->（askuser后自动调用）/workflow-lite-plan->(自动)/workflow-lite-execute->(自动)/workflow-lite-test-review #路径2 /team-lifecycleV4 \"需求,bug\" #路径3 语义调用Gemini codex进行分析，获取足够信息 ->(手动)/workflow-lite-plan->(自动)/workflow-lite-execute->(自动)/workflow-lite-test-review #路径4 语义调用Gemini codex进行分析，获取足够信息 ->直接执行 或 语义调用多agent执行 codex #路径1 $analyze-with-file \"需求,bug\" ->$csv-wave-pipeline #路径2 $team-lifecycleV4 1.2 bug修复 简单强力的命令，自动打日志分析，解决bug claude /workflow:debug-with-file \"问题描述\" codex $debug-with-file \"问题描述\" 二. 从0-1开发 2.1 只有想法，不知道怎么做 claude #路径1 /brainstorm \"想法\" ->（可选）spec-generator->(手动，清除会话)workflow-plan->(compact或清除会话)workflow-execute #路径2 brainstorm \"想法\" -> team-lifecycleV4 (需安装ui-pro-max skill) #路径3 team-lifecycleV4 codex #路径1 $brainstorm \"想法\" ->（可选）$spec-generator->(手动，清除会话)$workflow-plan->(compact或清除会话)$workflow-execute #路径2 brainstorm \"想法\" -> team-lifecycleV4 (需安装ui-pro-max skill) 2.2 想法明确，但是细节缺失 claude #路径1 /spec-generator->(手动，清除会话)workflow-plan->(compact或清除会话)workflow-execute #路径2 /spec-generator-> team-lifecycleV4 (需安装ui-pro-max skill) #路径3 team-lifecycleV4 codex #路径1 (详细的需求文档撰写) $spec-generator->(手动，清除会话)$workflow-plan->(compact或清除会话)$workflow-execute #路径2 (轻量快速) $roadmap-with-file-> $csv-wave-pipeline #路径3 $team-lifecycleV4 2.3 需求文档明确 claude 需求文档->> /workflow-plan->(compact或清除会话)/workflow-execute codex 需求文档->> $workflow-plan->(直接执行)$workflow-execute 三. 全自动交付 claude /ccw-coordinate \"复杂想法需求 0-1\" /ccw \"中等规模需求想法 0-1 或功能新增\" /team-lifecycleV4 \"0-1 或功能新增\" codex $team-lifecycleV4 \"0-1 或功能新增\" 四.其他需求 通过 team-coordinate 实现任务分解，角色生成及自动委派，中间产物自动流转，实现多种复杂任务。其次，也可以根据需求查找最相近的team skill。 claude /team-coordinate \"XXX\" codex $team-coordinate \"XXX\" 五 .规范系统 通过spec 可以约束项目按照自定义风格。spec:add命令会根据规范要求，自动分配加载阶段，在使用工作流时自动加载。 /workflow:spec:setup # 完整初始化 /workflow:spec:add \"Use async/await instead of callbacks\" # 添加规范 Claude code skill 预览 （点击了解更多详细信息） 未完待续… 如果有想法，问题，可以在评论区尽情探讨，一起进步！！ 85 个帖子 - 41 位参与者 阅读完整话题 本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 与常见工作流 Surperpower对比(两者最像)： claude-code-workflow 存在不同复杂度任务入口，可实现 半自动，全自动运行，精细化推进，覆盖软件开发各个环节 自认为 claude-code-workflow 中team skill 是现在所有工作流中最稳定的(包括codex) cc和 codex的工作流单独维护，并针对codex特性设计wave pipeline 专用工作流 多cli协作，语义编排 项目地址： catlog22/Claude-Code-Workflow: JSON-driven multi-agent cadence-team development framework with intelligent CLI orchestration (Gemini/Qwen/Codex), context-first architecture, and automated workflow execution 注意事项 codex 指令采用最新multi_agent V2架构设计，需要更新到0.117，设置下述参数 [features] enable_fanout = true suppress_unstable_features_warning = true default_mode_request_user_input = true multi_agent_v2=true 安装使用: npm install -g claude-code-workflow ccw install #安装工作流 ccw view #在工作空间启动看板 命令参考： @wuyan 感谢佬…",
+          "tldr": ""
+        },
+        {
           "id": "6eaa0160d124129e50fd827a43f32502b01135a84a10611b479ed36c0ae56cba",
           "signature": "57e549edbc2fea881b61755f19edbde74222b1486058259ec32fadf4c70c80c3",
           "title": "15元充1个月ChatGPT plus ？",
@@ -1502,6 +1697,17 @@
           "sort_key": 1774853243.0,
           "source_kind": "feed",
           "text": "很多卡网上面ChatGPT低价直充，新老号都可以续费，这种是什么操作的，有了解的大神来唠唠。 103 个帖子 - 82 位参与者 阅读完整话题 很多卡网上面ChatGPT低价直充，新老号都可以续费，这种是什么操作的，有了解的大神来唠唠。 103 个帖子 - 82 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "c4f1c0c7286bf6f6c2ab09fdbd63a51b62a441781aaa5d84d6a1b6910d5ed81f",
+          "signature": "f935b89c7577548e0b05610e4e20df40f07ccf70b47d03a96d806e2a41397ccc",
+          "title": "持续更新和A➗战斗 目前已亏1100+50+150",
+          "link": "https://linux.do/t/topic/1847967",
+          "published": "2026-03-29 14:58 UTC",
+          "sort_key": 1774796311.0,
+          "source_kind": "feed",
+          "text": "1.落地家宽，中转DMIT，入口广深 2. 购买代充，手续费50，按天退款，MAX20，充值渠道确定为苹果内购。 3.电脑环境重装系统，改了MAC，不忘初心镜像+时区亚洲+中文操作+纯净环境，除非必要的环境安装，剩余不折腾，尽可能保证只有CC+CLASH，CCS这次也不装了 4.账号为gmail老号，从朋友那里获得，去年8月份注册claude,有聊天记录，这个号没开过PRO。 5.等我消息，重装启动 235 个帖子 - 143 位参与者 阅读完整话题 1.落地家宽，中转DMIT，入口广深 2. 购买代充，手续费50，按天退款，MAX20，充值渠道确定为苹果内购。 3.电脑环境重装系统，改了MAC，不忘初心镜像+时区亚洲+中文操作+纯净环境，除非必要的环境安装，剩余不折腾，尽可能保证只有CC+CLASH，CCS这次也不装了 4.账号为gmail老号，从朋友那里获得，去年8月份注册claude,有聊天记录，这个号没开过PRO。 5.等我消息，重装启动 235 个帖子 - 143 位参与者 阅读完整话题",
           "tldr": ""
         },
         {
@@ -1725,6 +1931,28 @@
           "tldr": ""
         },
         {
+          "id": "cc54104dc8b5197f89dcef5fd43f1c4c23ba8fd7e8d943de5399125c68e776d3",
+          "signature": "6036ba5b96b4cd01ea43a6081c63e107902e62db94081aeb99629d4fcfc9877d",
+          "title": "通用的提示词优化功能，通过MCP提供",
+          "link": "https://linux.do/t/topic/1431366",
+          "published": "2026-01-12 05:07 UTC",
+          "sort_key": 1768194448.0,
+          "source_kind": "feed",
+          "text": "2026.1.16更新 应佬友要求，现在支持了 npx 方式的下载、安装和运行，例如： npx ace-tool-rs --base-url --token 之前折腾 ACE MCP 时（ 可能是当下最轻最快的ACE（Augment Context Engine）MCP实现了 ）发现提示词优化功能挺有意思，如果没有 AugmentCode 账号，可以用其他大模型替代一下也能用，效果可能有差异，推荐使用开发工具对应的模型，比如 cc 上用 claude，codex 上用 gpt 等等： 项目地址： github.com GitHub - missdeer/ace-tool-rs: a Rust implementation of a codebase context engine... a Rust implementation of a codebase context engine that enables AI assistants to search and understand codebases using natural language queries. 34 个帖子 - 16 位参与者 阅读完整话题 2026.1.16更新 应佬友要求，现在支持了 npx 方式的下载、安装和运行，例如： npx ace-tool-rs --base-url --token 之前折腾 ACE MCP 时（ 可能是当下最轻最快的ACE（Augment Context Engine）MCP实现了 ）发现提示词优化功能挺有意思，如果没有 AugmentCode 账号，可以用其他大模型替代一下也能用，效果可能有差异，推荐使用开发工具对应的模型，比如 cc 上用 claude，codex 上用 gpt 等等： 项目地址： github.com GitHub - missdeer/ace-tool-rs: a Rust implementation of a codebase context engine... a Rust implementation of a codebase context engine that enables AI assistants to search and understand codebases using natural language queries. 34 个帖子 - 16 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "26e3987df7c49ef190c002755900cf0f86d475e531d6c6188bd50120ba75d3f2",
+          "signature": "e04c7f128810deac56095c9d7864ac3295d7b5e8affedfb0ada0d2c1ef3cedce",
+          "title": "Codex-5.2经常报错error decoding response body，你们遇到没",
+          "link": "https://linux.do/t/topic/1357244",
+          "published": "2025-12-24 08:02 UTC",
+          "sort_key": 1766563329.0,
+          "source_kind": "feed",
+          "text": "只要思考时间一长，马上报错: stream disconnected before completion: Transport error: network error: error decoding response body CLI和插件都这样。 官方issue中有人说是gpt 5.2的问题： stream disconnected before completion: Transport error: network error: error decoding response body · Issue #8302 · openai/codex · GitHub 我也试着切成5.1试了下，果然问题解决了，代码写的飞起。 9 个帖子 - 7 位参与者 阅读完整话题 只要思考时间一长，马上报错: stream disconnected before completion: Transport error: network error: error decoding response body CLI和插件都这样。 官方issue中有人说是gpt 5.2的问题： stream disconnected before completion: Transport error: network error: error decoding response body · Issue #8302 · openai/codex · GitHub 我也试着切成5.1试了下，果然问题解决了，代码写的飞起。 9 个帖子 - 7 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
           "id": "53e653d817ca0db899e2440b439432a713900be20152d6db2c0f8eb77ca03fad",
           "signature": "ec53b35857903426789b2102b6a7397719354c1fbd7099bbac4a610074f36654",
           "title": "【Polo API 长期活动】每10楼抽取3位送5刀Claude API额度，30%中奖机会！ 已开通【富可敌国】",
@@ -1738,16 +1966,18 @@
       ],
       "site_url": "https://linux.do/tag/444-tag/444",
       "summary": {
-        "tldr": "The forum highlights practical challenges with AI development tools, particularly Claude Code stability, API proxy security, and account access restrictions. Users are actively sharing educational resources for AIGC workflows while seeking advice on integrating AI into software development and academic research. Concurrently, discussions reflect growing career uncertainty and corporate policy shifts driven by rapid AI adoption.",
+        "tldr": "The forum feed centers on practical AI integration, with users sharing account registration workarounds and API proxy setups amid tightening platform restrictions. Developers are optimizing coding workflows using models like Qwen 3.6 Plus and Claude Code, while benchmarking new hardware and sharing specialized tools for PDF translation. Community discussions also address career planning in an AI-disrupted market and distribute educational resources for AI-augmented design.",
         "highlights": [
-          "Claude Code users report plugin instability, API errors, and subscription hurdles, alongside workplace mandates to use it exclusively.",
-          "Technical discussions focus on API proxy abuse mitigation, Gemini CLI tier restrictions, and troubleshooting strict account registration barriers.",
-          "Community members share AIGC design courses and development guides while debating AI's impact on career planning and research workflows."
+          "Users exchange registration bypass methods and API proxy configurations as platforms like Gemini and Claude enforce stricter access controls.",
+          "Developers optimize AI coding workflows with Qwen 3.6 Plus for automation, troubleshoot Claude Code plugin stability, and benchmark Apple M5 hardware performance.",
+          "Community members discuss long-term career strategies amid rapid AI advancement and share open-source tools and courses for AI design and document translation."
         ]
       }
     },
     "https://linux.do/c/news/34.rss": {
       "seen_ids": [
+        "a1b84c21e0f4b2fee706c05eb5e3c0ace98a539e30e286ab74a2d71c177a64c8",
+        "e14a0746c98b3deb4535ebc624a186a07839e1d9af6371053dda9e00b2113a87",
         "e73c16c77c38d5ac73acd92b6014da6f1f7d63c4e6c1ba7e63bd16ec270df3ea",
         "774fb6bce2d23ca363b3e3c4395b41889272ed5020145b79b3a83b0cd016bb58",
         "29d8bf58435b3b6037f550e37d4da9f0981a7143d130917b7abe9493f4ec95f5",
@@ -1837,9 +2067,31 @@
         "d261675446b7899e88550522a5327ffc3204652f2d0f15c919327d39dc4e68f9",
         "edd2c7441eb7cc4882b2777572f78bd3c66b525b9017e9942186a0e30d89a76e"
       ],
-      "last_checked_at": "2026-04-03T12:59:25+00:00",
+      "last_checked_at": "2026-04-03T14:08:07+00:00",
       "feed_title": "前沿快讯 - LINUX DO",
       "pending_items": [
+        {
+          "id": "a1b84c21e0f4b2fee706c05eb5e3c0ace98a539e30e286ab74a2d71c177a64c8",
+          "signature": "ba87261763b3a212d44a3af916126c537f4b2c7748171bd4dfeba3803bf30b18",
+          "title": "号外？微信支持markdown了吗？",
+          "link": "https://linux.do/t/topic/1892569",
+          "published": "2026-04-03 13:37 UTC",
+          "sort_key": 1775223426.0,
+          "source_kind": "feed",
+          "text": "8 个帖子 - 8 位参与者 阅读完整话题 8 个帖子 - 8 位参与者 阅读完整话题",
+          "tldr": ""
+        },
+        {
+          "id": "e14a0746c98b3deb4535ebc624a186a07839e1d9af6371053dda9e00b2113a87",
+          "signature": "43372ca66b5763602a6d76f08943432723e475a18440b04ad4583ece67ce2b96",
+          "title": "研究显示人类口头交流逐年缩减：平均每天少说 300 个单词",
+          "link": "https://linux.do/t/topic/1892476",
+          "published": "2026-04-03 13:24 UTC",
+          "sort_key": 1775222655.0,
+          "source_kind": "feed",
+          "text": "umkc.edu Are We Talking Less Than We Used To? New research suggests our daily conversations are shrinking, with people speaking 300 less words each day 2 个帖子 - 2 位参与者 阅读完整话题 umkc.edu Are We Talking Less Than We Used To? New research suggests our daily conversations are shrinking, with people speaking 300 less words each day 2 个帖子 - 2 位参与者 阅读完整话题",
+          "tldr": ""
+        },
         {
           "id": "e73c16c77c38d5ac73acd92b6014da6f1f7d63c4e6c1ba7e63bd16ec270df3ea",
           "signature": "22a9edfb57d9eaecdf4de8e32256d99fc3e5d40e79374e62b4bc359518c0b938",
@@ -2217,18 +2469,45 @@
       ],
       "site_url": "https://linux.do/c/news/34",
       "summary": {
-        "tldr": "The AI ecosystem is shifting toward usage-based and tiered pricing models, with OpenAI exploring peak/off-peak rates for Codex, Google introducing priority inference tiers for Gemini, and Xiaomi launching a new token-based MiMo plan. Major developer tools are seeing significant updates, including Claude Code v2.1.91 optimizing token consumption and the official release of Qwen 3.6 Plus. Meanwhile, platform and security developments include Slack suspending workspaces in mainland China, a social engineering compromise of the Axios npm package, and new Chinese regulations proposed for digital virtual humans.",
+        "tldr": "The feed highlights significant shifts in AI service pricing and access, with OpenAI adjusting ChatGPT Business costs and proposing dynamic usage rates for Codex, while Xiaomi launches a transparent, token-based MiMo subscription plan. Major AI development tools and models saw updates, including Claude Code v2.1.91 optimizations, the official release of Qwen 3.6 Plus, and Google's integration of Veo 3.1 into Vids. Concurrently, several platforms updated their policies and security postures, marked by Slack's regional workspace suspensions, GitHub's revised code privacy opt-out requirements, and a social engineering breach affecting the Axios project maintainer.",
         "highlights": [
-          "OpenAI explores peak/off-peak pricing for Codex and reduces ChatGPT Business subscription costs.",
-          "Xiaomi launches a tiered, token-based MiMo API plan, while Google adds Flex and Priority inference tiers to the Gemini API.",
-          "Claude Code v2.1.91 reduces token consumption for edits and increases MCP tool result limits to 500K characters.",
-          "The Axios npm package was compromised following a social engineering attack on its maintainer.",
-          "Slack suspends workspaces in mainland China, Hong Kong, and Macau, as China drafts new regulations for digital virtual human services."
+          "OpenAI reduces ChatGPT Business pricing and proposes peak/off-peak usage multipliers for Codex to manage compute load.",
+          "Xiaomi launches a tiered, token-based MiMo API plan with no hourly limits, while Claude Code v2.1.91 introduces token-saving edits and larger MCP result caps.",
+          "Platform and security updates include Slack suspending workspaces in mainland China, HK, and Macau, GitHub requiring opt-out for code privacy, and a social engineering attack compromising the Axios maintainer."
         ]
       }
     },
     "https://rsshub.rssforever.com/youtube/user/@wangzhian": {
       "seen_ids": [
+        "0c91b516ed202cd8d305bdacb61f7ac77c6c1f03ca153c6c5938edde060c6b90",
+        "3f2539434f8e5e8549d965973d2ece4ef174020944a7f5f70f07124f06635845",
+        "4618b0658d1215363d12421393aea8ff0ebc4c3b299a7d7bc36723e3309c79da",
+        "ce355f1de2af458e0d596d0e1fae7943457d684ba9c045e228565468350bf034",
+        "f9ef02d823d0bf91797992b8e519335d1a98f3f863ad70b477045fe969bf1089",
+        "187b5d97c59d10c9a4ccf5abab035e75be351cd74ee06ff11b39ea2b491ed42d",
+        "3942e9bbdd5059ded8db14baa7c402f96ce48e4ab83e7dea2473c2e0badfbbb2",
+        "5d834e14372da65722edb3eddf39159a513b6f99076580f2eafed27be271d446",
+        "b0df0621907bc08cf6eafa71dfef7a675734bd15243ad4cfa17a46500941e5f4",
+        "ffe62216dcd2cae039507e9a532ed36df22f69efeff727f3b13927ca2637c71e",
+        "f6d72a4610c5235c260c92d3f1e9924c7fcc97ce8f3010ccb9b2fdbdaf287e1a",
+        "e3e4c90dc5efe6a4e10499f0329d9208025d793c409997994ac03e01e30294bc",
+        "7e779ebed880a71d8b185f7592b8cb957288364d52b3de534a3ff3f4874e8d20",
+        "c29732d076e7a8dc329a89ea379d0cc32fb2c0340f9cd27e337e25b8f0a96284",
+        "dcd83e9067bb37533dfcaa128dbf2c4b3ef44bc3b4445e9018b43ecd0ff7f8ea",
+        "31052c3f5ec084bd2108c37e34479bb58a1987adee7acb6e9eeb7cecce4a7835",
+        "535fbbfe7608dbcd6411aeb8edcb143310029adddce0b264fd0ce7a64aad080f",
+        "c66118119b07980b78a1305a2c8c70ed934c519ba6c2dd54ad6b23c89f311901",
+        "60ba5c7b3b72fb369b127e117e1afc47d2dcf332ae59b2cf1fd3cf530dbfdcbd",
+        "7385a99462ba89444a51bee769d8d83e169aa3282f23626eb493351bb1b7f440",
+        "89ffd8dd540bbf1e3f824e6a8aa299bd0563f719357f0db7b88c02dd5b4d6e9b",
+        "09d6a2ce076e6acba797a62ba284e4c4d8e3c84b591c154088368b40c3dac3ee",
+        "d5f4100a8f284c60575ad783b8ee07db8df3733a4d3c482f597cf1f379c84324",
+        "51c8fbe242161cd07e61dd4e97496a3e65b24d7c2e0fd8375529dcff7654a3de",
+        "9cb4d01e3d965b775924134dc9fc3d55a1354569f2cf239914d2f57d0ee4342d",
+        "52b043f328f64c234f0f9e7526f18e9f8bbc5d46c177246b83a5b50511f3fe0d",
+        "3e14484c9b4492f15140e92b9e2df0df64b9002301a73b13a54b1fff86ec2033",
+        "02e5d44d186a2e2ffa0d3ca9ea75f24ae04aebfb97cc1fc321eba46bb63904c9",
+        "06ab5ab8c7e6cf10603e43b359cc9fd9091281b930dcbcbf6e0e006047513213",
         "382ae88e80c2dff535ca1cde57d13f2d2a5aeeb4ceee4ac29bda9ccdebf5cb49",
         "7405e1dd76375459aa32b2fc80d2e929c02c34e0699661c9851227c58de46c58",
         "74c93ac627cbedc6dd5420a17c25a4f930648b4d382fcb068ebdf7a59c81b38c",
@@ -2341,9 +2620,20 @@
         "7ef6d776209d69623a5abee732283608e6e235c0b4ecd31d812c2a77bdca0445",
         "5a4f7f42e114d4cdafc792af1dd813c0a21a36aedcd246efc27f66fcaccc0191"
       ],
-      "last_checked_at": "2026-04-03T13:00:37+00:00",
+      "last_checked_at": "2026-04-03T14:09:33+00:00",
       "feed_title": "王志安 - YouTube",
       "pending_items": [
+        {
+          "id": "0c91b516ed202cd8d305bdacb61f7ac77c6c1f03ca153c6c5938edde060c6b90",
+          "signature": "d258dceeb0884f7a44c233991b2dee0b25a4989ffb627c30636c9a5a1817d539",
+          "title": "Succession After Kim Jong-un: How Extreme Is the Regime He’s Leaving to His Daughter? 20260403",
+          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
+          "published": "2026-04-03 12:09 UTC",
+          "sort_key": 1775218140.0,
+          "source_kind": "feed",
+          "text": "A 140-kilogram body, a cardiovascular sudden-death risk exceeding 30%—a classified medical report is forcing Pyongyang to launch the most extreme succession plan in its history. A 13-year-old... A 140-kilogram body, a cardiovascular sudden-death risk exceeding 30%—a classified medical report is forcing Pyongyang to launch the most extreme succession plan in its history. A 13-year-old...",
+          "tldr": ""
+        },
         {
           "id": "382ae88e80c2dff535ca1cde57d13f2d2a5aeeb4ceee4ac29bda9ccdebf5cb49",
           "signature": "85c2e9727f8c282edc60a931aef5ebaaa74227473e87cb8d955e16f656f79f52",
@@ -2364,6 +2654,39 @@
           "sort_key": 1775197184.0,
           "source_kind": "feed",
           "text": "140公斤的庞大身躯，超30%的心血管猝死率，一张绝密体检单正在逼迫平壤启动史上最疯狂的交接。一个连法定入党年龄都没到的13岁初中生，凭什么能... 140公斤的庞大身躯，超30%的心血管猝死率，一张绝密体检单正在逼迫平壤启动史上最疯狂的交接。一个连法定入党年龄都没到的13岁初中生，凭什么能...",
+          "tldr": ""
+        },
+        {
+          "id": "3f2539434f8e5e8549d965973d2ece4ef174020944a7f5f70f07124f06635845",
+          "signature": "fe4c032718302ab52150e454b5b312faffdc0a10f199a5a62fbbb3949f99f8b8",
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 14:09 UTC",
+          "sort_key": 1775138940.0,
+          "source_kind": "feed",
+          "text": "中美登月竞赛谁能抢得先机？ #阿提米丝2号 #重返月球 #阿姆斯特朗 #杨利伟 #嫦娥计划 #NASA #阿波罗 #长征十号 #氨-3 #星舰 1. YouTube 会员平台 成为本频... 中美登月竞赛谁能抢得先机？ #阿提米丝2号 #重返月球 #阿姆斯特朗 #杨利伟 #嫦娥计划 #NASA #阿波罗 #长征十号 #氨-3 #星舰 1. YouTube 会员平台 成为本频...",
+          "tldr": ""
+        },
+        {
+          "id": "4618b0658d1215363d12421393aea8ff0ebc4c3b299a7d7bc36723e3309c79da",
+          "signature": "3601eacc6437a22493a8cb5e3cd59ae3cb012393c5ff6f504894a675598c1caf",
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 14:09 UTC",
+          "sort_key": 1775138940.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "ce355f1de2af458e0d596d0e1fae7943457d684ba9c045e228565468350bf034",
+          "signature": "801eb31e948793d45b8d55eec0f645e612e5e7e4a7f85b1ad8be45d5a548e3ee",
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 14:09 UTC",
+          "sort_key": 1775138940.0,
+          "source_kind": "feed",
+          "text": "0:00 检察官廖彦钧 8:18 检察官陈思荔 18:01 柯文哲言词辩论 58:04 宣判 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播... 0:00 检察官廖彦钧 8:18 检察官陈思荔 18:01 柯文哲言词辩论 58:04 宣判 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播...",
           "tldr": ""
         },
         {
@@ -2455,12 +2778,34 @@
           "tldr": ""
         },
         {
+          "id": "f9ef02d823d0bf91797992b8e519335d1a98f3f863ad70b477045fe969bf1089",
+          "signature": "d005e0b1993670e25f1d98e53948812e7625b7a7194d91df4ebf62908679162d",
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-01 14:09 UTC",
+          "sort_key": 1775052540.0,
+          "source_kind": "feed",
+          "text": "Manus 高管被中国边控，中美AI争夺战再起风云 #蝴蝶效应 #META #新加坡 #禁止离境 #Monica #肖弘 #季逸超 #张涛 #离岸架构 #出口管制 #商务部 1. YouTube... Manus 高管被中国边控，中美AI争夺战再起风云 #蝴蝶效应 #META #新加坡 #禁止离境 #Monica #肖弘 #季逸超 #张涛 #离岸架构 #出口管制 #商务部 1. YouTube...",
+          "tldr": ""
+        },
+        {
           "id": "35db6156b314f9f4b8197589edb59bdeac0dbc0eebdbe4bf0b62e76b999947b1",
           "signature": "660b2b673f6be2913be22c70fcd68efc7f36864650eb4190d75d9a8b3d2a9355",
           "title": "张雪机车，他是第一｜新闻特写20260331",
           "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
           "published": "2026-04-01 06:33 UTC",
           "sort_key": 1775025224.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "187b5d97c59d10c9a4ccf5abab035e75be351cd74ee06ff11b39ea2b491ed42d",
+          "signature": "aaf35f544081898fd88d5591fbf048a2a995563eae205220057d278d4a208e12",
+          "title": "张雪机车，他是第一｜新闻特写20260331",
+          "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
+          "published": "2026-03-31 14:09 UTC",
+          "sort_key": 1774966140.0,
           "source_kind": "feed",
           "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
           "tldr": ""
@@ -2488,12 +2833,56 @@
           "tldr": ""
         },
         {
+          "id": "3942e9bbdd5059ded8db14baa7c402f96ce48e4ab83e7dea2473c2e0badfbbb2",
+          "signature": "6e59fbd3bbd268ca7604408ffa41a6df35a946cd86a727ed186ec73d1cda6907",
+          "title": "U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?",
+          "link": "https://www.youtube.com/watch?v=JiGeTwJCiEk",
+          "published": "2026-03-30 14:09 UTC",
+          "sort_key": 1774879740.0,
+          "source_kind": "feed",
+          "text": "美国E3预警机被击毁，美伊战争何去何从？ #E3预警机 #沙赫德-135 #霍尔木兹 #F35 #马吉德 #隐形战机雷达 #哈尔克岛 #登陆占领 1. YouTube 会员平台 成为本... 美国E3预警机被击毁，美伊战争何去何从？ #E3预警机 #沙赫德-135 #霍尔木兹 #F35 #马吉德 #隐形战机雷达 #哈尔克岛 #登陆占领 1. YouTube 会员平台 成为本...",
+          "tldr": ""
+        },
+        {
+          "id": "5d834e14372da65722edb3eddf39159a513b6f99076580f2eafed27be271d446",
+          "signature": "377e8dd55eefc280facc096bccaebf98c60bcb9c43b5fd848bad87b6aa33f0ab",
+          "title": "郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=pgKI_LJnhxY",
+          "published": "2026-03-30 14:09 UTC",
+          "sort_key": 1774879740.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "b0df0621907bc08cf6eafa71dfef7a675734bd15243ad4cfa17a46500941e5f4",
+          "signature": "a787df3324e05e52dad911d24550b16289a7b85e8549804cdfe32f901d793189",
+          "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
+          "published": "2026-03-30 14:09 UTC",
+          "sort_key": 1774879740.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
           "id": "f6fe9839c99ed9f1f113c7e2c676fc1e3f0128c0577cde38e430569e3a88f6bb",
           "signature": "8ee8afc46a19e8ea6b5fe89ef0813cc0d24caae043c3169b294dc32f4d56914e",
           "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
           "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
           "published": "2026-03-30 06:33 UTC",
           "sort_key": 1774852424.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "ffe62216dcd2cae039507e9a532ed36df22f69efeff727f3b13927ca2637c71e",
+          "signature": "c177a5cad3fb3d2fe8bffc24cb995af10e0787a92566285ce762358801757fe3",
+          "title": "萬人送別张雪峰｜新聞特寫20260329",
+          "link": "https://www.youtube.com/watch?v=dc3R8IylOrU",
+          "published": "2026-03-29 14:09 UTC",
+          "sort_key": 1774793340.0,
           "source_kind": "feed",
           "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
           "tldr": ""
@@ -2521,6 +2910,28 @@
           "tldr": ""
         },
         {
+          "id": "f6d72a4610c5235c260c92d3f1e9924c7fcc97ce8f3010ccb9b2fdbdaf287e1a",
+          "signature": "e31f4f2c1e4e3cdd0a5bb265857b12e6ed135279a835cc7f789c5d0fb2525123",
+          "title": "When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?",
+          "link": "https://www.youtube.com/watch?v=ADnrskupDBI",
+          "published": "2026-03-27 14:09 UTC",
+          "sort_key": 1774620540.0,
+          "source_kind": "feed",
+          "text": "In just two years, a CIA spy network in China—built over a decade at the cost of tens of billions of dollars—was completely dismantled… reportedly triggered by something as simple as... In just two years, a CIA spy network in China—built over a decade at the cost of tens of billions of dollars—was completely dismantled… reportedly triggered by something as simple as...",
+          "tldr": ""
+        },
+        {
+          "id": "e3e4c90dc5efe6a4e10499f0329d9208025d793c409997994ac03e01e30294bc",
+          "signature": "c50debcac98a2af43f33bf12dc0786bfbc6832eccdc90cffad4ff1907c04e9c3",
+          "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
+          "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
+          "published": "2026-03-27 14:09 UTC",
+          "sort_key": 1774620540.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
           "id": "a07ee31b8a2b696fa47a821a65d7a49139ee0446c0b5a3ad1c1490539ab7d077",
           "signature": "e7435bf631e9498ab8ba694bc30640d68cd90a2f83e689ddfb4239cbddff5b25",
           "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
@@ -2543,6 +2954,17 @@
           "tldr": ""
         },
         {
+          "id": "7e779ebed880a71d8b185f7592b8cb957288364d52b3de534a3ff3f4874e8d20",
+          "signature": "3789ccd4895cd3de74e34a6c5d6686bf156dee54b03b72c0b3788da787c4464b",
+          "title": "日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326",
+          "link": "https://www.youtube.com/watch?v=nD_-g491A2M",
+          "published": "2026-03-26 14:09 UTC",
+          "sort_key": 1774534140.0,
+          "source_kind": "feed",
+          "text": "日本军官携刀闯馆，樱花落尽现利刃！ #驻日大使馆 #维也纳公约 #自卫队 #深表遗憾 #新型军国主义 #深表震惊 #三岛由纪夫 #擦枪走火 1. YouTube 会员平... 日本军官携刀闯馆，樱花落尽现利刃！ #驻日大使馆 #维也纳公约 #自卫队 #深表遗憾 #新型军国主义 #深表震惊 #三岛由纪夫 #擦枪走火 1. YouTube 会员平...",
+          "tldr": ""
+        },
+        {
           "id": "5dfcd6c566e627dc7f13fb0abf0c606853b1d18febec04b64f38a9be1005889b",
           "signature": "7bb90c50d64cbcd7cc5cc755f7d0c2718f737568170822eec93827a7a604a1c6",
           "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
@@ -2560,6 +2982,39 @@
           "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
           "published": "2026-03-26 06:33 UTC",
           "sort_key": 1774506824.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "c29732d076e7a8dc329a89ea379d0cc32fb2c0340f9cd27e337e25b8f0a96284",
+          "signature": "87c1fe81df1d3e1262f9f3794b790ce2e5d6adbf09bd7b816ce2b228cfbaf87c",
+          "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
+          "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
+          "published": "2026-03-25 14:09 UTC",
+          "sort_key": 1774447740.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan...",
+          "tldr": ""
+        },
+        {
+          "id": "dcd83e9067bb37533dfcaa128dbf2c4b3ef44bc3b4445e9018b43ecd0ff7f8ea",
+          "signature": "a8813c27eb817bf2c4d001302f4df459bbbf352e3f035dc1196f305ad1a1ffe9",
+          "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
+          "published": "2026-03-25 14:09 UTC",
+          "sort_key": 1774447740.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "31052c3f5ec084bd2108c37e34479bb58a1987adee7acb6e9eeb7cecce4a7835",
+          "signature": "e70114bceab377581ef03bd9c79c0d7a23f1212f1d369cc74203fb8c8c827cd4",
+          "title": "张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=QzPEOHcHLkw",
+          "published": "2026-03-25 14:09 UTC",
+          "sort_key": 1774447740.0,
           "source_kind": "feed",
           "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
           "tldr": ""
@@ -2598,6 +3053,39 @@
           "tldr": ""
         },
         {
+          "id": "535fbbfe7608dbcd6411aeb8edcb143310029adddce0b264fd0ce7a64aad080f",
+          "signature": "bb9ce68b8ee8f0cb6b8a93153bdc9a86a0a090fdee66edb08b494fd101fd726d",
+          "title": "Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?",
+          "link": "https://www.youtube.com/watch?v=pvRnqiz4rQc",
+          "published": "2026-03-24 14:09 UTC",
+          "sort_key": 1774361340.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan...",
+          "tldr": ""
+        },
+        {
+          "id": "c66118119b07980b78a1305a2c8c70ed934c519ba6c2dd54ad6b23c89f311901",
+          "signature": "e84e8f79db10171a8372792c155a61e6a4b6de7f532c10355877ef3561a659e8",
+          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
+          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
+          "published": "2026-03-24 14:09 UTC",
+          "sort_key": 1774361340.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "60ba5c7b3b72fb369b127e117e1afc47d2dcf332ae59b2cf1fd3cf530dbfdcbd",
+          "signature": "9773e74dcea42274a0e52141964f2290cbc6e69d81019046e023096d95cc2928",
+          "title": "特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324",
+          "link": "https://www.youtube.com/watch?v=hxmYrNgWlVg",
+          "published": "2026-03-24 14:09 UTC",
+          "sort_key": 1774361340.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
           "id": "7405e1dd76375459aa32b2fc80d2e929c02c34e0699661c9851227c58de46c58",
           "signature": "90792aaf3422fbde86e034a77869a924330342e462b55fb40e2902a5e627bf5d",
           "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
@@ -2631,6 +3119,17 @@
           "tldr": ""
         },
         {
+          "id": "7385a99462ba89444a51bee769d8d83e169aa3282f23626eb493351bb1b7f440",
+          "signature": "1fcc51f5f82a315581c4f5af918532ca844a7506282e6fef6eea83b820be9cc8",
+          "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
+          "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
+          "published": "2026-03-23 14:09 UTC",
+          "sort_key": 1774274940.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan...",
+          "tldr": ""
+        },
+        {
           "id": "17144174ddbac34e3346a1fb3708107add677ad633f38eb698b41dd1ca300aeb",
           "signature": "b19d647946c76c517f9004451fb24ef4460d6b42b5cee076978a8b03ecf0eb83",
           "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
@@ -2639,6 +3138,28 @@
           "sort_key": 1774247624.0,
           "source_kind": "feed",
           "text": "这首歌流行于第一次世界大战期间。当时的士兵们在极度艰苦的战壕生活中，经常通过改编现成的曲调来抒发对战争的厌恶和对家乡的思念。 曲调来... 这首歌流行于第一次世界大战期间。当时的士兵们在极度艰苦的战壕生活中，经常通过改编现成的曲调来抒发对战争的厌恶和对家乡的思念。 曲调来...",
+          "tldr": ""
+        },
+        {
+          "id": "89ffd8dd540bbf1e3f824e6a8aa299bd0563f719357f0db7b88c02dd5b4d6e9b",
+          "signature": "fca82191b15b73142eae2b0ff662c49266e8f8953f127dd8c7d3d9e9fa6b3e40",
+          "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
+          "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
+          "published": "2026-03-22 14:09 UTC",
+          "sort_key": 1774188540.0,
+          "source_kind": "feed",
+          "text": "这首歌流行于第一次世界大战期间。当时的士兵们在极度艰苦的战壕生活中，经常通过改编现成的曲调来抒发对战争的厌恶和对家乡的思念。 曲调来... 这首歌流行于第一次世界大战期间。当时的士兵们在极度艰苦的战壕生活中，经常通过改编现成的曲调来抒发对战争的厌恶和对家乡的思念。 曲调来...",
+          "tldr": ""
+        },
+        {
+          "id": "09d6a2ce076e6acba797a62ba284e4c4d8e3c84b591c154088368b40c3dac3ee",
+          "signature": "84442370f15fdec0250966aa6e866f89afd73dc0dd3eaa302199d639858ec1a9",
+          "title": "300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321",
+          "link": "https://www.youtube.com/watch?v=-2uG97Up2Do",
+          "published": "2026-03-21 14:09 UTC",
+          "sort_key": 1774102140.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
           "tldr": ""
         },
         {
@@ -2661,6 +3182,83 @@
           "sort_key": 1774074824.0,
           "source_kind": "feed",
           "text": "In 1981, China mobilized the entire nation, yet its total foreign exchange reserves were at their lowest—less than $3 billion. But in a parallel reality, a group of well-connected princelings... In 1981, China mobilized the entire nation, yet its total foreign exchange reserves were at their lowest—less than $3 billion. But in a parallel reality, a group of well-connected princelings...",
+          "tldr": ""
+        },
+        {
+          "id": "d5f4100a8f284c60575ad783b8ee07db8df3733a4d3c482f597cf1f379c84324",
+          "signature": "9abe8ba120816b283f649a9de632aad81324ec6195999b0d627d6c3f28ea21db",
+          "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
+          "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "In 1981, China mobilized the entire nation, yet its total foreign exchange reserves were at their lowest—less than $3 billion. But in a parallel reality, a group of well-connected princelings... In 1981, China mobilized the entire nation, yet its total foreign exchange reserves were at their lowest—less than $3 billion. But in a parallel reality, a group of well-connected princelings...",
+          "tldr": ""
+        },
+        {
+          "id": "51c8fbe242161cd07e61dd4e97496a3e65b24d7c2e0fd8375529dcff7654a3de",
+          "signature": "bb4bbb1fb4e2af0c5058105f929e62915ec5d8a023ac631bf3935104ff57e1c3",
+          "title": "川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320",
+          "link": "https://www.youtube.com/watch?v=6QSl94BpBqk",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "9cb4d01e3d965b775924134dc9fc3d55a1354569f2cf239914d2f57d0ee4342d",
+          "signature": "d7f557ba76fc0925d66da75fb498a58feb15eeabec878dd4947398d24d40d12b",
+          "title": "预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320",
+          "link": "https://www.youtube.com/watch?v=mYdmu91sDB8",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
+          "tldr": ""
+        },
+        {
+          "id": "52b043f328f64c234f0f9e7526f18e9f8bbc5d46c177246b83a5b50511f3fe0d",
+          "signature": "38fa4147b5736f0e89bc852415f6eff66719bd07f9e0bff5460b87e1320d9177",
+          "title": "院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319",
+          "link": "https://www.youtube.com/watch?v=H9yFmxAgtDw",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "院士纷纷落马， 军队反腐延烧到军工系统？ #杨伟 #歼-20 #总设计师 #中航成飞 #火箭军 #清洗 #倒查十年 #国防开支 1. YouTube 会员平台 成为本频道的会... 院士纷纷落马， 军队反腐延烧到军工系统？ #杨伟 #歼-20 #总设计师 #中航成飞 #火箭军 #清洗 #倒查十年 #国防开支 1. YouTube 会员平台 成为本频道的会...",
+          "tldr": ""
+        },
+        {
+          "id": "3e14484c9b4492f15140e92b9e2df0df64b9002301a73b13a54b1fff86ec2033",
+          "signature": "e7aa07983f164e6d57697d1cd4f4483a37950e70d5a393f2d7059eb5270c952e",
+          "title": "Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears",
+          "link": "https://www.youtube.com/watch?v=ybCMiAYt1hk",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan...",
+          "tldr": ""
+        },
+        {
+          "id": "02e5d44d186a2e2ffa0d3ca9ea75f24ae04aebfb97cc1fc321eba46bb63904c9",
+          "signature": "464a50741b792fb16e54d030a8e99b6d04aec315e5b83604c2c36997a5e40d89",
+          "title": "Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry",
+          "link": "https://www.youtube.com/watch?v=VK3QFLOcTBo",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan... 1.⁠ ⁠YouTube Membership Become a member of this channel to enjoy exclusive perks, including early access to episodes, members-only livestreams, and more. Join here: https://www.youtube.com/chan...",
+          "tldr": ""
+        },
+        {
+          "id": "06ab5ab8c7e6cf10603e43b359cc9fd9091281b930dcbcbf6e0e006047513213",
+          "signature": "0116fcfc6ec2d269e8e7d74dbf5b1200940215bf3047ff6b3b00c7df01b4e39f",
+          "title": "特朗普：战事缠身访华推迟一个月｜新闻特写20260317",
+          "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
+          "published": "2026-03-20 14:09 UTC",
+          "sort_key": 1774015740.0,
+          "source_kind": "feed",
+          "text": "1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel... 1. YouTube 会员平台 成为本频道的会员，即可尊享专属福利，提前观看节目，直播，专属会员节目。 点击链接了解详情并加入：https://www.youtube.com/channel...",
           "tldr": ""
         },
         {
@@ -2743,11 +3341,11 @@
       ],
       "site_url": "https://www.youtube.com/@wangzhian",
       "summary": {
-        "tldr": "The feed covers escalating geopolitical tensions, focusing on the US-Iran conflict, North Korea's accelerated succession planning, and a diplomatic incident involving a Japanese officer at a Chinese embassy. It also highlights intensifying US-China competition in AI, space exploration, and cybersecurity, alongside significant domestic developments in China and Taiwan, including military anti-corruption efforts and high-profile political trials.",
+        "tldr": "The feed covers escalating geopolitical tensions, focusing on North Korea's urgent succession planning amid Kim Jong-un's reported health decline and intensifying U.S.-Iran military confrontations. It also tracks the ongoing U.S.-China rivalry across space exploration, artificial intelligence, and cybersecurity. Additionally, the digest highlights significant domestic developments in Taiwan and China, including high-profile political trials, military anti-corruption campaigns, and notable shifts in corporate and social landscapes.",
         "highlights": [
-          "North Korea's leadership transition is accelerating amid Kim Jong Un's health concerns, featuring expanded cyber operations and military cooperation with Russia.",
-          "The US-Iran conflict intensifies with reported strikes on Iranian infrastructure, the downing of a US E-3 AWACS, and discussions over joint management of the Strait of Hormuz.",
-          "US-China strategic rivalry expands across AI development, lunar exploration, and cybersecurity, while China faces internal military anti-corruption probes and Taiwan navigates high-profile political trials."
+          "North Korea is reportedly accelerating a succession plan for Kim Jong-un’s 13-year-old daughter amid severe health concerns and expanded cyber and military operations.",
+          "U.S.-Iran tensions remain high with ongoing strikes, infrastructure threats, and the reported downing of a U.S. E-3 AWACS aircraft.",
+          "U.S.-China competition intensifies across lunar exploration and AI development, while Taiwan and mainland China navigate high-profile political trials and defense sector anti-corruption probes."
         ]
       }
     },
@@ -2801,7 +3399,7 @@
         "458f1ceef2142852977cf599cc5bb7cf040efc2e14670a4dd5ad542391d0d5f7",
         "3e0b1c6aef833972d7d180db731880ef7aed4e02614b4f5ad7b2889515a3a88f"
       ],
-      "last_checked_at": "2026-04-03T12:35:04+00:00",
+      "last_checked_at": "2026-04-03T14:10:17+00:00",
       "feed_title": "bioRxiv Subject Collection: Bioinformatics",
       "pending_items": [
         {
@@ -2812,7 +3410,8 @@
           "published": "2026-04-02 00:00 UTC",
           "sort_key": 1775088000.0,
           "source_kind": "feed",
-          "text": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing"
+          "text": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
+          "tldr": "EMITS introduces an expectation-maximization algorithm to estimate fungal ITS community abundances from long-read sequencing data."
         },
         {
           "id": "migrated:63cb224a11f2a1f9b99082e4f5a12a524911ef3f995f62b6358db660803e2f1e",
@@ -2822,7 +3421,8 @@
           "published": "2026-04-02 00:00 UTC",
           "sort_key": 1775088000.0,
           "source_kind": "feed",
-          "text": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers"
+          "text": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
+          "tldr": "This study proposes a pretrained transformer-based foundation model designed for interpretable, sample-level predictive modeling in cytometry."
         },
         {
           "id": "migrated:fa6ae1ad2ccca1120044ea609b9e9096bf960bf97f9da291b2c7f9de2fc562d2",
@@ -2832,7 +3432,8 @@
           "published": "2026-04-02 00:00 UTC",
           "sort_key": 1775088000.0,
           "source_kind": "feed",
-          "text": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+          "text": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
+          "tldr": "The authors develop classical and hybrid machine learning models using TF-IDF k-mer representations to classify SARS-CoV-2 variants in imbalanced genomic datasets."
         },
         {
           "id": "migrated:610e843dfd4762476e629f229f533616c53dfcdee437eb14ebac9ec8c02c7e8c",
@@ -2842,17 +3443,24 @@
           "published": "2026-04-02 00:00 UTC",
           "sort_key": 1775088000.0,
           "source_kind": "feed",
-          "text": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance"
+          "text": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance",
+          "tldr": "This work benchmarks 86 heritability estimation configurations to evaluate their downstream impact on polygenic risk score performance."
         }
       ],
       "site_url": "https://biorxiv.org/",
       "summary": {
-        "tldr": "This bioRxiv collection highlights recent computational methods for analyzing genomic, microbiome, and cytometry data. New tools apply expectation-maximization for fungal abundance estimation, pretrained transformers for cytometry prediction, and k-mer machine learning for SARS-CoV-2 variant classification. A large-scale benchmark also evaluates heritability estimation strategies and their downstream impact on polygenic risk scores.",
+        "tldr": "This bioRxiv collection highlights recent bioinformatics advancements across diverse biological domains. New computational methods address fungal community quantification from long-read sequencing, interpretable predictive modeling for cytometry data, and machine learning approaches for SARS-CoV-2 variant classification. Additionally, a comprehensive benchmark evaluates heritability estimation strategies and their impact on polygenic risk score accuracy.",
         "highlights": [
-          "EMITS introduces expectation-maximization for fungal ITS abundance estimation using long-read sequencing.",
-          "A cytometry foundation model leverages pretrained transformers for interpretable sample-level predictions.",
-          "A benchmark of 86 configurations assesses heritability estimation strategies and polygenic risk score performance."
-        ]
+          "EMITS algorithm for fungal ITS abundance estimation using long-read sequencing",
+          "Transformer-based foundation model for interpretable cytometry predictions",
+          "Benchmarking of heritability estimation methods and their effect on polygenic risk scores"
+        ],
+        "item_tldrs": {
+          "migrated:0437a8031ab3ad3a1204cbf92cb46bc2bea619a4d7d2d75b39aa32e194def21d": "EMITS introduces an expectation-maximization algorithm to estimate fungal ITS community abundances from long-read sequencing data.",
+          "migrated:63cb224a11f2a1f9b99082e4f5a12a524911ef3f995f62b6358db660803e2f1e": "This study proposes a pretrained transformer-based foundation model designed for interpretable, sample-level predictive modeling in cytometry.",
+          "migrated:fa6ae1ad2ccca1120044ea609b9e9096bf960bf97f9da291b2c7f9de2fc562d2": "The authors develop classical and hybrid machine learning models using TF-IDF k-mer representations to classify SARS-CoV-2 variants in imbalanced genomic datasets.",
+          "migrated:610e843dfd4762476e629f229f533616c53dfcdee437eb14ebac9ec8c02c7e8c": "This work benchmarks 86 heritability estimation configurations to evaluate their downstream impact on polygenic risk score performance."
+        }
       }
     },
     "https://www.cell.com/cell/inpress.rss": {
@@ -2910,7 +3518,7 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-03T13:01:45+00:00",
+      "last_checked_at": "2026-04-03T14:10:54+00:00",
       "feed_title": "Cell",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell/archive?publicationCode=cell&rss=yes"
@@ -2934,7 +3542,7 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-03T13:01:45+00:00",
+      "last_checked_at": "2026-04-03T14:10:54+00:00",
       "feed_title": "Cell Host & Microbe",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell-host-microbe/archive?publicationCode=chom&rss=yes"
@@ -3024,7 +3632,7 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-03T13:01:46+00:00",
+      "last_checked_at": "2026-04-03T14:10:55+00:00",
       "feed_title": "Nature",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nature/rss/current"
@@ -3040,7 +3648,7 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-03T13:01:46+00:00",
+      "last_checked_at": "2026-04-03T14:10:55+00:00",
       "feed_title": "Nature Biomedical Engineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natbiomedeng/rss/current"
@@ -3056,13 +3664,14 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-03T13:01:46+00:00",
+      "last_checked_at": "2026-04-03T14:10:55+00:00",
       "feed_title": "Nature Biotechnology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nbt/rss/current"
     },
     "https://www.nature.com/ncomms.rss": {
       "seen_ids": [
+        "ec93bb60a8c2cdcb055e05a48d626878652518347f911d5356e8663bfe953be8",
         "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1",
         "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f",
         "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129",
@@ -3089,9 +3698,20 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-03T13:01:46+00:00",
+      "last_checked_at": "2026-04-03T14:10:55+00:00",
       "feed_title": "Nature Communications",
       "pending_items": [
+        {
+          "id": "ec93bb60a8c2cdcb055e05a48d626878652518347f911d5356e8663bfe953be8",
+          "signature": "b9456aa56e81270c499d033bf3b3868c6ca12ab5dba987eaa48aaab1920e64f0",
+          "title": "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
+          "link": "https://www.nature.com/articles/s41467-026-71152-1",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71152-1 Authors present a framework that harmonizes electronic health record data across hospitals by integrating medical knowledge, large language models, and graph learning. It enables cross-institutional analysis without sharing patient-level data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71152-1 Authors present a framework that harmonizes electronic health record data across hospitals by integrating medical knowledge, large language models, and graph learning. It enables cross-institutional analysis without sharing patient-level data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71152-1 Authors present a framework that harmonizes electronic health record data across hospitals by integrating medical knowledge, large language models, and graph learning. It enables cross-institutional analysis without sharing patient-level data.",
+          "tldr": "A new framework integrates medical knowledge, large language models, and graph learning to harmonize electronic health records across institutions without sharing patient-level data."
+        },
         {
           "id": "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1",
           "signature": "e6afbf4e0745bd23ec47f153ec6dd4f3b453a1118fc0aef0ec7b8b65ea3f3250",
@@ -3101,7 +3721,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71253-x Here they show that a subpopulation of distal SOX9+ lung progenitors controls lung size through lung bud bifurcation and undergoes transitional states to generate cell types in the conducting airways and the gas-exchange unit, the alveolus. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71253-x Here they show that a subpopulation of distal SOX9+ lung progenitors controls lung size through lung bud bifurcation and undergoes transitional states to generate cell types in the conducting airways and the gas-exchange unit, the alveolus. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71253-x Here they show that a subpopulation of distal SOX9+ lung progenitors controls lung size through lung bud bifurcation and undergoes transitional states to generate cell types in the conducting airways and the gas-exchange unit, the alveolus.",
-          "tldr": "Hippo signaling regulates distal SOX9+ lung progenitors to control lung size through bud bifurcation and generate airway and alveolar cell types via transitional states."
+          "tldr": "Hippo signaling regulates distal SOX9+ lung progenitor subpopulations, controlling lung size through bud bifurcation and directing transitional states that form airway and alveolar cells."
         },
         {
           "id": "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f",
@@ -3112,7 +3732,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71216-2 Landform assemblages co-develop with ecosystems to distinguish fundamental permafrost properties across a continental-scale ecoclimate gradient, combining into finer-scale permafrost landsystems that vary with geological and climatic legacies to define predictable consequences of thaw. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71216-2 Landform assemblages co-develop with ecosystems to distinguish fundamental permafrost properties across a continental-scale ecoclimate gradient, combining into finer-scale permafrost landsystems that vary with geological and climatic legacies to define predictable consequences of thaw. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71216-2 Landform assemblages co-develop with ecosystems to distinguish fundamental permafrost properties across a continental-scale ecoclimate gradient, combining into finer-scale permafrost landsystems that vary with geological and climatic legacies to define predictable consequences of thaw.",
-          "tldr": "Co-developing landform and ecosystem assemblages form permafrost landsystems that vary with geological and climatic legacies, helping predict regional thaw consequences."
+          "tldr": "Continental-scale analysis of permafrost landsystems reveals how geological and climatic legacies shape regional ecosystem responses and predict thaw consequences."
         },
         {
           "id": "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129",
@@ -3123,7 +3743,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing.",
-          "tldr": "Solvent-free mechanofusion enables scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing."
+          "tldr": "Solvent-free mechanofusion produces scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing."
         },
         {
           "id": "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c",
@@ -3134,7 +3754,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data.",
-          "tldr": "AI-based protein design demonstrates that a limited set of primordial amino acids, constrained by prebiotic and asteroid chemistry data, can produce a broad range of protein folds."
+          "tldr": "AI-based protein design shows that a restricted, primordial amino acid library inferred from asteroid Bennu data can generate a diverse array of stable protein folds."
         },
         {
           "id": "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572",
@@ -3145,7 +3765,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71429-5 Recent studies have shown that probing the heating and ionization dynamics of solid-density plasmas with x-ray free-electron laser (XFEL) beams is inherently challenging. Here, the authors demonstrate sub-picosecond time resolution of solid-density Cu plasmas driven by an optical laser pulse, by combining resonant x-ray emission spectroscopy and absorption imaging from an XFEL probe beam. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71429-5 Recent studies have shown that probing the heating and ionization dynamics of solid-density plasmas with x-ray free-electron laser (XFEL) beams is inherently challenging. Here, the authors demonstrate sub-picosecond time resolution of solid-density Cu plasmas driven by an optical laser pulse, by combining resonant x-ray emission spectroscopy and absorption imaging from an XFEL probe beam. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71429-5 Recent studies have shown that probing the heating and ionization dynamics of solid-density plasmas with x-ray free-electron laser (XFEL) beams is inherently challenging. Here, the authors demonstrate sub-picosecond time resolution of solid-density Cu plasmas driven by an optical laser pulse, by combining resonant x-ray emission spectroscopy and absorption imaging from an XFEL probe beam.",
-          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe achieves sub-picosecond resolution for tracking heating and ionization dynamics in solid-density copper plasmas."
+          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe enables sub-picosecond tracking of heating and ionization dynamics in solid-density copper plasmas."
         },
         {
           "id": "b32a9407c1efd4051416e117b7241b790b89e68e6c2eb07a0c0d5a880fdb91cc",
@@ -3156,7 +3776,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71389-w Photovoltaic-thermoelectric (PV-TE) hybrid systems offer a platform for enhancing the energy conversion efficiency of photovoltaic devices. Here, the authors present solution-processed PV-TE hybrid systems optimized for heat utilization and current matching, experimentally demonstrating a maximum efficiency of 50.28%. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71389-w Photovoltaic-thermoelectric (PV-TE) hybrid systems offer a platform for enhancing the energy conversion efficiency of photovoltaic devices. Here, the authors present solution-processed PV-TE hybrid systems optimized for heat utilization and current matching, experimentally demonstrating a maximum efficiency of 50.28%. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71389-w Photovoltaic-thermoelectric (PV-TE) hybrid systems offer a platform for enhancing the energy conversion efficiency of photovoltaic devices. Here, the authors present solution-processed PV-TE hybrid systems optimized for heat utilization and current matching, experimentally demonstrating a maximum efficiency of 50.28%.",
-          "tldr": "Solution-processed photovoltaic-thermoelectric hybrid systems optimized for heat utilization and current matching experimentally achieve a maximum energy conversion efficiency of 50.28%."
+          "tldr": "Optimized solution-processed photovoltaic-thermoelectric hybrid systems achieve a maximum experimental energy conversion efficiency of 50.28% through improved heat utilization and current matching."
         },
         {
           "id": "bb58555c49d80ab09db2a0eeb51917c35cc4908aeec9b1083a83f29365c9a3a4",
@@ -3167,7 +3787,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71090-y Application of large language models (LLMs) for automating complex and data-intensive crop phenotype analysis remains unexplored. Here, the authors integrate LLM with curated toolkit for phenotype extraction, visualization, and model training and show its ability to reduce technical barriers and enhance accessibility. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71090-y Application of large language models (LLMs) for automating complex and data-intensive crop phenotype analysis remains unexplored. Here, the authors integrate LLM with curated toolkit for phenotype extraction, visualization, and model training and show its ability to reduce technical barriers and enhance accessibility. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71090-y Application of large language models (LLMs) for automating complex and data-intensive crop phenotype analysis remains unexplored. Here, the authors integrate LLM with curated toolkit for phenotype extraction, visualization, and model training and show its ability to reduce technical barriers and enhance accessibility.",
-          "tldr": "A multi-agent AI system integrates large language models with specialized tools to automate crop phenotype extraction, visualization, and model training, reducing technical barriers in agricultural research."
+          "tldr": "A conversational multi-agent AI system integrates large language models with specialized tools to automate plant phenotype extraction, visualization, and model training."
         },
         {
           "id": "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b",
@@ -3178,7 +3798,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71353-8 Oncogene-induced replication stress is a major endogenous driver of genomic instability. Here, the authors show that replication fork stalling induced by oncogenic RAS is caused by ROS-driven alterations of replisome architecture, leading to R-loop dependent fork reversal. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71353-8 Oncogene-induced replication stress is a major endogenous driver of genomic instability. Here, the authors show that replication fork stalling induced by oncogenic RAS is caused by ROS-driven alterations of replisome architecture, leading to R-loop dependent fork reversal. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71353-8 Oncogene-induced replication stress is a major endogenous driver of genomic instability. Here, the authors show that replication fork stalling induced by oncogenic RAS is caused by ROS-driven alterations of replisome architecture, leading to R-loop dependent fork reversal.",
-          "tldr": "Oncogenic RAS and cyclin E1 drive replication stress through distinct pathways that converge on R-loop-dependent fork reversal, with RAS-induced stalling linked to ROS-mediated replisome alterations."
+          "tldr": "Oncogenic RAS induces replication stress through ROS-driven replisome alterations, converging with cyclin E1 pathways to trigger R-loop-dependent replication fork reversal."
         },
         {
           "id": "e55957c4ce44ef1592014fb8b7f0fa42d32b44225511a137721c9b9531331a0a",
@@ -3189,27 +3809,28 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70888-0 Antibody mediated prevention (AMP) trials with the broadly neutralizing antibody VRC01 showed protection against VRC01-sensitive viruses. Here, by deep sequencing plasma samples from 172 participants of the AMP trials, the authors show a high frequency of multilineage HIV infections (38%), including coinfection with both sensitive and resistant viruses, and demonstrate that VRC01 doesn’t alter the transmission bottleneck. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70888-0 Antibody mediated prevention (AMP) trials with the broadly neutralizing antibody VRC01 showed protection against VRC01-sensitive viruses. Here, by deep sequencing plasma samples from 172 participants of the AMP trials, the authors show a high frequency of multilineage HIV infections (38%), including coinfection with both sensitive and resistant viruses, and demonstrate that VRC01 doesn’t alter the transmission bottleneck. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70888-0 Antibody mediated prevention (AMP) trials with the broadly neutralizing antibody VRC01 showed protection against VRC01-sensitive viruses. Here, by deep sequencing plasma samples from 172 participants of the AMP trials, the authors show a high frequency of multilineage HIV infections (38%), including coinfection with both sensitive and resistant viruses, and demonstrate that VRC01 doesn’t alter the transmission bottleneck.",
-          "tldr": "Deep sequencing from VRC01 antibody trials reveals frequent multilineage HIV infections and coinfections with sensitive and resistant viruses, indicating the antibody does not alter the transmission bottleneck."
+          "tldr": "Deep sequencing of HIV prevention trial participants reveals that the VRC01 antibody does not alter the viral transmission bottleneck, with 38% of breakthrough infections involving multiple viral lineages."
         }
       ],
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "summary": {
-        "tldr": "This digest covers recent advances across developmental biology, climate science, materials engineering, and biomedical research. Key findings include the role of Hippo signaling in lung progenitor differentiation, scalable manufacturing techniques for solid-state battery cathodes, and AI-driven insights into primordial protein folding. Additional studies report a 50.28% efficiency in hybrid photovoltaic-thermoelectric systems, mechanisms of oncogene-induced replication stress, and the impact of VRC01 antibodies on HIV transmission dynamics.",
+        "tldr": "This digest covers recent Nature Communications research spanning computational biology, materials science, and environmental physics. Key advances include a privacy-preserving framework for cross-institutional electronic health record analysis and an AI-driven exploration of primordial protein folding. Additional studies detail scalable manufacturing techniques for solid-state batteries, high-efficiency hybrid energy systems, and novel insights into lung development, HIV transmission dynamics, and oncogene-induced genomic instability.",
         "highlights": [
-          "Scalable solvent-free mechanofusion improves cathode coatings for solid-state batteries.",
-          "AI protein design demonstrates diverse folds from limited primordial amino acid sets.",
-          "Solution-processed PV-TE hybrid systems achieve over 50% energy conversion efficiency."
+          "Privacy-preserving EHR harmonization using LLMs and graph learning enables cross-institutional medical research.",
+          "Solution-processed photovoltaic-thermoelectric hybrids achieve over 50% energy conversion efficiency.",
+          "AI protein design demonstrates that limited primordial amino acid sets can generate diverse structural folds."
         ],
         "item_tldrs": {
-          "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1": "Hippo signaling regulates distal SOX9+ lung progenitors to control lung size through bud bifurcation and generate airway and alveolar cell types via transitional states.",
-          "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f": "Co-developing landform and ecosystem assemblages form permafrost landsystems that vary with geological and climatic legacies, helping predict regional thaw consequences.",
-          "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129": "Solvent-free mechanofusion enables scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing.",
-          "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c": "AI-based protein design demonstrates that a limited set of primordial amino acids, constrained by prebiotic and asteroid chemistry data, can produce a broad range of protein folds.",
-          "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe achieves sub-picosecond resolution for tracking heating and ionization dynamics in solid-density copper plasmas.",
-          "b32a9407c1efd4051416e117b7241b790b89e68e6c2eb07a0c0d5a880fdb91cc": "Solution-processed photovoltaic-thermoelectric hybrid systems optimized for heat utilization and current matching experimentally achieve a maximum energy conversion efficiency of 50.28%.",
-          "bb58555c49d80ab09db2a0eeb51917c35cc4908aeec9b1083a83f29365c9a3a4": "A multi-agent AI system integrates large language models with specialized tools to automate crop phenotype extraction, visualization, and model training, reducing technical barriers in agricultural research.",
-          "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b": "Oncogenic RAS and cyclin E1 drive replication stress through distinct pathways that converge on R-loop-dependent fork reversal, with RAS-induced stalling linked to ROS-mediated replisome alterations.",
-          "e55957c4ce44ef1592014fb8b7f0fa42d32b44225511a137721c9b9531331a0a": "Deep sequencing from VRC01 antibody trials reveals frequent multilineage HIV infections and coinfections with sensitive and resistant viruses, indicating the antibody does not alter the transmission bottleneck."
+          "ec93bb60a8c2cdcb055e05a48d626878652518347f911d5356e8663bfe953be8": "A new framework integrates medical knowledge, large language models, and graph learning to harmonize electronic health records across institutions without sharing patient-level data.",
+          "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1": "Hippo signaling regulates distal SOX9+ lung progenitor subpopulations, controlling lung size through bud bifurcation and directing transitional states that form airway and alveolar cells.",
+          "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f": "Continental-scale analysis of permafrost landsystems reveals how geological and climatic legacies shape regional ecosystem responses and predict thaw consequences.",
+          "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129": "Solvent-free mechanofusion produces scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing.",
+          "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c": "AI-based protein design shows that a restricted, primordial amino acid library inferred from asteroid Bennu data can generate a diverse array of stable protein folds.",
+          "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe enables sub-picosecond tracking of heating and ionization dynamics in solid-density copper plasmas.",
+          "b32a9407c1efd4051416e117b7241b790b89e68e6c2eb07a0c0d5a880fdb91cc": "Optimized solution-processed photovoltaic-thermoelectric hybrid systems achieve a maximum experimental energy conversion efficiency of 50.28% through improved heat utilization and current matching.",
+          "bb58555c49d80ab09db2a0eeb51917c35cc4908aeec9b1083a83f29365c9a3a4": "A conversational multi-agent AI system integrates large language models with specialized tools to automate plant phenotype extraction, visualization, and model training.",
+          "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b": "Oncogenic RAS induces replication stress through ROS-driven replisome alterations, converging with cyclin E1 pathways to trigger R-loop-dependent replication fork reversal.",
+          "e55957c4ce44ef1592014fb8b7f0fa42d32b44225511a137721c9b9531331a0a": "Deep sequencing of HIV prevention trial participants reveals that the VRC01 antibody does not alter the viral transmission bottleneck, with 38% of breakthrough infections involving multiple viral lineages."
         }
       }
     },
@@ -3226,7 +3847,7 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-03T13:02:59+00:00",
+      "last_checked_at": "2026-04-03T14:11:57+00:00",
       "feed_title": "Nature Computational Science",
       "pending_items": [
         {
@@ -3238,7 +3859,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data.",
-          "tldr": "HorusEye is a self-supervised foundation model that learns realistic noise patterns directly from X-ray scans to enable robust tomography restoration across various modalities and scanners without requiring clean training data."
+          "tldr": "HorusEye is a self-supervised foundation model that learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities and scanners without clean training data."
         },
         {
           "id": "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1",
@@ -3249,20 +3870,20 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods.",
-          "tldr": "This study benchmarks spatial alignment methods for spatial transcriptomics, finding that optimal performance depends on the specific dataset and offering actionable guidance for future algorithm development."
+          "tldr": "A benchmark evaluating spatial transcriptomics alignment methods reveals that the best approach is dataset-dependent and provides actionable guidance for future method development."
         }
       ],
       "site_url": "http://feeds.nature.com/natcomputsci/rss/current",
       "summary": {
-        "tldr": "This digest covers two recent computational biology studies focusing on biomedical data processing and analysis. The first introduces a self-supervised foundation model that restores medical images without requiring clean reference data. The second evaluates spatial transcriptomics alignment techniques, demonstrating that optimal performance depends on the specific dataset and providing practical guidance for future method development.",
+        "tldr": "This digest covers two computational methods papers from Nature Computational Science. One introduces a self-supervised foundation model for robust medical image restoration that operates without clean training data. The other evaluates spatial transcriptomics alignment techniques, finding that optimal performance varies by dataset and offering guidance for future development.",
         "highlights": [
-          "Self-supervised model restores medical images without clean reference data.",
-          "Benchmark shows spatial transcriptomics alignment performance is dataset-specific.",
-          "Findings offer actionable guidance for future computational biology methods."
+          "HorusEye model restores tomography images using self-supervised noise learning",
+          "Medical image restoration achieved without paired clean training data",
+          "Spatial transcriptomics benchmark shows alignment success depends on dataset characteristics"
         ],
         "item_tldrs": {
-          "46b8ed4f4d7589ada70438586297b10a41d09d0a427847be39ce0b30c930e0b7": "HorusEye is a self-supervised foundation model that learns realistic noise patterns directly from X-ray scans to enable robust tomography restoration across various modalities and scanners without requiring clean training data.",
-          "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1": "This study benchmarks spatial alignment methods for spatial transcriptomics, finding that optimal performance depends on the specific dataset and offering actionable guidance for future algorithm development."
+          "46b8ed4f4d7589ada70438586297b10a41d09d0a427847be39ce0b30c930e0b7": "HorusEye is a self-supervised foundation model that learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities and scanners without clean training data.",
+          "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1": "A benchmark evaluating spatial transcriptomics alignment methods reveals that the best approach is dataset-dependent and provides actionable guidance for future method development."
         }
       }
     },
@@ -3277,7 +3898,7 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-03T13:03:49+00:00",
+      "last_checked_at": "2026-04-03T14:12:47+00:00",
       "feed_title": "Nature Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/ng/rss/current"
@@ -3294,7 +3915,7 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-03T13:03:49+00:00",
+      "last_checked_at": "2026-04-03T14:12:48+00:00",
       "feed_title": "Nature Health",
       "pending_items": [
         {
@@ -3306,19 +3927,19 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects. Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects. Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects.",
-          "tldr": "The authors argue that GLP-1 receptor agonists should be classified as transitional longevity therapeutics, but stress that rigorous testing is necessary to fully assess their direct and indirect effects on aging."
+          "tldr": "The article proposes classifying GLP-1 receptor therapeutics as transitional longevity treatments that warrant rigorous clinical testing. Additional evidence is required to fully assess their direct and indirect effects on aging."
         }
       ],
       "site_url": "http://feeds.nature.com/naturehealth/rss/current",
       "summary": {
-        "tldr": "This digest features a Nature Health commentary evaluating the potential of GLP-1 receptor agonists as longevity therapeutics. The authors propose classifying these drugs as transitional interventions but emphasize that current evidence is insufficient. Rigorous clinical testing is required to determine their direct and indirect effects on aging and healthspan.",
+        "tldr": "This digest features a Nature Health commentary on the potential of GLP-1 receptor therapeutics as longevity interventions. The author classifies these compounds as transitional treatments that require rigorous clinical evaluation. Additional research is necessary to determine their direct and indirect effects on aging and overall health.",
         "highlights": [
-          "GLP-1 receptor agonists are proposed as transitional longevity therapeutics.",
-          "Current data is insufficient to confirm direct lifespan benefits.",
-          "Rigorous testing is needed to evaluate both direct and indirect health impacts."
+          "GLP-1 receptor therapeutics are proposed as transitional longevity interventions.",
+          "Rigorous testing is recommended to validate their potential lifespan benefits.",
+          "Further evidence is needed to clarify both direct and indirect physiological impacts."
         ],
         "item_tldrs": {
-          "2b8af28df3f67550990b3353ee376bf4a989a6f2e2da6b0c99f8de976e6e2e8c": "The authors argue that GLP-1 receptor agonists should be classified as transitional longevity therapeutics, but stress that rigorous testing is necessary to fully assess their direct and indirect effects on aging."
+          "2b8af28df3f67550990b3353ee376bf4a989a6f2e2da6b0c99f8de976e6e2e8c": "The article proposes classifying GLP-1 receptor therapeutics as transitional longevity treatments that warrant rigorous clinical testing. Additional evidence is required to fully assess their direct and indirect effects on aging."
         }
       }
     },
@@ -3333,7 +3954,7 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-03T13:04:36+00:00",
+      "last_checked_at": "2026-04-03T14:13:47+00:00",
       "feed_title": "Nature Machine Intelligence",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natmachintell/rss/current"
@@ -3353,7 +3974,7 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-03T13:04:36+00:00",
+      "last_checked_at": "2026-04-03T14:13:47+00:00",
       "feed_title": "Nature Medicine",
       "pending_items": [
         {
@@ -3365,7 +3986,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future.",
-          "tldr": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside the co-circulation of clades Ia, Ib, and IIb. The findings underscore the need for enhanced genomic surveillance to monitor potential viral recombination events."
+          "tldr": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside co-circulating clades Ia, Ib, and IIb. The findings highlight the need for improved genomic surveillance to monitor potential viral recombination events."
         },
         {
           "id": "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9",
@@ -3376,7 +3997,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging.",
-          "tldr": "An exposome analysis spanning 34 countries found that social environmental factors correlate with accelerated functional brain aging, while physical environmental factors are linked to faster structural brain aging."
+          "tldr": "An exposome analysis spanning 34 countries found that social exposures correlate with accelerated functional brain aging, while physical exposures are linked to faster structural brain aging."
         },
         {
           "id": "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886",
@@ -3387,21 +4008,21 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease.",
-          "tldr": "The authors outline standardized target product profiles to provide clear developmental benchmarks for therapies aimed at delaying or preventing the clinical onset of Alzheimer’s disease."
+          "tldr": "The authors define target product profiles to establish clear development benchmarks for therapies intended to delay or prevent the clinical onset of Alzheimer’s disease."
         }
       ],
       "site_url": "http://feeds.nature.com/nm/rss/current",
       "summary": {
-        "tldr": "This digest highlights recent Nature Medicine research on viral surveillance, environmental impacts on neurology, and Alzheimer's therapeutic development. Genomic analysis reveals the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, emphasizing the need for enhanced monitoring to prevent recombination. Cross-national exposome studies link social and physical environmental factors to distinct patterns of functional and structural brain aging. Additionally, researchers propose standardized target product profiles to guide and accelerate the development of therapies aimed at delaying or preventing symptomatic Alzheimer’s disease.",
+        "tldr": "This Nature Medicine digest covers recent findings in infectious disease surveillance, environmental impacts on neurodegeneration, and Alzheimer’s therapeutic development. Researchers identified the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, highlighting the need for enhanced genomic monitoring. A multinational exposome study linked social factors to accelerated functional brain aging and physical factors to structural brain aging. Additionally, experts established target product profiles to guide the development of therapies aimed at delaying or preventing symptomatic Alzheimer’s disease.",
         "highlights": [
-          "Identification of monkeypox virus clade IIb lineage A.2.2 and co-circulation of three clades in the Republic of the Congo.",
-          "Association between social exposures and faster functional brain aging, and physical exposures and faster structural brain aging across 34 countries.",
-          "Establishment of target product profiles to benchmark and accelerate therapies for delaying or preventing symptomatic Alzheimer’s disease."
+          "Co-circulation of three monkeypox virus clades detected in the Republic of the Congo, underscoring recombination risks.",
+          "Cross-national analysis links social exposures to functional brain aging and physical exposures to structural brain aging.",
+          "New target product profiles established to standardize and accelerate Alzheimer’s disease prevention therapies."
         ],
         "item_tldrs": {
-          "abce7ba38d8fd7bc22f77db10d1443b87a0c4a64bf5c4bf5aa24fd991930e133": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside the co-circulation of clades Ia, Ib, and IIb. The findings underscore the need for enhanced genomic surveillance to monitor potential viral recombination events.",
-          "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9": "An exposome analysis spanning 34 countries found that social environmental factors correlate with accelerated functional brain aging, while physical environmental factors are linked to faster structural brain aging.",
-          "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886": "The authors outline standardized target product profiles to provide clear developmental benchmarks for therapies aimed at delaying or preventing the clinical onset of Alzheimer’s disease."
+          "abce7ba38d8fd7bc22f77db10d1443b87a0c4a64bf5c4bf5aa24fd991930e133": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside co-circulating clades Ia, Ib, and IIb. The findings highlight the need for improved genomic surveillance to monitor potential viral recombination events.",
+          "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9": "An exposome analysis spanning 34 countries found that social exposures correlate with accelerated functional brain aging, while physical exposures are linked to faster structural brain aging.",
+          "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886": "The authors define target product profiles to establish clear development benchmarks for therapies intended to delay or prevent the clinical onset of Alzheimer’s disease."
         }
       }
     },
@@ -3417,7 +4038,7 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-03T13:05:22+00:00",
+      "last_checked_at": "2026-04-03T14:14:37+00:00",
       "feed_title": "Nature Methods",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nmeth/rss/current"
@@ -3436,7 +4057,7 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-03T13:05:22+00:00",
+      "last_checked_at": "2026-04-03T14:14:37+00:00",
       "feed_title": "Nature Microbiology",
       "pending_items": [
         {
@@ -3448,7 +4069,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "article",
           "text": "Abstract The ongoing census of microbial life is hampered by disparate sampling across Earth’s habitats, challenges in isolating uncultivated organisms, limited resolution in taxonomic marker gene amplicons and incomplete recovery of metagenome-assembled genomes. Here we quantify discoverable Bacterial and Archaeal diversity in a comprehensive, curated cross-habitat dataset of 92,187 publicly available metagenomes. Clustering 502 million sequences of 130 marker genes, we predict ~705,000 Bacterial and ~27,000 Archaeal species-level clades, the vast majority of which were hidden among unbinned contigs. We estimate that ten and 145 previously undescribed Archaeal and Bacterial phyla, respectively, are discoverable in this dataset. We identify soils and aquatic environments as hotspots of discoverable lineages, but predict that undescribed taxa remain abundant across all habitats. Finally, we show that prokaryotic diversity appears to arise within common evolutionary patterns, as clade size distributions follow power laws, consistently across the Tree of Life. Main Microbial life on Earth has deep evolutionary roots and is ubiquitous and abundant in extant ecosystems: prokaryotes (that is, Bacteria and Archaea) emerged more than 4 billion years ago1, have been detected in every environment on the planet and are estimated to account for ~1030 cells and 1016–1018 g of biomass2,3. This long history of evolution across a comprehensive ecological range is reflected in a great accumulated phylogenetic diversity, vastly exceeding that of multicellular life4. Yet, it remains unclear just how diverse extant Bacteria and Archaea really are, with extrapolations from abundance distributions of individual samples predicting anywhere between 106 and 1012 prokaryotic species worldwide5,6,7,8. Only a fraction of this diversity has been accounted for in existing data. Using 16S ribosomal RNA (rRNA) amplicon sequences, previous studies estimated the number of species-level operational taxonomic units (OTUs) in publicly available datasets to be 35,500 in 20049, 210,000 in 20148, 109,000 in 201610 and 740,000 in 20197. Based on rarefaction curves, tracking the number of newly discovered types (species) as more data (samples) are added to the survey, these analyses concluded that, at least in some habitats, the rate of species discovery was slowing down. Although 16S rRNA data continue to be more abundant in public repositories11, integrated surveys of prokaryotic diversity increasingly rely on isolate genomes and metagenome-assembled genomes (MAGs) to overcome some of the limitations of amplicon-based datasets (Supplementary Discussion). In metagenomic data, clade-level diversity is often defined based on sequence similarity in a subset of near-universal taxonomic marker genes12,13,14 or entire genomes15. For example, proGenomes3 (ref. 16) encompasses 41,171 species-level clusters of high-quality isolate genomes from the National Center for Biotechnology Information’s RefSeq and GenBank databases, whereas the Genome Taxonomy Database (GTDB) r226 delineates 143,614 species, combining isolate genomes and high-quality MAGs17. In addition, large-scale MAG catalogues continue to add to the census, reporting for example 4,644 species-level genomes in the human gut microbiome18, 8,300 species in the ocean19, 21,077 species in soils20, between 100 and 13,000 species for the various habitats in the MGnify Genomes collection21 or 18,000 species across the habitats represented in the IMG/M database22. We recently developed SPIRE23, which provides an integrated survey of microbial diversity across 99,146 manually annotated metagenomes from all sampled habitats on Earth, describing 107,068 species-level clusters, of which 92,134 are entirely based on MAGs (that is, lacking a cultivated representative). Such genome-centric surveys have greatly expanded the scope of study for microbial diversity, ecology and evolution, in particular for uncultivated taxa: in GTDB…",
-          "tldr": "Analysis of over 92,000 metagenomes predicts approximately 705,000 bacterial and 27,000 archaeal species-level clades, with the vast majority discovered in previously unbinned contigs. The study identifies soils and aquatic environments as diversity hotspots and shows that prokaryotic clade sizes follow consistent evolutionary power laws."
+          "tldr": "Analysis of over 92,000 metagenomes reveals approximately 705,000 bacterial and 27,000 archaeal species-level clades, primarily recovered from unbinned contigs. The study identifies hundreds of new phyla and demonstrates that prokaryotic diversity follows consistent power-law distributions across habitats."
         },
         {
           "id": "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d",
@@ -3459,7 +4080,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species.",
-          "tldr": "The YokF endonuclease acts as a donor-controlled mechanism to restrict plasmid transfer through intercellular nanotubes in Bacillus subtilis. Functional homologues of this restriction system are present across diverse Gram-positive bacterial species."
+          "tldr": "The YokF endonuclease acts as a donor-controlled mechanism that restricts plasmid transfer between Bacillus subtilis cells via intercellular nanotubes. Functional homologues of this restriction system are conserved across diverse Gram-positive bacteria."
         },
         {
           "id": "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0",
@@ -3470,21 +4091,21 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity.",
-          "tldr": "Spatial transcriptomics and imaging of human and mouse samples reveal that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage–CD4+ T cell interactions. This lipid overload impairs the host's ability to control Mycobacterium tuberculosis infection."
+          "tldr": "Spatial transcriptomics and microscopy of human and mouse samples show that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions. This lipid overload subsequently impairs the host's ability to control the infection."
         }
       ],
       "site_url": "http://feeds.nature.com/nmicrobiol/rss/current",
       "summary": {
-        "tldr": "This digest covers three recent studies in microbial ecology, bacterial genetics, and host-pathogen interactions. Researchers quantified global prokaryotic diversity using large-scale metagenomic data, revealing hundreds of thousands of previously hidden species-level clades primarily within unbinned contigs. Additional work identifies a donor-controlled endonuclease that restricts plasmid transfer through bacterial nanotubes, and demonstrates how cholesterol accumulation in tuberculosis granulomas disrupts macrophage–T cell communication and impairs immune control.",
+        "tldr": "This digest covers recent findings in microbial ecology, horizontal gene transfer regulation, and host-pathogen interactions. Large-scale metagenomic analysis uncovers hundreds of thousands of previously uncharacterized bacterial and archaeal lineages hidden in unbinned sequence data. Research on Bacillus subtilis identifies a conserved endonuclease family that restricts plasmid exchange through cellular nanotubes. Additionally, studies on tuberculosis reveal that cholesterol buildup in granulomas disrupts critical immune cell communication and compromises infection control.",
         "highlights": [
-          "Metagenomic analysis predicts over 700,000 bacterial and 27,000 archaeal species-level clades globally.",
-          "The YokF endonuclease family restricts plasmid exchange between Gram-positive bacteria via intercellular nanotubes.",
-          "Cholesterol buildup in TB granulomas disrupts macrophage–CD4+ T cell interactions, weakening anti-tuberculosis immunity."
+          "Metagenomic clustering of unbinned contigs predicts over 700,000 new bacterial and archaeal species-level clades globally.",
+          "The YokF endonuclease family restricts nanotube-mediated plasmid transfer in Bacillus subtilis and other Gram-positive bacteria.",
+          "Cholesterol accumulation in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and weakens anti-tuberculosis immunity."
         ],
         "item_tldrs": {
-          "f743be72b76a6187d083fe48978d70525902d272ff456a4753280d2ede4c2fdc": "Analysis of over 92,000 metagenomes predicts approximately 705,000 bacterial and 27,000 archaeal species-level clades, with the vast majority discovered in previously unbinned contigs. The study identifies soils and aquatic environments as diversity hotspots and shows that prokaryotic clade sizes follow consistent evolutionary power laws.",
-          "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d": "The YokF endonuclease acts as a donor-controlled mechanism to restrict plasmid transfer through intercellular nanotubes in Bacillus subtilis. Functional homologues of this restriction system are present across diverse Gram-positive bacterial species.",
-          "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0": "Spatial transcriptomics and imaging of human and mouse samples reveal that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage–CD4+ T cell interactions. This lipid overload impairs the host's ability to control Mycobacterium tuberculosis infection."
+          "f743be72b76a6187d083fe48978d70525902d272ff456a4753280d2ede4c2fdc": "Analysis of over 92,000 metagenomes reveals approximately 705,000 bacterial and 27,000 archaeal species-level clades, primarily recovered from unbinned contigs. The study identifies hundreds of new phyla and demonstrates that prokaryotic diversity follows consistent power-law distributions across habitats.",
+          "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d": "The YokF endonuclease acts as a donor-controlled mechanism that restricts plasmid transfer between Bacillus subtilis cells via intercellular nanotubes. Functional homologues of this restriction system are conserved across diverse Gram-positive bacteria.",
+          "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0": "Spatial transcriptomics and microscopy of human and mouse samples show that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions. This lipid overload subsequently impairs the host's ability to control the infection."
         }
       }
     },
@@ -3499,7 +4120,7 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-03T13:05:58+00:00",
+      "last_checked_at": "2026-04-03T14:15:32+00:00",
       "feed_title": "Nature Reviews Bioengineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natrevbioeng/rss/current"
@@ -3515,7 +4136,7 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-03T13:05:58+00:00",
+      "last_checked_at": "2026-04-03T14:15:32+00:00",
       "feed_title": "Nature Reviews Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrg/rss/current"
@@ -3532,7 +4153,7 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-03T13:05:58+00:00",
+      "last_checked_at": "2026-04-03T14:15:32+00:00",
       "feed_title": "Nature Reviews Microbiology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrmicro/rss/current"
@@ -3541,7 +4162,7 @@
       "seen_ids": [
         "7525a30f27a244ed9877abd357c176218544579a0041bdc3f2f6f2332b524c39"
       ],
-      "last_checked_at": "2026-04-03T12:58:35+00:00",
+      "last_checked_at": "2026-04-03T14:06:41+00:00",
       "feed_title": "gcorso's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/gcorso"
@@ -3550,7 +4171,7 @@
       "seen_ids": [
         "06f125a22cd2aa90542a4927d71b6c679a0862ddba9d0a9430396d09a5ec0acb"
       ],
-      "last_checked_at": "2026-04-03T12:58:38+00:00",
+      "last_checked_at": "2026-04-03T14:06:41+00:00",
       "feed_title": "Guangxuan-Xiao's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/Guangxuan-Xiao"
@@ -3586,7 +4207,7 @@
         "555b81f2ad44b7c5d01b8d98dadb256978841fe301fb2224b4fb7985ec709e0a",
         "4e03497a44c510612440d4891e6fdd36cd17d2fde8c5961082280c825d9fd9cd"
       ],
-      "last_checked_at": "2026-04-03T12:58:48+00:00",
+      "last_checked_at": "2026-04-03T14:06:50+00:00",
       "feed_title": "HannesStark's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/HannesStark"
@@ -3620,13 +4241,21 @@
         "569efd56d3c184fe0e411ceaf0bf1bafa12a0bc2581c8aa065e7e82d26adc1f2",
         "719c912a7c4ee79a962e9517f56d1d1e59d55db5d52adda5ffcddf4a77108007"
       ],
-      "last_checked_at": "2026-04-03T12:58:50+00:00",
+      "last_checked_at": "2026-04-03T14:07:07+00:00",
       "feed_title": "karpathy's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/karpathy"
     },
     "https://rsshub.rssforever.com/github/activity/luost26": {
       "seen_ids": [
+        "cc0f26e3ce70d1d21fdac310b7978bcca10f063b9ee1cc5bd7f15d45c0ae7d6b",
+        "0ec4e7c0603f666764a6e4f10e88d2c1827458e99fe87d5b7e542d0aa3fd87c2",
+        "b170ac1892cdec679b8f4cfa91744454cb0541060fcc2f8670584e1144ee2f72",
+        "58918bc5e9141814ce44a5c86560ac8d2860e2abdaca3c7d399d6f87694f8de4",
+        "9113c4a305183b4d230e703151915ee40869b27152b3ff48fcc7a7762b9f933e",
+        "4a241cec74a01df25f19d62f876daa06302bbea5c940c4d9176af94f7bb6a114",
+        "90a4dcdacc1361e91b225daa93fd3877d2ef1a0cf504a952e7fe853efe07e95d",
+        "89b851660e3422dc280f2e924c525b4dfd234b29c7b9f96c90be5618f6438a25",
         "6c47ade912e0875cc82cbd4e1e74364cff8fcbe5fd91857a6d25e8918462ed83",
         "01af3424b5983a49bd9a44175589abce53744722ed27c3926b0683f8f1798376",
         "0b3e12b06fb07bef48fc0a4e5d3852813d7c3921264b8e5798fc6bd0d2d593be",
@@ -3670,9 +4299,97 @@
         "3c9a74a91c34b71e19336176f1c7a1407ea5642d9035b1f3ebf76ba1c285c184",
         "0eeab505ca9f3149f2dbd74145a2129c94207e371c11017bc503d9a26672bfb0"
       ],
-      "last_checked_at": "2026-04-03T12:58:51+00:00",
+      "last_checked_at": "2026-04-03T14:07:18+00:00",
       "feed_title": "luost26's GitHub activities",
       "pending_items": [
+        {
+          "id": "cc0f26e3ce70d1d21fdac310b7978bcca10f063b9ee1cc5bd7f15d45c0ae7d6b",
+          "signature": "a0c1f8f9e7c7e02320580233a836cf27a17f3192865dd2cf0af354dc4a27422d",
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/327ec8e2f7...841c2f0d47",
+          "published": "2026-04-03 14:05 UTC",
+          "sort_key": 1775225132.0,
+          "source_kind": "article",
+          "text": "Comparing changes Open a pull request - 1 commit - 1 file changed - 1 contributor Commits on Apr 3, 2026 This comparison is taking too long to generate. Unfortunately it looks like we can’t render this comparison for you right now. It might be too big, or there might be something weird with your repository. You can try running this command locally to see the comparison on your machine: git diff 327ec8e2f7...841c2f0d47",
+          "tldr": ""
+        },
+        {
+          "id": "0ec4e7c0603f666764a6e4f10e88d2c1827458e99fe87d5b7e542d0aa3fd87c2",
+          "signature": "508999acb3b427b188fb56fec5befecc8f7262f71c935cf128bb3b423954c17f",
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/e6ac133515...327ec8e2f7",
+          "published": "2026-04-03 13:55 UTC",
+          "sort_key": 1775224540.0,
+          "source_kind": "article",
+          "text": "Comparing changes Open a pull request - 1 commit - 1 file changed - 1 contributor Commits on Apr 3, 2026 This comparison is taking too long to generate. Unfortunately it looks like we can’t render this comparison for you right now. It might be too big, or there might be something weird with your repository. You can try running this command locally to see the comparison on your machine: git diff e6ac133515...327ec8e2f7",
+          "tldr": ""
+        },
+        {
+          "id": "b170ac1892cdec679b8f4cfa91744454cb0541060fcc2f8670584e1144ee2f72",
+          "signature": "8df13d2889284c02bc3db9a1ee7037718e92a2c307b8cfa6ebc6c7c3fa8b7afa",
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/766e06e962...e6ac133515",
+          "published": "2026-04-03 13:51 UTC",
+          "sort_key": 1775224276.0,
+          "source_kind": "article",
+          "text": "Comparing changes Open a pull request - 1 commit - 1 file changed - 1 contributor Commits on Apr 3, 2026 This comparison is taking too long to generate. Unfortunately it looks like we can’t render this comparison for you right now. It might be too big, or there might be something weird with your repository. You can try running this command locally to see the comparison on your machine: git diff 766e06e962...e6ac133515",
+          "tldr": ""
+        },
+        {
+          "id": "58918bc5e9141814ce44a5c86560ac8d2860e2abdaca3c7d399d6f87694f8de4",
+          "signature": "6a02925967a797fd7a0763017e1107d57a1b02e78b16aa694797b582dd3e47de",
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/c4c1ab0091...766e06e962",
+          "published": "2026-04-03 13:37 UTC",
+          "sort_key": 1775223455.0,
+          "source_kind": "article",
+          "text": "Comparing changes Open a pull request - 1 commit - 1 file changed - 1 contributor Commits on Apr 3, 2026 This comparison is taking too long to generate. Unfortunately it looks like we can’t render this comparison for you right now. It might be too big, or there might be something weird with your repository. You can try running this command locally to see the comparison on your machine: git diff c4c1ab0091...766e06e962",
+          "tldr": ""
+        },
+        {
+          "id": "9113c4a305183b4d230e703151915ee40869b27152b3ff48fcc7a7762b9f933e",
+          "signature": "c65499687cd5271a6d90f5fdcfacef944f49d8a9cf8a5accbfc5b56de7643c8a",
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/04aa015f9d...c4c1ab0091",
+          "published": "2026-04-03 13:24 UTC",
+          "sort_key": 1775222666.0,
+          "source_kind": "article",
+          "text": "Comparing changes Open a pull request - 1 commit - 1 file changed - 1 contributor Commits on Apr 3, 2026 This comparison is taking too long to generate. Unfortunately it looks like we can’t render this comparison for you right now. It might be too big, or there might be something weird with your repository. You can try running this command locally to see the comparison on your machine: git diff 04aa015f9d...c4c1ab0091",
+          "tldr": ""
+        },
+        {
+          "id": "4a241cec74a01df25f19d62f876daa06302bbea5c940c4d9176af94f7bb6a114",
+          "signature": "39fe1d779e4681d7f076ea3d03573f8bce35e2ae738eeafe2701a1e46b42a17b",
+          "title": "luost26 opened a pull request in prexsyn-engine-feedstock",
+          "link": "https://github.com/conda-forge/prexsyn-engine-feedstock/pull/3",
+          "published": "2026-04-03 13:21 UTC",
+          "sort_key": 1775222465.0,
+          "source_kind": "article",
+          "text": "Conversation This file contains hidden or bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters. Learn more about bidirectional Unicode characters Add this suggestion to a batch that can be applied as a single commit.This suggestion is invalid because no changes were made to the code.Suggestions cannot be applied while the pull request is closed.Suggestions cannot be applied while viewing a subset of changes.Only one suggestion per line can be applied in a batch.Add this suggestion to a batch that can be applied as a single commit.Applying suggestions on deleted lines is not supported.You must change the existing code in this line in order to create a valid suggestion.Outdated suggestions cannot be applied.This suggestion has been applied or marked resolved.Suggestions cannot be applied from pending reviews.Suggestions cannot be applied on multi-line comments.Suggestions cannot be applied while the pull request is queued to merge.Suggestion cannot be applied right now. Please check back later.",
+          "tldr": ""
+        },
+        {
+          "id": "90a4dcdacc1361e91b225daa93fd3877d2ef1a0cf504a952e7fe853efe07e95d",
+          "signature": "70cd26c97065b54a34d826c0e5fd4d7a88cff1b86cd61756594584df1d313e33",
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/af727ced1b...04aa015f9d",
+          "published": "2026-04-03 13:20 UTC",
+          "sort_key": 1775222434.0,
+          "source_kind": "article",
+          "text": "Comparing changes Open a pull request - 1 commit - 1 file changed - 1 contributor Commits on Apr 3, 2026 This comparison is taking too long to generate. Unfortunately it looks like we can’t render this comparison for you right now. It might be too big, or there might be something weird with your repository. You can try running this command locally to see the comparison on your machine: git diff af727ced1b...04aa015f9d",
+          "tldr": ""
+        },
+        {
+          "id": "89b851660e3422dc280f2e924c525b4dfd234b29c7b9f96c90be5618f6438a25",
+          "signature": "c5cf40a0423966f3e8ae8cd9e29e12c124ba8e0f6a7d7db035a8b1b26c6cacb9",
+          "title": "luost26 forked luost26/prexsyn-engine-feedstock from conda-forge/prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock",
+          "published": "2026-04-03 13:11 UTC",
+          "sort_key": 1775221876.0,
+          "source_kind": "article",
+          "text": "Feedstock license: BSD-3-Clause Home: https://github.com/luost26/prexsyn-engine Package license: MIT Summary: C++ backend library for PrexSyn with Python bindings Development: https://github.com/luost26/prexsyn-engine Documentation: https://prexsyn.readthedocs.io/ PrexSyn Engine is the C++ backend library for PrexSyn. It provides a high-throughput data pipeline that generates synthetic pathways annotated with molecular properties to train PrexSyn models. It also includes a fast detokenizer for reconstructing synthetic pathways and product molecules from model outputs. Installing prexsyn-engine from the conda-forge channel can be achieved by adding conda-forge to your channels with: conda config --add channels conda-forge conda config --set channel_priority strict Once the conda-forge channel has been enabled, prexsyn-engine can be installed with conda : conda install prexsyn-engine or with mamba : mamba install prexsyn-engine It is possible to list all of the versions of prexsyn-engine available on your platform with conda : conda search prexsyn-engine --channel conda-forge or with mamba : mamba search prexsyn-engine --channel conda-forge Alternatively, mamba repoquery may provide more information: # Search all versions available on your platform: mamba repoquery search prexsyn-engine --channel conda-forge # List packages depending on `prexsyn-engine`: mamba repoquery whoneeds prexsyn-engine --channel conda-forge # List dependencies of `prexsyn-engine`: mamba repoquery depends prexsyn-engine --channel conda-forge conda-forge is a community-led conda channel of installable packages. In order to provide high-quality builds, the process has been automated into the conda-forge GitHub organization. The conda-forge organization contains one repository for each of the installable packages. Such a repository is known as a feedstock. A feedstock is made up of a conda recipe (the instructions on what and how to build the package) and the necessary configurations for automatic building using freely available continuous integration services. Thanks to the awesome service provided by Azure, GitHub, CircleCI, AppVeyor, Drone, and TravisCI it is possible to build and upload installable packages to the conda-forge anaconda.org channel for Linux, Windows and OSX respectively. To manage the continuous integration and simplify feedstock maintenance, conda-smithy has been developed. Using the conda-forge.yml within this repository, it is possible to re-render all of this feedstock's supporting files (e.g. the CI configuration files) with conda smithy rerender . For more information, please check the conda-forge documentation. feedstock - the conda recipe (raw material), supporting scripts and CI configuration. conda-smithy - the tool which helps orchestrate the feedstock. Its primary use is in the construction of the CI .yml files and simplify the management of many feedstocks. conda-forge - the place where the feedstock and smithy live and work to produce the finished article (built conda distributions) If you would like to improve the prexsyn-engine recipe or build a new package version, please fork this repository and submit a PR. Upon submission, your changes will be run on the appropriate platforms to give the reviewer an opportunity to confirm that the changes result in a successful build. Once merged, the recipe will be re-built and uploaded automatically to the conda-forge channel, whereupon the built conda packages will be available for everybody to install and use from the conda-forge channel. Note that all branches in the conda-forge/prexsyn-engine-feedstock are immediately built and any created packages are uploaded, so PRs should be based on branches in forks, and branches in the main repository should only be used to build distinct package versions. In order to produce a uniquely identifiable distribution: - If the version of a package is not being increased, please add or increase the build/number . - If the version of a package i…",
+          "tldr": ""
+        },
         {
           "id": "migrated:32b90e466b9faa6d7bd21931f63b109e6fd7f44cb22c6e5d2d30182c45904d4a",
           "signature": "32b90e466b9faa6d7bd21931f63b109e6fd7f44cb22c6e5d2d30182c45904d4a",
@@ -3720,11 +4437,11 @@
       ],
       "site_url": "https://github.com/luost26",
       "summary": {
-        "tldr": "On April 2, 2026, user luost26 made multiple consecutive pushes to the prexsyn repository. The activity occurred within a short timeframe between 21:50 and 22:07 UTC. The feed entries do not include commit messages or specific details about the code changes.",
+        "tldr": "User luost26 was active across two related repositories, focusing on core development and conda packaging for the PrexSyn project. On April 2, multiple commits were pushed to the main prexsyn repository. The following day, the user forked the prexsyn-engine-feedstock from conda-forge, opened a pull request, and submitted several additional pushes to update the packaging configuration.",
         "highlights": [
-          "Multiple pushes to the prexsyn repository by luost26.",
-          "Activity concentrated between 21:50 and 22:07 UTC on April 2, 2026.",
-          "No commit messages or specific change details were provided in the feed."
+          "Multiple commits pushed to the main prexsyn repository on April 2.",
+          "Forked the prexsyn-engine-feedstock from the conda-forge organization on April 3.",
+          "Opened pull request #3 and submitted several subsequent pushes to the feedstock repository."
         ]
       }
     },
@@ -3742,7 +4459,7 @@
         "6c7adfb121cde46560e1cfdd9c88fce9c656ec46a382e9c894a7cc8c80e0f210",
         "e742ddb470a792bdd2cfd7c10abdbc909bba7e12abf6747f39e8a607a9949019"
       ],
-      "last_checked_at": "2026-04-03T12:59:23+00:00",
+      "last_checked_at": "2026-04-03T14:08:05+00:00",
       "feed_title": "OdinZhang's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/OdinZhang"
@@ -3766,7 +4483,7 @@
         "4d8013d4ce9ca7b0084f0d0b782c2cd266bccc8695bc19fc6b82c9b8b281f472",
         "24f82007189026c48fac1d4b6b32e6d581b029308f09f5d03f8b75004b564021"
       ],
-      "last_checked_at": "2026-04-03T12:59:24+00:00",
+      "last_checked_at": "2026-04-03T14:08:06+00:00",
       "feed_title": "wenhao-gao's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/wenhao-gao"
@@ -3778,12 +4495,12 @@
         "b0d543362b315c4c7969c904ca8ee28e5a6653bf0a92e2ffaaac71a49e90d3ea",
         "2ed3850e96939a689807e86962cef30aff9c05b45b4d63924ab12a066df1916d"
       ],
-      "last_checked_at": "2026-04-03T12:59:24+00:00",
+      "last_checked_at": "2026-04-03T14:08:07+00:00",
       "feed_title": "WillHua127's GitHub activities",
       "pending_items": [],
       "site_url": "https://github.com/WillHua127"
     }
   },
-  "updated_at": "2026-04-03T12:57:05+00:00",
+  "updated_at": "2026-04-03T14:05:19+00:00",
   "feed_count": 32
 }

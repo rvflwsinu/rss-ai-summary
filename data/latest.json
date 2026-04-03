@@ -1,12 +1,12 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T12:57:05+00:00",
-  "generated_at_human": "2026-04-03 12:57 UTC",
+  "generated_at": "2026-04-03T14:05:19+00:00",
+  "generated_at_human": "2026-04-03 14:05 UTC",
   "model": "qwen/qwen3.6-plus:free",
   "summary_language": "English",
   "total_feeds": 32,
   "feeds_with_updates": 11,
-  "total_items": 220,
+  "total_items": 279,
   "feeds": [
     {
       "category": "Blogs",
@@ -15,11 +15,11 @@
       "feed_url": "http://www.ruanyifeng.com/blog/atom.xml",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "This weekly digest examines how AI's compute-driven costs may create economic inequality, contrasting with a new metric showing model capabilities doubling every seven months. It also covers recent tech industry developments, including GitHub Copilot's ad insertion controversy, and provides a curated list of open-source developer tools and AI programming resources.",
+      "tldr": "This weekly digest examines how AI compute costs could create a socioeconomic divide, contrasting the technology with traditional industrial scaling, and introduces a new time-based metric showing AI capabilities doubling roughly every seven months. It also covers recent developer ecosystem shifts, including GitHub Copilot's controversial ad insertion and a growing selection of open-source tools for AI workflows and system management. The issue concludes with practical tutorials, resource recommendations, and reflections on AI's evolving role in software development.",
       "highlights": [
-        "AI model pricing scales with compute rather than production volume, potentially creating tiered access between wealthy and average users.",
-        "A proposed evaluation metric indicates AI capabilities are doubling every seven months based on human task completion times.",
-        "GitHub temporarily paused Copilot after it automatically inserted promotional ads into thousands of pull requests, alongside curated open-source developer tools and AI tutorials."
+        "AI performance scales with expensive compute rather than traditional economies of scale, potentially creating a divide between premium and free model access.",
+        "A new research metric tracks AI progress by human task completion time, indicating model capabilities double approximately every seven months.",
+        "Developer ecosystem updates include GitHub pausing Copilot's automatic ad insertions, new open-source AI agent SDKs, and practical guides for AI-assisted coding."
       ],
       "items": [
         {
@@ -36,15 +36,92 @@
       "title": "LINUX DO - 使用人工智能标记的话题",
       "site_url": "https://linux.do/tag/444-tag/444",
       "feed_url": "https://linux.do/tag/444-tag/444.rss",
-      "item_count": 123,
+      "item_count": 142,
       "skipped_count": 0,
-      "tldr": "The forum highlights practical challenges with AI development tools, particularly Claude Code stability, API proxy security, and account access restrictions. Users are actively sharing educational resources for AIGC workflows while seeking advice on integrating AI into software development and academic research. Concurrently, discussions reflect growing career uncertainty and corporate policy shifts driven by rapid AI adoption.",
+      "tldr": "The forum feed centers on practical AI integration, with users sharing account registration workarounds and API proxy setups amid tightening platform restrictions. Developers are optimizing coding workflows using models like Qwen 3.6 Plus and Claude Code, while benchmarking new hardware and sharing specialized tools for PDF translation. Community discussions also address career planning in an AI-disrupted market and distribute educational resources for AI-augmented design.",
       "highlights": [
-        "Claude Code users report plugin instability, API errors, and subscription hurdles, alongside workplace mandates to use it exclusively.",
-        "Technical discussions focus on API proxy abuse mitigation, Gemini CLI tier restrictions, and troubleshooting strict account registration barriers.",
-        "Community members share AIGC design courses and development guides while debating AI's impact on career planning and research workflows."
+        "Users exchange registration bypass methods and API proxy configurations as platforms like Gemini and Claude enforce stricter access controls.",
+        "Developers optimize AI coding workflows with Qwen 3.6 Plus for automation, troubleshoot Claude Code plugin stability, and benchmark Apple M5 hardware performance.",
+        "Community members discuss long-term career strategies amid rapid AI advancement and share open-source tools and courses for AI design and document translation."
       ],
       "items": [
+        {
+          "title": "古法注册，平均2分钟一个,不弹手机",
+          "link": "https://linux.do/t/topic/1892751",
+          "published": "2026-04-03 14:01 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "qwen 3.6 plus很适合openclaw做自动化任务",
+          "link": "https://linux.do/t/topic/1892715",
+          "published": "2026-04-03 13:56 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "论核弹有啥用",
+          "link": "https://linux.do/t/topic/1892603",
+          "published": "2026-04-03 13:41 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "苹果 m5 芯片的 mbp 永远的神啊",
+          "link": "https://linux.do/t/topic/1892568",
+          "published": "2026-04-03 13:37 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Codex RT前缀更新了",
+          "link": "https://linux.do/t/topic/1892557",
+          "published": "2026-04-03 13:36 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "求推荐 API 分发平台推荐",
+          "link": "https://linux.do/t/topic/1892553",
+          "published": "2026-04-03 13:35 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "反重力gemini3.1 PRO high 似乎好用起来了 你们对话发现了吗？",
+          "link": "https://linux.do/t/topic/1892530",
+          "published": "2026-04-03 13:32 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "一人撑起一片天，全栈工程专用的SKILL实践迭代日记",
+          "link": "https://linux.do/t/topic/1892525",
+          "published": "2026-04-03 13:31 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Claude 已经撑过一周了，开心呢",
+          "link": "https://linux.do/t/topic/1892452",
+          "published": "2026-04-03 13:20 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "阿里云百炼 Coding Plan 分享",
+          "link": "https://linux.do/t/topic/1892445",
+          "published": "2026-04-03 13:19 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "想做中转站已经搭好，有稳定的渠道商吗",
+          "link": "https://linux.do/t/topic/1892306",
+          "published": "2026-04-03 12:58 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
         {
           "title": "AIGC+设计1V1作品集辅导",
           "link": "https://linux.do/t/topic/1892296",
@@ -305,6 +382,20 @@
           "tldr": ""
         },
         {
+          "title": "Gpt Pro 三人车 sub2api设置每天多少额度合适呢",
+          "link": "https://linux.do/t/topic/1891194",
+          "published": "2026-04-03 09:48 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "windows端有什么可以远程操控cc/cx的工具吗",
+          "link": "https://linux.do/t/topic/1891176",
+          "published": "2026-04-03 09:45 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "修了一周gpt注册机后，我觉悟了",
           "link": "https://linux.do/t/topic/1891102",
           "published": "2026-04-03 09:33 UTC",
@@ -364,6 +455,20 @@
           "title": "关于team跟plus，实在弄不到free了",
           "link": "https://linux.do/t/topic/1890663",
           "published": "2026-04-03 08:32 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "跟风记录Claude Max5x存活时间",
+          "link": "https://linux.do/t/topic/1890543",
+          "published": "2026-04-03 08:19 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "cpa中的qwen还能用吗",
+          "link": "https://linux.do/t/topic/1890490",
+          "published": "2026-04-03 08:12 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -753,9 +858,23 @@
           "tldr": ""
         },
         {
+          "title": "【长期贴】 Claude-code-workflow(CCW) --使用技巧分享-自认为最工程化的harness workflow",
+          "link": "https://linux.do/t/topic/1863021",
+          "published": "2026-03-31 08:16 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "15元充1个月ChatGPT plus ？",
           "link": "https://linux.do/t/topic/1851411",
           "published": "2026-03-30 06:47 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "持续更新和A➗战斗 目前已亏1100+50+150",
+          "link": "https://linux.do/t/topic/1847967",
+          "published": "2026-03-29 14:58 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -900,6 +1019,20 @@
           "tldr": ""
         },
         {
+          "title": "通用的提示词优化功能，通过MCP提供",
+          "link": "https://linux.do/t/topic/1431366",
+          "published": "2026-01-12 05:07 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Codex-5.2经常报错error decoding response body，你们遇到没",
+          "link": "https://linux.do/t/topic/1357244",
+          "published": "2025-12-24 08:02 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "【Polo API 长期活动】每10楼抽取3位送5刀Claude API额度，30%中奖机会！ 已开通【富可敌国】",
           "link": "https://linux.do/t/topic/463404",
           "published": "2025-02-28 13:22 UTC",
@@ -913,15 +1046,71 @@
       "title": "luost26's GitHub activities",
       "site_url": "https://github.com/luost26",
       "feed_url": "https://rsshub.rssforever.com/github/activity/luost26",
-      "item_count": 4,
+      "item_count": 12,
       "skipped_count": 0,
-      "tldr": "On April 2, 2026, user luost26 made multiple consecutive pushes to the prexsyn repository. The activity occurred within a short timeframe between 21:50 and 22:07 UTC. The feed entries do not include commit messages or specific details about the code changes.",
+      "tldr": "User luost26 was active across two related repositories, focusing on core development and conda packaging for the PrexSyn project. On April 2, multiple commits were pushed to the main prexsyn repository. The following day, the user forked the prexsyn-engine-feedstock from conda-forge, opened a pull request, and submitted several additional pushes to update the packaging configuration.",
       "highlights": [
-        "Multiple pushes to the prexsyn repository by luost26.",
-        "Activity concentrated between 21:50 and 22:07 UTC on April 2, 2026.",
-        "No commit messages or specific change details were provided in the feed."
+        "Multiple commits pushed to the main prexsyn repository on April 2.",
+        "Forked the prexsyn-engine-feedstock from the conda-forge organization on April 3.",
+        "Opened pull request #3 and submitted several subsequent pushes to the feedstock repository."
       ],
       "items": [
+        {
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/327ec8e2f7...841c2f0d47",
+          "published": "2026-04-03 14:05 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/e6ac133515...327ec8e2f7",
+          "published": "2026-04-03 13:55 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/766e06e962...e6ac133515",
+          "published": "2026-04-03 13:51 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/c4c1ab0091...766e06e962",
+          "published": "2026-04-03 13:37 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/04aa015f9d...c4c1ab0091",
+          "published": "2026-04-03 13:24 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 opened a pull request in prexsyn-engine-feedstock",
+          "link": "https://github.com/conda-forge/prexsyn-engine-feedstock/pull/3",
+          "published": "2026-04-03 13:21 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 pushed prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock/compare/af727ced1b...04aa015f9d",
+          "published": "2026-04-03 13:20 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
+        {
+          "title": "luost26 forked luost26/prexsyn-engine-feedstock from conda-forge/prexsyn-engine-feedstock",
+          "link": "https://github.com/luost26/prexsyn-engine-feedstock",
+          "published": "2026-04-03 13:11 UTC",
+          "source_kind": "article",
+          "tldr": ""
+        },
         {
           "title": "luost26 pushed prexsyn",
           "link": "https://github.com/luost26/prexsyn/compare/1c5fde5215...439f694d85",
@@ -957,17 +1146,29 @@
       "title": "前沿快讯 - LINUX DO",
       "site_url": "https://linux.do/c/news/34",
       "feed_url": "https://linux.do/c/news/34.rss",
-      "item_count": 34,
+      "item_count": 36,
       "skipped_count": 0,
-      "tldr": "The AI ecosystem is shifting toward usage-based and tiered pricing models, with OpenAI exploring peak/off-peak rates for Codex, Google introducing priority inference tiers for Gemini, and Xiaomi launching a new token-based MiMo plan. Major developer tools are seeing significant updates, including Claude Code v2.1.91 optimizing token consumption and the official release of Qwen 3.6 Plus. Meanwhile, platform and security developments include Slack suspending workspaces in mainland China, a social engineering compromise of the Axios npm package, and new Chinese regulations proposed for digital virtual humans.",
+      "tldr": "The feed highlights significant shifts in AI service pricing and access, with OpenAI adjusting ChatGPT Business costs and proposing dynamic usage rates for Codex, while Xiaomi launches a transparent, token-based MiMo subscription plan. Major AI development tools and models saw updates, including Claude Code v2.1.91 optimizations, the official release of Qwen 3.6 Plus, and Google's integration of Veo 3.1 into Vids. Concurrently, several platforms updated their policies and security postures, marked by Slack's regional workspace suspensions, GitHub's revised code privacy opt-out requirements, and a social engineering breach affecting the Axios project maintainer.",
       "highlights": [
-        "OpenAI explores peak/off-peak pricing for Codex and reduces ChatGPT Business subscription costs.",
-        "Xiaomi launches a tiered, token-based MiMo API plan, while Google adds Flex and Priority inference tiers to the Gemini API.",
-        "Claude Code v2.1.91 reduces token consumption for edits and increases MCP tool result limits to 500K characters.",
-        "The Axios npm package was compromised following a social engineering attack on its maintainer.",
-        "Slack suspends workspaces in mainland China, Hong Kong, and Macau, as China drafts new regulations for digital virtual human services."
+        "OpenAI reduces ChatGPT Business pricing and proposes peak/off-peak usage multipliers for Codex to manage compute load.",
+        "Xiaomi launches a tiered, token-based MiMo API plan with no hourly limits, while Claude Code v2.1.91 introduces token-saving edits and larger MCP result caps.",
+        "Platform and security updates include Slack suspending workspaces in mainland China, HK, and Macau, GitHub requiring opt-out for code privacy, and a social engineering attack compromising the Axios maintainer."
       ],
       "items": [
+        {
+          "title": "号外？微信支持markdown了吗？",
+          "link": "https://linux.do/t/topic/1892569",
+          "published": "2026-04-03 13:37 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "研究显示人类口头交流逐年缩减：平均每天少说 300 个单词",
+          "link": "https://linux.do/t/topic/1892476",
+          "published": "2026-04-03 13:24 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
         {
           "title": "codex 量大管饱的时代可能要结束力",
           "link": "https://linux.do/t/topic/1891680",
@@ -1213,15 +1414,22 @@
       "title": "王志安 - YouTube",
       "site_url": "https://www.youtube.com/@wangzhian",
       "feed_url": "https://rsshub.rssforever.com/youtube/user/@wangzhian",
-      "item_count": 36,
+      "item_count": 65,
       "skipped_count": 0,
-      "tldr": "The feed covers escalating geopolitical tensions, focusing on the US-Iran conflict, North Korea's accelerated succession planning, and a diplomatic incident involving a Japanese officer at a Chinese embassy. It also highlights intensifying US-China competition in AI, space exploration, and cybersecurity, alongside significant domestic developments in China and Taiwan, including military anti-corruption efforts and high-profile political trials.",
+      "tldr": "The feed covers escalating geopolitical tensions, focusing on North Korea's urgent succession planning amid Kim Jong-un's reported health decline and intensifying U.S.-Iran military confrontations. It also tracks the ongoing U.S.-China rivalry across space exploration, artificial intelligence, and cybersecurity. Additionally, the digest highlights significant domestic developments in Taiwan and China, including high-profile political trials, military anti-corruption campaigns, and notable shifts in corporate and social landscapes.",
       "highlights": [
-        "North Korea's leadership transition is accelerating amid Kim Jong Un's health concerns, featuring expanded cyber operations and military cooperation with Russia.",
-        "The US-Iran conflict intensifies with reported strikes on Iranian infrastructure, the downing of a US E-3 AWACS, and discussions over joint management of the Strait of Hormuz.",
-        "US-China strategic rivalry expands across AI development, lunar exploration, and cybersecurity, while China faces internal military anti-corruption probes and Taiwan navigates high-profile political trials."
+        "North Korea is reportedly accelerating a succession plan for Kim Jong-un’s 13-year-old daughter amid severe health concerns and expanded cyber and military operations.",
+        "U.S.-Iran tensions remain high with ongoing strikes, infrastructure threats, and the reported downing of a U.S. E-3 AWACS aircraft.",
+        "U.S.-China competition intensifies across lunar exploration and AI development, while Taiwan and mainland China navigate high-profile political trials and defense sector anti-corruption probes."
       ],
       "items": [
+        {
+          "title": "Succession After Kim Jong-un: How Extreme Is the Regime He’s Leaving to His Daughter? 20260403",
+          "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
+          "published": "2026-04-03 12:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
         {
           "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
           "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
@@ -1233,6 +1441,27 @@
           "title": "接班金正恩：他为13岁的女儿，留下了一个多疯狂的江山？20260403【新闻大写】",
           "link": "https://www.youtube.com/watch?v=gtv3y5lrd-k",
           "published": "2026-04-03 06:19 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "中美登月竞赛谁能抢得先机？｜阿尔忒弥斯2号｜重返月球｜阿姆斯特朗｜杨利伟｜嫦娥计划｜NASA｜王局拍案 20260402",
+          "link": "https://www.youtube.com/watch?v=BmlUbCD9G2I",
+          "published": "2026-04-02 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "特朗普：对伊朗攻击还将持续2到3周，伊朗不服就轰炸发电厂和炼油厂，把伊朗炸回到石器时代｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=WytvhIOJsNA",
+          "published": "2026-04-02 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "柯文哲庭审录像精华版｜新闻特写20260402",
+          "link": "https://www.youtube.com/watch?v=uYgJAr-7roY",
+          "published": "2026-04-02 14:09 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -1293,9 +1522,23 @@
           "tldr": ""
         },
         {
+          "title": "Manus 高管被中国边控，中美AI争夺战再起风云｜META｜肖弘｜季逸超｜离岸架构｜出口管制｜商务部｜王局拍案 20260401",
+          "link": "https://www.youtube.com/watch?v=KMlYdvwiQ0Y",
+          "published": "2026-04-01 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "张雪机车，他是第一｜新闻特写20260331",
           "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
           "published": "2026-04-01 06:33 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "张雪机车，他是第一｜新闻特写20260331",
+          "link": "https://www.youtube.com/watch?v=ez7a0tnmA4Y",
+          "published": "2026-03-31 14:09 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -1314,9 +1557,37 @@
           "tldr": ""
         },
         {
+          "title": "U.S. E-3 AWACS Shot Down—Where Does the U.S.–Iran Conflict Go Next?",
+          "link": "https://www.youtube.com/watch?v=JiGeTwJCiEk",
+          "published": "2026-03-30 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "郑丽文记者会，访陆前愿意和赖清德见面｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=pgKI_LJnhxY",
+          "published": "2026-03-30 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
+          "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
+          "published": "2026-03-30 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "北京房山集市发生铲车撞人事件｜新闻特写20260330",
           "link": "https://www.youtube.com/watch?v=Pc9F8JOfNeM",
           "published": "2026-03-30 06:33 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "萬人送別张雪峰｜新聞特寫20260329",
+          "link": "https://www.youtube.com/watch?v=dc3R8IylOrU",
+          "published": "2026-03-29 14:09 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -1335,6 +1606,20 @@
           "tldr": ""
         },
         {
+          "title": "When the CIA Collided with China’s MSS, Why Were American Agents Wiped Out Overnight?",
+          "link": "https://www.youtube.com/watch?v=ADnrskupDBI",
+          "published": "2026-03-27 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
+          "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
+          "published": "2026-03-27 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "柯文哲一审被判17年记者会：赖清德是希特勒，不会投降，斗争到底｜新闻特写20260327",
           "link": "https://www.youtube.com/watch?v=0ikW4_WWZxc",
           "published": "2026-03-27 06:33 UTC",
@@ -1349,6 +1634,13 @@
           "tldr": ""
         },
         {
+          "title": "日本军官携刀闯馆，樱花落尽现利刃！｜驻日大使馆｜维也纳公约｜自卫队｜新型军国主义｜三岛由纪夫｜王局拍案 20260326",
+          "link": "https://www.youtube.com/watch?v=nD_-g491A2M",
+          "published": "2026-03-26 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
           "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
           "published": "2026-03-26 06:33 UTC",
@@ -1359,6 +1651,27 @@
           "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
           "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
           "published": "2026-03-26 06:33 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Zhang Xuefeng Is Gone—A Defining Figure of an Era Becomes a Memory",
+          "link": "https://www.youtube.com/watch?v=zTc0CensUA8",
+          "published": "2026-03-25 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "一名日本自卫队军官带刀闯入中国驻东京大使馆｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=7zWk5Dqi8Gs",
+          "published": "2026-03-25 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "张雪峰名场面合集：他极具争议，也非常有趣｜新闻特写20260325",
+          "link": "https://www.youtube.com/watch?v=QzPEOHcHLkw",
+          "published": "2026-03-25 14:09 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -1384,6 +1697,27 @@
           "tldr": ""
         },
         {
+          "title": "Why Did Yu Donglai Give Away 4 Billion Yuan—and Does Pangdonglai Still Have a Future?",
+          "link": "https://www.youtube.com/watch?v=pvRnqiz4rQc",
+          "published": "2026-03-24 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
+          "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
+          "published": "2026-03-24 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "特朗普谈伊朗局势：和伊朗谈判，将来有可能和伊朗共管霍尔木兹海峡｜新闻特写20260324",
+          "link": "https://www.youtube.com/watch?v=hxmYrNgWlVg",
+          "published": "2026-03-24 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "爆红网络的中国“神算子”，预测了伊朗战争的走向和对世界的影响｜新闻特写20260326",
           "link": "https://www.youtube.com/watch?v=Ui9aipNVByA",
           "published": "2026-03-24 07:14 UTC",
@@ -1405,9 +1739,30 @@
           "tldr": ""
         },
         {
+          "title": "Chinese Spouse Li Zhenxiu Branded a “Phantom Lawmaker” in Taiwan Politics",
+          "link": "https://www.youtube.com/watch?v=pSLed7KOxIs",
+          "published": "2026-03-23 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
           "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
           "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
           "published": "2026-03-23 06:33 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "When This Bloody War is Over 《深度揭秘保利红二代们的第一桶金 》片尾曲 ｜MV",
+          "link": "https://www.youtube.com/watch?v=sn0BoWdd1lQ",
+          "published": "2026-03-22 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "300万诈骗款跨国追讨记（下）：“到迪拜去，围剿翟山鹰”！｜局面访谈20260321",
+          "link": "https://www.youtube.com/watch?v=-2uG97Up2Do",
+          "published": "2026-03-21 14:09 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -1422,6 +1777,55 @@
           "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
           "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
           "published": "2026-03-21 06:33 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Cashing Out Active-Duty Weapons in Iran—A Deep Dive into the First Fortune of Poly’s Princelings",
+          "link": "https://www.youtube.com/watch?v=Mt5vBOoPlkw",
+          "published": "2026-03-20 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "川普和高市早苗联合记者会状况不断，精彩呈现｜新闻特写20260320",
+          "link": "https://www.youtube.com/watch?v=6QSl94BpBqk",
+          "published": "2026-03-20 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "预告：300万诈骗款跨国追讨记（下集） 从北京到迪拜带领受骗者围剿翟山鹰｜局面访谈预告20260320",
+          "link": "https://www.youtube.com/watch?v=mYdmu91sDB8",
+          "published": "2026-03-20 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "院士纷纷落马， 军队反腐延烧到军工系统？｜杨伟｜歼-20｜吴曼青｜火箭军｜｜王局拍案 20260319",
+          "link": "https://www.youtube.com/watch?v=H9yFmxAgtDw",
+          "published": "2026-03-20 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Hackers Breach China’s Tianjin Supercomputing Center, Triggering Massive Data Leak Fears",
+          "link": "https://www.youtube.com/watch?v=ybCMiAYt1hk",
+          "published": "2026-03-20 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "Honda’s Heavy Losses Raise Alarm for Japan’s Auto Industry",
+          "link": "https://www.youtube.com/watch?v=VK3QFLOcTBo",
+          "published": "2026-03-20 14:09 UTC",
+          "source_kind": "feed",
+          "tldr": ""
+        },
+        {
+          "title": "特朗普：战事缠身访华推迟一个月｜新闻特写20260317",
+          "link": "https://www.youtube.com/watch?v=fY2GYWCje-A",
+          "published": "2026-03-20 14:09 UTC",
           "source_kind": "feed",
           "tldr": ""
         },
@@ -1483,11 +1887,11 @@
       "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
       "item_count": 4,
       "skipped_count": 0,
-      "tldr": "This bioRxiv collection highlights recent computational methods for analyzing genomic, microbiome, and cytometry data. New tools apply expectation-maximization for fungal abundance estimation, pretrained transformers for cytometry prediction, and k-mer machine learning for SARS-CoV-2 variant classification. A large-scale benchmark also evaluates heritability estimation strategies and their downstream impact on polygenic risk scores.",
+      "tldr": "This bioRxiv collection highlights recent bioinformatics advancements across diverse biological domains. New computational methods address fungal community quantification from long-read sequencing, interpretable predictive modeling for cytometry data, and machine learning approaches for SARS-CoV-2 variant classification. Additionally, a comprehensive benchmark evaluates heritability estimation strategies and their impact on polygenic risk score accuracy.",
       "highlights": [
-        "EMITS introduces expectation-maximization for fungal ITS abundance estimation using long-read sequencing.",
-        "A cytometry foundation model leverages pretrained transformers for interpretable sample-level predictions.",
-        "A benchmark of 86 configurations assesses heritability estimation strategies and polygenic risk score performance."
+        "EMITS algorithm for fungal ITS abundance estimation using long-read sequencing",
+        "Transformer-based foundation model for interpretable cytometry predictions",
+        "Benchmarking of heritability estimation methods and their effect on polygenic risk scores"
       ],
       "items": [
         {
@@ -1495,28 +1899,28 @@
           "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715662v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": ""
+          "tldr": "EMITS introduces an expectation-maximization algorithm to estimate fungal ITS community abundances from long-read sequencing data."
         },
         {
           "title": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
           "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.712806v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": ""
+          "tldr": "This study proposes a pretrained transformer-based foundation model designed for interpretable, sample-level predictive modeling in cytometry."
         },
         {
           "title": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
           "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716024v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": ""
+          "tldr": "The authors develop classical and hybrid machine learning models using TF-IDF k-mer representations to classify SARS-CoV-2 variants in imbalanced genomic datasets."
         },
         {
           "title": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance",
           "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716079v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": ""
+          "tldr": "This work benchmarks 86 heritability estimation configurations to evaluate their downstream impact on polygenic risk score performance."
         }
       ]
     },
@@ -1525,77 +1929,84 @@
       "title": "Nature Communications",
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "feed_url": "https://www.nature.com/ncomms.rss",
-      "item_count": 9,
+      "item_count": 10,
       "skipped_count": 0,
-      "tldr": "This digest covers recent advances across developmental biology, climate science, materials engineering, and biomedical research. Key findings include the role of Hippo signaling in lung progenitor differentiation, scalable manufacturing techniques for solid-state battery cathodes, and AI-driven insights into primordial protein folding. Additional studies report a 50.28% efficiency in hybrid photovoltaic-thermoelectric systems, mechanisms of oncogene-induced replication stress, and the impact of VRC01 antibodies on HIV transmission dynamics.",
+      "tldr": "This digest covers recent Nature Communications research spanning computational biology, materials science, and environmental physics. Key advances include a privacy-preserving framework for cross-institutional electronic health record analysis and an AI-driven exploration of primordial protein folding. Additional studies detail scalable manufacturing techniques for solid-state batteries, high-efficiency hybrid energy systems, and novel insights into lung development, HIV transmission dynamics, and oncogene-induced genomic instability.",
       "highlights": [
-        "Scalable solvent-free mechanofusion improves cathode coatings for solid-state batteries.",
-        "AI protein design demonstrates diverse folds from limited primordial amino acid sets.",
-        "Solution-processed PV-TE hybrid systems achieve over 50% energy conversion efficiency."
+        "Privacy-preserving EHR harmonization using LLMs and graph learning enables cross-institutional medical research.",
+        "Solution-processed photovoltaic-thermoelectric hybrids achieve over 50% energy conversion efficiency.",
+        "AI protein design demonstrates that limited primordial amino acid sets can generate diverse structural folds."
       ],
       "items": [
+        {
+          "title": "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
+          "link": "https://www.nature.com/articles/s41467-026-71152-1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "A new framework integrates medical knowledge, large language models, and graph learning to harmonize electronic health records across institutions without sharing patient-level data."
+        },
         {
           "title": "Hippo signaling differentially regulates distal progenitor subpopulations and their transitional states to construct the mammalian lungs",
           "link": "https://www.nature.com/articles/s41467-026-71253-x",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Hippo signaling regulates distal SOX9+ lung progenitors to control lung size through bud bifurcation and generate airway and alveolar cell types via transitional states."
+          "tldr": "Hippo signaling regulates distal SOX9+ lung progenitor subpopulations, controlling lung size through bud bifurcation and directing transitional states that form airway and alveolar cells."
         },
         {
           "title": "Permafrost landsystems define regional variability in climate change effects on northern environments",
           "link": "https://www.nature.com/articles/s41467-026-71216-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Co-developing landform and ecosystem assemblages form permafrost landsystems that vary with geological and climatic legacies, helping predict regional thaw consequences."
+          "tldr": "Continental-scale analysis of permafrost landsystems reveals how geological and climatic legacies shape regional ecosystem responses and predict thaw consequences."
         },
         {
           "title": "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
           "link": "https://www.nature.com/articles/s41467-026-71305-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Solvent-free mechanofusion enables scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing."
+          "tldr": "Solvent-free mechanofusion produces scalable mixed conducting matrix coatings on cathode particles, with coating quality directly linked to macroscopic mixing stresses for solid-state battery manufacturing."
         },
         {
           "title": "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
           "link": "https://www.nature.com/articles/s41467-026-71509-6",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "AI-based protein design demonstrates that a limited set of primordial amino acids, constrained by prebiotic and asteroid chemistry data, can produce a broad range of protein folds."
+          "tldr": "AI-based protein design shows that a restricted, primordial amino acid library inferred from asteroid Bennu data can generate a diverse array of stable protein folds."
         },
         {
           "title": "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission",
           "link": "https://www.nature.com/articles/s41467-026-71429-5",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe achieves sub-picosecond resolution for tracking heating and ionization dynamics in solid-density copper plasmas."
+          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging with an XFEL probe enables sub-picosecond tracking of heating and ionization dynamics in solid-density copper plasmas."
         },
         {
           "title": "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
           "link": "https://www.nature.com/articles/s41467-026-71389-w",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Solution-processed photovoltaic-thermoelectric hybrid systems optimized for heat utilization and current matching experimentally achieve a maximum energy conversion efficiency of 50.28%."
+          "tldr": "Optimized solution-processed photovoltaic-thermoelectric hybrid systems achieve a maximum experimental energy conversion efficiency of 50.28% through improved heat utilization and current matching."
         },
         {
           "title": "A conversational multi-agent AI system for automated plant phenotyping",
           "link": "https://www.nature.com/articles/s41467-026-71090-y",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A multi-agent AI system integrates large language models with specialized tools to automate crop phenotype extraction, visualization, and model training, reducing technical barriers in agricultural research."
+          "tldr": "A conversational multi-agent AI system integrates large language models with specialized tools to automate plant phenotype extraction, visualization, and model training."
         },
         {
           "title": "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
           "link": "https://www.nature.com/articles/s41467-026-71353-8",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Oncogenic RAS and cyclin E1 drive replication stress through distinct pathways that converge on R-loop-dependent fork reversal, with RAS-induced stalling linked to ROS-mediated replisome alterations."
+          "tldr": "Oncogenic RAS induces replication stress through ROS-driven replisome alterations, converging with cyclin E1 pathways to trigger R-loop-dependent replication fork reversal."
         },
         {
           "title": "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials",
           "link": "https://www.nature.com/articles/s41467-026-70888-0",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Deep sequencing from VRC01 antibody trials reveals frequent multilineage HIV infections and coinfections with sensitive and resistant viruses, indicating the antibody does not alter the transmission bottleneck."
+          "tldr": "Deep sequencing of HIV prevention trial participants reveals that the VRC01 antibody does not alter the viral transmission bottleneck, with 38% of breakthrough infections involving multiple viral lineages."
         }
       ]
     },
@@ -1606,11 +2017,11 @@
       "feed_url": "https://www.nature.com/natcomputsci.rss",
       "item_count": 2,
       "skipped_count": 0,
-      "tldr": "This digest covers two recent computational biology studies focusing on biomedical data processing and analysis. The first introduces a self-supervised foundation model that restores medical images without requiring clean reference data. The second evaluates spatial transcriptomics alignment techniques, demonstrating that optimal performance depends on the specific dataset and providing practical guidance for future method development.",
+      "tldr": "This digest covers two computational methods papers from Nature Computational Science. One introduces a self-supervised foundation model for robust medical image restoration that operates without clean training data. The other evaluates spatial transcriptomics alignment techniques, finding that optimal performance varies by dataset and offering guidance for future development.",
       "highlights": [
-        "Self-supervised model restores medical images without clean reference data.",
-        "Benchmark shows spatial transcriptomics alignment performance is dataset-specific.",
-        "Findings offer actionable guidance for future computational biology methods."
+        "HorusEye model restores tomography images using self-supervised noise learning",
+        "Medical image restoration achieved without paired clean training data",
+        "Spatial transcriptomics benchmark shows alignment success depends on dataset characteristics"
       ],
       "items": [
         {
@@ -1618,14 +2029,14 @@
           "link": "https://www.nature.com/articles/s43588-026-00975-1",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "HorusEye is a self-supervised foundation model that learns realistic noise patterns directly from X-ray scans to enable robust tomography restoration across various modalities and scanners without requiring clean training data."
+          "tldr": "HorusEye is a self-supervised foundation model that learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities and scanners without clean training data."
         },
         {
           "title": "Benchmarking alignment methods for spatial transcriptomics data",
           "link": "https://www.nature.com/articles/s43588-026-00977-z",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "This study benchmarks spatial alignment methods for spatial transcriptomics, finding that optimal performance depends on the specific dataset and offering actionable guidance for future algorithm development."
+          "tldr": "A benchmark evaluating spatial transcriptomics alignment methods reveals that the best approach is dataset-dependent and provides actionable guidance for future method development."
         }
       ]
     },
@@ -1636,11 +2047,11 @@
       "feed_url": "https://www.nature.com/naturehealth.rss",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "This digest features a Nature Health commentary evaluating the potential of GLP-1 receptor agonists as longevity therapeutics. The authors propose classifying these drugs as transitional interventions but emphasize that current evidence is insufficient. Rigorous clinical testing is required to determine their direct and indirect effects on aging and healthspan.",
+      "tldr": "This digest features a Nature Health commentary on the potential of GLP-1 receptor therapeutics as longevity interventions. The author classifies these compounds as transitional treatments that require rigorous clinical evaluation. Additional research is necessary to determine their direct and indirect effects on aging and overall health.",
       "highlights": [
-        "GLP-1 receptor agonists are proposed as transitional longevity therapeutics.",
-        "Current data is insufficient to confirm direct lifespan benefits.",
-        "Rigorous testing is needed to evaluate both direct and indirect health impacts."
+        "GLP-1 receptor therapeutics are proposed as transitional longevity interventions.",
+        "Rigorous testing is recommended to validate their potential lifespan benefits.",
+        "Further evidence is needed to clarify both direct and indirect physiological impacts."
       ],
       "items": [
         {
@@ -1648,7 +2059,7 @@
           "link": "https://www.nature.com/articles/s44360-026-00109-x",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The authors argue that GLP-1 receptor agonists should be classified as transitional longevity therapeutics, but stress that rigorous testing is necessary to fully assess their direct and indirect effects on aging."
+          "tldr": "The article proposes classifying GLP-1 receptor therapeutics as transitional longevity treatments that warrant rigorous clinical testing. Additional evidence is required to fully assess their direct and indirect effects on aging."
         }
       ]
     },
@@ -1659,11 +2070,11 @@
       "feed_url": "https://www.nature.com/nm.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "This digest highlights recent Nature Medicine research on viral surveillance, environmental impacts on neurology, and Alzheimer's therapeutic development. Genomic analysis reveals the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, emphasizing the need for enhanced monitoring to prevent recombination. Cross-national exposome studies link social and physical environmental factors to distinct patterns of functional and structural brain aging. Additionally, researchers propose standardized target product profiles to guide and accelerate the development of therapies aimed at delaying or preventing symptomatic Alzheimer’s disease.",
+      "tldr": "This Nature Medicine digest covers recent findings in infectious disease surveillance, environmental impacts on neurodegeneration, and Alzheimer’s therapeutic development. Researchers identified the co-circulation of multiple monkeypox virus clades in the Republic of the Congo, highlighting the need for enhanced genomic monitoring. A multinational exposome study linked social factors to accelerated functional brain aging and physical factors to structural brain aging. Additionally, experts established target product profiles to guide the development of therapies aimed at delaying or preventing symptomatic Alzheimer’s disease.",
       "highlights": [
-        "Identification of monkeypox virus clade IIb lineage A.2.2 and co-circulation of three clades in the Republic of the Congo.",
-        "Association between social exposures and faster functional brain aging, and physical exposures and faster structural brain aging across 34 countries.",
-        "Establishment of target product profiles to benchmark and accelerate therapies for delaying or preventing symptomatic Alzheimer’s disease."
+        "Co-circulation of three monkeypox virus clades detected in the Republic of the Congo, underscoring recombination risks.",
+        "Cross-national analysis links social exposures to functional brain aging and physical exposures to structural brain aging.",
+        "New target product profiles established to standardize and accelerate Alzheimer’s disease prevention therapies."
       ],
       "items": [
         {
@@ -1671,21 +2082,21 @@
           "link": "https://www.nature.com/articles/s41591-026-04256-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside the co-circulation of clades Ia, Ib, and IIb. The findings underscore the need for enhanced genomic surveillance to monitor potential viral recombination events."
+          "tldr": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo alongside co-circulating clades Ia, Ib, and IIb. The findings highlight the need for improved genomic surveillance to monitor potential viral recombination events."
         },
         {
           "title": "The exposome of brain aging across 34 countries",
           "link": "https://www.nature.com/articles/s41591-026-04302-z",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "An exposome analysis spanning 34 countries found that social environmental factors correlate with accelerated functional brain aging, while physical environmental factors are linked to faster structural brain aging."
+          "tldr": "An exposome analysis spanning 34 countries found that social exposures correlate with accelerated functional brain aging, while physical exposures are linked to faster structural brain aging."
         },
         {
           "title": "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease",
           "link": "https://www.nature.com/articles/s41591-026-04305-w",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The authors outline standardized target product profiles to provide clear developmental benchmarks for therapies aimed at delaying or preventing the clinical onset of Alzheimer’s disease."
+          "tldr": "The authors define target product profiles to establish clear development benchmarks for therapies intended to delay or prevent the clinical onset of Alzheimer’s disease."
         }
       ]
     },
@@ -1696,11 +2107,11 @@
       "feed_url": "https://www.nature.com/nmicrobiol.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "This digest covers three recent studies in microbial ecology, bacterial genetics, and host-pathogen interactions. Researchers quantified global prokaryotic diversity using large-scale metagenomic data, revealing hundreds of thousands of previously hidden species-level clades primarily within unbinned contigs. Additional work identifies a donor-controlled endonuclease that restricts plasmid transfer through bacterial nanotubes, and demonstrates how cholesterol accumulation in tuberculosis granulomas disrupts macrophage–T cell communication and impairs immune control.",
+      "tldr": "This digest covers recent findings in microbial ecology, horizontal gene transfer regulation, and host-pathogen interactions. Large-scale metagenomic analysis uncovers hundreds of thousands of previously uncharacterized bacterial and archaeal lineages hidden in unbinned sequence data. Research on Bacillus subtilis identifies a conserved endonuclease family that restricts plasmid exchange through cellular nanotubes. Additionally, studies on tuberculosis reveal that cholesterol buildup in granulomas disrupts critical immune cell communication and compromises infection control.",
       "highlights": [
-        "Metagenomic analysis predicts over 700,000 bacterial and 27,000 archaeal species-level clades globally.",
-        "The YokF endonuclease family restricts plasmid exchange between Gram-positive bacteria via intercellular nanotubes.",
-        "Cholesterol buildup in TB granulomas disrupts macrophage–CD4+ T cell interactions, weakening anti-tuberculosis immunity."
+        "Metagenomic clustering of unbinned contigs predicts over 700,000 new bacterial and archaeal species-level clades globally.",
+        "The YokF endonuclease family restricts nanotube-mediated plasmid transfer in Bacillus subtilis and other Gram-positive bacteria.",
+        "Cholesterol accumulation in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and weakens anti-tuberculosis immunity."
       ],
       "items": [
         {
@@ -1708,32 +2119,26 @@
           "link": "https://www.nature.com/articles/s41564-026-02314-6",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "article",
-          "tldr": "Analysis of over 92,000 metagenomes predicts approximately 705,000 bacterial and 27,000 archaeal species-level clades, with the vast majority discovered in previously unbinned contigs. The study identifies soils and aquatic environments as diversity hotspots and shows that prokaryotic clade sizes follow consistent evolutionary power laws."
+          "tldr": "Analysis of over 92,000 metagenomes reveals approximately 705,000 bacterial and 27,000 archaeal species-level clades, primarily recovered from unbinned contigs. The study identifies hundreds of new phyla and demonstrates that prokaryotic diversity follows consistent power-law distributions across habitats."
         },
         {
           "title": "A family of endonucleases blocks nanotube-mediated plasmid exchange",
           "link": "https://www.nature.com/articles/s41564-026-02293-8",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The YokF endonuclease acts as a donor-controlled mechanism to restrict plasmid transfer through intercellular nanotubes in Bacillus subtilis. Functional homologues of this restriction system are present across diverse Gram-positive bacterial species."
+          "tldr": "The YokF endonuclease acts as a donor-controlled mechanism that restricts plasmid transfer between Bacillus subtilis cells via intercellular nanotubes. Functional homologues of this restriction system are conserved across diverse Gram-positive bacteria."
         },
         {
           "title": "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control",
           "link": "https://www.nature.com/articles/s41564-026-02317-3",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Spatial transcriptomics and imaging of human and mouse samples reveal that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage–CD4+ T cell interactions. This lipid overload impairs the host's ability to control Mycobacterium tuberculosis infection."
+          "tldr": "Spatial transcriptomics and microscopy of human and mouse samples show that infection-induced cholesterol accumulation in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions. This lipid overload subsequently impairs the host's ability to control the infection."
         }
       ]
     }
   ],
-  "errors": [
-    {
-      "feed": "bioRxiv Subject Collection: Bioinformatics",
-      "category": "Papers",
-      "message": "Feed fetch failed: The read operation timed out"
-    }
-  ],
+  "errors": [],
   "categories": [
     "Blogs",
     "Forum",
