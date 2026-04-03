@@ -26,6 +26,10 @@ DEFAULT_OPENROUTER_MODEL = "qwen/qwen3.6-plus:free"
 DEFAULT_SUMMARY_LANGUAGE = "English"
 LLM_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 LLM_MAX_ATTEMPTS = 4
+SECRET_LIKE_PATTERNS = (
+    re.compile(r"\bsk-[A-Za-z0-9_-]{16,}\b"),
+    re.compile(r"\bxai-[A-Za-z0-9_-]{16,}\b"),
+)
 
 
 @dataclass
@@ -860,6 +864,13 @@ def is_llm_auth_error(exc: Exception) -> bool:
     return isinstance(exc, httpx.HTTPStatusError) and exc.response.status_code in {401, 403}
 
 
+def redact_secret_like_text(text: str) -> str:
+    redacted = text or ""
+    for pattern in SECRET_LIKE_PATTERNS:
+        redacted = pattern.sub("[REDACTED_SECRET]", redacted)
+    return redacted
+
+
 def redact_sensitive_text(text: str) -> str:
     return re.sub(r"([?&]key=)[^&\s'\"]+", r"\1[REDACTED]", text or "")
 
@@ -1205,4 +1216,4 @@ def clip_text(text: str, limit: int) -> str:
 def normalize_text(text: str) -> str:
     no_tags = re.sub(r"<[^>]+>", " ", text or "")
     compact = re.sub(r"\s+", " ", unescape(no_tags))
-    return compact.strip()
+    return redact_secret_like_text(compact.strip())

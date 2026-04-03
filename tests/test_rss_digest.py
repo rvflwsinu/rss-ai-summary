@@ -363,5 +363,19 @@ class TestRenderSite(unittest.TestCase):
         self.assertNotIn("<details>", html)
 
 
+class TestTextRedaction(unittest.TestCase):
+    def test_normalize_text_redacts_secret_like_tokens(self) -> None:
+        text = (
+            "Example key sk-cp-Us10wD_mTEQayValHczdl_WsR5ciY2pdQCxn0LGS0ILK9g7L "
+            "and xai-1234567890abcdefghijklmnopqrstuvwxyzABCD should not persist."
+        )
+
+        normalized = rss_digest.normalize_text(text)
+
+        self.assertIn("[REDACTED_SECRET]", normalized)
+        self.assertNotIn("sk-cp-Us10wD_mTEQayValHczdl_WsR5ciY2pdQCxn0LGS0ILK9g7L", normalized)
+        self.assertNotIn("xai-1234567890abcdefghijklmnopqrstuvwxyzABCD", normalized)
+
+
 if __name__ == "__main__":
     unittest.main()
