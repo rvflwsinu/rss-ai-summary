@@ -1,27 +1,86 @@
 {
   "site_title": "Daily Feed TLDR",
-  "generated_at": "2026-04-03T14:31:15+00:00",
-  "generated_at_human": "2026-04-03 14:31 UTC",
+  "generated_at": "2026-04-04T03:47:21+00:00",
+  "generated_at_human": "2026-04-04 03:47 UTC",
   "model": "stepfun/step-3.5-flash:free",
   "summary_language": "English",
   "total_feeds": 17,
-  "feeds_with_updates": 7,
-  "total_items": 24,
+  "feeds_with_updates": 9,
+  "total_items": 39,
   "feeds": [
     {
       "category": "Papers",
       "title": "bioRxiv Subject Collection: Bioinformatics",
       "site_url": "https://biorxiv.org/",
       "feed_url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
-      "item_count": 4,
+      "item_count": 11,
       "skipped_count": 0,
-      "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 4 retained item(s) on the page. Key items include \"EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing\", \"Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers\", and \"TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data\".",
+      "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 11 retained item(s) on the page. Key items include \"PANDA: Read-Level Phased Analysis of DNA Amplicons for Methylation Studies\", \"Proteome analyses reveal Endoplasmic Reticulum stress-induced changes in protein abundance associated with Ube2j2 deficiency in human cell culture\", and \"Importance of taking Single Amino Acid Variant and accessory proteome variability into account in Data Independent Acquisition Proteomics: illustrated with Legionella pneumophila analysis\".",
       "highlights": [
-        "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
-        "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
-        "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+        "PANDA: Read-Level Phased Analysis of DNA Amplicons for Methylation Studies",
+        "Proteome analyses reveal Endoplasmic Reticulum stress-induced changes in protein abundance associated with Ube2j2 deficiency in human cell culture",
+        "Importance of taking Single Amino Acid Variant and accessory proteome variability into account in Data Independent Acquisition Proteomics: illustrated with Legionella pneumophila analysis"
       ],
       "items": [
+        {
+          "title": "PANDA: Read-Level Phased Analysis of DNA Amplicons for Methylation Studies",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715790v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "DNA methylation analysis using bisulfite sequencing is widely used to investigate epigenetic regulation at single-base resolution; however, conventional analysis workflows primarily rely on site-wise averaging, which obscures contiguous methylation patterns e…",
+          "topic_matches": [
+            "DNA Modification/Methylation",
+            "Computational Methods"
+          ]
+        },
+        {
+          "title": "Proteome analyses reveal Endoplasmic Reticulum stress-induced changes in protein abundance associated with Ube2j2 deficiency in human cell culture",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715661v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "The unfolded protein response (UPR) helps reinstate cellular proteostasis upon an accumulation of misfolded proteins in the endoplasmic reticulum (ER), in part through ER-associated degradation (ERAD). Ube2j2 is an ER-localized E2 ubiquitin-conjugating enzyme…"
+        },
+        {
+          "title": "Importance of taking Single Amino Acid Variant and accessory proteome variability into account in Data Independent Acquisition Proteomics: illustrated with Legionella pneumophila analysis",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715759v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Understanding allelic variability is crucial for elucidating intrinsic bacterial mechanisms and distinguishing phenotypic profiles. However, such variability poses a major challenge for the reliable identification of proteins in data-independent acquisition (…",
+          "topic_matches": [
+            "Bacteria"
+          ]
+        },
+        {
+          "title": "Anonymized Somatic Tumor Twins (STTs) enable open genome data sharing and use in research and clinical oncology",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715771v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "The study of somatic variants from tumor genomes is fundamental to cancer research and clinical decision-making. However, existing data protection frameworks impose restrictions on the use and sharing of these variants in conjunction with sensitive germline i…"
+        },
+        {
+          "title": "LigandForge: A Web Server for Structure-Guided De Novo Drug Design",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715741v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Despite advances in computational drug discovery, de novo drug design remains hindered by high licensing costs and the need for specialized programming expertise. We present LigandForge, a webserver for structure-guided de novo ligand generation.",
+          "topic_matches": [
+            "Computational Methods"
+          ]
+        },
+        {
+          "title": "Conserved water molecules as structural ligands modulating pathogenic variation in human protein binding sites",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715522v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Conserved water molecules (CWMs) are tightly bound solvent molecules that occupy well-defined and recurrent positions in protein structures. Although they are known to influence protein stability, function, and ligand binding, their contribution to human gene…"
+        },
+        {
+          "title": "muat: portable transformer-based method for tumour classification and representation learning from somatic variants",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715762v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Motivation: Deep neural networks have proven effective in classifying tumour types using next-generation sequencing data. However, developing transferable models that work across heterogeneous operating environments remains challenging due to differences in c…"
+        },
         {
           "title": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
           "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715662v1?rss=1",
@@ -41,7 +100,10 @@
           "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716024v1?rss=1",
           "published": "2026-04-02 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data"
+          "tldr": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
+          "topic_matches": [
+            "Machine Learning"
+          ]
         },
         {
           "title": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance",
@@ -59,9 +121,12 @@
       "feed_url": "https://www.cell.com/cell/inpress.rss",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "Cell currently has 1 retained item(s) on the page. Key items include \"Senescence in cancer: Hallmarks, paradoxes, and therapeutic promise\".",
+      "tldr": "This digest features a paper on cellular senescence in cancer. The paper defines senescence by six major hallmarks as a program that halts cell division while rewiring chromatin, metabolism, microenvironment sensing, and immune interactions. It describes the dual role of senescence in suppressing or promoting cancer and its potential as a frontier for precision therapy.",
       "highlights": [
-        "Senescence in cancer: Hallmarks, paradoxes, and therapeutic promise"
+        "Defined by six major hallmarks",
+        "Halts cell division and rewires cellular processes",
+        "Dual role in cancer suppression and promotion",
+        "Exciting frontier for precision therapy"
       ],
       "items": [
         {
@@ -69,7 +134,34 @@
           "link": "https://www.cell.com/cell/fulltext/S0092-8674(26)00272-2?rss=yes",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Cellular senescence, defined by six major hallmarks, is a program that halts cell division while rewiring chromatin, metabolism, microenvironment sensing, and immune interactions to either suppress or promote cancer and is an exciting frontier for precision t…"
+          "tldr": "The paper discusses cellular senescence in cancer, characterized by six hallmarks, which stops cell division and alters chromatin, metabolism, and immune interactions. It highlights the paradoxical roles in cancer and the therapeutic promise for precision medicine."
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature",
+      "site_url": "http://feeds.nature.com/nature/rss/current",
+      "feed_url": "https://www.nature.com/nature.rss",
+      "item_count": 1,
+      "skipped_count": 0,
+      "tldr": "The Trump administration has proposed massive budget cuts for US science agencies in its 2027 spending plan, with NSF facing a 55% reduction and EPA and NASA science divisions over 50% cuts. The plan dissolves NSF's social sciences directorate, bans federal funds for some academic journal subscriptions, and cuts basic quantum and AI research while boosting applied funding at defense and energy departments. Congress will negotiate the final budget, having rejected similar cuts in 2026.",
+      "highlights": [
+        "NSF budget cut 55% to $4 billion",
+        "EPA and NASA science divisions face >50% reductions",
+        "NSF social sciences directorate dissolved",
+        "Ban on federal journal subscription funding; applied quantum/AI research increased"
+      ],
+      "items": [
+        {
+          "title": "Massive budget cuts for US science proposed again by Trump administration",
+          "link": "https://www.nature.com/articles/d41586-026-01105-7",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "article",
+          "tldr": "The 2027 budget proposal from the Trump administration includes a 55% cut to NSF, elimination of its social sciences division, a ban on federal funding for some journal subscriptions, and cuts to basic quantum/AI research with increased applied funding at defense departments.",
+          "topic_matches": [
+            "AI"
+          ]
         }
       ]
     },
@@ -78,84 +170,136 @@
       "title": "Nature Communications",
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "feed_url": "https://www.nature.com/ncomms.rss",
-      "item_count": 10,
+      "item_count": 16,
       "skipped_count": 0,
-      "tldr": "This digest presents ten recent papers from Nature Communications covering diverse fields such as biomedical informatics, developmental biology, climate science, and energy technology. Key contributions include a framework for secure electronic health record sharing, insights into lung progenitor dynamics, and innovations in hybrid energy systems. Additional studies address permafrost thaw variability, solid-state battery manufacturing, primordial protein design, plasma probing techniques, AI in agriculture, cancer replication mechanisms, and HIV prevention outcomes.",
+      "tldr": "This digest features 16 recent papers from Nature Communications spanning photonics, biotechnology, environmental science, and biomedicine. Key advances include techniques for sculpting topological photonic modes, a DNA storage codec that reduces redundancy, and insights into marine phage-bacteria dynamics. AI applications range from 3D molecule generation to healthcare data harmonization, while studies address glacier outburst floods, permafrost thaw, and neural mechanisms of addiction.",
       "highlights": [
-        "Cross-institutional EHR harmonization without data sharing",
-        "SOX9+ lung progenitors control size and cell fate",
-        "PV-TE hybrid systems achieve over 50% efficiency"
+        "Sculpting topological photonic modes using artificial gauge fields and neural networks.",
+        "Gungnir codec enables reliable DNA data recovery from single error-prone sequences.",
+        "Oysters identified as hotspots for gene exchange in marine phage-bacteria systems."
       ],
       "items": [
+        {
+          "title": "Artificial gauge fields for sculpting topological modes on photonic chips",
+          "link": "https://www.nature.com/articles/s41467-026-71402-2",
+          "published": "2026-04-04 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Authors propose combining artificial gauge fields with neural networks to design energy landscapes, transforming topological modes into arbitrary shapes on photonic chips."
+        },
+        {
+          "title": "Gungnir codec enabling high error-tolerance and low-redundancy DNA storage through substantial computing power",
+          "link": "https://www.nature.com/articles/s41467-026-71485-x",
+          "published": "2026-04-04 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Gungnir is a DNA storage codec that recovers data from a single, highly error-prone sequence, reducing reliance on redundant copies and deep sequencing."
+        },
+        {
+          "title": "Complex temporal dynamics of phage-bacteria populations in an animal-associated marine system",
+          "link": "https://www.nature.com/articles/s41467-026-71398-9",
+          "published": "2026-04-04 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Study of over 1000 phages and 600 bacterial hosts reveals oysters as hotspots for gene exchange in marine phage-bacteria dynamics.",
+          "topic_matches": [
+            "Bacteria",
+            "Phages"
+          ]
+        },
+        {
+          "title": "Disentangled autoencoding equivariant diffusion model for controlled generation of 3D molecules",
+          "link": "https://www.nature.com/articles/s41467-026-71441-9",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "A semantics-guided diffusion model enables precise and data-efficient multi-property control for generating 3D molecules, accelerating drug discovery."
+        },
+        {
+          "title": "Subglacial water flow and ice dynamics during glacial lake outburst floods observed from space",
+          "link": "https://www.nature.com/articles/s41467-026-70428-w",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Satellite data analysis tracks approximately 1 km³ of flood water draining under a glacier in 3 weeks, providing insights for predicting glacier and ice sheet behavior."
+        },
+        {
+          "title": "Social reward outcompetes drug seeking dopaminergic ensembles to prevent relapse",
+          "link": "https://www.nature.com/articles/s41467-026-71357-4",
+          "published": "2026-04-03 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "Social reward and drug relapse activate distinct dopaminergic populations in the VTA that compete to regulate behavioral outcomes, with therapeutic implications for addiction."
+        },
         {
           "title": "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
           "link": "https://www.nature.com/articles/s41467-026-71152-1",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A framework integrates medical knowledge, large language models, and graph learning to harmonize electronic health records across hospitals, enabling cross-institutional analysis without sharing patient-level data."
+          "tldr": "A framework harmonizes electronic health record data across hospitals using medical knowledge, large language models, and graph learning, enabling analysis without sharing patient-level data."
         },
         {
           "title": "Hippo signaling differentially regulates distal progenitor subpopulations and their transitional states to construct the mammalian lungs",
           "link": "https://www.nature.com/articles/s41467-026-71253-x",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Distal SOX9+ lung progenitors control lung size through bud bifurcation and undergo transitional states to generate conducting airway and alveolar cell types."
+          "tldr": "A subpopulation of distal SOX9+ lung progenitors controls lung size through bifurcation and transitions to generate conducting airway and alveolar cell types."
         },
         {
           "title": "Permafrost landsystems define regional variability in climate change effects on northern environments",
           "link": "https://www.nature.com/articles/s41467-026-71216-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Permafrost landsystems, shaped by landform-ecosystem co-development and climatic legacies, predict regional thaw consequences across ecoclimate gradients."
+          "tldr": "Permafrost landsystems, defined by landform assemblages and ecosystems, vary with geological and climatic legacies to predict regional consequences of thaw."
         },
         {
           "title": "Mechanofusion-derived cathode composite microstructures with scalable mixed conducting matrix coatings for solid state batteries",
           "link": "https://www.nature.com/articles/s41467-026-71305-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Solvent-free mechanofusion applies mixed conducting matrix coatings to cathode particles, with quality linked to mixing stresses for scalable solid-state battery manufacturing."
+          "tldr": "Solvent-free mechanofusion creates mixed conducting matrix coatings on cathode particles, with coating quality linked to mixing stresses for scalable solid-state battery manufacturing."
         },
         {
           "title": "A highly limited amino acid library from asteroid Bennu yields wide-ranging protein folds",
           "link": "https://www.nature.com/articles/s41467-026-71509-6",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "AI-based protein design shows that small, primordial amino acid libraries from asteroid data can form a broad range of protein folds."
+          "tldr": "AI-based protein design shows that small primordial amino acid libraries, constrained by asteroid Bennu data, can form a wide range of protein folds, informing origins of life.",
+          "topic_matches": [
+            "AI"
+          ]
         },
         {
           "title": "Probing ultrafast heating and ionization dynamics in solid density plasmas with time-resolved resonant X-ray absorption and emission",
           "link": "https://www.nature.com/articles/s41467-026-71429-5",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Resonant x-ray emission and absorption imaging from an XFEL probe achieve sub-picosecond resolution of heating and ionization in solid-density plasmas."
+          "tldr": "Combining resonant X-ray emission spectroscopy and absorption imaging from an XFEL probe achieves sub-picosecond resolution of heating and ionization in solid-density plasmas."
         },
         {
           "title": "Solution-processed photovoltaic and thermoelectric hybrid systems with efficiency exceeding 50%",
           "link": "https://www.nature.com/articles/s41467-026-71389-w",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Optimized solution-processed photovoltaic-thermoelectric hybrid systems demonstrate a maximum efficiency of 50.28%."
+          "tldr": "Solution-processed photovoltaic-thermoelectric hybrid systems optimized for heat utilization and current matching demonstrate a maximum efficiency of 50.28%."
         },
         {
           "title": "A conversational multi-agent AI system for automated plant phenotyping",
           "link": "https://www.nature.com/articles/s41467-026-71090-y",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A conversational AI system integrates large language models with phenotyping tools to automate crop analysis and enhance accessibility."
+          "tldr": "An AI system integrating large language models with a phenotype toolkit automates crop analysis, reducing technical barriers and enhancing accessibility.",
+          "topic_matches": [
+            "AI"
+          ]
         },
         {
           "title": "Distinct mechanisms of replication stress induced by oncogenic RAS and cyclin E1 converge on R-loop-dependent fork reversal",
           "link": "https://www.nature.com/articles/s41467-026-71353-8",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Oncogenic RAS induces replication fork stalling via ROS-driven replisome alterations, leading to R-loop-dependent fork reversal."
+          "tldr": "Oncogenic RAS induces replication stress through ROS-driven replisome alterations, leading to R-loop-dependent fork reversal, with distinct mechanisms converging from RAS and cyclin E1."
         },
         {
           "title": "Influence of the broadly neutralizing antibody VRC01 on HIV breakthrough virus populations in antibody-mediated prevention trials",
           "link": "https://www.nature.com/articles/s41467-026-70888-0",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Deep sequencing of AMP trial participants reveals high multilineage HIV infections and coinfection, with VRC01 not affecting the transmission bottleneck."
+          "tldr": "Deep sequencing of AMP trial participants shows 38% multilineage HIV infections, including coinfection with sensitive and resistant viruses, and demonstrates VRC01 does not alter the transmission bottleneck."
         }
       ]
     },
@@ -166,11 +310,11 @@
       "feed_url": "https://www.nature.com/natcomputsci.rss",
       "item_count": 2,
       "skipped_count": 0,
-      "tldr": "This issue of Nature Computational Science includes two studies. One introduces HorusEye, a self-supervised foundation model that learns noise from X-ray scans for robust tomography restoration across diverse settings without clean training data. The other presents a benchmark for spatial alignment in transcriptomics, finding that the best method is dataset dependent and providing guidance for future development.",
+      "tldr": "This digest features two papers from Nature Computational Science. The first introduces HorusEye, a self-supervised foundation model that learns noise from X-ray scans for universal tomography restoration without clean training data. The second presents a benchmark for spatial alignment methods in spatial transcriptomics, showing that the best approach is dataset dependent and offering actionable guidance for future development.",
       "highlights": [
-        "HorusEye enables universal tomography restoration via self-supervised noise learning without clean data.",
-        "Spatial transcriptomics alignment performance varies by dataset, per benchmark analysis.",
-        "Benchmarking offers actionable insights for method development in computational biology."
+        "HorusEye model enables robust tomography restoration across diverse modalities without clean data.",
+        "Benchmark finds spatial transcriptomics alignment methods are dataset dependent.",
+        "Both studies provide actionable insights for computational science method development."
       ],
       "items": [
         {
@@ -178,14 +322,17 @@
           "link": "https://www.nature.com/articles/s43588-026-00975-1",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A self-supervised foundation model named HorusEye learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities, scanners, and tasks without requiring clean training data."
+          "tldr": "A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities, scanners, and tasks without requiring clean training data."
         },
         {
           "title": "Benchmarking alignment methods for spatial transcriptomics data",
           "link": "https://www.nature.com/articles/s43588-026-00977-z",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "A benchmark study evaluates spatial alignment methods for spatial transcriptomics and shows that the best approach is dataset dependent, offering actionable guidance for future method development."
+          "tldr": "A benchmark evaluating spatial alignment methods for spatial transcriptomics demonstrates that the best approach is dataset dependent and offers actionable guidance for future method development.",
+          "topic_matches": [
+            "Computational Methods"
+          ]
         }
       ]
     },
@@ -196,11 +343,11 @@
       "feed_url": "https://www.nature.com/naturehealth.rss",
       "item_count": 1,
       "skipped_count": 0,
-      "tldr": "This digest includes a Nature Health paper discussing GLP-1 receptor antagonists as potential longevity therapeutics. The paper classifies them as transitional but calls for more rigorous testing and evidence to assess their direct and indirect effects.",
+      "tldr": "Nature Health's daily digest features a single paper on GLP-1 receptor agents in longevity research. The title advocates for rigorous testing of agonists as longevity therapeutics, but the provided text discusses antagonists as transitional and emphasizes the need for more evidence on their effects, highlighting a discrepancy in the source material.",
       "highlights": [
-        "GLP-1 receptor antagonists in longevity research",
-        "Transitional therapeutic classification",
-        "Need for more evidence on effects"
+        "Title: GLP-1 receptor agonists should be rigorously tested as longevity therapeutics",
+        "Text: GLP-1 receptor antagonists classified as transitional longevity therapeutics",
+        "Text: More evidence needed to assess direct and indirect effects"
       ],
       "items": [
         {
@@ -208,7 +355,7 @@
           "link": "https://www.nature.com/articles/s44360-026-00109-x",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "GLP-1 receptor antagonists are classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects."
+          "tldr": "The paper's title calls for testing GLP-1 receptor agonists for longevity benefits, while the text snippet describes GLP-1 receptor antagonists as transitional and requiring additional research."
         }
       ]
     },
@@ -219,11 +366,11 @@
       "feed_url": "https://www.nature.com/nm.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "This Nature Medicine digest includes three papers. One reports the detection of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo with co-circulation of multiple clades. Another examines exposome factors across 34 countries, linking social exposures to faster functional brain aging and physical exposures to faster structural brain aging. The third outlines target product profiles for therapies to delay or prevent symptomatic Alzheimer's disease.",
+      "tldr": "This Nature Medicine digest includes studies on monkeypox virus lineage surveillance, global exposome impacts on brain aging, and therapeutic benchmarks for Alzheimer's disease. The findings emphasize genomic monitoring for recombination risks, differential effects of social and physical exposures on brain structure and function, and the need for clear targets to accelerate Alzheimer's treatment development.",
       "highlights": [
-        "Monkeypox virus clade IIb lineage A.2.2 found in Congo with co-circulation of clades Ia, Ib, and IIb.",
-        "Global exposome study: social exposures accelerate functional brain aging, physical exposures accelerate structural brain aging.",
-        "Target product profiles proposed to guide development of Alzheimer's disease prevention therapies."
+        "Monkeypox virus clade IIb lineage A.2.2 identified in Congo with co-circulation of clades Ia, Ib, and IIb, highlighting surveillance needs due to recombination risks.",
+        "Exposome analyses across 34 countries link social exposures to faster functional brain aging and physical exposures to faster structural brain aging.",
+        "Target product profiles outlined for Alzheimer's therapies to delay or prevent symptoms, aiming to speed development and set benchmarks."
       ],
       "items": [
         {
@@ -231,21 +378,44 @@
           "link": "https://www.nature.com/articles/s41591-026-04256-2",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Whole-genome phylogenetic analysis identified a case of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the need for improved surveillance due to potential recombination risks."
+          "tldr": "Whole-genome phylogenetic analyses identified a case of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clades Ia, Ib, and IIb, emphasizing improved surveillance to mitigate future recombination events."
         },
         {
           "title": "The exposome of brain aging across 34 countries",
           "link": "https://www.nature.com/articles/s41591-026-04302-z",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging, while physical exposures are associated with faster structural brain aging."
+          "tldr": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging and physical exposures with faster structural brain aging."
         },
         {
           "title": "Target product profiles for treatments to delay or prevent symptomatic Alzheimer’s disease",
           "link": "https://www.nature.com/articles/s41591-026-04305-w",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease, aiming to accelerate therapeutic development and provide clear benchmarks."
+          "tldr": "Authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease, providing benchmarks to accelerate therapeutic development."
+        }
+      ]
+    },
+    {
+      "category": "Papers",
+      "title": "Nature Methods",
+      "site_url": "http://feeds.nature.com/nmeth/rss/current",
+      "feed_url": "https://www.nature.com/nmeth.rss",
+      "item_count": 1,
+      "skipped_count": 0,
+      "tldr": "This feed features a paper introducing CREsted, a software toolkit for large-scale modeling of cis-regulatory logic in enhancers. CREsted leverages single-cell chromatin accessibility atlases to provide data-driven insights into regulatory elements driving cell type-specific gene regulation. The approach aims to decipher the genomic regulatory code across various tissues and species.",
+      "highlights": [
+        "CREsted: toolkit for modeling enhancer cis-regulatory logic",
+        "Utilizes single-cell chromatin accessibility atlases",
+        "Applicable to multiple tissues and species"
+      ],
+      "items": [
+        {
+          "title": "A toolkit for modeling cis -regulatory logic of enhancers at large scale",
+          "link": "https://www.nature.com/articles/s41592-026-03058-1",
+          "published": "2026-04-04 00:00 UTC",
+          "source_kind": "feed",
+          "tldr": "The paper presents CREsted, a software package that models cis-regulatory logic of enhancers at large scale using single-cell chromatin accessibility data to analyze regulatory elements in cell types."
         }
       ]
     },
@@ -256,11 +426,11 @@
       "feed_url": "https://www.nature.com/nmicrobiol.rss",
       "item_count": 3,
       "skipped_count": 0,
-      "tldr": "This digest covers three studies: a metagenomic analysis revealing extensive hidden prokaryotic diversity in unbinned contigs, the discovery of an endonuclease family that blocks nanotube-mediated plasmid transfer in bacteria, and findings that cholesterol overload in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions, impairing infection control.",
+      "tldr": "This digest features three recent papers from Nature Microbiology covering microbial diversity assessment, bacterial defense against horizontal gene transfer, and tuberculosis immune evasion. Each study employs advanced methodologies to reveal new insights in microbiology.",
       "highlights": [
-        "Analysis of 92,187 metagenomes predicts ~705,000 bacterial and ~27,000 archaeal species-level clades, mostly from unbinned contigs, with soils and aquatic environments as diversity hotspots.",
-        "YokF endonuclease in Bacillus subtilis acts as a donor-controlled barrier to plasmid transfer via nanotubes, with homologues widespread in Gram-positive bacteria.",
-        "Spatial transcriptomics shows infection-driven cholesterol accumulation in TB granulomas inhibits macrophage-CD4+ T cell interactions, compromising anti-tuberculosis immunity."
+        "Metagenomic analysis of 92,187 samples predicts hundreds of thousands of new microbial species from unbinned contigs, with diversity following power law distributions.",
+        "YokF endonuclease in Bacillus subtilis inhibits plasmid transfer via nanotubes, and homologues are widespread in Gram-positive bacteria.",
+        "Cholesterol accumulation in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions, impairing anti-tuberculosis immunity."
       ],
       "items": [
         {
@@ -268,21 +438,33 @@
           "link": "https://www.nature.com/articles/s41564-026-02314-6",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "article",
-          "tldr": "A comprehensive cross-habitat metagenome dataset indicates that most discoverable bacterial and archaeal diversity is hidden among unbinned contigs, predicting hundreds of thousands of new species-level clades and identifying soils and aquatic environments as hotspots, with clade size distributions following power laws."
+          "tldr": "A comprehensive metagenomic study quantifies discoverable bacterial and archaeal diversity, predicting approximately 705,000 bacterial and 27,000 archaeal species-level clades, largely from unbinned contigs, and shows clade size distributions follow power laws across the Tree of Life.",
+          "topic_matches": [
+            "Bacteria",
+            "Microbiology"
+          ]
         },
         {
           "title": "A family of endonucleases blocks nanotube-mediated plasmid exchange",
           "link": "https://www.nature.com/articles/s41564-026-02293-8",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with functional homologues identified across Gram-positive bacterial species."
+          "tldr": "The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with functional homologues identified across Gram-positive bacterial species.",
+          "topic_matches": [
+            "Bacteria",
+            "Microbiology",
+            "Plasmids"
+          ]
         },
         {
           "title": "Lipid accumulation in tuberculosis granulomas inhibits macrophage–CD4 + T cell interactions and infection control",
           "link": "https://www.nature.com/articles/s41564-026-02317-3",
           "published": "2026-04-03 00:00 UTC",
           "source_kind": "feed",
-          "tldr": "Spatial transcriptomics and immunofluorescence microscopy of human and mouse samples reveal that infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and anti-tuberculosis immunity."
+          "tldr": "Spatial transcriptomics and microscopy reveal that infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and compromises anti-tuberculosis immunity in human and mouse models.",
+          "topic_matches": [
+            "Microbiology"
+          ]
         }
       ]
     }
@@ -290,11 +472,6 @@
   "errors": [
     {
       "feed": "bioRxiv Subject Collection: Bioinformatics",
-      "category": "Papers",
-      "message": "Feed fetch failed: The read operation timed out"
-    },
-    {
-      "feed": "Cell",
       "category": "Papers",
       "message": "LLM summary failed, used fallback: LLM response did not contain a TLDR."
     }
