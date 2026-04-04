@@ -449,9 +449,107 @@ class TestRenderSite(unittest.TestCase):
         html = rss_digest.render_site(report)
 
         self.assertIn('<div class="paper-list">', html)
-        self.assertIn('<div class="paper-title"><a href="https://example.com/a">Paper A</a></div>', html)
+        self.assertIn(
+            '<div class="paper-title"><a href="https://example.com/a">Paper A</a></div>',
+            html,
+        )
         self.assertIn('<p class="tldr">Paper A TLDR.</p>', html)
         self.assertIn('Nature Communications | 2026-04-03 00:00 UTC', html)
+
+
+class TestPaperTopicHighlighting(unittest.TestCase):
+    def test_matches_requested_priority_topics(self) -> None:
+        item = {
+            "title": "AI pipeline for plasmid phage detection in bacterial communities",
+            "tldr": "A computational method uses deep learning to analyze DNA methylation.",
+            "text": "",
+        }
+
+        self.assertEqual(
+            rss_digest.paper_topic_matches(item),
+            [
+                "AI",
+                "Deep Learning",
+                "Bacteria",
+                "Phages",
+                "Plasmids",
+                "DNA Modification/Methylation",
+                "Computational Methods",
+            ],
+        )
+
+    def test_build_feed_digest_adds_topic_matches_for_papers(self) -> None:
+        feed = rss_digest.FeedConfig(
+            category="Papers",
+            title="Papers",
+            xml_url="https://example.com/rss",
+        )
+        items = [
+            {
+                "id": "1",
+                "title": "Machine learning for microbiology",
+                "link": "https://example.com/paper",
+                "published": "2026-04-04 00:00 UTC",
+                "sort_key": 1,
+                "source_kind": "feed",
+                "text": "This bioinformatics pipeline analyzes microbial DNA methylation.",
+                "tldr": "A computational framework for microbiology.",
+            }
+        ]
+
+        digest = rss_digest.build_feed_digest(
+            feed=feed,
+            site_url="https://example.com",
+            items=items,
+            summary={"tldr": "summary", "highlights": ["highlight"]},
+        )
+
+        self.assertEqual(
+            digest["items"][0]["topic_matches"],
+            [
+                "Machine Learning",
+                "Microbiology",
+                "DNA Modification/Methylation",
+                "Computational Methods",
+            ],
+        )
+
+    def test_render_site_marks_priority_papers_and_topic_note(self) -> None:
+        report = {
+            "site_title": "Daily Feed TLDR",
+            "generated_at_human": "2026-04-03 12:00 UTC",
+            "model": "qwen/qwen3.6-plus:free",
+            "feeds_with_updates": 1,
+            "total_items": 1,
+            "categories": ["Papers"],
+            "feeds": [
+                {
+                    "category": "Papers",
+                    "title": "Papers",
+                    "site_url": "https://example.com",
+                    "feed_url": "https://example.com/rss",
+                    "item_count": 1,
+                    "tldr": "Feed summary.",
+                    "highlights": ["Paper A"],
+                    "items": [
+                        {
+                            "title": "AI for phage biology",
+                            "link": "https://example.com/paper",
+                            "published": "2026-04-04 00:00 UTC",
+                            "tldr": "paper tldr",
+                            "topic_matches": ["AI", "Phages"],
+                        }
+                    ],
+                }
+            ],
+            "errors": [],
+        }
+
+        html = rss_digest.render_site(report)
+
+        self.assertIn('class="paper paper-priority"', html)
+        self.assertIn("topic-badge", html)
+        self.assertIn("Highlighted papers match tracked topics", html)
 
 
 class TestTextRedaction(unittest.TestCase):

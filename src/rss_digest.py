@@ -30,6 +30,66 @@ SECRET_LIKE_PATTERNS = (
     re.compile(r"\bsk-[A-Za-z0-9_-]{16,}\b"),
     re.compile(r"\bxai-[A-Za-z0-9_-]{16,}\b"),
 )
+PRIORITY_PAPER_TOPICS = (
+    ("AI", (re.compile(r"\bartificial intelligence\b", re.IGNORECASE), re.compile(r"\bai\b", re.IGNORECASE))),
+    (
+        "Deep Learning",
+        (re.compile(r"\bdeep[- ]learning\b", re.IGNORECASE),),
+    ),
+    (
+        "Machine Learning",
+        (re.compile(r"\bmachine[- ]learning\b", re.IGNORECASE), re.compile(r"\bml\b", re.IGNORECASE)),
+    ),
+    (
+        "Bacteria",
+        (
+            re.compile(r"\bbacteria\b", re.IGNORECASE),
+            re.compile(r"\bbacterial\b", re.IGNORECASE),
+            re.compile(r"\bbacterium\b", re.IGNORECASE),
+        ),
+    ),
+    (
+        "Microbiology",
+        (
+            re.compile(r"\bmicrobiology\b", re.IGNORECASE),
+            re.compile(r"\bmicrobiological\b", re.IGNORECASE),
+            re.compile(r"\bmicrobial\b", re.IGNORECASE),
+            re.compile(r"\bmicrobe(?:s)?\b", re.IGNORECASE),
+        ),
+    ),
+    (
+        "Phages",
+        (
+            re.compile(r"\bphage(?:s)?\b", re.IGNORECASE),
+            re.compile(r"\bbacteriophage(?:s)?\b", re.IGNORECASE),
+        ),
+    ),
+    ("Plasmids", (re.compile(r"\bplasmid(?:s)?\b", re.IGNORECASE),)),
+    (
+        "DNA Modification/Methylation",
+        (
+            re.compile(r"\bdna methylation\b", re.IGNORECASE),
+            re.compile(r"\bmethylation\b", re.IGNORECASE),
+            re.compile(r"\bmethylome\b", re.IGNORECASE),
+            re.compile(r"\bdna modification(?:s)?\b", re.IGNORECASE),
+            re.compile(r"\brestriction[- ]modification\b", re.IGNORECASE),
+            re.compile(r"\bepigen(?:etic|ome)\b", re.IGNORECASE),
+        ),
+    ),
+    (
+        "Computational Methods",
+        (
+            re.compile(
+                r"\bcomputational (?:method|methods|framework|frameworks|approach|approaches|pipeline|pipelines|tool|tools|modeling)\b",
+                re.IGNORECASE,
+            ),
+            re.compile(r"\bbioinformatics\b", re.IGNORECASE),
+            re.compile(r"\bin silico\b", re.IGNORECASE),
+            re.compile(r"\balgorithm(?:s|ic)?\b", re.IGNORECASE),
+            re.compile(r"\bmethod development\b", re.IGNORECASE),
+        ),
+    ),
+)
 
 
 @dataclass
@@ -800,7 +860,14 @@ def build_feed_digest(
     items: list[dict[str, Any]],
     summary: dict[str, Any],
 ) -> dict[str, Any]:
-    output_items = [pending_item_output(item) for item in items]
+    output_items = []
+    for item in items:
+        output_item = pending_item_output(item)
+        if is_papers_category(feed.category):
+            topic_matches = paper_topic_matches(item)
+            if topic_matches:
+                output_item["topic_matches"] = topic_matches
+        output_items.append(output_item)
     return {
         "category": feed.category,
         "title": feed.title,
@@ -816,6 +883,22 @@ def build_feed_digest(
 
 def is_papers_category(category: str) -> bool:
     return category.strip().lower() == "papers"
+
+
+def paper_topic_matches(item: dict[str, Any]) -> list[str]:
+    search_text = " ".join(
+        normalize_text(str(item.get(field) or ""))
+        for field in ("title", "tldr", "text")
+        if item.get(field)
+    )
+    if not search_text:
+        return []
+
+    matches = []
+    for label, patterns in PRIORITY_PAPER_TOPICS:
+        if any(pattern.search(search_text) for pattern in patterns):
+            matches.append(label)
+    return matches
 
 
 def active_model_name(config: dict[str, Any]) -> str:
@@ -1048,6 +1131,12 @@ def write_outputs(config: dict[str, Any], report: dict[str, Any]) -> None:
 
 def render_site(report: dict[str, Any]) -> str:
     cards = []
+    has_priority_papers = any(
+        item.get("topic_matches")
+        for feed in report["feeds"]
+        if is_papers_category(feed["category"])
+        for item in feed["items"]
+    )
     if report["feeds"]:
         for category in report["categories"]:
             category_feeds = [feed for feed in report["feeds"] if feed["category"] == category]
@@ -1080,6 +1169,12 @@ def render_site(report: dict[str, Any]) -> str:
             + "</ul></section>"
         )
 
+    topic_note = ""
+    if has_priority_papers:
+        topic_note = (
+            '<p class="topic-note">Highlighted papers match tracked topics: AI, deep learning, machine learning, bacteria, microbiology, phages, plasmids, DNA modification or methylation, and computational methods.</p>'
+        )
+
     return textwrap.dedent(
         f"""
         <!DOCTYPE html>
@@ -1097,6 +1192,8 @@ def render_site(report: dict[str, Any]) -> str:
                 --muted: #71717a;
                 --accent: #2563eb;
                 --accent-bg: #dbeafe;
+                --topic-accent: #b45309;
+                --topic-bg: #fef3c7;
               }}
               @media (prefers-color-scheme: dark) {{
                 :root {{
@@ -1107,6 +1204,8 @@ def render_site(report: dict[str, Any]) -> str:
                   --muted: #a1a1aa;
                   --accent: #60a5fa;
                   --accent-bg: #1e3a5f;
+                  --topic-accent: #fbbf24;
+                  --topic-bg: #3f2d12;
                 }}
               }}
               * {{ box-sizing: border-box; margin: 0; padding: 0; }}
@@ -1132,6 +1231,7 @@ def render_site(report: dict[str, Any]) -> str:
                 margin-bottom: 4px;
               }}
               .page-hd p {{ color: var(--muted); font-size: 0.88rem; }}
+              .topic-note {{ margin-top: 10px; max-width: 760px; line-height: 1.6; }}
               .stats {{ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 36px; }}
               .stat {{
                 background: var(--surface);
@@ -1181,6 +1281,7 @@ def render_site(report: dict[str, Any]) -> str:
                 gap: 12px;
                 align-items: start;
               }}
+              .paper-priority {{ box-shadow: inset 3px 0 0 var(--topic-accent); }}
               .feed-line {{
                 display: contents;
               }}
@@ -1202,6 +1303,16 @@ def render_site(report: dict[str, Any]) -> str:
                 font-size: 0.78rem;
                 color: var(--muted);
                 line-height: 1.5;
+              }}
+              .topic-badges {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }}
+              .topic-badge {{
+                font-size: 0.68rem;
+                font-weight: 700;
+                letter-spacing: 0.04em;
+                padding: 3px 8px;
+                border-radius: 999px;
+                background: var(--topic-bg);
+                color: var(--topic-accent);
               }}
               .rss-badge {{
                 font-size: 0.68rem;
@@ -1262,6 +1373,7 @@ def render_site(report: dict[str, Any]) -> str:
               <header class="page-hd">
                 <h1>{escape(report['site_title'])}</h1>
                 <p>Daily AI TLDRs generated from your NetNewsWire OPML export and published with GitHub Actions.</p>
+                {topic_note}
               </header>
 
               <div class="stats">
@@ -1328,11 +1440,25 @@ def render_paper_rows(feeds: list[dict[str, Any]]) -> str:
             if item.get("published"):
                 meta_bits.append(item["published"])
             item_tldr = item.get("tldr") or feed["tldr"]
+            topic_matches = item.get("topic_matches", [])
+            topic_badges = ""
+            if topic_matches:
+                topic_badges = (
+                    '<div class="topic-badges">'
+                    + "".join(
+                        f'<span class="topic-badge">{escape(topic)}</span>'
+                        for topic in topic_matches
+                    )
+                    + "</div>"
+                )
             rows.append(
                 f"""
-                <article class="paper">
+                <article class="paper{' paper-priority' if topic_matches else ''}">
                   <div class="paper-title">{title_html}</div>
-                  <p class="tldr">{escape(item_tldr)}</p>
+                  <div>
+                    <p class="tldr">{escape(item_tldr)}</p>
+                    {topic_badges}
+                  </div>
                   <div class="paper-meta">{" | ".join(escape(bit) for bit in meta_bits)}</div>
                 </article>
                 """
