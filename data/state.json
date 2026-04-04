@@ -3351,6 +3351,9 @@
     },
     "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics": {
       "seen_ids": [
+        "52cfd91252c1a55be63964db18838f38646b88d570ccfa16b74a3420274ddf1e",
+        "522f2fddf19801d00b2a863872184853be0b3e4c1b374ef7d0d23e8fe5181492",
+        "f90023d31d02b95c9d91b50b8a9496505779b31c7a8df8151d78ab6d1a995e96",
         "9488728d2be542bf330f551afca50e28576381e602a3300f2064a40f86e2e7e1",
         "78cc6ce8bbe451586dce671b6a20da504f0d365c36caeda83dfd457a51ec1fbc",
         "1fe03031c8d48ab8a7f185b14f59573cb0b90edf7d8fa03d5ca417abbcc0dc6c",
@@ -3406,9 +3409,42 @@
         "458f1ceef2142852977cf599cc5bb7cf040efc2e14670a4dd5ad542391d0d5f7",
         "3e0b1c6aef833972d7d180db731880ef7aed4e02614b4f5ad7b2889515a3a88f"
       ],
-      "last_checked_at": "2026-04-04T03:47:21+00:00",
+      "last_checked_at": "2026-04-04T08:00:30+00:00",
       "feed_title": "bioRxiv Subject Collection: Bioinformatics",
       "pending_items": [
+        {
+          "id": "52cfd91252c1a55be63964db18838f38646b88d570ccfa16b74a3420274ddf1e",
+          "signature": "4858c4c69f9b8e9af64902473149b6916c8fe8a590014acb68b29e96e2f87020",
+          "title": "Correlate: A Web Application for Analyzing Gene Sets and Exploring Gene Dependencies Using CRISPR Screen Data",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716070v1?rss=1",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "CRISPR screen data provides a valuable resource for understanding gene function and identifying potential drug targets. Here, we present Correlate, a freely accessible web application (https://correlate.cmm.se) that enables exploration of the Cancer Dependency Map (DepMap) CRISPR screen gene effects, hotspot mutations, and translocation/fusion data across more than 1,000 human cancer cell lines. The application supports two main use cases: (i) analysis of user-defined gene sets (e.g. CRISPR screen hits) to identify functionally linked genes based on correlations while providing an overview based on essentiality or user-provided screen statistics; and (ii) exploration of genes of interest in defined biological contexts, such as specific cancer types or mutational backgrounds, to generate hypotheses about gene function and dependencies. Additionally, Correlate supports experimental design by providing rapid overviews of gene essentiality and enabling the identification of cell lines with relevant mutational profiles. In contrast to knowledge-based approaches such as STRING and GSEA, which rely on prior biological annotations and curated interaction networks, Correlate identifies gene connections directly from functional CRISPR screen readouts, offering a complementary and data-driven perspective on gene network analysis. The application runs entirely in the browser, requires no installation or login, and integrates with the Green Listed v2.0 tool family for custom CRISPR screen design. CRISPR screen data provides a valuable resource for understanding gene function and identifying potential drug targets. Here, we present Correlate, a freely accessible web application (https://correlate.cmm.se) that enables exploration of the Cancer Dependency Map (DepMap) CRISPR screen gene effects, hotspot mutations, and translocation/fusion data across more than 1,000 human cancer cell lines. The application supports two main use cases: (i) analysis of user-defined gene sets (e.g. CRISPR screen hits) to identify functionally linked genes based on correlations while providing an overview based on essentiality or user-provided screen statistics; and (ii) exploration of genes of interest in defined biological contexts, such as specific cancer types or mutational backgrounds, to generate hypotheses about gene function and dependencies. Additionally, Correlate supports experimental design by providing rapid overviews of gene essentiality and enabling the identification of cell lines with relevant mutational profiles. In contrast to knowledge-based approaches such as STRING and GSEA, which rely on prior biological annotations and curated interaction networks, Correlate identifies gene connections directly from functional CRISPR screen readouts, offering a complementary and data-driven perspective on gene network analysis. The application runs entirely in the browser, requires no installation or login, and integrates with the Green Listed v2.0 tool family for custom CRISPR screen design.",
+          "tldr": "Correlate is a web application that uses Cancer Dependency Map CRISPR screen data to identify functionally linked genes and explore dependencies, providing a data-driven alternative to knowledge-based tools like STRING."
+        },
+        {
+          "id": "522f2fddf19801d00b2a863872184853be0b3e4c1b374ef7d0d23e8fe5181492",
+          "signature": "394db677ac03140952144cab7f4a973dbf499e5d3cc9b8c975976f29571dfa08",
+          "title": "Benchmarking long-read RNA-seq across modalities, methods, and sequencing depth in iNeurons",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715783v1?rss=1",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Long-read RNA sequencing (lrRNA-seq) provides advantages for transcript discovery and quantification through the sequencing of full-length transcripts. Although recent benchmarks have evaluated long-read technologies and quantification tools, to the best of our knowledge, no study to date has jointly compared sequencing technology, quantification choice, and depth across both bulk and single-cell platforms. Here, we generate a matched dataset using NGN2-induced neurons derived from Fragile X syndrome and isogenic rescue lines, profiled with bulk and single-cell Illumina, Oxford Nanopore Technologies (ONT), and Pacific Biosciences (PB) Kinnex technologies. All platforms and technologies capture the expected FMR1 reactivation signal. We find that PB bulk under-detects and under-quantifies short transcripts (less than 1.25 kb), ONT bulk under-detects and under-quantifies long transcripts (greater than 5 kb), and single-cell long read technologies a large number of single-cell specific transcripts associated with truncations. Across six bulk and four single-cell long-read quantification tools, Isosceles, Miniquant, and Oarfish provide the best compromise between computational efficiency and performance in terms of quantification accuracy as measured by spike-ins, comparisons to Illumina, and on consensus based down stream tasks such as differential transcript expression (DTE). Depth-equivalency analyses reveal that PB single-cell sequencing requires approximately three- to four-fold greater depth than bulk to reach comparable power for transcript discovery and differential transcript expression. Our work aims to offer practical guidance for study design, including the choice of technology, sequencing depth, and quantification method. In addition, we hope our data may serve a reference dataset to evaluate emerging long-read transcriptomic protocols and methods as well as more closely investigate FMR1 biology. Long-read RNA sequencing (lrRNA-seq) provides advantages for transcript discovery and quantification through the sequencing of full-length transcripts. Although recent benchmarks have evaluated long-read technologies and quantification tools, to the best of our knowledge, no study to date has jointly compared sequencing technology, quantification choice, and depth across both bulk and single-cell platforms. Here, we generate a matched dataset using NGN2-induced neurons derived from Fragile X syndrome and isogenic rescue lines, profiled with bulk and single-cell Illumina, Oxford Nanopore Technologies (ONT), and Pacific Biosciences (PB) Kinnex technologies. All platforms and technologies capture the expected FMR1 reactivation signal. We find that PB bulk under-detects and under-quantifies short transcripts (less than 1.25 kb), ONT bulk under-detects and under-quantifies long transcripts (greater than 5 kb), and single-cell long read technologies a large number of single-cell specific transcripts associated with truncations. Across six bulk and four single-cell long-read quantification tools, Isosceles, Miniquant, and Oarfish provide the best compromise between computational efficiency and performance in terms of quantification accuracy as measured by spike-ins, comparisons to Illumina, and on consensus based down stream tasks such as differential transcript expression (DTE). Depth-equivalency analyses reveal that PB single-cell sequencing requires approximately three- to four-fold greater depth than bulk to reach comparable power for transcript discovery and differential transcript expression. Our work aims to offer practical guidance for study design, including the choice of technology, sequencing depth, and quantification method. In addition, we hope our data may serve a reference dataset to evaluate emerging long-read transcriptomic protocols and methods as well as more closely investigate FMR1 biology.",
+          "tldr": "A benchmark study compares long-read RNA-seq technologies and quantification methods in neurons, revealing platform-specific biases (e.g., PB under-detects short transcripts) and recommending tools like Isosceles, with single-cell requiring three- to four-fold greater depth than bulk."
+        },
+        {
+          "id": "f90023d31d02b95c9d91b50b8a9496505779b31c7a8df8151d78ab6d1a995e96",
+          "signature": "8eb9bfb784279b367dfb0198fecb86f64d24def6717d9dd1a115e3659f2e2f3f",
+          "title": "OncoMORPHIA: An Integrated Web Platform for Interactive 3D Visualization and Functional Annotation of Cancer Mutations",
+          "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715816v1?rss=1",
+          "published": "2026-04-03 00:00 UTC",
+          "sort_key": 1775174400.0,
+          "source_kind": "feed",
+          "text": "Summary: The rapid accumulation of cancer genomic data across repositories such as ClinVar, cBioPortal, and the TCGA Pan-Cancer Atlas has created an urgent need for integrated tools that allow researchers to explore mutations in their structural and clinical context without requiring specialized bioinformatics expertise. Here we present OncoMORPHIA, a free, browser-based web platform that unifies 3D protein structure visualization, clinical variant annotation, drug-target interaction mapping, survival analysis, mutational signature decomposition, and AI-powered interpretation within a single interface. OncoMORPHIA automatically retrieves and integrates data from ten public databases, maps missense mutations onto experimentally determined or AlphaFold-predicted protein structures, computes mutation density heatmaps with Gaussian smoothing, and renders interactive visualizations including lollipop plots, Kaplan-Meier survival curves, protein-protein interaction networks, and pan-cancer tissue distribution charts. The platform supports 45 major cancer driver genes with extensibility to any human gene with available structural data. Availability: OncoMORPHIA is freely available at https://oncomorphia.com. Source code is available upon request. The platform requires no installation, no account registration, and no API keys for core functionality. Summary: The rapid accumulation of cancer genomic data across repositories such as ClinVar, cBioPortal, and the TCGA Pan-Cancer Atlas has created an urgent need for integrated tools that allow researchers to explore mutations in their structural and clinical context without requiring specialized bioinformatics expertise. Here we present OncoMORPHIA, a free, browser-based web platform that unifies 3D protein structure visualization, clinical variant annotation, drug-target interaction mapping, survival analysis, mutational signature decomposition, and AI-powered interpretation within a single interface. OncoMORPHIA automatically retrieves and integrates data from ten public databases, maps missense mutations onto experimentally determined or AlphaFold-predicted protein structures, computes mutation density heatmaps with Gaussian smoothing, and renders interactive visualizations including lollipop plots, Kaplan-Meier survival curves, protein-protein interaction networks, and pan-cancer tissue distribution charts. The platform supports 45 major cancer driver genes with extensibility to any human gene with available structural data. Availability: OncoMORPHIA is freely available at https://oncomorphia.com. Source code is available upon request. The platform requires no installation, no account registration, and no API keys for core functionality.",
+          "tldr": "OncoMORPHIA is a free web platform that integrates 3D protein structure visualization with clinical annotation for cancer mutations, automatically retrieving data from ten public databases for interactive exploration of 45 major driver genes."
+        },
         {
           "id": "9488728d2be542bf330f551afca50e28576381e602a3300f2064a40f86e2e7e1",
           "signature": "05d2db22f1857ccb9bc5c19f99d7d9aa8a285c1b3d2aa5e17d7e50d6c982feee",
@@ -3418,7 +3454,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "DNA methylation analysis using bisulfite sequencing is widely used to investigate epigenetic regulation at single-base resolution; however, conventional analysis workflows primarily rely on site-wise averaging, which obscures contiguous methylation patterns encoded within individual DNA molecules and limits interpretation of epiallelic heterogeneity in targeted amplicon studies. Here, we present PANDA (Phased ANalysis of DNA Amplicons), an end-to-end graphical pipeline that restores contiguous single-molecule methylation patterns by linking unmerged paired-end reads to reconstruct epiallelic patterns across unsequenced regions. PANDA supports both Sanger and next-generation sequencing inputs, providing a unified workflow for alignment, read-level methylation calling, phased visualization, and quantification of within-sample methylation heterogeneity. Using synthetic benchmarking datasets, we demonstrated that in silico motif filtering isolates specific target reads, enabling the accurate detection of allele-specific methylation and loss of imprinting. Furthermore, the re-analysis of primate placentae datasets confirmed that long-range phasing across unsequenced regions successfully restored the original epiallelic architectures. PANDA establishes a robust, practical approach to single-molecule epigenomic profiling using targeted bisulfite amplicon sequencing. DNA methylation analysis using bisulfite sequencing is widely used to investigate epigenetic regulation at single-base resolution; however, conventional analysis workflows primarily rely on site-wise averaging, which obscures contiguous methylation patterns encoded within individual DNA molecules and limits interpretation of epiallelic heterogeneity in targeted amplicon studies. Here, we present PANDA (Phased ANalysis of DNA Amplicons), an end-to-end graphical pipeline that restores contiguous single-molecule methylation patterns by linking unmerged paired-end reads to reconstruct epiallelic patterns across unsequenced regions. PANDA supports both Sanger and next-generation sequencing inputs, providing a unified workflow for alignment, read-level methylation calling, phased visualization, and quantification of within-sample methylation heterogeneity. Using synthetic benchmarking datasets, we demonstrated that in silico motif filtering isolates specific target reads, enabling the accurate detection of allele-specific methylation and loss of imprinting. Furthermore, the re-analysis of primate placentae datasets confirmed that long-range phasing across unsequenced regions successfully restored the original epiallelic architectures. PANDA establishes a robust, practical approach to single-molecule epigenomic profiling using targeted bisulfite amplicon sequencing.",
-          "tldr": "DNA methylation analysis using bisulfite sequencing is widely used to investigate epigenetic regulation at single-base resolution; however, conventional analysis workflows primarily rely on site-wise averaging, which obscures contiguous methylation patterns e…"
+          "tldr": "PANDA is a graphical pipeline that phases bisulfite sequencing reads to reconstruct contiguous single-molecule methylation patterns, enabling analysis of epiallelic heterogeneity in targeted amplicon studies and supporting both Sanger and NGS inputs."
         },
         {
           "id": "78cc6ce8bbe451586dce671b6a20da504f0d365c36caeda83dfd457a51ec1fbc",
@@ -3429,7 +3465,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "The unfolded protein response (UPR) helps reinstate cellular proteostasis upon an accumulation of misfolded proteins in the endoplasmic reticulum (ER), in part through ER-associated degradation (ERAD). Ube2j2 is an ER-localized E2 ubiquitin-conjugating enzyme that participates in ERAD. We used mass spectrometry analysis of cultured U2OS cells to investigate how the loss of Ube2j2 affects the cellular proteome in response to tunicamycin-induced ER stress. We constructed a network of twelve statistically distinct modules of protein abundance profiles across conditions. We describe the Gene Ontology annotations for each module along with the hub gene proteins whose abundance levels most closely adhere to each modules protein abundance profile. Our analysis identifies known Ube2j2-associated pathways (e.g., the UPR and ERAD) and cellular functions that were previously unassociated with Ube2j2 (e.g., RNA metabolism, ER-Golgi transport, and cell-cycle progression). These data are available via ProteomeXchange with identifier PXD076153 and provide avenues for further investigation into the cellular functions of Ube2j2 under basal and ER-stressed conditions. The unfolded protein response (UPR) helps reinstate cellular proteostasis upon an accumulation of misfolded proteins in the endoplasmic reticulum (ER), in part through ER-associated degradation (ERAD). Ube2j2 is an ER-localized E2 ubiquitin-conjugating enzyme that participates in ERAD. We used mass spectrometry analysis of cultured U2OS cells to investigate how the loss of Ube2j2 affects the cellular proteome in response to tunicamycin-induced ER stress. We constructed a network of twelve statistically distinct modules of protein abundance profiles across conditions. We describe the Gene Ontology annotations for each module along with the hub gene proteins whose abundance levels most closely adhere to each modules protein abundance profile. Our analysis identifies known Ube2j2-associated pathways (e.g., the UPR and ERAD) and cellular functions that were previously unassociated with Ube2j2 (e.g., RNA metabolism, ER-Golgi transport, and cell-cycle progression). These data are available via ProteomeXchange with identifier PXD076153 and provide avenues for further investigation into the cellular functions of Ube2j2 under basal and ER-stressed conditions.",
-          "tldr": "The unfolded protein response (UPR) helps reinstate cellular proteostasis upon an accumulation of misfolded proteins in the endoplasmic reticulum (ER), in part through ER-associated degradation (ERAD). Ube2j2 is an ER-localized E2 ubiquitin-conjugating enzyme…"
+          "tldr": "Proteomics analysis of Ube2j2-deficient cells under ER stress identifies twelve protein abundance modules, revealing known UPR/ERAD pathways and new associations with RNA metabolism and cell-cycle progression."
         },
         {
           "id": "1fe03031c8d48ab8a7f185b14f59573cb0b90edf7d8fa03d5ca417abbcc0dc6c",
@@ -3440,7 +3476,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Understanding allelic variability is crucial for elucidating intrinsic bacterial mechanisms and distinguishing phenotypic profiles. However, such variability poses a major challenge for the reliable identification of proteins in data-independent acquisition (DIA) proteomics. To address this, we developed an analytical workflow that integrates protein sequence variability to enhance proteome coverage. Fifteen Legionella pneumophila isolates were analyzed using DIA-NN, with spectral libraries generated either from a reference proteome or incorporating allelic variability. Our workflow includes protein clustering and subsequent protein inference from these clusters, allowing the accurate assignment of shared and variant-specific peptides. Integration of variability enabled the identification of a comparable number of proteins as the reference proteome while capturing between 28 and 77 % of variant-specific sequences in each isolate, all while maintaining a low false positive rate. These findings demonstrate that accounting for allelic variability substantially improves proteomic coverage and identification confidence, providing a more comprehensive view of the proteome. This approach facilitates a deeper understanding of biological mechanisms and enables precise bacterial proteotyping of Legionella pneumophila isolates. Understanding allelic variability is crucial for elucidating intrinsic bacterial mechanisms and distinguishing phenotypic profiles. However, such variability poses a major challenge for the reliable identification of proteins in data-independent acquisition (DIA) proteomics. To address this, we developed an analytical workflow that integrates protein sequence variability to enhance proteome coverage. Fifteen Legionella pneumophila isolates were analyzed using DIA-NN, with spectral libraries generated either from a reference proteome or incorporating allelic variability. Our workflow includes protein clustering and subsequent protein inference from these clusters, allowing the accurate assignment of shared and variant-specific peptides. Integration of variability enabled the identification of a comparable number of proteins as the reference proteome while capturing between 28 and 77 % of variant-specific sequences in each isolate, all while maintaining a low false positive rate. These findings demonstrate that accounting for allelic variability substantially improves proteomic coverage and identification confidence, providing a more comprehensive view of the proteome. This approach facilitates a deeper understanding of biological mechanisms and enables precise bacterial proteotyping of Legionella pneumophila isolates.",
-          "tldr": "Understanding allelic variability is crucial for elucidating intrinsic bacterial mechanisms and distinguishing phenotypic profiles. However, such variability poses a major challenge for the reliable identification of proteins in data-independent acquisition (…"
+          "tldr": "A workflow incorporating protein sequence variability in DIA proteomics improves coverage and identification confidence for bacterial isolates, capturing 28-77% of variant-specific sequences in Legionella pneumophila while maintaining low false positives."
         },
         {
           "id": "e4bf645f4b3b5a6a8c30cceefb680aba8a12b2180d9ab0dbaf933b7320b61fd9",
@@ -3451,7 +3487,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "The study of somatic variants from tumor genomes is fundamental to cancer research and clinical decision-making. However, existing data protection frameworks impose restrictions on the use and sharing of these variants in conjunction with sensitive germline information. To overcome these challenges, we developed GenomeAnonymizer, the first method to anonymize short-read DNA sequences from tumor-normal pairs. This generates Somatic Tumor Twins (STTs), an anonymized version of the original data that preserves the donor's privacy while retaining somatic tumor information and sequencing noise. This method successfully removed all detectable germline variants from the 47 PCAWG-Pilot samples. We further demonstrate that Whole-Genome Sequencing (WGS) STTs preserve more than 98% of the original somatic variants, enabling reliable downstream analysis that replicates somatic-related findings from the original samples, including cancer driver genes, mutational signatures, and intratumor heterogeneity. Importantly, we also show that STTs can reproduce the identification of actionable genes and downstream clinical interpretations and decision-making. We generated a cancer cohort of STTs matched with synthetic clinical data that could be openly shared and used across projects and centers worldwide. This paradigm-shifting approach will accelerate discovery and clinical translation in oncology and enable the robust benchmarking of genome analysis and large-scale data infrastructures. The study of somatic variants from tumor genomes is fundamental to cancer research and clinical decision-making. However, existing data protection frameworks impose restrictions on the use and sharing of these variants in conjunction with sensitive germline information. To overcome these challenges, we developed GenomeAnonymizer, the first method to anonymize short-read DNA sequences from tumor-normal pairs. This generates Somatic Tumor Twins (STTs), an anonymized version of the original data that preserves the donor's privacy while retaining somatic tumor information and sequencing noise. This method successfully removed all detectable germline variants from the 47 PCAWG-Pilot samples. We further demonstrate that Whole-Genome Sequencing (WGS) STTs preserve more than 98% of the original somatic variants, enabling reliable downstream analysis that replicates somatic-related findings from the original samples, including cancer driver genes, mutational signatures, and intratumor heterogeneity. Importantly, we also show that STTs can reproduce the identification of actionable genes and downstream clinical interpretations and decision-making. We generated a cancer cohort of STTs matched with synthetic clinical data that could be openly shared and used across projects and centers worldwide. This paradigm-shifting approach will accelerate discovery and clinical translation in oncology and enable the robust benchmarking of genome analysis and large-scale data infrastructures.",
-          "tldr": "The study of somatic variants from tumor genomes is fundamental to cancer research and clinical decision-making. However, existing data protection frameworks impose restrictions on the use and sharing of these variants in conjunction with sensitive germline i…"
+          "tldr": "GenomeAnonymizer generates anonymized Somatic Tumor Twins from tumor-normal pair data, preserving somatic variants and sequencing noise to enable privacy-protected open sharing for research and clinical oncology."
         },
         {
           "id": "f74c3577be8819e1a16f48543b8f2b545c4ac2cf549e9a1d3bf314ef8a953644",
@@ -3533,24 +3569,20 @@
       ],
       "site_url": "https://biorxiv.org/",
       "summary": {
-        "tldr": "bioRxiv Subject Collection: Bioinformatics currently has 11 retained item(s) on the page. Key items include \"PANDA: Read-Level Phased Analysis of DNA Amplicons for Methylation Studies\", \"Proteome analyses reveal Endoplasmic Reticulum stress-induced changes in protein abundance associated with Ube2j2 deficiency in human cell culture\", and \"Importance of taking Single Amino Acid Variant and accessory proteome variability into account in Data Independent Acquisition Proteomics: illustrated with Legionella pneumophila analysis\".",
+        "tldr": "This bioinformatics digest presents tools for CRISPR screen analysis, benchmarks for long-read RNA-seq, a platform for cancer mutation visualization, a pipeline for methylation phasing, proteomics of ER stress, improved DIA proteomics with variability, and a method for tumor data anonymization. These works provide resources for functional genomics, technology selection, interactive analysis, epigenetic profiling, protein function studies, bacterial proteotyping, and privacy-preserving data sharing in oncology.",
         "highlights": [
-          "PANDA: Read-Level Phased Analysis of DNA Amplicons for Methylation Studies",
-          "Proteome analyses reveal Endoplasmic Reticulum stress-induced changes in protein abundance associated with Ube2j2 deficiency in human cell culture",
-          "Importance of taking Single Amino Acid Variant and accessory proteome variability into account in Data Independent Acquisition Proteomics: illustrated with Legionella pneumophila analysis"
+          "Correlate web app enables data-driven analysis of gene dependencies from CRISPR screens.",
+          "Benchmarking offers guidance on long-read RNA-seq technologies and DIA proteomics methods.",
+          "OncoMORPHIA and PANDA advance cancer mutation visualization and single-molecule methylation analysis."
         ],
         "item_tldrs": {
-          "9488728d2be542bf330f551afca50e28576381e602a3300f2064a40f86e2e7e1": "DNA methylation analysis using bisulfite sequencing is widely used to investigate epigenetic regulation at single-base resolution; however, conventional analysis workflows primarily rely on site-wise averaging, which obscures contiguous methylation patterns e…",
-          "78cc6ce8bbe451586dce671b6a20da504f0d365c36caeda83dfd457a51ec1fbc": "The unfolded protein response (UPR) helps reinstate cellular proteostasis upon an accumulation of misfolded proteins in the endoplasmic reticulum (ER), in part through ER-associated degradation (ERAD). Ube2j2 is an ER-localized E2 ubiquitin-conjugating enzyme…",
-          "1fe03031c8d48ab8a7f185b14f59573cb0b90edf7d8fa03d5ca417abbcc0dc6c": "Understanding allelic variability is crucial for elucidating intrinsic bacterial mechanisms and distinguishing phenotypic profiles. However, such variability poses a major challenge for the reliable identification of proteins in data-independent acquisition (…",
-          "e4bf645f4b3b5a6a8c30cceefb680aba8a12b2180d9ab0dbaf933b7320b61fd9": "The study of somatic variants from tumor genomes is fundamental to cancer research and clinical decision-making. However, existing data protection frameworks impose restrictions on the use and sharing of these variants in conjunction with sensitive germline i…",
-          "f74c3577be8819e1a16f48543b8f2b545c4ac2cf549e9a1d3bf314ef8a953644": "Despite advances in computational drug discovery, de novo drug design remains hindered by high licensing costs and the need for specialized programming expertise. We present LigandForge, a webserver for structure-guided de novo ligand generation.",
-          "f89217fc71b653274f481e6ac43886ae46eb86f20a052cc76165d24fd2f7469d": "Conserved water molecules (CWMs) are tightly bound solvent molecules that occupy well-defined and recurrent positions in protein structures. Although they are known to influence protein stability, function, and ligand binding, their contribution to human gene…",
-          "b3dd313e97622e9cd827cd62c8d15fd9c62afa7b86dac87259200e2be741fa46": "Motivation: Deep neural networks have proven effective in classifying tumour types using next-generation sequencing data. However, developing transferable models that work across heterogeneous operating environments remains challenging due to differences in c…",
-          "migrated:0437a8031ab3ad3a1204cbf92cb46bc2bea619a4d7d2d75b39aa32e194def21d": "EMITS: expectation-maximization abundance estimation for fungal ITS communities from long-read sequencing",
-          "migrated:63cb224a11f2a1f9b99082e4f5a12a524911ef3f995f62b6358db660803e2f1e": "Towards a Cytometry Foundation Model: Interpretable Sample-level Predictive Modelling via Pretrained Transformers",
-          "migrated:fa6ae1ad2ccca1120044ea609b9e9096bf960bf97f9da291b2c7f9de2fc562d2": "TF-IDF k-mer-based Classical and Hybrid Machine Learning Models for SARS-CoV-2 Variant Classification under Imbalanced Genomic Data",
-          "migrated:610e843dfd4762476e629f229f533616c53dfcdee437eb14ebac9ec8c02c7e8c": "Benchmarking Heritability Estimation Strategies Across 86 Configurations and Their Downstream Effect on Polygenic Risk Score Performance"
+          "52cfd91252c1a55be63964db18838f38646b88d570ccfa16b74a3420274ddf1e": "Correlate is a web application that uses Cancer Dependency Map CRISPR screen data to identify functionally linked genes and explore dependencies, providing a data-driven alternative to knowledge-based tools like STRING.",
+          "522f2fddf19801d00b2a863872184853be0b3e4c1b374ef7d0d23e8fe5181492": "A benchmark study compares long-read RNA-seq technologies and quantification methods in neurons, revealing platform-specific biases (e.g., PB under-detects short transcripts) and recommending tools like Isosceles, with single-cell requiring three- to four-fold greater depth than bulk.",
+          "f90023d31d02b95c9d91b50b8a9496505779b31c7a8df8151d78ab6d1a995e96": "OncoMORPHIA is a free web platform that integrates 3D protein structure visualization with clinical annotation for cancer mutations, automatically retrieving data from ten public databases for interactive exploration of 45 major driver genes.",
+          "9488728d2be542bf330f551afca50e28576381e602a3300f2064a40f86e2e7e1": "PANDA is a graphical pipeline that phases bisulfite sequencing reads to reconstruct contiguous single-molecule methylation patterns, enabling analysis of epiallelic heterogeneity in targeted amplicon studies and supporting both Sanger and NGS inputs.",
+          "78cc6ce8bbe451586dce671b6a20da504f0d365c36caeda83dfd457a51ec1fbc": "Proteomics analysis of Ube2j2-deficient cells under ER stress identifies twelve protein abundance modules, revealing known UPR/ERAD pathways and new associations with RNA metabolism and cell-cycle progression.",
+          "1fe03031c8d48ab8a7f185b14f59573cb0b90edf7d8fa03d5ca417abbcc0dc6c": "A workflow incorporating protein sequence variability in DIA proteomics improves coverage and identification confidence for bacterial isolates, capturing 28-77% of variant-specific sequences in Legionella pneumophila while maintaining low false positives.",
+          "e4bf645f4b3b5a6a8c30cceefb680aba8a12b2180d9ab0dbaf933b7320b61fd9": "GenomeAnonymizer generates anonymized Somatic Tumor Twins from tumor-normal pair data, preserving somatic variants and sequencing noise to enable privacy-protected open sharing for research and clinical oncology."
         }
       }
     },
@@ -3610,7 +3642,7 @@
         "4a3976b6e7466334b9fc4690a54d7a6e9e34cb7718f07899a8f59403127b209a",
         "9d8b7763bf2841d8dc74628c46ee5b2850c8f731fa0cd61ecdda89bc8482c135"
       ],
-      "last_checked_at": "2026-04-04T03:48:02+00:00",
+      "last_checked_at": "2026-04-04T08:01:16+00:00",
       "feed_title": "Cell",
       "pending_items": [
         {
@@ -3622,20 +3654,19 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Cellular senescence, defined by six major hallmarks, is a program that halts cell division while rewiring chromatin, metabolism, microenvironment sensing, and immune interactions to either suppress or promote cancer and is an exciting frontier for precision therapy. Cellular senescence, defined by six major hallmarks, is a program that halts cell division while rewiring chromatin, metabolism, microenvironment sensing, and immune interactions to either suppress or promote cancer and is an exciting frontier for precision therapy.",
-          "tldr": "The paper discusses cellular senescence in cancer, characterized by six hallmarks, which stops cell division and alters chromatin, metabolism, and immune interactions. It highlights the paradoxical roles in cancer and the therapeutic promise for precision medicine."
+          "tldr": "The paper reviews cellular senescence in cancer, detailing its six hallmarks and paradoxical effects on tumor growth, and emphasizes its emerging role in precision cancer therapy."
         }
       ],
       "site_url": "https://www.cell.com/cell/archive?publicationCode=cell&rss=yes",
       "summary": {
-        "tldr": "This digest features a paper on cellular senescence in cancer. The paper defines senescence by six major hallmarks as a program that halts cell division while rewiring chromatin, metabolism, microenvironment sensing, and immune interactions. It describes the dual role of senescence in suppressing or promoting cancer and its potential as a frontier for precision therapy.",
+        "tldr": "This digest features a Cell paper on cellular senescence in cancer. It defines six major hallmarks of senescence and describes how this program halts cell division while rewiring cellular processes to either suppress or promote cancer, highlighting its potential for precision therapies.",
         "highlights": [
-          "Defined by six major hallmarks",
-          "Halts cell division and rewires cellular processes",
-          "Dual role in cancer suppression and promotion",
-          "Exciting frontier for precision therapy"
+          "Cellular senescence is defined by six major hallmarks.",
+          "Senescence halts cell division and rewires chromatin, metabolism, and immune interactions.",
+          "It has dual roles in cancer suppression and promotion, offering therapeutic promise."
         ],
         "item_tldrs": {
-          "2e63e572c62e066fdde91505265e93a3395eacee1cf012e95006ff2d8e39c671": "The paper discusses cellular senescence in cancer, characterized by six hallmarks, which stops cell division and alters chromatin, metabolism, and immune interactions. It highlights the paradoxical roles in cancer and the therapeutic promise for precision medicine."
+          "2e63e572c62e066fdde91505265e93a3395eacee1cf012e95006ff2d8e39c671": "The paper reviews cellular senescence in cancer, detailing its six hallmarks and paradoxical effects on tumor growth, and emphasizes its emerging role in precision cancer therapy."
         }
       }
     },
@@ -3658,7 +3689,7 @@
         "4f0fe22de2a0e9cb1ea6be07a340a30d6bf387717f7355d8923d1b16d2b6921f",
         "b3a40d2df389693953e8ec13a08a93e5118c7e6f2b193df073d767e7ddbe5cc0"
       ],
-      "last_checked_at": "2026-04-04T03:48:26+00:00",
+      "last_checked_at": "2026-04-04T08:01:39+00:00",
       "feed_title": "Cell Host & Microbe",
       "pending_items": [],
       "site_url": "https://www.cell.com/cell-host-microbe/archive?publicationCode=chom&rss=yes"
@@ -3749,7 +3780,7 @@
         "07c412e1577f64910e76b69b1db0886cc141cc795b7f0d7ef5e5c337e18bb859",
         "10d5a740122588343451f3ddde2a0436e214c302daa6a000bd7bcb558717cad8"
       ],
-      "last_checked_at": "2026-04-04T03:48:28+00:00",
+      "last_checked_at": "2026-04-04T08:01:40+00:00",
       "feed_title": "Nature",
       "pending_items": [
         {
@@ -3761,20 +3792,19 @@
           "sort_key": 1775174400.0,
           "source_kind": "article",
           "text": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. For the second year in a row, US President Donald Trump has proposed significant cuts to the budgets of major US science agencies. Released Friday, the White House’s plan for federal spending next year also includes a ban on using federal funds for subscriptions and publishing fees for some academic journals. The plan proposes cuts to federal agencies that fund or conduct research on health, space and the environment. Some of the steepest cuts would be made to the National Science Foundation (NSF) and the Environmental Protection Agency (EPA): the budgets of both would fall more than 50% in 2027 compared to their current levels (see ‘Budget crunch’). The budget for the US National Institutes of Health would drop 13%. A budget document says that the proposal would maintainfunding for research on quantum information and artificial intelligence “to ensure the United States remains on the cutting edge” in those arenas. The administration plans to increase applied research funding on those topics at the defence and energy departments, says Alessandra Zimmermann, who tracks science budgets and policy at the American Association for the Advancement of Science (AAAS), a non-profit organization in Washington DC. But basic quantum and AI research funding at NSF, for example, would be cut by 37% and 32%, respectively. Ultimately, it is the US Congress that decides how the federal budget will be spent — not the president. Congress rejected the administration’s requests for huge cuts in 2026, restoring funding for many of the programmes the White House sought to eliminate. Trump’s proposal is a starting point for congressional negotiations, which could last until the start of the 2027 fiscal year on 1 October — or even beyond it, because of Congressional elections on 3 November, Zimmermann says. The budget would increase funding for presidential priorities – such as the military, which would receive US $1.5 trillion, a 44% increase – while reining in spending on many domestic programmes. Sweeping changes The White House seeks to slash the NSF budget by nearly 55%, to $4 billion. The proposal also cuts all funding for the NSF division that funds research on the social sciences and economics. At an internal all-hands meeting on Friday, NSF leaders announced that they would dissolve the agency’s Social, Behavioral and Economic Sciences directorate based on the budget request, according to two NSF staff members who shared information anonymously in order to speak freely. The NSF’s budget request to Congress states that the agency will shut down the SBE but maintain SBE “grants that align with Administration priorities, such as in behavioral and cognitive science, and all impacted employees will be transferred to other parts of the agency.” Budget crunch The Trump administration has proposed a plan to reduce funding for many science-related agencies. All figures are in US dollars. The proposed cuts to the NSF would be “devastating,” says Leigh Stearns, a glaciologist at the University of Pennsylvania in Philadelphia. “We cannot cut the pipeline and expect the output to continue. This is how the US loses its scientific leadership — with a reckless budget line.” NASA faces a 23% cut to its total budget and a 47% drop in funding for its science division. More than 40 projects would be terminated. “It's an extinction-level event for science,” says Casey Dreier, chief of space policy at the Planetary Society, a non-profit organization in Pasadena, California, that advocates for space exploration. “It would undermine and prevent NASA from being the world leader in space exploration.” NASA declined to comment on Dreier’s s…",
-          "tldr": "The 2027 budget proposal from the Trump administration includes a 55% cut to NSF, elimination of its social sciences division, a ban on federal funding for some journal subscriptions, and cuts to basic quantum/AI research with increased applied funding at defense departments."
+          "tldr": "The Trump administration's 2027 budget proposal targets US science agencies with deep cuts, including a 55% reduction for NSF and elimination of its social sciences division, while maintaining funding for quantum and AI research but cutting basic NSF programs. Congress must approve the budget, having previously rejected similar reductions."
         }
       ],
       "site_url": "http://feeds.nature.com/nature/rss/current",
       "summary": {
-        "tldr": "The Trump administration has proposed massive budget cuts for US science agencies in its 2027 spending plan, with NSF facing a 55% reduction and EPA and NASA science divisions over 50% cuts. The plan dissolves NSF's social sciences directorate, bans federal funds for some academic journal subscriptions, and cuts basic quantum and AI research while boosting applied funding at defense and energy departments. Congress will negotiate the final budget, having rejected similar cuts in 2026.",
+        "tldr": "The Trump administration has proposed massive budget cuts for US science agencies in the 2027 fiscal year, including over 50% reductions for NSF and EPA, elimination of NSF's social sciences division, and a ban on federal journal funding. While increasing military spending by 44% and maintaining some quantum and AI research, the plan faces congressional negotiation where similar cuts were rejected in 2026.",
         "highlights": [
-          "NSF budget cut 55% to $4 billion",
-          "EPA and NASA science divisions face >50% reductions",
-          "NSF social sciences directorate dissolved",
-          "Ban on federal journal subscription funding; applied quantum/AI research increased"
+          "NSF budget cut 55% to $4B; social sciences directorate eliminated",
+          "EPA and NASA science face >50% and 47% cuts; journal subscription ban imposed",
+          "Military funding up 44%; Congress to finalize budget after 2026 rejections"
         ],
         "item_tldrs": {
-          "ea0caaab14f3cf33e2ac8049911359bbdbdbae03a4ae897211e479a439582f11": "The 2027 budget proposal from the Trump administration includes a 55% cut to NSF, elimination of its social sciences division, a ban on federal funding for some journal subscriptions, and cuts to basic quantum/AI research with increased applied funding at defense departments."
+          "ea0caaab14f3cf33e2ac8049911359bbdbdbae03a4ae897211e479a439582f11": "The Trump administration's 2027 budget proposal targets US science agencies with deep cuts, including a 55% reduction for NSF and elimination of its social sciences division, while maintaining funding for quantum and AI research but cutting basic NSF programs. Congress must approve the budget, having previously rejected similar reductions."
         }
       }
     },
@@ -3789,7 +3819,7 @@
         "99e9bedd1926f0fad58b39aa6b2a0a462bd3978fe7cde041639665c16cad001a",
         "1367489135cbaf9338af1a66f470ee9a23ed1ccb12935e12e4f7643ff115612c"
       ],
-      "last_checked_at": "2026-04-04T03:49:05+00:00",
+      "last_checked_at": "2026-04-04T08:02:14+00:00",
       "feed_title": "Nature Biomedical Engineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natbiomedeng/rss/current"
@@ -3805,13 +3835,19 @@
         "5a098fa5d68b878f64b3485e551b4807294c280020b80a1b76af917c4a312665",
         "7aa4c21afb1825dc95de1cd757e93acc6e93d4f03e446ab142ca6792474ed2c1"
       ],
-      "last_checked_at": "2026-04-04T03:49:05+00:00",
+      "last_checked_at": "2026-04-04T08:02:14+00:00",
       "feed_title": "Nature Biotechnology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nbt/rss/current"
     },
     "https://www.nature.com/ncomms.rss": {
       "seen_ids": [
+        "9c5257eabba68a9ea91ca659beee6a0e09b24db593fe62a4df3d9445fdd85a03",
+        "f82a88e7e132b4fe0a93c827826709535f802e902cffd7ef22ca70feca964f7b",
+        "7af235244c75525a8605a6c0a1a840e46916c8b908ada14756c4161f876ce560",
+        "9c85a230bf6d62fac6d1eaa44f031a9c7e0a6026cb40cf78baade17bd1dcfffa",
+        "101125c5a901f31ea0af2953f3724510bf8da51a63849dd5231061b6bbd4cc29",
+        "ca7f21793cdb19fe2787ac2ebc6dec97ff57dbffa58ad861e27fc075425746ff",
         "bbc614b9c5c4691c9452e4e658d08407f2836f361a6f1f4cbe0013a7d8456261",
         "3bbde67c40149e142defd898903b83f113238bface5a6f69556cd0fedefd673f",
         "0bcf86dd120d02a84e55d3b80ba6f38e54642ee4f43efc7b2fadc299966b47c1",
@@ -3845,9 +3881,75 @@
         "b61c88dfa5f6543b14060449e02eb4e59c0d9d14576314be6b043e3f8a1cdee7",
         "c980a7df10707e2eafa44ad512d1b61b80a1a9b6be21dd3db37faacf55b92660"
       ],
-      "last_checked_at": "2026-04-04T03:49:05+00:00",
+      "last_checked_at": "2026-04-04T08:02:14+00:00",
       "feed_title": "Nature Communications",
       "pending_items": [
+        {
+          "id": "9c5257eabba68a9ea91ca659beee6a0e09b24db593fe62a4df3d9445fdd85a03",
+          "signature": "455e9c02eb605e03f13e6de9ad3c347d9d1922ac54003bf44951cc1dfcd359f5",
+          "title": "Layer-selective hydrogenation and proton transport in twisted bilayer graphene",
+          "link": "https://www.nature.com/articles/s41467-026-71147-y",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71147-y Authors demonstrate layer-selective conductor–insulator transitions in twisted bilayer graphene driven by hydrogenation, realising an electrochemical interface with two decoupled 2D electron gases that enables configurable logic gates. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71147-y Authors demonstrate layer-selective conductor–insulator transitions in twisted bilayer graphene driven by hydrogenation, realising an electrochemical interface with two decoupled 2D electron gases that enables configurable logic gates. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71147-y Authors demonstrate layer-selective conductor–insulator transitions in twisted bilayer graphene driven by hydrogenation, realising an electrochemical interface with two decoupled 2D electron gases that enables configurable logic gates.",
+          "tldr": "Hydrogenation induces layer-selective conductor-insulator transitions in twisted bilayer graphene, creating an electrochemical interface for configurable logic gates."
+        },
+        {
+          "id": "f82a88e7e132b4fe0a93c827826709535f802e902cffd7ef22ca70feca964f7b",
+          "signature": "026bec5d96c48b896823302b5bc8c55137c243c3687f391092cbc891e499c8fd",
+          "title": "Repulsion from slow-diffusing nutrients improves microbial chemotaxis towards moving sources",
+          "link": "https://www.nature.com/articles/s41467-026-71148-x",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71148-x Microbes usually follow increasing nutrient concentrations to reach their source. However, Bloxham et al. show that adding repulsion from some nutrients to attraction to others can improve chemotaxis towards a moving source – potentially explaining E. coli’s repulsion from certain amino acids. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71148-x Microbes usually follow increasing nutrient concentrations to reach their source. However, Bloxham et al. show that adding repulsion from some nutrients to attraction to others can improve chemotaxis towards a moving source – potentially explaining E. coli’s repulsion from certain amino acids. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71148-x Microbes usually follow increasing nutrient concentrations to reach their source. However, Bloxham et al. show that adding repulsion from some nutrients to attraction to others can improve chemotaxis towards a moving source – potentially explaining E. coli’s repulsion from certain amino acids.",
+          "tldr": "Adding repulsion from some nutrients to attraction to others improves microbial chemotaxis towards moving sources, as demonstrated with E. coli."
+        },
+        {
+          "id": "7af235244c75525a8605a6c0a1a840e46916c8b908ada14756c4161f876ce560",
+          "signature": "879ea5771ca5070efdb15ade317dbbdd4f986a12475d5d4244f84e7fecc0f29d",
+          "title": "Targeting IP 6 signaling to destabilize homologous recombination proteins to overcome PARP inhibitor resistance",
+          "link": "https://www.nature.com/articles/s41467-026-71421-z",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71421-z Homologous recombination (HR) safeguards genome stability, but the regulation of HR proteins remains unclear. Here, the authors show that the compound UNI418 inhibits lipid kinases PIKfyve and PIP5K1C, reducing IP6 levels and triggering Cul4A–WDR5 dependent degradation of HR proteins, thereby suppressing HR and overcoming PARP inhibitor resistance. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71421-z Homologous recombination (HR) safeguards genome stability, but the regulation of HR proteins remains unclear. Here, the authors show that the compound UNI418 inhibits lipid kinases PIKfyve and PIP5K1C, reducing IP6 levels and triggering Cul4A–WDR5 dependent degradation of HR proteins, thereby suppressing HR and overcoming PARP inhibitor resistance. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71421-z Homologous recombination (HR) safeguards genome stability, but the regulation of HR proteins remains unclear. Here, the authors show that the compound UNI418 inhibits lipid kinases PIKfyve and PIP5K1C, reducing IP6 levels and triggering Cul4A–WDR5 dependent degradation of HR proteins, thereby suppressing HR and overcoming PARP inhibitor resistance.",
+          "tldr": "The compound UNI418 inhibits lipid kinases to reduce IP6, triggering degradation of homologous recombination proteins and overcoming PARP inhibitor resistance."
+        },
+        {
+          "id": "9c85a230bf6d62fac6d1eaa44f031a9c7e0a6026cb40cf78baade17bd1dcfffa",
+          "signature": "52ef7ff89b57d3077c39f749ef1feda41b4b614377e9edfe5e338b2aae889a6a",
+          "title": "Functional synaptic connectivity shapes spine stability in the hippocampus",
+          "link": "https://www.nature.com/articles/s41467-026-71332-z",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71332-z In this study, the authors find that synaptic strength predicts spine size and long-term stability via in vivo imaging together with optogenetic stimulation in awake mice. While individual synapses show variable responses over time, dendritic branches maintain stable input. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71332-z In this study, the authors find that synaptic strength predicts spine size and long-term stability via in vivo imaging together with optogenetic stimulation in awake mice. While individual synapses show variable responses over time, dendritic branches maintain stable input. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71332-z In this study, the authors find that synaptic strength predicts spine size and long-term stability via in vivo imaging together with optogenetic stimulation in awake mice. While individual synapses show variable responses over time, dendritic branches maintain stable input.",
+          "tldr": "Synaptic strength predicts spine size and long-term stability in the hippocampus, with dendritic branches maintaining stable input despite synaptic variability."
+        },
+        {
+          "id": "101125c5a901f31ea0af2953f3724510bf8da51a63849dd5231061b6bbd4cc29",
+          "signature": "3a6f3eabaede1fea80a809217a53f14fb00904ef4c4babe7557b249df8e78e11",
+          "title": "Antibiotic resistance gene analyses in microbial communities: challenges and opportunities",
+          "link": "https://www.nature.com/articles/s41467-026-71462-4",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71462-4 There is an increasing interest in studying antibiotic resistance genes in microbial communities, however, there is no unified way to identify them in metagenomics datasets or to interpret the risks associated with them. In this Comment, the authors discuss current technical challenges and how to mitigate them. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71462-4 There is an increasing interest in studying antibiotic resistance genes in microbial communities, however, there is no unified way to identify them in metagenomics datasets or to interpret the risks associated with them. In this Comment, the authors discuss current technical challenges and how to mitigate them. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71462-4 There is an increasing interest in studying antibiotic resistance genes in microbial communities, however, there is no unified way to identify them in metagenomics datasets or to interpret the risks associated with them. In this Comment, the authors discuss current technical challenges and how to mitigate them.",
+          "tldr": "This Comment discusses the lack of unified methods for identifying and interpreting antibiotic resistance genes in metagenomics data, outlining challenges and solutions."
+        },
+        {
+          "id": "ca7f21793cdb19fe2787ac2ebc6dec97ff57dbffa58ad861e27fc075425746ff",
+          "signature": "728a84246e7cab59df6a642818f506c16c692a2c940b04a93d05a20fa611fb3a",
+          "title": "Common and distinct neural correlates of social interaction processing and theory of mind in narratives",
+          "link": "https://www.nature.com/articles/s41467-026-71151-2",
+          "published": "2026-04-04 00:00 UTC",
+          "sort_key": 1775260800.0,
+          "source_kind": "feed",
+          "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71151-2 Miao et al. find that recognizing social interactions in third-person narratives engages canonical brain areas subserving theory of mind. Using theory of mind recruits additional areas linked to action understanding. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71151-2 Miao et al. find that recognizing social interactions in third-person narratives engages canonical brain areas subserving theory of mind. Using theory of mind recruits additional areas linked to action understanding. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71151-2 Miao et al. find that recognizing social interactions in third-person narratives engages canonical brain areas subserving theory of mind. Using theory of mind recruits additional areas linked to action understanding.",
+          "tldr": "Recognizing social interactions in narratives engages theory of mind brain areas, while explicit theory of mind use recruits additional regions for action understanding."
+        },
         {
           "id": "bbc614b9c5c4691c9452e4e658d08407f2836f361a6f1f4cbe0013a7d8456261",
           "signature": "2c1fa3782c287cee4f2aeb53a46661edff830873eaf0927df126aed4c446de94",
@@ -3857,7 +3959,7 @@
           "sort_key": 1775260800.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71402-2 Topological states are commonly localised at the interface between topologically distinct domains. By combining various artificial gauge fields with artificial neural networks to design the system energy landscape, here, authors propose a technique to transform topological modes into states with arbitrary shape. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71402-2 Topological states are commonly localised at the interface between topologically distinct domains. By combining various artificial gauge fields with artificial neural networks to design the system energy landscape, here, authors propose a technique to transform topological modes into states with arbitrary shape. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71402-2 Topological states are commonly localised at the interface between topologically distinct domains. By combining various artificial gauge fields with artificial neural networks to design the system energy landscape, here, authors propose a technique to transform topological modes into states with arbitrary shape.",
-          "tldr": "Authors propose combining artificial gauge fields with neural networks to design energy landscapes, transforming topological modes into arbitrary shapes on photonic chips."
+          "tldr": "Combining artificial gauge fields with neural networks allows topological photonic modes to be transformed into arbitrary shapes on chips."
         },
         {
           "id": "3bbde67c40149e142defd898903b83f113238bface5a6f69556cd0fedefd673f",
@@ -3868,7 +3970,7 @@
           "sort_key": 1775260800.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71485-x DNA can store vast amounts of data, but current systems rely on many redundant copies and deep sequencing to correct synthetic, storage and readout errors. Here, authors present Gungnir, a DNA storage codec that recovers data from a single, highly error-prone sequence, reducing cost and improving reliability. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71485-x DNA can store vast amounts of data, but current systems rely on many redundant copies and deep sequencing to correct synthetic, storage and readout errors. Here, authors present Gungnir, a DNA storage codec that recovers data from a single, highly error-prone sequence, reducing cost and improving reliability. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71485-x DNA can store vast amounts of data, but current systems rely on many redundant copies and deep sequencing to correct synthetic, storage and readout errors. Here, authors present Gungnir, a DNA storage codec that recovers data from a single, highly error-prone sequence, reducing cost and improving reliability.",
-          "tldr": "Gungnir is a DNA storage codec that recovers data from a single, highly error-prone sequence, reducing reliance on redundant copies and deep sequencing."
+          "tldr": "Gungnir is a DNA storage codec that recovers data from single error-prone sequences, reducing redundancy and cost while improving reliability."
         },
         {
           "id": "0bcf86dd120d02a84e55d3b80ba6f38e54642ee4f43efc7b2fadc299966b47c1",
@@ -3879,7 +3981,7 @@
           "sort_key": 1775260800.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71398-9 It remains unclear how viral genomes remain relatively stable over time, given the rapid co-evolution seen within hosts. Here, authors explore complex marine phage-bacteria dynamics using over 1000 phages and 600 bacterial hosts and identify oysters as hotspots for gene exchange. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71398-9 It remains unclear how viral genomes remain relatively stable over time, given the rapid co-evolution seen within hosts. Here, authors explore complex marine phage-bacteria dynamics using over 1000 phages and 600 bacterial hosts and identify oysters as hotspots for gene exchange. Nature Communications, Published online: 04 April 2026; doi:10.1038/s41467-026-71398-9 It remains unclear how viral genomes remain relatively stable over time, given the rapid co-evolution seen within hosts. Here, authors explore complex marine phage-bacteria dynamics using over 1000 phages and 600 bacterial hosts and identify oysters as hotspots for gene exchange.",
-          "tldr": "Study of over 1000 phages and 600 bacterial hosts reveals oysters as hotspots for gene exchange in marine phage-bacteria dynamics."
+          "tldr": "Study of marine phage-bacteria dynamics identifies oysters as hotspots for gene exchange, explaining viral genome stability."
         },
         {
           "id": "3fde9f411c5e7d1e15df792f90113e561b1daffac61e0829a460e630a1cf73d1",
@@ -3890,7 +3992,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71441-9 Controlled generation of 3D molecules with desired properties can speed up drug discovery. Here, the authors propose a semantics-guided diffusion model to achieve precise and data-efficient multi-properly control. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71441-9 Controlled generation of 3D molecules with desired properties can speed up drug discovery. Here, the authors propose a semantics-guided diffusion model to achieve precise and data-efficient multi-properly control. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71441-9 Controlled generation of 3D molecules with desired properties can speed up drug discovery. Here, the authors propose a semantics-guided diffusion model to achieve precise and data-efficient multi-properly control.",
-          "tldr": "A semantics-guided diffusion model enables precise and data-efficient multi-property control for generating 3D molecules, accelerating drug discovery."
+          "tldr": "A semantics-guided diffusion model enables precise and data-efficient multi-property control in 3D molecule generation for drug discovery."
         },
         {
           "id": "b58c7763fd488b23a9cf57eef50bdb1c0f3ae5a8fdb3c653391a1f78068fa51e",
@@ -3901,7 +4003,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70428-w An analysis of satellite data follows ~1 km3 of flood water drain over only 3 weeks from a glacier-covered lake along a 50 km path beneath the ice to the glacier margin, providing important insight for predicting the future of glaciers and ice sheets. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70428-w An analysis of satellite data follows ~1 km3 of flood water drain over only 3 weeks from a glacier-covered lake along a 50 km path beneath the ice to the glacier margin, providing important insight for predicting the future of glaciers and ice sheets. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-70428-w An analysis of satellite data follows ~1 km3 of flood water drain over only 3 weeks from a glacier-covered lake along a 50 km path beneath the ice to the glacier margin, providing important insight for predicting the future of glaciers and ice sheets.",
-          "tldr": "Satellite data analysis tracks approximately 1 km³ of flood water draining under a glacier in 3 weeks, providing insights for predicting glacier and ice sheet behavior."
+          "tldr": "Satellite data tracks subglacial flood water draining ~1 km3 over 3 weeks along a 50 km path, providing insights into glacier dynamics."
         },
         {
           "id": "ed2094e1101c36c048c4a05b5b2e813674d00315281242d494c5df3578b8b199",
@@ -3912,7 +4014,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71357-4 Social rewards hold therapeutic potential for alleviating drug relapse, yet the neural substrates remain unclear. Here, authors show that social reward and drug relapse activate distinct dopaminergic populations within the VTA, which dynamically compete to regulate behavioral outcomes. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71357-4 Social rewards hold therapeutic potential for alleviating drug relapse, yet the neural substrates remain unclear. Here, authors show that social reward and drug relapse activate distinct dopaminergic populations within the VTA, which dynamically compete to regulate behavioral outcomes. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71357-4 Social rewards hold therapeutic potential for alleviating drug relapse, yet the neural substrates remain unclear. Here, authors show that social reward and drug relapse activate distinct dopaminergic populations within the VTA, which dynamically compete to regulate behavioral outcomes.",
-          "tldr": "Social reward and drug relapse activate distinct dopaminergic populations in the VTA that compete to regulate behavioral outcomes, with therapeutic implications for addiction."
+          "tldr": "Social reward and drug relapse activate distinct dopaminergic ensembles in the VTA that compete to regulate relapse behavior."
         },
         {
           "id": "ec93bb60a8c2cdcb055e05a48d626878652518347f911d5356e8663bfe953be8",
@@ -3923,7 +4025,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71152-1 Authors present a framework that harmonizes electronic health record data across hospitals by integrating medical knowledge, large language models, and graph learning. It enables cross-institutional analysis without sharing patient-level data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71152-1 Authors present a framework that harmonizes electronic health record data across hospitals by integrating medical knowledge, large language models, and graph learning. It enables cross-institutional analysis without sharing patient-level data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71152-1 Authors present a framework that harmonizes electronic health record data across hospitals by integrating medical knowledge, large language models, and graph learning. It enables cross-institutional analysis without sharing patient-level data.",
-          "tldr": "A framework harmonizes electronic health record data across hospitals using medical knowledge, large language models, and graph learning, enabling analysis without sharing patient-level data."
+          "tldr": "A framework integrating medical knowledge, LLMs, and graph learning harmonizes EHR data across institutions without sharing patient-level data."
         },
         {
           "id": "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1",
@@ -3934,7 +4036,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71253-x Here they show that a subpopulation of distal SOX9+ lung progenitors controls lung size through lung bud bifurcation and undergoes transitional states to generate cell types in the conducting airways and the gas-exchange unit, the alveolus. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71253-x Here they show that a subpopulation of distal SOX9+ lung progenitors controls lung size through lung bud bifurcation and undergoes transitional states to generate cell types in the conducting airways and the gas-exchange unit, the alveolus. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71253-x Here they show that a subpopulation of distal SOX9+ lung progenitors controls lung size through lung bud bifurcation and undergoes transitional states to generate cell types in the conducting airways and the gas-exchange unit, the alveolus.",
-          "tldr": "A subpopulation of distal SOX9+ lung progenitors controls lung size through bifurcation and transitions to generate conducting airway and alveolar cell types."
+          "tldr": "Distal SOX9+ lung progenitors, regulated by Hippo signaling, control lung size through bifurcation and transition to form airway and alveolar cells."
         },
         {
           "id": "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f",
@@ -3945,7 +4047,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71216-2 Landform assemblages co-develop with ecosystems to distinguish fundamental permafrost properties across a continental-scale ecoclimate gradient, combining into finer-scale permafrost landsystems that vary with geological and climatic legacies to define predictable consequences of thaw. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71216-2 Landform assemblages co-develop with ecosystems to distinguish fundamental permafrost properties across a continental-scale ecoclimate gradient, combining into finer-scale permafrost landsystems that vary with geological and climatic legacies to define predictable consequences of thaw. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71216-2 Landform assemblages co-develop with ecosystems to distinguish fundamental permafrost properties across a continental-scale ecoclimate gradient, combining into finer-scale permafrost landsystems that vary with geological and climatic legacies to define predictable consequences of thaw.",
-          "tldr": "Permafrost landsystems, defined by landform assemblages and ecosystems, vary with geological and climatic legacies to predict regional consequences of thaw."
+          "tldr": "Permafrost landsystems, defined by landform-ecosystem interactions and geological-climatic legacies, predict regional thaw consequences."
         },
         {
           "id": "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129",
@@ -3956,7 +4058,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71305-2 Particle processing plays a critical role in advancing solid state batteries. Here, authors show how solvent-free mechanofusion enables mixed conducting matrix coatings on cathode particles and relate coating quality to macroscopic mixing stresses for scalable solid state battery manufacturing.",
-          "tldr": "Solvent-free mechanofusion creates mixed conducting matrix coatings on cathode particles, with coating quality linked to mixing stresses for scalable solid-state battery manufacturing."
+          "tldr": "Solvent-free mechanofusion applies mixed conducting matrix coatings on cathode particles, with quality tied to mixing stresses for scalable battery manufacturing."
         },
         {
           "id": "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c",
@@ -3967,7 +4069,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data. Nature Communications, Published online: 03 April 2026; doi:10.1038/s41467-026-71509-6 The origins of life are steeped in mystery, but the AI revolution could transform this field. Here, the authors use AI-based protein design software to uncover a broad range of protein folds that can be formed from small, primordial amino acid libraries constrained by asteroid and prebiotic chemistry data.",
-          "tldr": "AI-based protein design shows that small primordial amino acid libraries, constrained by asteroid Bennu data, can form a wide range of protein folds, informing origins of life."
+          "tldr": "AI-based protein design from a limited primordial amino acid library, informed by asteroid data, reveals a wide range of possible protein folds."
         },
         {
           "id": "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572",
@@ -4027,29 +4129,30 @@
       ],
       "site_url": "http://feeds.nature.com/ncomms/rss/current",
       "summary": {
-        "tldr": "This digest features 16 recent papers from Nature Communications spanning photonics, biotechnology, environmental science, and biomedicine. Key advances include techniques for sculpting topological photonic modes, a DNA storage codec that reduces redundancy, and insights into marine phage-bacteria dynamics. AI applications range from 3D molecule generation to healthcare data harmonization, while studies address glacier outburst floods, permafrost thaw, and neural mechanisms of addiction.",
+        "tldr": "This Nature Communications digest covers diverse research from materials science to environmental studies. Key advances include layer-selective control in graphene for logic gates, insights into microbial chemotaxis and phage dynamics, and a new approach to overcome cancer drug resistance. Neural mechanisms of social behavior and topological photonics are also featured, along with innovations in DNA storage, health data harmonization, and battery technology. Studies on glacial floods, lung development, permafrost thaw, and protein design for origins of life round out the collection.",
         "highlights": [
-          "Sculpting topological photonic modes using artificial gauge fields and neural networks.",
-          "Gungnir codec enables reliable DNA data recovery from single error-prone sequences.",
-          "Oysters identified as hotspots for gene exchange in marine phage-bacteria systems."
+          "Hydrogenation enables configurable logic gates in twisted bilayer graphene.",
+          "Nutrient repulsion improves microbial chemotaxis to moving sources.",
+          "UNI418 compound overcomes PARP inhibitor resistance by degrading HR proteins."
         ],
         "item_tldrs": {
-          "bbc614b9c5c4691c9452e4e658d08407f2836f361a6f1f4cbe0013a7d8456261": "Authors propose combining artificial gauge fields with neural networks to design energy landscapes, transforming topological modes into arbitrary shapes on photonic chips.",
-          "3bbde67c40149e142defd898903b83f113238bface5a6f69556cd0fedefd673f": "Gungnir is a DNA storage codec that recovers data from a single, highly error-prone sequence, reducing reliance on redundant copies and deep sequencing.",
-          "0bcf86dd120d02a84e55d3b80ba6f38e54642ee4f43efc7b2fadc299966b47c1": "Study of over 1000 phages and 600 bacterial hosts reveals oysters as hotspots for gene exchange in marine phage-bacteria dynamics.",
-          "3fde9f411c5e7d1e15df792f90113e561b1daffac61e0829a460e630a1cf73d1": "A semantics-guided diffusion model enables precise and data-efficient multi-property control for generating 3D molecules, accelerating drug discovery.",
-          "b58c7763fd488b23a9cf57eef50bdb1c0f3ae5a8fdb3c653391a1f78068fa51e": "Satellite data analysis tracks approximately 1 km³ of flood water draining under a glacier in 3 weeks, providing insights for predicting glacier and ice sheet behavior.",
-          "ed2094e1101c36c048c4a05b5b2e813674d00315281242d494c5df3578b8b199": "Social reward and drug relapse activate distinct dopaminergic populations in the VTA that compete to regulate behavioral outcomes, with therapeutic implications for addiction.",
-          "ec93bb60a8c2cdcb055e05a48d626878652518347f911d5356e8663bfe953be8": "A framework harmonizes electronic health record data across hospitals using medical knowledge, large language models, and graph learning, enabling analysis without sharing patient-level data.",
-          "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1": "A subpopulation of distal SOX9+ lung progenitors controls lung size through bifurcation and transitions to generate conducting airway and alveolar cell types.",
-          "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f": "Permafrost landsystems, defined by landform assemblages and ecosystems, vary with geological and climatic legacies to predict regional consequences of thaw.",
-          "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129": "Solvent-free mechanofusion creates mixed conducting matrix coatings on cathode particles, with coating quality linked to mixing stresses for scalable solid-state battery manufacturing.",
-          "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c": "AI-based protein design shows that small primordial amino acid libraries, constrained by asteroid Bennu data, can form a wide range of protein folds, informing origins of life.",
-          "1385b748ad7039f0cf5b0e473410cfa73e1b52db87a27d0f8d21dcd593243572": "Combining resonant X-ray emission spectroscopy and absorption imaging from an XFEL probe achieves sub-picosecond resolution of heating and ionization in solid-density plasmas.",
-          "b32a9407c1efd4051416e117b7241b790b89e68e6c2eb07a0c0d5a880fdb91cc": "Solution-processed photovoltaic-thermoelectric hybrid systems optimized for heat utilization and current matching demonstrate a maximum efficiency of 50.28%.",
-          "bb58555c49d80ab09db2a0eeb51917c35cc4908aeec9b1083a83f29365c9a3a4": "An AI system integrating large language models with a phenotype toolkit automates crop analysis, reducing technical barriers and enhancing accessibility.",
-          "5af8723adaf359881a69084a8bd9dc172aee624767749798e26a6158a0d7369b": "Oncogenic RAS induces replication stress through ROS-driven replisome alterations, leading to R-loop-dependent fork reversal, with distinct mechanisms converging from RAS and cyclin E1.",
-          "e55957c4ce44ef1592014fb8b7f0fa42d32b44225511a137721c9b9531331a0a": "Deep sequencing of AMP trial participants shows 38% multilineage HIV infections, including coinfection with sensitive and resistant viruses, and demonstrates VRC01 does not alter the transmission bottleneck."
+          "9c5257eabba68a9ea91ca659beee6a0e09b24db593fe62a4df3d9445fdd85a03": "Hydrogenation induces layer-selective conductor-insulator transitions in twisted bilayer graphene, creating an electrochemical interface for configurable logic gates.",
+          "f82a88e7e132b4fe0a93c827826709535f802e902cffd7ef22ca70feca964f7b": "Adding repulsion from some nutrients to attraction to others improves microbial chemotaxis towards moving sources, as demonstrated with E. coli.",
+          "7af235244c75525a8605a6c0a1a840e46916c8b908ada14756c4161f876ce560": "The compound UNI418 inhibits lipid kinases to reduce IP6, triggering degradation of homologous recombination proteins and overcoming PARP inhibitor resistance.",
+          "9c85a230bf6d62fac6d1eaa44f031a9c7e0a6026cb40cf78baade17bd1dcfffa": "Synaptic strength predicts spine size and long-term stability in the hippocampus, with dendritic branches maintaining stable input despite synaptic variability.",
+          "101125c5a901f31ea0af2953f3724510bf8da51a63849dd5231061b6bbd4cc29": "This Comment discusses the lack of unified methods for identifying and interpreting antibiotic resistance genes in metagenomics data, outlining challenges and solutions.",
+          "ca7f21793cdb19fe2787ac2ebc6dec97ff57dbffa58ad861e27fc075425746ff": "Recognizing social interactions in narratives engages theory of mind brain areas, while explicit theory of mind use recruits additional regions for action understanding.",
+          "bbc614b9c5c4691c9452e4e658d08407f2836f361a6f1f4cbe0013a7d8456261": "Combining artificial gauge fields with neural networks allows topological photonic modes to be transformed into arbitrary shapes on chips.",
+          "3bbde67c40149e142defd898903b83f113238bface5a6f69556cd0fedefd673f": "Gungnir is a DNA storage codec that recovers data from single error-prone sequences, reducing redundancy and cost while improving reliability.",
+          "0bcf86dd120d02a84e55d3b80ba6f38e54642ee4f43efc7b2fadc299966b47c1": "Study of marine phage-bacteria dynamics identifies oysters as hotspots for gene exchange, explaining viral genome stability.",
+          "3fde9f411c5e7d1e15df792f90113e561b1daffac61e0829a460e630a1cf73d1": "A semantics-guided diffusion model enables precise and data-efficient multi-property control in 3D molecule generation for drug discovery.",
+          "b58c7763fd488b23a9cf57eef50bdb1c0f3ae5a8fdb3c653391a1f78068fa51e": "Satellite data tracks subglacial flood water draining ~1 km3 over 3 weeks along a 50 km path, providing insights into glacier dynamics.",
+          "ed2094e1101c36c048c4a05b5b2e813674d00315281242d494c5df3578b8b199": "Social reward and drug relapse activate distinct dopaminergic ensembles in the VTA that compete to regulate relapse behavior.",
+          "ec93bb60a8c2cdcb055e05a48d626878652518347f911d5356e8663bfe953be8": "A framework integrating medical knowledge, LLMs, and graph learning harmonizes EHR data across institutions without sharing patient-level data.",
+          "3c946b15ab3d667cda7d60a73af6c3de767fd828ea49c718a8e80504c2486ee1": "Distal SOX9+ lung progenitors, regulated by Hippo signaling, control lung size through bifurcation and transition to form airway and alveolar cells.",
+          "a03df93c941aeb2ccf2ad6904eb65b809a3e5ccb4abea8cc5115271af80eec9f": "Permafrost landsystems, defined by landform-ecosystem interactions and geological-climatic legacies, predict regional thaw consequences.",
+          "5c2bf60a4dd98b14267f35686377b8cb2ae656b8e027bdd422a6d41821daa129": "Solvent-free mechanofusion applies mixed conducting matrix coatings on cathode particles, with quality tied to mixing stresses for scalable battery manufacturing.",
+          "6b63db9f2010b4478897d4d66c8960b4b5640f6eb6ee0d9908da36502e92ac6c": "AI-based protein design from a limited primordial amino acid library, informed by asteroid data, reveals a wide range of possible protein folds."
         }
       }
     },
@@ -4066,7 +4169,7 @@
         "80cbb56527b22987d8e6ca3d6cf765cde01dae8f392f163c5b3eeb9e54b35654",
         "ab1b1b4d13a9d3f3c7f4a35fbc0b68f21e1984c8a54f4b516da33fc7d34342ec"
       ],
-      "last_checked_at": "2026-04-04T03:49:56+00:00",
+      "last_checked_at": "2026-04-04T08:03:18+00:00",
       "feed_title": "Nature Computational Science",
       "pending_items": [
         {
@@ -4078,7 +4181,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data.",
-          "tldr": "A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities, scanners, and tasks without requiring clean training data."
+          "tldr": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, s…"
         },
         {
           "id": "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1",
@@ -4089,20 +4192,19 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods. Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for the future development of methods.",
-          "tldr": "A benchmark evaluating spatial alignment methods for spatial transcriptomics demonstrates that the best approach is dataset dependent and offers actionable guidance for future method development."
+          "tldr": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for th…"
         }
       ],
       "site_url": "http://feeds.nature.com/natcomputsci/rss/current",
       "summary": {
-        "tldr": "This digest features two papers from Nature Computational Science. The first introduces HorusEye, a self-supervised foundation model that learns noise from X-ray scans for universal tomography restoration without clean training data. The second presents a benchmark for spatial alignment methods in spatial transcriptomics, showing that the best approach is dataset dependent and offering actionable guidance for future development.",
+        "tldr": "Nature Computational Science currently has 2 retained item(s) on the page. Key items include \"Universal restoration of medical images\" and \"Benchmarking alignment methods for spatial transcriptomics data\".",
         "highlights": [
-          "HorusEye model enables robust tomography restoration across diverse modalities without clean data.",
-          "Benchmark finds spatial transcriptomics alignment methods are dataset dependent.",
-          "Both studies provide actionable insights for computational science method development."
+          "Universal restoration of medical images",
+          "Benchmarking alignment methods for spatial transcriptomics data"
         ],
         "item_tldrs": {
-          "46b8ed4f4d7589ada70438586297b10a41d09d0a427847be39ce0b30c930e0b7": "A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans to enable robust tomography restoration across diverse modalities, scanners, and tasks without requiring clean training data.",
-          "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1": "A benchmark evaluating spatial alignment methods for spatial transcriptomics demonstrates that the best approach is dataset dependent and offers actionable guidance for future method development."
+          "46b8ed4f4d7589ada70438586297b10a41d09d0a427847be39ce0b30c930e0b7": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00975-1 A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, s…",
+          "bd3e8c149d13629397bc869cab3f12b842958a991b4509f61b699ceffdf506f1": "Nature Computational Science, Published online: 03 April 2026; doi:10.1038/s43588-026-00977-z A benchmark to evaluate spatial alignment methods for spatial transcriptomics shows that the best approach is dataset dependent and offers actionable guidance for th…"
         }
       }
     },
@@ -4117,7 +4219,7 @@
         "bee403f08ea46f3c89e5608f7e08e0ce1037bebe92d3e78c3476d83637931b4f",
         "83b75a3cff906a382f2bb10c3d9b14c0d22b31d2d973f3361af8df67076e693f"
       ],
-      "last_checked_at": "2026-04-04T03:50:26+00:00",
+      "last_checked_at": "2026-04-04T08:03:38+00:00",
       "feed_title": "Nature Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/ng/rss/current"
@@ -4134,7 +4236,7 @@
         "69c28af9f81fc76cf239d0b2c716978df22b77be64b3b639584436c119efcbbb",
         "4195c9eef05c9fec26103a8ec3c52ff90a3caaf5c51e3276b056a95bdfe3e4ee"
       ],
-      "last_checked_at": "2026-04-04T03:50:26+00:00",
+      "last_checked_at": "2026-04-04T08:03:39+00:00",
       "feed_title": "Nature Health",
       "pending_items": [
         {
@@ -4146,19 +4248,19 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects. Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects. Nature Health, Published online: 03 April 2026; doi:10.1038/s44360-026-00109-x GLP-1 receptor antagonists can be classified as transitional longevity therapeutics, but more evidence is needed to assess their direct and indirect effects.",
-          "tldr": "The paper's title calls for testing GLP-1 receptor agonists for longevity benefits, while the text snippet describes GLP-1 receptor antagonists as transitional and requiring additional research."
+          "tldr": "The paper's title calls for rigorous testing of GLP-1 receptor agonists as longevity therapeutics, but the provided text states that GLP-1 receptor antagonists are transitional longevity therapeutics needing more evidence on their direct and indirect effects."
         }
       ],
       "site_url": "http://feeds.nature.com/naturehealth/rss/current",
       "summary": {
-        "tldr": "Nature Health's daily digest features a single paper on GLP-1 receptor agents in longevity research. The title advocates for rigorous testing of agonists as longevity therapeutics, but the provided text discusses antagonists as transitional and emphasizes the need for more evidence on their effects, highlighting a discrepancy in the source material.",
+        "tldr": "This feed contains one paper on GLP-1 receptor drugs for longevity therapeutics. The paper's title advocates for rigorous testing of GLP-1 receptor agonists, while the body text classifies GLP-1 receptor antagonists as transitional longevity therapeutics requiring more evidence on their direct and indirect effects. The source material is sparse and repetitive.",
         "highlights": [
-          "Title: GLP-1 receptor agonists should be rigorously tested as longevity therapeutics",
-          "Text: GLP-1 receptor antagonists classified as transitional longevity therapeutics",
-          "Text: More evidence needed to assess direct and indirect effects"
+          "GLP-1 receptor agonists should be rigorously tested as longevity therapeutics",
+          "GLP-1 receptor antagonists can be classified as transitional longevity therapeutics",
+          "More evidence is needed to assess direct and indirect effects"
         ],
         "item_tldrs": {
-          "2b8af28df3f67550990b3353ee376bf4a989a6f2e2da6b0c99f8de976e6e2e8c": "The paper's title calls for testing GLP-1 receptor agonists for longevity benefits, while the text snippet describes GLP-1 receptor antagonists as transitional and requiring additional research."
+          "2b8af28df3f67550990b3353ee376bf4a989a6f2e2da6b0c99f8de976e6e2e8c": "The paper's title calls for rigorous testing of GLP-1 receptor agonists as longevity therapeutics, but the provided text states that GLP-1 receptor antagonists are transitional longevity therapeutics needing more evidence on their direct and indirect effects."
         }
       }
     },
@@ -4173,7 +4275,7 @@
         "8fa4bcf8bd4723b65866d3b96f281b3102263b1dfbfaa4135b1e0e69229f7ac4",
         "c26c80d381b3b813f3c8bdf1c64a959e968c704b92f201f266f39ca3833df935"
       ],
-      "last_checked_at": "2026-04-04T03:51:18+00:00",
+      "last_checked_at": "2026-04-04T08:04:37+00:00",
       "feed_title": "Nature Machine Intelligence",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natmachintell/rss/current"
@@ -4193,7 +4295,7 @@
         "97fab72296e087efec833f7ae342e07b1d41f7bd388c45371b37e11f6cf2c989",
         "0f694853c3c2c38a8a367dc7c56c8e38100c0f1886338f6fb73cd698922188a8"
       ],
-      "last_checked_at": "2026-04-04T03:51:18+00:00",
+      "last_checked_at": "2026-04-04T08:04:37+00:00",
       "feed_title": "Nature Medicine",
       "pending_items": [
         {
@@ -4205,7 +4307,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04256-2 Whole-genome phylogenetic analyses have identified a case of monkeypox virus clade IIb lineage in the Republic of the Congo and co-circulation of three clade lineages, emphasizing the importance of improved surveillance given the risk of possible recombination events in the future.",
-          "tldr": "Whole-genome phylogenetic analyses identified a case of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clades Ia, Ib, and IIb, emphasizing improved surveillance to mitigate future recombination events."
+          "tldr": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clades Ia, Ib, and IIb, underscoring the importance of improved surveillance to mitigate recombination risks."
         },
         {
           "id": "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9",
@@ -4216,7 +4318,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04302-z Exposome analyses across 34 countries showed that social exposures were associated with faster functional brain aging and physical exposures with faster structural brain aging.",
-          "tldr": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging and physical exposures with faster structural brain aging."
+          "tldr": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging, while physical exposures are associated with faster structural brain aging."
         },
         {
           "id": "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886",
@@ -4227,21 +4329,21 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease. Nature Medicine, Published online: 03 April 2026; doi:10.1038/s41591-026-04305-w To accelerate therapeutic development and equip stakeholders with clear benchmarks, the authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer’s disease.",
-          "tldr": "Authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease, providing benchmarks to accelerate therapeutic development."
+          "tldr": "The authors propose target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease, aiming to accelerate development and provide clear benchmarks."
         }
       ],
       "site_url": "http://feeds.nature.com/nm/rss/current",
       "summary": {
-        "tldr": "This Nature Medicine digest includes studies on monkeypox virus lineage surveillance, global exposome impacts on brain aging, and therapeutic benchmarks for Alzheimer's disease. The findings emphasize genomic monitoring for recombination risks, differential effects of social and physical exposures on brain structure and function, and the need for clear targets to accelerate Alzheimer's treatment development.",
+        "tldr": "Nature Medicine publishes studies on monkeypox virus surveillance in the Republic of the Congo, exposome impacts on brain aging across 34 countries, and target product profiles for Alzheimer's disease therapies. Findings highlight co-circulation of multiple monkeypox clades, differential aging effects from social and physical exposures, and benchmarks to accelerate therapeutic development.",
         "highlights": [
-          "Monkeypox virus clade IIb lineage A.2.2 identified in Congo with co-circulation of clades Ia, Ib, and IIb, highlighting surveillance needs due to recombination risks.",
-          "Exposome analyses across 34 countries link social exposures to faster functional brain aging and physical exposures to faster structural brain aging.",
-          "Target product profiles outlined for Alzheimer's therapies to delay or prevent symptoms, aiming to speed development and set benchmarks."
+          "Monkeypox clade IIb lineage A.2.2 detected with co-circulation of clades Ia, Ib, and IIb, emphasizing surveillance needs.",
+          "Social exposures linked to faster functional brain aging; physical exposures to faster structural brain aging.",
+          "Target product profiles outlined to delay or prevent symptomatic Alzheimer's disease and guide development."
         ],
         "item_tldrs": {
-          "abce7ba38d8fd7bc22f77db10d1443b87a0c4a64bf5c4bf5aa24fd991930e133": "Whole-genome phylogenetic analyses identified a case of monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clades Ia, Ib, and IIb, emphasizing improved surveillance to mitigate future recombination events.",
-          "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging and physical exposures with faster structural brain aging.",
-          "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886": "Authors outline target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease, providing benchmarks to accelerate therapeutic development."
+          "abce7ba38d8fd7bc22f77db10d1443b87a0c4a64bf5c4bf5aa24fd991930e133": "Whole-genome phylogenetic analysis identified monkeypox virus clade IIb lineage A.2.2 in the Republic of the Congo and co-circulation of clades Ia, Ib, and IIb, underscoring the importance of improved surveillance to mitigate recombination risks.",
+          "cd503121808081a2f0454bf3cb4ce79235aee4b1da8bf8c14c5adadf31b486a9": "Exposome analyses across 34 countries showed that social exposures are associated with faster functional brain aging, while physical exposures are associated with faster structural brain aging.",
+          "cddfa264df87144627422deebb58ae2a28b46abd4a2c9ff7d65da7d09a62d886": "The authors propose target product profiles for therapies designed to delay or prevent the onset of clinical symptoms of Alzheimer's disease, aiming to accelerate development and provide clear benchmarks."
         }
       }
     },
@@ -4258,7 +4360,7 @@
         "8f296c7cef292fea92429f550198385e3c54a5ae1b2cd5afb3e30fe55f06406c",
         "aa3cdafd0dba17c48a37428ea067d63c9bd7b18c32106d10a63ff923bccfbe75"
       ],
-      "last_checked_at": "2026-04-04T03:51:37+00:00",
+      "last_checked_at": "2026-04-04T08:05:02+00:00",
       "feed_title": "Nature Methods",
       "pending_items": [
         {
@@ -4270,19 +4372,17 @@
           "sort_key": 1775260800.0,
           "source_kind": "feed",
           "text": "Nature Methods, Published online: 04 April 2026; doi:10.1038/s41592-026-03058-1 Deciphering the genomic regulatory code driving cell type-specific gene regulation has been a research quest for decades. We present CREsted, a software package that provides data-driven insights into the regulatory elements driving enhancer function in cell types from single-cell chromatin accessibility atlases in various tissues and species. Nature Methods, Published online: 04 April 2026; doi:10.1038/s41592-026-03058-1 Deciphering the genomic regulatory code driving cell type-specific gene regulation has been a research quest for decades. We present CREsted, a software package that provides data-driven insights into the regulatory elements driving enhancer function in cell types from single-cell chromatin accessibility atlases in various tissues and species. Nature Methods, Published online: 04 April 2026; doi:10.1038/s41592-026-03058-1 Deciphering the genomic regulatory code driving cell type-specific gene regulation has been a research quest for decades. We present CREsted, a software package that provides data-driven insights into the regulatory elements driving enhancer function in cell types from single-cell chromatin accessibility atlases in various tissues and species.",
-          "tldr": "The paper presents CREsted, a software package that models cis-regulatory logic of enhancers at large scale using single-cell chromatin accessibility data to analyze regulatory elements in cell types."
+          "tldr": "Nature Methods, Published online: 04 April 2026; doi:10.1038/s41592-026-03058-1 Deciphering the genomic regulatory code driving cell type-specific gene regulation has been a research quest for decades. We present CREsted, a software package that provides data…"
         }
       ],
       "site_url": "http://feeds.nature.com/nmeth/rss/current",
       "summary": {
-        "tldr": "This feed features a paper introducing CREsted, a software toolkit for large-scale modeling of cis-regulatory logic in enhancers. CREsted leverages single-cell chromatin accessibility atlases to provide data-driven insights into regulatory elements driving cell type-specific gene regulation. The approach aims to decipher the genomic regulatory code across various tissues and species.",
+        "tldr": "Nature Methods currently has 1 retained item(s) on the page. Key items include \"A toolkit for modeling cis -regulatory logic of enhancers at large scale\".",
         "highlights": [
-          "CREsted: toolkit for modeling enhancer cis-regulatory logic",
-          "Utilizes single-cell chromatin accessibility atlases",
-          "Applicable to multiple tissues and species"
+          "A toolkit for modeling cis -regulatory logic of enhancers at large scale"
         ],
         "item_tldrs": {
-          "8cf3f0c6c9b26f3f94f03ad12560859e4caf322c91ad5879b50d308e35cd6ee7": "The paper presents CREsted, a software package that models cis-regulatory logic of enhancers at large scale using single-cell chromatin accessibility data to analyze regulatory elements in cell types."
+          "8cf3f0c6c9b26f3f94f03ad12560859e4caf322c91ad5879b50d308e35cd6ee7": "Nature Methods, Published online: 04 April 2026; doi:10.1038/s41592-026-03058-1 Deciphering the genomic regulatory code driving cell type-specific gene regulation has been a research quest for decades. We present CREsted, a software package that provides data…"
         }
       }
     },
@@ -4300,7 +4400,7 @@
         "be9a45ac20993130f79686b6095625c05cd9178ce0661c85d25d9fe9cdc55658",
         "e26ab863643b49ad033bea7babd1d257d83e89e20a79248a7be8dbdae5598247"
       ],
-      "last_checked_at": "2026-04-04T03:51:53+00:00",
+      "last_checked_at": "2026-04-04T08:05:26+00:00",
       "feed_title": "Nature Microbiology",
       "pending_items": [
         {
@@ -4312,7 +4412,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "article",
           "text": "Abstract The ongoing census of microbial life is hampered by disparate sampling across Earth’s habitats, challenges in isolating uncultivated organisms, limited resolution in taxonomic marker gene amplicons and incomplete recovery of metagenome-assembled genomes. Here we quantify discoverable Bacterial and Archaeal diversity in a comprehensive, curated cross-habitat dataset of 92,187 publicly available metagenomes. Clustering 502 million sequences of 130 marker genes, we predict ~705,000 Bacterial and ~27,000 Archaeal species-level clades, the vast majority of which were hidden among unbinned contigs. We estimate that ten and 145 previously undescribed Archaeal and Bacterial phyla, respectively, are discoverable in this dataset. We identify soils and aquatic environments as hotspots of discoverable lineages, but predict that undescribed taxa remain abundant across all habitats. Finally, we show that prokaryotic diversity appears to arise within common evolutionary patterns, as clade size distributions follow power laws, consistently across the Tree of Life. Main Microbial life on Earth has deep evolutionary roots and is ubiquitous and abundant in extant ecosystems: prokaryotes (that is, Bacteria and Archaea) emerged more than 4 billion years ago1, have been detected in every environment on the planet and are estimated to account for ~1030 cells and 1016–1018 g of biomass2,3. This long history of evolution across a comprehensive ecological range is reflected in a great accumulated phylogenetic diversity, vastly exceeding that of multicellular life4. Yet, it remains unclear just how diverse extant Bacteria and Archaea really are, with extrapolations from abundance distributions of individual samples predicting anywhere between 106 and 1012 prokaryotic species worldwide5,6,7,8. Only a fraction of this diversity has been accounted for in existing data. Using 16S ribosomal RNA (rRNA) amplicon sequences, previous studies estimated the number of species-level operational taxonomic units (OTUs) in publicly available datasets to be 35,500 in 20049, 210,000 in 20148, 109,000 in 201610 and 740,000 in 20197. Based on rarefaction curves, tracking the number of newly discovered types (species) as more data (samples) are added to the survey, these analyses concluded that, at least in some habitats, the rate of species discovery was slowing down. Although 16S rRNA data continue to be more abundant in public repositories11, integrated surveys of prokaryotic diversity increasingly rely on isolate genomes and metagenome-assembled genomes (MAGs) to overcome some of the limitations of amplicon-based datasets (Supplementary Discussion). In metagenomic data, clade-level diversity is often defined based on sequence similarity in a subset of near-universal taxonomic marker genes12,13,14 or entire genomes15. For example, proGenomes3 (ref. 16) encompasses 41,171 species-level clusters of high-quality isolate genomes from the National Center for Biotechnology Information’s RefSeq and GenBank databases, whereas the Genome Taxonomy Database (GTDB) r226 delineates 143,614 species, combining isolate genomes and high-quality MAGs17. In addition, large-scale MAG catalogues continue to add to the census, reporting for example 4,644 species-level genomes in the human gut microbiome18, 8,300 species in the ocean19, 21,077 species in soils20, between 100 and 13,000 species for the various habitats in the MGnify Genomes collection21 or 18,000 species across the habitats represented in the IMG/M database22. We recently developed SPIRE23, which provides an integrated survey of microbial diversity across 99,146 manually annotated metagenomes from all sampled habitats on Earth, describing 107,068 species-level clusters, of which 92,134 are entirely based on MAGs (that is, lacking a cultivated representative). Such genome-centric surveys have greatly expanded the scope of study for microbial diversity, ecology and evolution, in particular for uncultivated taxa: in GTDB…",
-          "tldr": "A comprehensive metagenomic study quantifies discoverable bacterial and archaeal diversity, predicting approximately 705,000 bacterial and 27,000 archaeal species-level clades, largely from unbinned contigs, and shows clade size distributions follow power laws across the Tree of Life."
+          "tldr": "A comprehensive analysis of 92,187 metagenomes reveals that the vast majority of discoverable bacterial and archaeal species are hidden among unbinned contigs, predicting ~705,000 bacterial and ~27,000 archaeal species-level clades and identifying soils and aquatic environments as hotspots of undiscovered lineages."
         },
         {
           "id": "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d",
@@ -4323,7 +4423,7 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02293-8 The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with YokF functional homologues found across Gram-positive bacterial species.",
-          "tldr": "The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with functional homologues identified across Gram-positive bacterial species."
+          "tldr": "The YokF endonuclease in Bacillus subtilis provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes, with YokF functional homologues found across Gram-positive bacterial species."
         },
         {
           "id": "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0",
@@ -4334,21 +4434,21 @@
           "sort_key": 1775174400.0,
           "source_kind": "feed",
           "text": "Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity. Nature Microbiology, Published online: 03 April 2026; doi:10.1038/s41564-026-02317-3 Spatial transcriptomics and immunofluorescence microscopy of human samples and mouse models reveal that infection-driven cholesterol overload in granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity.",
-          "tldr": "Spatial transcriptomics and microscopy reveal that infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and compromises anti-tuberculosis immunity in human and mouse models."
+          "tldr": "Spatial transcriptomics and immunofluorescence microscopy of human and mouse samples show that infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity."
         }
       ],
       "site_url": "http://feeds.nature.com/nmicrobiol/rss/current",
       "summary": {
-        "tldr": "This digest features three recent papers from Nature Microbiology covering microbial diversity assessment, bacterial defense against horizontal gene transfer, and tuberculosis immune evasion. Each study employs advanced methodologies to reveal new insights in microbiology.",
+        "tldr": "This daily digest from Nature Microbiology presents three studies: one quantifying global microbial diversity through metagenomic analysis, another identifying a donor-controlled mechanism that inhibits plasmid transfer via nanotubes, and a third revealing how cholesterol accumulation in tuberculosis granulomas disrupts immune cell interactions and infection control.",
         "highlights": [
-          "Metagenomic analysis of 92,187 samples predicts hundreds of thousands of new microbial species from unbinned contigs, with diversity following power law distributions.",
-          "YokF endonuclease in Bacillus subtilis inhibits plasmid transfer via nanotubes, and homologues are widespread in Gram-positive bacteria.",
-          "Cholesterol accumulation in tuberculosis granulomas disrupts macrophage-CD4+ T cell interactions, impairing anti-tuberculosis immunity."
+          "Metagenomic analysis predicts hundreds of thousands of new bacterial and archaeal species, primarily hidden in unbinned contigs, with soils and aquatic environments as diversity hotspots.",
+          "YokF endonuclease blocks nanotube-mediated plasmid exchange in Bacillus subtilis, with functional homologues widespread in Gram-positive bacteria.",
+          "Infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity."
         ],
         "item_tldrs": {
-          "f743be72b76a6187d083fe48978d70525902d272ff456a4753280d2ede4c2fdc": "A comprehensive metagenomic study quantifies discoverable bacterial and archaeal diversity, predicting approximately 705,000 bacterial and 27,000 archaeal species-level clades, largely from unbinned contigs, and shows clade size distributions follow power laws across the Tree of Life.",
-          "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d": "The YokF endonuclease provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes in Bacillus subtilis, with functional homologues identified across Gram-positive bacterial species.",
-          "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0": "Spatial transcriptomics and microscopy reveal that infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage-CD4+ T cell interactions and compromises anti-tuberculosis immunity in human and mouse models."
+          "f743be72b76a6187d083fe48978d70525902d272ff456a4753280d2ede4c2fdc": "A comprehensive analysis of 92,187 metagenomes reveals that the vast majority of discoverable bacterial and archaeal species are hidden among unbinned contigs, predicting ~705,000 bacterial and ~27,000 archaeal species-level clades and identifying soils and aquatic environments as hotspots of undiscovered lineages.",
+          "48f4c2cde444402fef9b0166d3076cbc477a1d005883abe938cc83a22874764d": "The YokF endonuclease in Bacillus subtilis provides a donor-controlled mechanism to limit plasmid transfer to recipient bacteria via nanotubes, with YokF functional homologues found across Gram-positive bacterial species.",
+          "2838d10b401b77e09a95c451b1a0e5ff8d1f8b1dc15f56eefafbae6095a7a6e0": "Spatial transcriptomics and immunofluorescence microscopy of human and mouse samples show that infection-driven cholesterol overload in tuberculosis granulomas impairs macrophage–CD4+ T cell interactions and anti-tuberculosis immunity."
         }
       }
     },
@@ -4363,7 +4463,7 @@
         "765b22f0fdc3feab8a3b032ad93a87bc142f10eba25e74a4a3ca09f524ca8ced",
         "32498dbb40bd20dfe8978708fb62048e2cb31f2a6e3787a8c1321ba2311a48cb"
       ],
-      "last_checked_at": "2026-04-04T03:52:18+00:00",
+      "last_checked_at": "2026-04-04T08:05:59+00:00",
       "feed_title": "Nature Reviews Bioengineering",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/natrevbioeng/rss/current"
@@ -4379,7 +4479,7 @@
         "a0dd195561434d42f4d13c7b271b8b7e21c1df4cceca2e2ba26dff241baec305",
         "0e556561f6a3ec012ab066f6f1d621f2a2c9dac9e842858f0d374615564d5dd7"
       ],
-      "last_checked_at": "2026-04-04T03:52:18+00:00",
+      "last_checked_at": "2026-04-04T08:05:59+00:00",
       "feed_title": "Nature Reviews Genetics",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrg/rss/current"
@@ -4396,7 +4496,7 @@
         "a6f1101a6abfd40113cf06fbd8b7370094ff0ecad3a5a1c93ea073df61980388",
         "582deee3fc1b2317addd3a749a83a958c0ea0b9e15eae954b2f4455c6404b561"
       ],
-      "last_checked_at": "2026-04-04T03:52:18+00:00",
+      "last_checked_at": "2026-04-04T08:05:59+00:00",
       "feed_title": "Nature Reviews Microbiology",
       "pending_items": [],
       "site_url": "http://feeds.nature.com/nrmicro/rss/current"
@@ -4744,6 +4844,6 @@
       "site_url": "https://github.com/WillHua127"
     }
   },
-  "updated_at": "2026-04-04T03:47:21+00:00",
+  "updated_at": "2026-04-04T08:00:30+00:00",
   "feed_count": 17
 }
